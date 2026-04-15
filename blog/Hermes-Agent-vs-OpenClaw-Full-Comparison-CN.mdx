@@ -1,0 +1,780 @@
+---
+title: "Hermes Agent vs OpenClaw：全面对比"
+slug: Hermes-Agent-vs-OpenClaw-Full-Comparison-CN
+date: 2026-04-15
+tags: [ai-agent, hermes, openclaw, nous-research, comparison, security]
+authors: whereq
+---
+
+<style>{`
+.hoc-wrap {
+  --hermes: #58a6ff;
+  --hermes-bg: rgba(88,166,255,0.08);
+  --openclaw: #f85149;
+  --openclaw-bg: rgba(248,81,73,0.08);
+  --hoc-bg: #08090d;
+  --hoc-surface: #111318;
+  --hoc-surface2: #181c24;
+  --hoc-border: #262a35;
+  --hoc-text: #e8ecf4;
+  --hoc-dim: #7c849a;
+  --hoc-green: #3fb950;
+  --hoc-yellow: #d29922;
+  --hoc-purple: #bc8cff;
+  --hoc-cyan: #76e3ea;
+  background: var(--hoc-bg);
+  color: var(--hoc-text);
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  line-height: 1.8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+.hoc-wrap .hoc-page-title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 0 0.5rem;
+  letter-spacing: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  line-height: 1.2;
+}
+.hoc-wrap .hoc-page-title .hoc-side {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+.hoc-wrap .hoc-page-title .hoc-side img {
+  height: 0.85em;
+  width: auto;
+  flex-shrink: 0;
+}
+.hoc-wrap .hoc-page-title .hoc-vs {
+  font-size: 0.5em;
+  font-weight: 400;
+  color: var(--hoc-dim);
+}
+.hoc-wrap .hoc-icon {
+  height: 1.1em;
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 3px;
+}
+.hoc-wrap h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--hoc-border);
+  color: var(--hoc-text);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.hoc-wrap h3 {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.75rem;
+  color: var(--hoc-cyan);
+}
+.hoc-wrap p { color: var(--hoc-text); font-size: 0.95rem; margin-bottom: 1rem; }
+.hoc-wrap ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+.hoc-wrap li { margin-bottom: 0.4rem; color: var(--hoc-text); font-size: 0.95rem; }
+.hoc-wrap .hoc-num {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: var(--hoc-dim);
+  background: var(--hoc-surface2);
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+.hoc-wrap .hoc-subtitle {
+  text-align: center;
+  color: var(--hoc-dim);
+  margin-bottom: 3rem;
+  font-size: 1rem;
+}
+.hoc-wrap .win-h, .hoc-wrap .win-o, .hoc-wrap .win-tie {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+  letter-spacing: 0.3px;
+}
+.hoc-wrap .win-h { background: var(--hermes-bg); color: var(--hermes); border: 1px solid rgba(88,166,255,0.25); }
+.hoc-wrap .win-o { background: var(--openclaw-bg); color: var(--openclaw); border: 1px solid rgba(248,81,73,0.25); }
+.hoc-wrap .win-tie { background: rgba(209,153,34,0.1); color: var(--hoc-yellow); border: 1px solid rgba(209,153,34,0.25); }
+.hoc-wrap .ctable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+}
+.hoc-wrap .ctable th, .hoc-wrap .ctable td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--hoc-border);
+  text-align: left;
+  vertical-align: top;
+}
+.hoc-wrap .ctable th {
+  background: var(--hoc-surface2);
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--hoc-text);
+}
+.hoc-wrap .ctable th:nth-child(2) { color: var(--hermes); }
+.hoc-wrap .ctable th:nth-child(3) { color: var(--openclaw); }
+.hoc-wrap .ctable td:first-child {
+  font-weight: 500;
+  color: var(--hoc-dim);
+  white-space: nowrap;
+  min-width: 120px;
+}
+.hoc-wrap .ctable tr:nth-child(even) { background: var(--hoc-surface); }
+.hoc-wrap .ctable td { color: var(--hoc-text); }
+.hoc-wrap code {
+  font-family: monospace;
+  background: var(--hoc-surface2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: var(--hoc-cyan);
+}
+.hoc-wrap .hoc-card {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+.hoc-wrap .hoc-card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+.hoc-wrap .svg-wrap {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+.hoc-wrap .svg-wrap svg { max-width: 100%; height: auto; }
+.hoc-wrap .caption {
+  text-align: center;
+  color: var(--hoc-dim);
+  font-size: 0.8rem;
+  font-family: monospace;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+.hoc-wrap .hoc-verdict {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+@media (max-width: 700px) { .hoc-wrap .hoc-verdict { grid-template-columns: 1fr; } }
+.hoc-wrap .verdict-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 2px solid;
+}
+.hoc-wrap .verdict-card.hermes { border-color: var(--hermes); background: var(--hermes-bg); }
+.hoc-wrap .verdict-card.openclaw { border-color: var(--openclaw); background: var(--openclaw-bg); }
+.hoc-wrap .verdict-card h3 { margin-top: 0; }
+.hoc-wrap .hoc-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.hoc-wrap .hoc-stat {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+.hoc-wrap .hoc-stat .snum { font-size: 1.8rem; font-weight: 700; }
+.hoc-wrap .hoc-stat .slabel { font-size: 0.75rem; color: var(--hoc-dim); margin-top: 0.25rem; }
+.hoc-wrap .hoc-toc {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 0 auto 3rem;
+  max-width: 700px;
+  columns: 2;
+  column-gap: 2rem;
+}
+@media (max-width: 600px) { .hoc-wrap .hoc-toc { columns: 1; } }
+.hoc-wrap .hoc-toc a { color: var(--hoc-text); text-decoration: none; font-size: 0.9rem; display: block; padding: 0.2rem 0; }
+.hoc-wrap .hoc-toc a:hover { color: var(--hermes); }
+.hoc-wrap .hoc-toc .n { color: var(--hoc-dim); font-family: monospace; font-size: 0.8rem; margin-right: 0.5rem; }
+.hoc-wrap .hoc-footer { text-align: center; color: var(--hoc-dim); padding: 2rem 0; font-size: 0.8rem; border-top: 1px solid var(--hoc-border); margin-top: 3rem; }
+.hoc-wrap .hoc-sources { margin-top: 0.75rem; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.4rem; }
+.hoc-wrap .hoc-sources-label { font-weight: 600; color: var(--hoc-text); margin-right: 0.25rem; }
+.hoc-wrap .hoc-sources a { color: var(--ifm-color-primary); text-decoration: none; }
+.hoc-wrap .hoc-sources a:hover { text-decoration: underline; }
+.hoc-wrap .hoc-sep { color: var(--hoc-border); }
+`}</style>
+
+<div className="hoc-wrap">
+
+<div className="hoc-page-title">
+  <span className="hoc-side" style={{color:'var(--hermes)'}}>
+    <img src="/img/hermes-agent-touch-icon.png" alt="Hermes Agent" />
+    Hermes
+  </span>
+  <span className="hoc-vs">vs</span>
+  <span className="hoc-side" style={{color:'var(--openclaw)'}}>🦞 OpenClaw</span>
+</div>
+
+<p className="hoc-subtitle">
+  从所有维度进行全面深度对比 — 架构、安全、记忆、技能、平台、成本等<br />
+  更新于 2026 年 4 月
+</p>
+
+<div className="hoc-toc">
+  <a href="#s1"><span className="n">01</span> 起源与哲学</a>
+  <a href="#s2"><span className="n">02</span> 架构设计</a>
+  <a href="#s3"><span className="n">03</span> 学习与自我进化</a>
+  <a href="#s4"><span className="n">04</span> 记忆系统</a>
+  <a href="#s5"><span className="n">05</span> 技能生态</a>
+  <a href="#s6"><span className="n">06</span> 消息平台支持</a>
+  <a href="#s7"><span className="n">07</span> 模型支持</a>
+  <a href="#s8"><span className="n">08</span> 安全性</a>
+  <a href="#s9"><span className="n">09</span> 部署与基础设施</a>
+  <a href="#s10"><span className="n">10</span> 开发者体验</a>
+  <a href="#s11"><span className="n">11</span> 成本分析</a>
+  <a href="#s12"><span className="n">12</span> 社区与生态</a>
+  <a href="#s13"><span className="n">13</span> 企业与团队使用</a>
+  <a href="#s14"><span className="n">14</span> 研究能力</a>
+  <a href="#s15"><span className="n">15</span> 迁移路径</a>
+  <a href="#s16"><span className="n">16</span> 最终结论</a>
+</div>
+
+<section id="s1">
+<h2><span className="hoc-num">01</span> 起源与哲学</h2>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 250" xmlns="http://www.w3.org/2000/svg" fontFamily="Noto Sans SC, sans-serif">
+  <rect width="860" height="250" rx="8" fill="#08090d"/>
+  <rect x="20" y="20" width="400" height="210" rx="10" fill="#111318" stroke="#58a6ff" strokeWidth="2"/>
+  <image href="/img/hermes-agent-icon.png" x="155" y="33" width="18" height="18"/>
+  <text x="230" y="50" textAnchor="middle" fill="#58a6ff" fontSize="16" fontWeight="700">Hermes Agent</text>
+  <text x="40" y="80" fill="#7c849a" fontSize="11">创建者：Nous Research</text>
+  <text x="40" y="100" fill="#7c849a" fontSize="11">发布时间：2026 年 2 月</text>
+  <text x="40" y="120" fill="#7c849a" fontSize="11">语言：Python</text>
+  <text x="40" y="140" fill="#7c849a" fontSize="11">许可证：MIT</text>
+  <text x="40" y="165" fill="#e8ecf4" fontSize="12" fontWeight="600">设计哲学：</text>
+  <text x="40" y="185" fill="#58a6ff" fontSize="13" fontWeight="700">"学习最大化"</text>
+  <text x="40" y="205" fill="#7c849a" fontSize="10">通过自我进化技能、深度记忆、</text>
+  <text x="40" y="220" fill="#7c849a" fontSize="10">持续学习让智能体随时间变得更强</text>
+  <rect x="440" y="20" width="400" height="210" rx="10" fill="#111318" stroke="#f85149" strokeWidth="2"/>
+  <text x="640" y="50" textAnchor="middle" fill="#f85149" fontSize="16" fontWeight="700">🦞 OpenClaw</text>
+  <text x="460" y="80" fill="#7c849a" fontSize="11">创建者：Peter Steinberger</text>
+  <text x="460" y="100" fill="#7c849a" fontSize="11">发布时间：2025 年 11 月（Clawdbot）</text>
+  <text x="460" y="120" fill="#7c849a" fontSize="11">语言：Node.js（TypeScript）</text>
+  <text x="460" y="140" fill="#7c849a" fontSize="11">许可证：MIT</text>
+  <text x="460" y="165" fill="#e8ecf4" fontSize="12" fontWeight="600">设计哲学：</text>
+  <text x="460" y="185" fill="#f85149" fontSize="13" fontWeight="700">"连接最大化"</text>
+  <text x="460" y="205" fill="#7c849a" fontSize="10">连接一切、无处不在，最大化平台覆盖、</text>
+  <text x="460" y="220" fill="#7c849a" fontSize="10">广泛生态、社区技能</text>
+</svg>
+</div>
+<div className="caption">图 1：两种截然不同的理念 — Hermes 押注认知深度，OpenClaw 押注连接广度。</div>
+
+<p>OpenClaw 定义了个人 AI 智能体品类。最初名为 Clawdbot（2025 年 11 月），因商标问题先后改名为 Moltbot 和 OpenClaw。创始人 Peter Steinberger 于 2026 年 2 月加入 OpenAI，项目转由非营利基金会社区治理。</p>
+<p>Hermes Agent 两个月后由 Nous Research 发布 — 该实验室是 Hermes、Nomos、Psyche 模型家族的创造者。OpenClaw 优化的是连接尽可能多的平台和工具，而 Hermes 优化的是深度：让智能体通过使用真正学习和进化。</p>
+</section>
+
+<section id="s2">
+<h2><span className="hoc-num">02</span> 架构设计</h2>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 320" xmlns="http://www.w3.org/2000/svg" fontFamily="Noto Sans SC, sans-serif">
+  <rect width="860" height="320" rx="8" fill="#08090d"/>
+  <text x="430" y="28" textAnchor="middle" fill="#e8ecf4" fontSize="14" fontWeight="700">架构核心对比</text>
+  <rect x="20" y="45" width="400" height="255" rx="10" fill="#111318" stroke="#58a6ff" strokeWidth="1.5"/>
+  <text x="220" y="70" textAnchor="middle" fill="#58a6ff" fontSize="13" fontWeight="700">Hermes：Agent 循环 = 核心</text>
+  <rect x="100" y="85" width="240" height="40" rx="6" fill="#181c24" stroke="#58a6ff"/>
+  <text x="220" y="110" textAnchor="middle" fill="#58a6ff" fontSize="11" fontWeight="600">AIAgent (run_agent.py)</text>
+  <line x1="220" y1="125" x2="220" y2="145" stroke="#58a6ff" strokeWidth="1.5"/>
+  <rect x="40" y="145" width="120" height="30" rx="4" fill="#181c24" stroke="#3fb950"/>
+  <text x="100" y="165" textAnchor="middle" fill="#3fb950" fontSize="10">记忆层</text>
+  <rect x="175" y="145" width="100" height="30" rx="4" fill="#181c24" stroke="#bc8cff"/>
+  <text x="225" y="165" textAnchor="middle" fill="#bc8cff" fontSize="10">技能</text>
+  <rect x="290" y="145" width="100" height="30" rx="4" fill="#181c24" stroke="#d29922"/>
+  <text x="340" y="165" textAnchor="middle" fill="#d29922" fontSize="10">工具</text>
+  <rect x="100" y="195" width="240" height="30" rx="4" fill="#181c24" stroke="#7c849a"/>
+  <text x="220" y="215" textAnchor="middle" fill="#7c849a" fontSize="10">网关（可选，扇出分发）</text>
+  <text x="40" y="250" fill="#7c849a" fontSize="10">• 同步编排引擎</text>
+  <text x="40" y="268" fill="#7c849a" fontSize="10">• 网关是外围组件，不是核心</text>
+  <text x="40" y="286" fill="#7c849a" fontSize="10">• 学习循环嵌入 Agent 周期</text>
+  <rect x="440" y="45" width="400" height="255" rx="10" fill="#111318" stroke="#f85149" strokeWidth="1.5"/>
+  <text x="640" y="70" textAnchor="middle" fill="#f85149" fontSize="13" fontWeight="700">OpenClaw：Gateway = 核心</text>
+  <rect x="520" y="85" width="240" height="40" rx="6" fill="#181c24" stroke="#f85149"/>
+  <text x="640" y="110" textAnchor="middle" fill="#f85149" fontSize="11" fontWeight="600">Gateway（控制平面）</text>
+  <line x1="640" y1="125" x2="640" y2="145" stroke="#f85149" strokeWidth="1.5"/>
+  <rect x="460" y="145" width="110" height="30" rx="4" fill="#181c24" stroke="#d29922"/>
+  <text x="515" y="165" textAnchor="middle" fill="#d29922" fontSize="10">会话路由</text>
+  <rect x="585" y="145" width="100" height="30" rx="4" fill="#181c24" stroke="#bc8cff"/>
+  <text x="635" y="165" textAnchor="middle" fill="#bc8cff" fontSize="10">频道</text>
+  <rect x="700" y="145" width="110" height="30" rx="4" fill="#181c24" stroke="#3fb950"/>
+  <text x="755" y="165" textAnchor="middle" fill="#3fb950" fontSize="10">Pi Agent</text>
+  <rect x="520" y="195" width="240" height="30" rx="4" fill="#181c24" stroke="#7c849a"/>
+  <text x="640" y="215" textAnchor="middle" fill="#7c849a" fontSize="10">WebSocket ws://127.0.0.1:18789</text>
+  <text x="460" y="250" fill="#7c849a" fontSize="10">• Gateway 是"神经系统"</text>
+  <text x="460" y="268" fill="#7c849a" fontSize="10">• 所有消息通过 Gateway 流转</text>
+  <text x="460" y="286" fill="#7c849a" fontSize="10">• Agent 运行时是 Gateway 子系统</text>
+</svg>
+</div>
+<div className="caption">图 2：Hermes 以 Agent 循环为中心；OpenClaw 以 Gateway 控制平面为中心。</div>
+
+<table className="ctable">
+<thead>
+<tr><th>维度</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>核心</td><td>AIAgent 循环（Python，约 9,200 行）</td><td>Gateway 控制平面（Node.js/TS）</td></tr>
+<tr><td>入口</td><td><code>hermes</code>（CLI）+ <code>hermes gateway</code></td><td><code>openclaw</code> CLI + Gateway 守护进程</td></tr>
+<tr><td>状态存储</td><td>SQLite + FTS5 + 扁平文件</td><td>JSON 配置 + 工作区文件</td></tr>
+<tr><td>协议</td><td>直接 LLM API 调用</td><td>WebSocket 控制平面</td></tr>
+<tr><td>插件模型</td><td>Python 工具 + MCP 服务器</td><td>Node.js 技能 + ClawHub 注册表</td></tr>
+<tr><td>技术栈</td><td>Python</td><td>Node.js / TypeScript</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s3">
+<h2><span className="hoc-num">03</span> 学习与自我进化 <span className="win-h">HERMES 胜出</span></h2>
+
+<p>这是最大的差异化特性。Hermes 拥有其他智能体框架无法复制的闭环学习循环。OpenClaw 的技能是静态的 — 你写了它们，除非手动更新，否则永远不变。</p>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg" fontFamily="Noto Sans SC, sans-serif">
+  <rect width="860" height="200" rx="8" fill="#08090d"/>
+  <defs>
+    <marker id="a1" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0,7 2.5,0 5" fill="#7c849a"/>
+    </marker>
+  </defs>
+  <text x="215" y="25" textAnchor="middle" fill="#58a6ff" fontSize="13" fontWeight="700">Hermes：闭环学习循环</text>
+  <rect x="40" y="40" width="130" height="45" rx="6" fill="#181c24" stroke="#58a6ff"/>
+  <text x="105" y="68" textAnchor="middle" fill="#58a6ff" fontSize="10">执行任务</text>
+  <rect x="195" y="40" width="130" height="45" rx="6" fill="#181c24" stroke="#3fb950"/>
+  <text x="260" y="68" textAnchor="middle" fill="#3fb950" fontSize="10">评估结果</text>
+  <rect x="40" y="110" width="130" height="45" rx="6" fill="#181c24" stroke="#d29922"/>
+  <text x="105" y="138" textAnchor="middle" fill="#d29922" fontSize="10">更新记忆</text>
+  <rect x="195" y="110" width="130" height="45" rx="6" fill="#181c24" stroke="#bc8cff"/>
+  <text x="260" y="138" textAnchor="middle" fill="#bc8cff" fontSize="10">创建/改进技能</text>
+  <line x1="170" y1="62" x2="195" y2="62" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <line x1="295" y1="85" x2="295" y2="110" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <line x1="195" y1="132" x2="170" y2="132" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <line x1="72" y1="110" x2="72" y2="85" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <text x="182" y="100" textAnchor="middle" fill="#3fb950" fontSize="20">↻</text>
+  <text x="40" y="180" fill="#7c849a" fontSize="10">自主 • 持续 • 复利效应</text>
+  <text x="640" y="25" textAnchor="middle" fill="#f85149" fontSize="13" fontWeight="700">OpenClaw：静态技能</text>
+  <rect x="500" y="50" width="130" height="45" rx="6" fill="#181c24" stroke="#f85149"/>
+  <text x="565" y="78" textAnchor="middle" fill="#f85149" fontSize="10">人工编写技能</text>
+  <line x1="630" y1="72" x2="660" y2="72" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <rect x="660" y="50" width="140" height="45" rx="6" fill="#181c24" stroke="#d29922"/>
+  <text x="730" y="78" textAnchor="middle" fill="#d29922" fontSize="10">Agent 使用技能</text>
+  <text x="730" y="120" textAnchor="middle" fill="#7c849a" fontSize="11">技能永远不变</text>
+  <text x="730" y="138" textAnchor="middle" fill="#7c849a" fontSize="11">除非人工编辑</text>
+  <text x="500" y="180" fill="#7c849a" fontSize="10">手动 • 静态 • 无复利效应</text>
+</svg>
+</div>
+<div className="caption">图 3：Hermes 自主创建并改进技能；OpenClaw 完全依赖人工编写的静态技能。</div>
+
+<table className="ctable">
+<thead>
+<tr><th>能力</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>技能创建</td><td>复杂任务后自主创建（5+ 工具调用）</td><td>仅手动（人工编写 SKILL.md）</td></tr>
+<tr><td>技能改进</td><td>使用过程中自我改进</td><td>无（静态文件）</td></tr>
+<tr><td>用户建模</td><td>Honcho 辩证建模，跨会话积累</td><td>SOUL.md 静态身份文件</td></tr>
+<tr><td>周期性提示</td><td>提示 Agent 反思并持久化有用信息</td><td>无等效机制</td></tr>
+<tr><td>跨会话召回</td><td>FTS5 搜索 + LLM 摘要</td><td>按助手持久记忆</td></tr>
+<tr><td>实测改进</td><td>重复任务速度提升 40%</td><td>无复利效果</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s4">
+<h2><span className="hoc-num">04</span> 记忆系统 <span className="win-h">HERMES 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>层级</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>持久事实</td><td>MEMORY.md（约 2,200 字符，会话开始冻结）</td><td>按助手存储记忆</td></tr>
+<tr><td>用户画像</td><td>USER.md（偏好、风格）</td><td>SOUL.md（身份和人格）</td></tr>
+<tr><td>程序性知识</td><td>技能库（自动创建、可搜索）</td><td>技能（人工编写、静态）</td></tr>
+<tr><td>情景记忆</td><td>SQLite + FTS5 全文搜索，无限量</td><td>按助手的会话持久化</td></tr>
+<tr><td>摘要</td><td>LLM 驱动的历史会话摘要</td><td>无等效功能</td></tr>
+<tr><td>外部提供商</td><td>7 个可插拔提供商（Hindsight、PLUR 等）</td><td>无可插拔记忆系统</td></tr>
+<tr><td>上下文压缩</td><td>有损摘要引擎（可插拔）</td><td>通过 Gateway 管理上下文</td></tr>
+<tr><td>提示词缓存</td><td>Anthropic 前缀缓存，冻结快照</td><td>特定提供商缓存</td></tr>
+<tr><td>团队共享</td><td>PLUR 记忆碎片跨实例共享</td><td>按助手隔离（内置）</td></tr>
+</tbody>
+</table>
+
+<p>Hermes 将记忆视为分层系统：始终在上下文中的事实、按需加载的程序性技能、可搜索的情景历史。OpenClaw 的记忆更简单但对团队隔离有效 — 每个助手有自己独立的存储，防止多代理设置中的交叉污染。</p>
+</section>
+
+<section id="s5">
+<h2><span className="hoc-num">05</span> 技能生态 <span className="win-o">OPENCLAW 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>维度</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>技能总数</td><td>70+ 内置，社区增长中</td><td>ClawHub 13,700+（报称 44K）</td></tr>
+<tr><td>技能格式</td><td>agentskills.io 开放标准（Markdown）</td><td>自定义 SKILL.md 格式（Markdown + 脚本）</td></tr>
+<tr><td>技能来源</td><td>Agent 自动创建 + 社区 + Skills Hub</td><td>人工编写 + ClawHub 市场</td></tr>
+<tr><td>加载方式</td><td>渐进式披露（L0/L1/L2）</td><td>启动时加载</td></tr>
+<tr><td>自我改进</td><td>技能在使用中演化</td><td>写完就是静态的</td></tr>
+<tr><td>供应链风险</td><td>Tirith 预扫描 + 第三方需 --force</td><td>高 — 发现 1,467+ 恶意技能（ClawHavoc）</td></tr>
+<tr><td>审查</td><td>扫描判定默认阻止危险技能</td><td>VirusTotal 扫描（危机后添加），早期审查极少</td></tr>
+</tbody>
+</table>
+
+<p>OpenClaw 的生态系统在绝对数量上远超 Hermes。ClawHub 有数千个社区技能，覆盖从 Gmail 到 Kubernetes 的各种场景。但这种规模带来了严重的安全代价 — ClawHavoc 供应链攻击和 1,467+ 确认的恶意技能代表严重的信任问题。Hermes 用广度换安全：更少的技能，但有预执行扫描和更安全的默认姿态。</p>
+</section>
+
+<section id="s6">
+<h2><span className="hoc-num">06</span> 消息平台支持 <span className="win-o">OPENCLAW 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>平台</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes（15+）</th><th>🦞 OpenClaw（25+）</th></tr>
+</thead>
+<tbody>
+<tr><td>核心平台</td><td>Telegram、Discord、Slack、WhatsApp、Signal</td><td>Telegram、Discord、Slack、WhatsApp、Signal</td></tr>
+<tr><td>企业通讯</td><td>企业微信 (WeCom)、钉钉、飞书</td><td>企业微信、飞书、Microsoft Teams、Google Chat</td></tr>
+<tr><td>中国生态</td><td>企业微信、微信（HermesClaw 桥接）、钉钉、飞书</td><td>微信（官方腾讯插件）、飞书</td></tr>
+<tr><td>日韩东南亚</td><td>无</td><td>LINE、Zalo、Zalo Personal</td></tr>
+<tr><td>开源/极客</td><td>Matrix、Mattermost</td><td>Matrix、Mattermost、IRC、Nostr、Tlon、Twitch</td></tr>
+<tr><td>苹果生态</td><td>BlueBubbles (iMessage)</td><td>BlueBubbles + iMessage (legacy) + macOS App</td></tr>
+<tr><td>物联网</td><td>Home Assistant</td><td>Synology Chat、Nextcloud Talk</td></tr>
+<tr><td>邮件/短信</td><td>Email (IMAP/SMTP)、SMS (Twilio)</td><td>WebChat（内置）</td></tr>
+<tr><td>原生应用</td><td>无</td><td>macOS 菜单栏、iOS App、Android App</td></tr>
+<tr><td>跨平台连续性</td><td>语义上下文恢复（核心优势）</td><td>基于 Gateway 的会话持久化</td></tr>
+</tbody>
+</table>
+
+<p>OpenClaw 支持 LINE、Google Chat、Microsoft Teams、IRC、Twitch、Nostr、Zalo 以及原生 iOS/Android/macOS 配套应用 — Hermes 目前均不支持。Hermes 的优势在于跨平台对话连续性（语义上下文恢复）和更深的单平台集成（Discord 语音频道、Telegram Webhook 模式、企业微信 WebSocket）。</p>
+</section>
+
+<section id="s7">
+<h2><span className="hoc-num">07</span> 模型支持 <span className="win-h">HERMES 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>维度</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>提供商数量</td><td>18+ 内置提供商</td><td>主要提供商（Claude、GPT、Gemini、Groq、Mistral、xAI）</td></tr>
+<tr><td>OpenRouter</td><td>200+ 模型统一计费</td><td>支持</td></tr>
+<tr><td>本地模型</td><td>Ollama、vLLM、SGLang、llama.cpp</td><td>Ollama + 自定义端点</td></tr>
+<tr><td>中国提供商</td><td>MiniMax、Kimi/月之暗面、智谱 GLM、DashScope、小米 MiMo</td><td>有限支持</td></tr>
+<tr><td>MiniMax</td><td>一流合作伙伴（M2.7 直接集成）</td><td>通过 OpenRouter</td></tr>
+<tr><td>切换</td><td><code>hermes model</code> — 零代码更改</td><td>编辑配置文件 + 重启</td></tr>
+<tr><td>故障转移</td><td>错误时自动切换备用模型（会话内）</td><td>无自动故障转移</td></tr>
+<tr><td>每代理路由</td><td>单模型 + 备用</td><td>不同代理可用不同模型</td></tr>
+<tr><td>最低上下文</td><td>要求 64K tokens</td><td>无强制最低要求</td></tr>
+<tr><td>辅助 LLM</td><td>独立模型用于视觉、摘要</td><td>使用主模型</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s8">
+<h2><span className="hoc-num">08</span> 安全性 <span className="win-h">HERMES 胜出</span></h2>
+
+<p>这是对比中最触目惊心的部分。OpenClaw 经历了 2026 年最严重的 AI 安全危机之一。</p>
+
+<div className="hoc-stats">
+  <div className="hoc-stat"><div className="snum" style={{color:'#58a6ff'}}>0</div><div className="slabel">Hermes Agent CVE 数</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>138+</div><div className="slabel">OpenClaw 已追踪 CVE</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>9.9</div><div className="slabel">最高 CVSS 评分 (OpenClaw)</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>1,467</div><div className="slabel">ClawHub 恶意技能</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>42K+</div><div className="slabel">暴露的 OpenClaw 实例</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>63%</div><div className="slabel">未启用认证</div></div>
+</div>
+
+<table className="ctable">
+<thead>
+<tr><th>安全维度</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>CVE 数量</td><td>0 个智能体特定 CVE</td><td>138+ 已追踪（7 个严重，49 个高危）</td></tr>
+<tr><td>最严重 CVE</td><td>无</td><td>CVE-2026-32922（CVSS 9.9）— 权限提升</td></tr>
+<tr><td>供应链</td><td>Tirith 预执行扫描，第三方需 --force</td><td>ClawHavoc：1,467+ 恶意技能，AMOS 窃取器分发</td></tr>
+<tr><td>默认绑定</td><td>安全默认值</td><td>早期版本绑定到 0.0.0.0（所有网络接口）</td></tr>
+<tr><td>认证默认</td><td>需要允许列表/配对</td><td>部分版本无认证运行</td></tr>
+<tr><td>容器加固</td><td>只读根 FS、丢弃 caps、命名空间隔离（默认）</td><td>可选 Docker 沙箱</td></tr>
+<tr><td>文件系统保护</td><td>自动检查点 + 回滚</td><td>基于工作区的隔离</td></tr>
+<tr><td>命令扫描</td><td>Tirith 预执行扫描器</td><td>Exec 审批系统（CVE 后添加）</td></tr>
+<tr><td>记忆注入</td><td>条目扫描威胁模式</td><td>无等效扫描</td></tr>
+<tr><td>遥测</td><td>零 — 架构级设计</td><td>零 — 本地优先设计</td></tr>
+<tr><td>政府警告</td><td>无</td><td>中国、比利时、韩国发布限制令</td></tr>
+</tbody>
+</table>
+
+<p>重要背景：Hermes 更年轻，攻击面更小（64K vs 345K Stars）。它还没有经受同等级别的审查。但其安全优先的架构决策 — Docker 加固作为默认而非选项、第三方技能强制预扫描、记忆注入扫描 — 代表了一种从根本上更注重安全的设计。</p>
+</section>
+
+<section id="s9">
+<h2><span className="hoc-num">09</span> 部署与基础设施 <span className="win-h">HERMES 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>维度</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>终端后端</td><td>6 种：Local、Docker、SSH、Daytona、Singularity、Modal</td><td>Local、Docker</td></tr>
+<tr><td>Serverless</td><td>Daytona + Modal（空闲近零成本）</td><td>无原生 Serverless</td></tr>
+<tr><td>安装</td><td>一行 <code>curl</code> 脚本</td><td><code>npm install -g openclaw</code>（需 Node.js 22+）</td></tr>
+<tr><td>OS 支持</td><td>Linux、macOS、WSL2、Termux (Android)</td><td>Linux、macOS、Windows（原生）</td></tr>
+<tr><td>Windows 原生</td><td>不支持（仅 WSL2）</td><td>原生支持</td></tr>
+<tr><td>HPC 集群</td><td>Singularity/Apptainer 支持</td><td>无 HPC 支持</td></tr>
+<tr><td>托管服务</td><td>社区提供商涌现中</td><td>DigitalOcean 一键部署（&#36;24/月）、OpenClaw VPS、OneClaw</td></tr>
+<tr><td>服务安装</td><td><code>hermes gateway install</code>（systemd/launchd）</td><td>Systemd / LaunchAgent</td></tr>
+<tr><td>配套应用</td><td>仅 CLI（ACP 用于编辑器）</td><td>macOS 菜单栏、iOS App、Android App</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s10">
+<h2><span className="hoc-num">10</span> 开发者体验 <span className="win-tie">平手</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>功能</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>CLI/TUI</td><td>完整 TUI，多行编辑、自动补全、流式传输</td><td>CLI + 引导向导</td></tr>
+<tr><td>斜杠命令</td><td>CLI 和网关共享</td><td>跨频道共享</td></tr>
+<tr><td>MCP 支持</td><td>原生（stdio + HTTP、重连、采样）</td><td>原生 MCP 支持</td></tr>
+<tr><td>IDE 集成</td><td>ACP 服务器（VS Code、Zed、JetBrains）</td><td>无原生 IDE 集成</td></tr>
+<tr><td>浏览器控制</td><td>网页搜索 + 浏览器自动化 + 视觉</td><td>CDP 浏览器控制（Chrome/Chromium）</td></tr>
+<tr><td>语音模式</td><td>CLI 麦克风、TTS 回复、Discord 语音频道</td><td>Voice Wake、推说话、Talk Mode 浮层</td></tr>
+<tr><td>编程 API</td><td><code>from run_agent import AIAgent</code></td><td>WebSocket API + REST 端点</td></tr>
+<tr><td>配置文件</td><td><code>hermes profile create</code> — 隔离环境</td><td>通过 Gateway 多代理路由</td></tr>
+<tr><td>诊断</td><td><code>hermes doctor</code></td><td><code>openclaw doctor</code></td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s11">
+<h2><span className="hoc-num">11</span> 成本分析 <span className="win-h">HERMES 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>组成</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>框架</td><td>&#36;0（MIT）</td><td>&#36;0（MIT）</td></tr>
+<tr><td>托管</td><td>&#36;5/月 VPS 或约 &#36;0 Serverless（Modal/Daytona）</td><td>&#36;5/月 VPS 或 &#36;24/月 托管（DigitalOcean）</td></tr>
+<tr><td>LLM API</td><td>&#36;15–80/月 典型</td><td>&#36;15–80/月 典型</td></tr>
+<tr><td>每次调用开销</td><td>约 73% 固定开销（工具定义）</td><td>类似开销比例</td></tr>
+<tr><td>空闲成本</td><td>Modal/Daytona 休眠约 &#36;0</td><td>全额 VPS 费用，即使空闲</td></tr>
+<tr><td>典型总计</td><td>&#36;10–25/月（个人）</td><td>&#36;20–40/月（个人，无托管）</td></tr>
+</tbody>
+</table>
+
+<p>Hermes 的 Serverless 后端（Modal、Daytona）对于不需要 24/7 运行智能体的用户来说具有显著成本优势。如果你的智能体每天运行 8 小时，你只为 8 小时付费，而不是 24 小时。</p>
+</section>
+
+<section id="s12">
+<h2><span className="hoc-num">12</span> 社区与生态 <span className="win-o">OPENCLAW 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>指标</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub Stars</td><td>64K+（2 个月）</td><td>345K+（5 个月）</td></tr>
+<tr><td>贡献者</td><td>142+</td><td>数千</td></tr>
+<tr><td>技能市场</td><td>Skills Hub（增长中）</td><td>ClawHub（13,700+ 技能）</td></tr>
+<tr><td>企业支持</td><td>无（仅社区）</td><td>NVIDIA NemoClaw 合作</td></tr>
+<tr><td>YouTube 内容</td><td>增长中</td><td>大量教程和评测</td></tr>
+<tr><td>治理</td><td>Nous Research（活跃实验室）</td><td>非营利基金会（创始人已加入 OpenAI）</td></tr>
+<tr><td>增长轨迹</td><td>v0.8.0 后单日 6,400+ Stars</td><td>初始病毒式传播 72 小时 60K+ Stars</td></tr>
+</tbody>
+</table>
+
+<p>OpenClaw 的社区是 AI 智能体领域最大的。大量的教程、第三方托管提供商、技能和集成形成了网络效应。但 Hermes 的增长速度表明它可能在一年内挑战 OpenClaw — 尤其是随着开发者因安全问题而迁移。</p>
+</section>
+
+<section id="s13">
+<h2><span className="hoc-num">13</span> 企业与团队使用 <span className="win-o">OPENCLAW 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>功能</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>多代理</td><td>子代理并行工作</td><td>Gateway 多代理路由（按工作区隔离）</td></tr>
+<tr><td>团队聊天</td><td>共享 Discord/Slack 频道</td><td>Gateway 路由到按频道/账户隔离的代理</td></tr>
+<tr><td>数据隔离</td><td>按 Profile 隔离</td><td>按助手隔离存储（内置）</td></tr>
+<tr><td>NVIDIA 支持</td><td>无</td><td>NemoClaw 合作</td></tr>
+<tr><td>托管服务</td><td>社区提供商</td><td>DigitalOcean、OpenClaw VPS、多个托管方</td></tr>
+<tr><td>配套应用</td><td>无</td><td>macOS、iOS、Android 配套应用</td></tr>
+<tr><td>可视化工作区</td><td>无</td><td>Live Canvas（代理驱动的可视化工作区）</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s14">
+<h2><span className="hoc-num">14</span> 研究能力 <span className="win-h">HERMES 胜出</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>能力</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>批量轨迹</td><td>内置并行轨迹生成</td><td>无等效功能</td></tr>
+<tr><td>RL 训练</td><td>Atropos RL 环境</td><td>无 RL 基础设施</td></tr>
+<tr><td>轨迹导出</td><td>压缩 + 导出用于微调</td><td>无训练数据导出</td></tr>
+<tr><td>可配置工作者</td><td>批量大小、工具集分布</td><td>无批处理</td></tr>
+<tr><td>构建者</td><td>Nous Research（模型训练实验室）</td><td>社区（创始人已加入 OpenAI）</td></tr>
+</tbody>
+</table>
+
+<p>Hermes 由模型训练实验室构建，从一开始就设计为研究基础设施 — 不仅仅是面向用户的产品。OpenClaw 没有等效的研究能力。</p>
+</section>
+
+<section id="s15">
+<h2><span className="hoc-num">15</span> 迁移路径</h2>
+
+<div className="hoc-card">
+  <div className="hoc-card-title" style={{color:'#58a6ff'}}>
+    <img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> OpenClaw → Hermes：内置迁移工具
+  </div>
+  <p><code>hermes claw migrate</code> 可导入你的人格（SOUL.md）、记忆、技能（自动转换为 agentskills.io 格式）、消息平台配置、API 密钥和 TTS 资源。支持交互式预览和 dry-run。技能冲突通过 skip/overwrite/rename 选项处理。可以在过渡期间同时运行两个代理。</p>
+</div>
+
+<div className="hoc-card">
+  <div className="hoc-card-title" style={{color:'#f85149'}}>🦞 Hermes → OpenClaw：手动过程</div>
+  <p>无内置迁移工具。需要手动映射记忆文件、技能格式转换和频道重新配置。自我进化技能系统在 OpenClaw 中没有等效物 — 你会失去复利自动化价值。预估工作量：12–21 小时。</p>
+</div>
+</section>
+
+<section id="s16">
+<h2><span className="hoc-num">16</span> 最终结论</h2>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg" fontFamily="Noto Sans SC, sans-serif">
+  <rect width="860" height="280" rx="8" fill="#08090d"/>
+  <text x="430" y="28" textAnchor="middle" fill="#e8ecf4" fontSize="14" fontWeight="700">各类别胜出汇总</text>
+  <g fontSize="11">
+    <text x="30" y="60" fill="#7c849a" fontWeight="500">学习与自我进化</text>
+    <text x="30" y="85" fill="#7c849a" fontWeight="500">记忆系统</text>
+    <text x="30" y="110" fill="#7c849a" fontWeight="500">安全性</text>
+    <text x="30" y="135" fill="#7c849a" fontWeight="500">模型支持</text>
+    <text x="30" y="160" fill="#7c849a" fontWeight="500">部署选项</text>
+    <text x="30" y="185" fill="#7c849a" fontWeight="500">成本效率</text>
+    <text x="30" y="210" fill="#7c849a" fontWeight="500">研究 / RL</text>
+    <text x="450" y="60" fill="#7c849a" fontWeight="500">平台覆盖</text>
+    <text x="450" y="85" fill="#7c849a" fontWeight="500">技能生态规模</text>
+    <text x="450" y="110" fill="#7c849a" fontWeight="500">社区规模</text>
+    <text x="450" y="135" fill="#7c849a" fontWeight="500">企业 / 团队</text>
+    <text x="450" y="160" fill="#7c849a" fontWeight="500">配套应用</text>
+    <text x="450" y="185" fill="#7c849a" fontWeight="500">开发者体验</text>
+    <text x="450" y="210" fill="#7c849a" fontWeight="500">迁移工具</text>
+    <rect x="220" y="47" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="270" y="62" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="220" y="72" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="270" y="87" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="220" y="97" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="270" y="112" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="220" y="122" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="270" y="137" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="220" y="147" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="270" y="162" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="220" y="172" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="270" y="187" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="220" y="197" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="270" y="212" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="700" y="47" width="100" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="750" y="62" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="72" width="100" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="750" y="87" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="97" width="100" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="750" y="112" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="122" width="100" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="750" y="137" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="147" width="100" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="750" y="162" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="172" width="70" height="20" rx="4" fill="rgba(209,153,34,0.15)" stroke="#d29922"/>
+    <text x="735" y="187" textAnchor="middle" fill="#d29922" fontSize="10" fontWeight="700">平手</text>
+    <rect x="700" y="197" width="100" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="750" y="212" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+  </g>
+  <rect x="180" y="235" width="200" height="35" rx="8" fill="rgba(88,166,255,0.1)" stroke="#58a6ff"/>
+  <text x="280" y="258" textAnchor="middle" fill="#58a6ff" fontSize="14" fontWeight="700">Hermes：8 项胜出</text>
+  <rect x="480" y="235" width="200" height="35" rx="8" fill="rgba(248,81,73,0.1)" stroke="#f85149"/>
+  <text x="580" y="258" textAnchor="middle" fill="#f85149" fontSize="14" fontWeight="700">OpenClaw：5 项胜出</text>
+</svg>
+</div>
+<div className="caption">图 4：14 个对比维度的逐类别胜出汇总。</div>
+
+<div className="hoc-verdict">
+  <div className="verdict-card hermes">
+    <h3 style={{color:'#58a6ff'}}>
+      <img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> 选择 Hermes 当你...
+    </h3>
+    <ul>
+      <li>希望智能体随时间真正变得更强</li>
+      <li>优先考虑安全性（零 CVE，Docker 默认加固）</li>
+      <li>需要数月交互的深度记忆</li>
+      <li>想要 Serverless 部署，空闲近零成本</li>
+      <li>使用中国 LLM 提供商（MiniMax、GLM、Kimi）</li>
+      <li>是需要 RL 训练 / 轨迹生成的研究者</li>
+      <li>想从 OpenClaw 迁移（内置迁移工具）</li>
+    </ul>
+  </div>
+  <div className="verdict-card openclaw">
+    <h3 style={{color:'#f85149'}}>🦞 选择 OpenClaw 当你...</h3>
+    <ul>
+      <li>需要最广泛的平台覆盖（25+）</li>
+      <li>想要庞大的技能生态（ClawHub 13,700+）</li>
+      <li>需要企业支持（NVIDIA NemoClaw）</li>
+      <li>需要原生 Windows 支持</li>
+      <li>想要配套应用（macOS、iOS、Android）</li>
+      <li>需要多代理路由和按助手数据隔离</li>
+      <li>已有成熟的 OpenClaw 部署</li>
+    </ul>
+  </div>
+</div>
+
+<div className="hoc-card">
+  <div className="hoc-card-title" style={{color:'#d29922'}}>🤝 或者两个一起用</div>
+  <p>由于 Hermes 使用 Python 而 OpenClaw 使用 Node.js，它们在运行时不冲突。你可以将不同频道路由到不同代理，用 OpenClaw 覆盖广泛的消息平台，同时用 Hermes 处理受益于其学习循环的深度工作任务。<code>hermes claw migrate</code> 工具支持你准备好时的渐进式迁移。</p>
+</div>
+
+</section>
+
+<div className="hoc-footer">
+  <div>Hermes Agent vs OpenClaw — 全面对比 • 2026 年 4 月</div>
+  <div className="hoc-sources"><span className="hoc-sources-label">资料来源：</span> <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer">Hermes Agent GitHub</a><span className="hoc-sep"> · </span><a href="https://hermes-agent.nousresearch.com" target="_blank" rel="noopener noreferrer">Hermes 官方文档</a><span className="hoc-sep"> · </span><a href="https://openclaw.ai/" target="_blank" rel="noopener noreferrer">OpenClaw 官方文档</a><span className="hoc-sep"> · </span><a href="https://www.armosec.io" target="_blank" rel="noopener noreferrer">ARMO Security Research</a><span className="hoc-sep"> · </span><a href="https://www.endorlabs.com" target="_blank" rel="noopener noreferrer">Endor Labs</a><span className="hoc-sep"> · </span><a href="https://www.sangfor.com" target="_blank" rel="noopener noreferrer">Sangfor Technologies</a><span className="hoc-sep"> · </span><a href="https://www.koi.ai/" target="_blank" rel="noopener noreferrer">Koi Security Research</a></div>
+</div>
+
+</div>{/* end hoc-wrap */}
