@@ -222,6 +222,11 @@ authors: whereq
 .hoc-wrap .hoc-toc a:hover { color: var(--hermes); }
 .hoc-wrap .hoc-toc .n { color: var(--hoc-dim); font-family: monospace; font-size: 0.8rem; margin-right: 0.5rem; }
 .hoc-wrap .hoc-footer { text-align: center; color: var(--hoc-dim); padding: 2rem 0; font-size: 0.8rem; border-top: 1px solid var(--hoc-border); margin-top: 3rem; }
+.hoc-wrap .hoc-sources { margin-top: 0.75rem; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.4rem; }
+.hoc-wrap .hoc-sources-label { font-weight: 600; color: var(--hoc-text); margin-right: 0.25rem; }
+.hoc-wrap .hoc-sources a { color: var(--ifm-color-primary); text-decoration: none; }
+.hoc-wrap .hoc-sources a:hover { text-decoration: underline; }
+.hoc-wrap .hoc-sep { color: var(--hoc-border); }
 `}</style>
 
 <div className="hoc-wrap">
@@ -583,7 +588,7 @@ authors: whereq
 <tr><td>OS support</td><td>Linux, macOS, WSL2, Termux (Android)</td><td>Linux, macOS, Windows (native)</td></tr>
 <tr><td>Windows native</td><td>Not supported (WSL2 only)</td><td>Supported natively</td></tr>
 <tr><td>HPC clusters</td><td>Singularity/Apptainer support</td><td>No HPC support</td></tr>
-<tr><td>Managed hosting</td><td>Community providers emerging</td><td>DigitalOcean 1-Click ($24/mo), OpenClaw VPS, OneClaw</td></tr>
+<tr><td>Managed hosting</td><td>Community providers emerging</td><td>DigitalOcean 1-Click (&#36;24/mo), OpenClaw VPS, OneClaw</td></tr>
 <tr><td>Service install</td><td><code>hermes gateway install</code> (systemd/launchd)</td><td>Systemd / LaunchAgent</td></tr>
 <tr><td>Companion apps</td><td>CLI only (ACP for editors)</td><td>macOS menu bar, iOS app, Android app</td></tr>
 </tbody>
@@ -619,12 +624,12 @@ authors: whereq
 <tr><th>Component</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
 </thead>
 <tbody>
-<tr><td>Framework</td><td>$0 (MIT)</td><td>$0 (MIT)</td></tr>
-<tr><td>Hosting</td><td>$5/mo VPS or &#126;$0 serverless (Modal/Daytona)</td><td>$5/mo VPS or $24/mo managed (DigitalOcean)</td></tr>
-<tr><td>LLM API</td><td>$15–80/mo typical</td><td>$15–80/mo typical</td></tr>
+<tr><td>Framework</td><td>&#36;0 (MIT)</td><td>&#36;0 (MIT)</td></tr>
+<tr><td>Hosting</td><td>&#36;5/mo VPS or &#126;&#36;0 serverless (Modal/Daytona)</td><td>&#36;5/mo VPS or &#36;24/mo managed (DigitalOcean)</td></tr>
+<tr><td>LLM API</td><td>&#36;15–80/mo typical</td><td>&#36;15–80/mo typical</td></tr>
 <tr><td>Overhead per call</td><td>&#126;73% fixed overhead (tool definitions)</td><td>Similar overhead profile</td></tr>
-<tr><td>Idle cost</td><td>&#126;$0 with Modal/Daytona hibernation</td><td>Full VPS cost even when idle</td></tr>
-<tr><td>Typical total</td><td>$10–25/mo (personal)</td><td>$20–40/mo (personal, no managed)</td></tr>
+<tr><td>Idle cost</td><td>&#126;&#36;0 with Modal/Daytona hibernation</td><td>Full VPS cost even when idle</td></tr>
+<tr><td>Typical total</td><td>&#36;10–25/mo (personal)</td><td>&#36;20–40/mo (personal, no managed)</td></tr>
 </tbody>
 </table>
 
@@ -802,8 +807,7 @@ authors: whereq
 </section>
 
 <div className="hoc-footer">
-  Hermes Agent vs OpenClaw — Comprehensive Comparison • April 2026<br />
-  Sources: Official documentation, GitHub repos, security research (Koi Security, Sangfor, ARMO, Endor Labs), community analysis
+  <div className="hoc-sources"><span className="hoc-sources-label">Sources:</span> <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer">Hermes Agent GitHub</a><span className="hoc-sep"> · </span><a href="https://hermes-agent.nousresearch.com" target="_blank" rel="noopener noreferrer">Hermes Official Docs</a><span className="hoc-sep"> · </span><a href="https://openclaw.ai/" target="_blank" rel="noopener noreferrer">OpenClaw Official Docs</a><span className="hoc-sep"> · </span><a href="https://www.armosec.io" target="_blank" rel="noopener noreferrer">ARMO Security Research</a><span className="hoc-sep"> · </span><a href="https://www.endorlabs.com" target="_blank" rel="noopener noreferrer">Endor Labs</a><span className="hoc-sep"> · </span><a href="https://www.sangfor.com" target="_blank" rel="noopener noreferrer">Sangfor Technologies</a><span className="hoc-sep"> · </span><a href="https://www.koi.ai/" target="_blank" rel="noopener noreferrer">Koi Security Research</a></div>
 </div>
 
-</div>
+</div>{/* end hoc-wrap */}

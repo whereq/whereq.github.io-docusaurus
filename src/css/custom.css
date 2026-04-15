@@ -4,6 +4,10 @@
 
 /* ── Color Tokens ─────────────────────────────────────────── */
 :root {
+  /* Container width: +20% over Docusaurus defaults (1140 → 1368, 1320 → 1584) */
+  --ifm-container-width: 1368px;
+  --ifm-container-width-xl: 1584px;
+
   --ifm-color-primary: #f5a623;
   --ifm-color-primary-dark: #e09410;
   --ifm-color-primary-darker: #d48a0e;
@@ -19,6 +23,9 @@
   --ifm-line-height-base: 1.75;
 
   --docusaurus-highlighted-code-line-bg: rgba(245, 166, 35, 0.12);
+
+  /* Blog post h1 title — reduce from infima default 3rem so long titles fit one line */
+  --ifm-h1-font-size: 1.9rem;
 }
 
 /* ── Dark Mode Variables ──────────────────────────────────── */
