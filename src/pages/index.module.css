@@ -1,0 +1,72 @@
+.heroBanner {
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.features {
+  padding: 4rem 0;
+}
+
+.featureCol {
+  margin-bottom: 1.5rem;
+}
+
+.featureCard {
+  display: block;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid rgba(245, 166, 35, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  height: 100%;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  color: inherit;
+}
+
+.featureCard:hover {
+  border-color: rgba(245, 166, 35, 0.35);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: inherit;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.featureTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin-bottom: 0.5rem;
+}
+
+.featureDesc {
+  font-size: 0.875rem;
+  color: #8b949e;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+}
