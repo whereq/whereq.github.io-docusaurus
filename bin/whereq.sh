@@ -163,8 +163,8 @@ cmd_deploy() {
   git clone "$PAGES_REPO" "$tmp_dir"
 
   log "Replacing old content with new build…"
-  # Remove everything except .git
-  find "$tmp_dir" -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+  # Remove everything except .git (mindepth 1 prevents rm-ing the dir itself)
+  find "$tmp_dir" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
   cp -r "$BUILD_DIR/." "$tmp_dir/"
 
   cd "$tmp_dir"
