@@ -79,7 +79,9 @@ check_deps() {
 # Verify the whereq SSH key can reach GitHub before any git operation
 check_ssh() {
   log "Checking SSH connectivity for whereq account…"
-  if ! ssh -T git@github.com-whereq 2>&1 | grep -q "successfully authenticated"; then
+  local out
+  out=$(ssh -T git@github.com-whereq 2>&1) || true
+  if ! echo "$out" | grep -q "successfully authenticated"; then
     err "SSH auth failed for github.com-whereq. Check ~/.ssh/config and ~/.ssh/wq_gh."
   fi
   ok "SSH authenticated as whereq"
