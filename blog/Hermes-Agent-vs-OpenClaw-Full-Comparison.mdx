@@ -1,0 +1,809 @@
+---
+title: "Hermes Agent vs OpenClaw: Full Comparison"
+slug: Hermes-Agent-vs-OpenClaw-Full-Comparison
+date: 2026-04-15
+tags: [ai-agent, hermes, openclaw, nous-research, comparison, security]
+authors: whereq
+---
+
+<style>{`
+.hoc-wrap {
+  --hermes: #58a6ff;
+  --hermes-bg: rgba(88,166,255,0.08);
+  --openclaw: #f85149;
+  --openclaw-bg: rgba(248,81,73,0.08);
+  --hoc-bg: #08090d;
+  --hoc-surface: #111318;
+  --hoc-surface2: #181c24;
+  --hoc-border: #262a35;
+  --hoc-text: #e8ecf4;
+  --hoc-dim: #7c849a;
+  --hoc-green: #3fb950;
+  --hoc-yellow: #d29922;
+  --hoc-purple: #bc8cff;
+  --hoc-cyan: #76e3ea;
+  background: var(--hoc-bg);
+  color: var(--hoc-text);
+  line-height: 1.7;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+.hoc-wrap .hoc-page-title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 0 0.5rem;
+  letter-spacing: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  line-height: 1.2;
+}
+.hoc-wrap .hoc-page-title .hoc-side {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+.hoc-wrap .hoc-page-title .hoc-side img {
+  height: 0.85em;
+  width: auto;
+  flex-shrink: 0;
+}
+.hoc-wrap .hoc-page-title .hoc-vs {
+  font-size: 0.5em;
+  font-weight: 400;
+  color: var(--hoc-dim);
+}
+.hoc-wrap .hoc-icon {
+  height: 1.1em;
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 3px;
+}
+.hoc-wrap h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--hoc-border);
+  color: var(--hoc-text);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.hoc-wrap h3 {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.75rem;
+  color: var(--hoc-cyan);
+}
+.hoc-wrap p { color: var(--hoc-text); font-size: 0.95rem; margin-bottom: 1rem; }
+.hoc-wrap ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+.hoc-wrap li { margin-bottom: 0.4rem; color: var(--hoc-text); font-size: 0.95rem; }
+.hoc-wrap .hoc-num {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: var(--hoc-dim);
+  background: var(--hoc-surface2);
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+.hoc-wrap .hoc-subtitle {
+  text-align: center;
+  color: var(--hoc-dim);
+  margin-bottom: 3rem;
+  font-size: 1rem;
+}
+.hoc-wrap .win-h, .hoc-wrap .win-o, .hoc-wrap .win-tie {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+  letter-spacing: 0.3px;
+}
+.hoc-wrap .win-h { background: var(--hermes-bg); color: var(--hermes); border: 1px solid rgba(88,166,255,0.25); }
+.hoc-wrap .win-o { background: var(--openclaw-bg); color: var(--openclaw); border: 1px solid rgba(248,81,73,0.25); }
+.hoc-wrap .win-tie { background: rgba(209,153,34,0.1); color: var(--hoc-yellow); border: 1px solid rgba(209,153,34,0.25); }
+.hoc-wrap .ctable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+}
+.hoc-wrap .ctable th, .hoc-wrap .ctable td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--hoc-border);
+  text-align: left;
+  vertical-align: top;
+}
+.hoc-wrap .ctable th {
+  background: var(--hoc-surface2);
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--hoc-text);
+}
+.hoc-wrap .ctable th:nth-child(2) { color: var(--hermes); }
+.hoc-wrap .ctable th:nth-child(3) { color: var(--openclaw); }
+.hoc-wrap .ctable td:first-child {
+  font-weight: 500;
+  color: var(--hoc-dim);
+  white-space: nowrap;
+  min-width: 140px;
+}
+.hoc-wrap .ctable tr:nth-child(even) { background: var(--hoc-surface); }
+.hoc-wrap .ctable td { color: var(--hoc-text); }
+.hoc-wrap code {
+  font-family: monospace;
+  background: var(--hoc-surface2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: var(--hoc-cyan);
+}
+.hoc-wrap .hoc-card {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+.hoc-wrap .hoc-card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+.hoc-wrap .svg-wrap {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+.hoc-wrap .svg-wrap svg { max-width: 100%; height: auto; }
+.hoc-wrap .caption {
+  text-align: center;
+  color: var(--hoc-dim);
+  font-size: 0.8rem;
+  font-family: monospace;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+.hoc-wrap .hoc-verdict {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+@media (max-width: 700px) { .hoc-wrap .hoc-verdict { grid-template-columns: 1fr; } }
+.hoc-wrap .verdict-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 2px solid;
+}
+.hoc-wrap .verdict-card.hermes { border-color: var(--hermes); background: var(--hermes-bg); }
+.hoc-wrap .verdict-card.openclaw { border-color: var(--openclaw); background: var(--openclaw-bg); }
+.hoc-wrap .verdict-card h3 { margin-top: 0; }
+.hoc-wrap .hoc-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.hoc-wrap .hoc-stat {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+.hoc-wrap .hoc-stat .snum { font-size: 1.8rem; font-weight: 700; }
+.hoc-wrap .hoc-stat .slabel { font-size: 0.75rem; color: var(--hoc-dim); margin-top: 0.25rem; }
+.hoc-wrap .hoc-toc {
+  background: var(--hoc-surface);
+  border: 1px solid var(--hoc-border);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 0 auto 3rem;
+  max-width: 700px;
+  columns: 2;
+  column-gap: 2rem;
+}
+@media (max-width: 600px) { .hoc-wrap .hoc-toc { columns: 1; } }
+.hoc-wrap .hoc-toc a { color: var(--hoc-text); text-decoration: none; font-size: 0.9rem; display: block; padding: 0.2rem 0; }
+.hoc-wrap .hoc-toc a:hover { color: var(--hermes); }
+.hoc-wrap .hoc-toc .n { color: var(--hoc-dim); font-family: monospace; font-size: 0.8rem; margin-right: 0.5rem; }
+.hoc-wrap .hoc-footer { text-align: center; color: var(--hoc-dim); padding: 2rem 0; font-size: 0.8rem; border-top: 1px solid var(--hoc-border); margin-top: 3rem; }
+`}</style>
+
+<div className="hoc-wrap">
+
+<div className="hoc-page-title">
+  <span className="hoc-side" style={{color:'var(--hermes)'}}>
+    <img src="/img/hermes-agent-touch-icon.png" alt="Hermes Agent" />
+    Hermes
+  </span>
+  <span className="hoc-vs">vs</span>
+  <span className="hoc-side" style={{color:'var(--openclaw)'}}>🦞 OpenClaw</span>
+</div>
+
+<p className="hoc-subtitle">
+  A comprehensive comparison from every perspective — architecture, security, memory, skills, platforms, cost, and more.<br />
+  Updated April 2026
+</p>
+
+<div className="hoc-toc">
+  <a href="#s1"><span className="n">01</span> Origins &amp; Philosophy</a>
+  <a href="#s2"><span className="n">02</span> Architecture</a>
+  <a href="#s3"><span className="n">03</span> Learning &amp; Self-Improvement</a>
+  <a href="#s4"><span className="n">04</span> Memory Systems</a>
+  <a href="#s5"><span className="n">05</span> Skills Ecosystem</a>
+  <a href="#s6"><span className="n">06</span> Messaging Platforms</a>
+  <a href="#s7"><span className="n">07</span> Model Support</a>
+  <a href="#s8"><span className="n">08</span> Security</a>
+  <a href="#s9"><span className="n">09</span> Deployment &amp; Infrastructure</a>
+  <a href="#s10"><span className="n">10</span> Developer Experience</a>
+  <a href="#s11"><span className="n">11</span> Cost Analysis</a>
+  <a href="#s12"><span className="n">12</span> Community &amp; Ecosystem</a>
+  <a href="#s13"><span className="n">13</span> Enterprise &amp; Team Use</a>
+  <a href="#s14"><span className="n">14</span> Research Capabilities</a>
+  <a href="#s15"><span className="n">15</span> Migration Path</a>
+  <a href="#s16"><span className="n">16</span> Final Verdict</a>
+</div>
+
+<section id="s1">
+<h2><span className="hoc-num">01</span> Origins &amp; Philosophy</h2>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 250" xmlns="http://www.w3.org/2000/svg" fontFamily="Space Grotesk, sans-serif">
+  <rect width="860" height="250" rx="8" fill="#08090d"/>
+  <rect x="20" y="20" width="400" height="210" rx="10" fill="#111318" stroke="#58a6ff" strokeWidth="2"/>
+  <image href="/img/hermes-agent-icon.png" x="155" y="33" width="18" height="18"/>
+  <text x="230" y="50" textAnchor="middle" fill="#58a6ff" fontSize="16" fontWeight="700">Hermes Agent</text>
+  <text x="40" y="80" fill="#7c849a" fontSize="11">Created by: Nous Research</text>
+  <text x="40" y="100" fill="#7c849a" fontSize="11">Released: February 2026</text>
+  <text x="40" y="120" fill="#7c849a" fontSize="11">Language: Python</text>
+  <text x="40" y="140" fill="#7c849a" fontSize="11">License: MIT</text>
+  <text x="40" y="165" fill="#e8ecf4" fontSize="12" fontWeight="600">Philosophy:</text>
+  <text x="40" y="185" fill="#58a6ff" fontSize="13" fontWeight="700">"Learning Maximalist"</text>
+  <text x="40" y="205" fill="#7c849a" fontSize="10">Make the agent smarter over time through</text>
+  <text x="40" y="220" fill="#7c849a" fontSize="10">self-improving skills, deep memory, persistent learning</text>
+  <rect x="440" y="20" width="400" height="210" rx="10" fill="#111318" stroke="#f85149" strokeWidth="2"/>
+  <text x="640" y="50" textAnchor="middle" fill="#f85149" fontSize="16" fontWeight="700">🦞 OpenClaw</text>
+  <text x="460" y="80" fill="#7c849a" fontSize="11">Created by: Peter Steinberger</text>
+  <text x="460" y="100" fill="#7c849a" fontSize="11">Released: November 2025 (as Clawdbot)</text>
+  <text x="460" y="120" fill="#7c849a" fontSize="11">Language: Node.js (TypeScript)</text>
+  <text x="460" y="140" fill="#7c849a" fontSize="11">License: MIT</text>
+  <text x="460" y="165" fill="#e8ecf4" fontSize="12" fontWeight="600">Philosophy:</text>
+  <text x="460" y="185" fill="#f85149" fontSize="13" fontWeight="700">"Connectivity Maximalist"</text>
+  <text x="460" y="205" fill="#7c849a" fontSize="10">Connect to everything, everywhere. Maximum</text>
+  <text x="460" y="220" fill="#7c849a" fontSize="10">platform reach, broad ecosystem, community skills</text>
+</svg>
+</div>
+<div className="caption">Fig 1: Two fundamentally different bets on what an AI agent should prioritize.</div>
+
+<p>OpenClaw defined the personal AI agent category. Originally called Clawdbot (Nov 2025), it was renamed Moltbot and then OpenClaw after trademark concerns. Creator Peter Steinberger joined OpenAI in February 2026, and the project moved to community governance under a non-profit foundation.</p>
+<p>Hermes Agent arrived two months later from Nous Research — the lab behind the Hermes, Nomos, and Psyche model families. Where OpenClaw optimized for connecting to as many platforms and tools as possible, Hermes optimized for depth: making the agent genuinely learn and improve through use.</p>
+</section>
+
+<section id="s2">
+<h2><span className="hoc-num">02</span> Architecture</h2>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 320" xmlns="http://www.w3.org/2000/svg" fontFamily="Space Grotesk, sans-serif">
+  <rect width="860" height="320" rx="8" fill="#08090d"/>
+  <text x="430" y="28" textAnchor="middle" fill="#e8ecf4" fontSize="14" fontWeight="700">Architectural Core Comparison</text>
+  <rect x="20" y="45" width="400" height="255" rx="10" fill="#111318" stroke="#58a6ff" strokeWidth="1.5"/>
+  <text x="220" y="70" textAnchor="middle" fill="#58a6ff" fontSize="13" fontWeight="700">Hermes: Agent Loop = Core</text>
+  <rect x="100" y="85" width="240" height="40" rx="6" fill="#181c24" stroke="#58a6ff"/>
+  <text x="220" y="110" textAnchor="middle" fill="#58a6ff" fontSize="11" fontWeight="600">AIAgent (run_agent.py)</text>
+  <line x1="220" y1="125" x2="220" y2="145" stroke="#58a6ff" strokeWidth="1.5"/>
+  <rect x="40" y="145" width="140" height="30" rx="4" fill="#181c24" stroke="#3fb950"/>
+  <text x="110" y="165" textAnchor="middle" fill="#3fb950" fontSize="10">Memory Layer</text>
+  <rect x="200" y="145" width="100" height="30" rx="4" fill="#181c24" stroke="#bc8cff"/>
+  <text x="250" y="165" textAnchor="middle" fill="#bc8cff" fontSize="10">Skills</text>
+  <rect x="320" y="145" width="80" height="30" rx="4" fill="#181c24" stroke="#d29922"/>
+  <text x="360" y="165" textAnchor="middle" fill="#d29922" fontSize="10">Tools</text>
+  <rect x="100" y="195" width="240" height="30" rx="4" fill="#181c24" stroke="#7c849a"/>
+  <text x="220" y="215" textAnchor="middle" fill="#7c849a" fontSize="10">Gateway (optional, fan-out)</text>
+  <text x="40" y="250" fill="#7c849a" fontSize="10">• Synchronous orchestration engine</text>
+  <text x="40" y="268" fill="#7c849a" fontSize="10">• Gateway is a peripheral, not the core</text>
+  <text x="40" y="286" fill="#7c849a" fontSize="10">• Learning loop embedded in agent cycle</text>
+  <rect x="440" y="45" width="400" height="255" rx="10" fill="#111318" stroke="#f85149" strokeWidth="1.5"/>
+  <text x="640" y="70" textAnchor="middle" fill="#f85149" fontSize="13" fontWeight="700">OpenClaw: Gateway = Core</text>
+  <rect x="520" y="85" width="240" height="40" rx="6" fill="#181c24" stroke="#f85149"/>
+  <text x="640" y="110" textAnchor="middle" fill="#f85149" fontSize="11" fontWeight="600">Gateway (control plane)</text>
+  <line x1="640" y1="125" x2="640" y2="145" stroke="#f85149" strokeWidth="1.5"/>
+  <rect x="460" y="145" width="120" height="30" rx="4" fill="#181c24" stroke="#d29922"/>
+  <text x="520" y="165" textAnchor="middle" fill="#d29922" fontSize="10">Session Router</text>
+  <rect x="600" y="145" width="100" height="30" rx="4" fill="#181c24" stroke="#bc8cff"/>
+  <text x="650" y="165" textAnchor="middle" fill="#bc8cff" fontSize="10">Channels</text>
+  <rect x="720" y="145" width="100" height="30" rx="4" fill="#181c24" stroke="#3fb950"/>
+  <text x="770" y="165" textAnchor="middle" fill="#3fb950" fontSize="10">Pi Agent</text>
+  <rect x="520" y="195" width="240" height="30" rx="4" fill="#181c24" stroke="#7c849a"/>
+  <text x="640" y="215" textAnchor="middle" fill="#7c849a" fontSize="10">WebSocket ws://127.0.0.1:18789</text>
+  <text x="460" y="250" fill="#7c849a" fontSize="10">• Gateway is the "nervous system"</text>
+  <text x="460" y="268" fill="#7c849a" fontSize="10">• All messages flow through Gateway</text>
+  <text x="460" y="286" fill="#7c849a" fontSize="10">• Agent runtime is a Gateway subsystem</text>
+</svg>
+</div>
+<div className="caption">Fig 2: Hermes centers on the agent loop; OpenClaw centers on the gateway control plane.</div>
+
+<table className="ctable">
+<thead>
+<tr><th>Aspect</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Core</td><td>AIAgent loop (Python, &#126;9,200 lines)</td><td>Gateway control plane (Node.js/TS)</td></tr>
+<tr><td>Entry points</td><td><code>hermes</code> (CLI) + <code>hermes gateway</code></td><td><code>openclaw</code> CLI + Gateway daemon</td></tr>
+<tr><td>State storage</td><td>SQLite + FTS5 + flat files</td><td>JSON config + workspace files</td></tr>
+<tr><td>Protocol</td><td>Direct LLM API calls</td><td>WebSocket control plane</td></tr>
+<tr><td>Plugin model</td><td>Python tools + MCP servers</td><td>Node.js skills + ClawHub registry</td></tr>
+<tr><td>Codebase</td><td>Python (primary)</td><td>Node.js / TypeScript</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s3">
+<h2><span className="hoc-num">03</span> Learning &amp; Self-Improvement <span className="win-h">HERMES WINS</span></h2>
+
+<p>This is the single biggest differentiator. Hermes has a closed learning loop that no other agent framework replicates. OpenClaw skills are static — you write them, they stay the same forever unless you manually update them.</p>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg" fontFamily="Space Grotesk, sans-serif">
+  <rect width="860" height="200" rx="8" fill="#08090d"/>
+  <text x="215" y="25" textAnchor="middle" fill="#58a6ff" fontSize="13" fontWeight="700">Hermes: Closed Learning Loop</text>
+  <rect x="40" y="40" width="130" height="45" rx="6" fill="#181c24" stroke="#58a6ff"/>
+  <text x="105" y="68" textAnchor="middle" fill="#58a6ff" fontSize="10">Execute Task</text>
+  <rect x="195" y="40" width="130" height="45" rx="6" fill="#181c24" stroke="#3fb950"/>
+  <text x="260" y="68" textAnchor="middle" fill="#3fb950" fontSize="10">Evaluate Result</text>
+  <rect x="40" y="110" width="130" height="45" rx="6" fill="#181c24" stroke="#d29922"/>
+  <text x="105" y="138" textAnchor="middle" fill="#d29922" fontSize="10">Update Memory</text>
+  <rect x="195" y="110" width="130" height="45" rx="6" fill="#181c24" stroke="#bc8cff"/>
+  <text x="260" y="138" textAnchor="middle" fill="#bc8cff" fontSize="10">Create/Refine Skill</text>
+  <defs>
+    <marker id="a1" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0,7 2.5,0 5" fill="#7c849a"/>
+    </marker>
+  </defs>
+  <line x1="170" y1="62" x2="195" y2="62" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <line x1="295" y1="85" x2="295" y2="110" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <line x1="195" y1="132" x2="170" y2="132" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <line x1="72" y1="110" x2="72" y2="85" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <text x="182" y="100" textAnchor="middle" fill="#3fb950" fontSize="20">↻</text>
+  <text x="40" y="180" fill="#7c849a" fontSize="10">Autonomous • Continuous • Compounding</text>
+  <text x="640" y="25" textAnchor="middle" fill="#f85149" fontSize="13" fontWeight="700">OpenClaw: Static Skills</text>
+  <rect x="500" y="50" width="130" height="45" rx="6" fill="#181c24" stroke="#f85149"/>
+  <text x="565" y="78" textAnchor="middle" fill="#f85149" fontSize="10">Human Writes Skill</text>
+  <line x1="630" y1="72" x2="660" y2="72" stroke="#7c849a" strokeWidth="1.5" markerEnd="url(#a1)"/>
+  <rect x="660" y="50" width="160" height="45" rx="6" fill="#181c24" stroke="#d29922"/>
+  <text x="740" y="78" textAnchor="middle" fill="#d29922" fontSize="10">Agent Uses Skill</text>
+  <text x="740" y="120" textAnchor="middle" fill="#7c849a" fontSize="11">Skill never changes</text>
+  <text x="740" y="138" textAnchor="middle" fill="#7c849a" fontSize="11">unless human edits it</text>
+  <text x="500" y="180" fill="#7c849a" fontSize="10">Manual • Static • No compounding</text>
+</svg>
+</div>
+<div className="caption">Fig 3: Hermes creates and refines skills autonomously; OpenClaw relies entirely on human-authored static skills.</div>
+
+<table className="ctable">
+<thead>
+<tr><th>Capability</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Skill creation</td><td>Autonomous after complex tasks (5+ tool calls)</td><td>Manual only (human writes SKILL.md)</td></tr>
+<tr><td>Skill improvement</td><td>Self-improving during use</td><td>None (static files)</td></tr>
+<tr><td>User modeling</td><td>Honcho dialectic modeling across sessions</td><td>SOUL.md static identity file</td></tr>
+<tr><td>Periodic nudges</td><td>Agent prompted to reflect and persist</td><td>No equivalent</td></tr>
+<tr><td>Cross-session recall</td><td>FTS5 search + LLM summarization</td><td>Persistent memory per assistant</td></tr>
+<tr><td>Reported improvement</td><td>40% speed improvement on repeated tasks</td><td>No compounding effect</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s4">
+<h2><span className="hoc-num">04</span> Memory Systems <span className="win-h">HERMES WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Layer</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Persistent facts</td><td>MEMORY.md (&#126;2,200 chars, frozen at session start)</td><td>Per-assistant memory storage</td></tr>
+<tr><td>User profile</td><td>USER.md (preferences, style)</td><td>SOUL.md (identity &amp; personality)</td></tr>
+<tr><td>Procedural</td><td>Skills library (auto-created, searchable)</td><td>Skills (human-authored, static)</td></tr>
+<tr><td>Episodic</td><td>SQLite + FTS5 full-text search, unlimited</td><td>Session persistence per assistant</td></tr>
+<tr><td>Summarization</td><td>LLM-powered summarization of past sessions</td><td>No equivalent</td></tr>
+<tr><td>External providers</td><td>7 pluggable providers (Hindsight, PLUR, etc.)</td><td>No pluggable memory system</td></tr>
+<tr><td>Context compression</td><td>Lossy summarization engine (pluggable)</td><td>Context management via Gateway</td></tr>
+<tr><td>Prompt caching</td><td>Anthropic prefix caching, frozen snapshot</td><td>Provider-specific caching</td></tr>
+<tr><td>Team sharing</td><td>PLUR engrams across instances</td><td>Per-assistant isolation (built-in)</td></tr>
+</tbody>
+</table>
+
+<p>Hermes treats memory as a layered system: always-in-context facts, on-demand procedural skills, and searchable episodic history. OpenClaw's memory is simpler but effective for team isolation — each assistant has its own separate storage, preventing cross-contamination in multi-agent setups.</p>
+</section>
+
+<section id="s5">
+<h2><span className="hoc-num">05</span> Skills Ecosystem <span className="win-o">OPENCLAW WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Aspect</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Total skills</td><td>70+ bundled, growing community</td><td>13,700+ on ClawHub (44K reported)</td></tr>
+<tr><td>Skill format</td><td>agentskills.io open standard (Markdown)</td><td>Custom SKILL.md format (Markdown + scripts)</td></tr>
+<tr><td>Skill source</td><td>Auto-created by agent + community + Skills Hub</td><td>Human-authored + ClawHub marketplace</td></tr>
+<tr><td>Loading</td><td>Progressive disclosure (L0/L1/L2)</td><td>Loaded at startup</td></tr>
+<tr><td>Self-improvement</td><td>Skills evolve during use</td><td>Static once written</td></tr>
+<tr><td>Supply chain risk</td><td>Tirith pre-scan + --force for third-party</td><td>High — 1,467+ malicious skills found (ClawHavoc)</td></tr>
+<tr><td>Vetting</td><td>Scan verdicts block dangerous skills by default</td><td>VirusTotal scanning (added post-crisis), minimal early vetting</td></tr>
+</tbody>
+</table>
+
+<p>OpenClaw's ecosystem is far larger in raw numbers. ClawHub has thousands of community skills covering everything from Gmail to Kubernetes. But that scale came with severe security costs — the ClawHavoc supply chain attack and 1,467+ confirmed malicious skills represent a serious trust problem. Hermes trades breadth for safety: fewer skills, but with pre-execution scanning and a safer default posture.</p>
+</section>
+
+<section id="s6">
+<h2><span className="hoc-num">06</span> Messaging Platform Support <span className="win-o">OPENCLAW WINS</span></h2>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 360" xmlns="http://www.w3.org/2000/svg" fontFamily="Space Grotesk, sans-serif">
+  <rect width="860" height="360" rx="8" fill="#08090d"/>
+  <text x="430" y="25" textAnchor="middle" fill="#e8ecf4" fontSize="13" fontWeight="700">Platform Coverage</text>
+  <image href="/img/hermes-agent-icon.png" x="112" y="43" width="14" height="14"/>
+  <text x="215" y="55" textAnchor="middle" fill="#58a6ff" fontSize="12" fontWeight="700">Hermes — 15+ platforms</text>
+  <g fill="#181c24" stroke="#58a6ff" strokeWidth="1">
+    <rect x="30" y="70" width="130" height="28" rx="4"/><rect x="170" y="70" width="130" height="28" rx="4"/>
+    <rect x="30" y="105" width="130" height="28" rx="4"/><rect x="170" y="105" width="130" height="28" rx="4"/>
+    <rect x="30" y="140" width="130" height="28" rx="4"/><rect x="170" y="140" width="130" height="28" rx="4"/>
+    <rect x="30" y="175" width="130" height="28" rx="4"/><rect x="170" y="175" width="130" height="28" rx="4"/>
+    <rect x="30" y="210" width="130" height="28" rx="4"/><rect x="170" y="210" width="130" height="28" rx="4"/>
+    <rect x="30" y="245" width="130" height="28" rx="4"/><rect x="170" y="245" width="130" height="28" rx="4"/>
+    <rect x="30" y="280" width="130" height="28" rx="4"/><rect x="170" y="280" width="130" height="28" rx="4"/>
+    <rect x="100" y="315" width="130" height="28" rx="4"/>
+  </g>
+  <g fill="#58a6ff" fontSize="10" textAnchor="middle">
+    <text x="95" y="89">Telegram</text><text x="235" y="89">Discord</text>
+    <text x="95" y="124">Slack</text><text x="235" y="124">WhatsApp</text>
+    <text x="95" y="159">Signal</text><text x="235" y="159">Matrix</text>
+    <text x="95" y="194">Mattermost</text><text x="235" y="194">Email (IMAP)</text>
+    <text x="95" y="229">SMS (Twilio)</text><text x="235" y="229">DingTalk</text>
+    <text x="95" y="264">Feishu / Lark</text><text x="235" y="264">WeCom 企业微信</text>
+    <text x="95" y="299">Weixin 微信</text><text x="235" y="299">BlueBubbles</text>
+    <text x="165" y="334">Home Assistant</text>
+  </g>
+  <text x="640" y="55" textAnchor="middle" fill="#f85149" fontSize="12" fontWeight="700">🦞 OpenClaw — 25+ platforms</text>
+  <g fill="#181c24" stroke="#f85149" strokeWidth="1">
+    <rect x="460" y="70" width="120" height="24" rx="4"/><rect x="590" y="70" width="120" height="24" rx="4"/><rect x="720" y="70" width="120" height="24" rx="4"/>
+    <rect x="460" y="100" width="120" height="24" rx="4"/><rect x="590" y="100" width="120" height="24" rx="4"/><rect x="720" y="100" width="120" height="24" rx="4"/>
+    <rect x="460" y="130" width="120" height="24" rx="4"/><rect x="590" y="130" width="120" height="24" rx="4"/><rect x="720" y="130" width="120" height="24" rx="4"/>
+    <rect x="460" y="160" width="120" height="24" rx="4"/><rect x="590" y="160" width="120" height="24" rx="4"/><rect x="720" y="160" width="120" height="24" rx="4"/>
+    <rect x="460" y="190" width="120" height="24" rx="4"/><rect x="590" y="190" width="120" height="24" rx="4"/><rect x="720" y="190" width="120" height="24" rx="4"/>
+    <rect x="460" y="220" width="120" height="24" rx="4"/><rect x="590" y="220" width="120" height="24" rx="4"/><rect x="720" y="220" width="120" height="24" rx="4"/>
+    <rect x="460" y="250" width="120" height="24" rx="4"/><rect x="590" y="250" width="120" height="24" rx="4"/><rect x="720" y="250" width="120" height="24" rx="4"/>
+    <rect x="460" y="280" width="120" height="24" rx="4"/><rect x="590" y="280" width="120" height="24" rx="4"/><rect x="720" y="280" width="120" height="24" rx="4"/>
+    <rect x="530" y="310" width="120" height="24" rx="4"/>
+  </g>
+  <g fill="#f85149" fontSize="9" textAnchor="middle">
+    <text x="520" y="87">Telegram</text><text x="650" y="87">Discord</text><text x="780" y="87">Slack</text>
+    <text x="520" y="117">WhatsApp</text><text x="650" y="117">Signal</text><text x="780" y="117">Google Chat</text>
+    <text x="520" y="147">MS Teams</text><text x="650" y="147">iMessage</text><text x="780" y="147">BlueBubbles</text>
+    <text x="520" y="177">Matrix</text><text x="650" y="177">Mattermost</text><text x="780" y="177">IRC</text>
+    <text x="520" y="207">LINE</text><text x="650" y="207">Feishu</text><text x="780" y="207">WeChat</text>
+    <text x="520" y="237">Nostr</text><text x="650" y="237">Tlon</text><text x="780" y="237">Twitch</text>
+    <text x="520" y="267">Zalo</text><text x="650" y="267">Zalo Personal</text><text x="780" y="267">Synology Chat</text>
+    <text x="520" y="297">Nextcloud Talk</text><text x="650" y="297">WebChat</text><text x="780" y="297">macOS App</text>
+    <text x="590" y="327">iOS / Android</text>
+  </g>
+</svg>
+</div>
+<div className="caption">Fig 4: OpenClaw covers &#126;25 platforms; Hermes covers 15+ with deeper integration per platform.</div>
+
+<p>OpenClaw has LINE, Google Chat, Microsoft Teams, IRC, Twitch, Nostr, Zalo, and native iOS/Android/macOS companion apps — none of which Hermes currently supports. Hermes's advantage is cross-platform conversation continuity with semantic context restore, and deeper per-platform integration (Discord voice channels, Telegram webhook mode, WeCom WebSocket).</p>
+</section>
+
+<section id="s7">
+<h2><span className="hoc-num">07</span> Model Support <span className="win-h">HERMES WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Aspect</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Provider count</td><td>18+ built-in providers</td><td>Major providers (Claude, GPT, Gemini, Groq, Mistral, xAI)</td></tr>
+<tr><td>OpenRouter</td><td>200+ models via unified billing</td><td>Supported</td></tr>
+<tr><td>Local models</td><td>Ollama, vLLM, SGLang, llama.cpp</td><td>Ollama + custom endpoints</td></tr>
+<tr><td>China providers</td><td>MiniMax, Kimi/Moonshot, z.ai/GLM, DashScope, Xiaomi</td><td>Limited</td></tr>
+<tr><td>MiniMax</td><td>First-class partner (M2.7 direct integration)</td><td>Via OpenRouter</td></tr>
+<tr><td>Switching</td><td><code>hermes model</code> — zero code change</td><td>Config file edit + restart</td></tr>
+<tr><td>Fallback model</td><td>Auto-fallback mid-session on error</td><td>No automatic fallback</td></tr>
+<tr><td>Per-agent routing</td><td>Single model + fallback</td><td>Different models per agent</td></tr>
+<tr><td>Minimum context</td><td>64K tokens required</td><td>No enforced minimum</td></tr>
+<tr><td>Auxiliary LLM</td><td>Separate model for vision, summarization</td><td>Uses primary model</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s8">
+<h2><span className="hoc-num">08</span> Security <span className="win-h">HERMES WINS</span></h2>
+
+<p>This is where the comparison becomes most stark. OpenClaw has faced one of the most significant AI security crises of 2026.</p>
+
+<div className="hoc-stats">
+  <div className="hoc-stat"><div className="snum" style={{color:'#58a6ff'}}>0</div><div className="slabel">Hermes Agent CVEs</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>138+</div><div className="slabel">OpenClaw CVEs Tracked</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>9.9</div><div className="slabel">Highest CVSS Score (OpenClaw)</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>1,467</div><div className="slabel">Malicious ClawHub Skills</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>42K+</div><div className="slabel">Exposed OpenClaw Instances</div></div>
+  <div className="hoc-stat"><div className="snum" style={{color:'#f85149'}}>63%</div><div className="slabel">With Auth Disabled</div></div>
+</div>
+
+<table className="ctable">
+<thead>
+<tr><th>Security Aspect</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>CVE count</td><td>0 agent-specific CVEs</td><td>138+ tracked (7 critical, 49 high)</td></tr>
+<tr><td>Worst CVE</td><td>None</td><td>CVE-2026-32922 (CVSS 9.9) — privilege escalation</td></tr>
+<tr><td>Supply chain</td><td>Tirith pre-execution scan, --force required</td><td>ClawHavoc: 1,467+ malicious skills, AMOS stealer distribution</td></tr>
+<tr><td>Default binding</td><td>Safe defaults</td><td>Early versions bound to 0.0.0.0 (all interfaces)</td></tr>
+<tr><td>Auth default</td><td>Allowlist/pairing required</td><td>Some versions ran without auth</td></tr>
+<tr><td>Container hardening</td><td>Read-only root FS, dropped caps, namespace isolation (defaults)</td><td>Optional Docker sandboxing</td></tr>
+<tr><td>Filesystem protection</td><td>Automatic checkpoints + rollback</td><td>Workspace-based isolation</td></tr>
+<tr><td>Command scanning</td><td>Tirith pre-execution scanner</td><td>Exec approval system (added post-CVE)</td></tr>
+<tr><td>Memory injection</td><td>Entries scanned for threat patterns</td><td>No equivalent scanning</td></tr>
+<tr><td>Telemetry</td><td>Zero — architectural design</td><td>Zero — local-first design</td></tr>
+<tr><td>Government warnings</td><td>None</td><td>China, Belgium, South Korea issued restrictions</td></tr>
+</tbody>
+</table>
+
+<p>Important context: Hermes is younger and has a smaller attack surface (64K stars vs 345K). It hasn't faced the same level of scrutiny. However, its safer-by-default architectural decisions — Docker hardening as defaults rather than options, mandatory pre-scan of third-party skills, memory injection scanning — represent a fundamentally more security-conscious design.</p>
+</section>
+
+<section id="s9">
+<h2><span className="hoc-num">09</span> Deployment &amp; Infrastructure <span className="win-h">HERMES WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Aspect</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Terminal backends</td><td>6: Local, Docker, SSH, Daytona, Singularity, Modal</td><td>Local, Docker</td></tr>
+<tr><td>Serverless</td><td>Daytona + Modal (near-zero idle cost)</td><td>No native serverless</td></tr>
+<tr><td>Installation</td><td>One-line <code>curl</code> script</td><td><code>npm install -g openclaw</code> (Node.js 22+)</td></tr>
+<tr><td>OS support</td><td>Linux, macOS, WSL2, Termux (Android)</td><td>Linux, macOS, Windows (native)</td></tr>
+<tr><td>Windows native</td><td>Not supported (WSL2 only)</td><td>Supported natively</td></tr>
+<tr><td>HPC clusters</td><td>Singularity/Apptainer support</td><td>No HPC support</td></tr>
+<tr><td>Managed hosting</td><td>Community providers emerging</td><td>DigitalOcean 1-Click ($24/mo), OpenClaw VPS, OneClaw</td></tr>
+<tr><td>Service install</td><td><code>hermes gateway install</code> (systemd/launchd)</td><td>Systemd / LaunchAgent</td></tr>
+<tr><td>Companion apps</td><td>CLI only (ACP for editors)</td><td>macOS menu bar, iOS app, Android app</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s10">
+<h2><span className="hoc-num">10</span> Developer Experience <span className="win-tie">TIE</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Feature</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>CLI/TUI</td><td>Full TUI with multiline, autocomplete, streaming</td><td>CLI with onboarding wizard</td></tr>
+<tr><td>Slash commands</td><td>Shared across CLI and gateway</td><td>Shared across channels</td></tr>
+<tr><td>MCP support</td><td>Native (stdio + HTTP, reconnection, sampling)</td><td>Native MCP support</td></tr>
+<tr><td>IDE integration</td><td>ACP server (VS Code, Zed, JetBrains)</td><td>No native IDE integration</td></tr>
+<tr><td>Browser control</td><td>Web search + browser automation + vision</td><td>CDP browser control (Chrome/Chromium)</td></tr>
+<tr><td>Voice mode</td><td>CLI mic, TTS replies, Discord voice channels</td><td>Voice Wake, Push-to-Talk, Talk Mode overlay</td></tr>
+<tr><td>Programmatic API</td><td><code>from run_agent import AIAgent</code></td><td>WebSocket API + REST endpoints</td></tr>
+<tr><td>Profiles</td><td><code>hermes profile create</code> — isolated environments</td><td>Multi-agent routing via Gateway</td></tr>
+<tr><td>Diagnostics</td><td><code>hermes doctor</code></td><td><code>openclaw doctor</code></td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s11">
+<h2><span className="hoc-num">11</span> Cost Analysis <span className="win-h">HERMES WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Component</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Framework</td><td>$0 (MIT)</td><td>$0 (MIT)</td></tr>
+<tr><td>Hosting</td><td>$5/mo VPS or &#126;$0 serverless (Modal/Daytona)</td><td>$5/mo VPS or $24/mo managed (DigitalOcean)</td></tr>
+<tr><td>LLM API</td><td>$15–80/mo typical</td><td>$15–80/mo typical</td></tr>
+<tr><td>Overhead per call</td><td>&#126;73% fixed overhead (tool definitions)</td><td>Similar overhead profile</td></tr>
+<tr><td>Idle cost</td><td>&#126;$0 with Modal/Daytona hibernation</td><td>Full VPS cost even when idle</td></tr>
+<tr><td>Typical total</td><td>$10–25/mo (personal)</td><td>$20–40/mo (personal, no managed)</td></tr>
+</tbody>
+</table>
+
+<p>Hermes's serverless backends (Modal, Daytona) give it a significant cost edge for users who don't need their agent running 24/7. If your agent runs 8 hours/day, you pay for 8 hours instead of 24.</p>
+</section>
+
+<section id="s12">
+<h2><span className="hoc-num">12</span> Community &amp; Ecosystem <span className="win-o">OPENCLAW WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Metric</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub stars</td><td>64K+ (2 months)</td><td>345K+ (5 months)</td></tr>
+<tr><td>Contributors</td><td>142+</td><td>Thousands</td></tr>
+<tr><td>Skills marketplace</td><td>Skills Hub (growing)</td><td>ClawHub (13,700+ skills)</td></tr>
+<tr><td>Enterprise support</td><td>None (community only)</td><td>NVIDIA NemoClaw partnership</td></tr>
+<tr><td>YouTube content</td><td>Growing</td><td>Extensive tutorials and reviews</td></tr>
+<tr><td>Governance</td><td>Nous Research (active lab)</td><td>Non-profit foundation (founder left for OpenAI)</td></tr>
+<tr><td>Growth trajectory</td><td>6,400+ stars in single day (post v0.8.0)</td><td>60K+ stars in 72 hours (initial viral wave)</td></tr>
+</tbody>
+</table>
+
+<p>OpenClaw's community is the largest in the AI agent space. The sheer volume of tutorials, third-party hosting providers, skills, and integrations creates a network effect. However, Hermes is growing at a pace that suggests it could challenge OpenClaw within a year — especially as developers migrate due to security concerns.</p>
+</section>
+
+<section id="s13">
+<h2><span className="hoc-num">13</span> Enterprise &amp; Team Use <span className="win-o">OPENCLAW WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Feature</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Multi-agent</td><td>Subagents for parallel work</td><td>Multi-agent routing via Gateway (per-workspace isolation)</td></tr>
+<tr><td>Team chat</td><td>Shared Discord/Slack channels</td><td>Gateway routes to isolated agents per channel/account</td></tr>
+<tr><td>Data isolation</td><td>Per-profile isolation</td><td>Per-assistant isolated storage (built-in)</td></tr>
+<tr><td>NVIDIA support</td><td>No</td><td>NemoClaw partnership</td></tr>
+<tr><td>Managed hosting</td><td>Community providers</td><td>DigitalOcean, OpenClaw VPS, multiple managed providers</td></tr>
+<tr><td>Companion apps</td><td>None</td><td>macOS, iOS, Android companion apps</td></tr>
+<tr><td>Visual workspace</td><td>No</td><td>Live Canvas (agent-driven visual workspace)</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="s14">
+<h2><span className="hoc-num">14</span> Research Capabilities <span className="win-h">HERMES WINS</span></h2>
+
+<table className="ctable">
+<thead>
+<tr><th>Capability</th><th><img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Hermes</th><th>🦞 OpenClaw</th></tr>
+</thead>
+<tbody>
+<tr><td>Batch trajectories</td><td>Built-in parallel trajectory generation</td><td>No equivalent</td></tr>
+<tr><td>RL training</td><td>Atropos RL environments</td><td>No RL infrastructure</td></tr>
+<tr><td>Trajectory export</td><td>Compression + export for fine-tuning</td><td>No training data export</td></tr>
+<tr><td>Configurable workers</td><td>Batch sizes, toolset distributions</td><td>No batch processing</td></tr>
+<tr><td>Built by</td><td>Nous Research (model training lab)</td><td>Community (founder joined OpenAI)</td></tr>
+</tbody>
+</table>
+
+<p>Hermes was built by a model training lab. It's designed from the ground up as research infrastructure — not just a user-facing product. OpenClaw has no equivalent research capabilities.</p>
+</section>
+
+<section id="s15">
+<h2><span className="hoc-num">15</span> Migration Path</h2>
+
+<div className="hoc-card">
+  <div className="hoc-card-title" style={{color:'#58a6ff'}}>
+    <img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> OpenClaw → Hermes: Built-in Migration Tool
+  </div>
+  <p><code>hermes claw migrate</code> imports your persona (SOUL.md), memory, skills (auto-converted to agentskills.io), messaging configs, API keys, and TTS assets. Interactive preview with dry-run support. Skill conflicts are handled with skip/overwrite/rename options. You can run both agents side by side during transition.</p>
+</div>
+
+<div className="hoc-card">
+  <div className="hoc-card-title" style={{color:'#f85149'}}>🦞 Hermes → OpenClaw: Manual Process</div>
+  <p>No built-in migration tool. Requires manual mapping of memory files, skill format conversion, and channel reconfiguration. The self-improving skills system has no OpenClaw equivalent — you lose compounding automation value. Estimated effort: 12–21 hours.</p>
+</div>
+</section>
+
+<section id="s16">
+<h2><span className="hoc-num">16</span> Final Verdict</h2>
+
+<div className="svg-wrap">
+<svg viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg" fontFamily="Space Grotesk, sans-serif">
+  <rect width="860" height="280" rx="8" fill="#08090d"/>
+  <text x="430" y="28" textAnchor="middle" fill="#e8ecf4" fontSize="14" fontWeight="700">Category Winners Summary</text>
+  <g fontSize="11">
+    <text x="30" y="60" fill="#7c849a" fontWeight="500">Learning/Self-Improvement</text>
+    <text x="30" y="85" fill="#7c849a" fontWeight="500">Memory System</text>
+    <text x="30" y="110" fill="#7c849a" fontWeight="500">Security</text>
+    <text x="30" y="135" fill="#7c849a" fontWeight="500">Model Support</text>
+    <text x="30" y="160" fill="#7c849a" fontWeight="500">Deployment Options</text>
+    <text x="30" y="185" fill="#7c849a" fontWeight="500">Cost Efficiency</text>
+    <text x="30" y="210" fill="#7c849a" fontWeight="500">Research / RL</text>
+    <text x="450" y="60" fill="#7c849a" fontWeight="500">Platform Coverage</text>
+    <text x="450" y="85" fill="#7c849a" fontWeight="500">Skills Ecosystem Size</text>
+    <text x="450" y="110" fill="#7c849a" fontWeight="500">Community Size</text>
+    <text x="450" y="135" fill="#7c849a" fontWeight="500">Enterprise / Team</text>
+    <text x="450" y="160" fill="#7c849a" fontWeight="500">Companion Apps</text>
+    <text x="450" y="185" fill="#7c849a" fontWeight="500">Developer Experience</text>
+    <text x="450" y="210" fill="#7c849a" fontWeight="500">Migration Tooling</text>
+    <rect x="260" y="47" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="300" y="62" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="260" y="72" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="300" y="87" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="260" y="97" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="300" y="112" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="260" y="122" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="300" y="137" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="260" y="147" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="300" y="162" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="260" y="172" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="300" y="187" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="260" y="197" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="300" y="212" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+    <rect x="700" y="47" width="90" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="745" y="62" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="72" width="90" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="745" y="87" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="97" width="90" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="745" y="112" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="122" width="90" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="745" y="137" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="147" width="90" height="20" rx="4" fill="rgba(248,81,73,0.15)" stroke="#f85149"/>
+    <text x="745" y="162" textAnchor="middle" fill="#f85149" fontSize="10" fontWeight="700">OPENCLAW</text>
+    <rect x="700" y="172" width="60" height="20" rx="4" fill="rgba(209,153,34,0.15)" stroke="#d29922"/>
+    <text x="730" y="187" textAnchor="middle" fill="#d29922" fontSize="10" fontWeight="700">TIE</text>
+    <rect x="700" y="197" width="80" height="20" rx="4" fill="rgba(88,166,255,0.15)" stroke="#58a6ff"/>
+    <text x="740" y="212" textAnchor="middle" fill="#58a6ff" fontSize="10" fontWeight="700">HERMES</text>
+  </g>
+  <rect x="180" y="235" width="200" height="35" rx="8" fill="rgba(88,166,255,0.1)" stroke="#58a6ff"/>
+  <text x="280" y="258" textAnchor="middle" fill="#58a6ff" fontSize="14" fontWeight="700">Hermes: 8 wins</text>
+  <rect x="480" y="235" width="200" height="35" rx="8" fill="rgba(248,81,73,0.1)" stroke="#f85149"/>
+  <text x="580" y="258" textAnchor="middle" fill="#f85149" fontSize="14" fontWeight="700">OpenClaw: 5 wins</text>
+</svg>
+</div>
+<div className="caption">Fig 5: Category-by-category winner summary across all 14 comparison dimensions.</div>
+
+<div className="hoc-verdict">
+  <div className="verdict-card hermes">
+    <h3 style={{color:'#58a6ff'}}>
+      <img src="/img/hermes-agent-icon.png" className="hoc-icon" alt="" /> Choose Hermes When You...
+    </h3>
+    <ul>
+      <li>Want an agent that genuinely improves over time</li>
+      <li>Prioritize security (zero CVEs, Docker hardened defaults)</li>
+      <li>Need deep memory across months of interactions</li>
+      <li>Want serverless deployment with near-zero idle costs</li>
+      <li>Work with Chinese LLM providers (MiniMax, GLM, Kimi)</li>
+      <li>Are a researcher needing RL training / trajectory generation</li>
+      <li>Want to migrate from OpenClaw (built-in migration tool)</li>
+    </ul>
+  </div>
+  <div className="verdict-card openclaw">
+    <h3 style={{color:'#f85149'}}>🦞 Choose OpenClaw When You...</h3>
+    <ul>
+      <li>Need the broadest possible platform coverage (25+)</li>
+      <li>Want a massive skills ecosystem (13,700+ on ClawHub)</li>
+      <li>Need enterprise support (NVIDIA NemoClaw)</li>
+      <li>Require native Windows support</li>
+      <li>Want companion apps (macOS, iOS, Android)</li>
+      <li>Need multi-agent routing with per-assistant isolation</li>
+      <li>Already have an established OpenClaw deployment</li>
+    </ul>
+  </div>
+</div>
+
+<div className="hoc-card">
+  <div className="hoc-card-title" style={{color:'#d29922'}}>🤝 Or Run Both</div>
+  <p>Since Hermes uses Python and OpenClaw uses Node.js, they don't conflict at runtime. You can route different channels to different agents, use OpenClaw for broad messaging coverage while Hermes handles deep-work tasks that benefit from its learning loop. The <code>hermes claw migrate</code> tool supports gradual migration when you're ready.</p>
+</div>
+
+</section>
+
+<div className="hoc-footer">
+  Hermes Agent vs OpenClaw — Comprehensive Comparison • April 2026<br />
+  Sources: Official documentation, GitHub repos, security research (Koi Security, Sangfor, ARMO, Endor Labs), community analysis
+</div>
+
+</div>
