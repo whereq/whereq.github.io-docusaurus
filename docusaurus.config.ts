@@ -51,7 +51,7 @@ async function createConfig(): Promise<Config> {
         {
           docs: {
             sidebarPath: './sidebars.ts',
-            editUrl: 'https://github.com/whereq/whereq.github.io/tree/main/',
+            editUrl: 'https://github.com/whereq/whereq.github.io-docusaurus/tree/main/',
             remarkPlugins: [remarkMath],
             rehypePlugins: [rehypeKatex],
             showLastUpdateTime: false,
@@ -65,7 +65,7 @@ async function createConfig(): Promise<Config> {
               type: ['rss', 'atom'],
               xslt: true,
             },
-            editUrl: 'https://github.com/whereq/whereq.github.io/tree/main/',
+            editUrl: 'https://github.com/whereq/whereq.github.io-docusaurus/tree/main/',
             remarkPlugins: [remarkMath],
             rehypePlugins: [rehypeKatex],
             onInlineTags: 'warn',
