@@ -123,6 +123,10 @@
   flex-wrap: wrap;
 }
 
+.heroPhone {
+  color: #3fb950;
+}
+
 .heroContact a {
   color: #f5a623;
   text-decoration: none;
