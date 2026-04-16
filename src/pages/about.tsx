@@ -190,7 +190,7 @@ export default function About(): JSX.Element {
                 <p className={styles.heroTitle}>Senior Software Developer &amp; Engineering Leader</p>
                 <p className={styles.heroTagline}>Time can fade everything</p>
                 <div className={styles.heroContact}>
-                  <span>📞 (416) 835-8767</span>
+                  <span className={styles.heroPhone}>📞 (416) ***-****</span>
                   <span>✉️ <a href="mailto:googol.zhang@gmail.com">googol.zhang@gmail.com</a></span>
                 </div>
               </div>
