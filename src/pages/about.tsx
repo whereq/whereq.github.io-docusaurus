@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Layout from '@theme/Layout';
 import { BsYinYang } from 'react-icons/bs';
+import { FaPhone } from 'react-icons/fa';
 import styles from './about.module.css';
 
 const tocItems = [
@@ -190,7 +191,7 @@ export default function About(): JSX.Element {
                 <p className={styles.heroTitle}>Senior Software Developer &amp; Engineering Leader</p>
                 <p className={styles.heroTagline}>Time can fade everything</p>
                 <div className={styles.heroContact}>
-                  <span className={styles.heroPhone}>📞 (416) ***-****</span>
+                  <span><FaPhone className={styles.heroPhone} /> (416) ***-****</span>
                   <span>✉️ <a href="mailto:googol.zhang@gmail.com">googol.zhang@gmail.com</a></span>
                 </div>
               </div>
