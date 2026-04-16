@@ -125,6 +125,8 @@
 
 .heroPhone {
   color: #3fb950;
+  vertical-align: middle;
+  margin-right: 4px;
 }
 
 .heroContact a {
