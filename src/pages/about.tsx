@@ -38,6 +38,44 @@ const projects: Project[] = [
     description: 'Engineering blog & resources',
     url: 'https://www.keytomarvel.com',
   },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" className={styles.projectIcon} style={{ width: 44, height: 44 }}>
+        <defs>
+          <linearGradient id="fd-bgGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#0f172a"/>
+            <stop offset="100%" stopColor="#1e3a5f"/>
+          </linearGradient>
+          <linearGradient id="fd-barGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stopColor="#3b82f6"/>
+            <stop offset="100%" stopColor="#06b6d4"/>
+          </linearGradient>
+          <linearGradient id="fd-flowGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stopColor="#60a5fa"/>
+            <stop offset="100%" stopColor="#22d3ee"/>
+          </linearGradient>
+          <filter id="fd-glow">
+            <feGaussianBlur stdDeviation="2.5" result="blur"/>
+            <feMerge>
+              <feMergeNode in="blur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+        <rect width="128" height="128" rx="28" fill="url(#fd-bgGrad)"/>
+        <rect x="30" y="24" width="14" height="80" rx="7" fill="url(#fd-barGrad)" filter="url(#fd-glow)"/>
+        <rect x="30" y="24" width="52" height="14" rx="7" fill="url(#fd-barGrad)" filter="url(#fd-glow)"/>
+        <rect x="30" y="57" width="40" height="14" rx="7" fill="url(#fd-barGrad)" filter="url(#fd-glow)"/>
+        <path d="M44 108 Q62 96 80 100 Q98 104 108 90" stroke="url(#fd-flowGrad)" strokeWidth="3" strokeLinecap="round" fill="none" opacity="0.6"/>
+        <path d="M44 118 Q64 108 84 112 Q102 116 114 102" stroke="url(#fd-flowGrad)" strokeWidth="2" strokeLinecap="round" fill="none" opacity="0.35"/>
+        <path d="M44 98 Q58 88 72 91" stroke="url(#fd-flowGrad)" strokeWidth="2" strokeLinecap="round" fill="none" opacity="0.5"/>
+        <circle cx="80" cy="100" r="4" fill="#22d3ee" opacity="0.9" filter="url(#fd-glow)"/>
+      </svg>
+    ),
+    name: 'FlowDesk',
+    description: 'Real-time Stock Data',
+    url: 'https://www.flowdesk.top',
+  },
 ];
 
 const experience = [
