@@ -16,26 +16,28 @@ type Project = {
   url: string;
   logo?: string;          // image path
   icon?: React.ReactNode; // react-icons component
+  disabled?: boolean;
 };
 
 const projects: Project[] = [
+  {
+    logo: '/img/whereq-com.png',
+    name: 'WhereQ App Hub',
+    description:
+      'Your all-in-one decentralized web application hub — productivity, education & personal management, all in one place. No cloud storage, no tracking.',
+    url: 'https://www.whereq.ca',
+  },
   {
     logo: '/img/whereq-cc.png',
     name: 'WhereQ — LLM',
     description: 'AI/LLM integrated platform',
     url: 'https://www.whereq.cc',
+    disabled: true,
   },
   {
-    logo: '/img/whereq-com.png',
-    name: 'WhereQ — Real Estate',
-    description: 'Real Estate platform 3.x',
-    url: 'https://www.whereq.com',
-  },
-  {
-    // Backup image: '/img/logo.png' (amber yin-yang PNG)
     icon: <BsYinYang className={styles.projectIcon} />,
     name: 'Key To Marvel',
-    description: 'Engineering blog & resources',
+    description: 'Unified identity & access management platform',
     url: 'https://www.keytomarvel.com',
   },
   {
@@ -73,7 +75,7 @@ const projects: Project[] = [
       </svg>
     ),
     name: 'FlowDesk',
-    description: 'Real-time Stock Data',
+    description: 'Deep, structured & intelligent stock analysis — powered by LLMs, built to help you go beyond surface-level thinking.',
     url: 'https://www.flowdesk.top',
   },
 ];
@@ -269,15 +271,27 @@ export default function About(): JSX.Element {
             <h2 className={styles.sectionTitle}>Projects</h2>
             <div className={styles.projects}>
               {projects.map((p) => (
-                <a key={p.url} href={p.url} target="_blank" rel="noopener noreferrer" className={styles.projectCard}>
-                  {p.icon
-                    ? <span className={styles.projectIconWrapper}>{p.icon}</span>
-                    : <img src={p.logo} alt={p.name} className={styles.projectLogo} />}
-                  <div className={styles.projectInfo}>
-                    <span className={styles.projectName}>{p.name}</span>
-                    <span className={styles.projectDesc}>{p.description}</span>
+                p.disabled ? (
+                  <div key={p.url} className={`${styles.projectCard} ${styles.projectCardDisabled}`}>
+                    {p.icon
+                      ? <span className={styles.projectIconWrapper}>{p.icon}</span>
+                      : <img src={p.logo} alt={p.name} className={styles.projectLogo} />}
+                    <div className={styles.projectInfo}>
+                      <span className={styles.projectName}>{p.name}</span>
+                      <span className={styles.projectDesc}>{p.description}</span>
+                    </div>
                   </div>
-                </a>
+                ) : (
+                  <a key={p.url} href={p.url} target="_blank" rel="noopener noreferrer" className={styles.projectCard}>
+                    {p.icon
+                      ? <span className={styles.projectIconWrapper}>{p.icon}</span>
+                      : <img src={p.logo} alt={p.name} className={styles.projectLogo} />}
+                    <div className={styles.projectInfo}>
+                      <span className={styles.projectName}>{p.name}</span>
+                      <span className={styles.projectDesc}>{p.description}</span>
+                    </div>
+                  </a>
+                )
               ))}
             </div>
           </section>

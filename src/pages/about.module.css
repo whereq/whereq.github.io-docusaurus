@@ -262,6 +262,11 @@
   transform: translateX(4px);
 }
 
+.projectCardDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .projectLogo {
   width: 44px;
   height: 44px;
