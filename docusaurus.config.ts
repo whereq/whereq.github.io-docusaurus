@@ -8,7 +8,7 @@ async function createConfig(): Promise<Config> {
 
   return {
     title: 'WhereQ',
-    tagline: 'Key to Marvel — Engineering Insights by Dazhi Zhang (Tony)',
+    tagline: 'Engineering Insights by Dazhi Zhang (Tony)',
     favicon: 'img/favicon-32x32.png',
 
     url: 'https://www.whereq.com',

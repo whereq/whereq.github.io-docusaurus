@@ -57,7 +57,7 @@ function HeroBanner() {
       <div className="container">
         <h1 className="hero__title">WhereQ</h1>
         <p className="hero__subtitle">
-          Key to Marvel — Engineering insights from the trenches of distributed systems,
+          Engineering insights from the trenches of distributed systems,
           cloud infrastructure, and modern software development.
         </p>
         <div className={styles.buttons}>
