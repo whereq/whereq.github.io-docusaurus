@@ -164,5 +164,9 @@ already by hardcoding dark colours into the light theme.
   when the user asks for the whole flow in one go.
 - `build/` and `.docusaurus/` are gitignored, so `git add .` inside
   `cmd_push` stages only source files.
+- `cmd_push` pushes to `origin/main` even when the working tree is clean, so
+  a release also carries forward the commits made in the earlier steps. It
+  warns "nothing to commit" and still pushes — that is the expected output,
+  not a failure.
 - The release is not reversible by a later commit — the Pages repo's history
   is the published site. Do not deploy unless the user asked in this turn.
