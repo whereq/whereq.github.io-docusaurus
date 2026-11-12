@@ -83,7 +83,18 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     repo: 'CaiJing-Today',
     logo: '/img/apps/caijing.svg',
     accent: '#0b63ce',
-    announcements: [],
+    announcements: [
+      {
+        title: 'CaiJing Today is open source — the board, the schema it reads, and the API in between',
+        url: '/blog/CaiJing-Today-Open-Source-Announcement',
+        date: '2026-11-12',
+      },
+      {
+        title: '财经今日 开源了：界面、它读的库表结构，以及中间的 API',
+        url: '/blog/CaiJing-Today-Open-Source-Announcement-CN',
+        date: '2026-11-12',
+      },
+    ],
   },
   {
     id: 'whereq-com',

@@ -1,0 +1,215 @@
+---
+title: "CaiJing Today is open source — the board, the schema it reads, and the API in between"
+slug: CaiJing-Today-Open-Source-Announcement
+date: 2026-11-12
+tags: [whereq, open-source, finance, news, react, fastapi, postgresql, schema]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="CaiJing Today · 财经今日"
+    sources={{
+      light: '/img/apps/caijing.svg',
+      dark: '/img/apps/caijing.svg',
+    }}
+    width="180"
+  />
+</figure>
+
+## A market day is a lot of tabs
+
+At 09:25 the call auction ends. At 09:30 the tape starts, and for the next
+four hours the Chinese market talks continuously — a central-bank operation, a
+futures point, an index level, a draft regulation, a company filing, an
+analyst note about the difference between two of them.
+
+All of it is real, and all of it is somewhere. But it is not in the same place.
+
+So you end up with six tabs open — a wire service, a quote page, a sector
+heatmap, a calendar, a filing index, a forum — and the tab bar quietly becomes
+the product. Every one of them is a different layout, a different colour
+scheme, a different idea of what matters, and most of them are built for
+somebody else's question.
+
+<!-- truncate -->
+
+I kept wanting a single board. One page where the hot list, the 7×24 newsflash,
+sector heat, the economic calendar and the individual-stock hot list are all
+visible at once, and where every panel answers the same question: *what
+changed, and how much does it matter?*
+
+**财经今日 (CaiJing Today)** is that board. It is Chinese-first, because that
+is the language the market speaks first, with English one click away.
+
+## The board
+
+<p align="center">
+  <img
+    src="/img/apps/caijing-today-home.jpg"
+    alt="财经今日 in dark mode — the hot ranking on the left with heat bars, the editorial picks and index sparklines in the middle, the individual-stock hot list below them, and the 7x24 newsflash, economic calendar and global market quotes on the right"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <sub>Every panel on the home board. On the left the TOP 50 hot ranking with
+  its 1-hour / 24-hour / week / month windows and heat bars. In the middle the
+  editorial picks, the index sparklines and the individual-stock hot list. On
+  the right the 7×24 newsflash, the economic calendar and the global market
+  quotes. The strip across the top scrolls the live quote tape.</sub>
+</p>
+
+<p align="center">
+  <sub>This is the synthetic demo dataset that ships with the repository —
+  every headline, index level and ticker in it is invented and marked as
+  such.</sub>
+</p>
+
+Open it and the shape is deliberately dense. A quote strip scrolls along the
+top. Below that, three columns of panels, each one a window onto the same
+database, none of them a summary of the others.
+
+- **热榜 / TOP 50** — headlines ranked by heat, with a window selector. The
+  heat score is not editorial judgement; it is computed from publication time,
+  the confidence of the analysis attached to the item, and how strong its
+  sentiment is.
+- **7×24 快讯** — the newsflash. Short, timestamped, and it keeps its own
+  rhythm while you read, so an article you opened five minutes ago still has
+  the tape beside it.
+- **个股热榜** — the individual-stock hot list, with its own ranking.
+- **分类导航** — twelve categories: 宏观, 股市, 美股, 债券, 外汇, 大宗商品, 加密,
+  房产, 科技, 公司, 政策, 观点. They are not a hand-made taxonomy — each item
+  is classified from its signal type, sectors, region and tags, and you can
+  disagree with the result by hand.
+- **经济日历** — the day's scheduled releases, with an importance rating.
+- **数据图表 / 行业板块 / 加密市场 / 热搜关键词** — sparklines, sector heat with
+  capital inflow, the crypto board, and what people are searching for.
+
+And the whole thing is in two languages, with the toggle in the header. The
+Chinese is not a translation of the English — the Chinese is the original
+layout, and English was added beside it.
+
+<p align="center">
+  <img
+    src="/img/apps/caijing-today-home-light.jpg"
+    alt="财经今日 in light mode — the same home board with a light theme"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <sub>The light theme. The board is dark by default and remembers your
+  choice.</sub>
+</p>
+
+## The honest technical note
+
+- **Frontend** — React 19, TypeScript, Vite, TanStack Query, i18next. Strict
+  types, and 55 tests.
+- **Backend** — FastAPI, SQLAlchemy 2 over asyncpg, Pydantic. **Read-only**:
+  the service never writes to the database it reads.
+- **Database** — PostgreSQL 17. Fifteen tables and two views, published as
+  [`docs/SCHEMA.sql`](https://github.com/whereq/CaiJing-Today/blob/main/docs/SCHEMA.sql).
+- **API** — seventeen endpoints under `/api/v1`, all of them reads.
+- **Licence** — MIT, for the whole repository.
+- **Tests** — 25 backend, 55 frontend, and four CI gates: the backend suite, a
+  schema job that applies the contract to a real PostgreSQL and checks the ORM
+  mirror against it, the frontend suite, and a Docker build of all four images.
+
+**This post is not the documentation.** The documentation is the repository:
+the schema contract, the setup guide, the data-source rules and the test
+matrix. I would rather you read those than take my word for it.
+
+👉 **[github.com/whereq/CaiJing-Today](https://github.com/whereq/CaiJing-Today)**
+
+To run it:
+
+```bash
+git clone https://github.com/whereq/CaiJing-Today.git
+cd CaiJing-Today
+
+cp docker/.env.example docker/.env
+docker compose -f docker/docker-compose.yml up -d --build
+```
+
+Then open `http://localhost:8080`. That is the whole stack — PostgreSQL 17,
+the schema contract, the demo data, the API and the frontend. The API is on
+`http://localhost:8000`, with interactive documentation at `/docs`.
+
+**You do not need any keys to build, test or run it.** The defaults in
+`docker/.env.example` are local development credentials, not secrets, and the
+site works with no identity provider at all: browsing is public, so the UI
+stays in anonymous mode and the sign-in control is hidden.
+
+## Why it is in the world now
+
+Because the collector is the part that is *not* open, and the schema is the
+part that is.
+
+This repository ships the schema as an explicit contract — 15 tables, two
+views, the column types, the unique constraints, the snapshot discipline, the
+UTC rules — and a FastAPI service that reads it and nothing else. The
+collector that fills those tables in production is a separate component.
+
+I think that split is the useful bit. The schema is not a dump of somebody
+else's database; it is the agreement between two programs that are allowed to
+be written by different people. If you want your own collector — your own
+sources, your own cadence, your own idea of what a headline is — you write a
+component that inserts into those tables, and the API and the interface serve
+it with no code changes.
+
+That is the whole extension point, and it is documented in
+[docs/data-sources.md](https://github.com/whereq/CaiJing-Today/blob/main/docs/data-sources.md):
+what `published_at` means, why the snapshot tables take a new `as_of` instead
+of an update, which category ids are legal, and what the heat score is made
+of.
+
+**One warning, because it matters.** The MIT licence covers **the code**. It
+says nothing about the data you put into the database. The headlines, quotes
+and filings a collector retrieves belong to the organisations that published
+them, each under its own terms, and a financial wire, a free public-data
+portal and a market-data vendor do not grant the same rights. If you connect
+real data, complying with those terms is your job, not this project's.
+
+And to be plain about the demo dataset: every row in it is invented. The
+headlines are prefixed 【示例】 / `[sample]`, the prices are fabricated, the
+calendar entries are placeholders, the links use the reserved `.invalid` TLD,
+and the hot-stock list uses `DEMO-001` … `DEMO-010` rather than real tickers.
+That is deliberate. A real ticker next to a fabricated heat score reads as
+investment advice.
+
+## Credits
+
+This app stands on the work of other people, and it would be dishonest to
+pretend otherwise.
+
+- **[Polygon.io](https://polygon.io)** — market data. The quote strip, the
+  index levels, the charts.
+- **[GDELT](https://www.gdeltproject.org/)** — the global news index behind
+  the `gdelt` source id.
+- **[SEC EDGAR](https://www.sec.gov/edgar)** — the US filing index behind
+  the `sec_edgar` source id.
+- **东方财富 (Eastmoney)** — the 全球快讯 and 财经早餐 feeds the interface
+  credits as `akshare_em_global` and `akshare_em_cjzc`.
+- **财经 RSS 聚合** — the finance RSS feeds behind the `rss` source id.
+- **[React](https://react.dev)**, **[Vite](https://vite.dev)**,
+  **[TanStack Query](https://tanstack.com/query)**,
+  **[i18next](https://www.i18next.com)**,
+  **[FastAPI](https://fastapi.tiangolo.com)**,
+  **[SQLAlchemy](https://www.sqlalchemy.org)**,
+  **[Pydantic](https://docs.pydantic.dev)**,
+  **[PostgreSQL](https://www.postgresql.org)**,
+  **[nginx](https://nginx.org)** and **[Docker](https://www.docker.com)** — the
+  stack this repository is built on. The full list is in `NOTICE`.
+
+The demo dataset is also the work of nobody in particular, which is exactly
+the point: it is synthetic, it says so, and it exists so that a fresh
+checkout has something to show.
+
+---
+
+*If you write a collector against the schema — or fork the board for a
+market this one does not cover — I would genuinely like to hear about it.*

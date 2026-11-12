@@ -188,6 +188,18 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'caijing': [
       {
+        version: 'v1.0.1',
+        date: '2026-11-12',
+        title: 'Load in anonymous mode when no identity provider is configured',
+        url: tag('CaiJing-Today', 'v1.0.1'),
+      },
+      {
+        version: 'v1.0.0',
+        date: '2026-11-11',
+        title: 'The first public release: a bilingual finance-news board — a FastAPI read API over a published PostgreSQL schema contract, and a React 19 single-page app',
+        url: tag('CaiJing-Today', 'v1.0.0'),
+      },
+      {
         version: 'v1.0.0.6',
         date: '2026-11-08',
         title: 'Run the revision the deploy just pulled, not the one it started with',
