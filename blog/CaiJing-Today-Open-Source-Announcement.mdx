@@ -48,45 +48,44 @@ is the language the market speaks first, with English one click away.
 
 <p align="center">
   <img
-    src="/img/apps/caijing-today-home.jpg"
-    alt="财经今日 in dark mode — the hot ranking on the left with heat bars, the editorial picks and index sparklines in the middle, the individual-stock hot list below them, and the 7x24 newsflash, economic calendar and global market quotes on the right"
+    src="/img/apps/caijing-today-live-en.jpg"
+    alt="CaiJing Today running at caijing.today with live data — the hot ranking on the left with heat bars, the editorial picks and market charts in the middle, the individual-stock hot list below them, and the live newsflash, economic calendar and global market quotes on the right"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <sub>Every panel on the home board. On the left the TOP 50 hot ranking with
-  its 1-hour / 24-hour / week / month windows and heat bars. In the middle the
-  editorial picks, the index sparklines and the individual-stock hot list. On
-  the right the 7×24 newsflash, the economic calendar and the global market
-  quotes. The strip across the top scrolls the live quote tape.</sub>
-</p>
-
-<p align="center">
-  <sub>This is the synthetic demo dataset that ships with the repository —
-  every headline, index level and ticker in it is invented and marked as
-  such.</sub>
+  <sub>This is the running site — <strong>caijing.today</strong> — with live data.
+  On the left the TOP 50 hot ranking with its 1-hour / 24-hour / week / month
+  windows and heat bars. In the middle the editorial picks, the market charts
+  and the individual-stock hot list. On the right the 7×24 newsflash, the
+  economic calendar and the global market quotes. The strip across the top
+  scrolls the live quote tape.</sub>
 </p>
 
 Open it and the shape is deliberately dense. A quote strip scrolls along the
 top. Below that, three columns of panels, each one a window onto the same
 database, none of them a summary of the others.
 
-- **热榜 / TOP 50** — headlines ranked by heat, with a window selector. The
-  heat score is not editorial judgement; it is computed from publication time,
-  the confidence of the analysis attached to the item, and how strong its
-  sentiment is.
-- **7×24 快讯** — the newsflash. Short, timestamped, and it keeps its own
-  rhythm while you read, so an article you opened five minutes ago still has
-  the tape beside it.
-- **个股热榜** — the individual-stock hot list, with its own ranking.
-- **分类导航** — twelve categories: 宏观, 股市, 美股, 债券, 外汇, 大宗商品, 加密,
-  房产, 科技, 公司, 政策, 观点. They are not a hand-made taxonomy — each item
-  is classified from its signal type, sectors, region and tags, and you can
-  disagree with the result by hand.
-- **经济日历** — the day's scheduled releases, with an importance rating.
-- **数据图表 / 行业板块 / 加密市场 / 热搜关键词** — sparklines, sector heat with
-  capital inflow, the crypto board, and what people are searching for.
+- **Hot Ranking (热榜 / TOP 50)** — headlines ranked by heat, with a window
+  selector. The heat score is not editorial judgement; it is computed from
+  publication time, the confidence of the analysis attached to the item, and
+  how strong its sentiment is.
+- **Live Newsflash (7×24 快讯)** — the newsflash. Short, timestamped, and it
+  keeps its own rhythm while you read, so an article you opened five minutes
+  ago still has the tape beside it.
+- **Hot Stocks (个股热榜)** — the individual-stock hot list, with its own
+  ranking.
+- **Categories (分类导航)** — twelve categories: 宏观, 股市, 美股, 债券, 外汇,
+  大宗商品, 加密, 房产, 科技, 公司, 政策, 观点. They are not a hand-made
+  taxonomy — each item is classified from its signal type, sectors, region and
+  tags, and you can disagree with the result by hand.
+- **Economic Calendar (经济日历)** — the day's scheduled releases, with an
+  importance rating.
+- **Market Data / Trending / Global Markets (数据图表 / 热搜关键词 / 全球市场)** —
+  the index sparklines, the trending keywords, and the global quote board.
+- **Sector Heat / Crypto Market (行业板块 / 加密市场)** — the sector heatmap with
+  capital inflow, and the crypto board with coins, chains and TVL.
 
 And the whole thing is in two languages, with the toggle in the header. The
 Chinese is not a translation of the English — the Chinese is the original
@@ -94,15 +93,15 @@ layout, and English was added beside it.
 
 <p align="center">
   <img
-    src="/img/apps/caijing-today-home-light.jpg"
-    alt="财经今日 in light mode — the same home board with a light theme"
+    src="/img/apps/caijing-today-live-en-light.jpg"
+    alt="CaiJing Today running at caijing.today in light mode — the same home board with a light theme"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <sub>The light theme. The board is dark by default and remembers your
-  choice.</sub>
+  <sub>The same board in the light theme. The board is dark by default; the
+  toggle in the header switches it, and the choice is remembered.</sub>
 </p>
 
 ## The honest technical note
@@ -181,6 +180,21 @@ and the hot-stock list uses `DEMO-001` … `DEMO-010` rather than real tickers.
 That is deliberate. A real ticker next to a fabricated heat score reads as
 investment advice.
 
+<p align="center">
+  <img
+    src="/img/apps/caijing-today-home.jpg"
+    alt="the same home board running on the repository's synthetic demo dataset — every headline marked 【示例】 and every ticker in the hot list reading DEMO-001 to DEMO-010"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <sub>This is what a fresh checkout gives you: the same board, running on the
+  synthetic demo dataset. Every headline is marked 【示例】, every ticker reads
+  DEMO-001 … DEMO-010, and nothing in it is real. The interface is
+  Chinese-first, as it is on the live site.</sub>
+</p>
+
 ## Credits
 
 This app stands on the work of other people, and it would be dishonest to
@@ -203,7 +217,7 @@ pretend otherwise.
   **[Pydantic](https://docs.pydantic.dev)**,
   **[PostgreSQL](https://www.postgresql.org)**,
   **[nginx](https://nginx.org)** and **[Docker](https://www.docker.com)** — the
-  stack this repository is built on. The full list is in `NOTICE`.
+  stack this repository is built on. The dependency list is in `NOTICE`.
 
 The demo dataset is also the work of nobody in particular, which is exactly
 the point: it is synthetic, it says so, and it exists so that a fresh
