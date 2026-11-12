@@ -1,17 +1,18 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import { NEWS_SECTIONS, AppCategory, Release } from '../data/news';
+import { ANNOUNCEMENT_COUNT, AppCategory, Announcement, NEWS_SECTIONS } from '../data/news';
 import styles from './news.module.css';
 
 /**
- * `2026-11-08` → `Nov 8, 2026`; `2026-11` → `Nov 2026`.
+ * `2026-11-08` → `Nov 8, 2026`.
  *
  * The locale is pinned so the server-rendered markup and the hydrated
  * client markup are byte-identical — a mismatch would trip React's
  * hydration check.
  */
 function formatDate(value: string): string {
-  const match = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(value);
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
   if (!match) {
     return value;
   }
@@ -20,51 +21,76 @@ function formatDate(value: string): string {
     'en-US',
     {month: 'short'},
   );
-  return day ? `${label} ${Number(day)}, ${year}` : `${label} ${year}`;
+  return `${label} ${Number(day)}, ${year}`;
+}
+
+/** An in-site path renders as a Link; anything else as a plain anchor. */
+function ArticleLink({url, children}: {url: string; children: React.ReactNode}) {
+  if (url.startsWith('/')) {
+    return <Link to={url}>{children}</Link>;
+  }
+  return (
+    <a href={url} target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  );
 }
 
 function AppLogo({app, size}: {app: AppCategory; size: number}) {
   return (
     <span
       className={styles.logoTile}
-      style={{width: size, height: size, borderRadius: Math.round(size * 0.22)}}
+      style={{width: size, height: size}}
       aria-hidden="true">
       <img src={app.logo} alt="" className={styles.logo} width={size} height={size} />
     </span>
   );
 }
 
-function ReleaseTable({app}: {app: AppCategory}) {
+function AnnouncementTable({app}: {app: AppCategory}) {
+  if (app.announcements.length === 0) {
+    return (
+      <div className={styles.tableWrap}>
+        <table className={styles.table}>
+          <thead>
+            <tr>
+              <th scope="col">Announcement</th>
+              <th scope="col" className={styles.dateCol}>
+                Published
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colSpan={2} className={styles.emptyCell}>
+                No announcements yet.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+
   return (
     <div className={styles.tableWrap}>
       <table className={styles.table}>
         <thead>
           <tr>
-            <th scope="col">Release</th>
+            <th scope="col">Announcement</th>
             <th scope="col" className={styles.dateCol}>
-              Released
+              Published
             </th>
           </tr>
         </thead>
         <tbody>
-          {app.releases.map((release: Release) => (
-            <tr key={`${app.id}-${release.version}-${release.date}-${release.title}`}>
-              <td>
-                <span className={styles.row}>
-                  <span className={styles.version}>{release.version}</span>
-                  <span className={styles.title}>
-                    {release.url ? (
-                      <a href={release.url} target="_blank" rel="noopener noreferrer">
-                        {release.title}
-                      </a>
-                    ) : (
-                      release.title
-                    )}
-                  </span>
-                </span>
+          {app.announcements.map((announcement: Announcement) => (
+            <tr key={`${app.id}-${announcement.url}-${announcement.date}`}>
+              <td className={styles.title}>
+                <ArticleLink url={announcement.url}>{announcement.title}</ArticleLink>
               </td>
               <td className={styles.dateCol}>
-                <time dateTime={release.date}>{formatDate(release.date)}</time>
+                <time dateTime={announcement.date}>{formatDate(announcement.date)}</time>
               </td>
             </tr>
           ))}
@@ -76,58 +102,53 @@ function ReleaseTable({app}: {app: AppCategory}) {
 
 function AppSection({app}: {app: AppCategory}) {
   return (
-    <section className={styles.section} aria-labelledby={app.id}>
-      <h2 className={styles.appHeading} id={app.id}>
+    <section className={styles.app} aria-labelledby={app.id}>
+      <h3 className={styles.appHeading} id={app.id}>
         <AppLogo app={app} size={44} />
-        <span className={styles.appHeadingText}>
-          <span className={styles.appName}>
-            {app.name}
-            <a
-              className={styles.anchor}
-              href={`#${app.id}`}
-              aria-label={`Permalink to ${app.name}`}>
-              #
-            </a>
+        <span className={styles.appHeadingMain}>
+          <span className={styles.appNameRow}>
+            <span className={styles.appName}>
+              {app.name}
+              <a
+                className={styles.anchor}
+                href={`#${app.id}`}
+                aria-label={`Permalink to ${app.name}`}>
+                #
+              </a>
+            </span>
+            <span className={styles.appLinks}>
+              {app.url && (
+                <a
+                  href={app.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`${styles.appLink} ${styles.appLinkPrimary}`}>
+                  Open app
+                </a>
+              )}
+              {app.repo && (
+                <a
+                  href={`https://github.com/whereq/${app.repo}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.appLink}>
+                  Source
+                </a>
+              )}
+            </span>
           </span>
           <span className={styles.appTagline}>{app.tagline}</span>
         </span>
-        <span className={styles.appLinks}>
-          <a href={app.url} target="_blank" rel="noopener noreferrer" className={styles.appLink}>
-            Open app
-          </a>
-          <a
-            href={`https://github.com/whereq/${app.repo}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.appLink}>
-            Source
-          </a>
-        </span>
-      </h2>
-      <ReleaseTable app={app} />
+      </h3>
+      <AnnouncementTable app={app} />
     </section>
   );
 }
 
 export default function News(): React.JSX.Element {
-  const [activeId, setActiveId] = useState(NEWS_SECTIONS[0]?.id ?? '');
+  const appIds = NEWS_SECTIONS.flatMap((section) => section.apps.map((app) => app.id));
+  const [activeId, setActiveId] = useState(appIds[0] ?? '');
   const observerRef = useRef<IntersectionObserver | null>(null);
-
-  const totalReleases = useMemo(
-    () => NEWS_SECTIONS.reduce((sum, app) => sum + app.releases.length, 0),
-    [],
-  );
-
-  const latest = useMemo(() => {
-    let newest: {app: AppCategory; release: Release} | undefined;
-    for (const app of NEWS_SECTIONS) {
-      const release = app.releases[0];
-      if (release && (!newest || release.date > newest.release.date)) {
-        newest = {app, release};
-      }
-    }
-    return newest;
-  }, []);
 
   useEffect(() => {
     observerRef.current = new IntersectionObserver(
@@ -141,7 +162,7 @@ export default function News(): React.JSX.Element {
       {rootMargin: '-15% 0px -75% 0px'},
     );
 
-    NEWS_SECTIONS.forEach(({id}) => {
+    appIds.forEach((id) => {
       const el = document.getElementById(id);
       if (el) {
         observerRef.current?.observe(el);
@@ -149,12 +170,14 @@ export default function News(): React.JSX.Element {
     });
 
     return () => observerRef.current?.disconnect();
-  }, []);
+  }, [appIds.join(',')]);
+
+  const appCount = NEWS_SECTIONS.reduce((sum, section) => sum + section.apps.length, 0);
 
   return (
     <Layout
       title="News"
-      description="Release announcements across the WhereQ Universe — every application, newest first.">
+      description="Announcements across the WhereQ Universe — every application, newest first.">
       <main className={styles.layout}>
         <div className={styles.content}>
           {/* ── Hero ─────────────────────────────────────────── */}
@@ -162,40 +185,46 @@ export default function News(): React.JSX.Element {
             <p className={styles.eyebrow}>WhereQ Universe</p>
             <h1 className={styles.heroTitle}>News</h1>
             <p className={styles.heroSubtitle}>
-              Release announcements from every application in the universe —
-              what shipped, and when. Each entry is the application&rsquo;s own
-              release note, read straight from its repository.
+              What shipped across the universe, written up as announcements —
+              one article per release, with the date it was published.
             </p>
 
             <dl className={styles.stats}>
               <div className={styles.stat}>
                 <dt>Applications</dt>
-                <dd>{NEWS_SECTIONS.length}</dd>
+                <dd>{appCount}</dd>
               </div>
               <div className={styles.stat}>
-                <dt>Release notes</dt>
-                <dd>{totalReleases}</dd>
+                <dt>Open source</dt>
+                <dd>
+                  {NEWS_SECTIONS[0].apps.length}
+                  <span className={styles.statMeta}>of {appCount}</span>
+                </dd>
               </div>
-              {latest && (
-                <div className={styles.stat}>
-                  <dt>Most recent</dt>
-                  <dd>
-                    <a href={`#${latest.app.id}`}>{latest.release.version}</a>
-                    <span className={styles.statMeta}>{formatDate(latest.release.date)}</span>
-                  </dd>
-                </div>
-              )}
+              <div className={styles.stat}>
+                <dt>Announcements</dt>
+                <dd>{ANNOUNCEMENT_COUNT}</dd>
+              </div>
             </dl>
           </header>
 
-          {/* ── Categories ───────────────────────────────────── */}
-          {NEWS_SECTIONS.map((app) => (
-            <AppSection key={app.id} app={app} />
+          {/* ── Sections ─────────────────────────────────────── */}
+          {NEWS_SECTIONS.map((section) => (
+            <section className={styles.section} key={section.id} aria-labelledby={section.id}>
+              <h2 className={styles.sectionTitle} id={section.id}>
+                {section.title}
+              </h2>
+              <p className={styles.sectionBlurb}>{section.blurb}</p>
+              {section.apps.map((app) => (
+                <AppSection key={app.id} app={app} />
+              ))}
+            </section>
           ))}
 
           <footer className={styles.pageFooter}>
-            Release notes are collected from each application&rsquo;s repository —
-            the version, the date and the wording are the application&rsquo;s own.
+            Announcements are written here, in the WhereQ docs hub. Each one
+            describes what an application shipped — the release tags and the
+            commit history stay in the application&rsquo;s own repository.
           </footer>
         </div>
 
@@ -203,21 +232,28 @@ export default function News(): React.JSX.Element {
         <aside className={styles.tocAside}>
           <nav className={styles.toc}>
             <p className={styles.tocTitle}>Applications</p>
-            <ul className={styles.tocList}>
-              {NEWS_SECTIONS.map((app) => (
-                <li key={app.id}>
-                  <a
-                    href={`#${app.id}`}
-                    className={`${styles.tocLink} ${
-                      activeId === app.id ? styles.tocLinkActive : ''
-                    }`}>
-                    <AppLogo app={app} size={18} />
-                    <span className={styles.tocLabel}>{app.name}</span>
-                    <span className={styles.tocCount}>{app.releases.length}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
+            {NEWS_SECTIONS.map((section) => (
+              <div className={styles.tocGroup} key={section.id}>
+                <p className={styles.tocGroupTitle}>{section.title}</p>
+                <ul className={styles.tocList}>
+                  {section.apps.map((app) => (
+                    <li key={app.id}>
+                      <a
+                        href={`#${app.id}`}
+                        className={`${styles.tocLink} ${
+                          activeId === app.id ? styles.tocLinkActive : ''
+                        }`}>
+                        <AppLogo app={app} size={18} />
+                        <span className={styles.tocLabel}>{app.name}</span>
+                        {app.announcements.length > 0 && (
+                          <span className={styles.tocCount}>{app.announcements.length}</span>
+                        )}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </nav>
         </aside>
       </main>

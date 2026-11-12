@@ -32,7 +32,20 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ifm-color-emphasis-600);
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.75rem;
+}
+
+.tocGroup {
+  margin-bottom: 1rem;
+}
+
+.tocGroupTitle {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.25rem;
 }
 
 .tocList {
@@ -85,7 +98,7 @@
 
 /* ── Hero ───────────────────────────────────────────────────── */
 .hero {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--ifm-hr-border-color);
 }
@@ -147,44 +160,67 @@
   gap: 0.5rem;
 }
 
-.stat dd a {
-  color: var(--ifm-color-primary);
-  text-decoration: none;
-  border-bottom: 1px solid var(--ifm-color-primary) !important;
-}
-
 .statMeta {
   font-size: 0.78rem;
   font-weight: 500;
   color: var(--ifm-color-emphasis-700);
 }
 
-/* ── App category ───────────────────────────────────────────── */
+/* ── Section ────────────────────────────────────────────────── */
 .section {
   margin-bottom: 3.5rem;
   scroll-margin-top: 80px;
 }
 
+.sectionTitle {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.35rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-primary);
+}
+
+.sectionBlurb {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 1.75rem;
+  line-height: 1.6;
+}
+
+/* ── App ────────────────────────────────────────────────────── */
+.app {
+  margin-bottom: 2.75rem;
+  scroll-margin-top: 80px;
+}
+
 .appHeading {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.9rem;
-  flex-wrap: wrap;
-  margin: 0 0 1rem;
+  margin: 0 0 0.9rem;
   padding-bottom: 0.6rem;
   border-bottom: 1px solid var(--ifm-hr-border-color);
 }
 
-.appHeadingText {
+.appHeadingMain {
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0.15rem;
   min-width: 0;
   flex: 1;
 }
 
+.appNameRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .appName {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--ifm-heading-color);
   line-height: 1.3;
@@ -217,20 +253,35 @@
   flex-shrink: 0;
 }
 
+/*
+ * metroUI: radius xs is 2px — the whereq family standard, the same radius
+ * the chips, tags and scrollbars use across the universe.
+ */
 .appLink {
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 3px 10px;
-  border-radius: 999px;
+  padding: 4px 12px;
+  border-radius: 2px;
   border: 1px solid var(--ifm-color-primary);
+  background: transparent;
   color: var(--ifm-color-primary);
   text-decoration: none !important;
   white-space: nowrap;
-  transition: background 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .appLink:hover {
   background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+}
+
+.appLinkPrimary {
+  background: var(--ifm-color-primary);
+  color: #161b22;
+}
+
+.appLinkPrimary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #161b22;
 }
 
 /* ── Logo tile ──────────────────────────────────────────────── */
@@ -244,6 +295,7 @@
      light mode. */
   background: #f1f3f5;
   border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 2px;
   overflow: hidden;
 }
 
@@ -254,7 +306,7 @@
   display: block;
 }
 
-/* ── Release table ──────────────────────────────────────────── */
+/* ── Announcement table ─────────────────────────────────────── */
 .tableWrap {
   overflow-x: auto;
   border: 1px solid var(--ifm-table-border-color);
@@ -307,25 +359,6 @@
   color: var(--ifm-font-color-base);
 }
 
-.row {
-  display: flex;
-  align-items: baseline;
-  gap: 0.65rem;
-}
-
-.version {
-  flex-shrink: 0;
-  font-family: var(--ifm-font-family-monospace);
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: var(--ifm-color-primary);
-  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
-  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 30%, transparent);
-  border-radius: 4px;
-  padding: 1px 7px;
-  white-space: nowrap;
-}
-
 .title {
   min-width: 0;
 }
@@ -340,6 +373,12 @@
 .title a:hover {
   color: var(--ifm-color-primary);
   border-bottom-color: var(--ifm-color-primary) !important;
+}
+
+.emptyCell {
+  color: var(--ifm-color-emphasis-600) !important;
+  font-style: italic;
+  font-size: 0.83rem;
 }
 
 .dateCol {
@@ -390,11 +429,6 @@
 
   .table {
     font-size: 0.82rem;
-  }
-
-  .row {
-    flex-direction: column;
-    gap: 0.25rem;
   }
 
   .dateCol {
