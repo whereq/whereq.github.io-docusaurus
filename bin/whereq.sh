@@ -131,14 +131,16 @@ cmd_push() {
   git config user.email "$GIT_EMAIL"
 
   if [[ -z "$(git status --porcelain)" ]]; then
-    warn "Nothing to commit — working tree is clean."
-    return 0
+    warn "Working tree is clean — nothing to commit."
+  else
+    log "Staging all changes…"
+    git add .
+    log "Committing: $msg"
+    git commit -m "$msg"
   fi
 
-  log "Staging all changes…"
-  git add .
-  log "Committing: $msg"
-  git commit -m "$msg"
+  # Push even when there was nothing to commit: earlier commits may still be
+  # waiting to reach origin.
   log "Pushing to origin/main…"
   git push origin main
   ok "Source pushed to whereq.github.io-docusaurus (main)"
