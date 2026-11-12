@@ -1,0 +1,222 @@
+---
+title: "whereq.com is open source — the map, the crawler, and everything it reads"
+slug: WhereQ-com-Open-Source-Announcement
+date: 2026-11-12
+tags: [whereq, open-source, map, crawler, whereq-cloud, react, fastapi, postgis]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="whereq.com"
+    sources={{
+      light: '/img/apps/whereq-com.svg',
+      dark: '/img/apps/whereq-com.svg',
+    }}
+    width="220"
+  />
+</figure>
+
+## A pin is a very small sentence
+
+Stand on a street in Toronto and look at the address in front of you. A map
+gives you one claim about it: *there is a pin here*. A coffee shop. A hospital.
+A school. Maybe a parking garage.
+
+But the place itself is a pile of claims, and the pin is the least interesting
+one of them.
+
+Which school catchment is that address in? Can I walk to a library, and which
+one? Is the fuel station on the corner charging $1.42 or $1.79? Is that
+building inside a ward, or inside a neighbourhood, or in a ward *and* a
+neighbourhood? Did anything happen on this street last week?
+
+<!-- truncate -->
+
+Every one of those answers is a piece of data, and every one of them lives
+somewhere else. The school boundaries are in one system, the fuel prices in
+another, the administrative outlines in a third, the local news in a fourth.
+The map you are looking at is the *result* of all of them agreeing.
+
+## So I built the part that agrees
+
+The thing that surprised me while building it was how much of the work was not
+the map at all.
+
+Drawing pins is the easy half. The hard half is that a map is a *join*. Every
+layer needs its own key, its own licence, its own rate limit, its own idea of
+what a place is — and a POI (a point at an address) is not the same thing as
+an administrative area (a polygon that contains an address), no matter how
+casually you can slide one into the other.
+
+So the first version of this app had three different ingestion scripts, each
+one written for its own dataset, each one holding its own API key, each one
+breaking on its own schedule.
+
+That is the shape of the problem, and it is a shape almost every application
+in the world has: *ten apps, ten scrapers, ten nightly failures*.
+
+The fix was to make the retrieval a **layer of its own** — one process, one
+cadence, one place where the outside world is allowed to enter the app.
+
+I call it the crawler, and it is the part of this repository I am most pleased
+with.
+
+## The crawler
+
+Everything on the map arrives by being crawled:
+
+- **whereq.cloud** — fuel stations and their live prices, the aggregated price
+  series, and the administrative geography: provinces, regions, municipalities,
+  cities, towns, wards and neighbourhoods, with their real outlines.
+- **OpenStreetMap** — the places around you. Coffee, food, parking, pharmacies,
+  walk-in clinics, plazas, libraries.
+- **RSS and JSON feeds** — the local news, events, stories and topics that you
+  can switch on in the top-right corner of the map.
+
+One account, one key, one rate limit. The whereq.cloud API allows 30 requests
+a minute, so the two whereq.cloud crawls share a single throttle — two
+independent limiters would each allow 30/min and would throttle each other
+into 429s. It rotates through *coverage targets* round-robin (a country, a
+province, a city, a map viewport) so a single tick never asks the upstream for
+a whole continent, and a target that failed is retried on the next tick rather
+than waiting out its interval.
+
+The content crawler is the same idea with a parser attached: it discovers
+items from the registered sources, normalizes them, extracts the location,
+geocodes it through a provider chain, classifies them, and upserts them. A
+feed that goes dark records `last_status='error'` and the crawl carries on.
+
+## whereq.com
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-com-map-screenshot.jpg"
+    alt="whereq.com over downtown Toronto — the neighbourhood panel on the left with local essentials and quick categories, the layer switches below it, and the map itself full of crawled places"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <sub>Downtown Toronto. On the left: the neighbourhood guide, the local
+  essentials, the quick categories. Below that: the layers — administrative
+  areas, hazards, curated guides, friends, daily routes. Top right: the
+  content the crawler pulled from the feeds.</sub>
+</p>
+
+**whereq.com** is a map-centric location platform. Open it and you see the
+places around you; open any one of them and you get a proper page — address,
+hours, categories, photos, the route to it, and the notes people left.
+
+Some of what it does today:
+
+- **Places and nearby** — a POI map, plus a nearby search that merges
+  everything within a radius into one ranked list.
+- **Place cards** — a full page per place, written by people, not by a feed.
+- **Schools** — every school in the coverage area with its catchment boundary,
+  drawn on the map.
+- **Hazards** — environmental and infrastructure hazards, mapped and reported.
+- **Fuel** — stations and live prices, crawled from whereq.cloud.
+- **Geography** — the areas that *contain* the places, with real outlines.
+- **Routes, friends, saved places, notifications** — the ordinary social parts
+  of a map app.
+- **English, French and Simplified Chinese**, throughout.
+
+### The honest technical note
+
+- **Frontend** — React 18, TypeScript, Vite, Tailwind. The typecheck is
+  strict (`noUnusedLocals`, `noUnusedParameters`), and it is the only real
+  gate the frontend has.
+- **Backend** — FastAPI, SQLAlchemy, Pydantic, 18 Alembic migrations.
+- **Database** — PostgreSQL 17 with PostGIS. Real geometry columns, a GiST
+  index, and point-in-polygon tests that are not fooled by a simplified edge.
+- **Licence** — MIT, for the whole repository, including the crawler.
+- **Tests** — 235 of them, and they need no database and no network. The
+  handful that want a live Postgres are opt-in.
+
+**This post is not the documentation.** The documentation is the repository:
+the setup guide, the crawler guide, the schema, the data sources and their
+licences. I would rather you read those than take my word for it.
+
+👉 **[github.com/whereq/WhereQ-com](https://github.com/whereq/WhereQ-com)**
+
+To run it:
+
+```sh
+git clone https://github.com/whereq/WhereQ-com.git
+cd WhereQ-com
+cp docker/.env.example docker/.env
+# set POSTGRES_PASSWORD and SECRET_KEY
+docker compose -f docker/docker-compose.yml up -d --build
+```
+
+That is the whole stack — PostgreSQL with PostGIS, the migrations, the API, the
+crawler and the nginx-served frontend. It comes up on `localhost:3743`.
+
+**You do not need any keys to build, test or run it.** Leave the OIDC provider
+empty and it runs in anonymous mode with the sign-in control hidden. Leave the
+whereq.cloud key empty and the fuel panels stay empty and the geography feed
+falls back to its public tier. The Google Maps key only decides whether the
+map itself draws.
+
+## Why it is in the world now
+
+The repository has **one commit**.
+
+That is not an accident, and it is not a fresh start from a template. I rewrote
+the history before publishing it, because the history of this app contained
+things that were never meant to leave my machine — credential literals, an
+experiment with school data whose licence forbids redistribution, notes to
+myself about a deployment. A git history is a permanent public record, and
+deleting a line after the fact does not un-burn it.
+
+So the history was rewritten, the private things were purged from every
+commit, and what is published is the code, the migrations, the CI and the
+documentation. The old commits do not exist anywhere a reader can reach them.
+
+Beyond that, the honest reason is simpler: this map is the piece the rest of
+the universe reads. It already serves a keyed geocoding API — geocode,
+autocomplete, reverse geocode, routes, matrix, static maps — so sibling
+applications can geocode without holding a Google key of their own. If that
+service is going to be depended on by other people, then the crawler behind
+it, and the map itself, should be readable by anyone who wants to run their
+own.
+
+If you want to run your own map of your own city, this is a starting point,
+not a finished product. Take it.
+
+## Credits
+
+This app stands on the work of other people, and it would be dishonest to
+pretend otherwise.
+
+- **[whereq.cloud](https://whereq.cloud)** — our own data platform. It provides
+  the fuel stations, the live prices, the price series and the administrative
+  geography this app crawls. The fuel data is licensed and metered; the
+  geography feed is open data.
+- **[OpenStreetMap](https://www.openstreetmap.org/copyright)** contributors —
+  the POI layer, the neighbourhood geometry, and the census subdivisions, under
+  the ODbL 1.0. The attribution travels with every row, and the footer carries
+  it.
+- **[geoBoundaries](https://www.geoboundaries.org)** — the formal administrative
+  boundaries, under CC-BY 4.0.
+- **[Google Maps Platform](https://developers.google.com/maps)** — the map
+  itself, the geocoding fallback and the routing. Their attribution string is
+  required on every map surface and is in the app.
+- **[geocode.maps.co](https://geocode.maps.co)**, **[LocationIQ](https://locationiq.com)**,
+  **[Geocodio](https://geocodio.com)** and **[Nominatim](https://nominatim.org)**
+  — the free geocoding tiers that are tried before the paid provider, so the
+  paid quota is spent only when everything else is exhausted.
+- **[feedparser](https://pypi.org/project/feedparser/)** and the rest of the
+  Python and JavaScript ecosystems that this repository is built on. The full
+  list is in `NOTICE`.
+
+And to everyone who has reported a wrong pin, a missing pharmacy or a stale
+price: the map is better because you told me it was wrong.
+
+---
+
+*If you run your own copy, or fork it for your own city — I would genuinely
+like to hear about it.*

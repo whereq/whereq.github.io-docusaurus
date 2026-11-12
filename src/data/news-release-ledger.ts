@@ -11,7 +11,7 @@
  *   whereq.cloud    portal/app/(marketing)/changelog/releases.ts + release_state.json
  *   flowdesk.top    git tags (the release.sh tag series)
  *   caijing.today   git tags (bin/release.sh)
- *   whereq.com      docs/CODEBASE_MEMORY.md → the deployment record
+ *   whereq.com      the README (the open-source release) + the deployment record
  *   whereq-dosbox   git tags (bin/release.sh)
  *   qhaul.ca        git tags (bin/release.sh)
  *   ccbus.cc        docs/releases/*.md + git tags
@@ -261,6 +261,12 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
       },
   ],
   'whereq-com': [
+      {
+        version: 'v1.0.0',
+        date: '2026-11-12',
+        title: 'The first public release. whereq.com is now MIT-licensed and open source',
+        url: doc('WhereQ-com', 'README.md'),
+      },
       {
         version: 'v1.0.0.112',
         date: '2026-11-11',
