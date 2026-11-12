@@ -144,6 +144,7 @@ async function createConfig(): Promise<Config> {
           { to: '/blog/archive', label: 'Archive', position: 'left' },
           { to: '/about', label: 'About', position: 'left' },
           { to: '/articles', label: 'Articles', position: 'left' },
+          { to: '/news', label: 'News', position: 'left' },
           {
             type: 'localeDropdown',
             position: 'right',
