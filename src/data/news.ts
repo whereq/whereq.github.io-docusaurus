@@ -93,7 +93,18 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     repo: 'WhereQ-com',
     logo: '/img/apps/whereq-com.svg',
     accent: '#10b981',
-    announcements: [],
+    announcements: [
+      {
+        title: 'whereq.com is open source — the map, the crawler, and everything it reads',
+        url: '/blog/WhereQ-com-Open-Source-Announcement',
+        date: '2026-11-12',
+      },
+      {
+        title: 'whereq.com 开源了：地图、爬虫，以及它读到的所有数据',
+        url: '/blog/WhereQ-com-Open-Source-Announcement-CN',
+        date: '2026-11-12',
+      },
+    ],
   },
   {
     id: 'whereq-dosbox',
@@ -104,7 +115,18 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     repo: 'whereq-dosbox',
     logo: '/img/apps/whereq-dosbox.png',
     accent: '#14243d',
-    announcements: [],
+    announcements: [
+      {
+        title: 'WhereQ-DOSBox: bringing the DOS era back to your phone',
+        url: '/blog/WhereQ-DOSBox-Announcement',
+        date: '2026-11-12',
+      },
+      {
+        title: 'WhereQ-DOSBox：把 DOS 年代带回手机',
+        url: '/blog/WhereQ-DOSBox-Announcement-CN',
+        date: '2026-11-12',
+      },
+    ],
   },
 ];
 

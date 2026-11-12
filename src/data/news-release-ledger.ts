@@ -12,6 +12,7 @@
  *   flowdesk.top    git tags (the release.sh tag series)
  *   caijing.today   git tags (bin/release.sh)
  *   whereq.com      docs/CODEBASE_MEMORY.md → the deployment record
+ *   whereq-dosbox   git tags (bin/release.sh)
  *   qhaul.ca        git tags (bin/release.sh)
  *   ccbus.cc        docs/releases/*.md + git tags
  *   keytomarvel     git tags + the commit history
@@ -349,6 +350,14 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
         date: '2026-11-07',
         title: 'The sidebar’s search box was a design mock — it now runs a real search',
         url: tag('whereq.com', 'v1.0.0.92'),
+      },
+  ],
+  'whereq-dosbox': [
+      {
+        version: 'v1.0.0.1',
+        date: '2026-11-11',
+        title: 'WhereQ-DOSBox — native Android port of DOSBox r4305',
+        url: tag('whereq-dosbox', 'v1.0.0.1'),
       },
   ],
   'qhaul': [
