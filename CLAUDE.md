@@ -36,6 +36,7 @@ This is a **source repo** (`whereq.github.io-docusaurus`). The built static site
 - **Release history** behind the announcements lives in `src/data/news-release-ledger.ts`, which the page does **not** import (it stays out of the browser bundle). Each entry is the application's own release note, read from that application's repository — the version, date and wording are the application's own. To refresh it, re-read the app's changelog / release-notes docs and git tags and update the ledger.
 - **Logos** for the News page live in `static/img/apps/`, one per application, each on a light plate so dark and light brand marks both read.
 - **MetroUI**: radius **xs is 2px** — the whereq family standard (chips, tags, scrollbars and buttons all use it). A pill-shaped button is a second button; do not use `border-radius: 999px`.
+- **The announcement skill** is `.minimax/skills/whereq-site-post/` (installed copy at `~/.minimax/skills/whereq-site-post/`). It covers the whole flow: author the EN + CN post pair, register `{title, url, date}` in the app's `announcements` array, then release with `./bin/whereq.sh all`. The release mechanics live in its `references/release-flow.md`.
 
 ## Architecture notes
 

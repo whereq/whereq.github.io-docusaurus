@@ -174,6 +174,7 @@ cmd_deploy() {
 
   if [[ -z "$(git status --porcelain)" ]]; then
     warn "Pages repo is already up to date — nothing to deploy."
+    cd "$ROOT_DIR"
     rm -rf "$tmp_dir"
     return 0
   fi
@@ -183,6 +184,9 @@ cmd_deploy() {
   log "Pushing to $PAGES_BRANCH…"
   git push origin "$PAGES_BRANCH"
 
+  # Leave the temp dir before removing it — the shell's cwd must not be the
+  # directory it deletes.
+  cd "$ROOT_DIR"
   rm -rf "$tmp_dir"
   ok "Deployed to $PAGES_REPO ($PAGES_BRANCH)"
   ok "GitHub Pages will go live at https://whereq.github.io in ~1–2 minutes"
