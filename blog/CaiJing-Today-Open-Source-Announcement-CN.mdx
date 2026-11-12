@@ -43,21 +43,17 @@ import ThemedImage from '@theme/ThemedImage';
 
 <p align="center">
   <img
-    src="/img/apps/caijing-today-home.jpg"
-    alt="财经今日深色界面——左侧是带热度条的热榜，中间是编辑精选、指数走势图和个股热榜，右侧是 7x24 快讯、经济日历和全球市场行情"
+    src="/img/apps/caijing-today-live-zh.jpg"
+    alt="财经今日线上运行中的界面（真实数据）——左侧是带热度条的热榜，中间是编辑精选、行情图表和个股热榜，右侧是 7×24 快讯、经济日历和全球市场行情"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <sub>首页的全部面板。左侧是热榜 TOP 50，配 1 小时 / 24 小时 / 本周 / 本月
-  四档时间窗和热度条；中间是编辑精选、指数走势图和个股热榜；右侧是 7×24 快讯、
-  经济日历和全球市场行情；顶部那条是滚动的行情带。</sub>
-</p>
-
-<p align="center">
-  <sub>这里是仓库自带的合成演示数据——里面每一条标题、每一个指数点位、每一个代码
-  都是编出来的，并且都做了标记。</sub>
+  <sub>这是运行中的站点——<strong>caijing.today</strong>——里面是真实数据。左侧是热榜
+  TOP 50，配 1 小时 / 24 小时 / 本周 / 本月四档时间窗和热度条；中间是编辑精选、
+  行情图表和个股热榜；右侧是 7×24 快讯、经济日历和全球市场行情；顶部那条是滚动的
+  行情带。</sub>
 </p>
 
 打开它，版式是刻意做密的。顶部一条行情带横向滚动。往下是三栏面板，每一个都是
@@ -80,14 +76,15 @@ import ThemedImage from '@theme/ThemedImage';
 
 <p align="center">
   <img
-    src="/img/apps/caijing-today-home-light.jpg"
-    alt="财经今日浅色界面——同样的首页，浅色主题"
+    src="/img/apps/caijing-today-live-zh-light.jpg"
+    alt="财经今日线上运行中的浅色界面——同样的首页，浅色主题"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <sub>浅色主题。板子默认是深色的，并且会记住你的选择。</sub>
+  <sub>同一块板子的浅色主题。板子默认是深色的，页头的切换按钮可以换，切换结果会
+  被记住。</sub>
 </p>
 
 ## 技术说明
@@ -155,6 +152,20 @@ docker compose -f docker/docker-compose.yml up -d --build
 `DEMO-001` … `DEMO-010` 而不是真实股票代码。这是有意的——真实代码配一个编出来
 的热度，读起来就成了投资建议。
 
+<p align="center">
+  <img
+    src="/img/apps/caijing-today-home.jpg"
+    alt="同一块板子跑在仓库自带的合成演示数据上——每条标题都标着【示例】，个股热榜里的代码全是 DEMO-001 到 DEMO-010"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <sub>这就是一份全新 checkout 跑起来的样子：同一块板子，跑在合成演示数据上。每条
+  标题都标着【示例】，代码全是 DEMO-001 … `DEMO-010`，里面没有一个数字是真的。
+  界面和线上一样，默认中文。</sub>
+</p>
+
 ## 致谢
 
 这个应用站在别人的劳动之上，装作不是那样才是不诚实的。
@@ -176,7 +187,7 @@ docker compose -f docker/docker-compose.yml up -d --build
   **[Pydantic](https://docs.pydantic.dev)**、
   **[PostgreSQL](https://www.postgresql.org)**、
   **[nginx](https://nginx.org)** 和 **[Docker](https://www.docker.com)** —— 这个
-  仓库所依赖的技术栈。完整清单在 `NOTICE` 里。
+  仓库所依赖的技术栈。依赖清单在 `NOTICE` 里。
 
 演示数据集则不归任何人所有——这恰恰是它的意义：它是合成的，它自己写明了这一点，
 它的存在只是为了让一份全新的 checkout 起来就有东西可看。
