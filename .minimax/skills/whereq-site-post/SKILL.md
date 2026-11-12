@@ -4,14 +4,19 @@ description: |
   Write and publish posts into the WhereQ docs hub — the Docusaurus site at
   `/home/whereq/git/whereq.github.io-docusaurus` that serves whereq.com —
   covering announcements, release notes, and tech docs for any application in
-  the WhereQ Universe, each in English and Chinese.
+  the WhereQ Universe, each in English and Chinese. Covers the whole flow:
+  author the post, register its URL and timestamp in the application's
+  announcement table on the News page, and release the site to
+  https://whereq.github.io.
   Use this skill when the user says "announce", "publish a post", "write a blog
   post", "release notes", "post about <app>", "announcement for <app>", "add an
-  article to the site", or asks to update the News page with a new
-  announcement. Trigger on "写一篇发布公告", "写发布说明", "发个文章".
+  article to the site", "add the post URL to the announcement table", "update
+  the News page", "release to whereq.github.io", "deploy the site", or asks to
+  publish the built site. Trigger on "写一篇发布公告", "写发布说明", "发个文章",
+  "发布到站点", "更新公告表格".
   Do NOT use it to write the app's own README or changelog (that belongs in
-  the app's repository), to edit the site's React pages or CSS beyond what a
-  post needs, or to deploy the built site to GitHub Pages.
+  the app's repository), or to edit the site's React pages or CSS beyond what a
+  post needs.
 ---
 
 # WhereQ Site Post
@@ -19,6 +24,12 @@ description: |
 Author one post for the WhereQ docs hub and wire it into the site's data
 files. Every post ships as **two files** — English and Chinese — and the
 Chinese one is a real translation, not a stub.
+
+The skill covers the whole flow, in three acts:
+
+1. **Author** the post pair (steps 1–5).
+2. **Register** it in the News page's announcement table (steps 6–7).
+3. **Release** the site to GitHub Pages (step 8–10), when the user asks.
 
 ## The site in one paragraph
 
@@ -33,6 +44,7 @@ announcements lives in `src/data/news-release-ledger.ts`.
 
 Full map of the conventions: `references/site-structure.md`.
 Post-writing craft (tone, structure, EN/CN pairing): `references/announcement-craft.md`.
+Registration and release mechanics: `references/release-flow.md`.
 
 ## Inputs to collect
 
@@ -134,6 +146,10 @@ Post-writing craft (tone, structure, EN/CN pairing): `references/announcement-cr
    site-relative (`/blog/<slug>`) or an absolute external URL. The page sorts
    newest first itself — do not pre-sort.
 
+   `title` is the post's own `title` frontmatter, verbatim, and `date` is the
+   post's own `date` frontmatter — the timestamp on the News page must match
+   the timestamp on the article.
+
 7. **Add the release ledger entry** in `src/data/news-release-ledger.ts`,
    keyed by the same app `id`. This file is the evidence trail and is **not**
    imported by the News page, so it never reaches the browser bundle.
@@ -176,10 +192,44 @@ Post-writing craft (tone, structure, EN/CN pairing): `references/announcement-cr
    resolve to files under `build/img/`, and `build/news/index.html` links to
    both announcements.
 
-9. **Commit only what belongs together**, then stop. Do not push, tag, or
-   deploy unless the user asks in that turn — this repo deploys by pushing
-   the built site to a separate Pages repo (`whereq.github.io`, `master`
-   branch), which is not reversible by a later commit.
+9. **Commit only what belongs together.** One commit for the content change
+   — the post pair, the assets, the `news.ts` registration, the ledger entry.
+   Then stop.
+
+   **Do not push or deploy unless the user asks in that turn.** This repo
+   publishes by pushing the built site to a separate Pages repo
+   (`whereq.github.io`, `master` branch), and that publish is not reversible
+   by a later commit.
+
+10. **Release to https://whereq.github.io** — when the user asks for it.
+
+    ```sh
+    cd /home/whereq/git/whereq.github.io-docusaurus
+    COMMIT_MSG="feat(news): announce <app>" ./bin/whereq.sh all
+    ```
+
+    `all` = build → push source to `origin/main` → push `./build/` to the
+    Pages repo's `master` branch. **Never `yarn deploy`** — the Docusaurus
+    default targets a `gh-pages` branch, which is not where this site lives.
+
+    **Run it in the background with a timeout of at least 2400 seconds.** A
+    full build of this site takes 10–15 minutes; a shorter cap kills the
+    build mid-flight and leaves `build/` half written.
+
+    Then verify, locally and live:
+
+    ```sh
+    test -f build/blog/<slug>/index.html && echo ok
+    grep -o '/blog/<slug>' build/news/index.html | sort -u
+    curl -sS https://whereq.github.io/news/ | grep -o '/blog/<slug>' | sort -u
+    ```
+
+    Both the English and the Chinese slug must appear in the live News page.
+    GitHub Pages takes 1–2 minutes to publish; if the live page is stale,
+    wait and retry before assuming the deploy failed.
+
+    The mechanics, the two-repo model, the `rm`-shim trap in `cmd_deploy`,
+    and the Playwright rendering check are in `references/release-flow.md`.
 
 ## Output contract
 
@@ -187,11 +237,14 @@ Post-writing craft (tone, structure, EN/CN pairing): `references/announcement-cr
   matching frontmatter shape.
 - Assets under `static/img/apps/`.
 - The app's `announcements` array in `src/data/news.ts` holding one entry per
-  language.
+  language, with the post's own title and date.
 - A ledger entry in `src/data/news-release-ledger.ts` when the post is
   release-scoped.
 - A clean build, with the new post present in `build/blog/` and both
   announcements present in `build/news/index.html`.
+- When the user asked for a release: the source pushed to `origin/main`, the
+  build pushed to the Pages repo's `master`, and the live
+  `https://whereq.github.io/news/` verified to carry both announcement links.
 
 ## Failure handling
 
@@ -210,6 +263,18 @@ Post-writing craft (tone, structure, EN/CN pairing): `references/announcement-cr
   part of a content change.
 - **The build warns about undefined tags** → expected. Tags are inline and
   unregistered by design.
+- **The build is killed by the timeout** → the cap was too short. This site
+  takes 10–15 minutes; rerun with a timeout of at least 2400s and in the
+  background.
+- **The deploy fails at the very end, after the push** → that was the temp
+  directory cleanup, not the deploy. Confirm with `git ls-remote
+  git@github.com-whereq:whereq/whereq.github.io.git refs/heads/master`; if the
+  commit is there, the deploy succeeded. Clean up the leftover directory from
+  outside it.
+- **The live News page does not show the announcement** → check the
+  registration in `news.ts` first (a missing entry is the usual cause), then
+  the built `build/news/index.html`, then wait for GitHub Pages' 1–2 minute
+  publish delay.
 
 ## Examples
 
@@ -229,6 +294,15 @@ posts and the News links verified.
 dated to the release, and a ledger entry carrying the app's own release-note
 title. The post leads with what the release changes for a user; the diff
 detail stays in the app's own repo.
+
+**Input:** "I added the posts — add their URLs to the announcement tables,
+then release to whereq.github.io."
+
+**Output:** no new posts written; each post's `{title, url, date}` added to
+its application's `announcements` array (one entry per language, using the
+posts' own frontmatter title and date); a clean build; and
+`./bin/whereq.sh all` run in the background with a ≥2400s timeout, followed
+by a live check that `https://whereq.github.io/news/` carries both links.
 
 ## Windows (win32) platform notes
 

@@ -161,6 +161,10 @@ The ledger's header comment lists where each app's release notes live.
 ./bin/whereq.sh all       # build → push source → deploy
 ```
 
+A full build takes 10–15 minutes — run it in the background with a timeout of
+at least 2400 seconds. The mechanics of the release are in
+`references/release-flow.md`.
+
 `npm run typecheck` (`tsc`) is the only verification step configured, and it
 has **pre-existing** errors unrelated to content work: a missing `locale`
 argument in `docusaurus.config.ts`, and a `JSX` namespace in four files.
