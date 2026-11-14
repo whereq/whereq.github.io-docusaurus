@@ -372,6 +372,42 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-dosbox': [
       {
+        version: 'v1.0.0.7',
+        date: '2026-11-13',
+        title: 'WhereQ-DOSBox 1.0.0.7',
+        url: tag('whereq-dosbox', 'v1.0.0.7'),
+      },
+      {
+        version: 'v1.0.0.6',
+        date: '2026-11-13',
+        title: 'WhereQ-DOSBox 1.0.0.6',
+        url: tag('whereq-dosbox', 'v1.0.0.6'),
+      },
+      {
+        version: 'v1.0.0.5',
+        date: '2026-11-13',
+        title: 'Port the app layer to Kotlin, add a JIT core and ship the 1.0.0.5 APK',
+        url: tag('whereq-dosbox', 'v1.0.0.5'),
+      },
+      {
+        version: 'v1.0.0.4',
+        date: '2026-11-13',
+        title: 'Rename the launcher button to "File" and ship the 1.0.0.4 APK',
+        url: tag('whereq-dosbox', 'v1.0.0.4'),
+      },
+      {
+        version: 'v1.0.0.3',
+        date: '2026-11-13',
+        title: 'WhereQ-DOSBox 1.0.0.3',
+        url: tag('whereq-dosbox', 'v1.0.0.3'),
+      },
+      {
+        version: 'v1.0.0.2',
+        date: '2026-11-12',
+        title: 'Release v1.0.0.2: the game launcher and a keyboard that fits',
+        url: tag('whereq-dosbox', 'v1.0.0.2'),
+      },
+      {
         version: 'v1.0.0.1',
         date: '2026-11-11',
         title: 'WhereQ-DOSBox — native Android port of DOSBox r4305',

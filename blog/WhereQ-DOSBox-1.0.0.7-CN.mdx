@@ -1,0 +1,181 @@
+---
+title: "WhereQ-DOSBox 1.0.0.7：跑自己的 DOS 游戏、真正的 JIT，以及一个塞得进手机的启动器"
+slug: WhereQ-DOSBox-1.0.0.7-CN
+date: 2026-11-13
+tags: [dosbox, android, 模拟器, 发布, 怀旧, 开源, whereq]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 模拟器是最简单的那一环
+
+昨天，我把 WhereQ-DOSBox 放到了外面——DOSBox 的原生 Android 移植版，模拟器核心以真正的 `libdosbox.so` 跑在 APK 里面。
+
+那篇发布公告许下了一个愿：**你自己的 DOS 游戏，跑在你口袋里那台真正的机器上。**
+
+这种愿望，要是只做到“能启动、能看到 `C:\>` 提示符”，很便宜。可一旦有人真的**拿去用**，模拟器反而成了整个问题里最小的一块。
+
+所以从 v1.0.0.2 到 v1.0.0.7，这六个版本真正修掉的东西，是这些。
+
+<!-- truncate -->
+
+## 第一件事：游戏怎么进到手机里？
+
+这是第一道墙。DOSBox 起来了，然后你面对着一个空空的驱动器。你的游戏躺在某个 1997 年的 `.zip` 里，而手机上的文件管理器不会替你把 DOS 目录树解开。
+
+于是 App 里长出了一个**启动器**。一个 `.zip` 就是一个**套装（bundle）**：任意一个 DOS 程序，解压一次，放进挂载好的 C: 盘的 `C:\GAMES\<n>`，再配一个把它启动起来的 `RUN.BAT`。三种进法，一种权限都不用申请：
+
+- 系统文件选择器，装单个 `.zip`；
+- 系统文件夹选择器，把一个文件夹里的 `.zip` 一次性全解开；
+- 以及**用 WhereQ-DOSBox 打开**——在文件管理器里点一下，套装自己就装好了。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-files-panel.jpg"
+    alt="WhereQ-DOSBox 的 Files 面板，列着已安装的 Ultima8 和 whereq-demo-bundle 两个套装，每个都有 Play、Launch 和 Remove，上方是 Install a bundle 按钮"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Files 面板。两个套装，点一下就能开玩；还有一个永远有效的逃生通道
+  （<strong>Exit to prompt</strong>）——哪怕游戏已经卡死或者黑屏了，它也管用。</sub>
+</p>
+
+有一个细节比看上去费事：DOSBox 是在挂载驱动器的那一刻缓存目录列表的。之后才装进去的套装，**不在**那份缓存里；于是会去枚举自己文件的安装程序，什么也找不到。所以启动器每开一个游戏，都会让模拟器重启进一个干净的进程、重新挂载一次 C: 盘。多花一秒，但这正是“装上了”和“真的能跑”的区别。
+
+## 第二件事：那个按钮的名字起错了
+
+启动器刚来的时候，按钮叫 **Games**——因为我想当然地以为大家只想要游戏。但那个名字是错的：启动器打开的并不是游戏，而是套装；一个套装可以装着任何 DOS 程序——一个工具、一个文本界面的程序、一个 demo、一集你一直想打完的 shareware。
+
+所以按钮现在叫 **File**——DOS 时代的老叫法——面板也改成了 **Files**：*Install a bundle (.zip)*、*No bundles installed yet.*、*Start file…*。
+
+这是件小事。但正是这种小事，把一个演示变成一个工具。
+
+## 第三件事：键盘塞不进屏幕
+
+屏幕键盘原本是 21 个等宽的键。横屏的时候，这比手机还宽——最后一个键被切掉，**根本按不到**。现在这些键改成按权重分配，整条键盘永远正好铺满屏幕宽度。
+
+接着键盘条本身又成了问题：它吃掉了三分之一的屏幕。DOS 画面是 4:3 的，横屏两侧本来就有黑边——于是那些常驻按键现在直接住进了这两条黑边里，变成左右两列。左边是 Ctrl、Alt、Shift 这些修饰键，右边是 **File**、**Ent**、**Space** 和方向键，整块屏幕中间完整地留给 DOS。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-starfall.jpg"
+    alt="STARFALL 在横屏手机上运行：DOS 画面在正中，屏幕键盘分列在左右两侧的黑边里"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>示例套装 STARFALL 跑在新布局里：游戏在中间，按键在两侧的黑边里。</sub>
+</p>
+
+## 更重的一件事：JIT，和那些需要它的游戏
+
+实模式的 DOS 程序用解释器跑得非常好——DOSBox 本来就是这么写的，对任何 8 位、16 位的程序来说解释器都够快。
+
+保护模式程序是另一回事。DOS/4GW 扩展程序、保护模式游戏：那是一套不同的 CPU 模型，而解释器只能一条指令一条指令地走。**Ultima VIII** 就是一个 DOS/4GW 保护模式游戏——而保护模式代码，正是重编译核心存在的理由。
+
+DOSBox 自带一个 JIT——重编译核心，在运行时直接生成机器码。上游是靠 GCC 插件来编译它的，而 NDK 的 clang 做不到；Android 又禁止让可写的内存可执行，而原版的代码缓存正是这么干的。
+
+这两个问题最后都有解。可移植的代码生成器（arm64、armv7、x86_64）不需要插件，直接往一块缓冲区里生成机器码；那块缓冲区改用匿名 `PROT_EXEC` 映射，而不是可写的堆内存，来获得可执行权限。现在这个 JIT 已经编进了三个 Android ABI 的 `libdosbox.so`。
+
+而随包发布的配置是 `core=auto`：
+
+- 一直待在实模式的程序跑**解释器**，跟以前一模一样——JIT 根本不会启动，代码缓存连分配都不会发生；
+- 一旦切换到保护模式的程序，在第一次模式切换的那一刻交给**重编译核心**。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-screenshot-phone.jpg"
+    alt="WhereQ-DOSBox 横屏运行在 Android 手机上：正中是 DOSBox 欢迎画面和已挂载的 C: 盘，屏幕键盘分列在左右两侧的黑边里"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>欢迎画面和已挂载的 C: 盘，按键在两侧黑边里。中间跑的是货真价实的 DOSBox 核心，
+  不是一个仿写的实现。</sub>
+</p>
+
+### 关于 APK 体积，我得说实话
+
+第一篇公告里说 APK 大约 **5.3 MB**。现在大约 **15.5 MB**——与其让你下载时才发现，不如我先解释清楚。
+
+两个原因，都是故意的。原生库在 APK 里是**不压缩**存放的，这样 Android 可以直接从 APK 里映射它们，而不用每次安装都复制到磁盘——差别的大头在这儿。另外 App 层现在是 Kotlin + AndroidX，带来了大约 4.5 MB 的 dex。
+
+这笔交换是：下载大一点，换来更快的安装，以及一台更像机器的机器。
+
+## 我写进文档、却没做出来的那个设置
+
+v1.0.0.6 里，我在文档里、在这个仓库里写过这么一句：*“如果 JIT 的代码缓存分配不出来，就把 `core=normal` 写进 `dosbox.conf` 作为退路。”*
+
+然后我自己照着这句话试了一遍。`dosbox.conf` 每次启动都会从随包的模板重新生成——这是故意的，这样模板一改，已经装在手机上的版本也能拿到。而这意味着**手工改过的 `dosbox.conf` 会在下次启动时被覆盖**。何况那个文件本来就在 App 的私有目录里，任何文件管理器都够不着。
+
+**我文档里写的那个退路，其实根本够不着。** 确实有那么一小撮老 DOS 程序在重编译核心上会出毛病，而我当时没给它们留任何出路。
+
+所以 Files 面板现在多了一个 **Config** 按钮：
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-cpu-core.jpg"
+    alt="WhereQ-DOSBox 的 CPU core 对话框，提供 Auto、Normal、Dynamic、Simple、Prefetch 五个选项，当前选中 Auto"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>CPU core 现在可以在 App 里选：Auto（默认）、Normal、Dynamic、Simple、Prefetch。
+  DOSBox 是启动时决定用哪个核心的，所以 App 会问你要不要重启。</sub>
+</p>
+
+这个选择会被存下来，写进生成出来的配置文件，重启之后还在，App 升级之后也还在。一个小对话框，换来一句终于能兑现的承诺。
+
+## 还改了什么
+
+App 层从 Java 换成了 Kotlin——同样的八个类，重写了一遍——**Gradle 现在是正式的构建方式**。发布脚本学会了更新 Android manifest，也不再把整个工作树一股脑塞进发布提交里。模拟器脚本改用真实 GPU，而不是那个会把屏幕画成碎片的软件光栅器。
+
+还有 **STARFALL**——那个示例套装——已经进了仓库：一个用 16 位 DOS 汇编写的迷你街机游戏，一个大约 5 KB 的 `.COM`，没有运行时、没有依赖，并且以可以直接安装的 `.zip` 形式提交了。它的存在是为了让新用户不用先去找一个游戏，就能把整条流程走一遍：装套装、按 Play、看游戏跑起来。
+
+## 拿去用
+
+发布版 APK 就在仓库里，用发布密钥签名，所以后来的版本可以直接覆盖安装：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** —— tag **v1.0.0.7**
+
+```
+downloads/whereq-dosbox-1.0.0.7.apk
+sha256: 2e97f12f3901acbdc23f62395316df25aa51f4a081d941a950b2d7dfa36910a1
+```
+
+支持 **arm64-v8a、armeabi-v7a 和 x86_64** 设备，Android 5.0 及以上，全程离线，不要账号，不做任何追踪。
+
+这是一个 GPL-2.0 的项目，DOSBox 核心以 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件头部的形式完整嵌入。整个移植只动了核心里寥寥几处——SDL 的视频与触摸路径、鼠标映射、JIT 代码缓存的 Android 分支，还有两处只为消掉编译器警告而做的改动。其余全部是上游代码。
+
+再说一遍：**这篇文章不是文档。** 文档就是仓库本身——构建指南、移植记录、性能测试报告，以及移植部分的每一行代码。请你自己去读，而不是听我在这儿说。
+
+## 谢谢，DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 是由 [DOSBox 团队](https://www.dosbox.com/crew.php) 写出来的——一群志愿者，把一个 1994 年的操作系统做到了此后世界上每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费送给每一个想要它的人。WhereQ-DOSBox 只是叠在他们工作之上的一层薄壳。原创、手艺和慷慨，全部属于他们。
+
+这个移植建立在 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)** 之上——[Boris Gjenero](https://github.com/dreamlayers) 用 Emscripten 做的 DOSBox r4305 版本；而 Em-DOSBox 本身，起源于 [Ismail Khatib](https://github.com/CeRiAl) 第一次尝试用 Emscripten 编译 DOSBox，后来又搭上了 [Alon Zakai](https://github.com/kripken/) 在 Emscripten 上的工作。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；本移植与 DOSBox 团队无隶属关系，也未获其背书。
+
+---
+
+*如果你自己的某个游戏现在能在手机上跑起来了——或者跑不起来，而你在那个 CPU core 对话框前放弃了——都请告诉我。我一直在记一份清单，那是我收到的最有用的东西。*
