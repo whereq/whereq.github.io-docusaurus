@@ -128,6 +128,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox 1.0.0.7: your own DOS games, a real JIT, and a launcher that fits on a phone',
+        url: '/blog/WhereQ-DOSBox-1.0.0.7',
+        date: '2026-11-13',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.7：跑自己的 DOS 游戏、真正的 JIT，以及一个塞得进手机的启动器',
+        url: '/blog/WhereQ-DOSBox-1.0.0.7-CN',
+        date: '2026-11-13',
+      },
+      {
         title: 'WhereQ-DOSBox: bringing the DOS era back to your phone',
         url: '/blog/WhereQ-DOSBox-Announcement',
         date: '2026-11-12',
