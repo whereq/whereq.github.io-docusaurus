@@ -1,0 +1,138 @@
+---
+title: "WhereQ-DOSBox 1.0.0.8：保存整台机器，让「继续」真的能继续"
+slug: WhereQ-DOSBox-1.0.0.8-CN
+date: 2026-11-16
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, save-states]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 一个会骗人的按钮
+
+两个版本之前，我给启动器加了一个 **Resume** 按钮。它看上去就是个承诺：按一下，回到你刚才在玩的那局游戏。
+
+结果不是。它每次都把上一款游戏从头开始。
+
+我自己一直没发现，因为我桌上的模拟器进程还活着——游戏其实从没停过，自然也就没什么好「恢复」的。后来有位用户在手机上按了那个按钮，丢掉了一个小时的进度，直截了当地告诉我：*你这个 Resume 其实是重开。*
+
+他没说错。而修它并不是改一行代码就行的——要做的是给整台机器拍一张快照。
+
+<!-- truncate -->
+
+## 认真做的话，存档是什么
+
+DOS 游戏自己通常有存档。有的游戏有，很多没有；有的只把进度写在当前目录里，然后指望你自己找到菜单走回去。
+
+**存档点**（save state）是另一回事：它是被冻住的整台机器。
+
+不是游戏，而是机器。带着寄存器的 CPU、DOS 内存、显存、硬件定时器，以及程序当时正打开的那些文件。是所有让这一局成为「此刻这一局」的东西——所以读档回来是回到同一个瞬间，而不是回到附近。
+
+DOSBox r4305 本身没有存档点，所以我在这个移植里写了一个。每个游戏有 **三个槽位**，以文件形式存在应用的私有目录里，因此退出应用、重启手机、升级 APK 都丢不掉。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-save-states.jpg"
+    alt="WhereQ-DOSBox 的存档对话框：正在运行的游戏有三个槽位，第一个是两小时前存的，每个槽位都有 Save 和 Load 按钮"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>每个游戏三个槽位。Save 冻住正在运行的机器，Load 把它放回去。槽位是手机
+  上的文件，退出应用也不会丢。</sub>
+</p>
+
+这里有个细节我啃了两天，值得写下来，因为它是「存档能用」和「存档会把游戏搞崩」的分界线。
+
+快照必须在**安全点**上拍：客机程序得真的在跑，画面得已经稳定，而且 CPU 不能正站在一个挂着 `IRET` 的中断回调里。位置选错了，读档就会落进 BIOS 调用的半截里——那种损坏看起来像游戏坏了，而不是像存档坏了。
+
+而且它必须把 **DOS 层**一起拍下来，不只是 CPU。开着 `SOUND\MUSIC.FLX` 的游戏，指望回来时那个文件还开着。不把文件句柄放进快照，Ultima VIII 每次读档后一秒左右就会走进自己的 extender，然后以 `DOS Error=0006 (invalid handle)` 中止。放进去之后，那十六个句柄都回来了，音乐也还在响。
+
+## 于是「继续」终于真的是继续
+
+这个按钮现在会读回你上次玩的那个游戏的最新槽位，而且会告诉你它要干什么：*Resume whereq-demo-bundle · slot 1 · just now*。如果一个槽位都没存，它就照旧从头开始。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-resume.jpg"
+    alt="WhereQ-DOSBox 存档之后的文件面板：绿色的 Resume 按钮显示 Resume whereq-demo-bundle，slot 1，just now，底部状态栏写着 Saved to slot 1"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Saved to slot 1——Resume 按钮已经知道了一切：哪个游戏、哪个槽位、多久之前
+  存的。</sub>
+</p>
+
+这不是一个「复制文件」的按钮。应用会先把自己的进程拆掉，干净地启动一个什么都没排队的模拟器，等画面稳定下来，然后才把机器恢复进去。早了那么一瞬间——比如手机还在转屏——就会恢复进一个马上就要被丢弃的渲染器里，屏幕一片黑。这条我也追了一阵。
+
+## 说不清楚的那部分
+
+**有些老 DOS 程序确实过不了读档这一关。** Ultima VIII 的 extender 仍然会在读档后一秒左右中止：`Exit to error: RET from illegal descriptor type 0`。
+
+这不是应用的问题，也不是「继续」这条路的问题：手动打开面板读同一个槽位，结果完全一样。快照目前还没装下的，是 DOS/4GW 游戏真正依赖的那部分宿主状态——声卡和它的 DMA、EMS 与 XMS 的句柄表、VCPI 的 PIC 向量重映射、鼠标、RTC，以及 PIC 的事件队列。这是还没做完的里程碑，移植日志里写的也是同样的话。
+
+在那之前：STARFALL 存读都完全正常；Ultima VIII 这类游戏可以存、可以读，但它的 extender 读到之后不太高兴。
+
+## 游戏现在也能在后台活着了
+
+另一件我原本想当然的事，是以为离开应用就等于离开游戏。Android 上不是这样：系统随时可以回收一个后台应用的进程，而 DOSBox 把整台机器都放在内存里——于是游戏就那么没了，连个提示都没有。
+
+现在只要游戏在跑，就有一条常驻通知把进程保住。切到别的应用去，晚点再回来，游戏还在你离开的那一帧——不用存档，不用重载。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-screenshot-phone.jpg"
+    alt="WhereQ-DOSBox 在安卓手机横屏下的运行画面：中间的 DOSBox 欢迎画面和已挂载的 C 盘，左右黑边上是屏幕键盘，方向键排成倒 T 形"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>手机上的实际画面。四个方向键现在是真键盘上的倒 T 形——上键在最上面，左右并排，
+  下键在最下面——手指靠形状就能找对方向。</sub>
+</p>
+
+最后这条改动很小，但我挺喜欢。方向键原本是一根竖排的队列，这和它要代替的那块键盘完全不像：手指必须先「知道」四个键分别是哪一个。现在拇指直接读形状就行。
+
+## 拿去用
+
+发布版 APK 就在仓库里，用发布密钥签名，可以直接覆盖安装 1.0.0.7：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.8**
+
+```
+downloads/whereq-dosbox-1.0.0.8.apk
+sha256: ed17f39bddeb9e871485df390f772f19c5a43abdbf3b5845c7abd4afbb602ca3
+```
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，要求 Android 5.0 及以上，完全离线，不需要账号，没有任何追踪。项目采用 GPL-2.0 许可，DOSBox 核心连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件头注释一起嵌入。
+
+再说一遍：**这篇文章不是文档。** 文档是仓库本身：构建指南、移植日志（里面有一节专门讲快照到底怎么拍的，以及为什么必须等安全点）、性能测试笔记，以及这个移植的每一行代码。请去读那些，而不是信我的一面之词。
+
+## 谢谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*如果你按下「继续」，游戏真的回到了离开时的样子——或者没有，而存档点正是你放弃的地方——请告诉我。我一直在记一份名单，那是最有用的一种反馈。*

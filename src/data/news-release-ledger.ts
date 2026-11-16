@@ -372,6 +372,12 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-dosbox': [
       {
+        version: 'v1.0.0.8',
+        date: '2026-11-16',
+        title: 'Add save states, make Resume resume, and ship the 1.0.0.8 APK',
+        url: tag('whereq-dosbox', 'v1.0.0.8'),
+      },
+      {
         version: 'v1.0.0.7',
         date: '2026-11-13',
         title: 'WhereQ-DOSBox 1.0.0.7',
