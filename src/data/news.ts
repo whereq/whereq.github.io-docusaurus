@@ -128,6 +128,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox 1.0.0.8: save the whole machine, and a Resume button that resumes',
+        url: '/blog/WhereQ-DOSBox-1.0.0.8',
+        date: '2026-11-16',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.8：保存整台机器，让「继续」真的能继续',
+        url: '/blog/WhereQ-DOSBox-1.0.0.8-CN',
+        date: '2026-11-16',
+      },
+      {
         title: 'WhereQ-DOSBox 1.0.0.7: your own DOS games, a real JIT, and a launcher that fits on a phone',
         url: '/blog/WhereQ-DOSBox-1.0.0.7',
         date: '2026-11-13',
