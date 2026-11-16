@@ -2,7 +2,7 @@
 title: "WhereQ-DOSBox 1.0.0.8：保存整台机器，让「继续」真的能继续"
 slug: WhereQ-DOSBox-1.0.0.8-CN
 date: 2026-11-16
-tags: [dosbox, android, emulator, release, retro, open-source, whereq, save-states]
+tags: [dosbox, android, 模拟器, 发布, 怀旧, 开源, whereq, 存档]
 authors: whereq
 ---
 
@@ -81,7 +81,7 @@ DOSBox r4305 本身没有存档点，所以我在这个移植里写了一个。�
 
 ## 说不清楚的那部分
 
-**有些老 DOS 程序确实过不了读档这一关。** Ultima VIII 的 extender 仍然会在读档后一秒左右中止：`Exit to error: RET from illegal descriptor type 0`。
+**有些老 DOS 程序确实过不了读档这一关。** Ultima VIII 的 extender 仍然会在读档后一秒左右中止：`Exit to error: RET from illegal descriptor type 13`。
 
 这不是应用的问题，也不是「继续」这条路的问题：手动打开面板读同一个槽位，结果完全一样。快照目前还没装下的，是 DOS/4GW 游戏真正依赖的那部分宿主状态——声卡和它的 DMA、EMS 与 XMS 的句柄表、VCPI 的 PIC 向量重映射、鼠标、RTC，以及 PIC 的事件队列。这是还没做完的里程碑，移植日志里写的也是同样的话。
 

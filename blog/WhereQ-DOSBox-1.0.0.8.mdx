@@ -82,7 +82,7 @@ Under the hood this is not a button that copies a file. The app tears its own pr
 
 ## The honest part
 
-**Some old DOS programs do not survive a restore.** Ultima VIII's extender still aborts about a second after the load, with `Exit to error: RET from illegal descriptor type 0`.
+**Some old DOS programs do not survive a restore.** Ultima VIII's extender still aborts about a second after the load, with `Exit to error: RET from illegal descriptor type 13`.
 
 That is not the app, and it is not the Resume path: loading the same slot by hand, with the panel open, does exactly the same thing. What the snapshot does not capture yet is the rest of the host state a DOS/4GW game leans on — the sound chips and their DMA, the EMS and XMS handle tables, the VCPI PIC vector remapping, the mouse, the RTC, and the PIC event queue. It is milestone work that is not finished, and the porting log says so in the same words.
 
