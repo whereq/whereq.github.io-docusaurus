@@ -372,6 +372,13 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-dosbox': [
       {
+        version: 'v1.0.0.10',
+        date: '2026-11-17',
+        title:
+          'Snapshot the sound chips exactly, release 1.0.0.10 and end the Android migration phase',
+        url: tag('whereq-dosbox', 'v1.0.0.10'),
+      },
+      {
         version: 'v1.0.0.9',
         date: '2026-11-16',
         title: 'Turn the on-screen keyboard into two console pads and ship the 1.0.0.9 APK',
