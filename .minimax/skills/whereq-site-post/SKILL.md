@@ -212,9 +212,11 @@ Registration and release mechanics: `references/release-flow.md`.
     Pages repo's `master` branch. **Never `yarn deploy`** — the Docusaurus
     default targets a `gh-pages` branch, which is not where this site lives.
 
-    **Run it in the background with a timeout of at least 2400 seconds.** A
-    full build of this site takes 10–15 minutes; a shorter cap kills the
-    build mid-flight and leaves `build/` half written.
+    **Run it in the background with a timeout of at least 3600 seconds.** The
+    build takes 10–15 minutes, and the deploy step is slower still: it
+    clones the whole Pages repo, whose history now holds every previous
+    build, so the clone alone can take half an hour. Budget an hour for a
+    release; a shorter cap kills it mid-flight.
 
     Then verify, locally and live:
 
@@ -263,9 +265,9 @@ Registration and release mechanics: `references/release-flow.md`.
   part of a content change.
 - **The build warns about undefined tags** → expected. Tags are inline and
   unregistered by design.
-- **The build is killed by the timeout** → the cap was too short. This site
-  takes 10–15 minutes; rerun with a timeout of at least 2400s and in the
-  background.
+- **The build is killed by the timeout** → the cap was too short. The build
+  takes 10–15 minutes and the deploy's clone of the Pages repo can take half
+  an hour; rerun with a timeout of at least 3600s and in the background.
 - **The deploy fails at the very end, after the push** → that was the temp
   directory cleanup, not the deploy. Confirm with `git ls-remote
   git@github.com-whereq:whereq/whereq.github.io.git refs/heads/master`; if the
@@ -301,7 +303,7 @@ then release to whereq.github.io."
 **Output:** no new posts written; each post's `{title, url, date}` added to
 its application's `announcements` array (one entry per language, using the
 posts' own frontmatter title and date); a clean build; and
-`./bin/whereq.sh all` run in the background with a ≥2400s timeout, followed
+`./bin/whereq.sh all` run in the background with a ≥3600s timeout, followed
 by a live check that `https://whereq.github.io/news/` carries both links.
 
 ## Windows (win32) platform notes
