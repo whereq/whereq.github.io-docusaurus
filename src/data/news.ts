@@ -128,6 +128,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox 1.0.0.10: the sound survives the save state',
+        url: '/blog/WhereQ-DOSBox-1.0.0.10',
+        date: '2026-11-17',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.10：声音也活过了存档',
+        url: '/blog/WhereQ-DOSBox-1.0.0.10-CN',
+        date: '2026-11-17',
+      },
+      {
         title: 'WhereQ-DOSBox 1.0.0.9: the keyboard becomes a handheld console',
         url: '/blog/WhereQ-DOSBox-1.0.0.9',
         date: '2026-11-16',
