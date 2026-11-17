@@ -1,0 +1,171 @@
+---
+title: "WhereQ-DOSBox：昨日的计算世界，今日的掌上体验，明日的无限可能"
+slug: WhereQ-DOSBox-Milestone-CN
+date: 2026-11-17
+tags: [dosbox, android, 模拟器, 里程碑, 怀旧, 开源, whereq, 数字遗产保护, 游戏]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+还记得那个没有应用商店、没有触摸屏、没有云账号的年代吗？但我们依然可以为了玩一款游戏，心甘情愿地耗上整个周末。😂
+
+那时候，我们敲着 `C:\GAMES\DOOM.EXE`，就觉得自己已经是计算机专家了。
+
+其实，DOS 从未真正离开。它只是在等待一台更小的电脑。
+
+今天，我们希望通过 **WhereQ-DOSBox**，让这段经典的计算机世界在 Android 手机上继续延续。
+
+它不是运行在浏览器里的 DOS 模拟器，也不是连接到某台老电脑的远程桌面。它是一个原生 Android 应用，真正的 DOSBox 模拟器核心以原生动态库的形式集成在 APK 内部。
+
+而它背后，还有不少值得分享的东西。
+
+<!-- truncate -->
+
+## 眼见为实
+
+<div
+  style={{
+    position: 'relative',
+    width: '100%',
+    paddingBottom: '56.25%',
+    height: 0,
+    overflow: 'hidden',
+    borderRadius: 2,
+  }}
+>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/IttWMbYYQeI"
+    title="WhereQ-DOSBox 运行在安卓手机上——屏幕上是一个 DOS 游戏，音乐垫在下面"
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      border: 0,
+    }}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
+
+<p align="center">
+  <sub>手机上的 WhereQ-DOSBox：中间跑着 FIFA 96，左右两条黑边里是两块手柄区，
+  底下垫着 1990 年世界杯的那首歌。屏幕上的一切都是真正的 DOSBox 核心，
+  以原生动态库的形式跑在 APK 内部。</sub>
+</p>
+
+## 不只是运行 DOS 游戏
+
+### 原生 Android 架构
+
+基于 DOSBox r4305 和 SDL2，通过 Android NDK 与 CMake 集成构建。原生支持 ARM64、ARMv7 和 x86_64 架构。
+
+### 智能 CPU 执行机制
+
+通过 `core=auto` 配置，普通实模式程序自动使用解释执行，而进入保护模式的程序则切换到动态重编译（JIT）执行。DOS/4GW 程序也在我们的兼容性探索范围之内。
+
+### 真正理解手机操作的键盘
+
+DOS 游戏是为键盘设计的，而不是为手指设计的。我们没有简单地把一块桌面键盘缩小后塞进手机屏幕。
+
+横屏模式下，4:3 的 DOS 显示区域保持在屏幕中央，常用控制按键则充分利用左右两侧的黑边区域。竖屏模式则采用紧凑的底部键盘布局。
+
+### 你的 DOS 环境，你的程序
+
+支持导入 ZIP 游戏包、从文件夹批量安装，也可以直接通过 Android 文件管理器打开 ZIP 文件。
+
+还有一个值得强调的细节：ZIP 包里不一定非得是游戏。
+
+它可以是 DOS 工具、文本界面应用，或者几乎任何兼容的 DOS 程序。
+
+无需申请多余的存储权限。通过 Android 系统文件选择器，应用只访问你主动选择的文件。
+
+### 一个叫 STARFALL 的小游戏
+
+我们还用汇编语言开发了一款非常小巧的 16 位 DOS 街机游戏。
+
+大约 5 KB。一个 COM 可执行文件。不需要运行时环境，也没有任何外部依赖库。
+
+它涵盖了 VGA 图形显示、BIOS 键盘输入和 PC Speaker 蜂鸣器音频。
+
+有时候，证明一个完整模拟器能够正常工作的最好方式，就是准备一个比社交媒体头像还小的游戏。😂
+
+## 而对于开发者来说，还有另一段故事
+
+我们不想只交付一个 APK，然后把所有实现细节都藏起来。
+
+项目同时提供：
+
+- 可复现的 Android NDK/CMake 构建流程。
+- 用于开发和测试的 Linux 桌面基准环境。
+- CPU 核心性能基准测试工具。
+- 无 Root 开发工具链 —— 不需要 root，也不需要 sudo。
+- 移植说明、性能测试文档，以及完整的源代码。
+- GNU GPL-2.0 开源协议，延续 DOSBox 的开源传承。
+
+Android 平台相关的修改尽可能保持精简和局部化，让上游 DOSBox 的核心实现尽可能保持原貌。
+
+整个实现都写在一处地方 —— 那份[技术参考文档](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md) —— 配着图表、源码引用和实测数据。
+
+## 为什么要做这个项目？
+
+技术一直在进步，但这不应该意味着过去的一切都变得无法访问。
+
+还有成千上万款经典 DOS 游戏、教育软件、商业工具和各种应用程序，值得继续被使用、被发现、被保存。
+
+我们认为，数字遗产保护不应该只局限于博物馆、虚拟机或者复古硬件收藏爱好者。
+
+有时候，保护经典其实很简单：让旧的东西能够在新的设备上继续运行。
+
+现在，你口袋里的手机也可以打开一个 DOS 命令提示符。
+
+而某个 90 年代的计算机爱好者，可能正在疑惑：为什么运行一个 5 KB 的游戏，竟然需要 8 个 CPU 核心？😁
+
+## 这是一个里程碑，不是终点
+
+安卓移植阶段已经完成，这一版带上了标注它的标签：
+
+```
+milestone/android-migration-complete
+```
+
+模拟器核心能为三个 ABI 编译，应用层在真机上跑得动，存档能装下整台机器——包括声音芯片——桌面基线也能正常链接。接下来进入**维护阶段**：修 bug、打磨文档，不再增加新功能。
+
+## 拿去用
+
+**WhereQ-DOSBox 是一个开源项目，而这段旅程还在继续。**
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)**
+
+如果你也曾经经历过 DOS 时代，我们很想听听你的想法：
+
+> **如果可以让一款经典 DOS 游戏或应用重新焕发生命，你最想让哪一个回来？**
+
+即使那些老电脑早已不在，也让它们曾经创造的精彩继续运行下去。
+
+## 谢谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*你口袋里的手机能打开一个 DOS 提示符。整个想法就是这一句话，只是做出来比应该花的时间更久。如果你记得某个值得再跑一次的 DOS 程序，告诉我们是哪一个 —— 也许我们会把它做出来。*

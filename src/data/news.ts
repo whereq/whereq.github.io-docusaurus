@@ -128,6 +128,17 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title:
+          "WhereQ-DOSBox: Yesterday's Computing. Today's Pocket. Tomorrow's Possibilities.",
+        url: '/blog/WhereQ-DOSBox-Milestone',
+        date: '2026-11-17',
+      },
+      {
+        title: 'WhereQ-DOSBox：昨日的计算世界，今日的掌上体验，明日的无限可能',
+        url: '/blog/WhereQ-DOSBox-Milestone-CN',
+        date: '2026-11-17',
+      },
+      {
         title: 'WhereQ-DOSBox 1.0.0.10: the sound survives the save state',
         url: '/blog/WhereQ-DOSBox-1.0.0.10',
         date: '2026-11-17',
