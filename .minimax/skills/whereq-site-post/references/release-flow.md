@@ -88,12 +88,33 @@ branch of this repo. This project deploys to a *separate* repository —
 A full build of this site takes **10–15 minutes** (208 blog posts plus offline
 search indexing). A foreground command with the default 60-second cap, or a
 900-second cap, will kill the build mid-flight and leave `build/` half
-written. Run the release in the **background with a timeout of at least 2400
+written. Run the release in the **background with a timeout of at least 3600
 seconds**, and wait for it to finish before verifying.
+
+The **deploy step is the slow one, not the build**. `cmd_deploy` does a *full*
+clone of the Pages repo — no `--depth` — and that repo carries every previous
+build in its history, so it now runs to roughly **300 MB packed**. Measured on
+2026-11-16: the clone alone took **~35 minutes** at roughly 10 MB/min, and the
+push of the new ~290 MB tree took a few minutes more. The whole release
+(build + clone + push) ran close to **50 minutes**.
+
+So: budget an hour for a release, and use a timeout of at least 3600s. If the
+clone is still running after half an hour, that is normal, not a hang — watch
+it with `du -sh /tmp/tmp.*/.git` and expect the size to climb steadily.
+
+To check the deploy's progress without waiting for the script to finish:
+
+```sh
+du -sh /tmp/tmp.*/.git          # clone progress, ~300 MB total
+git ls-remote git@github.com-whereq:whereq/whereq.github.io.git refs/heads/master
+```
+
+The Pages ref updates only after the push completes, so it still showing the
+old SHA means the push has not landed yet.
 
 ```sh
 cd /home/whereq/git/whereq.github.io-docusaurus
-COMMIT_MSG="..." ./bin/whereq.sh all   # background, timeout ≥ 2400s
+COMMIT_MSG="..." ./bin/whereq.sh all   # background, timeout ≥ 3600s
 ```
 
 ## The `rm` shim and the temp directory
