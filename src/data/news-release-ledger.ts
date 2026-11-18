@@ -379,6 +379,20 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
         url: tag('whereq-dosbox', 'milestone/android-migration-complete'),
       },
       {
+        version: 'v1.0.0.12',
+        date: '2026-11-17',
+        title:
+          'A patch on the milestone — the native build knows its own version, and a local build ships all three ABIs',
+        url: tag('whereq-dosbox', 'v1.0.0.12'),
+      },
+      {
+        version: 'v1.0.0.11',
+        date: '2026-11-17',
+        title:
+          'Give the DOS mouse a right button, put it in the save state, release 1.0.0.11',
+        url: tag('whereq-dosbox', 'v1.0.0.11'),
+      },
+      {
         version: 'v1.0.0.10',
         date: '2026-11-17',
         title:
