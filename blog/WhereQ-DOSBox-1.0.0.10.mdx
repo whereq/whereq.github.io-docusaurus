@@ -130,7 +130,7 @@ This release carries a tag that is not a release:
 milestone/android-migration-complete
 ```
 
-It is annotated, it points at this release's commit, and it deliberately sits **outside** the `vX.Y.Z.A` scheme the release script understands, so the script will never pick it up and try to release it again.
+It is annotated, it pointed at this release's commit — the marker has since moved on to v1.0.0.11 — and it deliberately sits **outside** the `vX.Y.Z.A` scheme the release script understands, so the script will never pick it up and try to release it again.
 
 It marks a phase, not a version. The Android migration is done: the emulator core builds for three ABIs, the app layer works on a real device, save states carry the whole machine including the sound, and the desktop baseline links. What comes after this is **maintenance** — bug fixes and documentation polish. No new features are planned.
 
