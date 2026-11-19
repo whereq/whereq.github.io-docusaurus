@@ -8,6 +8,21 @@ authors: whereq
 
 import ThemedImage from '@theme/ThemedImage';
 
+<style>{`
+/* The phone screenshots come in two shapes: 2400x1080 (landscape) and
+   1080x2400 (portrait). Left at the full 715px column width, a portrait
+   shot rendered 715x1588 - taller than the viewport - and the guide ran to
+   roughly 24000px. Cap every screenshot in a 560px box instead, so both
+   orientations stay legible and the article stops being a scroll marathon.
+   The width cap stays relative, so the images still fit on a phone. */
+.markdown img[src*='docs/screenshots/'] {
+  max-width: min(560px, 100%);
+  max-height: 560px;
+  width: auto;
+  height: auto;
+}
+`}</style>
+
 <figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
   <ThemedImage
     alt="WhereQ-DOSBox"
