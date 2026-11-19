@@ -24,17 +24,17 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `0e8d504` |
+| Source commit | `649880c` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `d8c32ec58f5bc33862906d00f69269d70374ec94906d18f3b6a139f4e63907bc` |
+| SHA-256 | `16c0ae216045ca83acff25c00a5b0e650ab7059bc3727c99991faf9064c0adb9` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# d8c32ec58f5bc33862906d00f69269d70374ec94906d18f3b6a139f4e63907bc
+# 16c0ae216045ca83acff25c00a5b0e650ab7059bc3727c99991faf9064c0adb9
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
