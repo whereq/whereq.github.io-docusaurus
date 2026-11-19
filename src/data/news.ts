@@ -139,6 +139,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox interrupts: the map of every INT in the emulator',
+        url: '/blog/WhereQ-DOSBox-Interrupts',
+        date: '2026-11-19',
+      },
+      {
+        title: 'WhereQ-DOSBox 的中断地图：模拟器里每一个 INT 都在干什么',
+        url: '/blog/WhereQ-DOSBox-Interrupts-CN',
+        date: '2026-11-19',
+      },
+      {
         title: 'WhereQ-DOSBox user guide: put a DOS game on your phone in five minutes',
         url: '/blog/WhereQ-DOSBox-User-Guide',
         date: '2026-11-18',
