@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: "A-DOS: Privacy Policy"
 description: "A-DOS collects no data. The app has no network access at all."
+slug: /a-dos/privacy
 ---
 
 # Privacy Policy — A-DOS
