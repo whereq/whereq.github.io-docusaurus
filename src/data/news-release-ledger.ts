@@ -382,7 +382,7 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
         version: 'v1.0.0.13',
         date: '2026-11-18',
         title:
-          'The app carries the name and the mark of the project again, and a restored save keeps the time it was made',
+          'A restored save keeps the time it was made, release 1.0.0.13',
         url: tag('whereq-dosbox', 'v1.0.0.13'),
       },
       {

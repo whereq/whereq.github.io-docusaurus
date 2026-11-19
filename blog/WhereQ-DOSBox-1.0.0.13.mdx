@@ -1,0 +1,137 @@
+---
+title: "WhereQ-DOSBox 1.0.0.13: a restored save keeps the time it was made"
+slug: WhereQ-DOSBox-1.0.0.13
+date: 2026-11-18
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, savestate, saves]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## "Just now"
+
+You come back to the game after lunch. You tap the slot that said you saved it five hours ago. The game loads exactly where you left it — the boss, the health bar, the room you were in.
+
+And the slot now says *"just now"*.
+
+The save is the save you made. The game is the game you left. Only the timestamp lies, and it lies in the direction that makes the app feel like it cannot be trusted with the one thing it is supposed to remember.
+
+That is the whole of 1.0.0.13. It is the smallest release I have shipped and the only one where the fix is three lines long.
+
+<!-- truncate -->
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-save-states.jpg"
+    alt="The save-state sheet of WhereQ-DOSBox for the game whereq-demo-bundle: slot 1 says 2 hours ago and has Save and Load buttons, slots 2 and 3 are empty."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The save-state sheet. The line next to each slot is the only thing this
+  release is about.</sub>
+</p>
+
+## First, the ground moved: the saves live outside the app now
+
+The bug only makes sense once you know where the saves live, because 1.0.0.12 moved them and that release never got a post here. So, briefly.
+
+Until then, a save state was a file in the app's own private storage. Uninstall the app — or lose the phone, or switch phones — and every save goes with it. The app can now keep a copy somewhere that is yours: pick a folder on the phone (**Config → Saves folder**, or the offer that appears after your first save), and every slot is mirrored there, gzipped, next to the game itself.
+
+```
+  the app                          the folder you picked
+  ──────                          ────────────────────
+  the slot   ── gzip ──▶             STARFALL/
+                                     slot1.gz
+                                     slot2.gz
+                                     bundle.zip      (the game)
+```
+
+So a reinstall, a new phone, or an app deleted by accident all come back: the games are offered for restore by name, and their save states are already there. Two archives with the same file name are told apart by name — *game* and *game (2)* — so their saves never end up in the same place.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-files-panel.jpg"
+    alt="The Files panel of WhereQ-DOSBox: an Install a bundle button, an Install all bundles from a folder button, and the games Ultima8 and whereq-demo-bundle, each with Play, Launch and Remove."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Files panel: the games, and the <b>Config</b> button where the saves
+  folder is set.</sub>
+</p>
+
+And that move is exactly where the bug comes from.
+
+## The line that was wrong
+
+When the local copy of a slot is gone — a reinstall, a new phone — the app rebuilds it from the mirror. It writes the file, and a written file has a fresh timestamp: the moment of the write.
+
+The launcher reads the time off that file. So a slot made five hours ago, restored from the mirror, came back labelled *"just now"*.
+
+The snapshot itself was fine, and it was always fine: the machine, the sound chips, the DOS file handles, all of it came back exactly. Only the label was wrong. Which is worse in a way, because a wrong label makes you doubt the thing underneath it — you start wondering whether the restore was faithful, when the restore was perfect and the date was a lie.
+
+The fix is to carry the time across with the state. The mirror knows when the slot was really saved; the rebuilt local file now gets that timestamp instead of the current one:
+
+```kotlin
+// Keep the original SAVE time: restoring rewrites the local file, so
+// without this the slot would show "just now" after every load.
+if (ok) doc.lastModified().takeIf { it > 0L }?.let { local.setLastModified(it) }
+```
+
+One line of work for one line of code, and the slot says *"5 hours ago"* again.
+
+## The name on the phone
+
+The launcher name, the notification and the launcher icons carry the project's own name and mark: **WhereQ-DOSBox**.
+
+The package is `com.whereq.dosbox` and the download is `whereq-dosbox-1.0.0.13.apk`, so this release installs over the previous one in place — same package, same signing key, no uninstalling first. Your games and your saves stay where they are.
+
+## Your save states still load
+
+**Nothing about the save format changed.** The fix is in the launcher, not in the snapshot, so every save state written by the earlier releases loads normally — the file layout is still version 10, the same one that has been in use since the mouse block was slimmed down.
+
+That matters more than it sounds: a release that quietly changes the format would leave a generation of slots unopenable, and the honest thing is to change the format loudly, with a version bump, when it really changes.
+
+## Get it
+
+The release APK is signed with the release key, so it installs over the previous version in place:
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.13**
+
+```
+whereq-dosbox-1.0.0.13.apk
+size:   16 482 792 bytes
+sha256: 98243e5577276d31f89adc1ac776bfc4242fdc0ff43f877bc36797c138cffa94
+```
+
+It runs on **arm64-v8a, armeabi-v7a and x86_64** devices, Android 5.0 and newer, entirely offline, with no account and no tracking. The project is GPL-2.0, and the DOSBox core is embedded with its `AUTHORS`, `ChangeLog`, `COPYING` and per-file headers intact.
+
+Again, **this post is not the documentation.** The documentation is the repository, and it is a single reference document rather than a folder of notes. Please read that rather than take my word for it.
+
+## Thank you, DOSBox
+
+None of this is possible without the DOSBox project.
+
+**DOSBox** was written by the [DOSBox Team](https://www.dosbox.com/crew.php) — a volunteer crew who took an operating system from 1994 and made it runnable on every machine the world has produced since, including the ones that did not exist yet. They kept it alive for three decades and gave it away to anyone who wanted it. WhereQ-DOSBox is a thin layer on top of their work. The originality, the craft and the generosity are entirely theirs.
+
+This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input.
+
+**DOSBox is a trademark of the DOSBox project**; this port is not affiliated with or endorsed by the DOSBox team.
+
+---
+
+*A save state that lies about its own age is a small lie, and small lies are how a tool stops being trusted. If the slot under the "Resume" button has been saying "just now" all week — this is the release you want.*
