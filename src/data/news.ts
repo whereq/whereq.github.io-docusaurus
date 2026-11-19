@@ -46,6 +46,12 @@ export type AppCategory = {
   name: string;
   /** One line describing what the app is. */
   tagline: string;
+  /**
+   * The universe's own name for the app's role — "The Data Platform",
+   * "The Spatial Engine". Optional: the News page does not show it, the
+   * About page does.
+   */
+  role?: string;
   /** The live app. Absent when the app has no hosted instance. */
   url?: string;
   /** The GitHub repository. Only set for the open source applications. */
@@ -68,6 +74,7 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
   {
     id: 'flowdesk',
     name: 'flowdesk.top',
+    role: 'NOVA Command Center',
     tagline: 'NOVA, the AI analyst for market research — semantic search, charts and proactive insights.',
     url: 'https://flowdesk.top',
     repo: 'FlowDesktop',
@@ -78,6 +85,7 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
   {
     id: 'caijing',
     name: 'caijing.today',
+    role: 'The Newsroom',
     tagline: '财经今日 — Chinese-first financial news, hot rankings and an economic calendar.',
     url: 'https://caijing.today',
     repo: 'CaiJing-Today',
@@ -99,6 +107,7 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
   {
     id: 'whereq-com',
     name: 'whereq.com',
+    role: 'The Spatial Engine',
     tagline: 'The map of a place — places, schools, fuel, local news and neighbourhood boundaries.',
     url: 'https://whereq.com',
     repo: 'WhereQ-com',
@@ -120,6 +129,7 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
   {
     id: 'whereq-dosbox',
     name: 'whereq-dosbox',
+    role: 'The Time Machine',
     tagline: 'A native Android port of DOSBox — the emulator core runs in an APK, not in a browser.',
     // No hosted instance: the APK is built from the repository, so this
     // entry carries a Source button only.
@@ -224,6 +234,7 @@ export const PROPRIETARY_APPS: AppCategory[] = [
   {
     id: 'whereq-cloud',
     name: 'whereq.cloud',
+    role: 'The Data Platform',
     tagline: 'The data platform — a hosted MCP server, a public API and 25M+ named records.',
     url: 'https://whereq.cloud',
     logo: '/img/apps/whereq-cloud.png',
@@ -233,6 +244,7 @@ export const PROPRIETARY_APPS: AppCategory[] = [
   {
     id: 'qhaul',
     name: 'qhaul.ca',
+    role: 'The Freight Engine',
     tagline: 'Local drivers, same-day moving, delivery and haulage across the GTA.',
     url: 'https://qhaul.ca',
     logo: '/img/apps/qhaul.png',
@@ -242,6 +254,7 @@ export const PROPRIETARY_APPS: AppCategory[] = [
   {
     id: 'ccbus',
     name: 'ccbus.cc',
+    role: 'The DeFi Engine',
     tagline: 'Cross-chain everything — a bridge, a swap desk and the Buzz AI assistant.',
     url: 'https://ccbus.cc',
     logo: '/img/apps/ccbus.png',
@@ -251,6 +264,7 @@ export const PROPRIETARY_APPS: AppCategory[] = [
   {
     id: 'keytomarvel',
     name: 'keytomarvel.com',
+    role: 'The Universal Passport',
     tagline: 'The Marvel-styled Keycloak identity theme for the WhereQ Universe.',
     url: 'https://keytomarvel.com',
     logo: '/img/apps/keytomarvel.png',
@@ -260,6 +274,7 @@ export const PROPRIETARY_APPS: AppCategory[] = [
   {
     id: 'chroniq',
     name: 'chroniq.cc',
+    role: 'The Temporal Engine',
     tagline: 'Scheduling that respects your calendar — holidays, lunar dates, weather and 8 languages.',
     url: 'https://chroniq.cc',
     logo: '/img/apps/chroniq.png',
@@ -269,6 +284,7 @@ export const PROPRIETARY_APPS: AppCategory[] = [
   {
     id: 'catobigato',
     name: 'catobigato.com',
+    role: 'The Knowledge Galaxy',
     tagline: 'Games, learning and a public API — with the Luca engine open source.',
     url: 'https://catobigato.com',
     logo: '/img/apps/catobigato.png',
@@ -278,6 +294,7 @@ export const PROPRIETARY_APPS: AppCategory[] = [
   {
     id: 'whereq-ca',
     name: 'whereq.ca',
+    role: 'The Research Station',
     tagline: 'The WhereQ App Hub — the single front door to the universe.',
     url: 'https://whereq.ca',
     logo: '/img/apps/whereq-ca.png',
