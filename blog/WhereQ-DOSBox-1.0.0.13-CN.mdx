@@ -1,0 +1,135 @@
+---
+title: "WhereQ-DOSBox 1.0.0.13：读档之后，存档还记得自己是什么时候存的"
+slug: WhereQ-DOSBox-1.0.0.13-CN
+date: 2026-11-18
+tags: [dosbox, android, 模拟器, 发布, 怀旧, 开源, whereq, 存档, 存档目录]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 「刚刚」
+
+午饭之后你回来接着打。点那个写着「五小时前」的档位。游戏原样回来了——那只大家伙、血条、你当时站着的那个房间，都在你离开时的样子。
+
+然后档位上写着的是「**刚刚**」。
+
+存档还是你存的那一份，游戏还是你走时的那一刻。只有时间在说谎，而且它撒的方向刚好是让这个应用显得不可信：它唯一该记住的事，它自己没记住。
+
+1.0.0.13 的全部内容就是这个。这是我发过的最小的一版，修复也只有三行。
+
+<!-- truncate -->
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-save-states.jpg"
+    alt="WhereQ-DOSBox 里 whereq-demo-bundle 的存档面板：档位 1 写着 2 hours ago，旁边是 Save 和 Load 两个按钮，档位 2 和档位 3 是空的。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>存档面板。每个档位旁边的那一行字，就是这一版唯一要修的东西。</sub>
+</p>
+
+## 先说前提：存档已经搬到应用外面了
+
+这个 bug 得先说清楚存档放在哪儿才讲得通，因为 1.0.0.12 把它们搬走了，而那一版在这里一直没发过文章。简单交代一下。
+
+在那之前，存档是应用私有目录里的一个文件。卸载应用——或者手机丢了、换手机了——所有存档跟着一起没。现在应用可以自己留一份在你手上的地方：在手机上选一个文件夹（**Config → Saves folder**，或者第一次存档之后弹出来的那个邀请），之后每个档位都会镜像到那里，压成 gzip，就放在游戏旁边。
+
+```
+  应用                              你选的那个文件夹
+  ──────                          ────────────────────
+  存档   ── gzip ──▶                STARFALL/
+                                    slot1.gz
+                                    slot2.gz
+                                    bundle.zip      (游戏本身)
+```
+
+于是重装、换手机、或者手滑删了应用，东西都能回来：游戏按名字 offer 给你恢复，它们的存档已经在那里了。同名的两个压缩包会按名字区分——*game* 和 *game (2)*——所以它们的存档不会混到同一个地方。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-files-panel.jpg"
+    alt="WhereQ-DOSBox 的 Files 面板：Install a bundle 按钮、Install all bundles from a folder 按钮，以及 Ultima8 和 whereq-demo-bundle 两个游戏，每个都有 Play、Launch 和 Remove。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Files 面板：游戏列表，以及设置存档目录的 <b>Config</b> 按钮。</sub>
+</p>
+
+而这次搬家，恰恰就是 bug 的来处。
+
+## 错在哪一行
+
+本地那份档位不见了的时候——重装了、换手机了——应用会从镜像里把它重建出来。文件是新写出来的，于是带上了写的那一刻的时间戳。
+
+启动器读的就是这个文件上的时间。于是五小时前存的档位，从镜像里恢复出来，就成了「刚刚」。
+
+快照本身一点问题都没有，而且从来就没问题过：机器、声音芯片、DOS 文件句柄，全都原样回来了。错的只有那个标签。可这反而更糟，因为一个错的标签会让你开始怀疑底下的东西——你会怀疑这次恢复到底忠实不忠实，其实恢复完美无缺，撒谎的是日期。
+
+修法是把时间跟着一块带过去。镜像知道这个档位究竟是什么时候存的，重建出来的本地文件现在拿到的就是这个时间，而不是当前时间：
+
+```kotlin
+// Keep the original SAVE time: restoring rewrites the local file, so
+// without this the slot would show "just now" after every load.
+if (ok) doc.lastModified().takeIf { it > 0L }?.let { local.setLastModified(it) }
+```
+
+一行活儿，一行代码，档位于是又变回「5 小时前」。
+
+## 手机上的名字
+
+启动器名字、通知和桌面图标现在都带着这个项目自己的名字和标记：**WhereQ-DOSBox**。
+
+包名是 `com.whereq.dosbox`，下载文件名是 `whereq-dosbox-1.0.0.13.apk`，所以这一版可以直接覆盖安装上一版——包名一样、签名密钥一样，不用先卸载。你的游戏和存档原地不动。
+
+## 你的存档还是读得出来
+
+**存档格式什么都没改。** 修的是启动器，不是快照，所以之前各版本写下的存档都照常读得出来——文件布局仍然是版本 10，和当初把鼠标块精简成稳定配置之后那一版一样。
+
+这比听起来更重要：一次悄悄改掉格式的发布，会留下一批再也打不开的存档。老实做法是——格式真变了就大声改，带版本号地改。
+
+## 拿去用
+
+发布版 APK 用发布密钥签名，可以直接覆盖安装上一版：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.13**
+
+```
+whereq-dosbox-1.0.0.13.apk
+size:   16 482 792 bytes
+sha256: 98243e5577276d31f89adc1ac776bfc4242fdc0ff43f877bc36797c138cffa94
+```
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，要求 Android 5.0 及以上，完全离线，不需要账号，没有任何追踪。项目采用 GPL-2.0 许可，DOSBox 核心连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件头注释一起嵌入。
+
+再说一遍：**这篇文章不是文档。** 文档是仓库本身，而且现在是一份参考文档，不再是一堆笔记。请去读那份，而不是信我的一面之词。
+
+## 谢谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*一个会谎报自己年龄的存档只是个小谎，而小谎正是工具失去信任的方式。如果你发现「继续」下面那个档位这一周一直写着「刚刚」——这一版就是你要的那一版。*

@@ -129,6 +129,18 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     announcements: [
       {
         title:
+          'WhereQ-DOSBox 1.0.0.13: a restored save keeps the time it was made',
+        url: '/blog/WhereQ-DOSBox-1.0.0.13',
+        date: '2026-11-18',
+      },
+      {
+        title:
+          'WhereQ-DOSBox 1.0.0.13：读档之后，存档还记得自己是什么时候存的',
+        url: '/blog/WhereQ-DOSBox-1.0.0.13-CN',
+        date: '2026-11-18',
+      },
+      {
+        title:
           "WhereQ-DOSBox: Yesterday's Computing. Today's Pocket. Tomorrow's Possibilities.",
         url: '/blog/WhereQ-DOSBox-Milestone',
         date: '2026-11-17',
