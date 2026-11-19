@@ -129,8 +129,8 @@ async function createConfig(): Promise<Config> {
         title: 'WhereQ',
         logo: {
           alt: 'WhereQ Logo',
-          src: 'img/whereq-cc.png',
-          srcDark: 'img/whereq-cc.png',
+          src: 'img/whereq-logo.png',
+          srcDark: 'img/whereq-logo.png',
         },
         items: [
           {

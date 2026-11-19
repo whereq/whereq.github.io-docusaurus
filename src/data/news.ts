@@ -130,7 +130,8 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     id: 'whereq-dosbox',
     name: 'whereq-dosbox',
     role: 'The Time Machine',
-    tagline: 'A native Android port of DOSBox — the emulator core runs in an APK, not in a browser.',
+    tagline:
+      'A complete DOS emulator built natively for Android — the emulator core runs inside an APK, not in a browser, and it plays most vintage DOS games and software.',
     // No hosted instance: the APK is built from the repository, so this
     // entry carries a Source button only.
     repo: 'whereq-dosbox',
@@ -235,7 +236,8 @@ export const PROPRIETARY_APPS: AppCategory[] = [
     id: 'whereq-cloud',
     name: 'whereq.cloud',
     role: 'The Data Platform',
-    tagline: 'The data platform — a hosted MCP server, a public API and 25M+ named records.',
+    tagline:
+      'The centralized data cloud behind every application in the universe — a hosted MCP server, a public API and 25M+ named records.',
     url: 'https://whereq.cloud',
     logo: '/img/apps/whereq-cloud.png',
     accent: '#4d9bff',
