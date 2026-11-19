@@ -1,0 +1,261 @@
+---
+title: "WhereQ-DOSBox 的中断地图：模拟器里每一个 INT 都在干什么"
+slug: WhereQ-DOSBox-Interrupts-CN
+date: 2026-11-19
+tags: [dosbox, dos, 中断, x86, android, 模拟器, 复古, 开源, whereq, 存档]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 所有 DOS 程序唯一都认同的那一个接口
+
+有一件事是我没料到自己会在意，然后一旦在意就停不下来的。
+
+1987 年的 DOS 游戏并不知道显卡是什么。它不知道鼠标存在，也不知道键盘有个缓冲区。它只认一件事：往栈里推一个数，执行 `INT`，机器就会回答。`INT 10h`，机器把一个字符画到屏幕上。`INT 16h`，机器交出一个按键。`INT 33h`，机器告诉你鼠标在哪、哪些按钮按着。
+
+契约就这么多。1991 到 1994 年的每一个游戏都是照着它写的，而且它从来没有变过。
+
+为了写这篇文章，我把 DOSBox 的中断层认真读了一遍。它是整个模拟器里建得最用心的部分之一——同时也是这个移植版被迫想得最多的部分之一，因为触摸屏不是鼠标，手机也不是 PC。
+
+所以，地图在这里。
+
+<!-- truncate -->
+
+## 地图
+
+| 向量 | 服务 | 用途 |
+|---|---|---|
+| **10h** | 视频 BIOS | 文本与图形输出、光标、调色板、VESA/VBE |
+| **13h** | 磁盘 BIOS | 对磁盘镜像做扇区读写 |
+| **16h** | 键盘 BIOS | 从 BIOS 键盘缓冲区取按键 |
+| **21h** | DOS | DOS API：文件、目录、内存、程序 |
+| **29h** | 快速控制台 | 完全不走 DOS 层的字符输出 |
+| **2Ah** | 网络重定向器 | 「有没有网络协议栈？」 |
+| **2Eh** | DOS shell | 模拟器自己的命令行 |
+| **2Fh** | 多路复用 | XMS、CD-ROM 等扩展的派发口 |
+| **33h** | 鼠标 | DOS 鼠标驱动 |
+| **67h** | EMS | 扩展内存，以及 VCPI |
+| **74h** | PS/2 鼠标 | IRQ 12，鼠标的硬件向量 |
+| **41h / 46h** | 磁盘参数表 | 磁盘的几何参数 |
+| **1Fh / 43h / 44h** | 字体 | 8×8 字模块 |
+| **4Bh** | 虚拟 DMA | VDMA 通道 API |
+| **73h** | IPX ESR | Novell 网络事件服务例程 |
+
+硬件那一侧有个容易搞混的点：**IRQ 号不是向量号**。两片 8259 各自有一个向量基址——主片 `0x08`，从片 `0x70`——向量是在中断被响应的那一刻才算出来的：
+
+| IRQ | 向量 | 设备 |
+|---|---|---|
+| 0 | 08h | PIT 定时器 |
+| 1 | 09h | 键盘 |
+| 2 | 0Ah | 到从片 PIC 的级联 |
+| 6 | 0Eh | PCjr 键盘 |
+| 8 | 70h | 实时时钟 |
+| 12 | 74h | PS/2 鼠标 |
+| 3、4、5、7、10、11 | 0Bh、0Ch、0Dh、0Fh、72h、73h | 其余全部——被屏蔽并记录在案 |
+
+每个向量下面的功能码表，仓库里有一份完整版：**[docs/INTERRUPTS.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md)**。这篇文章讲的是它背后的故事。
+
+## INT 10h 的一次调用，怎么变成了一个 C 函数
+
+DOSBox 里没有一张集中的中断表。服务安装自己的方式，和真 BIOS 一模一样：写**中断向量表**，让向量指向一段桩代码。
+
+`INT n` 执行 `0xCD` 这条指令，落进 `CPU_Interrupt()`，CPU 压入标志、CS 和 EIP，关掉中断标志，再从 IVT 的 `base + (n << 2)` 处读出新的 `CS:IP`。这是货真价实的 8086 流程，DOSBox 一步步照做——来宾的栈上得到的六个字节，和真硬件上完全一样。
+
+向量指向的并不是处理程序，而是一段**桩**：几字节手工拼出来的 16 位实模式代码，形状由一个回调类型决定。DOSBox 的巧思是一字节的合成操作码——`FE 38`——CPU 解释器认得它，把它变成一次对已注册 C 函数的调用。
+
+这些桩不是装饰，它们的形状就是行为本身：
+
+- **INT 16h 会空转。** 桩是 `IRET`，然后十二个 `NOP`，再跳回回调。缓冲区里没有按键时，处理程序给 `IP` 加一，正好落回那串 `NOP` 上。于是来宾就在**实模式里空转**，直到 IRQ 1 送来一个按键——和真硬件一模一样。
+- **INT 21h 要交税。** 它的桩里含一条 `loop` 指令：模拟出来的 DOS 服务开销，一次调用几百个周期，8086 上本来也要花掉的。
+- **INT 13h 用 BIOS 的方式报错。** 桩的结尾是 `IRET`，然后 `INT 0Eh`，再 `IRET`——就是经典的「用 AL=0 调 INT 0Eh」磁盘错误约定。
+
+## INT 33h，以及为什么「点击」必须是「按住」
+
+鼠标是最有意思的一个，也是这个移植版改动最多的一个。
+
+`INT 33h` 是一个对 `AX` 的 `switch`，实现了 35 个功能码。这里真正要紧的是两个：**AX=03h**，返回光标位置和按键状态；**AX=0Ch**，登记游戏自己的事件回调。
+
+关于 AX=03h，有一点是我读到代码才真正明白的。`mouse.buttons` 是一个**电平**，不是边沿。`Mouse_ButtonPressed()` 置位，`Mouse_ButtonReleased()` 清位，AX=03h 把这个掩码原样交回去：
+
+```c
+case 0x03:	/* Return Position and Button Status */
+    reg_bx=mouse.buttons;
+    reg_cx=POS_X;
+    reg_dx=POS_Y;
+    break;
+```
+
+每帧轮询 AX=03h 的游戏，问的是「这个按钮**现在**按着吗」，而不是「刚才有没有点一下」。
+
+就这一个事实，决定了整个触摸层的设计。
+
+## 从一根手指到一只 DOS 鼠标
+
+这个移植版的第一版做法很直白：手指按下就是 press，手指抬起就是 release，敲一下算一次点击。
+
+这是错的。而且错在一种只有游戏才会暴露的地方。三国志英杰传的战斗界面读的是**实时**按键状态。如果按下和抬起落在它两次轮询之间，游戏根本看不见这次点击。光标动了，敲击等于没发生，玩家只会觉得这个应用坏了。
+
+所以现在手指在玻璃上按多久，按钮就按住多久：
+
+```
+  SDL_FINGERDOWN        →  Mouse_ButtonPressed(0)   // 左键，按住
+  SDL_FINGERMOTION      →  移动光标，按键仍然按着
+  SDL_FINGERUP          →  Mouse_ButtonReleased(0)
+```
+
+敲一下于是变成一次真正的「按住再松开」的点击。拖动也变成真正的拖动——因为光标是在按键按着的时候移动的。
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n7-pads-letters.png"
+    alt="STARFALL 跑在手机上，画面两侧是两块掌机式键盘区：左边是方向键和半边 QWERTY，右边是动作键和另外半边字母。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>画面两侧的两块键盘区。整块屏幕就是那只鼠标。</sub>
+</p>
+
+### 吞掉每一次点击的那个陷阱
+
+还有第二个 bug，而且更古怪。DOSBox 在全屏时会「捕获鼠标」，这会置上 `sdl.mouse.locked`。这个标志一置上，`Mouse_CursorMoved()` 就**忽略绝对位置**，只累加相对位移。
+
+在桌面上这是对的——被捕获的鼠标本来就是相对设备。可手机上根本没有鼠标可捕获，后果就是每一次敲击都被忽略，光标卡在屏幕正中。
+
+修之前和修之后的实测：
+
+| | 点 (700, 300) | 点 (1500, 800) | 点 (1000, 500) |
+|---|---|---|---|
+| 之前 | 320, 100 | 320, 100 | 320, 100 |
+| 之后 | 97, 55 | 453, 148 | 231, 92 |
+
+数字是精确的：`0.153 × 80 × 8 = 97`——DOS 文本屏 80 × 25 个字符格，每格 8 像素。原本永远落在同一个错误格子上的点击，现在落在你真正按下的地方。
+
+### 右键
+
+DOS 鼠标有两个按钮，触摸屏只有一个。而绝大多数 DOS 游戏里右键是*取消*或*返回*，所以丢掉右键就是丢掉了一整类交互。
+
+这里没有长按手势，也没有上下文菜单。右键由两个机制送出，而且两个都是**按住**式按钮，和左键完全一样：
+
+- 画面上的**第二根手指**。左键会先松开，所以两个按钮不会重叠；右键一直按到那根手指抬起。
+- 屏幕上的 **`RMB` 键**，在左边那块、紧挨 `Tab`。它通过 JNI 桥往 DOSBox 的事件队列里推一个真正的 `SDL_BUTTON_RIGHT` 的 `SDL_MOUSEBUTTONDOWN`，事件走的路径和普通鼠标点击一模一样。
+
+第二个机制有意思的地方在于，它压根不是一个手势——它是**另一个事件类型**，被塞进模拟器本来就在读的那个队列。
+
+## 驱动的状态住在来宾内存之外
+
+这是我把存档格式重写了两次的那个 bug 的根子。
+
+INT 33h 驱动的状态住在一个**宿主的文件内静态结构体**里，不在模拟出来的内存中。其中有三样东西，来宾在读档之后没法自己重建：
+
+- 游戏用 **AX=0Ch** 登记的事件回调——段、偏移和事件掩码；
+- **AX=09h** 定义的图形光标和它的热点；
+- 光标范围、位置、可见性和灵敏度。
+
+少了第一样，症状精确得让人难受：**光标还在动**——那是 DOSBox 在画——**但游戏的点击送不到游戏里**。对话框的*确认*按钮就是没反应。模拟器看起来活蹦乱跳，游戏却是聋的。
+
+少了第二样，光标退回默认的白色方块、热点归零，于是**看得见的光标和真正的点击点对不上**，敲击会落在目标的偏上偏左。
+
+所以鼠标驱动必须成为存档的一部分。第一次尝试存了整个结构体。
+
+**结果把游戏卡死了。** 三国志英杰传在读档时挂起，而且过一分钟就再也不响应点击——事件队列在一个卡住的 `in_UIR` 标志后面堆满了。把过期的队列和过期的 `in_UIR` 喂回中断处理程序，就是把垃圾喂给了游戏自己的回调。
+
+修法是搞懂两种状态的分别：
+
+> **配置值得保存，运行期状态是毒药。**
+
+最终形态存的是一个专门的 `MouseStateBlock`，只放来宾重建不了的东西——回调三元组、光标范围与位置、热点、光标掩码、灵敏度。读档时则把**所有易失的部分重置**：事件队列、按键与点击计数器、重入标志、光标绘制的背景缓冲。
+
+还有一条规则，这是「宿主指针」规则的小号版本：结构体里有两个指向光标位图的**宿主指针**。它们从不写进文件，而是在读档后根据保存的光标类型**重新推导**：用户自定义的图形光标用恢复出来的掩码，其余一律用内置箭头。
+
+## 同一条规则，往下一层：PIC
+
+中断控制器是同一个形状的问题，而这个移植版得出了同一个答案。
+
+存档是机器的快照，而机器包含它的中断子系统。`PIC_SaveState` 和 `PIC_LoadState` 会把两个控制器结构体写进去——然后加载器**故意不把全部都恢复**：
+
+```c
+	/* Keep the game's interrupt MASK and configuration, but drop any stale
+	 * pending/in-service state: a restored in-service bit would block all
+	 * lower-priority IRQs (so the RTC that drives INT 15h/86h, and thus sound
+	 * timing, would stall), and a stale request bit would fire a spurious IRQ.
+	 * At the top-of-main-loop restore point no IRQ is genuinely mid-service. */
+	pics[i].imrr = ~pics[i].imr;
+	pics[i].irr = 0;
+	pics[i].isr = 0;
+```
+
+掩码是*配置*——来宾自己决定要哪些中断，它要留下来。在服务位和请求位是*瞬态*——一个残留的在服务位会卡死整个优先级链，一个残留的请求位会打出一次莫名的中断。
+
+保留配置，丢掉运行期状态。同一句话，在两个不同的子系统里说了两遍，而两次都是靠撞墙撞出来的。
+
+格式版本也随着设计在动：**8** 是「整个鼠标驱动状态」，**9** 是「精简成回调 + 范围 + 位置」，**10** 是「光标形状、热点和其余配置」。含义变了的格式必须把版本号喊出来，这样旧的存档会被**拒绝**，而不是被误读。
+
+## 这个移植版没有改的东西
+
+这个答案更让人意外，也更值得直说：**BIOS 中断层是上游代码。**
+
+`src/ints/` 下的每一个文件自导入以来都没动过，只有一个例外。`mouse.cpp` 有五个导入之后的提交；而 `int10.cpp` 及其八个兄弟、`bios.cpp`、`bios_disk.cpp`、`bios_keyboard.cpp`、`ems.cpp`、`xms.cpp` 一个都没有。
+
+DOS 层也一样。`src/dos/dos.cpp`——整个 INT 21h 处理程序——以及 `dos_misc.cpp`、`dos_classes.cpp`、`dos_memory.cpp` 与导入的源码逐字节相同。这个移植版对它的**唯一**侵入是一行，而且和中断没有关系：
+
+```c
+SegSet16(ds,pspseg);SegSet16(es,pspseg);
+/* WhereQ: a guest program has taken over the machine, so the boot
+ * is over and a save-state request may be serviced. The shell
+ * itself never reaches its prompt in this case (it is blocked
+ * inside the program it started), so this is the only place where
+ * the save-state module learns that the guest is running. */
+SAVESTATE_GuestReady();
+```
+
+连包启动器都是走的标准路径。每个游戏会生成一个 `RUN.BAT`，被追加到模拟器的 `[autoexec]` 里；来宾随后用 `INT 21h AH=4Bh` 去 exec 它，再 `AH=4Bh` 跑游戏自己的 `PLAY.BAT`，最后 `AH=4Ch` 退出。这个移植版没有新增任何启动器 API——它只是挑了一个文件名，剩下的交给 DOS。
+
+整个移植版大致就是这个形状：真正有意思的工作几乎从不在 BIOS 层，而在**它上面那一层**——把一根手指变成一只鼠标，把一次轻触变成一个按住不松的按钮，把一个游戏变成存档能带走的东西。
+
+## 自己看一遍
+
+看这一层工作，最省事的办法是打开 `MOUSE` 日志分组，在 `dosbox.conf` 里：
+
+```
+[log]
+logfile=/sdcard/dosbox.log
+mouse=true
+```
+
+Android 应用不带 `[log]` 段，所以默认是关的。打开之后，驱动**没有实现**的每一次 INT 33h 调用都会被报出来：
+
+```
+Mouse Function 0018 not implemented!
+```
+
+这等于直接读出了游戏在要什么、驱动又没回答什么。再往前一个函数的地方，有一行被注释掉的日志，会打印**每一次** INT 33h 调用的 AX、BX、CX 和光标位置——对想读这份代码的人来说，这是这个树里最值得解开的一行。
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)**——源码、完整的中断地图 [`docs/INTERRUPTS.md`](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md)，以及背后的技术参考。
+
+## 致谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植版基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植版与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*模拟器就是一台由「对还没人问过的问题的回答」造出来的机器。真正有意思的工作，在于决定那个问题从一根拇指上传来时，回答应该是什么。*

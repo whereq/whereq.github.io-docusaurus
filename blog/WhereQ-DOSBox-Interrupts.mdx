@@ -1,0 +1,261 @@
+---
+title: "WhereQ-DOSBox interrupts: the map of every INT in the emulator"
+slug: WhereQ-DOSBox-Interrupts
+date: 2026-11-19
+tags: [dosbox, dos, interrupts, x86, android, emulator, retro, open-source, whereq, savestate]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## The one interface every DOS program agrees on
+
+Here is something I did not expect to care about, and then could not stop caring about.
+
+A DOS game from 1987 does not know what a graphics card is. It does not know that a mouse exists, or that a keyboard has a buffer. It knows exactly one thing: it can ask the machine a question by **pushing a number onto the stack and executing `INT`**. `INT 10h` and the machine will put a character on the screen. `INT 16h` and the machine will hand over a keystroke. `INT 33h` and the machine will tell it where the mouse is and which buttons are down.
+
+That is the whole contract. Every game from 1991 to 1994 is written against it, and it never changed.
+
+I have been reading DOSBox's interrupt layer properly for this article, and it turns out to be one of the most carefully built parts of the emulator — and one of the parts this port has had to think about hardest, because a touch screen is not a mouse and a phone is not a PC.
+
+So here is the map.
+
+<!-- truncate -->
+
+## The map
+
+| Vector | Service | What it is for |
+|---|---|---|
+| **10h** | Video BIOS | text and graphics output, the cursor, the palette, VESA/VBE |
+| **13h** | Disk BIOS | sector reads and writes against the disk images |
+| **16h** | Keyboard BIOS | keystrokes out of the BIOS keyboard buffer |
+| **21h** | DOS | the DOS API: files, directories, memory, programs |
+| **29h** | Fast console | character output with no DOS overhead at all |
+| **2Ah** | Network redirector | "is there a network stack?" |
+| **2Eh** | DOS shell | the emulator's own command shell |
+| **2Fh** | Multiplex | the dispatcher for XMS, CD-ROM and other extensions |
+| **33h** | Mouse | the DOS mouse driver |
+| **67h** | EMS | expanded memory, and VCPI |
+| **74h** | PS/2 mouse | IRQ 12, the mouse's hardware vector |
+| **41h / 46h** | Disk parameter tables | the geometry of the disks |
+| **1Fh / 43h / 44h** | Fonts | the 8×8 character blocks |
+| **4Bh** | Virtual DMA | the VDMA channel API |
+| **73h** | IPX ESR | the Novell network event service routine |
+
+And the hardware side, where an IRQ number is *not* a vector number. The two 8259s have a vector base — `0x08` for the master, `0x70` for the slave — and the vector is computed when the interrupt is taken:
+
+| IRQ | Vector | Device |
+|---|---|---|
+| 0 | 08h | the PIT timer |
+| 1 | 09h | the keyboard |
+| 2 | 0Ah | the cascade to the slave PIC |
+| 6 | 0Eh | the PCjr keyboard |
+| 8 | 70h | the real-time clock |
+| 12 | 74h | the PS/2 mouse |
+| 3, 4, 5, 7, 10, 11 | 0Bh, 0Ch, 0Dh, 0Fh, 72h, 73h | everything else — masked and recorded |
+
+The full map, with the function-code tables underneath each vector, is in the repository as **[docs/INTERRUPTS.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md)**. This article is the story behind it.
+
+## How a call to INT 10h becomes a C function
+
+There is no central interrupt table in DOSBox. A service installs itself the way a real BIOS does: it writes the **interrupt vector table**, and the vector points at a stub.
+
+`INT n` executes opcode `0xCD`, lands in `CPU_Interrupt()`, and the CPU pushes flags, CS and EIP, clears the interrupt flag, and reads the new `CS:IP` out of the IVT at `base + (n << 2)`. That is the real 8086 sequence, and DOSBox runs it for real — the guest's stack gets the same six bytes it would on hardware.
+
+What the vector points at is not a handler but a **stub**: a few bytes of hand-assembled real-mode code whose shape is decided by a callback type. DOSBox's trick is a synthetic one-byte opcode — `FE 38` — that the CPU interpreter recognises and turns into a call to a registered C function.
+
+The stubs are not decoration. Their shape is the behaviour:
+
+- **INT 16h spins.** The stub is `IRET`, then twelve `NOP`s, then a jump back into the callback. When no key is buffered the handler adds one to `IP`, which lands it back on the NOP sled. The guest therefore *spins in real mode* until IRQ 1 delivers a key — exactly what real hardware does.
+- **INT 21h pays a tax.** Its stub contains a `loop` instruction: the emulated DOS service overhead, a few hundred cycles per call that a real 8086 would have spent.
+- **INT 13h reports errors the BIOS way.** Its stub ends with `IRET`, then `INT 0Eh`, then `IRET` — the classic "call INT 0Eh with AL=0" disk-error convention.
+
+## INT 33h, and why a click has to be a held button
+
+The mouse is the interesting one, and it is the one this port changed.
+
+`INT 33h` is a `switch` on `AX` with 35 implemented function codes. The two that matter here are **AX=03h**, which returns the cursor position and the button state, and **AX=0Ch**, which registers the game's event callback.
+
+Here is the thing about AX=03h that I did not appreciate until I read the code. `mouse.buttons` is a **level**, not an edge. `Mouse_ButtonPressed()` sets a bit; `Mouse_ButtonReleased()` clears it; AX=03h hands the mask straight back:
+
+```c
+case 0x03:	/* Return Position and Button Status */
+    reg_bx=mouse.buttons;
+    reg_cx=POS_X;
+    reg_dx=POS_Y;
+    break;
+```
+
+A game that polls AX=03h every frame is asking *"is the button down right now?"* — not *"did a click happen?"*.
+
+And that single fact determined the design of the touch layer.
+
+## From a finger to a DOS mouse
+
+The first version of this port did the obvious thing: a finger down was a press, a finger up was a release. A tap was a click.
+
+That is wrong, and it was wrong in a way that only showed up in games. 三国志英杰传's battle UI reads the live button state. If the press and the release land between two of its polls, the game never sees the click. The cursor moves, the tap registers as nothing, and the player concludes the app is broken.
+
+So the finger now holds the button down for exactly as long as it is on the glass:
+
+```
+  SDL_FINGERDOWN        →  Mouse_ButtonPressed(0)   // LEFT, held
+  SDL_FINGERMOTION      →  move the cursor, button still held
+  SDL_FINGERUP          →  Mouse_ButtonReleased(0)
+```
+
+A tap becomes a real held-then-released click. A drag becomes a real drag, because the cursor moves while the button is down.
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n7-pads-letters.png"
+    alt="STARFALL running on the phone with the two console pads either side of the picture: the left pad carries the arrow keys and half a QWERTY, the right pad the action keys and the other half."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The two pads, either side of the picture. The whole screen is the mouse.</sub>
+</p>
+
+### The trap that ate every tap
+
+There was a second bug, and it was stranger. DOSBox captures the mouse when it goes fullscreen, which sets `sdl.mouse.locked`. With that flag set, `Mouse_CursorMoved()` **ignores the absolute position** and only accumulates relative movement.
+
+On a desktop that is correct — a captured mouse is a relative device. On a phone there is no mouse to capture, and the consequence was that every tap was ignored and the cursor sat in the middle of the screen.
+
+The measurement, before and after:
+
+| | tap (700, 300) | tap (1500, 800) | tap (1000, 500) |
+|---|---|---|---|
+| before | 320, 100 | 320, 100 | 320, 100 |
+| after | 97, 55 | 453, 148 | 231, 92 |
+
+The numbers are exact. `0.153 × 80 × 8 = 97` — the DOS text screen's 80 × 25 cells at 8 pixels each. A tap that was always landing on the same wrong cell now lands where you touched.
+
+### The right button
+
+A DOS mouse has two buttons. A touchscreen has one. And in most DOS games the right button is *cancel* or *back*, so losing it loses a whole category of interaction.
+
+There is no long-press gesture and no context menu. Two mechanisms deliver it, and both are **held** buttons, exactly like the left one:
+
+- **A second finger** on the picture. The left button is released first, so the two never overlap, and the right button is held until that finger lifts.
+- **The on-screen `RMB` key**, next to `Tab` on the left pad. It pushes a real `SDL_MOUSEBUTTONDOWN` for `SDL_BUTTON_RIGHT` into DOSBox's event queue through the JNI bridge, and the event flows through the same path as a mouse click.
+
+The second one is the interesting one, because it is not a gesture at all. It is a *different event type* injected into the queue the emulator already reads.
+
+## The driver's state lives outside the guest's memory
+
+Here is the bug that made me rewrite the save-state format twice.
+
+The INT 33h driver's state lives in a **host file-static struct**, not in the emulated memory. Three pieces of it cannot be rebuilt by the guest after a restore:
+
+- the event callback the game registered with **AX=0Ch** — the segment, the offset and the event mask;
+- the graphics cursor and its hotspot, from **AX=09h**;
+- the cursor range, the position, the visibility, the sensitivity.
+
+Without the first, the symptom is precise and nasty: **the cursor still moves** — DOSBox draws it — **but the game's clicks stop reaching the game.** A dialog's *confirm* button simply does nothing. The emulator looks alive; the game is deaf.
+
+Without the second, the cursor reverts to the default white block drawn with a zero hotspot, so the *visible* cursor no longer lines up with the real click point, and taps land up and to the left of the target.
+
+So the mouse driver had to become part of the save state. The first attempt saved the whole struct.
+
+**That wedged the games.** 三国志英杰传 hung on load, and stopped responding to clicks after a minute once the event queue filled behind a stuck re-entrancy flag. Feeding a stale event queue and a stale `in_UIR` back into the interrupt handler fed garbage into the game's own callback.
+
+The fix was to learn the difference between two kinds of state:
+
+> **Configuration is worth saving. Run-time state is poison.**
+
+The final form saves a dedicated `MouseStateBlock` holding only what the guest cannot rebuild — the callback triple, the cursor range and position, the hotspot, the cursor masks, the sensitivity. And on load it **resets** everything volatile: the event queue, the button and click counters, the re-entrancy flag, the cursor-draw backing store.
+
+One more rule, and it is the host-pointer rule in miniature. The struct holds two **host pointers** — to the cursor bitmaps. They are never written to disk. They are *re-derived* from the saved cursor type after a load: a user-defined graphics cursor uses the restored masks, anything else uses the built-in arrow.
+
+## The same rule, one layer down: the PIC
+
+The interrupt controller has the same shape of problem, and the port reached the same answer.
+
+A save state is a snapshot of a machine, and the machine includes its interrupt subsystem. `PIC_SaveState` and `PIC_LoadState` write the two controller structs — and then the loader deliberately does *not* restore all of it:
+
+```c
+	/* Keep the game's interrupt MASK and configuration, but drop any stale
+	 * pending/in-service state: a restored in-service bit would block all
+	 * lower-priority IRQs (so the RTC that drives INT 15h/86h, and thus sound
+	 * timing, would stall), and a stale request bit would fire a spurious IRQ.
+	 * At the top-of-main-loop restore point no IRQ is genuinely mid-service. */
+	pics[i].imrr = ~pics[i].imr;
+	pics[i].irr = 0;
+	pics[i].isr = 0;
+```
+
+The mask is the *configuration* — the guest's own decision about which interrupts it wants, and it survives. The in-service and request registers are *transient* — a leftover in-service bit wedges the priority chain, and a leftover request fires a spurious IRQ.
+
+Keep the configuration. Drop the run-time state. The same sentence, twice, in two different subsystems, and both times it was learned by breaking it.
+
+The format version moved as the design moved: **8** was "the whole mouse driver state", **9** was "slimmed to callback + range + position", **10** is "cursor shape, hotspot and the rest of the configuration". A format that changes meaning must change its version loudly, so that an older save is *refused* rather than misread.
+
+## What this port did not change
+
+The more surprising answer, and the one worth stating plainly: **the BIOS interrupt layer is upstream code.**
+
+Every file in `src/ints/` is untouched since the import, with one exception. `mouse.cpp` has five post-import commits; `int10.cpp` and its eight siblings, `bios.cpp`, `bios_disk.cpp`, `bios_keyboard.cpp`, `ems.cpp` and `xms.cpp` have none.
+
+The same is true of the DOS layer. `src/dos/dos.cpp` — the whole INT 21h handler — `dos_misc.cpp`, `dos_classes.cpp` and `dos_memory.cpp` are byte-identical to the imported sources. The port's **single** intrusion into it is one line, and it is not about interrupts at all:
+
+```c
+SegSet16(ds,pspseg);SegSet16(es,pspseg);
+/* WhereQ: a guest program has taken over the machine, so the boot
+ * is over and a save-state request may be serviced. The shell
+ * itself never reaches its prompt in this case (it is blocked
+ * inside the program it started), so this is the only place where
+ * the save-state module learns that the guest is running. */
+SAVESTATE_GuestReady();
+```
+
+Even the bundle launcher rides the stock path. Each game gets a generated `RUN.BAT` that is appended to the emulator's `[autoexec]`; the guest then does `INT 21h AH=4Bh` to exec it, `AH=4Bh` again for the game's own `PLAY.BAT`, and `AH=4Ch` to exit. The port did not add a launcher API. It chose a filename and let DOS do the rest.
+
+That is the shape of the whole port: the interesting work is almost never in the BIOS layer. It is in **what sits above it** — turning a finger into a mouse, a tap into a held button, and a game into something a save state can carry.
+
+## Watching it yourself
+
+The cheapest way to see this layer work is the `MOUSE` log group, enabled from `dosbox.conf`:
+
+```
+[log]
+logfile=/sdcard/dosbox.log
+mouse=true
+```
+
+The Android app ships no `[log]` section, so it is off by default. Once it is on, every INT 33h call that the driver does *not* implement is reported:
+
+```
+Mouse Function 0018 not implemented!
+```
+
+which is a direct read-out of what a game is asking for and what the driver does not answer. There is a commented-out line one function away that would print the AX, BX, CX and cursor position of *every* INT 33h call — the single most useful change a developer could make to this tree.
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — the source, the full interrupt map at [`docs/INTERRUPTS.md`](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md), and the technical reference behind it.
+
+## Thank you, DOSBox
+
+None of this is possible without the DOSBox project.
+
+**DOSBox** was written by the [DOSBox Team](https://www.dosbox.com/crew.php) — a volunteer crew who took an operating system from 1994 and made it runnable on every machine the world has produced since, including the ones that did not exist yet. They kept it alive for three decades and gave it away to anyone who wanted it. WhereQ-DOSBox is a thin layer on top of their work. The originality, the craft and the generosity are entirely theirs.
+
+This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input.
+
+**DOSBox is a trademark of the DOSBox project**; this port is not affiliated with or endorsed by the DOSBox team.
+
+---
+
+*An emulator is a machine made of answers to questions nobody has asked yet. The interesting work is in deciding what the answer should be when the question arrives from a thumb.*
