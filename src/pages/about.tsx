@@ -1,65 +1,79 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Layout from '@theme/Layout';
-import { BsYinYang } from 'react-icons/bs';
 import { FaPhone } from 'react-icons/fa';
+import { AppCategory, OPEN_SOURCE_APPS, PROPRIETARY_APPS } from '../data/news';
 import styles from './about.module.css';
 
-const tocItems = [
-  { id: 'intro',      label: 'Introduction' },
-  { id: 'experience', label: 'Experience' },
-  { id: 'projects',   label: 'Projects' },
-];
-
-type Project = {
-  name: string;
-  description: string;
-  url: string;
-  logo?: string;          // image path
-  icon?: React.ReactNode; // react-icons component
-  disabled?: boolean;
+type TocItem = {
+  id: string;
+  label: string;
+  children?: TocItem[];
 };
 
-const projects: Project[] = [
+const tocItems: TocItem[] = [
+  { id: 'intro', label: 'Introduction' },
+  { id: 'experience', label: 'Experience' },
   {
-    logo: '/img/whereq-com.png',
-    name: 'WhereQ App Hub',
-    description:
-      'Your all-in-one decentralized web application hub — productivity, education & personal management, all in one place. No cloud storage, no tracking.',
-    url: 'https://www.whereq.ca',
+    id: 'projects',
+    label: 'Projects',
+    children: [
+      { id: 'open-source', label: 'Open Source' },
+      { id: 'products', label: 'Products' },
+    ],
+  },
+];
+
+/**
+ * Two applications that belong to the universe but are not on the News page:
+ * whereq.cc — the private, browser-encrypted photo vault — and this site
+ * itself, the universe's public voice. They are declared here so the
+ * portfolio stays the complete picture.
+ */
+const GALLERY_APP: AppCategory = {
+  id: 'whereq-cc',
+  name: 'whereq.cc',
+  role: 'The Private Gallery',
+  tagline:
+    'A photo vault that stays in your browser — encrypted locally with AES-256-GCM, organised into albums and tags, with on-demand AI enhancement.',
+  url: 'https://whereq.cc',
+  logo: '/img/whereq-cc.png',
+  accent: '#d946ef',
+  announcements: [],
+};
+
+const HUB_APP: AppCategory = {
+  id: 'whereq-hub',
+  name: 'whereq.github.io',
+  role: 'Mission Control',
+  tagline:
+    'The public voice of the universe — this site: engineering writing, release notes and the announcement hub for every application.',
+  url: 'https://whereq.github.io',
+  repo: 'whereq.github.io-docusaurus',
+  logo: '/img/logo.svg',
+  accent: '#f5a623',
+  announcements: [],
+};
+
+/** A titled group of applications in the portfolio. */
+type ProjectGroup = {
+  id: string;
+  title: string;
+  blurb: string;
+  apps: AppCategory[];
+};
+
+const projectGroups: ProjectGroup[] = [
+  {
+    id: 'open-source',
+    title: 'Open Source',
+    blurb: 'Every one of these ships its source publicly — read it, fork it, run it yourself.',
+    apps: [...OPEN_SOURCE_APPS, HUB_APP],
   },
   {
-    logo: '/img/whereq-cc.png',
-    name: 'WhereQ — LLM',
-    description: 'AI/LLM integrated platform',
-    url: 'https://www.whereq.cc',
-    disabled: true,
-  },
-  {
-    icon: <BsYinYang className={styles.projectIcon} />,
-    name: 'Key To Marvel',
-    description: 'Unified identity & access management platform',
-    url: 'https://www.keytomarvel.com',
-  },
-  {
-    logo: '/img/flowdesk.svg',
-    name: 'FlowDesk',
-    description:
-      'Deep, structured & intelligent stock analysis powered by AI. Explore companies, investigate investment ideas, and have professional-grade conversations about stocks.',
-    url: 'https://www.flowdesk.top',
-  },
-  {
-    logo: '/img/whereq-com.svg',
-    name: 'whereq',
-    description:
-      'Discover the world beyond the map — location-based guides, neighbourhood stories, hidden histories, and social connections for any place you drop a pin.',
-    url: 'https://www.whereq.com',
-  },
-  {
-    logo: '/img/catobigato.png',
-    name: 'CatoBigato',
-    description:
-      'Your chubby cat tutor for K-12 to college. Catobi listens, thinks, and shows the work — explanations, quizzes, and graphs across math, science, and the humanities.',
-    url: 'https://www.catobigato.com',
+    id: 'products',
+    title: 'Products',
+    blurb: 'The products themselves. Their source is not public, so there is no Source link.',
+    apps: [...PROPRIETARY_APPS, GALLERY_APP],
   },
 ];
 
@@ -70,8 +84,9 @@ const experience = [
     title: 'Owner',
     period: '2020 – Present',
     summary:
-      'Founded WhereQ Inc., specializing in web 2.0 applications for the Real Estate Industry, offering OpenAI integration and practical AI applications.',
+      'Founder of WhereQ Inc., building the WhereQ Universe — an ecosystem of applications that share one data platform, one identity layer and one release cadence, with OpenAI integration and practical AI throughout.',
     achievements: [
+      'Built the WhereQ Universe: a shared data platform, a unified identity layer, and an open-source core whose releases are published as announcements on this site.',
       'Implemented a Java client to interface with TREB MLS for pulling selling data based on the IDX protocol.',
       'Constructed a scheduled batch service to retrieve selling data and display it on an integrated Google Map website.',
       'Designed and implemented a proprietary image compression algorithm to reduce Amazon S3 costs.',
@@ -87,15 +102,18 @@ const experience = [
     title: 'Lead Engineer',
     period: '04/2019 – Present',
     summary:
-      'Tech leader and solution architect designing solutions for the BNS data platform, focusing on big data streaming, metric collection, performance tuning, and automation.',
+      'Tech leader and solution architect for the BNS data platform — big data streaming, metric collection, performance tuning and automation — and for the enterprise AI initiatives built on top of it.',
     achievements: [
+      'Led the architecture and delivery of enterprise AI initiatives, including Data GPT and internal GenAI enablement platforms, achieving the 90-90 KPI — 90% query accuracy, with 90% of queries answered within 30 seconds.',
+      'Built Data GPT, an AI-powered query platform using OpenAI’s GPT-3.5 Turbo model to deliver accurate and efficient data retrieval for enterprise-grade analytics.',
+      'Evaluated and integrated emerging AI technologies, establishing reusable frameworks and best practices for enterprise adoption.',
       'Designed and implemented "Spark as a Service" and an Avro/JSON flattener service.',
       'Developed lightweight scaffolding using Spring Boot, R2DBC, and MapStruct to simplify API development.',
       'Led end-to-end solution design for data consumption using Presto, connecting HDFS, ElasticSearch, and PostgreSQL.',
       'Developed ElasticSearch metrics tools and centralized business calendar services using Node.js and PostgreSQL.',
       'Reengineered Credit 360 application, improving performance, codebase, and validation frameworks.',
     ],
-    stack: 'Kubernetes, Docker, Presto, Spark, Kafka, HDFS, ElasticSearch, Power BI, Java, Spring Boot, Angular, MongoDB, Jenkins, PostgreSQL, Git',
+    stack: 'Kubernetes, Docker, Presto, Spark, Kafka, HDFS, ElasticSearch, Power BI, Java, Spring Boot, Angular, MongoDB, Jenkins, PostgreSQL, OpenAI GPT-3.5, GenAI, Git',
   },
   {
     company: 'TD Bank',
@@ -150,6 +168,12 @@ const experience = [
   },
 ];
 
+/** Every id the table of contents watches. */
+const tocIds: string[] = tocItems.flatMap((item) => [
+  item.id,
+  ...(item.children ?? []).map((child) => child.id),
+]);
+
 function TableOfContents({ activeId }: { activeId: string }) {
   return (
     <nav className={styles.toc}>
@@ -163,6 +187,22 @@ function TableOfContents({ activeId }: { activeId: string }) {
             >
               {item.label}
             </a>
+            {item.children && (
+              <ul className={styles.tocList}>
+                {item.children.map((child) => (
+                  <li key={child.id}>
+                    <a
+                      href={`#${child.id}`}
+                      className={`${styles.tocLink} ${styles.tocLinkChild} ${
+                        activeId === child.id ? styles.tocLinkActive : ''
+                      }`}
+                    >
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
           </li>
         ))}
       </ul>
@@ -170,7 +210,47 @@ function TableOfContents({ activeId }: { activeId: string }) {
   );
 }
 
-export default function About(): JSX.Element {
+/** One application in the portfolio: its mark, its role, its story, its links. */
+function ProjectCard({ app }: { app: AppCategory }) {
+  return (
+    <div className={styles.projectCard}>
+      <span className={styles.logoTile}>
+        <img src={app.logo} alt="" className={styles.projectLogo} />
+      </span>
+      <div className={styles.projectInfo}>
+        <div className={styles.projectNameRow}>
+          <span className={styles.projectName}>{app.name}</span>
+          {app.role && <span className={styles.projectRole}>{app.role}</span>}
+        </div>
+        <span className={styles.projectDesc}>{app.tagline}</span>
+      </div>
+      <div className={styles.projectLinks}>
+        {app.url && (
+          <a
+            href={app.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${styles.projectLink} ${styles.projectLinkPrimary}`}
+          >
+            Open app
+          </a>
+        )}
+        {app.repo && (
+          <a
+            href={`https://github.com/whereq/${app.repo}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.projectLink}
+          >
+            Source
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default function About(): React.JSX.Element {
   const [activeId, setActiveId] = useState('intro');
   const observerRef = useRef<IntersectionObserver | null>(null);
 
@@ -186,7 +266,7 @@ export default function About(): JSX.Element {
       { rootMargin: '-20% 0px -70% 0px' },
     );
 
-    tocItems.forEach(({ id }) => {
+    tocIds.forEach((id) => {
       const el = document.getElementById(id);
       if (el) observerRef.current?.observe(el);
     });
@@ -194,8 +274,11 @@ export default function About(): JSX.Element {
     return () => observerRef.current?.disconnect();
   }, []);
 
+  const appCount = projectGroups.reduce((sum, group) => sum + group.apps.length, 0);
+  const openSourceCount = projectGroups[0].apps.length;
+
   return (
-    <Layout title="About" description="About Dazhi Zhang (Tony) — Engineering Leader and Software Architect">
+    <Layout title="About" description="About Dazhi Zhang (Tony) — Engineering Leader, AI Architect and Software Architect">
       <div className={styles.layout}>
 
         {/* ── Main content ───────────────────────────────────── */}
@@ -211,7 +294,7 @@ export default function About(): JSX.Element {
               />
               <div className={styles.heroText}>
                 <h1 className={styles.heroName}>Dazhi Zhang (Tony)</h1>
-                <p className={styles.heroTitle}>Senior Software Developer &amp; Engineering Leader</p>
+                <p className={styles.heroTitle}>Senior Software Developer · Engineering Leader · AI Architect</p>
                 <p className={styles.heroTagline}>Time can fade everything</p>
                 <div className={styles.heroContact}>
                   <span><FaPhone className={styles.heroPhone} /> (416) ***-****</span>
@@ -222,6 +305,11 @@ export default function About(): JSX.Element {
             <p className={styles.heroBio}>
               A well-qualified software developer, a fast learner, a highly motivated
               self-starter, and a reliable person to work with.
+            </p>
+            <p className={styles.heroBio}>
+              By day I lead enterprise data and AI platforms; the rest of the time I
+              build the WhereQ Universe — a family of applications that share one data
+              platform, one identity layer and one release cadence.
             </p>
           </section>
 
@@ -251,32 +339,44 @@ export default function About(): JSX.Element {
 
           {/* Projects */}
           <section id="projects" className={styles.section}>
-            <h2 className={styles.sectionTitle}>Projects</h2>
-            <div className={styles.projects}>
-              {projects.map((p) => (
-                p.disabled ? (
-                  <div key={p.url} className={`${styles.projectCard} ${styles.projectCardDisabled}`}>
-                    {p.icon
-                      ? <span className={styles.projectIconWrapper}>{p.icon}</span>
-                      : <img src={p.logo} alt={p.name} className={styles.projectLogo} />}
-                    <div className={styles.projectInfo}>
-                      <span className={styles.projectName}>{p.name}</span>
-                      <span className={styles.projectDesc}>{p.description}</span>
-                    </div>
-                  </div>
-                ) : (
-                  <a key={p.url} href={p.url} target="_blank" rel="noopener noreferrer" className={styles.projectCard}>
-                    {p.icon
-                      ? <span className={styles.projectIconWrapper}>{p.icon}</span>
-                      : <img src={p.logo} alt={p.name} className={styles.projectLogo} />}
-                    <div className={styles.projectInfo}>
-                      <span className={styles.projectName}>{p.name}</span>
-                      <span className={styles.projectDesc}>{p.description}</span>
-                    </div>
-                  </a>
-                )
-              ))}
-            </div>
+            <h2 className={styles.sectionTitle}>The WhereQ Universe</h2>
+            <p className={styles.sectionBlurb}>
+              Every application below is one I designed, built and shipped. They are
+              not a list of clients — they are one ecosystem, sharing a data platform,
+              an identity layer and a release train.
+            </p>
+
+            <dl className={styles.stats}>
+              <div className={styles.stat}>
+                <dt>Applications</dt>
+                <dd>{appCount}</dd>
+              </div>
+              <div className={styles.stat}>
+                <dt>Open source</dt>
+                <dd>
+                  {openSourceCount}
+                  <span className={styles.statMeta}>of {appCount}</span>
+                </dd>
+              </div>
+              <div className={styles.stat}>
+                <dt>Building since</dt>
+                <dd>2012</dd>
+              </div>
+            </dl>
+
+            {projectGroups.map((group) => (
+              <section key={group.id} className={styles.group} aria-labelledby={group.id}>
+                <h3 className={styles.groupTitle} id={group.id}>
+                  {group.title}
+                </h3>
+                <p className={styles.groupBlurb}>{group.blurb}</p>
+                <div className={styles.projects}>
+                  {group.apps.map((app) => (
+                    <ProjectCard key={app.id} app={app} />
+                  ))}
+                </div>
+              </section>
+            ))}
           </section>
 
         </main>

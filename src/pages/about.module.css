@@ -1,3 +1,11 @@
+/* ============================================================
+   About page — WhereQ theme.
+
+   Everything here is expressed with the site's own CSS variables
+   (--ifm-*) rather than hardcoded colours, so the page reads
+   correctly in both the light and the dark theme.
+   ============================================================ */
+
 /* ── Two-column page layout ───────────────────────────────── */
 .layout {
   display: flex;
@@ -23,7 +31,7 @@
 
 .toc {
   padding-left: 0.75rem;
-  border-left: 2px solid rgba(245, 166, 35, 0.15);
+  border-left: 2px solid color-mix(in srgb, var(--ifm-color-primary) 22%, transparent);
 }
 
 .tocTitle {
@@ -31,7 +39,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #6a737d;
+  color: var(--ifm-color-emphasis-700);
   margin: 0 0 0.6rem;
 }
 
@@ -47,7 +55,7 @@
 .tocLink {
   display: block;
   font-size: 0.8rem;
-  color: #8b949e;
+  color: var(--ifm-color-emphasis-700);
   text-decoration: none !important;
   padding: 3px 0;
   border-bottom: none !important;
@@ -55,19 +63,25 @@
 }
 
 .tocLink:hover {
-  color: #f5a623;
+  color: var(--ifm-color-primary);
 }
 
 .tocLinkActive {
-  color: #f5a623 !important;
+  color: var(--ifm-color-primary) !important;
   font-weight: 600;
+}
+
+/* A nested entry — one level in, under its parent section. */
+.tocLinkChild {
+  font-size: 0.75rem;
+  padding-left: 0.75rem;
 }
 
 /* ── Hero ─────────────────────────────────────────────────── */
 .hero {
   margin-bottom: 3rem;
   padding-bottom: 2.5rem;
-  border-bottom: 1px solid rgba(245, 166, 35, 0.15);
+  border-bottom: 1px solid var(--ifm-hr-border-color);
 }
 
 .heroInner {
@@ -82,8 +96,8 @@
   height: 110px;
   object-fit: contain;
   border-radius: 50%;
-  border: 2px solid rgba(245, 166, 35, 0.35);
-  background: rgba(245, 166, 35, 0.05);
+  border: 2px solid color-mix(in srgb, var(--ifm-color-primary) 35%, transparent);
+  background: color-mix(in srgb, var(--ifm-color-primary) 5%, transparent);
   padding: 6px;
   flex-shrink: 0;
 }
@@ -97,20 +111,20 @@
 .heroName {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #f0e6c8;
+  color: var(--ifm-heading-color);
   margin: 0;
 }
 
 .heroTitle {
   font-size: 0.95rem;
-  color: #8b949e;
+  color: var(--ifm-color-emphasis-700);
   margin: 0;
 }
 
 .heroTagline {
   font-size: 1rem;
   font-style: italic;
-  color: #f5a623;
+  color: var(--ifm-color-primary);
   margin: 0.25rem 0 0.5rem;
   opacity: 0.9;
 }
@@ -119,7 +133,7 @@
   display: flex;
   gap: 1.5rem;
   font-size: 0.875rem;
-  color: #8b949e;
+  color: var(--ifm-color-emphasis-700);
   flex-wrap: wrap;
 }
 
@@ -130,36 +144,84 @@
 }
 
 .heroContact a {
-  color: #f5a623;
+  color: var(--ifm-color-primary);
   text-decoration: none;
   border-bottom: none !important;
 }
 
 .heroContact a:hover {
-  color: #fbd07f;
+  color: var(--ifm-color-primary-lightest);
 }
 
 .heroBio {
   font-size: 0.975rem;
-  color: #c9d1d9;
+  color: var(--ifm-font-color-base);
   line-height: 1.7;
-  margin: 0;
+  margin: 0 0 0.75rem;
 }
 
 /* ── Generic section ──────────────────────────────────────── */
 .section {
   margin-bottom: 3rem;
+  scroll-margin-top: 80px;
 }
 
 .sectionTitle {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #f5a623;
+  color: var(--ifm-color-primary);
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   padding-bottom: 0.4rem;
-  border-bottom: 1px solid rgba(245, 166, 35, 0.2);
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 30%, transparent);
+}
+
+.sectionBlurb {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.65;
+  max-width: 70ch;
+  margin: 0 0 1.25rem;
+}
+
+/* ── Stats strip ──────────────────────────────────────────── */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 0 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.stat dt {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.stat dd {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.statMeta {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-700);
 }
 
 /* ── Timeline / Experience ────────────────────────────────── */
@@ -171,9 +233,9 @@
 
 .job {
   padding: 1.25rem 1.5rem;
-  background: rgba(22, 27, 39, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-left: 3px solid rgba(245, 166, 35, 0.4);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-hr-border-color);
+  border-left: 3px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
   border-radius: 0 10px 10px 0;
 }
 
@@ -184,31 +246,31 @@
 .jobCompany {
   font-size: 1.05rem;
   font-weight: 700;
-  color: #f0e6c8;
+  color: var(--ifm-heading-color);
   margin: 0 0 0.15rem;
 }
 
 .jobCompany a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid rgba(245, 166, 35, 0.3) !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 35%, transparent) !important;
   transition: color 0.15s ease;
 }
 
 .jobCompany a:hover {
-  color: #f5a623;
+  color: var(--ifm-color-primary);
 }
 
 .jobMeta {
   font-size: 0.82rem;
-  color: #f5a623;
+  color: var(--ifm-color-primary);
   margin: 0;
   font-weight: 500;
 }
 
 .jobSummary {
   font-size: 0.9rem;
-  color: #c9d1d9;
+  color: var(--ifm-font-color-base);
   line-height: 1.65;
   margin: 0.6rem 0 0.75rem;
 }
@@ -217,7 +279,7 @@
   margin: 0 0 0.75rem;
   padding-left: 1.25rem;
   font-size: 0.875rem;
-  color: #c9d1d9;
+  color: var(--ifm-font-color-base);
   line-height: 1.65;
 }
 
@@ -227,13 +289,35 @@
 
 .jobStack {
   font-size: 0.8rem;
-  color: #6a737d;
+  color: var(--ifm-color-emphasis-600);
   margin: 0;
   line-height: 1.6;
 }
 
 .jobStack strong {
-  color: #8b949e;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ── Project groups ───────────────────────────────────────── */
+.group {
+  margin-bottom: 2.25rem;
+  scroll-margin-top: 80px;
+}
+
+.groupTitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.3rem;
+}
+
+.groupBlurb {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 1rem;
+  line-height: 1.6;
 }
 
 /* ── Projects ─────────────────────────────────────────────── */
@@ -248,69 +332,136 @@
   align-items: center;
   gap: 1rem;
   padding: 0.875rem 1.25rem;
-  background: rgba(22, 27, 39, 0.8);
-  border: 1px solid rgba(245, 166, 35, 0.12);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
   border-radius: 10px;
-  text-decoration: none !important;
-  color: inherit;
   transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
 }
 
 .projectCard:hover {
-  border-color: rgba(245, 166, 35, 0.4);
-  background: rgba(245, 166, 35, 0.04);
+  border-color: color-mix(in srgb, var(--ifm-color-primary) 40%, transparent);
   transform: translateX(4px);
 }
 
-.projectCardDisabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+/*
+ * A light plate behind every logo, so a dark brand mark still reads
+ * against the dark theme — and a light brand mark still reads in
+ * light mode. Same treatment as the News page.
+ */
+.logoTile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  background: #f1f3f5;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 2px;
+  overflow: hidden;
 }
 
 .projectLogo {
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  border-radius: 8px;
-  flex-shrink: 0;
-}
-
-.projectIconWrapper {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.projectIcon {
-  width: 36px;
-  height: 36px;
-  color: #f5a623;
+  display: block;
 }
 
 .projectInfo {
   display: flex;
   flex-direction: column;
   gap: 0.15rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.projectNameRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .projectName {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #f0e6c8;
+  color: var(--ifm-heading-color);
+}
+
+/*
+ * metroUI: radius xs is 2px — the whereq family standard, the same radius
+ * the chips, tags and scrollbars use across the universe.
+ */
+.projectRole {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ifm-color-primary);
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 35%, transparent);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+  border-radius: 2px;
+  padding: 1px 6px;
+  white-space: nowrap;
 }
 
 .projectDesc {
   font-size: 0.8rem;
-  color: #8b949e;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.5;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.projectLink {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-primary);
+  background: transparent;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.projectLink:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+}
+
+.projectLinkPrimary {
+  background: var(--ifm-color-primary);
+  color: #161b22;
+}
+
+.projectLinkPrimary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #161b22;
 }
 
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 996px) {
   .tocAside {
     display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .projectCard {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .projectLinks {
+    width: 100%;
+    padding-left: 3rem;
   }
 }
 
@@ -337,5 +488,13 @@
   .heroContact {
     flex-direction: column;
     gap: 0.4rem;
+  }
+
+  .stats {
+    gap: 1.25rem;
+  }
+
+  .projectLinks {
+    padding-left: 0;
   }
 }
