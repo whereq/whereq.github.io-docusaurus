@@ -128,6 +128,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox user guide: put a DOS game on your phone in five minutes',
+        url: '/blog/WhereQ-DOSBox-User-Guide',
+        date: '2026-11-18',
+      },
+      {
+        title: 'WhereQ-DOSBox 使用指南：五分钟把 DOS 游戏装进手机',
+        url: '/blog/WhereQ-DOSBox-User-Guide-CN',
+        date: '2026-11-18',
+      },
+      {
         title:
           'WhereQ-DOSBox 1.0.0.13: a restored save keeps the time it was made',
         url: '/blog/WhereQ-DOSBox-1.0.0.13',
