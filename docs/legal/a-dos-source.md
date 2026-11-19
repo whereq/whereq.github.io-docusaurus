@@ -62,6 +62,30 @@ https://github.com/libsdl-org/SDL/releases/download/release-2.30.0/SDL2-2.30.0.t
 
 `./bin/build.sh bootstrap` runs that fetch for you.
 
+## Try it — the example bundle
+
+The archive carries an example bundle: **STARFALL**, a tiny DOS game written
+for this project. It is published on its own as well, so that the bundle
+launcher can be seen working without building anything:
+
+| | |
+|---|---|
+| Archive | [`a-dos-demo-bundle.zip`](/downloads/a-dos-demo-bundle.zip) |
+| SHA-256 | `fa53db56ac78ecf4dead745a247c1d970950ae0442d2763b0730e6689bf20a36` |
+| Contents | `STARFALL.COM`, `PLAY.BAT`, `README.TXT` |
+
+To install it in the app:
+
+1. Download `a-dos-demo-bundle.zip` to the phone.
+2. Open A-DOS and tap the **File** key on the on-screen keyboard (top left) to
+   open the bundle launcher.
+3. Tap **Install a bundle (.zip)** and pick the downloaded file.
+4. It appears in the list. Tap **Play** and the emulator reboots into
+   STARFALL.
+
+The app itself ships no games — this bundle is an example, published with the
+source code, and the user brings their own software.
+
 ## The licence of every part
 
 | Part | Licence | What it means |
