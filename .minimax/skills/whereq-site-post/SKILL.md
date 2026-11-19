@@ -2,7 +2,8 @@
 name: whereq-site-post
 description: |
   Write and publish posts into the WhereQ docs hub — the Docusaurus site at
-  `/home/whereq/git/whereq.github.io-docusaurus` that serves whereq.com —
+  `/home/whereq/git/whereq.github.io-docusaurus` that serves whereq.github.io —
+  NOT whereq.com, which is the WhereQ map app, a different product —
   covering announcements, release notes, and tech docs for any application in
   the WhereQ Universe, each in English and Chinese. Covers the whole flow:
   author the post, register its URL and timestamp in the application's
