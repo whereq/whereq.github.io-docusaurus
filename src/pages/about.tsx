@@ -10,15 +10,36 @@ type TocItem = {
   children?: TocItem[];
 };
 
+/** One role in the career history. */
+type Job = {
+  company: string;
+  url?: string;
+  title: string;
+  period: string;
+  summary: string;
+  achievements: string[];
+  /** Earlier work, kept but collapsed so the headline stays readable. */
+  earlier?: string[];
+  stack: string;
+};
+
 const tocItems: TocItem[] = [
   { id: 'intro', label: 'Introduction' },
   { id: 'experience', label: 'Experience' },
+  { id: 'skills', label: 'Core Skills' },
   {
     id: 'projects',
     label: 'Projects',
     children: [
-      { id: 'open-source', label: 'Open Source' },
-      { id: 'products', label: 'Products' },
+      { id: 'foundation', label: 'Foundation' },
+      { id: 'fintch', label: 'FinTech & Markets' },
+      { id: 'geo', label: 'Geo & Location' },
+      { id: 'booking', label: 'Booking & Scheduling' },
+      { id: 'logistics', label: 'Logistics & Moving' },
+      { id: 'learning', label: 'AI Learning & Tutoring' },
+      { id: 'media', label: 'Private Media & AI Tagging' },
+      { id: 'retro', label: 'Retro Computing' },
+      { id: 'web3', label: 'Web3 & DeFi' },
     ],
   },
 ];
@@ -34,9 +55,9 @@ const GALLERY_APP: AppCategory = {
   name: 'whereq.cc',
   role: 'The Private Gallery',
   tagline:
-    'A photo vault that stays in your browser — encrypted locally with AES-256-GCM, organised into albums and tags, with on-demand AI enhancement.',
+    'A self-encrypted photo vault that lives in your browser — AES-256-GCM with a key only you hold, plus AI tagging and enhancement.',
   url: 'https://whereq.cc',
-  logo: '/img/whereq-cc.png',
+  logo: '/img/apps/whereq-cc.png',
   accent: '#d946ef',
   announcements: [],
 };
@@ -49,7 +70,7 @@ const HUB_APP: AppCategory = {
     'The public voice of the universe — this site: engineering writing, release notes and the announcement hub for every application.',
   url: 'https://whereq.github.io',
   repo: 'whereq.github.io-docusaurus',
-  logo: '/img/logo.svg',
+  logo: '/img/whereq-logo.png',
   accent: '#f5a623',
   announcements: [],
 };
@@ -62,31 +83,108 @@ type ProjectGroup = {
   apps: AppCategory[];
 };
 
+/** Every application the universe knows about, by id. */
+const ALL_APPS: AppCategory[] = [...OPEN_SOURCE_APPS, ...PROPRIETARY_APPS];
+
+/** Look an application up by id — a missing one is a build error, not a blank card. */
+function app(id: string): AppCategory {
+  const found = ALL_APPS.find((a) => a.id === id);
+  if (!found) {
+    throw new Error(`Unknown application: ${id}`);
+  }
+  return found;
+}
+
+/**
+ * The universe, grouped the way a reader thinks about it: the shared
+ * foundation first, then one group per domain.
+ */
 const projectGroups: ProjectGroup[] = [
   {
-    id: 'open-source',
-    title: 'Open Source',
-    blurb: 'Every one of these ships its source publicly — read it, fork it, run it yourself.',
-    apps: [...OPEN_SOURCE_APPS, HUB_APP],
+    id: 'foundation',
+    title: 'The Foundation',
+    blurb:
+      'One centralized data cloud, one identity layer, one front door and one public voice — every application below is built on these.',
+    apps: [app('whereq-cloud'), app('keytomarvel'), app('whereq-ca'), HUB_APP],
   },
   {
-    id: 'products',
-    title: 'Products',
-    blurb: 'The products themselves. Their source is not public, so there is no Source link.',
-    apps: [...PROPRIETARY_APPS, GALLERY_APP],
+    id: 'fintch',
+    title: 'FinTech & Markets',
+    blurb:
+      'Research, news and market data — both products read the same centralized data cloud.',
+    apps: [app('flowdesk'), app('caijing')],
+  },
+  {
+    id: 'geo',
+    title: 'Geo & Location',
+    blurb:
+      'Maps, routing, places and neighbourhood boundaries — the geospatial core the rest of the universe builds on.',
+    apps: [app('whereq-com')],
+  },
+  {
+    id: 'booking',
+    title: 'Booking & Scheduling',
+    blurb:
+      'Scheduling that respects the real calendar — holidays, lunar dates, weather and 8 languages.',
+    apps: [app('chroniq')],
+  },
+  {
+    id: 'logistics',
+    title: 'Logistics & Moving',
+    blurb:
+      'An Uber-style moving, delivery and haulage platform, with local drivers across the GTA.',
+    apps: [app('qhaul')],
+  },
+  {
+    id: 'learning',
+    title: 'AI Learning & Tutoring',
+    blurb:
+      'A cat tutor for K-12 to college that listens, thinks and shows the work — explanations, quizzes and graphs.',
+    apps: [app('catobigato')],
+  },
+  {
+    id: 'media',
+    title: 'Private Media & AI Tagging',
+    blurb:
+      'A gallery encrypted in the browser — the server never sees the key, the photos or the originals.',
+    apps: [GALLERY_APP],
+  },
+  {
+    id: 'retro',
+    title: 'Retro Computing',
+    blurb:
+      'A complete DOS emulator built natively for Android — the emulator core runs inside an APK, and it plays most vintage DOS games and software.',
+    apps: [app('whereq-dosbox')],
+  },
+  {
+    id: 'web3',
+    title: 'Web3 & DeFi',
+    blurb:
+      'A bridge, a swap desk and the Buzz AI assistant — cross-chain everything, in one toolkit.',
+    apps: [app('ccbus')],
   },
 ];
 
-const experience = [
+const experience: Job[] = [
   {
     company: 'WhereQ Inc.',
     url: 'https://www.whereq.com',
     title: 'Owner',
     period: '2020 – Present',
     summary:
-      'Founder of WhereQ Inc., building the WhereQ Universe — an ecosystem of applications that share one data platform, one identity layer and one release cadence, with OpenAI integration and practical AI throughout.',
+      'Founder of WhereQ Inc., where I design the architecture of the WhereQ Universe — one centralized data cloud that serves every application in it, and a family of products across FinTech, geo technology, booking, logistics, learning, private media and retro computing.',
     achievements: [
-      'Built the WhereQ Universe: a shared data platform, a unified identity layer, and an open-source core whose releases are published as announcements on this site.',
+      'Designed the architecture of the universe: one centralized data cloud (whereq.cloud) — a versioned, metered API and MCP server over 25M+ named records — serving every application below.',
+      'Built the FinTech products on top of that cloud: flowdesk.top (NOVA, the AI market-research analyst) and caijing.today (Chinese-first financial news, hot rankings and an economic calendar).',
+      'Built whereq.com, the geo technology layer: maps, routing, places and neighbourhood boundaries — plus the crawler and the schema it reads.',
+      'Built chroniq.cc, a scheduling engine that respects holidays, lunar dates, weather and 8 languages.',
+      'Built qhaul.ca, an Uber-style moving, delivery and haulage platform running on local drivers across the GTA.',
+      'Built catobigato.com, an AI tutoring assistant for K-12 to college that explains, quizzes and graphs its work.',
+      'Built whereq.cc, a self-encrypted photo vault with AI tagging and enhancement — the key never leaves the device.',
+      'Built whereq-dosbox, a complete DOS emulator built natively for Android: the emulator core runs as libdosbox.so inside an APK, and it plays most vintage DOS games and software.',
+      'Shipped keytomarvel.com as the identity layer every application signs in through, whereq.ca as the research station where ideas are tested before they graduate, and this site as the universe’s public voice.',
+    ],
+    earlier: [
       'Implemented a Java client to interface with TREB MLS for pulling selling data based on the IDX protocol.',
       'Constructed a scheduled batch service to retrieve selling data and display it on an integrated Google Map website.',
       'Designed and implemented a proprietary image compression algorithm to reduce Amazon S3 costs.',
@@ -168,6 +266,30 @@ const experience = [
   },
 ];
 
+/** The technical toolkit behind the work, grouped the way it gets used. */
+const skills: { title: string; items: string[] }[] = [
+  {
+    title: 'Languages & Frameworks',
+    items: ['Java', 'Spring Boot', 'Spring WebFlux', 'Python', 'TypeScript', 'React', 'Node.js', 'Angular'],
+  },
+  {
+    title: 'Data, Streaming & Storage',
+    items: ['Apache Spark', 'Kafka', 'HDFS', 'Presto', 'Avro', 'Parquet', 'PostgreSQL', 'MongoDB', 'ElasticSearch', 'Oracle'],
+  },
+  {
+    title: 'AI & GenAI',
+    items: ['OpenAI GPT-3.5 / GPT-4', 'GenAI enablement platforms', 'MCP servers', 'AI agents', 'ChatGPT-style consoles'],
+  },
+  {
+    title: 'Cloud & Platform',
+    items: ['Kubernetes', 'Docker', 'AWS — EC2, RDS, S3', 'Jenkins', 'Git', 'CI/CD', 'Linux'],
+  },
+  {
+    title: 'Product Engineering',
+    items: ['Android — NDK, CMake', 'Keycloak / IAM', 'REST APIs & SDKs', 'GIS & Google Maps', 'Docusaurus', 'Power BI'],
+  },
+];
+
 /** Every id the table of contents watches. */
 const tocIds: string[] = tocItems.flatMap((item) => [
   item.id,
@@ -221,6 +343,7 @@ function ProjectCard({ app }: { app: AppCategory }) {
         <div className={styles.projectNameRow}>
           <span className={styles.projectName}>{app.name}</span>
           {app.role && <span className={styles.projectRole}>{app.role}</span>}
+          {app.repo && <span className={styles.projectBadge}>Open source</span>}
         </div>
         <span className={styles.projectDesc}>{app.tagline}</span>
       </div>
@@ -275,7 +398,10 @@ export default function About(): React.JSX.Element {
   }, []);
 
   const appCount = projectGroups.reduce((sum, group) => sum + group.apps.length, 0);
-  const openSourceCount = projectGroups[0].apps.length;
+  const openSourceCount = projectGroups.reduce(
+    (sum, group) => sum + group.apps.filter((a) => a.repo).length,
+    0,
+  );
 
   return (
     <Layout title="About" description="About Dazhi Zhang (Tony) — Engineering Leader, AI Architect and Software Architect">
@@ -307,9 +433,10 @@ export default function About(): React.JSX.Element {
               self-starter, and a reliable person to work with.
             </p>
             <p className={styles.heroBio}>
-              By day I lead enterprise data and AI platforms; the rest of the time I
-              build the WhereQ Universe — a family of applications that share one data
-              platform, one identity layer and one release cadence.
+              I design the architecture of enterprise data and AI platforms at Scotiabank,
+              and outside the enterprise I build the WhereQ Universe — one centralized data
+              cloud serving a family of applications across FinTech, geo technology,
+              booking, logistics, learning, private media and retro computing.
             </p>
           </section>
 
@@ -331,7 +458,36 @@ export default function About(): React.JSX.Element {
                   <ul className={styles.jobAchievements}>
                     {job.achievements.map((a, j) => <li key={j}>{a}</li>)}
                   </ul>
+                  {job.earlier && (
+                    <details className={styles.jobEarlier}>
+                      <summary>Earlier platform work</summary>
+                      <ul className={styles.jobAchievements}>
+                        {job.earlier.map((a, j) => <li key={j}>{a}</li>)}
+                      </ul>
+                    </details>
+                  )}
                   <p className={styles.jobStack}><strong>Stack:</strong> {job.stack}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Skills */}
+          <section id="skills" className={styles.section}>
+            <h2 className={styles.sectionTitle}>Core Technical Skills</h2>
+            <p className={styles.sectionBlurb}>
+              Fourteen years of production delivery across banking, media, logistics and
+              consumer software — this is the toolkit behind the work below.
+            </p>
+            <div className={styles.skillGrid}>
+              {skills.map((group) => (
+                <div key={group.title} className={styles.skillGroup}>
+                  <h3 className={styles.skillTitle}>{group.title}</h3>
+                  <ul className={styles.skillList}>
+                    {group.items.map((item) => (
+                      <li key={item} className={styles.skillChip}>{item}</li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
@@ -341,9 +497,10 @@ export default function About(): React.JSX.Element {
           <section id="projects" className={styles.section}>
             <h2 className={styles.sectionTitle}>The WhereQ Universe</h2>
             <p className={styles.sectionBlurb}>
-              Every application below is one I designed, built and shipped. They are
-              not a list of clients — they are one ecosystem, sharing a data platform,
-              an identity layer and a release train.
+              Every application below is one I designed, built and shipped. They are not a
+              list of clients — they are one ecosystem: a centralized data cloud at the
+              centre, an identity layer underneath it, and products on top that share one
+              release cadence.
             </p>
 
             <dl className={styles.stats}>
