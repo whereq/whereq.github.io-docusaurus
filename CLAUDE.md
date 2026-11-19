@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-WhereQ, a personal engineering blog (https://www.whereq.com) built with Docusaurus 3.10 + React 19 + TypeScript. Content is ~200 blog posts migrated from a previous Hexo site. The blog is the primary surface; `docs/` is minimal.
+WhereQ, a personal engineering blog (https://whereq.github.io) built with Docusaurus 3.10 + React 19 + TypeScript. Content is ~200 blog posts migrated from a previous Hexo site. The blog is the primary surface; `docs/` is minimal.
+
+This is the **docs hub**, published from the `whereq/whereq.github.io` Pages repo. It is NOT `whereq.com` — the apex domain is the WhereQ map app, a different product in the Universe. `www.whereq.com/docs/...` answers HTTP 200 with that app's shell, not with these docs, so the canonical URL in `docusaurus.config.ts` must name `whereq.github.io`.
 
 ## Commands
 

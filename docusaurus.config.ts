@@ -11,7 +11,13 @@ async function createConfig(): Promise<Config> {
     tagline: 'Engineering Insights by Dazhi Zhang (Tony)',
     favicon: 'img/favicon-32x32.png',
 
-    url: 'https://www.whereq.com',
+    // The docs hub is served from the whereq.github.io Pages repo. The
+    // apex domain whereq.com is a DIFFERENT product in the WhereQ Universe
+    // (the map app) and must never be named as the home of these docs:
+    // www.whereq.com/docs/... answers HTTP 200 with the map app's single
+    // -page shell, not with the docs. This value is what every canonical
+    // tag, the sitemap and the feed URLs are built from.
+    url: 'https://whereq.github.io',
     baseUrl: '/',
 
     organizationName: 'whereq',
