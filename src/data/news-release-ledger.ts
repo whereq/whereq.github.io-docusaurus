@@ -373,10 +373,17 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   'whereq-dosbox': [
       {
         version: 'milestone/android-migration-complete',
-        date: '2026-11-17',
+        date: '2026-11-18',
         title:
           'Android migration phase complete — the emulator core, the app layer, save states and the build pipeline, all verified. From here: maintenance, bug fixes and documentation, no new features.',
         url: tag('whereq-dosbox', 'milestone/android-migration-complete'),
+      },
+      {
+        version: 'v1.0.0.13',
+        date: '2026-11-18',
+        title:
+          'The app carries the name and the mark of the project again, and a restored save keeps the time it was made',
+        url: tag('whereq-dosbox', 'v1.0.0.13'),
       },
       {
         version: 'v1.0.0.12',
