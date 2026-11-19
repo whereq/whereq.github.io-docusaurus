@@ -1,0 +1,516 @@
+---
+title: "WhereQ-DOSBox user guide: put a DOS game on your phone in five minutes"
+slug: WhereQ-DOSBox-User-Guide
+date: 2026-11-18
+tags: [dosbox, android, emulator, guide, retro, open-source, whereq, savestate, saves]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## The guide I wanted and could not find
+
+Here is a thing I noticed while I was testing the app on my own phone. Every DOSBox guide I have ever read was written by somebody who already knew what a `.zip` bundle was. They start at the interesting part — the sound chips, the save-state format, the JIT — and assume you have been running DOS since 1994.
+
+That assumption is wrong for most people holding a phone. The hardest part of putting an old game on a modern phone is not the emulator. It is the first five minutes: getting the game *onto* the phone at all, in a shape the app can start.
+
+So I wrote the guide I wanted instead. Seven steps, one screenshot of every screen, and no assumption that you have ever seen a command prompt.
+
+<!-- truncate -->
+
+## The five-minute version
+
+1. Install the app. The APK is on the [releases page](https://github.com/whereq/whereq-dosbox/releases).
+2. Open it. You land on the **Files** panel, and it is empty.
+3. Press **+ Install a bundle (.zip)** and pick a `.zip` game file.
+4. Press **Play**. The game starts.
+5. Press **File** (top left) whenever you want to come back to the list.
+
+That is the whole thing. Everything below is the detail behind those five steps — read it if you want to understand what you are doing, skip it if you just want to play.
+
+## Before you start
+
+| | |
+|---|---|
+| Phone | Android 5.0 or newer, any phone or tablet |
+| Space | about 60 MB for the app, plus the size of the game |
+| Network | none needed once the app and the game are on the phone |
+| Account | none |
+
+You also need **a game**, as a single `.zip` file. A game for this app is not the same thing as a ZIP of your own files — see [Where do I get a game?](#where-do-i-get-a-game) below.
+
+---
+
+## Step 1 — Install the app
+
+The app is not in the source repository. It is built by the release pipeline and published on the [releases page](https://github.com/whereq/whereq-dosbox/releases) as `whereq-dosbox-<version>.apk`, with a `.sha256` file next to it carrying the checksum.
+
+Copy the `.apk` to your phone — cable, cloud drive, a file-sharing app, whatever is at hand — then tap it on the phone. Android asks whether to allow installing from that app; allow it, and the install goes through.
+
+The app appears on your home screen as the **`>_` mark**:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-20-launcher-home-icon.png"
+    alt="An Android home screen with the WhereQ-DOSBox icon, a dark square carrying the >_ prompt mark."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The WhereQ-DOSBox icon on the home screen.</sub>
+</p>
+
+The name in the app list, the notification, and the screen Android shows for the app all read **WhereQ-DOSBox**:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-21-app-info.png"
+    alt="The Android App info page for WhereQ-DOSBox: the app name, version 1.0.0.13, and the app icon."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Android App info page for WhereQ-DOSBox.</sub>
+</p>
+
+---
+
+## Step 2 — Install a game
+
+Open the app. You land in the **Files** panel — the screen that lists what you have installed:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-01-files-panel-empty.png"
+    alt="The Files panel of WhereQ-DOSBox on a fresh install, empty, with an Install a bundle (.zip) button at the top and the Install all bundles from a folder button below it."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Files panel on a fresh install, with no games yet.</sub>
+</p>
+
+Two ways to get a game in, both at the top of the panel:
+
+| button | what it does |
+|---|---|
+| **+ Install a bundle (.zip)** | pick one `.zip` from your phone |
+| **Install all bundles from a folder** | unpack every `.zip` in one folder at once |
+
+Press **+ Install a bundle (.zip)**, and the system's file picker opens. Pick your game's `.zip` — usually in **Downloads** — and the app unpacks it and registers it. The panel then lists it:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-02-files-panel.png"
+    alt="The Files panel with two games installed, starfall-v2 and F1, each with Play, States, Launch and Remove buttons."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Files panel with two games installed.</sub>
+</p>
+
+Each game in the list has four buttons:
+
+| button | what it does |
+|---|---|
+| **Play** | start the game from the beginning |
+| **States** | save and load save states for this game |
+| **Launch…** | run a different program, or add driver files, before the game |
+| **Remove** | uninstall this game from the app |
+
+### Where do I get a game?
+
+A game for this app is a `.zip` with a small, fixed shape:
+
+```
+  the bundle
+  ─────────
+  PLAY.BAT          the entry point - the app runs this
+  <the game files>  whatever the game needs
+  __meta.json       the name the app shows in the list
+```
+
+That is it. The repository ships one, so you can see the shape and try the app immediately: [`examples/game-bundle`](https://github.com/whereq/whereq-dosbox/tree/main/examples/game-bundle) — the **STARFALL** demo. Copy `whereq-demo-bundle.zip` from that folder to your phone and install it.
+
+For real games: sites that still host abandonware DOS games generally offer them as a `.zip`. If a game's archive contains the game files but no `PLAY.BAT`, the app cannot start it — make a `PLAY.BAT` that runs the game's executable, and zip the folder again.
+
+---
+
+## Step 3 — Play the game
+
+Press **Play**.
+
+The emulator restarts the app and boots the game, and you land at a DOS prompt:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-03-dos-boot-prompt.png"
+    alt={"The DOSBox welcome banner and the C:\\> prompt, with the on-screen keyboard below it."}
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The DOSBox welcome banner and the `C:\>` prompt, with the on-screen
+  keyboard below it.</sub>
+</p>
+
+Type the game's name and press **Enter**. From then on it is the real game — the real keyboard, the real sound, the real mouse.
+
+Here is a real 1994 DOS game running on a phone:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-04-game-f1-menu.png"
+    alt="Formula 1 (Domark, 1994) running on the phone, with the on-screen keyboard around it."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Formula 1 (Domark, 1994) running on the phone, with the on-screen keyboard
+  around it.</sub>
+</p>
+
+And here is the STARFALL demo:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-05-game-starfall-title.png"
+    alt="The STARFALL title screen."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The STARFALL title screen.</sub>
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-06-game-starfall-play.png"
+    alt="STARFALL being played, with the two keyboard pads beside the picture."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>STARFALL being played, with the two keyboard pads beside the picture.</sub>
+</p>
+
+The first time a game runs, Android may ask whether the app may send you notifications. It uses them for a "back to the game" reminder when you leave the app. Answer either way — declining only means you lose that reminder:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-19-notification-permission.png"
+    alt="The Android notification permission prompt: Allow WhereQ-DOSBox to send you notifications?"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Android notification permission prompt.</sub>
+</p>
+
+When a game is running, the **File** key (top left) brings the Files panel back over it, and the panel shows a **Resume** line for the game that is running right now:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-02b-files-panel-resume.png"
+    alt="The Files panel over a running game, with a Resume F1 line above the list."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Files panel over a running game, with <b>Resume F1</b> above the list.</sub>
+</p>
+
+---
+
+## Step 4 — The keyboard and the mouse
+
+There is no physical keyboard in the way, because the screen keyboard *is* the keyboard. In landscape you get two pads beside the picture, the way a handheld console is built: the **left pad** has the arrow keys as a D-pad and the left half of a split QWERTY, the right pad has the action keys (Alt, Ctrl, Shift, Space, Enter) and the right half of the alphabet.
+
+Two keys change what the pads show:
+
+| key | shows |
+|---|---|
+| **#+=** | the punctuation layer |
+| **Fn** | F1–F12, Ins/Del, Home/End, PgUp/PgDn, Caps, PrtSc, Pause |
+
+The switched key lights up while its layer is on.
+
+**Modifiers work two ways.** *Tap* Ctrl, Alt or Shift and it stays armed for the next key — Ctrl, then C. *Hold* it and it behaves like a real key for as long as your finger is down, which is what a game expects of its fire and strafe keys while the other thumb steers.
+
+**The mouse is the screen.** Your finger is the mouse: drag to move the pointer, tap to click, and the on-screen **RMB** key (on the left pad, next to **Tab**) is the right mouse button — in most DOS games that is *cancel* or *back*, so a long-press on the screen does the same thing.
+
+Turn the phone to portrait and the pads fold into a single strip along the bottom, for the games that are taller than they are wide.
+
+---
+
+## Step 5 — Save a state
+
+A **save state** is the whole machine frozen: the CPU, the memory, the video memory, the sound chips, the open DOS file handles. Load it and the game is exactly where you left it — even if the app was closed in between.
+
+Press **File**, then **States** next to the game:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-07-save-states-empty.png"
+    alt="The Save states sheet, with three empty slots."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Save states sheet, with three empty slots.</sub>
+</p>
+
+There are three slots. Press **Save** to freeze the game into slot 1, and the sheet shows when you did it:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-13-save-states-slot.png"
+    alt="The Save states sheet with a saved slot: Slot 1 says two minutes ago and has Save and Load buttons."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The sheet with a saved slot — Slot 1, two minutes ago.</sub>
+</p>
+
+Close the sheet and the Files panel carries a **Resume** line for the game, naming the slot and the moment it was made:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-10-files-panel-resume-slot.png"
+    alt="The Files panel with a green Resume starfall-v2 - slot 1 - just now line above the list."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Files panel with <b>Resume starfall-v2 · slot 1 · just now</b>.</sub>
+</p>
+
+**Load** puts the game back. A slot survives quitting the app and rebooting the phone.
+
+---
+
+## Step 6 — Keep your saves safe
+
+A save state normally lives inside the app's own private storage. Android deletes that when you uninstall the app — and when you lose the phone, or switch phones. Your games and your saves go with it.
+
+So the app asks, once, whether you want a second copy somewhere that is yours:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-08-saves-offer.png"
+    alt="The Keep your saves safe prompt, offering a Choose folder button, shown after the first save."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The <b>Keep your saves safe</b> prompt, after the first save.</sub>
+</p>
+
+The app says the same thing in its own dialog, which you can open at any time:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-14-saves-folder-unset.png"
+    alt="The Saves folder dialog with no folder set yet, with Choose folder and Close buttons."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Saves folder dialog, with no folder set yet.</sub>
+</p>
+
+Press **Choose folder**, and the system asks you to allow the app into a folder on your phone:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-09-folder-permission.png"
+    alt="The Android system permission dialog for the folder, with Use this folder and Allow buttons."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The system permission dialog for the folder.</sub>
+</p>
+
+Pick a folder, press **USE THIS FOLDER**, and press **ALLOW**. From then on every slot is mirrored into that folder, compressed, next to the game itself.
+
+You can see, and change, the folder at any time under **Config → Saves folder**:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-11-settings-dialog.png"
+    alt="The Settings dialog of WhereQ-DOSBox."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Settings dialog.</sub>
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-12-saves-folder-dialog.png"
+    alt="The Saves folder dialog, with a folder set."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Saves folder dialog, with a folder set.</sub>
+</p>
+
+Two notes:
+
+- Android refuses to let an app take the **Download** folder itself, because that would be too broad a permission. Pick any other folder — **Documents** is fine.
+- You only have to answer this once. The app does not ask again.
+
+---
+
+## Step 7 — After a reinstall, or on a new phone
+
+This is what the folder is for.
+
+Uninstall the app, install it again, and choose the same folder. The app looks inside it and finds your games — they are still there, because they were never inside the app:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-15-durable-folder-contents.png"
+    alt="The durable folder on the phone after the app was uninstalled, holding the game bundles and the saved slots."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The folder on the phone after the app was uninstalled.</sub>
+</p>
+
+The app notices the games that are not installed and offers to bring them back:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-16-restore-games-offer.png"
+    alt="The Restore games prompt, offering to bring the games that are not installed back."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The <b>Restore games</b> prompt.</sub>
+</p>
+
+Press **Restore**, and they come back with their names and their saves:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-17-games-restored.png"
+    alt="Two restored games in the Files panel, with their saves ready."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Restored two games, with their saves ready.</sub>
+</p>
+
+And the save state still knows when it was made:
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-18-save-states-restored-slot.png"
+    alt="The restored save-state slot, still saying three minutes ago."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The restored slot, still saying three minutes ago.</sub>
+</p>
+
+That last line is the point of the whole feature. A save that was made three minutes ago says *three minutes ago*, even after it was rebuilt from the folder on a fresh install.
+
+---
+
+## Where everything lives
+
+```
+  inside the app                    the folder you picked
+  ────────────                      ───────────────────
+  the games                         <your folder>/
+  the save-state slots                <game name>/
+                                       slot1.gz
+                                       slot2.gz
+                                       bundle.zip
+
+  gone when the app is removed     stays until you delete it
+```
+
+---
+
+## If something goes wrong
+
+| what you see | what it means | what to do |
+|---|---|---|
+| *"That save file is damaged"* | the slot was written by an older version | the save format grew a version; older slots are refused rather than misread. Start a new slot. |
+| The game does not start | the bundle has no `PLAY.BAT`, or the entry point is wrong | open the `.zip` and check that `PLAY.BAT` runs the game's executable |
+| Nothing happens when you tap **Play** | the emulator is restarting to boot the game | wait a few seconds — the process restarts on purpose, and the game starts in the new process |
+| The keyboard is in the way | the pads take the sides of the screen | turn the phone to portrait for a single strip along the bottom |
+| The mouse does not click | the game wants the mouse *held* | drag for movement; use the on-screen **RMB** for the right button; a long-press is the right button too |
+| You cannot pick the **Download** folder | Android will not grant an app the whole Download folder | pick another folder, such as **Documents** |
+| You get a notification prompt | the app wants to show the "back to the game" notification | allow it or decline it — you can decline, you just lose that notification |
+| The game is slow | the emulator runs the original hardware, not a fast one | it is what the 1994 machine did. It is not the phone being slow. |
+
+---
+
+## Where to go next
+
+This post is the guide. The repository holds the same document, plus everything behind it:
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — the source, the example bundle, the issues, and the guide itself at [`docs/USER-GUIDE.md`](https://github.com/whereq/whereq-dosbox/blob/main/docs/USER-GUIDE.md).
+
+The **[technical reference](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md)** is the long one — how the native build works, how the save-state machine takes a snapshot of the whole machine, the exact FM snapshot, the bundle launcher, the on-screen keyboard, the build pipeline. It is written for engineers, not for phone holders.
+
+The **[releases page](https://github.com/whereq/whereq-dosbox/releases)** carries the APK and its checksum.
+
+## Thank you, DOSBox
+
+None of this is possible without the DOSBox project.
+
+**DOSBox** was written by the [DOSBox Team](https://www.dosbox.com/crew.php) — a volunteer crew who took an operating system from 1994 and made it runnable on every machine the world has produced since, including the ones that did not exist yet. They kept it alive for three decades and gave it away to anyone who wanted it. WhereQ-DOSBox is a thin layer on top of their work. The originality, the craft and the generosity are entirely theirs.
+
+This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input.
+
+**DOSBox is a trademark of the DOSBox project**; this port is not affiliated with or endorsed by the DOSBox team.
+
+---
+
+*Every screenshot above is a real phone, running the release-signed APK. Nothing here is a mock-up.*

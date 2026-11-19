@@ -1,0 +1,514 @@
+---
+title: "WhereQ-DOSBox 使用指南：五分钟把 DOS 游戏装进手机"
+slug: WhereQ-DOSBox-User-Guide-CN
+date: 2026-11-18
+tags: [dosbox, android, 模拟器, 指南, 复古, 开源, whereq, 存档, 保存]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 一份我想要却找不到的指南
+
+在自己的手机上试用这个应用时，我注意到一件事：我读过的每一份 DOSBox 指南，作者都默认你已经知道 `.zip` 包是什么。他们直接从有意思的部分讲起——声音芯片、存档格式、JIT——然后假定你从 1994 年起就一直在用 DOS。
+
+对大多数拿着手机的人来说，这个假定是错的。把老游戏搬上现代手机，难的从来不是模拟器，而是最初那五分钟：怎么把游戏**弄进手机**，而且是应用能启动的形状。
+
+所以我干脆写了一份我想要的那一份。七个步骤，每一步都配一张真机截图，不假设你见过命令行。
+
+<!-- truncate -->
+
+## 五分钟版本
+
+1. 安装应用（APK 在[发布页](https://github.com/whereq/whereq-dosbox/releases)）。
+2. 打开它，落到 **Files** 面板，里面是空的。
+3. 按 **+ Install a bundle (.zip)**，选一个 `.zip` 游戏文件。
+4. 按 **Play**，游戏就开始了。
+5. 随时按左上角的 **File** 回到列表。
+
+就这么多。下面全是这五步背后的细节——想弄明白在做什么就读，想直接玩就跳过。
+
+## 开始之前
+
+| | |
+|---|---|
+| 手机 | Android 5.0 及以上，手机平板都行 |
+| 空间 | 应用大约 60 MB，再加上游戏本身的大小 |
+| 网络 | 应用和游戏都在手机上之后，不需要网络 |
+| 账号 | 不需要 |
+
+你还需要**一个游戏**，单个 `.zip` 文件。这里说的「游戏」不是把你自己的文件打个 ZIP——往下看[游戏从哪来？](#游戏从哪来)。
+
+---
+
+## 第 1 步 —— 安装应用
+
+应用不在源码仓库里。它由发布流水线构建，发布在[发布页](https://github.com/whereq/whereq-dosbox/releases)上，文件名是 `whereq-dosbox-<version>.apk`，旁边还有一个 `.sha256` 文件写着校验和。
+
+把 `.apk` 拷到手机上——数据线、云盘、文件传输，随你——然后在手机上点它。Android 会问要不要允许这个应用安装，允许就行。
+
+应用会出现在你的主屏幕上，就是那个 **`>_` 标记**：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-20-launcher-home-icon.png"
+    alt="Android 主屏幕上的 WhereQ-DOSBox 图标，一个深色方块，中间是 >_ 提示符。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>主屏幕上的 WhereQ-DOSBox 图标。</sub>
+</p>
+
+应用列表里的名字、通知里的名字、Android 展示应用信息时写的名字，都写着 **WhereQ-DOSBox**：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-21-app-info.png"
+    alt="WhereQ-DOSBox 的 Android 应用信息页：应用名、版本 1.0.0.13 和应用图标。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>WhereQ-DOSBox 的 Android 应用信息页。</sub>
+</p>
+
+---
+
+## 第 2 步 —— 安装游戏
+
+打开应用。你会落到 **Files** 面板——列出已安装内容的那个界面：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-01-files-panel-empty.png"
+    alt="全新安装后空白的 WhereQ-DOSBox Files 面板，顶部是 Install a bundle (.zip) 按钮，下面是 Install all bundles from a folder 按钮。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>全新安装后空白的 Files 面板。</sub>
+</p>
+
+两种把游戏放进去的办法，都在面板顶部：
+
+| 按钮 | 作用 |
+|---|---|
+| **+ Install a bundle (.zip)** | 从手机里选一个 `.zip` |
+| **Install all bundles from a folder** | 把某一个文件夹里的所有 `.zip` 一次解开 |
+
+按 **+ Install a bundle (.zip)**，系统的文件选择器会打开。选你的游戏 `.zip`——通常在 **Downloads** 里——应用会解开它并登记好。面板上就列出它了：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-02-files-panel.png"
+    alt="Files 面板里有两个已安装的游戏，starfall-v2 和 F1，每个都带 Play、States、Launch 和 Remove 按钮。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Files 面板里有两个已安装的游戏。</sub>
+</p>
+
+列表里每个游戏有四个按钮：
+
+| 按钮 | 作用 |
+|---|---|
+| **Play** | 从头开始运行游戏 |
+| **States** | 为这个游戏存档、读档 |
+| **Launch…** | 换一段程序来跑，或者在游戏前加载驱动文件 |
+| **Remove** | 从应用里卸载这个游戏 |
+
+### 游戏从哪来？
+
+这里的游戏是一个形状固定的 `.zip`：
+
+```
+  the bundle
+  ─────────
+  PLAY.BAT          the entry point - the app runs this
+  <the game files>  whatever the game needs
+  __meta.json       the name the app shows in the list
+```
+
+就这些。仓库里附送了一个，你可以照着看形状、马上试起来：[`examples/game-bundle`](https://github.com/whereq/whereq-dosbox/tree/main/examples/game-bundle)——就是 **STARFALL** 演示版。把那个文件夹里的 `whereq-demo-bundle.zip` 拷到手机上装上就行。
+
+至于真正的游戏：还在托管这些废弃 DOS 游戏的站点，一般都直接给 `.zip`。如果某个游戏的压缩包里只有游戏文件、没有 `PLAY.BAT`，应用是起不来的——自己写一个 `PLAY.BAT` 去运行游戏的可执行文件，再把文件夹压一次。
+
+---
+
+## 第 3 步 —— 开始玩
+
+按 **Play**。
+
+模拟器会重启应用并引导游戏启动，你落到 DOS 提示符：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-03-dos-boot-prompt.png"
+    alt={"DOSBox 欢迎画面和 C:\\> 提示符，下方是屏幕键盘。"}
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>DOSBox 欢迎画面和 `C:\>` 提示符，下方是屏幕键盘。</sub>
+</p>
+
+输入游戏的名字，按 **Enter**。从这一刻起就是真正的游戏了——真正的键盘，真正的声音，真正的鼠标。
+
+这是一款 1994 年的 DOS 游戏跑在手机上的样子：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-04-game-f1-menu.png"
+    alt="Formula 1（Domark，1994）跑在手机上，四周是屏幕键盘。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Formula 1（Domark，1994）跑在手机上，四周是屏幕键盘。</sub>
+</p>
+
+这是 STARFALL 演示版：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-05-game-starfall-title.png"
+    alt="STARFALL 的标题画面。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>STARFALL 的标题画面。</sub>
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-06-game-starfall-play.png"
+    alt="STARFALL 正在游戏中，画面两侧是两块键盘区。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>STARFALL 正在游戏中，画面两侧是两块键盘区。</sub>
+</p>
+
+第一次运行游戏时，Android 可能会问要不要允许这个应用发通知。它用通知来提醒你「游戏还在后台」。答哪边都行——拒绝只是少一条提醒：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-19-notification-permission.png"
+    alt="Android 的通知权限对话框：Allow WhereQ-DOSBox to send you notifications?"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Android 的通知权限对话框。</sub>
+</p>
+
+游戏在跑的时候，按左上角的 **File** 会把 Files 面板拉到上层，面板上会给正在跑的那个游戏显示一行 **Resume**：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-02b-files-panel-resume.png"
+    alt="游戏运行中拉出的 Files 面板，列表上方有一行 Resume F1。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>游戏运行中拉出的 Files 面板，列表上方有 <b>Resume F1</b>。</sub>
+</p>
+
+---
+
+## 第 4 步 —— 键盘和鼠标
+
+不用外接实体键盘，因为屏幕键盘**就是**键盘。横屏时画面两侧会出现两块键盘区，像掌机那样摆：左边是方向键组成的十字键加半边 QWERTY，右边是动作键（Alt、Ctrl、Shift、Space、Enter）和另外半边字母。
+
+两个键可以切换键盘区显示的内容：
+
+| 键 | 显示 |
+|---|---|
+| **#+=** | 标点层 |
+| **Fn** | F1–F12、Ins/Del、Home/End、PgUp/PgDn、Caps、PrtSc、Pause |
+
+切换之后，那个键会亮着。
+
+**修饰键有两种用法。** *点一下* Ctrl、Alt 或 Shift，它会保持按下状态等你按下一个键——先 Ctrl 再 C。*按住*它，它的表现就和一个真正的键一样：手指按着多久它就保持多久，游戏里那些开火键、侧移键正是这么用的，另一只拇指同时操控方向。
+
+**鼠标就是屏幕本身。** 你的手指就是鼠标：拖动是移动指针，点一下是点击，屏幕上的 **RMB** 键（左边那块，紧挨 **Tab**）是鼠标右键——在大多数 DOS 游戏里那代表*取消*或*返回*，所以长按屏幕也是同一个意思。
+
+把手机转成竖屏，两块键盘区会折成底部的一条，适合画面高比宽大的游戏。
+
+---
+
+## 第 5 步 —— 存档
+
+**存档**是把整台机器冻住：CPU、内存、显存、声卡芯片、打开着的 DOS 文件句柄，全都冻住。读档之后，游戏正好停在你离开时的样子——哪怕中间应用被关掉过。
+
+按 **File**，再按游戏旁边的 **States**：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-07-save-states-empty.png"
+    alt="Save states 面板，三个空档位。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Save states 面板，三个空档位。</sub>
+</p>
+
+一共有三个档位。按 **Save** 把当前游戏冻进档位 1，面板会告诉你是什么时候存的：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-13-save-states-slot.png"
+    alt="Save states 面板里已存的档位：档位 1 写着两分钟前，带 Save 和 Load 按钮。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>已存的档位——档位 1，两分钟前。</sub>
+</p>
+
+关掉面板，Files 面板会为这个游戏保留一行 **Resume**，写明是哪个档位、什么时候存的：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-10-files-panel-resume-slot.png"
+    alt="Files 面板上有一行绿色的 Resume starfall-v2 - slot 1 - just now。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub><b>Resume starfall-v2 · slot 1 · just now</b>。</sub>
+</p>
+
+**Load** 把游戏放回去。档位能撑过退出应用，也能撑过手机重启。
+
+---
+
+## 第 6 步 —— 让存档更安全
+
+存档默认放在应用自己的私有存储里。卸载应用时 Android 会把它删掉——手机丢了、换手机了，也一样。你的游戏和你的存档跟着一起没。
+
+所以应用会问你一次：要不要在你自己掌管的地方再留一份：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-08-saves-offer.png"
+    alt="Keep your saves safe 提示，首次存档后出现，带 Choose folder 按钮。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>首次存档后出现的 <b>Keep your saves safe</b> 提示。</sub>
+</p>
+
+应用自己的对话框里也是同一套说法，随时可以打开看：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-14-saves-folder-unset.png"
+    alt="Saves folder 对话框，尚未设置任何文件夹，带 Choose folder 和 Close 按钮。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Saves folder 对话框，尚未设置任何文件夹。</sub>
+</p>
+
+按 **Choose folder**，系统会问要不要允许这个应用访问手机上的某个文件夹：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-09-folder-permission.png"
+    alt="Android 的文件夹访问授权对话框，带 Use this folder 和 Allow 按钮。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>系统对文件夹的授权对话框。</sub>
+</p>
+
+选好文件夹，按 **USE THIS FOLDER**，再按 **ALLOW**。从这以后每个档位都会压缩一份镜像到那个文件夹里，就放在游戏旁边。
+
+你随时可以在 **Config → Saves folder** 下查看或更换这个文件夹：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-11-settings-dialog.png"
+    alt="WhereQ-DOSBox 的设置对话框。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>设置对话框。</sub>
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-12-saves-folder-dialog.png"
+    alt="Saves folder 对话框，已经设置好文件夹。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Saves folder 对话框，已经设置好文件夹。</sub>
+</p>
+
+两点提醒：
+
+- Android 不允许应用直接占用整个 **Download** 文件夹，那个权限太宽了。挑别的文件夹就行——**Documents** 完全可以。
+- 你只需要回答这一次，应用不会再问。
+
+---
+
+## 第 7 步 —— 重装之后，或者换了新手机
+
+这就是那个文件夹的用处。
+
+把应用卸载，重新装上，选同一个文件夹。应用会进去一看，你的游戏还在——它们从来就不在应用里面：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-15-durable-folder-contents.png"
+    alt="应用卸载之后，手机上那个文件夹里的内容：游戏包和已保存的档位。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>应用卸载之后，手机上那个文件夹里的内容。</sub>
+</p>
+
+应用会认出那些没被安装的游戏，问你要不要把它们带回来：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-16-restore-games-offer.png"
+    alt="Restore games 提示，询问是否把未安装的游戏带回来。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub><b>Restore games</b> 提示。</sub>
+</p>
+
+按 **Restore**，它们连名字带存档一起回来：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-17-games-restored.png"
+    alt="Files 面板里恢复出来的两个游戏，存档也在。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>恢复出来的两个游戏，存档也在。</sub>
+</p>
+
+而存档仍然记得自己是什么时候存的：
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-18-save-states-restored-slot.png"
+    alt="恢复出来的存档档位，仍然写着三分钟前。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>恢复出来的档位，仍然写着三分钟前。</sub>
+</p>
+
+最后这一行就是整个功能的意义所在。三分钟前存的存档，就写着三分钟前——哪怕它是从文件夹里重新装回一个新装的版本。
+
+---
+
+## 东西都放在哪里
+
+```
+  inside the app                    the folder you picked
+  ────────────                      ───────────────────
+  the games                         <your folder>/
+  the save-state slots                <game name>/
+                                       slot1.gz
+                                       slot2.gz
+                                       bundle.zip
+
+  gone when the app is removed     stays until you delete it
+```
+
+---
+
+## 出问题了怎么办
+
+| 你看到的 | 意味着 | 怎么办 |
+|---|---|---|
+| *「That save file is damaged」* | 这个档位是旧版本写的 | 存档格式升过版本号，太旧的档位会被拒绝而不是读错。重新存一个新档位。 |
+| 游戏起不来 | 包里没有 `PLAY.BAT`，或者入口指错了 | 打开那个 `.zip`，确认 `PLAY.BAT` 能运行游戏的可执行文件 |
+| 按 **Play** 没动静 | 模拟器正在重启来引导游戏 | 等几秒——进程是故意重启的，游戏会在新进程里起来 |
+| 键盘挡住了画面 | 两块键盘区占了画面两侧 | 把手机转成竖屏，键盘会折成底部一条 |
+| 鼠标点不动 | 游戏要的是「按住」状态 | 拖动用来移动；右键用屏幕上的 **RMB**；长按也是右键 |
+| **Download** 文件夹选不了 | Android 不允许应用占用整个 Download | 换一个文件夹，比如 **Documents** |
+| 弹出通知授权 | 应用想发「回到游戏」的通知 | 允许或拒绝都行——拒绝只是少这条通知 |
+| 游戏很卡 | 模拟器跑的是当年的硬件，不是快机器 | 这是 1994 年那台机器本来的速度，不是手机慢 |
+
+---
+
+## 接下来
+
+这篇就是指南。仓库里存着同一份文档，以及它背后的一切：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)**——源码、示例包、问题追踪，指南本身在 [`docs/USER-GUIDE.md`](https://github.com/whereq/whereq-dosbox/blob/main/docs/USER-GUIDE.md)。
+
+**[技术参考](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md)**是长文——原生构建怎么做、存档机制怎么把整台机器拍下来、FM 芯片怎么被精确还原、包怎么变成一个跑起来的 DOS 程序、屏幕键盘怎么把按键送进模拟器、以及构建流水线。它是写给工程师看的，不是给拿着手机的人看的。
+
+**[发布页](https://github.com/whereq/whereq-dosbox/releases)**上有 APK 和它的校验和。
+
+## 致谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*上面每一张截图都是真机，跑的是正式签名的 APK。这里没有任何一张是效果图。*
