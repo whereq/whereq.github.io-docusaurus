@@ -1,0 +1,125 @@
+---
+title: "WhereQ-DOSBox 1.0.0.17：隐私政策该放在哪里"
+slug: WhereQ-DOSBox-1.0.0.17-CN
+date: 2026-11-20
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, privacy, gpl]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 那份本该一直都在的文件
+
+隐私政策不是功能。它是一张纸，写清楚这个应用拿你的数据做什么。而 WhereQ-DOSBox 有意思的地方在于，这张纸几乎没什么可写的：它不收集任何数据，没有统计分析，没有崩溃上报，没有广告 SDK，也没有账号。
+
+它连 `INTERNET` 权限都不申请。不是"申请了没用"——是**根本没有申请**。manifest 里没有那条权限，所以这个应用在物理上就没法把任何东西发到任何地方去。
+
+所以政策本身从来都不是难点。难的是决定它**该放在哪里**，而我一直把这件事当成应用的问题，其实它是一个**产品**的问题。
+
+<!-- truncate -->
+
+## 两个应用，两个家
+
+这个宇宙里有两个 DOSBox 移植版，而它们不是同一类东西。
+
+**A-DOS** 是私有产品。它的源码不公开，APK 走 Google Play 上架，而商店的审核员——一个活生生的人，一份清单——必须能点开它的隐私政策。所以 A-DOS 把政策和授权声明发布在 **WhereQ 文档站**上，谁都能打开，权威文本则留在它自己的私有仓库里。
+
+**WhereQ-DOSBox** 是自由开源软件。整个仓库都是公开的：代码、授权声明、声明文件、构建脚本，以及每一个解释过"为什么这么做"的提交。要是隐私政策放在网站上，它就会成为这个项目里唯一一份没人能读到历史的文件。
+
+所以它现在住在仓库里，在 [`docs/PRIVACY.md`](https://github.com/whereq/whereq-dosbox/blob/main/docs/PRIVACY.md)，和 `COPYING`、`NOTICE` 放在一起。README 链到它，启动器的页脚也会打开它——就在上一版才加上的授权页面链接旁边。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-privacy.png"
+    alt="横屏下的 WhereQ-DOSBox 游戏启动器。页脚左边是应用版本号，右边是 Licences 和 Privacy policy 两个链接。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>启动器的页脚。授权页面和隐私政策都在最下面，就在你随时能打开的那一个屏幕上。</sub>
+</p>
+
+政策说的还是一直说的那些话——不收集、不传输、东西都留在你自己的设备上——而它说这些话的地方，正是读者能够核对它有没有和应用脱节的地方：同一个仓库、同一个提交、同样的历史。
+
+## Game Mode 里两个只有屏幕才能看出来的小问题
+
+这一版剩下的部分在 Game Mode，而这两条都不是靠玩发现的，而是读代码时和兄弟版本对照出来的。
+
+### FIRE 按钮藏起了自己的邀请
+
+Game Mode 有一个**改键功能**：按住 profile 按钮，选*Remap buttons…*，于是所有可以改键的按钮都会亮起一圈描边。这是手柄唯一会告诉你"哪些按钮归你改"的方式。
+
+FIRE 按钮是金色的。描边也是金色。
+
+金色画在金色上不叫描边，叫没有。那个按钮看上去跟一个不能改键的按钮一模一样——而这恰恰是描边唯一要传达的事。
+
+现在描边跟着它标注的那个按钮走：深色按钮上是金色描边，金色按钮上是深褐色描边。颜色是按按钮的**视觉亮度**来选的，而不是按三个通道的简单平均——金色的通道平均值正好压在阈值上，天真的平均会把这种明亮的琥珀色判到"深"那一侧，把这个毛病原样放回来。
+
+有一条单元测试守着它，守的就是当初被打破的那条不变式：
+
+```
+描边永远不是它所标注的那个按钮的颜色
+```
+
+### D-pad 按钮可能报了你没在用的模式
+
+左手柄底排有个按钮，在 **ARROWS**、**NUMPAD** 和 **WASD** 之间切换方向键的输出方式，按钮上就写着当前模式。
+
+应用会按游戏记住这个模式。当记住的模式和手柄当初建成时的模式不一样时——你在一个游戏里用 WASD 玩过，回头又去玩一个你留在 ARROWS 上的游戏——按钮还是挂着**建成时**那个模式的名字。于是按钮上写着 **ARROWS**，方向键发的却是 **WASD**。标签在说谎，而且没有任何东西会告诉你它往哪个方向说。
+
+模式一变，整个面板现在会重建；而记住的模式是在手柄**建成之前**恢复的，所以你第一眼看到的就是实话。
+
+## 测试
+
+两个修复都不大，但都被钉住了：
+
+```
+:app:testDebugUnitTest          15 tests, 0 failures
+:app:connectedDebugAndroidTest   8 tests, 0 failures
+```
+
+单元测试覆盖描边规则和隐私政策——政策那条测试直接读仓库，所以文件搬了家、链接不再指向那个文件、或者 README 不再链过去，测试都会失败。仪器测试跑在真机上：它们打开启动器，确认页脚上两个链接确实都在，而且确实让应用去做该做的事。
+
+## 下载
+
+发布用的 APK 用发布密钥签名，所以可以直接覆盖安装旧版本：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — 标签 **v1.0.0.17**
+
+```
+whereq-dosbox-1.0.0.17.apk
+size:   16 510 522 bytes
+sha256: 796203db84f31e994c45a3965fe3919b5e7a030a5ad8e45e4a9eabbed3f4ac0a
+```
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，最低 Android 5.0，全程离线，不要账号，没有追踪。项目采用 GPL-2.0 授权，DOSBox 内核连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件的头部声明一起原样嵌入——而从上一版开始，授权声明本身也一起带上了。
+
+**你的存档照样能读。**存档格式一个字都没改。
+
+再说一遍，**这篇文章不是文档**。文档在仓库里，而且是一整篇参考文档，不是一堆零散的笔记。请去读那份，不要只听我说。
+
+## 感谢 DOSBox
+
+这一切没有 DOSBox 项目就不可能成立。
+
+**DOSBox** 是由 [DOSBox Team](https://www.dosbox.com/crew.php) 写出来的——一群志愿者把 1994 年的一个操作系统变成了此后世界上每台机器上都能跑的东西，包括那些当时还不存在的机器。他们让它活了三十年，然后送给了任何想要的人。WhereQ-DOSBox 只是架在他们工作之上的一层薄薄的壳。原创、匠心和慷慨全都属于他们。
+
+这个移植版建立在 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)** 之上，那是 Boris Gjenero 用 Emscripten 编译的 DOSBox r4305，它本身又长自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且搭在 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作之上。窗口、音频和触摸输入由 Sam Lantinga 的 [SDL2](https://github.com/libsdl-org/SDL) 承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植版与 DOSBox 团队没有隶属关系，也未得到其认可。
+
+---
+
+*读不到的隐私政策不叫隐私政策。把它放在代码旁边，让历史自己说清楚它写过什么。*

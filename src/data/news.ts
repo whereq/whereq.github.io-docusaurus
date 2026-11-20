@@ -139,6 +139,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox 1.0.0.17: where a privacy policy belongs',
+        url: '/blog/WhereQ-DOSBox-1.0.0.17',
+        date: '2026-11-20',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.17：隐私政策该放在哪里',
+        url: '/blog/WhereQ-DOSBox-1.0.0.17-CN',
+        date: '2026-11-20',
+      },
+      {
         title: 'WhereQ-DOSBox 1.0.0.16: the back button works again',
         url: '/blog/WhereQ-DOSBox-1.0.0.16',
         date: '2026-11-20',

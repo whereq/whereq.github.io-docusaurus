@@ -372,6 +372,13 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-dosbox': [
       {
+        version: 'v1.0.0.17',
+        date: '2026-11-20',
+        title:
+          'Where a privacy policy belongs, the remap outline that was invisible, and the D-pad button that named the wrong mode, release 1.0.0.17',
+        url: tag('whereq-dosbox', 'v1.0.0.17'),
+      },
+      {
         version: 'v1.0.0.16',
         date: '2026-11-20',
         title:
