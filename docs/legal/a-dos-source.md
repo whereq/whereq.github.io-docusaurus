@@ -24,27 +24,38 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `32a5008` |
+| Source commit | `8746a77` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `60565b521d9dcec93cc51f05ea4ad10d86145a0204a4101d28645bc3e18e7abe` |
+| SHA-256 | `46aa5e38026dbd480117821c384ca41fde1b58bccbfe9b46654672a24f24d8e7` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# 60565b521d9dcec93cc51f05ea4ad10d86145a0204a4101d28645bc3e18e7abe
+# 46aa5e38026dbd480117821c384ca41fde1b58bccbfe9b46654672a24f24d8e7
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
 that names the version, the commit and the build. The shipped build was
 made from `649880c`; what came after it is the fix of the regression
 test in `examples/`, which is not part of the app, and the Game Mode
-gamepad. It holds the DOSBox core
+gamepad with the release notes that describe it. It holds the DOSBox core
 with its per-file copyright and licence headers intact, the Android
 application, the NDK/CMake build of the native library, the desktop Linux
 baseline, the benchmark, the dev toolchain and the build scripts.
+
+### What this build adds
+
+**Game Mode** turns the on-screen keyboard into a gamepad: a full-screen
+overlay with an 8-way D-pad, a trackball and a face button, in three
+profiles — HYBRID, ACTION and POINT & CLICK — with per-game button
+remaps. It is opened from the keyboard with a Konami code and left with
+the hardware Back button. The implementation lives in
+`android/app/src/main/java/com/whereq/ados/GameModeView.kt` in the
+archive, and the release notes in `docs/releases/1.0.0.0.md` describe
+the gesture and the profiles.
 
 ## Building it
 
