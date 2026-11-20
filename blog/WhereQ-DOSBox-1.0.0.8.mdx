@@ -1,5 +1,5 @@
 ---
-title: "WhereQ-DOSBox 1.0.0.8: save the whole machine, and a Resume button that resumes"
+title: "WhereQ-DOSBox 1.0.0.8: the whole machine in one file"
 slug: WhereQ-DOSBox-1.0.0.8
 date: 2026-11-16
 tags: [dosbox, android, emulator, release, retro, open-source, whereq, save-states]
@@ -19,32 +19,28 @@ import ThemedImage from '@theme/ThemedImage';
   />
 </figure>
 
-## The button that lied
+## The corridor you have already walked
 
-Two releases ago I gave the launcher a **Resume** button. It looked like a promise: press it, and you are back in the game you were playing.
+A DOS game does not have an autosave. Some of them have a save file of their own; most do not; the ones that do usually put it somewhere in the current directory and expect you to find your way back through a menu.
 
-It was not. It started the last game from the beginning, every time.
+So you do what every DOS player did in 1996: you play for forty minutes, you die in a corridor you have already walked twice, and you walk it again. Same door, same guard, same room with the lever you forgot to pull. The game does not know how far you got. Nothing on the phone knows either.
 
-I did not notice it myself, because on my desk the emulator process was still alive — the game had never really stopped, so there was nothing to resume. Then somebody on a phone pressed the button, lost an hour of progress, and told me plainly: *the Resume button restarts the game.*
-
-They were right, and the fix was not a one-liner. It took a whole-machine snapshot.
+**1.0.0.8** is the release that changed that — not with a better save file, but with a different idea of what to save.
 
 <!-- truncate -->
 
-## What a save state is, when you are serious about it
+## A save state is the machine, not the game
 
-A DOS game has its own save files. Some games have them; many do not; the ones that do usually save somewhere in the current directory and expect you to find your way back through a menu.
+The thing DOSBox never had, and which no DOS game asked for, is a **save state**: the whole emulated machine, frozen, written to a file and read back later — into a *freshly booted* DOSBox if need be.
 
-A **save state** is a different thing: it is the entire machine, frozen.
+Not the game. The machine. The CPU with its registers, the DOS memory, the video memory, the hardware timers, and the DOS file handles the program had open. Everything that made this run *this run, at this instant*. Restore it and you are not near where you were: you are there.
 
-Not the game — the machine. The CPU with its registers, the DOS memory, the video memory, the hardware timers, the files the program had open. Everything that made the game *that game at that moment*, so that restoring it puts you back in the same instant rather than near it.
-
-DOSBox r4305 has no save state at all, so I wrote one into the port. Every game gets **three slots**, written as files in the app's private directory, which means they survive quitting the app, rebooting the phone, and updating the APK.
+DOSBox r4305 has no save states at all, so I wrote one into the port. Every game gets **three slots**, opened from the **States** button in the Files panel:
 
 <p align="center">
   <img
     src="/img/apps/whereq-dosbox-save-states.jpg"
-    alt="The save states dialog of WhereQ-DOSBox: three slots for the running game, the first one saved two hours ago, each with a Save and a Load button"
+    alt="The save states dialog of WhereQ-DOSBox for whereq-demo-bundle: slot 1 saved two hours ago, slots 2 and 3 empty, each with a Save and a Load button"
     width="900"
   />
 </p>
@@ -55,15 +51,27 @@ DOSBox r4305 has no save state at all, so I wrote one into the port. Every game 
   app.</sub>
 </p>
 
-There is a subtlety that cost me two days and is worth writing down, because it is the difference between a snapshot that works and one that crashes the game.
+The DOS layer is in the snapshot as well, and that part is not a detail. A game that has `SOUND\MUSIC.FLX` open expects that file to still be open when it comes back. Without the handles in the snapshot, Ultima VIII walked into its own extender and aborted about a second after every restore, with `DOS Error=0006 (invalid handle)`. With them, the sixteen handles come back and the music keeps playing.
 
-The snapshot has to be taken at a **safe point**: the guest program must actually be running, the picture must have settled, and the CPU must not be standing inside an interrupt callback with an `IRET` pending. Take it in the wrong place and you restore into the middle of a BIOS call — the kind of corruption that looks like a broken game rather than a broken save.
+There is one more subtlety, and it is the difference between a snapshot that works and one that crashes the game. The snapshot has to be taken at a **safe point**: the guest program must actually be running, the picture must have settled, and the CPU must not be standing inside an interrupt stub with an `IRET` pending. Take it in the wrong place and you restore into the middle of a BIOS call — the kind of corruption that looks like a broken game rather than a broken save. So the request waits at three gates instead of firing at the first opportunity.
 
-And it has to capture the **DOS layer**, not just the CPU. A game that has `SOUND\MUSIC.FLX` open expects that file to still be open when it comes back. Without the file handles in the snapshot, Ultima VIII walked into its own extender and aborted with `DOS Error=0006 (invalid handle)` a second after every restore. With them, the sixteen handles come back and the music keeps playing.
+## A slot is a file on the phone
 
-## So now Resume means resume
+That is the other half of the idea, and it is the half that changes how you play. A slot is not a row in a database and not a blob in the app's memory: it is a **file on the phone**. So it survives quitting the app, and it survives rebooting the phone, and it survives updating the APK. The machine you froze is still there in the morning.
 
-The button restores the newest slot of the last game you played, and it tells you what it is about to do: *Resume whereq-demo-bundle · slot 1 · just now*. With no slot saved, it starts the game from the beginning, exactly as before.
+**Load** then jumps back to that exact moment. Under the hood this is not a button that copies a file. The app tears its own process down, boots a clean emulator with nothing queued, waits for the picture to settle, and only then restores the machine into it. A restore that happens a fraction of a second too early — while the phone is still rotating the screen — restores into a renderer that is about to be thrown away, and you get a black screen. I chased that one for a while too.
+
+Every save and every load writes one summary line — the registers, the descriptor table and the top of the stack, with a checksum on each. The two lines have to be identical when a state comes back, because that is the proof that the restore brought *the* machine back and not merely something similar.
+
+## Resume finally means resume
+
+Two releases earlier I gave the launcher a **Resume** button. It looked like a promise: press it, and you are back in the game you were playing.
+
+It was not. It started the last game from the beginning, every time. I did not notice it myself, because on my desk the emulator process was still alive — the game had never really stopped, so there was nothing to resume. Then somebody on a phone pressed the button, lost an hour of progress, and told me plainly: *the Resume button restarts the game.*
+
+They were right. And the fix was not a one-liner; it was a whole-machine snapshot.
+
+So the button now restores the newest save state of the last game you played, and it tells you what it is about to do — *Resume STARFALL · slot 1 · 5 min ago*. With no slot saved, the game starts from the beginning, exactly as before.
 
 <p align="center">
   <img
@@ -78,21 +86,19 @@ The button restores the newest slot of the last game you played, and it tells yo
   slot, and how long ago it was written.</sub>
 </p>
 
-Under the hood this is not a button that copies a file. The app tears its own process down, boots a clean emulator with nothing queued, waits for the picture to settle, and only then restores the machine into it. A restore that happens a fraction of a second too early — while the phone is still rotating the screen — restores into a renderer that is about to be thrown away, and you get a black screen. I chased that one for a while too.
+| | |
+|---|---|
+| What is captured | the CPU and its registers, the DOS memory, the video memory, the open DOS file handles, the hardware timers |
+| Slots | three per game |
+| Where a slot lives | a file on the phone — it survives quitting the app and rebooting the phone |
+| Load | jumps back to that exact moment, in a freshly booted emulator |
+| Resume | restores the newest slot of the last game, and names it |
 
-## The honest part
+## Two smaller things in the same release
 
-**Some old DOS programs do not survive a restore.** Ultima VIII's extender still aborts about a second after the load, with `Exit to error: RET from illegal descriptor type 13`.
+**The arrows are an inverted T.** In landscape the four arrow keys sit in the right-hand column the way they do on a real keyboard — up on top, left and right side by side, down below. The change is small and I am fond of it: the finger had to *know* which of the four was which before. Now the thumb reads the shape.
 
-That is not the app, and it is not the Resume path: loading the same slot by hand, with the panel open, does exactly the same thing. What the snapshot does not capture yet is the rest of the host state a DOS/4GW game leans on — the sound chips and their DMA, the EMS and XMS handle tables, the VCPI PIC vector remapping, the mouse, the RTC, and the PIC event queue. It is milestone work that is not finished, and the porting log says so in the same words.
-
-Until it is: STARFALL saves and resumes perfectly, and a game like Ultima VIII can be saved and restored, but its extender does not like what it finds.
-
-## The game keeps running now, too
-
-The other thing I got wrong was assuming that leaving the app would leave the game alone. On Android it does not: the OS is free to reclaim the process of a backgrounded app, and DOSBox keeps the whole machine in RAM — so the game was simply gone, with no warning.
-
-While a game is running, a small ongoing notification now holds the process. Switch to another app, come back later, and the game is exactly where you left it — no save, no reload, just the frame you walked away from.
+**The game keeps running.** While a game is running, a small ongoing notification holds the emulator process, so switching to another app no longer loses the game. Tap the notification and you come back to the same frame — no save, no reload.
 
 <p align="center">
   <img
@@ -108,11 +114,19 @@ While a game is running, a small ongoing notification now holds the process. Swi
   thumb finds the direction by shape alone.</sub>
 </p>
 
-That last change is small and I am fond of it. The arrows used to be a single vertical column, which is nothing like the keyboard they stand in for: the finger had to *know* which of the four was which. Now the thumb reads the shape.
+## What a restore cannot do yet
+
+**Some old DOS programs do not survive a restore.** Ultima VIII's extender still aborts about a second after the load, with `Exit to error: RET from illegal descriptor type 13`.
+
+That is not the app, and it is not the Resume path: loading the same slot by hand, with the panel open, does exactly the same thing. What the snapshot does not capture yet is the rest of the host state a DOS/4GW game leans on — the DMA controller, the EMS and XMS handle tables and the PIC event queue. It is a limitation of the DOS internals the snapshot does not cover yet, not of the app, and the [technical reference](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md) has the details.
+
+The sound chips are not in the snapshot yet either. The machine comes back with its memory and its picture; the music does not come back with it.
+
+Until it does: STARFALL saves and resumes perfectly, and a game like Ultima VIII can be saved and restored — but its extender does not like what it finds.
 
 ## Get it
 
-The release APK is in the repository, signed with the release key, so it installs over 1.0.0.7 in place:
+The release APK is signed with the release key of this repository, so it installs over 1.0.0.7 in place:
 
 👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.8**
 
@@ -121,9 +135,11 @@ downloads/whereq-dosbox-1.0.0.8.apk
 sha256: ed17f39bddeb9e871485df390f772f19c5a43abdbf3b5845c7abd4afbb602ca3
 ```
 
+The file itself is in the repository's history, at its own tag: `https://raw.githubusercontent.com/whereq/whereq-dosbox/v1.0.0.8/downloads/whereq-dosbox-1.0.0.8.apk`. Releases from 1.0.0.9 on are on the [releases page](https://github.com/whereq/whereq-dosbox/releases).
+
 It runs on **arm64-v8a, armeabi-v7a and x86_64** devices, Android 5.0 and newer, entirely offline, with no account and no tracking. The project is GPL-2.0, and the DOSBox core is embedded with its `AUTHORS`, `ChangeLog`, `COPYING` and per-file headers intact.
 
-Again, **this post is not the documentation.** The documentation is the repository: the build guide, the porting log — including the section that explains exactly how a snapshot is taken and why it has to wait for a safe point — the benchmark notes, and every line of the port. Please read those rather than take my word for it.
+Again, **this post is not the documentation.** The documentation is the repository: the [technical reference](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md) — including the section that explains exactly how a snapshot is taken and why it has to wait for a safe point — the [user guide](https://github.com/whereq/whereq-dosbox/blob/main/docs/USER-GUIDE.md), and the [interrupt map](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md). Please read those rather than take my word for it. The [announcement](/blog/WhereQ-DOSBox-Announcement) is where this started, the [user guide](/blog/WhereQ-DOSBox-User-Guide) and the [interrupt map](/blog/WhereQ-DOSBox-Interrupts) are on this site too, [1.0.0.7](/blog/WhereQ-DOSBox-1.0.0.7) is the release before this one, and the [keyboard became a console](/blog/WhereQ-DOSBox-1.0.0.9) two releases later.
 
 ## Thank you, DOSBox
 

@@ -139,46 +139,24 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
-        title: 'WhereQ-DOSBox 1.0.0.17: where a privacy policy belongs',
-        url: '/blog/WhereQ-DOSBox-1.0.0.17',
+        title: 'WhereQ-DOSBox: a DOS machine in your pocket',
+        url: '/blog/WhereQ-DOSBox',
         date: '2026-11-20',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.17：隐私政策该放在哪里',
-        url: '/blog/WhereQ-DOSBox-1.0.0.17-CN',
+        title: 'WhereQ-DOSBox：装进口袋的 DOS 机器',
+        url: '/blog/WhereQ-DOSBox-CN',
         date: '2026-11-20',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.16: the back button works again',
-        url: '/blog/WhereQ-DOSBox-1.0.0.16',
-        date: '2026-11-20',
-      },
-      {
-        title: 'WhereQ-DOSBox 1.0.0.16：返回键又活了',
-        url: '/blog/WhereQ-DOSBox-1.0.0.16-CN',
-        date: '2026-11-20',
-      },
-      {
-        title: 'WhereQ-DOSBox 1.0.0.15: Game Mode, a console-style gamepad for your thumb',
+        title: 'WhereQ-DOSBox 1.0.0.15: a console-style gamepad for your thumb',
         url: '/blog/WhereQ-DOSBox-1.0.0.15',
         date: '2026-11-20',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.15：Game Mode，给拇指一个掌机',
+        title: 'WhereQ-DOSBox 1.0.0.15：给拇指一个掌机',
         url: '/blog/WhereQ-DOSBox-1.0.0.15-CN',
         date: '2026-11-20',
-      },
-      {
-        title:
-          'WhereQ-DOSBox 1.0.0.14: a save that timed out no longer answers the next request',
-        url: '/blog/WhereQ-DOSBox-1.0.0.14',
-        date: '2026-11-19',
-      },
-      {
-        title:
-          'WhereQ-DOSBox 1.0.0.14：超时的存档不再替下一次请求作答',
-        url: '/blog/WhereQ-DOSBox-1.0.0.14-CN',
-        date: '2026-11-19',
       },
       {
         title: 'WhereQ-DOSBox interrupts: the map of every INT in the emulator',
@@ -201,58 +179,13 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
         date: '2026-11-18',
       },
       {
-        title:
-          'WhereQ-DOSBox 1.0.0.13: a restored save keeps the time it was made',
-        url: '/blog/WhereQ-DOSBox-1.0.0.13',
-        date: '2026-11-18',
-      },
-      {
-        title:
-          'WhereQ-DOSBox 1.0.0.13：读档之后，存档还记得自己是什么时候存的',
-        url: '/blog/WhereQ-DOSBox-1.0.0.13-CN',
-        date: '2026-11-18',
-      },
-      {
-        title: 'WhereQ-DOSBox 1.0.0.12: your saves move out of the app',
+        title: 'WhereQ-DOSBox 1.0.0.12: the save that outlives the app',
         url: '/blog/WhereQ-DOSBox-1.0.0.12',
         date: '2026-11-17',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.12：存档搬出了应用',
+        title: 'WhereQ-DOSBox 1.0.0.12：活过应用的存档',
         url: '/blog/WhereQ-DOSBox-1.0.0.12-CN',
-        date: '2026-11-17',
-      },
-      {
-        title:
-          'WhereQ-DOSBox 1.0.0.11: the mouse gets a right button, and it survives the save state',
-        url: '/blog/WhereQ-DOSBox-1.0.0.11',
-        date: '2026-11-17',
-      },
-      {
-        title:
-          'WhereQ-DOSBox 1.0.0.11：鼠标有了右键，而且活过了存档',
-        url: '/blog/WhereQ-DOSBox-1.0.0.11-CN',
-        date: '2026-11-17',
-      },
-      {
-        title:
-          "WhereQ-DOSBox: Yesterday's Computing. Today's Pocket. Tomorrow's Possibilities.",
-        url: '/blog/WhereQ-DOSBox-Milestone',
-        date: '2026-11-17',
-      },
-      {
-        title: 'WhereQ-DOSBox：昨日的计算世界，今日的掌上体验，明日的无限可能',
-        url: '/blog/WhereQ-DOSBox-Milestone-CN',
-        date: '2026-11-17',
-      },
-      {
-        title: 'WhereQ-DOSBox 1.0.0.10: the sound survives the save state',
-        url: '/blog/WhereQ-DOSBox-1.0.0.10',
-        date: '2026-11-17',
-      },
-      {
-        title: 'WhereQ-DOSBox 1.0.0.10：声音也活过了存档',
-        url: '/blog/WhereQ-DOSBox-1.0.0.10-CN',
         date: '2026-11-17',
       },
       {
@@ -266,22 +199,22 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
         date: '2026-11-16',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.8: save the whole machine, and a Resume button that resumes',
+        title: 'WhereQ-DOSBox 1.0.0.8: the whole machine in one file',
         url: '/blog/WhereQ-DOSBox-1.0.0.8',
         date: '2026-11-16',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.8：保存整台机器，让「继续」真的能继续',
+        title: 'WhereQ-DOSBox 1.0.0.8：整台机器，装进一个文件',
         url: '/blog/WhereQ-DOSBox-1.0.0.8-CN',
         date: '2026-11-16',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.7: your own DOS games, a real JIT, and a launcher that fits on a phone',
+        title: 'WhereQ-DOSBox 1.0.0.7: DOSBox, inside an APK',
         url: '/blog/WhereQ-DOSBox-1.0.0.7',
         date: '2026-11-13',
       },
       {
-        title: 'WhereQ-DOSBox 1.0.0.7：跑自己的 DOS 游戏、真正的 JIT，以及一个塞得进手机的启动器',
+        title: 'WhereQ-DOSBox 1.0.0.7：装进 APK 的 DOSBox',
         url: '/blog/WhereQ-DOSBox-1.0.0.7-CN',
         date: '2026-11-13',
       },

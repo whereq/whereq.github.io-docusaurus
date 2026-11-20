@@ -2,7 +2,7 @@
 title: "WhereQ-DOSBox 1.0.0.9：把键盘改造成掌机"
 slug: WhereQ-DOSBox-1.0.0.9-CN
 date: 2026-11-16
-tags: [dosbox, android, 模拟器, 发布, 怀旧, 开源, whereq, 键盘]
+tags: [dosbox, android, 模拟器, 发布, 怀旧, 开源, whereq, 键盘, 屏幕键盘]
 authors: whereq
 ---
 
@@ -19,26 +19,39 @@ import ThemedImage from '@theme/ThemedImage';
   />
 </figure>
 
-## 一个戴着键盘外形的妥协
+DOS 游戏要键盘。手机上没有键盘。
 
-DOS 的画面是 4:3，手机横过来是 20:9。多出来的那部分就是左右两条黑边，前两个版本里，键盘就住在那两条黑边上。
+在这之前，我的办法是在画面两侧的黑边上各立一列按键：左边是修饰键，右边是 **File**、**Ent**、**Space** 和方向键。
 
-那两条黑边并不算糟。方向键排成真键盘上的倒 T 形，修饰键和编辑键在另一侧，画面占住了整个屏幕中间。用起来是没问题的。
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-screenshot-phone.jpg"
+    alt="前面几个版本的键盘：DOSBox 欢迎画面左侧的黑边上是一列键——折叠键盘键、Esc、Tab、Ctrl、Alt、Shift、退格和一个引号键；右侧黑边上是一列 File、Ent、Space 和四个方向键。"
+    width="900"
+  />
+</p>
 
-但对一个想模拟的东西来说，那是错的形状。DOS 游戏是左手拇指管方向、右手拇指管按键的，而这些键全都不在拇指习惯待的地方。
+<p align="center">
+  <sub>两列，一个键一个，画面在中间。字是能打出来的，可它跟自己想替代的那个东西
+  长得完全不像。</sub>
+</p>
+
+字是能打出来的。路径可以敲，光标可以挪，按住一个键、屏幕另一边同时发生点什么，也没问题。
+
+但它做不了一件事：**用拇指去做**。DOS 游戏是左手拇指管方向、右手拇指管按键的，而这些键，没有一个待在拇指习惯找的位置上。画面是 4:3，手机是 20:9，两者之间差出来的那一点空间，恰恰就是键盘想住下的地方。
 
 <!-- truncate -->
 
-## 掌机是怎么做的
+## 掌机是怎么搭的
 
-掌机的做法是：屏幕放中间，操作键分到两只手上——一边一个——而且绝不让按键盖到画面上。
+掌机的做法是：画面留在中间，操作键分到两只手上——一边一个——而且绝不让按键盖到画面上。
 
-1.0.0.9 就是照着这个来的。那两条黑边不再是「能塞多少塞多少」的两列键，而是**两块手柄区**，画面依然完整地留在中间。
+1.0.0.9 就是照着这个来的。DOS 画面继续占住屏幕中间，键从画面上挪开，挪进左右两条黑边里，并且长成两块手柄区的样子。
 
 <p align="center">
   <img
     src="/img/apps/whereq-dosbox-keyboard-pads.png"
-    alt="WhereQ-DOSBox 在安卓手机横屏下的运行画面：中间是 DOSBox 欢迎画面，左边手柄区顶部是 File、Esc、Tab，下面是数字 1 到 5、左半边 QWERTY 和排成十字的方向键；右边手柄区顶部是 #+=、Fn 和退格，下面是右半边 QWERTY 以及 Alt、Ctrl、Shift、Space、Enter"
+    alt="WhereQ-DOSBox 横屏运行：中间是 DOSBox 欢迎画面；左边手柄区顶部是 File、Esc、Tab，下面是数字 1 到 5、QWERTY 的左半边，以及排成十字的方向键；右边手柄区顶部是 #+=、Fn 和退格，下面是数字 6 到 0、QWERTY 的右半边，以及 Alt、Ctrl、Shift、Space、Enter 几个动作键。"
     width="900"
   />
 </p>
@@ -48,22 +61,22 @@ DOS 的画面是 4:3，手机横过来是 20:9。多出来的那部分就是左�
   没有一个键画在它上面。</sub>
 </p>
 
-**左半边**是负责转向的那只手：四个方向键做成**十字键**——上键在最上面，左右并排，下键在最下面，手指靠形状就能读出方向——再往上是劈成两半的 QWERTY 的左半边，最顶上一排是 **File**、**Esc** 和 **Tab**。
+**左边那半**是负责转向的手：四个方向键做成**十字键**——上键在最上面，左右并排，下键在最下面，手指靠形状就能读出方向——再往上是劈成两半的 QWERTY 的左半边，最顶上一排是 **File**、**Esc** 和 **Tab**。
 
-**右半边**是负责操作的那只手：拇指下面是 **Alt**、**Ctrl**、**Shift**、**Space** 和 **Enter**，往上是 QWERTY 的右半边，最顶上一排是 **#+=**、**Fn** 和退格。
+**右边那半**是负责操作的手：拇指下面是 **Alt**、**Ctrl**、**Shift**、**Space** 和 **Enter**，往上是 QWERTY 的右半边，最顶上一排是 **#+=**、**Fn** 和退格。
 
-QWERTY 是「劈开」的，不是「缩小」的。左边是 `12345 qwert asdfg zxcvb`，右边是 `67890 yuiop hjkl: nm./\`——每一半都是正常尺寸的真键，而不是把整块键盘缩小后的玩具。
+QWERTY 是「劈开」的，不是「缩小」的。左边是 `12345 qwert asdfg zxcvb`，右边是 `67890 yuiop hjkl: nm./\`——每一半都是正常尺寸的真键，而不是把整块键盘缩小后塞进屏幕一角。
 
-## 三层，一个键一层
+## 三层，一个键管一层
 
-键盘劈成两半只解决了一半问题；另一半是键不够用的时候怎么办。这里的答案是**一层一个键**，就放在右半边最上面那一排。
+劈成两半只解决了一半问题；另一半是键不够用的时候怎么办。这里的答案是**一层一个键**，就放在右半边最上面那一排。
 
 **#+=** 把两半同时换成标点。切到这一层时，这个键会亮成蓝色，并且变成 *abc*——因为按下它就是回到字母层。
 
 <p align="center">
   <img
     src="/img/apps/whereq-dosbox-keyboard-symbols.png"
-    alt="WhereQ-DOSBox 切到标点层：右上角的 #+= 键亮成蓝色并显示 abc，左右两块手柄区显示标点符号——左边是 ! @ # $ %，右边是 ^ & * ( )"
+    alt="WhereQ-DOSBox 切到标点层：右上角的 #+= 键亮成蓝色并显示 abc；两块手柄区显示的不再是字母而是标点——左边是 ! @ # $ %、- = [ ] ` 和 _ + { } ~，右边是 ^ & * ( )、; ' , \ | 以及其余的标点。"
     width="900"
   />
 </p>
@@ -72,12 +85,12 @@ QWERTY 是「劈开」的，不是「缩小」的。左边是 `12345 qwert asdfg
   <sub>标点层。每个带 Shift 的字符就在它对应的不带 Shift 的键正下方，被切走的那个键会亮起来。</sub>
 </p>
 
-**Fn** 换来功能键：左边是 F1 到 F12，右边是 Ins / Del、Home / End、PgUp / PgDn、Caps、PrtSc 和 Pause。
+**Fn** 换来功能键：左边是 F1 到 F12，右边是 Ins、Del、Home、End、PgUp、PgDn、Caps、PrtSc 和 Pause。
 
 <p align="center">
   <img
     src="/img/apps/whereq-dosbox-keyboard-functions.png"
-    alt="WhereQ-DOSBox 切到功能层：Fn 键亮成蓝色，左半边是 F1 到 F12，右半边是 Ins、Home、PgUp、Del、End、PgDn、Caps、PrtSc 和 Pause"
+    alt="WhereQ-DOSBox 切到功能层：Fn 键亮成蓝色，左半边是 F1 到 F12，右半边是 Ins、Home、PgUp、Del、End、PgDn、Caps、PrtSc 和 Pause。"
     width="900"
   />
 </p>
@@ -92,7 +105,7 @@ QWERTY 是「劈开」的，不是「缩小」的。左边是 `12345 qwert asdfg
 
 修饰键是我想得最久的一部分，因为两种游戏对 Ctrl 的要求是不一样的。
 
-**点一下** Ctrl、Alt 或 Shift 会让它**待命**：接下来按的那个键会被修饰，然后修饰键自己松开。Ctrl、然后 C——文本编辑器和 DOS 命令行要的就是这个。
+**点一下** Ctrl、Alt 或 Shift，会让它**待命**：接下来按的那个键会被修饰，然后修饰键自己松开。Ctrl、然后 C——文本编辑器和 DOS 命令行要的就是这个。
 
 **按住**则是一直按着，直到你松手，和真键盘一样。这正是游戏对开火键和移动键的期待：右拇指按住 Ctrl，左拇指在十字键上走，游戏两个都收得到。
 
@@ -100,14 +113,20 @@ QWERTY 是「劈开」的，不是「缩小」的。左边是 `12345 qwert asdfg
 
 ## 布局跟着屏幕走
 
-不是每部手机都能腾出 20:9 那么宽的黑边，所以键盘会按黑边的宽度挑自己的形态：宽度够（至少 116 dp）就用完整的两块手柄区，差一点就退回到每侧一列键加上可折叠的 QWERTY 面板，竖屏则是贴底边的一条窄条。
+不是每部手机都能腾出 20:9 那么宽的黑边，所以键盘会按黑边的宽度挑自己的形态：
+
+| 黑边的宽度 | 键盘的样子 |
+|---|---|
+| 至少 116 dp | 完整的两块手柄区 |
+| 比这更窄 | 每侧退回到一列键，整块 QWERTY 从底部折叠上来 |
+| 竖屏 | 贴底边的一条窄条，配同样的折叠键盘 |
 
 下面这部分我并不满意。
 
 <p align="center">
   <img
     src="/img/apps/whereq-dosbox-keyboard-pads-18x9.png"
-    alt="WhereQ-DOSBox 在 18:9 屏幕下的运行画面：还是同样的两块手柄区，但字母键明显更小，画面占比更大"
+    alt="WhereQ-DOSBox 在 18:9 屏幕下的运行画面：还是同样的两块手柄区，但字母键明显更小，DOS 画面占的比例更大。"
     width="900"
   />
 </p>
@@ -117,7 +136,14 @@ QWERTY 是「劈开」的，不是「缩小」的。左边是 `12345 qwert asdfg
   而 20:9 屏上是 33 dp。</sub>
 </p>
 
-在 20:9 屏上，字母键的宽度是 **32.8 dp**。到了 18:9 屏——很多手机就是这个比例——黑边变窄，同一套布局下字母键只剩 **23.6 dp**，大约是屏幕宽度的 2.9 %，而正常手机键盘的一个键差不多是这个的两倍。十字键和动作键不受影响，挤小的只有字母。
+键的尺寸是在模拟器上按 420 dpi 量出来的：
+
+| 屏幕 | 黑边宽度 | 字母键 | 键高 |
+|---|---|---|---|
+| 20:9（2400×1080） | 183 dp | **32.8 dp** 宽 | 44 dp |
+| 18:9（2160×1080） | 137 dp | **23.6 dp** 宽 | 44 dp |
+
+18:9 的黑边有 137 dp，而手柄区需要 116 dp，所以并不会退回到单列键，只是字母被挤小了。23.6 dp 大约是屏幕宽度的 2.9 %，而正常手机键盘的一个键差不多是这个的两倍。十字键和动作键不受影响，挤小的只有字母。
 
 这个数是量出来的，不是我猜的：两种宽度都在模拟器上跑过、也都实际敲过字，三层布局在两种宽度下的截图都在仓库里。我没有做的是**在真正的 18:9 手机上试**——这台设备上没有的读者如果愿意替我补上这一课，我很想听。
 
@@ -127,28 +153,27 @@ QWERTY 是「劈开」的，不是「缩小」的。左边是 `12345 qwert asdfg
 
 有时候，描述一个大改动最诚实的方式，是说清楚**什么没有**变。
 
-## 流水线现在会自己出版本
-
-这个仓库第一次有了 CI 流水线。每次推送和每个 PR，`ci.yml` 都会把模拟器从源码编译三个 ABI——SDL2 加整个 DOSBox 核心，编译三遍——再在上面打包出应用，并检查三个原生库确实都进了 APK。
-
-遇到 `v*` 标签时，`release.yml` 会编译发布版 APK、用发布密钥签名、比对证书指纹，然后把它连同 SHA-256 一起发成 GitHub Release。
-
-密钥本身放在仓库的 secrets 里——keystore 用 base64 编码，密码和别名放在旁边——绝不进代码库。流水线会拒绝发布证书对不上的构建：换了密钥签出来的 APK 装不上旧版本，而让用户在自己的手机上发现这件事，不是发现的好地方。
-
 ## 拿去用
 
-发布版 APK 就在仓库里，用发布密钥签名，可以直接覆盖安装 1.0.0.8：
+发布版 APK 在[发布页](https://github.com/whereq/whereq-dosbox/releases)上，用发布密钥签名，可以直接覆盖安装 1.0.0.8：
 
 👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.9**
 
 ```
-downloads/whereq-dosbox-1.0.0.9.apk
+whereq-dosbox-1.0.0.9.apk
+size:   15.7 MB
 sha256: cd6d0bdafd0f84c7324936c89a6cab14ed87a21e4211ed8909078b4a7a51ac02
 ```
 
 它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，要求 Android 5.0 及以上，完全离线，不需要账号，没有任何追踪。项目采用 GPL-2.0 许可，DOSBox 核心连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件头注释一起嵌入。
 
-再说一遍：**这篇文章不是文档。** 文档是仓库本身：构建指南、移植日志（里面有一节专门讲那三条宽度规则和量出来的键宽）、键盘本身的设计笔记，以及这个移植的每一行代码。请去读那些，而不是信我的一面之词。
+## 文档在仓库里
+
+这篇文章不是手册。手册是仓库本身：[README](https://github.com/whereq/whereq-dosbox/blob/main/README.md) 讲这个应用是什么；[docs/TECHNICAL-REFERENCE.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md) 是整个实现写在一份文档里——那三条宽度规则和量出来的键宽就在里面；[docs/USER-GUIDE.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/USER-GUIDE.md) 是给手上拿着手机的人看的指南；[docs/INTERRUPTS.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md) 是中断地图。请去读那些，而不是信我的一面之词。
+
+故事的其他几段在这里：[装进 APK 的 DOSBox](/blog/WhereQ-DOSBox-1.0.0.7-CN)、[整台机器，装进一个文件](/blog/WhereQ-DOSBox-1.0.0.8-CN)、[活过应用的存档](/blog/WhereQ-DOSBox-1.0.0.12-CN)、[给拇指一个掌机](/blog/WhereQ-DOSBox-1.0.0.15-CN)。[公告](/blog/WhereQ-DOSBox-Announcement-CN)是这一切的起点，[项目的今天](/blog/WhereQ-DOSBox-CN)是它现在的位置。
+
+*如果你手上的手机屏幕比较窄、觉得字母键太小——请告诉我。这一版里唯一一件我希望在发布前就见到真机的事情，与其我自己发现，不如你来告诉我。*
 
 ## 谢谢 DOSBox
 
@@ -159,7 +184,3 @@ sha256: cd6d0bdafd0f84c7324936c89a6cab14ed87a21e4211ed8909078b4a7a51ac02
 这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
 
 **DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
-
----
-
-*如果你手上的手机屏幕比较窄、觉得字母键太小——请告诉我。这一版里唯一一件我希望在发布前就见到真机的事情，与其我自己发现，不如你来告诉我。*
