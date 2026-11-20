@@ -1,0 +1,171 @@
+---
+title: "WhereQ-DOSBox 1.0.0.12: your saves move out of the app"
+slug: WhereQ-DOSBox-1.0.0.12
+date: 2026-11-17
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, savestate, saves]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## "Everything is gone"
+
+It happens the boring way. The phone is full, or the app starts misbehaving, or you simply decide to reinstall it. You install the APK again, the game bundle is still in the folder you picked, you press **Play** — and the game starts at the very beginning.
+
+Ten hours of progress, gone. Not because the game was lost. Because the app was.
+
+That was the truth about WhereQ-DOSBox until this release. A save state — the frozen machine, the sound chips, the DOS file handles — lived inside the app's own private storage, and Android deletes that storage the moment the app is uninstalled. So the one thing the emulator exists to protect was the one thing that could not survive the app.
+
+1.0.0.12 changes that. It also makes a restore leave a mouse-driven game alive instead of hung, and it makes the emulator read its own version instead of a stale literal. Three things, and the first one is the reason to read the rest.
+
+<!-- truncate -->
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-save-states.jpg"
+    alt="The save-state sheet of WhereQ-DOSBox for the game whereq-demo-bundle: slot 1 says 2 hours ago and has Save and Load buttons, slots 2 and 3 are empty."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The save-state sheet. Three slots per game — these are the files that used
+  to die with the app.</sub>
+</p>
+
+## The saves live outside the app now
+
+The fix is not clever. It is that the saves stop living in a place Android is allowed to delete.
+
+Pick a folder on the phone (**Config → Saves folder**) and every slot is mirrored there, gzipped, right next to the game itself:
+
+```
+  the app                          the folder you picked
+  ──────                          ────────────────────
+  the slot   ── gzip ──▶             STARFALL/
+                                     slot1.gz
+                                     slot2.gz
+                                     bundle.zip      (the game)
+```
+
+Now the games are yours, in a folder you chose, and their save states are already there beside them. A reinstall, a new phone, an app deleted by accident — the games are offered for restore by name, and the slots come with them.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-files-panel.jpg"
+    alt="The Files panel of WhereQ-DOSBox: an Install a bundle button, an Install all bundles from a folder button, and the games Ultima8 and whereq-demo-bundle, each with Play, Launch and Remove."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Files panel: the games, and the <b>Config</b> button where the saves
+  folder is set.</sub>
+</p>
+
+One detail worth knowing, because it is the kind of thing that quietly loses work: two archives with the same file name are told apart by name — *game* and *game (2)* — so their saves never end up in the same place.
+
+## What a save state should remember
+
+The second fix is inside the save file, and it is about the mouse.
+
+A DOS program does not just read the mouse. It *configures* it: it registers an event callback, sets the range the cursor may travel in, picks a cursor shape and the hotspot inside that shape, and decides how coarse and how sensitive the movement is. All of that is a property of the game, and the game will never re-send it. So a save state has to carry it.
+
+1.0.0.11 carried far too much. It put the *whole* INT 33h driver into the snapshot — the event queue, the click counters and the interrupt re-entrancy flags included. Restoring that wedged mouse-driven games: a game could hang on load. The machine came back, but the mouse never reached the game again.
+
+So the snapshot now carries only the configuration the guest cannot rebuild itself:
+
+- the game's event-callback registration
+- the cursor range and position
+- the cursor shape and hotspot
+- the granularity and the sensitivity
+
+The cursor shape matters as much as the rest. Without it the visible cursor reverts to the default block and stops lining up with the real click point, so your taps land beside the target instead of on it.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-starfall.jpg"
+    alt="A DOS arcade game running in WhereQ-DOSBox on a phone, with a blue playfield, ships, a score line and the on-screen keyboard pads on both sides."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>A game that reads the mouse live. This is the kind that used to hang on a
+  restore.</sub>
+</p>
+
+What a restore no longer carries is the run-time state: the queue of pending events, the counters, the interrupt flags. That state belongs to the moment you saved, not to the machine you are coming back to. A restored game starts with the mouse released and the screen yours again.
+
+## The emulator knows its own version
+
+This one is embarrassing and true. The version was a literal `1.0.0.1` in the Android config template, so the DOS banner and the window title said *WhereQ-DOSBox version 1.0.0.1* no matter which release was actually installed.
+
+The native build now reads the same `VERSION` file that the release script and the app read. The two can no longer disagree, which means the version you see in the window title is the version you downloaded.
+
+## A local build ships all three ABIs
+
+If you build the APK yourself, `android/build-android.sh` and `android/build-sdl2.sh` used to default to two ABIs — so your APK did not carry the same set of processor architectures as the published one. Both scripts now build `arm64-v8a`, `armeabi-v7a` and `x86_64` by default: the same set CI builds.
+
+## The name on the phone
+
+If you installed this release and the icon on your phone suddenly said **A-DOS**, that was this release, and it was deliberate.
+
+*A-DOS* — DOS across Android and Apple. That is the name this release shipped under: the launcher name, the notification and the launcher icon all carried it.
+
+Two things did not change. The package id is still `com.whereq.dosbox` and the signing key is still the same one, so this release installs over 1.0.0.11 in place — nothing to uninstall first, your games and your saves stay where they are. And the download and the tag never stopped using the project's own name: `whereq-dosbox-1.0.0.12.apk`, tag `v1.0.0.12`.
+
+The very next release, 1.0.0.13, put the project's own name and mark back on the app — **WhereQ-DOSBox**. I renamed it here, and the next version rolled it back. That is why 1.0.0.13's own post spends a paragraph on a name.
+
+## Two things I want to say plainly
+
+### Your old save states will not load
+
+**Save states written by 1.0.0.11 and by the earlier 1.0.0.12 cuts cannot be loaded by this build.** The state file grew a version when the mouse block changed, and an older state is refused rather than misread. That is the honest behaviour — a state that is half understood is worse than a state that is refused — but it does mean those slots are gone.
+
+### This release was re-cut
+
+The tag still reads `v1.0.0.12`, but the file behind the download link is a *different build* than the one first published under that name. Its checksum is a different checksum, too. The one below is the checksum of the file as it is now. If you downloaded this release earlier and compared it, a mismatch is expected.
+
+## Get it
+
+The release APK, signed with the project's release certificate — the file and the tag still carry the project's own name, while the name on the launcher in this release was A-DOS:
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.12**
+
+```
+whereq-dosbox-1.0.0.12.apk
+size:   16 536 964 bytes
+sha256: 67577d59e078cd2953c24ea24753068aae2a01c2cf27a9788644787e999f2fd9
+```
+
+The APK itself: [whereq-dosbox-1.0.0.12.apk](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.12/whereq-dosbox-1.0.0.12.apk) — the signing certificate SHA-256 is `b16b480d5a1ff6d35baff0b15fa3fc4b0ee815e500861fbff1b062c9bf7d3933`.
+
+It runs on **arm64-v8a, armeabi-v7a and x86_64** devices, Android 5.0 and newer, entirely offline, with no account and no tracking. The project is GPL-2.0, and the DOSBox core is embedded with its `AUTHORS`, `ChangeLog`, `COPYING` and per-file headers intact.
+
+Again, **this post is not the documentation.** The documentation is the repository, and it is a single reference document rather than a folder of notes. Please read that rather than take my word for it.
+
+## Thank you, DOSBox
+
+None of this is possible without the DOSBox project.
+
+**DOSBox** was written by the [DOSBox Team](https://www.dosbox.com/crew.php) — a volunteer crew who took an operating system from 1994 and made it runnable on every machine the world has produced since, including the ones that did not exist yet. They kept it alive for three decades and gave it away to anyone who wanted it. WhereQ-DOSBox is a thin layer on top of their work. The originality, the craft and the generosity are entirely theirs.
+
+This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input.
+
+**DOSBox is a trademark of the DOSBox project**; this port is not affiliated with or endorsed by the DOSBox team.
+
+---
+
+*A save that dies with the app is a save you were never really keeping. If your games live in a folder on the phone and their saves do not — this is the release that puts them side by side.*

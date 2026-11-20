@@ -1,0 +1,148 @@
+---
+title: "WhereQ-DOSBox 1.0.0.16: the back button works again"
+slug: WhereQ-DOSBox-1.0.0.16
+date: 2026-11-20
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, back-button, gpl]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## The button that stopped working
+
+You are in a game. You want out. You press Back.
+
+Nothing happens.
+
+You press it again, harder, as if the phone could be persuaded. Nothing happens. The launcher stays open, or the gamepad stays open, or the keyboard stays up, and the only way out of the app is the gesture that the manufacturer put on the screen — the long swipe, the thing you have to be taught.
+
+That is what the Back button has been doing since Android 13, in every release from 1.0.0.9 to 1.0.0.15. It is the oldest release in this app's life and the one with the sharpest edges, and I did not notice it for months, because I use the phone with two thumbs and my face to the screen.
+
+This release is the one where the Back button works again.
+
+<!-- truncate -->
+
+## What actually happened
+
+Two things had to go wrong, and they had to go wrong together.
+
+In Android 13 the system **stopped sending the back key to the activity**. The back press became a *gesture*, handed to a dispatcher, and the old paths — `onKeyDown()`, `onBackPressed()` — stopped being called for it at all. That was deliberate: the system wanted one gesture model, not two.
+
+And WhereQ-DOSBox **is an SDL app**. SDL2's `SDLActivity` handles the key events and returns `true` for every one of them, because SDL wants to see the keyboard. The surface is the game. So the key went to SDL, SDL said "handled", and the activity never heard about it.
+
+Put the two together and you get a button that is delivered, consumed, and dropped on the floor. From the user's side there is no difference between that and a broken phone.
+
+The fix is to stop asking for the key and start asking for the gesture. The app registers an `OnBackInvokedCallback` with the system — the API Android itself introduced for this — and the back gesture comes to the app directly, where the app can decide what it means.
+
+One trap is worth naming, because it is the obvious wrong answer. Android documents an opt-out: `android:enableOnBackInvokedCallback="false"` in the manifest, which puts the app back on the legacy path. **That is not a fix.** The legacy path is precisely the path SDL breaks — it restores the key event that SDL eats. Worse, on Android 16 the system then also ignores a registered callback, so opting out loses *both* ways of reaching the app.
+
+So the opt-out stays out. There is a unit test that reads the manifest and fails the build if that attribute ever comes back.
+
+## Back, in the order things are actually on screen
+
+While I was in there, I noticed the order was wrong.
+
+The Back press has to walk you back out of the app, one thing at a time, and the things are stacked: the game launcher is drawn on top of the keyboard, the gamepad is drawn on top of the keyboard, the keyboard panel folds under the gamepad. Back should close the topmost thing first.
+
+It did not. The first press folded the hidden panel and left the gamepad standing, so the second press was needed to get out of the game you were trying to leave.
+
+So the decision is now one table, and the table is now the same on every device:
+
+```
+launcher open?        → close the launcher
+game mode on screen?  → back to the keyboard
+keyboard panel out?   → fold the panel
+nothing open?         → leave the app
+```
+
+One press per thing, in the order you can see them. It reads like a table because it *is* a table — one pure function, `resolveBackAction()`, with no Android in it at all, which means the JVM can test it:
+
+```
+:app:testDebugUnitTest          7 tests, 0 failures
+```
+
+And because "the app handles the back gesture" is a claim about a system dispatcher, there is a second layer of test that needs a real device: five instrumented tests that press the **actual back button** through the system input pipeline — the way a thumb does, not by calling the activity — and check that the launcher closes, that the app stays alive while it is open, and that the licence screen carries what it claims to carry.
+
+## The devices that need 16 KB pages
+
+Android 15 changed the page size on 64-bit devices. Not the *size* of the pages the app asks for — the size of the pages the **kernel** uses to map the app. A library whose loadable segments are aligned to 4 KB but not to 16 KB simply will not load on such a device.
+
+DOSBox is a 1990s program that links SDL2 and a music library; its `.so` was aligned the way 32-bit Android wanted, and nothing had checked since.
+
+It is aligned now. Every `PT_LOAD` segment of `libdosbox.so` is aligned to 16 KB in all three ABIs, and CI reads the ELF headers of every library it builds and fails the build if one of them is not. A check that runs on every push is worth more than a check that ran once.
+
+## The mouse button that stayed down
+
+Game Mode has a **DRAG** button: hold it and the left mouse button stays down, so a game that reads the mouse live sees a held button and a drag keeps dragging.
+
+If you left Game Mode while DRAG was locked, the button stayed down **inside DOSBox**. The game kept seeing a left button that nobody was holding — a selection that would not end, a drag that would not stop, until you happened to touch the screen again.
+
+The lock is released now, together with the keys and the other buttons, whenever the gamepad goes away or the profile changes. The DRAG lock is a state of the gamepad, not of the machine, and it no longer leaks into the machine.
+
+## The licence travels with the app
+
+This one is not a bug. It is an obligation, and I had been carrying it the wrong way.
+
+WhereQ-DOSBox embeds the DOSBox core, which is **GPLv2**. GPLv2 asks two things of the *program*, not only of the source tree: the licence and the copyright notices have to travel with the binary, and every recipient has to be able to get the complete corresponding source.
+
+The second one was fine — the source is on GitHub, and the licence screen links to it. The first one was not: the GPL text and the notices were in the repository, in `COPYING` and `NOTICE`, and nowhere else. A user who installed the APK had no way to read the licence they were bound by.
+
+So they are in the app now. The full GPL v2 text and the `NOTICE` — the DOSBox attribution, the Em-DOSBox import, the SDL2 zlib notice, the trademark note — travel inside the APK, and the launcher's footer links to them, next to the version:
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-licences.png"
+    alt="The licence screen of WhereQ-DOSBox: WhereQ-DOSBox is free software, the GNU General Public License version 2, The complete source code with the link https://github.com/whereq/whereq-dosbox, and below it the licence text and the notices."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The licence screen. The licence and the notices are read from the
+  <b>assets</b>, so they work with no network at all.</sub>
+</p>
+
+The `NOTICE` at the repository root also gained the SDL2 notice it was missing, because the zlib licence requires that notice to travel with the binary that links SDL2 — and the binary does.
+
+## Get it
+
+The release APK is signed with the release key, so it installs over the previous version in place:
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.16**
+
+```
+whereq-dosbox-1.0.0.16.apk
+size:   16 510 058 bytes
+sha256: 183f16ee3fd219a878b56b6a08758a184370b834a0fef63b63a7aea7f4faa773
+```
+
+It runs on **arm64-v8a, armeabi-v7a and x86_64** devices, Android 5.0 and newer, entirely offline, with no account and no tracking. The project is GPL-2.0, and the DOSBox core is embedded with its `AUTHORS`, `ChangeLog`, `COPYING` and per-file headers intact — and, as of this release, so is the licence itself.
+
+**Your save states still load.** Nothing about the save format changed.
+
+Again, **this post is not the documentation.** The documentation is the repository, and it is a single reference document rather than a folder of notes. Please read that rather than take my word for it.
+
+## Thank you, DOSBox
+
+None of this is possible without the DOSBox project.
+
+**DOSBox** was written by the [DOSBox Team](https://www.dosbox.com/crew.php) — a volunteer crew who took an operating system from 1994 and made it runnable on every machine the world has produced since, including the ones that did not exist yet. They kept it alive for three decades and gave it away to anyone who wanted it. WhereQ-DOSBox is a thin layer on top of their work. The originality, the craft and the generosity are entirely theirs.
+
+This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input.
+
+**DOSBox is a trademark of the DOSBox project**; this port is not affiliated with or endorsed by the DOSBox team.
+
+---
+
+*A button that does nothing is worse than a button that is missing, because you keep pressing it. If Back has been ignoring you since you installed the app — this is the release you want.*

@@ -1,0 +1,129 @@
+---
+title: "WhereQ-DOSBox 1.0.0.11：鼠标有了右键，而且活过了存档"
+slug: WhereQ-DOSBox-1.0.0.11-CN
+date: 2026-11-17
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, mouse, savestate]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 按不出来的那个键
+
+你在游戏里点开一个菜单，右边一排选项，最右边那个是退出——在大多数 DOS 游戏里，退出就是鼠标右键：**取消**、**返回**。
+
+DOS 鼠标有两个键，手机只有一根手指，右键根本不存在。于是游戏本身是完整的，而出口在你够不着的地方。
+
+1.0.0.10 以及之前的每一个版本都是这样。
+
+<!-- truncate -->
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-keyboard-pads.png"
+    alt="WhereQ-DOSBox 的屏幕键盘：横屏下中间是 DOS 画面，蓝色欢迎横幅下面是一个 C:\&gt; 提示符，左边是字母和数字键以及方向键，右边是 Alt、Ctrl、Shift、Space 和 Enter。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>掌机式的两块键盘。这一张拍的是本版本之前：左边那排只有 File、Esc 和 Tab，
+  没有 RMB。</sub>
+</p>
+
+## 鼠标有两个键，屏幕只有一个
+
+屏幕键盘的左边那排，**Tab** 旁边多了一个 **RMB** 键。三种布局里都有它——两块掌机键盘、单列按键、底部横条——所以右键永远只差一次点按。
+
+在画面上落下**第二根手指**也一样，而且是在那根手指自己的位置上：两根手指按在游戏上，第二根就是右键，位置分毫不差。
+
+## 点击是按住，不是轻点
+
+第一根手指按下去的时候，**左键**会一直按住，直到你抬起手指为止。所以拖动还是拖动——按钮在拖动的过程中从来没有松开过。右键也一样，是按住不放的。
+
+这是那些**实时**读取鼠标的游戏需要的东西：`INT 33h AX=3` 返回的就是按键状态。一个一毫秒就结束的点按，可能正好落在两次查询之间，被整个漏掉。
+
+## 鼠标从来没有进过存档
+
+存档冻住的是整台机器：CPU、内存、显存、声音芯片。你存档、退出、明天再回来，读档。
+
+所有东西都回来了。只有鼠标没有。
+
+`INT 33h` 驱动把自己的状态放在游戏自己的内存之外——事件回调的注册、光标的范围、按键的状态。这些当时都不在快照里。所以读档之后光标照旧跟着手指走，游戏却再也收不到你的点击：对话框里的**确定**按钮按下去，一点反应都没有。
+
+现在这个驱动是存档的一部分了。它跟机器一起被存下来，也一起回来。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-save-states.jpg"
+    alt="WhereQ-DOSBox 里 whereq-demo-bundle 的存档面板：档位 1 写着 2 hours ago，旁边是 Save 和 Load 两个按钮，档位 2 和档位 3 是空的。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>存档面板。正是这一版，让读回来的档位重新是一台完整的机器，鼠标也在其中。</sub>
+</p>
+
+## 你需要知道的一个后果
+
+**1.0.0.10 写下的存档，这一版读不出来。**
+
+鼠标驱动进了快照，存档文件因此长了一个版本号；旧存档会被拒绝，而不是被误读。这才是诚实的做法——一个能读、但内容不对的存档，比一个直接说「不行」的存档更糟。
+
+如果你手里有 1.0.0.10 留下的、你还在意的存档，请在更新之前先读完它们。
+
+## 迁移阶段在这里收尾
+
+Android 迁移阶段的收尾工作就是这只鼠标：右键、按住不放的点击，以及进存档的驱动——这一版把它们一起交了出来。
+
+标记用的标签不是一次发布：
+
+```
+milestone/android-migration-complete
+```
+
+它是带注释的，当时挂在这一版上，而且刻意待在发布脚本不认识的 `vX.Y.Z` 命名之外，所以脚本永远不会把它捡起来、当成一次发布再发一遍。它标的是一个阶段，不是一个版本。往后就只剩维护了。
+
+## 拿去用
+
+发布版 APK 用发布密钥签名，可以直接覆盖安装上一版：
+
+👉 **[whereq-dosbox-1.0.0.11.apk](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.11/whereq-dosbox-1.0.0.11.apk)** — 来自 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)**，tag **v1.0.0.11**
+
+```
+whereq-dosbox-1.0.0.11.apk
+size:   16 465 213 bytes
+sha256: 5dd04af8dbb0ef739eed57de3bf8a61eb070dcf6f63c0fe003cf69bcecd54854
+```
+
+签名证书 SHA-256：`b16b480d5a1ff6d35baff0b15fa3fc4b0ee815e500861fbff1b062c9bf7d3933`
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，要求 Android 5.0 及以上，完全离线，不需要账号，没有任何追踪。项目采用 GPL-2.0 许可，DOSBox 核心连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件头注释一起嵌入。
+
+再说一遍：**这篇文章不是文档。** 文档是仓库本身——用户指南讲怎么玩，技术参考讲鼠标、键盘和存档到底是怎么做的。请去读那些，而不是信我的一面之词。
+
+## 谢谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担——变成鼠标按键的那根手指，也归它管。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*右键是 DOS 鼠标身上、触摸屏身上最后缺的那个键。如果你的游戏里有一个你永远够不到的出口——这一版就是你要的那一版。*
