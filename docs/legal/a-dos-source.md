@@ -24,21 +24,23 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `649880c` |
+| Source commit | `7865e40` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `16c0ae216045ca83acff25c00a5b0e650ab7059bc3727c99991faf9064c0adb9` |
+| SHA-256 | `10bf68e800ca69799dc5b72aa1ae0b06461fd888ae39e1b9ef88764906d13fa0` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# 16c0ae216045ca83acff25c00a5b0e650ab7059bc3727c99991faf9064c0adb9
+# 10bf68e800ca69799dc5b72aa1ae0b06461fd888ae39e1b9ef88764906d13fa0
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
-that names the version, the commit and the build. It holds the DOSBox core
+that names the version, the commit and the build. The shipped build was
+made from `649880c`; the only difference is the fix of the regression test
+in `examples/`, which is not part of the app. It holds the DOSBox core
 with its per-file copyright and licence headers intact, the Android
 application, the NDK/CMake build of the native library, the desktop Linux
 baseline, the benchmark, the dev toolchain and the build scripts.
