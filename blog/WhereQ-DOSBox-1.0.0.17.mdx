@@ -68,6 +68,22 @@ Gold on gold is not an outline. It is nothing. The FIRE button looked exactly li
 
 The rule now follows the button it marks: gold on the dark buttons, dark brown on the gold one. And it is chosen by the **perceived luminance** of the button, not by a plain average of its colour channels — the average of the gold's channels lands exactly on the threshold, so a naive average would have put the bright amber on the dark side of the rule and brought the bug straight back.
 
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-game-mode-remap.png"
+    alt="WhereQ-DOSBox in Game Mode, in remap mode, running on an Android device in landscape. The gamepad pads flank the DOS screen. The remappable buttons — SHIFT, TAB, STR, ENT, USE and JUMP — carry a gold outline, and the gold FIRE button carries a dark brown one. The buttons that cannot be remapped, Y, X, ESC, ARROWS, TURBO, Fn and 1 to 9, carry none."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The remapper, on a device. Gold outlines on the dark buttons, a dark brown
+  one on the gold FIRE button, and none at all on the buttons you are not
+  allowed to remap. The banner along the top is the way out.</sub>
+</p>
+
+That is what the fix looks like on a screen, and it is also how it was checked: the pixels of the FIRE button were read on a running device, and the outline there is the dark brown, not the gold of the button under it.
+
 There is a unit test for it, and it holds the invariant that broke:
 
 ```
@@ -88,10 +104,10 @@ Both fixes are small, and both are now pinned down:
 
 ```
 :app:testDebugUnitTest          15 tests, 0 failures
-:app:connectedDebugAndroidTest   8 tests, 0 failures
+:app:connectedDebugAndroidTest  10 tests, 0 failures
 ```
 
-The unit tests cover the outline rule and the privacy policy — the policy test reads the repository, so it fails if the file moves, if the link stops naming that file, or if the README stops linking it. The instrumented tests run on a device: they open the launcher and check that both footer links are really there and really ask the app for the right thing.
+The unit tests cover the outline rule and the privacy policy — the policy test reads the repository, so it fails if the file moves, if the link stops naming that file, or if the README stops linking it. The instrumented tests run on a device: they open the launcher and check that both footer links are really there and really ask the app for the right thing, and they build the real gamepad, put it in remap mode and read the **pixels** of the FIRE button, so the outline cannot quietly go back to being the colour of the button it marks.
 
 ## Get it
 
