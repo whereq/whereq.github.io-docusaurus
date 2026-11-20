@@ -1,0 +1,126 @@
+---
+title: "WhereQ-DOSBox 1.0.0.17: where a privacy policy belongs"
+slug: WhereQ-DOSBox-1.0.0.17
+date: 2026-11-20
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, privacy, gpl]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## The document that should have been there already
+
+A privacy policy is not a feature. It is a piece of paper that says what the app does with your data, and the interesting thing about WhereQ-DOSBox is that there is almost nothing to say: it collects nothing, it has no analytics, no crash reporting, no advertising SDK and no account.
+
+It also does not ask for the `INTERNET` permission. Not "does not use it" — **does not ask for it**. The app physically cannot send anything anywhere, because the manifest does not contain the permission that would let it.
+
+So the policy itself was never the hard part. The hard part was deciding **where it should live**, and I had been treating that as a question about the app when it is really a question about the *product*.
+
+<!-- truncate -->
+
+## Two apps, two homes
+
+There are two DOSBox ports in this universe and they are not the same kind of thing.
+
+**A-DOS** is a private product. Its source is not published, its APK goes out through the Google Play Store, and the store's reviewer — a person, a checklist — has to be able to open its privacy policy from a link. So A-DOS publishes its policy and its licence on the **WhereQ docs site**, where anyone can open them, and keeps the authoritative text in its own private repository.
+
+**WhereQ-DOSBox** is free and open-source software. The whole repository is public: the code, the licence, the notices, the build scripts, and every commit that ever explained why a decision was made. If the privacy policy lived on a website instead, it would be the one document in the project whose history nobody could read.
+
+So it lives in the repository now, at [`docs/PRIVACY.md`](https://github.com/whereq/whereq-dosbox/blob/main/docs/PRIVACY.md), next to `COPYING` and `NOTICE`. The README links to it, and the launcher's footer opens it — next to the link to the licence screen, which has been there since the last release.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-privacy.png"
+    alt="The bundle launcher of WhereQ-DOSBox in landscape. Its footer carries the app's version on the left, and the two links Licences and Privacy policy on the right."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The foot of the launcher. The licence screen and the privacy policy sit
+  at the bottom, on the one screen you can always reach.</sub>
+</p>
+
+The policy says what it has always said — nothing is collected, nothing is transmitted, everything stays on your device — and it says it in the place where a reader can check that it has not drifted from the app: the same repository, the same commit, the same history.
+
+## Two small things in Game Mode that only the screen could show
+
+The rest of this release is Game Mode, and both of these were found by reading the code against the sibling port, not by playing.
+
+### The FIRE button was hiding its own invitation
+
+Game Mode has a **remapper**: hold the profile button, choose *Remap buttons…*, and every button you can remap gets an outline. It is the only way the gamepad tells you which of its buttons are yours to change.
+
+The FIRE button is filled with gold. The outline was gold.
+
+Gold on gold is not an outline. It is nothing. The FIRE button looked exactly like a button that could not be remapped, which is the one thing the outline is supposed to say.
+
+The rule now follows the button it marks: gold on the dark buttons, dark brown on the gold one. And it is chosen by the **perceived luminance** of the button, not by a plain average of its colour channels — the average of the gold's channels lands exactly on the threshold, so a naive average would have put the bright amber on the dark side of the rule and brought the bug straight back.
+
+There is a unit test for it, and it holds the invariant that broke:
+
+```
+the outline is never the colour of the button it marks
+```
+
+### The D-pad button could name a mode you were not using
+
+The button in the bottom row of the left pad cycles the D-pad output between **ARROWS**, **NUMPAD** and **WASD**, and it carries the name of the mode you are in.
+
+The app remembers the mode per game. When the remembered mode differed from the mode the gamepad had been built with — you played one game on WASD, then went back to a game you had left on ARROWS — the button kept the name of the mode the pad was *built* with. So the button could say **ARROWS** while the D-pad was sending **WASD**. The label lied, and nothing told you which way it lied.
+
+The bar is rebuilt when the mode changes now, and the remembered mode is restored *before* the gamepad is built, so the first thing you see is already the truth.
+
+## The tests
+
+Both fixes are small, and both are now pinned down:
+
+```
+:app:testDebugUnitTest          15 tests, 0 failures
+:app:connectedDebugAndroidTest   8 tests, 0 failures
+```
+
+The unit tests cover the outline rule and the privacy policy — the policy test reads the repository, so it fails if the file moves, if the link stops naming that file, or if the README stops linking it. The instrumented tests run on a device: they open the launcher and check that both footer links are really there and really ask the app for the right thing.
+
+## Get it
+
+The release APK is signed with the release key, so it installs over the previous version in place:
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.17**
+
+```
+whereq-dosbox-1.0.0.17.apk
+size:   16 510 522 bytes
+sha256: 796203db84f31e994c45a3965fe3919b5e7a030a5ad8e45e4a9eabbed3f4ac0a
+```
+
+It runs on **arm64-v8a, armeabi-v7a and x86_64** devices, Android 5.0 and newer, entirely offline, with no account and no tracking. The project is GPL-2.0, and the DOSBox core is embedded with its `AUTHORS`, `ChangeLog`, `COPYING` and per-file headers intact — and, as of the last release, so is the licence itself.
+
+**Your save states still load.** Nothing about the save format changed.
+
+Again, **this post is not the documentation.** The documentation is the repository, and it is a single reference document rather than a folder of notes. Please read that rather than take my word for it.
+
+## Thank you, DOSBox
+
+None of this is possible without the DOSBox project.
+
+**DOSBox** was written by the [DOSBox Team](https://www.dosbox.com/crew.php) — a volunteer crew who took an operating system from 1994 and made it runnable on every machine the world has produced since, including the ones that did not exist yet. They kept it alive for three decades and gave it away to anyone who wanted it. WhereQ-DOSBox is a thin layer on top of their work. The originality, the craft and the generosity are entirely theirs.
+
+This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input.
+
+**DOSBox is a trademark of the DOSBox project**; this port is not affiliated with or endorsed by the DOSBox team.
+
+---
+
+*A policy you cannot read is not a policy. Put it where the code is, and let the history show what it said.*
