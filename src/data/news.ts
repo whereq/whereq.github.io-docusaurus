@@ -139,6 +139,38 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox 1.0.0.16: the back button works again',
+        url: '/blog/WhereQ-DOSBox-1.0.0.16',
+        date: '2026-11-20',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.16：返回键又活了',
+        url: '/blog/WhereQ-DOSBox-1.0.0.16-CN',
+        date: '2026-11-20',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.15: Game Mode, a console-style gamepad for your thumb',
+        url: '/blog/WhereQ-DOSBox-1.0.0.15',
+        date: '2026-11-20',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.15：Game Mode，给拇指一个掌机',
+        url: '/blog/WhereQ-DOSBox-1.0.0.15-CN',
+        date: '2026-11-20',
+      },
+      {
+        title:
+          'WhereQ-DOSBox 1.0.0.14: a save that timed out no longer answers the next request',
+        url: '/blog/WhereQ-DOSBox-1.0.0.14',
+        date: '2026-11-19',
+      },
+      {
+        title:
+          'WhereQ-DOSBox 1.0.0.14：超时的存档不再替下一次请求作答',
+        url: '/blog/WhereQ-DOSBox-1.0.0.14-CN',
+        date: '2026-11-19',
+      },
+      {
         title: 'WhereQ-DOSBox interrupts: the map of every INT in the emulator',
         url: '/blog/WhereQ-DOSBox-Interrupts',
         date: '2026-11-19',
@@ -169,6 +201,28 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
           'WhereQ-DOSBox 1.0.0.13：读档之后，存档还记得自己是什么时候存的',
         url: '/blog/WhereQ-DOSBox-1.0.0.13-CN',
         date: '2026-11-18',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.12: your saves move out of the app',
+        url: '/blog/WhereQ-DOSBox-1.0.0.12',
+        date: '2026-11-17',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.12：存档搬出了应用',
+        url: '/blog/WhereQ-DOSBox-1.0.0.12-CN',
+        date: '2026-11-17',
+      },
+      {
+        title:
+          'WhereQ-DOSBox 1.0.0.11: the mouse gets a right button, and it survives the save state',
+        url: '/blog/WhereQ-DOSBox-1.0.0.11',
+        date: '2026-11-17',
+      },
+      {
+        title:
+          'WhereQ-DOSBox 1.0.0.11：鼠标有了右键，而且活过了存档',
+        url: '/blog/WhereQ-DOSBox-1.0.0.11-CN',
+        date: '2026-11-17',
       },
       {
         title:

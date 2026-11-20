@@ -1,0 +1,170 @@
+---
+title: "WhereQ-DOSBox 1.0.0.12：存档搬出了应用"
+slug: WhereQ-DOSBox-1.0.0.12-CN
+date: 2026-11-17
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, savestate, saves]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 「全没了」
+
+事情往往是这样发生的：手机存储满了，或者应用开始出怪问题，或者你只是想重装一遍。
+
+你重新装上 APK，游戏压缩包还在你选的那个文件夹里，你按下 **Play**——游戏却从第一关开始了。
+
+十个小时的进度没了。不是因为游戏丢了，而是因为应用没了。
+
+在 1.0.0.12 之前，WhereQ-DOSBox 的情况就是这样。一个存档——整台机器、声音芯片、DOS 文件句柄——都躺在应用自己的私有目录里，而 Android 会在你卸载的那一刻把这个目录一起删掉。于是这个模拟器存在的意义——把一台跑着的 DOS 机器冻住、以后再接着跑——恰恰成了唯一保不住的那一样。
+
+1.0.0.12 改了这件事。它还让读档之后靠鼠标操作的游戏不再卡死，也让模拟器读自己的版本号，而不是一个写死的旧数字。三件事，第一件最值得往下看。
+
+<!-- truncate -->
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-save-states.jpg"
+    alt="WhereQ-DOSBox 里 whereq-demo-bundle 的存档面板：档位 1 写着 2 hours ago，旁边是 Save 和 Load 两个按钮，档位 2 和档位 3 是空的。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>存档面板。每个游戏三个档位——以前跟着应用一起没命的就是这些文件。</sub>
+</p>
+
+## 存档搬到应用外面了
+
+修法并不复杂：存档不再待在 Android 可以随手删掉的地方。
+
+在手机上选一个文件夹（**Config → Saves folder**），之后每个档位都会镜像到那里，压成 gzip，就放在游戏旁边：
+
+```
+  应用                              你选的那个文件夹
+  ──────                          ────────────────────
+  存档   ── gzip ──▶                STARFALL/
+                                    slot1.gz
+                                    slot2.gz
+                                    bundle.zip      (游戏本身)
+```
+
+于是游戏归你了，在你自己挑的文件夹里，它们的存档也已经躺在旁边。重装、换手机、手滑删了应用，游戏会按名字出现在恢复列表里，档位跟着一起回来。
+
+有个细节值得知道，因为它是那种悄悄弄丢进度的东西：同名的两个压缩包会按名字区分——*game* 和 *game (2)*——所以它们的存档不会混到同一个地方去。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-files-panel.jpg"
+    alt="WhereQ-DOSBox 的 Files 面板：Install a bundle 按钮、Install all bundles from a folder 按钮，以及 Ultima8 和 whereq-demo-bundle 两个游戏，每个都有 Play、Launch 和 Remove。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Files 面板：游戏列表，以及设置存档目录的 <b>Config</b> 按钮。</sub>
+</p>
+
+## 存档文件里该记什么
+
+第二处改动在存档文件内部，说的是鼠标。
+
+DOS 程序不只是读鼠标，它还要配置鼠标：注册事件回调，规定光标能走到的范围，选一个光标形状和形状里的热点，再决定移动有多粗、有多敏感。这些都是游戏的属性，而游戏自己不会再发一遍，所以存档必须带着它们。
+
+1.0.0.11 带得太多了。它把整个 INT 33h 驱动塞进了快照——事件队列、点击计数、中断重入标志全都在内。读回这样的快照，靠鼠标操作的游戏就卡死了：读档时游戏可能直接挂住。机器回来了，鼠标却再也送不到游戏手里。
+
+所以现在快照只带着程序自己重建不出来的那部分配置：
+
+- 游戏注册的事件回调
+- 光标的范围和当前位置
+- 光标的形状和热点
+- 粒度和灵敏度
+
+光标的形状和别的同样重要。少了它，屏幕上那个光标会退回默认的方块，不再和真正的点击位置对齐，于是你的手指点在了目标旁边，而不是目标上。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-starfall.jpg"
+    alt="手机上的 WhereQ-DOSBox 里跑着一款 DOS 街机游戏：蓝色画面、上方的得分行，左右两侧是屏幕键盘。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>一款实时读鼠标的游戏。以前读档就可能让它挂在这里。</sub>
+</p>
+
+而读档不再带回来的，是运行时的状态：排着队等处理的事件、计数器、中断标志。那属于你存档的那一刻，不属于你要回来的这台机器。读档之后，游戏从鼠标松开的状态重新开始。
+
+## 模拟器终于知道自己是哪一版
+
+这件事说出来有点难为情，但确实是这样：Android 配置模板里的版本号是写死的 `1.0.0.1`，所以不管装的是哪一版，DOS 启动画面和窗口标题都写着 *WhereQ-DOSBox version 1.0.0.1*。
+
+现在原生库读的是发布脚本和应用读的那同一个 `VERSION` 文件。两边不会再各说各话，也就是说，你在窗口标题里看到的版本，就是你下载的那个版本。
+
+## 本地构建现在带齐三种 ABI
+
+如果你自己编译 APK，`android/build-android.sh` 和 `android/build-sdl2.sh` 以前默认只打包两种 ABI，于是你本地编出来的 APK 和发布版带的处理器架构并不一样。现在两个脚本默认都编 `arm64-v8a`、`armeabi-v7a` 和 `x86_64`，和 CI 编的是同一套。
+
+## 手机上的名字
+
+如果你装上这一版，发现手机上的图标忽然变成了 **A-DOS**，那就是这一版，而且是有意为之。
+
+*A-DOS*——Android 和 Apple 上的 DOS。这一版就是以这个名字发布的：启动器名字、通知和桌面图标都带着它。
+
+但有两样东西没有变。包名还是 `com.whereq.dosbox`，签名密钥还是原来那一个，所以这一版可以直接覆盖安装 1.0.0.11，不用先卸载，你的游戏和存档原地不动。而下载文件名和标签始终还是项目自己的：`whereq-dosbox-1.0.0.12.apk`，tag `v1.0.0.12`。
+
+紧接着的下一版 1.0.0.13 把项目自己的名字和标记放回了应用上——**WhereQ-DOSBox**。名字是我在这一版改的，下一版又把它撤了回来。这也正是 1.0.0.13 那篇文章专门花一段讲名字的原因。
+
+## 两件必须说清楚的事
+
+### 旧存档读不出来了
+
+**1.0.0.11 以及更早那几个 1.0.0.12 切出来的存档，这一版读不了。** 鼠标那一块改了之后，存档文件的版本也跟着长了一版，老存档会被拒绝，而不是被误读。这样做是诚实的——只读懂一半的存档，比读不出来的存档更糟——但这也意味着那些档位确实没了。
+
+### 这一版重新打过
+
+标签还是 `v1.0.0.12`，但下载链接后面那个文件，和最初用这个名字发布的那一个不是同一个构建，校验和自然也不一样。下面这个校验和是当前这个文件的。如果你在更早的时候下载过这一版，发现对不上，那是预期之中的。
+
+## 拿去用
+
+发布版 APK，用项目自己的发布证书签名——文件名和标签仍然是项目自己的名字，而这一版启动器上的名字是 A-DOS：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.12**
+
+```
+whereq-dosbox-1.0.0.12.apk
+size:   16 536 964 bytes
+sha256: 67577d59e078cd2953c24ea24753068aae2a01c2cf27a9788644787e999f2fd9
+```
+
+APK 本身在这里：[whereq-dosbox-1.0.0.12.apk](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.12/whereq-dosbox-1.0.0.12.apk) —— 签名证书的 SHA-256 是 `b16b480d5a1ff6d35baff0b15fa3fc4b0ee815e500861fbff1b062c9bf7d3933`。
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，要求 Android 5.0 及以上，完全离线，不需要账号，也没有任何追踪。项目采用 GPL-2.0 许可，DOSBox 核心连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件的头注释一起嵌入。
+
+再说一遍：**这篇文章不是文档。** 文档是仓库本身，而且现在是一份参考文档，不再是一堆笔记。请去读那份，而不是信我的一面之词。
+
+## 谢谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入则由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*跟着应用一起没命的存档，本来就不是你真正留下的存档。如果你的游戏在手机上的某个文件夹里，而它们的存档不在——这一版会把两者放到一起。*

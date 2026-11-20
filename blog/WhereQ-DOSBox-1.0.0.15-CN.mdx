@@ -1,0 +1,158 @@
+---
+title: "WhereQ-DOSBox 1.0.0.15：Game Mode，给拇指一个掌机"
+slug: WhereQ-DOSBox-1.0.0.15-CN
+date: 2026-11-20
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, gamepad, game-mode]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 两只拇指已经占满了
+
+你双手捧着手机，游戏却同时要你做三件事：向左，开火，跳。
+
+屏幕键盘拿来敲 `MOUNT C .` 很顺手，拿来玩游戏就很别扭。一只拇指按在方向键上，另一只得离开方向键去够字母 **B**——就那么一两秒，而带计时的游戏不会给你这一两秒。
+
+于是你只挑那些单手能玩的游戏，或者干脆不玩。
+
+1.0.0.15 给键盘添了第二张脸。
+
+<!-- truncate -->
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-keyboard-pads.png"
+    alt="WhereQ-DOSBox 横屏时的屏幕键盘：左边是字母和数字键，下面是方向键，中间是 DOS 屏幕，显示蓝色欢迎横幅和 C:\> 提示符，右边是 Esc、Tab、Fn、Alt、Ctrl、Shift、Space 和 Enter 等按键。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>屏幕键盘上的这些控制台风格按键。Game Mode 要替换的就是它们——这张图拍的是按键，不是手柄。</sub>
+</p>
+
+## 按键翻成手柄
+
+Game Mode 就住在键盘面板里。键盘显示着的时候，打开 **Caps Lock**（不想找它的话，双击 **Shift** 就行），然后敲一段人人都已经存在手指里的暗号：
+
+```
+  ↑  ↑  ↓  ↓  ←  →  ←  →  B  A
+```
+
+按键翻面了。原来的 QWERTY 变成一个八向方向键、一个轨迹球，外加 DOS 游戏真正用来开火、跳跃和横移的那几个键：**Y**、**X**、**CTRL**、**ALT**、**SPACE** 和 **ENT**。
+
+方向键是你用得最多的，也是你会按得最狠的：八个方向，一根拇指，不用够。
+
+## 必须大写的两个字母
+
+这段暗号是按字母实际打出来的大小写来匹配的。
+
+听着像是吹毛求疵，其实不是：你打一个小写的 *"ba"*，模拟器就老老实实照做——把 *"ba"* 打进了 DOS 提示符。你就坐在 `C:\>` 面前，屏幕上多了两个莫名其妙的字母，游戏根本没开始。
+
+所以 **B** 和 **A** 必须是大写。**Caps Lock** 不是建议。
+
+要退回去，在方向键上敲同一段暗号，然后按 **X**、**Y**。或者按手机的**返回键**——它退出 Game Mode 和退出键盘一样干脆。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-keyboard-pads-18x9.png"
+    alt="同一款 WhereQ-DOSBox 屏幕键盘在更窄的 18:9 屏幕上的样子：字母键和方向键紧贴着 DOS 屏幕，蓝色欢迎横幅下方的 C:\> 提示符还在等着。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>屏幕更窄时的按键布局——每一颗键都得挤出自己的位置。</sub>
+</p>
+
+## 每个键都能重新映射
+
+每个游戏都想把按钮放在自己顺手的地方。有的游戏用 **X** 开火，有的用 **Y**，都很常见，而且多半都不合你的手。
+
+长按那个金色的档案按钮，选 **Remap buttons…**。在手柄上按一个键，再按你更想要的那个键，替换就成了。
+
+这套映射属于这一个游戏，并且会被记住。同一个游戏下次打开还是老样子——配一次，就一直在。
+
+## 这个手柄就是键盘
+
+下面这件事是看不见的，也是我自己最满意的部分。
+
+手柄发出的 SDL 事件，和屏幕键盘发出的完全一样。运行在 DOS 里的程序分辨不出两者的差别。没有一条新的输入通路需要游戏去学，没有新的驱动，1994 年的游戏也不需要因此多一份疑心。手柄上的一个按钮就是一个按键，跟键盘上的一个键没有区别。
+
+轨迹球也是同一个道理：它发出的是相对位移的鼠标事件，和真实鼠标发的那种一样，SDL 这一层现在接受它们了。
+
+整个设计就是这样：键盘长出了第二层皮，而不是变成了另一台机器。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-starfall.jpg"
+    alt="WhereQ-DOSBox 里运行着的一个 DOS 街机游戏：蓝色星空下一艘绿色飞船和几个橙色敌人，顶部一行 SCORE、BEST 和 SHIPS 3，左边是键盘的功能键，右边是 File、Ent、Space 和方向键。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>模拟器里跑着的游戏，两侧是键盘的按键——正是那种会想要一只手柄的游戏。</sub>
+</p>
+
+## 退出应用不再崩
+
+同一版里还带了一个小修复。
+
+以前关机的过程中一旦出错，进程会被 **SIGABRT** 直接打死——偏偏是在它自己正准备退出的那一刻崩掉，这个时机很怪。现在这个错误会被接住，退出流程照常走完。
+
+这件事我不会写进标题。但一个退出时都会死掉的模拟器，会让人开始不信任它；我更希望它只是安安静静地走掉。
+
+## 存档还是读得出来
+
+**存档格式什么都没改。** Game Mode 只是换了一种按同样的键的方式，所以之前各版本写下的存档都照常读得出来。
+
+这一条比功能本身还重要。一次悄悄改掉格式的发布，会留下一批再也打不开的存档；老实做法是——格式真变了就大声改，带版本号地改。
+
+## 文档也跟上了
+
+用户手册多了一章讲手柄，技术参考多出了手柄那一节和真实的按键路径，中断表里多了一个案例：一个手指如何变成一个 DOS 按键。
+
+文档里所有用字符画出来的方框图也都换成了 SVG，边框笔直，所以无论在哪个渲染器、哪种字体里，都还是那个方框。
+
+## 拿去用
+
+发布版 APK 用发布密钥签名，可以直接覆盖安装上一版：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.15**
+
+```
+whereq-dosbox-1.0.0.15.apk
+size:   16 500 506 bytes
+sha256: dbf776abe6b69541194fa5bded5d2c807a94add4733a74ea2620b03227263f42
+```
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，要求 Android 5.0 及以上，完全离线，不需要账号，没有任何追踪。项目采用 GPL-2.0 许可，DOSBox 核心连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件头注释一起嵌入。
+
+再说一遍：**这篇文章不是文档。** 文档是仓库本身，那里的 Game Mode 章节才是真正的说明——包括你重新映射之后各个键到底做什么。请去读那份，而不是信我的一面之词。
+
+## 谢谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到此后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄壳，Game Mode 不过是那层壳上的另一层。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担——现在手柄也归它管，毕竟一路到底都是同一批事件。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*一根拇指可以同时按住一个方向、一个键和一颗球。而那款写于 1994 年的游戏，永远不需要知道这中间的差别。*

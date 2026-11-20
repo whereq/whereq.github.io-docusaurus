@@ -1,0 +1,147 @@
+---
+title: "WhereQ-DOSBox 1.0.0.16：返回键又活了"
+slug: WhereQ-DOSBox-1.0.0.16-CN
+date: 2026-11-20
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, back-button, gpl]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 那个不动的按键
+
+你在游戏里，想退出。你按返回键。
+
+什么也没发生。
+
+你又按了一下，更用力一点，像是手机能被你说服似的。什么也没发生。启动器还开着，或者手柄还开着，或者键盘还杵在屏幕上；想出这个应用，只剩厂家放在屏幕上的那个手势——长滑，得有人手把手教一遍的那种。
+
+从 Android 13 开始，这个返回键就一直是这样。从 1.0.0.9 到 1.0.0.15，每一个版本都是这样。这是我这个应用历史上最老、也最扎手的一个版本，而我好几个月都没注意到，因为我总是两只拇指捧着手机，脸贴着屏幕。
+
+这一版，返回键又活过来了。
+
+<!-- truncate -->
+
+## 到底发生了什么
+
+要出这个毛病，得两件事同时出错。
+
+Android 13 里，系统**不再把返回键送给 Activity**了。返回变成了一种*手势*，交给分发器处理，老路径——`onKeyDown()`、`onBackPressed()`——从此再也不会因为它被调用。这是故意的：系统只想要一套手势模型，不要两套。
+
+而 WhereQ-DOSBox **是个 SDL 应用**。SDL2 的 `SDLActivity` 负责处理按键事件，而且对每一个都返回 `true`，因为 SDL 就是要看到键盘。画面就是游戏本身。于是按键进了 SDL，SDL 说了声"收到"，Activity 什么也没听见。
+
+两件事凑在一起，按键被送到了、被吃掉了、然后掉在地上。从用户这边看，这和手机按键坏了没有任何区别。
+
+修法是：不要再要那个键，去要那个手势。应用向系统注册一个 `OnBackInvokedCallback`——Android 自己为这件事引入的 API——返回手势就直接到了应用手里，由应用来决定它意味着什么。
+
+有一个坑值得点出来，因为它是最容易想到的错答案。Android 文档里写了一个退出的开关：manifest 里的 `android:enableOnBackInvokedCallback="false"`，让应用退回老路径。**那不是修法。**老路径恰恰是 SDL 会吃掉按键的那条路——它把 SDL 吞掉的那个键事件又请回来了。更糟的是，到 Android 16，系统连注册过的回调也不理了，于是退出这个开关等于把**两条**路都断了。
+
+所以这个开关不能有。有一条单元测试专门去读 manifest，只要这个属性回来就让构建失败。
+
+## 按屏幕上真实的顺序退出去
+
+改这块的时候，我顺手发现顺序也是错的。
+
+返回键应该把你一级一级地退出应用，而这些东西是叠着的：游戏启动器画在键盘上面，手柄画在键盘上面，键盘面板又折在手柄下面。返回应该先关掉最上面那一个。
+
+它没有。第一次按下去折起了那个收起来的面板，手柄还站在原地——于是你得按第二次，才能从你正想离开的游戏里出来。
+
+所以现在这个决定变成了一张表，而且每台设备上的表都是同一张：
+
+```
+启动器开着？        → 关掉启动器
+手柄在屏幕上？      → 回到键盘
+键盘面板展开着？    → 折起来
+什么都没开？        → 离开应用
+```
+
+开着的东西按一次退一层，顺序就是你眼睛看到的顺序。它长得像一张表，因为它**就是**一张表——一个纯函数 `resolveBackAction()`，里面一点 Android 都没有，于是 JVM 可以测它：
+
+```
+:app:testDebugUnitTest          7 tests, 0 failures
+```
+
+而且"应用能收到返回手势"这句话说的是系统分发器，所以还有第二层测试需要真机：五个仪器测试通过系统的输入通道按下**真正的返回键**——像拇指那样按，而不是直接调 Activity——然后检查启动器确实关了、应用没被顺手退出，以及授权页面确实写着它承诺的东西。
+
+## 需要 16 KB 页的设备
+
+Android 15 改了 64 位设备上的页大小。改的不是应用**申请**的页大小，是内核用来**映射**应用的那一层。一个加载段只按 4 KB 对齐、没按 16 KB 对齐的库，在这种设备上根本加载不进去。
+
+DOSBox 是个 1990 年代的程序，链着 SDL2 和一个音乐库，它的 `.so` 是按 32 位 Android 的老规矩对齐的，此后没人再检查过。
+
+现在对齐了。`libdosbox.so` 在三个 ABI 下的每一个 `PT_LOAD` 段都按 16 KB 对齐，CI 会读它构建出来的每一个库的头部，只要有一个没对齐就让构建失败。每一次 push 都跑的检查，比只跑过一次的检查值钱。
+
+## 那个一直按着的鼠标键
+
+Game Mode 里有一个 **DRAG** 键：按住它，左键就一直是按下的状态，这样实时读鼠标的游戏能看见"键按着"，拖动也能一直拖。
+
+如果你在 DRAG 锁着的时候离开 Game Mode，那个键会**留在 DOSBox 里面**。游戏那边还在看见一个没人按着的左键——一个选不中的结束、一个停不下来的拖拽，直到你碰巧又碰了一下屏幕。
+
+现在这个锁会和按键、和其它鼠标键一起被释放：手柄离开屏幕、或者配置文件换了的时候都放。DRAG 锁是手柄的状态，不是机器的状态，它不再漏进机器里。
+
+## 授权书跟着应用一起走
+
+这一条不是 bug，是一份义务，而我之前一直拿错了方式。
+
+WhereQ-DOSBox 内嵌了 DOSBox 内核，它是 **GPLv2**。GPLv2 对**程序本身**（而不只是源码树）提了两个要求：授权书和版权声明必须跟着二进制走；每个拿到程序的人都必须能拿到完整的对应源码。
+
+第二件是做到了——源码在 GitHub 上，授权页面里也有链接。第一件没有：GPL 正文和声明在仓库里，在 `COPYING` 和 `NOTICE` 里，仅此而已。装上 APK 的用户没有任何办法读到他所受约束的那份授权。
+
+所以现在它们在应用里了。完整的 GPL v2 正文和 `NOTICE`——DOSBox 的署名、Em-DOSBox 的导入说明、SDL2 的 zlib 声明、商标声明——都打包在 APK 里，启动器的页脚就挨着版本号链过去：
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-licences.png"
+    alt="WhereQ-DOSBox 的授权页面：WhereQ-DOSBox 是自由软件，GNU General Public License 版本 2，The complete source code 以及链接 https://github.com/whereq/whereq-dosbox，下面是授权正文和声明。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>授权页面。授权书和声明是从 <b>assets</b> 里读的，所以完全不需要网络。</sub>
+</p>
+
+仓库根目录的 `NOTICE` 也补上了它一直缺的 SDL2 声明——zlib 授权要求这份声明随链接了 SDL2 的二进制一起走，而这个二进制确实链接了它。
+
+## 拿它
+
+Release APK 用发布密钥签名，所以可以直接覆盖安装上一版：
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — 标签 **v1.0.0.16**
+
+```
+whereq-dosbox-1.0.0.16.apk
+size:   16 510 058 bytes
+sha256: 183f16ee3fd219a878b56b6a08758a184370b834a0fef63b63a7aea7f4faa773
+```
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，Android 5.0 及更新，完全离线，不要账号，不做追踪。项目是 GPL-2.0，DOSBox 内核连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和每个文件的头部声明一起嵌入——从这一版起，授权书本身也在里面。
+
+**你的存档照样读得动。**存档格式一点没变。
+
+再说一遍：**这篇文章不是文档。**文档是仓库，而且是一份单一的技术参考文档，不是一堆零散笔记。请去读它，而不是只听我说。
+
+## 谢谢，DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 是由 [DOSBox Team](https://www.dosbox.com/crew.php) 写下的——一群志愿者把 1994 年的一个操作系统做成了此后世界上造出来的每台机器都能跑的东西，包括那些还没造出来的机器。他们让它活了三十年，然后送给了任何想要的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄薄的壳。原创性、手艺和慷慨全都属于他们。
+
+这个移植建立在 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)** 之上——[Boris Gjenero](https://github.com/dreamlayers) 用 Emscripten 做的 DOSBox r4305 构建，它源自 [Ismail Khatib](https://github.com/CeRiAl) 第一次尝试用 Emscripten 编译 DOSBox，也站在 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作之上。窗口、音频和触摸输入由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；本移植与 DOSBox 团队无隶属关系，也未得到其认可。
+
+---
+
+*一个不动的按键比一个没有的按键更糟，因为你就是会一直按下去。如果你装了这个应用之后，返回键一直不理你——这就是你要的那一版。*

@@ -372,6 +372,27 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-dosbox': [
       {
+        version: 'v1.0.0.16',
+        date: '2026-11-20',
+        title:
+          'The back button works again, 16 KB pages, and the licence in the app, release 1.0.0.16',
+        url: tag('whereq-dosbox', 'v1.0.0.16'),
+      },
+      {
+        version: 'v1.0.0.15',
+        date: '2026-11-20',
+        title:
+          'The Game Mode gamepad, the button remapper, and the SVG diagrams, release 1.0.0.15',
+        url: tag('whereq-dosbox', 'v1.0.0.15'),
+      },
+      {
+        version: 'v1.0.0.14',
+        date: '2026-11-19',
+        title:
+          'Three save-state repairs — the requests no longer answer each other, a duplicated handle survives a restore, and a restore no longer leaks a file descriptor, release 1.0.0.14',
+        url: tag('whereq-dosbox', 'v1.0.0.14'),
+      },
+      {
         version: 'milestone/android-migration-complete',
         date: '2026-11-18',
         title:
