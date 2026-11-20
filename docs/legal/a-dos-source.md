@@ -24,23 +24,24 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `7865e40` |
+| Source commit | `32a5008` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `10bf68e800ca69799dc5b72aa1ae0b06461fd888ae39e1b9ef88764906d13fa0` |
+| SHA-256 | `60565b521d9dcec93cc51f05ea4ad10d86145a0204a4101d28645bc3e18e7abe` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# 10bf68e800ca69799dc5b72aa1ae0b06461fd888ae39e1b9ef88764906d13fa0
+# 60565b521d9dcec93cc51f05ea4ad10d86145a0204a4101d28645bc3e18e7abe
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
 that names the version, the commit and the build. The shipped build was
-made from `649880c`; the only difference is the fix of the regression test
-in `examples/`, which is not part of the app. It holds the DOSBox core
+made from `649880c`; what came after it is the fix of the regression
+test in `examples/`, which is not part of the app, and the Game Mode
+gamepad. It holds the DOSBox core
 with its per-file copyright and licence headers intact, the Android
 application, the NDK/CMake build of the native library, the desktop Linux
 baseline, the benchmark, the dev toolchain and the build scripts.
@@ -104,9 +105,11 @@ The full text of the licence is in `COPYING`, the attribution notices are in
 
 The native port this app grew out of is public as
 [`whereq/whereq-dosbox`](https://github.com/whereq/whereq-dosbox) — the
-DOSBox core, the JNI glue and the build scripts under GPLv2. A-DOS has
-diverged from it (17 core files and the whole application layer), which is
-why the snapshot above is published separately.
+DOSBox core, the JNI glue and the build scripts under GPLv2. The emulator
+core in A-DOS is that same code with the product name changed; what sits
+on top of it is A-DOS's own application layer — the Play build — and its
+own documentation, which is why the snapshot above is published
+separately.
 
 ## Trademarks
 
