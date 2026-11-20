@@ -1,0 +1,236 @@
+---
+title: "WhereQ-DOSBox：装进口袋的 DOS 机器"
+slug: WhereQ-DOSBox-CN
+date: 2026-11-20
+tags: [dosbox, android, emulator, retro, open-source, whereq, release, save-states, game-mode, gamepad, privacy]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+手机屏幕中间那幅画面是 4:3 的，两侧各留一条黑边。那两条黑边没有浪费——键盘就长在那里。画面本身是一块蓝色的 DOS 欢迎横幅，和一个提示符：
+
+```
+C:\>
+```
+
+光标一闪一闪。它不解释自己，也不需要解释。
+
+这是一台 1994 年的机器——486、声卡、两个键的鼠标——现在一只手就能握住。我当年敲进去的那些命令还在：`cd`、`dir`、`copy`、`mount c .`。它之所以还能用，是因为它**就是**那台机器：DOSBox r4305 以原生库的形式跑在 APK 里，不在浏览器标签页里，不在 WebView 里。
+
+<!-- truncate -->
+
+## 看着它跑
+
+<div
+  style={{
+    position: 'relative',
+    width: '100%',
+    paddingBottom: '56.25%',
+    height: 0,
+    overflow: 'hidden',
+    borderRadius: 2,
+  }}
+>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/IttWMbYYQeI"
+    title="WhereQ-DOSBox running on an Android phone — a DOS game on screen, with music under it"
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      border: 0,
+    }}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
+
+<p align="center">
+  <sub>中间是 FIFA 96，两侧黑边里是两块掌机式按键，下面是 1990 世界杯主题曲。屏幕上的一切都是真正的 DOSBox 核心，以原生库的形式跑在 APK 里。</sub>
+</p>
+
+## 这台机器
+
+WhereQ-DOSBox 是 DOSBox 的**原生 Android 移植版**。核心是 SDL2 分支的 DOSBox r4305，从 [Em-DOSBox](https://github.com/dreamlayers/em-dosbox)（Boris Gjenero 的 Emscripten 版）引入，用 NDK 和 CMake 编译成 `libdosbox.so`，就装在 APK 里面。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-screenshot-phone.jpg"
+    alt="WhereQ-DOSBox 竖屏运行的样子：中间是 DOSBox 欢迎横幅和 C:\> 提示符，左右两侧各一列按键。"
+    width="760"
+  />
+</p>
+
+<p align="center">
+  <sub>欢迎横幅和 C:\> 提示符。触摸就是 DOS 鼠标，按键直接敲进 DOSBox。</sub>
+</p>
+
+它跑在 `arm64-v8a`、`armeabi-v7a` 和 `x86_64` 上——一个 APK 三种 ABI——要求 **Android 5.0** 及以上。许可证是 **GPL-2.0**：DOSBox 核心本来就是 GPLv2，这个选择没有商量余地。应用不收集任何数据，也没有申请 `INTERNET` 权限，所以它连把东西发出去的能力都没有。
+
+## 启动器与「bundle」
+
+屏幕键盘上的 **File** 按钮打开启动器。一个 bundle 是一个 `.zip` 压缩包，里面装着 DOS 软件：游戏、工具、字符界面的程序都行。叫它 bundle 而不是「游戏」，是因为它未必是游戏。
+
+三条路进去：用系统文件选择器 *Install a bundle (.zip)*；*install all bundles from a folder*，一次性装下某个文件夹里的所有 bundle；或者在文件管理器里选择 *Open with WhereQ-DOSBox*。三条路都不需要存储权限——访问权是系统选择器给的，应用只看得见你亲手选中的那个文件。
+
+bundle 会解压到 `C:\GAMES\<n>`，并生成一个 `RUN.BAT`；起点猜错了，可以用 **Start file…** 手动挑一个。文件按 DOS 的 8.3 名字存放：大写，八个字符加三个。这一点不是装饰：DOSBox 会缓存目录列表，所以名字是 DOS 写得出来的文件，在模拟器启动之后照样找得到——程序找 `RESOURCE.CFG`，它就落在 `RESOURC.CFG`，和真 DOS 上一样。
+
+## 键盘是一台掌机
+
+DOS 画面是 4:3 且居中，横屏时两侧就有黑边，按键住在那里——像掌机那样，一边一只手，画面上什么都不压。
+
+**左半边**是方向键组成的 D-pad、QWERTY 的左半，以及顶部的 **File**、**Esc**、**Tab**、**RMB**。**右半边**是 **Alt**、**Ctrl**、**Shift**、**Space**、**Enter**，QWERTY 的右半，以及顶部的 **#+=**、**Fn**、退格。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-keyboard-pads.png"
+    alt="横屏时的两块屏幕键盘：DOS 画面在中间，左边是 File、Esc、Tab 和方向键，右边是 #+=、Fn 以及 Alt、Ctrl、Shift、Space、Enter。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>画面上什么都不压。一边一只手。</sub>
+</p>
+
+字母层自带 `: . / \`，所以敲一条 DOS 路径根本不用切层。**#+=** 把两半都换成标点，**Fn** 换出 F1–F12 和其他功能键。Ctrl、Alt、Shift 两种用法都支持：点一下，它就为下一个键待命；按住，它就是个真键——另一只拇指还能继续管方向。
+
+布局跟着屏幕走：黑边宽度至少 116 dp 才有完整的两块键盘，再窄就每边只留一列键、QWERTY 折叠着藏在下面，竖屏则是一条贴着底边的窄条。字母键在 20:9 的屏幕上约 33 dp 宽，在 18:9 上约 24 dp——最窄的机器上确实挤，但 D-pad 和动作键始终保持原尺寸。
+
+## 手指就是鼠标
+
+DOS 鼠标有两个键，触摸屏只有一个。第一根手指按住多久，左键就保持多久，所以拖拽还是拖拽。**RMB** 在光标所在的位置发一次右键点击；第二根手指按在画面上，则是在那根手指自己的位置发右键。
+
+两者都是「按住」，不是「点一下」。实时读取鼠标的游戏（INT 33h AX=3 里的按键状态）会漏掉一次转瞬即逝的点击。
+
+## Game Mode：按键翻成手柄
+
+键盘显示着的时候，打开 **Caps Lock**（双击 **Shift** 也行），敲一段人人手指里都有的暗号：
+
+```
+↑ ↑ ↓ ↓ ← → ← → B A
+```
+
+按键翻面：八向 D-pad、一颗轨迹球，还有 DOS 游戏真正用来开火、跳跃和横移的 **Y**、**X**、**CTRL**、**ALT**、**SPACE** 和 **ENT**。暗号按字母实际打出的大小写匹配，所以小写的 `ba` 只会老老实实地把 `ba` 打进 DOS 提示符。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-game-mode-remap.png"
+    alt="Game Mode 下的重新映射界面：左边是八向 D-pad 和 ARROWS 按钮，右边是 Y、X、ENT、USE、JUMP、FIRE 和 Fn，可以重新映射的按键描着金边。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Game Mode 与重新映射界面。金色描边标出了可以重新映射的按键。</sub>
+</p>
+
+长按那个金色的档案按钮，选 **Remap buttons…**：重新映射属于这一个游戏，并且会被记住。方向键的输出可以在 **ARROWS**、**NUMPAD** 和 **WASD** 之间切换，按钮上写着的名字就是你当前真正拥有的那个模式。要退出 Game Mode，在方向键上敲同一段暗号、再按 **X**、**Y** 就行；手机的返回键也可以。
+
+底下是一个安静的取舍：手柄发出的 SDL 事件，和键盘发出的完全一样，程序分辨不出来。1994 年的游戏不需要学一条新的输入通路，也不会因此多一份疑心。
+
+## 存档：存下整台机器
+
+每个游戏有三个档位。**Save** 把正在运行的机器冻住——CPU、DOS 内存、显存、打开的 DOS 文件句柄、硬件定时器——**Load** 一键跳回那个瞬间。档位是手机上的一个文件，退出应用、重启手机都还在。
+
+声卡也是机器的一部分。FM 芯片被精确快照：包络、波形相位、LFO 计数器都在里面，一个音符从自己的中段继续，而不是从头开始；PC 喇叭回来时是安静的，不会自己嗡嗡响。**Resume** 恢复上一个游戏最新的那个存档，并把它的名字写在按钮上：*Resume STARFALL · slot 1 · 5 min ago*。
+
+## 把存档放到应用外面
+
+档位存在应用自己的存储里，而 Android 会在卸载时把它一起删掉。在手机上选一个文件夹——**Config → Saves folder**，或者第一次存档之后弹出来的那个邀请——之后每个档位都会镜像到那里，gzipped，和游戏文件放在一起。重新安装、换一台手机、或者不小心删掉了应用，都能找回来：游戏按名字出现在恢复列表里，存档已经躺在旁边。
+
+## 几件小事
+
+设置项今天只有一个：**CPU 核心**。默认是 `auto`——实模式程序用解释器，受保护模式程序交给重编译（JIT）核心；也可以选 `normal`、`dynamic`、`simple`、`prefetch`，而 `normal` 是给那些在重编译核心上会犯毛病的旧程序准备的退路。
+
+**许可证跟着应用走**：完整的 GPL v2 文本和 NOTICE 就在 APK 里，启动器页脚可以打开它们，旁边就是完整源码和隐私政策的入口。
+
+**返回键也管用了**。从 Android 13 起，系统不再把返回键送给应用，SDL 的窗口又吞掉了漏过来的那一点，所以这个按钮曾经什么也不做。现在应用自己处理它，而且按下的顺序是有层次的：先关启动器，再退出 Game Mode，再收起键盘面板，最后才离开应用。`libdosbox.so` 的每一个可加载段也都按 **16 KB 内存页**对齐，因此在要求这种页大小的 64 位设备（Android 15 及以后）上也能加载。
+
+## STARFALL，和一个证明声音的测试
+
+`examples/game-bundle` 里是 **STARFALL**：一个用汇编写的 16 位 DOS 街机游戏，大约 5 KB，单个 `.COM` 文件，不需要任何运行时。它同时用到三样东西：VGA 图形、BIOS 键盘缓冲、PC 喇叭——所以新手装好一个 bundle、按下 **Play**，就能看到有东西在跑，不必先去别处找一个游戏。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-starfall.jpg"
+    alt="正在运行的 STARFALL：星空下一艘绿色飞船和几个橙色敌人，顶部是 SCORE、BEST 和 SHIPS，画面两侧是按键。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>模拟器里的 STARFALL。两边的按键属于应用，不属于游戏。</sub>
+</p>
+
+`examples/opl-test-bundle` 不是一个游戏，是一个测试：它在 FM 芯片上编出一个持续的长音，然后等一个按键。精确的声音恢复就是靠它证明的——应用每次保存和每次加载都会往日志里写一行，这两行必须完全一致，相隔两分钟真实的芯片时间也一样。
+
+## 项目现在是什么样
+
+Android 迁移已经完成，仓库里有一个 tag 就是这么写的：
+
+```
+milestone/android-migration-complete
+```
+
+核心为三种 ABI 构建，应用层能用，存档能带走整台机器，声卡也在里面。接下来是**维护**：修 bug 和补文档，不再安排新功能。
+
+每一个版本的流水账——改了什么，为什么改——都写在仓库的 `downloads/README.md` 里。塑造了这个应用的几个版本，在这里都写成了故事：[装进 APK 的 DOSBox](/blog/WhereQ-DOSBox-1.0.0.7-CN)、[整台机器装进一个文件](/blog/WhereQ-DOSBox-1.0.0.8-CN)、[把键盘改造成掌机](/blog/WhereQ-DOSBox-1.0.0.9-CN)、[活过应用的存档](/blog/WhereQ-DOSBox-1.0.0.12-CN)、[给拇指一个掌机](/blog/WhereQ-DOSBox-1.0.0.15-CN)。[最初那篇公告](/blog/WhereQ-DOSBox-Announcement-CN)是这一切的起点，[用户手册](/blog/WhereQ-DOSBox-User-Guide-CN)是给手里拿着手机的人一步一步看的版本，[中断地图](/blog/WhereQ-DOSBox-Interrupts-CN)则列出了模拟器回答的每一个 INT。
+
+## 还没做完的事
+
+**所有验证都跑在模拟器上**——API 37，x86_64。没有任何一次真机 ARM64 的运行，没有真机上的性能测试，也没有在真机上检查过 JIT 那块 RWX 代码缓存。这块缓存正是真机上的风险点：如果分配被拒绝，DOSBox 会带着 *Allocating dynamic cache failed* 直接退出，而不是自动退回解释器；那台机器上的解法是设成 `core=normal`。
+
+**音频延迟**还没有调过——块大小和预缓冲仍然是 Emscripten 版本的数字。**没有 GLES2 缩放器**，画面靠的是 CPU 缩放。bundle **不能导出回去**，自带 `dosbox.conf` 的 bundle 也还跑不起来。**没有真实手柄**：代码树里没有引用任何 `SDL_CONTROLLER*`，DOSBox 用的还是老派的 `SDL_Joystick`。**没有输入法，也不支持非 ASCII 文本输入**——屏幕键盘发出的是键码，不是文字。
+
+`android:allowBackup` 仍然是一个**产品决定**：私有目录里的 DOS 文件该不该参与备份？**没有 R8/ProGuard 压缩**，这个仓库也不产出 Play Store 的 AAB。
+
+还有一些老的 DOS 程序**过不了存档恢复**这一关——比如 Ultima VIII 的扩展器——因为快照还没有把 DMA 控制器、EMS/XMS 句柄表和 PIC 事件队列装进去。这是 DOS 内部结构的限制，不是应用的问题。
+
+## 怎么拿到它
+
+👉 **[github.com/whereq/whereq-dosbox/releases](https://github.com/whereq/whereq-dosbox/releases)**
+
+```
+whereq-dosbox-1.0.0.17.apk
+size:   16 510 522 bytes (15.8 MB)
+sha256: 796203db84f31e994c45a3965fe3919b5e7a030a5ad8e45e4a9eabbed3f4ac0a
+```
+
+把 APK 复制到手机上，用文件管理器打开它，Android 问起「允许安装未知应用」时允许，安装，然后打开 **WhereQ-DOSBox**。这个 APK 用仓库的发布密钥签名，所以以后的新版本可以直接覆盖安装。
+
+给打算自己编译的人提个醒：没有发布密钥时，Gradle 会退回调试密钥，签出来的 APK 装不到发布版上面——Android 会报 `INSTALL_FAILED_UPDATE_INCOMPATIBLE`。大家下载的那个文件，是 CI 从 tag 上构建出来的那一个。
+
+## 仓库就是文档
+
+这篇文章不是手册。手册是仓库本身：[README](https://github.com/whereq/whereq-dosbox/blob/main/README.md) 讲这个应用是什么、移植改动了核心的哪些地方；[docs/TECHNICAL-REFERENCE.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md) 把整个实现写在一份文档里；[docs/USER-GUIDE.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/USER-GUIDE.md) 是给手机主人看的指南；[docs/INTERRUPTS.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md) 是中断地图；[docs/PRIVACY.md](https://github.com/whereq/whereq-dosbox/blob/main/docs/PRIVACY.md) 是隐私政策，它就放在 `COPYING` 和 `NOTICE` 旁边，它的全部来历都是公开的。
+
+项目采用 **GPL-2.0** 许可，DOSBox 核心连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件头注释一起嵌入，许可证要求什么就是什么。
+
+## 谢谢 DOSBox
+
+没有 DOSBox 项目，这一切都不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者把 1994 年的一套操作系统改造到之后世界造出的每一台机器上都能跑，包括那些当时还不存在的机器。他们让它活过了三十年，并免费交给任何想要它的人。WhereQ-DOSBox 只是建在他们工作之上的一层薄壳。原创力、手艺和慷慨完全属于他们。
+
+这个移植基于 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**——[Boris Gjenero](https://github.com/dreamlayers) 做的 DOSBox r4305 的 Emscripten 版，它又来自 [Ismail Khatib](https://github.com/CeRiAl) 最早那次用 Emscripten 编译 DOSBox 的尝试，并且踩着 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作一路往前。窗口、音频和触摸输入由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 的 SDL2 库承担。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队没有任何隶属或背书关系。
+
+---
+
+*装进口袋的 DOS 机器，说到底就是这么一件事——而它花的时间，比它应该花的久。*

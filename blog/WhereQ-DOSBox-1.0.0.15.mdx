@@ -1,5 +1,5 @@
 ---
-title: "WhereQ-DOSBox 1.0.0.15: Game Mode, a console-style gamepad for your thumb"
+title: "WhereQ-DOSBox 1.0.0.15: a console-style gamepad for your thumb"
 slug: WhereQ-DOSBox-1.0.0.15
 date: 2026-11-20
 tags: [dosbox, android, emulator, release, retro, open-source, whereq, gamepad, game-mode]
@@ -19,34 +19,36 @@ import ThemedImage from '@theme/ThemedImage';
   />
 </figure>
 
-## Your thumbs are already full
+## One thumb was never going to be enough
 
-You are holding the phone in two hands and the game wants three things at once: go left, fire, jump.
+There is a moment in every DOS game played on a phone where the game stops being a game and becomes a dexterity test.
 
-The on-screen keyboard is a good way to type `MOUNT C .` and a bad way to play that. One thumb sits on the arrow pads, the other thumb has to leave them to find the letter **B**, and for a second — a second that a game with a timer does not give you — nobody is steering.
+You are holding the phone in two hands, and the game wants three things at once: go left, fire, jump. The on-screen keyboard is a good way to type `MOUNT C .` and a bad way to play that. One thumb stays on the arrows; the other one has to leave them to find the letter **B**, and for a second — a second that a game with a timer does not give you — nobody is steering.
 
-So you choose a game you can play with one thumb, or you do not choose it at all.
+So you play the games you can finish with one thumb, and you do not play the others. A keyboard built for typing is a fine typewriter and a poor controller.
 
-1.0.0.15 gives the keyboard a second face.
+1.0.0.15 gives that keyboard a second face.
 
 <!-- truncate -->
 
 <p align="center">
   <img
     src="/img/apps/whereq-dosbox-keyboard-pads.png"
-    alt="The on-screen keyboard of WhereQ-DOSBox in landscape: letter and number pads on the left, arrow pads under them, the DOS screen in the middle with the blue welcome banner and a C:\> prompt, and the Esc, Tab, Fn, Alt, Ctrl, Shift, Space and Enter pads on the right."
+    alt="The on-screen keyboard in landscape: the DOS screen in the middle with the blue welcome banner and a C:\&gt; prompt, letter and number pads down the left with the arrow pads below, and Esc, Tab, Fn, Alt, Ctrl, Shift, Space and Enter down the right."
     width="900"
   />
 </p>
 
 <p align="center">
-  <sub>The console-style pads of the on-screen keyboard. This is the layout
-  Game Mode replaces — the picture shows the pads, not the gamepad.</sub>
+  <sub>The keyboard pads in landscape: the picture in the middle, one hand on each
+  side. This is the layout Game Mode replaces.</sub>
 </p>
 
 ## The pads turn into a gamepad
 
-Game Mode lives inside the keyboard panel. With the keyboard pads showing, switch **Caps Lock** on — double-tap **Shift** if you would rather not hunt for it — and type the code everyone already has in their fingers:
+Game Mode lives inside the keyboard panel. There is no second app to open: the phone simply grows a different set of controls in the same place.
+
+With the keyboard pads showing, switch **Caps Lock** on — double-tap **Shift** if you would rather not hunt for it — and type the code already in everybody's fingers:
 
 ```
   ↑  ↑  ↓  ↓  ←  →  ←  →  B  A
@@ -54,97 +56,118 @@ Game Mode lives inside the keyboard panel. With the keyboard pads showing, switc
 
 The pads flip. What was a QWERTY board becomes an eight-way D-pad, a trackball, and the buttons a DOS game actually fires, jumps and strafes with: **Y**, **X**, **CTRL**, **ALT**, **SPACE** and **ENT**.
 
-The direction pad is the one you will use most, and it is the one you will press hardest: eight directions, one thumb, no reaching.
+The D-pad is the part you will use most, and the part you will press hardest: eight directions under one thumb, nothing to reach for. The trackball takes the other thumb and moves the pointer like a laptop touchpad — stroke to move, tap to click.
+
+To go back, type the same code on the D-pad and then **X**, **Y** — the face buttons stand in for B and A. Or press the phone's **Back** button, which leaves Game Mode as readily as it leaves the keyboard.
 
 ## The two letters that have to be capital
 
 The code is matched on the case the letters are actually typed in.
 
-That sounds like pedantry, and it is not: type a lowercase *"ba"* and the emulator does exactly what you asked. It types *"ba"* into the DOS prompt, and you sit there at `C:\>` with two stray letters and a game that never started.
+That sounds like pedantry, and it is not. Type a lowercase *"ba"* and the emulator does exactly what you asked: it types *"ba"* into the DOS prompt, and you sit at `C:\>` with two stray letters and a game that never started.
 
-So the **B** and the **A** must be capital. **Caps Lock** is not a suggestion.
+So the **B** and the **A** must be capital. **Caps Lock** is not a suggestion — it is the first half of the spell.
 
-To go back, type the same code on the D-pad and then **X**, **Y**. Or press the phone's **Back** button, which leaves Game Mode as readily as it leaves the keyboard.
+## The D-pad speaks three dialects
 
-<p align="center">
-  <img
-    src="/img/apps/whereq-dosbox-keyboard-pads-18x9.png"
-    alt="The same on-screen keyboard of WhereQ-DOSBox on a narrower 18:9 screen: the letter pads and arrow pads squeeze against the DOS screen, and the C:\&gt; prompt is still waiting under the blue welcome banner."
-    width="900"
-  />
-</p>
+DOS games do not agree on what "up" is: some read the cursor keys, some the numeric keypad, and the ones written after the letters became a game input read **WASD**.
 
-<p align="center">
-  <sub>The pads on a narrower screen, where every key has to earn its
-  room.</sub>
-</p>
+The button under the D-pad cycles between the three, and the app remembers your choice per game:
+
+| mode | up / down / left / right | a diagonal | pick it for |
+|---|---|---|---|
+| **ARROWS** | the arrow keys ↑ ↓ ← → | two keys at once (↑ + →) | most games — anything that reads the cursor keys |
+| **NUMPAD** | the keypad 8 / 2 / 4 / 6 | a single key — 7 / 9 / 1 / 3 | keypad games, where a diagonal is a key of its own |
+| **WASD** | the letters W / A / S / D | two keys at once (W + D) | later shooters, and anything mapped to WASD |
+
+The button carries the name of the mode you actually have, so it never says *ARROWS* while the pad is sending *WASD*. And if your game ignores the D-pad, it is almost always the wrong mode — switch until it answers.
 
 ## Every button can be remapped
 
 Every game wants its buttons somewhere else. The one that shoots on **X** and the one that shoots on **Y** are both common, and both are wrong for you at least once.
 
-Long-press the gold profile button and pick **Remap buttons…**. Press a button on the gamepad, press the key you would rather have, and the swap is done.
-
-The remap belongs to that one game and is remembered. The same title always plays the same way, next time and the next — you set it once and it stays.
-
-## The gamepad is a keyboard
-
-Here is the part I am happiest about, and it is not a feature you can see.
-
-The gamepad sends the same SDL events the on-screen keyboard sends. The guest cannot tell the two apart. There is no new input path to teach a game, no new driver, no second set of keys for a 1994 title to be suspicious of. A button on the gamepad is a keystroke, exactly as a key on the keyboard is a keystroke.
-
-The trackball works the same way: it sends the relative mouse events, the kind a real mouse sends, and the SDL layer now accepts them.
-
-That is the whole design. The keyboard grew a second skin instead of becoming a new machine.
+Long-press the gold profile button and pick **Remap buttons…**. The screen enters remap mode: the buttons that can be changed are outlined in gold, you tap one, a list of keys opens, and you pick the key you would rather have.
 
 <p align="center">
   <img
-    src="/img/apps/whereq-dosbox-starfall.jpg"
-    alt="A DOS arcade game running in WhereQ-DOSBox: a blue starfield with a green ship and orange enemies, a score line reading SCORE, BEST and SHIPS 3, and the on-screen keyboard's function pads down the left and the File, Ent, Space and arrow pads down the right."
+    src="/img/apps/whereq-dosbox-game-mode-remap.png"
+    alt="The gamepad in remap mode: a banner reads Tap a button to remap beside a DONE button, the remappable buttons SHIFT, TAB, STR, ENT, USE and JUMP carry a gold outline, the gold FIRE button a dark brown one, and Y and X carry none."
     width="900"
   />
 </p>
 
 <p align="center">
-  <sub>A game running in the emulator, with the keyboard's pads at the sides —
-  the kind of game that asks for a gamepad.</sub>
+  <sub>Remap mode: the gold outline marks the buttons you can change; on the gold
+  FIRE button it has to be dark brown, or it would disappear.</sub>
+</p>
+
+The remap belongs to that one game and is remembered: the same title always plays the same way, next time and the next.
+
+## The gamepad is a keyboard
+
+Here is the part I am happiest about, and it is not a feature you can see.
+
+The gamepad pushes the same SDL key events the on-screen keyboard pushes, and they travel the same road: through the mapper, into the emulated keyboard, into the BIOS buffer, out through **INT 09h** like a real keystroke. The guest cannot tell the two apart. There is no new input path to teach a game and no new driver for a 1994 title to be suspicious of. A button on the gamepad is a keystroke, exactly as a key on the keyboard is.
+
+That is also why the gamepad asked nothing of the emulator core: it is an app-layer thing, and the core was never told.
+
+The mouse is a separate road: the trackball's motion becomes a relative mouse-motion event, the kind a real mouse sends, and the SDL layer now accepts it. The click buttons become real mouse buttons.
+
+That is the whole design. The keyboard grew a second skin instead of becoming a new machine.
+
+One thing this is not: a joystick. There is no analogue stick behind it and no joystick hardware anywhere in the app — a game that needs a real analogue axis is still a game this app cannot play.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-starfall.jpg"
+    alt="A DOS arcade game in WhereQ-DOSBox: a blue starfield with a green ship and orange enemies, a score line reading SCORE, BEST and SHIPS 3, and the keyboard's pads down the left and the File, Ent, Space and arrow pads down the right."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>STARFALL in the emulator. The pads beside it are still the keyboard ones —
+  in Game Mode they turn into the gamepad in the same place.</sub>
+</p>
+
+## Your save states still load
+
+**The save-state format did not change.** Game Mode is a new way of pressing the same keys, so every save state written by the earlier releases loads normally.
+
+This one matters more than the feature does. A release that quietly changes the format leaves a generation of slots unopenable; the honest way to change a format is to change it loudly, with a version bump.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-save-states.jpg"
+    alt="The save states panel for one game: three slots, the first reading Slot 1 - 2 hours ago with Save and Load buttons beside it, the second and third reading empty."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Three slots per game, a file on the phone behind each of them — the whole
+  machine in one file, as [1.0.0.8](/blog/WhereQ-DOSBox-1.0.0.8) put it.</sub>
 </p>
 
 ## Leaving the app is clean
 
 A smaller fix, in the same release.
 
-A shutdown that failed used to abort the process with **SIGABRT** — and it did that while it was only shutting down, which is a strange time to crash. The error is caught now and the exit carries on.
+A shutdown that failed used to abort the process with **SIGABRT** — and it did that while it was only shutting down, a strange time to crash. The error is caught now and the exit carries on.
 
 I would not put this in a headline. But an emulator that dies on the way out teaches you to distrust it, and I would rather it simply left.
 
-## Your save states still load
-
-**The save-state format did not change.** Game Mode is a new way of pressing the same keys, so every save state written by the earlier releases loads normally.
-
-This one matters more than the feature does. A release that quietly changes the format leaves a generation of slots unopenable, and the honest way to change a format is to change it loudly, with a version bump, when it really changes.
-
-## The documentation caught up
-
-The user guide gained a chapter on the gamepad, the technical reference gained the gamepad section and the real key path, and the interrupt map gained a case study of a finger that becomes a DOS keystroke.
-
-And every box-drawing diagram in the documentation is now an SVG with straight borders, so the boxes look the same in every renderer and in every font.
-
 ## Get it
 
-The release APK is signed with the release key, so it installs over the previous version in place:
+The release is on the [releases page](https://github.com/whereq/whereq-dosbox/releases) as tag **v1.0.0.15**. The APK is published as a release asset built by CI from that tag, with a `.sha256` sidecar next to it, so you can check what you downloaded.
 
-👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — tag **v1.0.0.15**
-
-```
-whereq-dosbox-1.0.0.15.apk
-size:   16 500 506 bytes
-sha256: dbf776abe6b69541194fa5bded5d2c807a94add4733a74ea2620b03227263f42
-```
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** — the source, and the whole history of it.
 
 It runs on **arm64-v8a, armeabi-v7a and x86_64** devices, Android 5.0 and newer, entirely offline, with no account and no tracking. The project is GPL-2.0, and the DOSBox core is embedded with its `AUTHORS`, `ChangeLog`, `COPYING` and per-file headers intact.
 
-Again, **this post is not the documentation.** The documentation is the repository, and the Game Mode chapter there is the real reference — including what the buttons do when you have remapped them. Please read that rather than take my word for it.
+If you are new here, the [announcement](/blog/WhereQ-DOSBox-Announcement) says what the project is, and the [user guide](/blog/WhereQ-DOSBox-User-Guide) walks through every screen of it. The [console that the keyboard became](/blog/WhereQ-DOSBox-1.0.0.9) is about the pads Game Mode replaces, and [the save that outlives the app](/blog/WhereQ-DOSBox-1.0.0.12) about the slots that still load. For the whole picture of the project, read [WhereQ-DOSBox](/blog/WhereQ-DOSBox); for what a key does inside the machine, the [interrupt map](/blog/WhereQ-DOSBox-Interrupts) has it.
+
+Again, **this post is not the documentation.** The documentation is the repository: the Game Mode chapter of the [user guide](https://github.com/whereq/whereq-dosbox/blob/main/docs/USER-GUIDE.md), the [technical reference](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md), and [the interrupt map](https://github.com/whereq/whereq-dosbox/blob/main/docs/INTERRUPTS.md). Please read those rather than take my word for it.
 
 ## Thank you, DOSBox
 
@@ -152,7 +175,7 @@ None of this is possible without the DOSBox project.
 
 **DOSBox** was written by the [DOSBox Team](https://www.dosbox.com/crew.php) — a volunteer crew who took an operating system from 1994 and made it runnable on every machine the world has produced since, including the ones that did not exist yet. They kept it alive for three decades and gave it away to anyone who wanted it. WhereQ-DOSBox is a thin layer on top of their work, and Game Mode is a thin layer on top of that. The originality, the craft and the generosity are entirely theirs.
 
-This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input — and now the gamepad too, since it is the same events all the way down.
+This port is built on **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)**, the Emscripten build of DOSBox r4305 by [Boris Gjenero](https://github.com/dreamlayers), which grew out of [Ismail Khatib's](https://github.com/CeRiAl) first attempt to compile DOSBox with Emscripten, and rode on the Emscripten work of [Alon Zakai](https://github.com/kripken/). The SDL2 library by [Sam Lantinga](https://github.com/libsdl-org/SDL) carries the window, the audio and the touch input — and now the gamepad too.
 
 **DOSBox is a trademark of the DOSBox project**; this port is not affiliated with or endorsed by the DOSBox team.
 
