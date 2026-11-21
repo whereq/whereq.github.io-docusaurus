@@ -270,11 +270,139 @@ import ThemedImage from '@theme/ThemedImage';
 
 切换之后，那个键会亮着。
 
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-22-keyboard-symbols.png"
+    alt="标点层：右上角的 #+= 键亮成蓝色并显示 abc，两块键盘区显示的不再是字母，而是标点。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub><b>#+=</b> 标点层——标点占的就是字母的位置。</sub>
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-23-keyboard-functions.png"
+    alt="功能层：Fn 键亮成蓝色，左半边是 F1 到 F12，右半边是 Ins、Home、PgUp、Del、End、PgDn、Caps、PrtSc 和 Pause。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub><b>Fn</b> 功能层——整排 F 键和编辑键，一个字母键都不用让出来。</sub>
+</p>
+
 **修饰键有两种用法。** *点一下* Ctrl、Alt 或 Shift，它会保持按下状态等你按下一个键——先 Ctrl 再 C。*按住*它，它的表现就和一个真正的键一样：手指按着多久它就保持多久，游戏里那些开火键、侧移键正是这么用的，另一只拇指同时操控方向。
 
 **鼠标就是屏幕本身。** 你的手指就是鼠标：拖动是移动指针，点一下是点击，屏幕上的 **RMB** 键（左边那块，紧挨 **Tab**）是鼠标右键——在大多数 DOS 游戏里那代表*取消*或*返回*。在画面上**按住第二根手指**也是同一个意思，而且是在那根手指自己的位置上。
 
 把手机转成竖屏，两块键盘区会折成底部的一条，适合画面高比宽大的游戏。
+
+---
+
+## Game Mode —— 一台掌机手柄
+
+有些游戏要的是手柄，不是打字机。**Game Mode** 把两块键盘区换成一台游戏台式的手柄：八向方向键、一颗轨迹球，外加 DOS 游戏真正用来开火、跳跃和横移的那几个键。
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-24-game-mode-hybrid.png"
+    alt="Hybrid 档案下的 Game Mode：左边是八向 D-pad 和下面的 ARROWS 按钮，右边是 L-CLICK、R-CLICK 两个鼠标键、轨迹球、SPACE 和 ENT。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Game Mode。字母键盘没了，换成 D-pad 和轨迹球，还是占着原来那两条黑边。</sub>
+</p>
+
+**进出都要一点老派仪式感。** 键盘显示着的时候，先打开 **Caps Lock**——双击 **Shift**，那个键会亮成蓝色并写着 *CAPS*——然后在键盘上敲那段 **Konami 暗号**：**↑ ↑ ↓ ↓ ← → ← → B A**，两块键盘区就翻成了 Game Mode。那个 **B** 和 **A** 必须是*大写*：暗号按字母实际打出来的大小写来匹配，小写的 "ba" 只会老老实实地把 "ba" 打进 DOS 提示符。要退出来，就在手柄上再敲一遍同一段暗号：方向键上的 **↑ ↑ ↓ ↓ ← → ← →**，然后按 **X**、**Y**（这两个面部键替 B 和 A 上场）。手机的**返回键**同样能把你带回键盘。
+
+左上角那个金色按钮写着当前的**档案**；点一下轮换，长按打开选择器。每个游戏都记住你上次和它一起用的那一个档案，以及方向键的输出模式。
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-27-game-mode-profile-picker.png"
+    alt="档案选择器：Hybrid、Action 和 Point & click 三个档案，下面还有 Remap buttons... 这一项。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>长按那个金色的档案按钮，选择器就弹出来——三个档案，以及进入映射页面的入口。</sub>
+</p>
+
+| 档案 | 左拇指 | 右拇指 | 适合 |
+|---|---|---|---|
+| **Hybrid**（默认） | 八向 D-pad | 轨迹球 | 键和鼠标混着来的游戏——Dune II、X-COM、配鼠标的 Doom |
+| **Action** | 八向 D-pad | FIRE / JUMP / USE / ENT 几个键 | 键盘街机和射击游戏——Wolf3D、Keen、Prince of Persia |
+| **Point** | 大大的 LEFT / RIGHT 鼠标键 | 轨迹球 | 纯鼠标游戏——Monkey Island、Civilization、Lemmings |
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-25-game-mode-action.png"
+    alt="Action 档案下的 Game Mode：左边是八向 D-pad，还有 SHIFT、TAB、ESC、ARROWS 和 TURBO；右边是 Y、X、STR、ENT、USE、JUMP、金色的 FIRE 按钮、Fn 和数字 1 到 9。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub><b>Action</b> 档案：FIRE、JUMP、USE 和 ENT，给那些用键盘开火和跳跃的游戏。</sub>
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-26-game-mode-point.png"
+    alt="Point & click 档案下的 Game Mode：左边是大大的 LEFT 和 RIGHT 鼠标键，右边是轨迹球、SPACE 和 ENT。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub><b>Point &amp; click</b> 档案：鼠标键占满左半边，轨迹球占右半边。</sub>
+</p>
+
+**轨迹球**移动指针的方式像笔记本触控板——划一下动一点，**轻点就是点击**——而不是一下子跳到你按下去的地方。在 Hybrid 里，按住 **L-CLICK**（左肩键）同时滚轨迹球，就是框选。
+
+### 方向键有三种方言
+
+DOS 游戏对「上」这个方向各说各话。D-pad 下面的 **ARROWS** 按钮轮换手柄到底发什么，应用会按游戏记住你选的那一种：
+
+| 模式 | 上 / 下 / 左 / 右 | 斜向（比如上右） | 适合 |
+|---|---|---|---|
+| **ARROWS** | 方向键 ↑ ↓ ← → | **同时按两个键**（↑ + →） | 大多数游戏——凡是读方向键的 |
+| **NUMPAD** | 数字小键盘 8 / 2 / 4 / 6 | **单个键**——7 / 9 / 1 / 3 | 按小键盘做的游戏，斜向自成一个键（很多 roguelike 和小键盘映射的游戏） |
+| **WASD** | 字母 W / A / S / D | **同时按两个键**（W + D） | 后来的射击游戏，以及一切绑定了 WASD 的游戏 |
+
+所以差别有两层：*按哪些键*，以及*斜向怎么发*——ARROWS 和 WASD 是把相邻的两个键一起按下去，NUMPAD 则八个方向各有各的键。游戏完全不理方向键的话，八成是模式不对：用 ARROWS 按钮一路换到它有反应为止。
+
+### 重新映射一个按键
+
+有时候游戏要的键手柄上没有——用 **F** 开火、用 **SPACE** 跳跃、拿**数字小键盘**射击。任何 Game Mode 按键都能改教它发别的键，而且应用会按游戏记住。
+
+**长按那个金色的档案按钮**（左上角，写着档案名字的那个），选 **Remap buttons…**。屏幕进入*映射模式*：顶部一条横幅写着 *"Tap a button to remap"*，可以改的按键镀着金色描边。**点其中一个**，会弹出一串按键，挑你想要的。**DONE**（或者那条横幅）就退出映射模式。
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-28-game-mode-remap.png"
+    alt="Action 档案下的映射模式：顶部横幅写着 Tap a button to remap，旁边是 DONE 按钮；可以重新映射的 SHIFT、TAB、STR、ENT、USE 和 JUMP 带着金色描边，金色的 FIRE 按钮带着深褐色描边，Y 和 X 没有描边。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>映射模式：金色描边标出了可以改的按键；金色的 FIRE 按钮上得用深褐色描边，否则就看不见了。</sub>
+</p>
+
+| 可以改 | 不能改 |
+|---|---|
+| **CTRL、ALT、SHIFT、TAB、STR ◂、STR ▸、SPACE、ENT、USE、JUMP** 和 **FIRE** | **X** 和 **Y** 两个按钮（它们要回答游戏的 *Quit? (Y/N)* 提问，也要响应 Konami 暗号）、**ESC**、D-pad、轨迹球、鼠标键，以及功能键（**ARROWS**、**Fn**、**1–9**、**TURBO**、**SPEED**、**DRAG**、**DBL**） |
+
+改过的按键会显示新键名，而不是原来的名字——**FIRE** 保留自己的名字，新键显示在它下面。列表里的第一项 **Reset to default** 可以还原。
+
+重新映射按游戏保存，而且覆盖所有档案：不管你用哪个档案玩，这个游戏都记得每个键该发什么。
 
 ---
 
