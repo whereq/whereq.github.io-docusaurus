@@ -24,25 +24,24 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `8746a77` |
+| Source commit | `886a50c` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `46aa5e38026dbd480117821c384ca41fde1b58bccbfe9b46654672a24f24d8e7` |
+| SHA-256 | `90ed6a52cbbb0cac591d7edb12f1dec26fd2bcc2a3ab3db8358e0af98a963f57` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# 46aa5e38026dbd480117821c384ca41fde1b58bccbfe9b46654672a24f24d8e7
+# 90ed6a52cbbb0cac591d7edb12f1dec26fd2bcc2a3ab3db8358e0af98a963f57
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
 that names the version, the commit and the build. The shipped build was
-made from `649880c`; what came after it is the fix of the regression
-test in `examples/`, which is not part of the app, and the Game Mode
-gamepad with the release notes that describe it. It holds the DOSBox core
-with its per-file copyright and licence headers intact, the Android
+made from `886a50c` — the commit the snapshot above is taken from, so the
+archive is the exact source of the binary. It holds the DOSBox core with
+its per-file copyright and licence headers intact, the Android
 application, the NDK/CMake build of the native library, the desktop Linux
 baseline, the benchmark, the dev toolchain and the build scripts.
 
