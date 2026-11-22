@@ -145,6 +145,7 @@ async function createConfig(): Promise<Config> {
             position: 'left',
             label: 'Docs',
           },
+          { to: '/atlas', label: 'Atlas', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/blog/tags', label: 'Tags', position: 'left' },
           { to: '/blog/archive', label: 'Archive', position: 'left' },

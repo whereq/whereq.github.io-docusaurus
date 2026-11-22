@@ -1,0 +1,905 @@
+/*
+ * WhereQ Atlas — the wiki of the WhereQ Universe.
+ *
+ * House rules, applied throughout:
+ *   · MetroUI, radius xs = 2px. No pill shapes, ever.
+ *   · Amber (--ifm-color-primary) is the accent; the app's own accent
+ *     colour is the second voice.
+ *   · Every colour comes from a --ifm-* token, so light and dark both work.
+ */
+
+/* ── Shell ─────────────────────────────────────────────────── */
+.shell {
+  display: grid;
+  grid-template-columns: 236px minmax(0, 1fr) 196px;
+  gap: 2.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  align-items: start;
+}
+
+/* ── Left rail — the wiki's page tree ──────────────────────── */
+.rail {
+  position: sticky;
+  top: 76px;
+  min-width: 0;
+}
+
+.railInner {
+  border-left: 2px solid color-mix(in srgb, var(--ifm-color-primary) 22%, transparent);
+  padding-left: 0.85rem;
+}
+
+.railBrand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  margin-bottom: 0.2rem;
+}
+
+.railBrandMark {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ifm-color-primary);
+}
+
+.railBrandName {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+}
+
+.railBlurb {
+  font-size: 0.72rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
+.railSection {
+  margin-bottom: 1rem;
+}
+
+.railGroupTitle {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0 0 0.3rem;
+}
+
+.railList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.railLink {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  padding: 3px 6px;
+  border-radius: 2px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.railLink:hover {
+  color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, transparent);
+}
+
+.railLinkActive {
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600;
+  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
+  box-shadow: inset 2px 0 0 var(--ifm-color-primary);
+}
+
+.railLogo {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.railLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Article column ────────────────────────────────────────── */
+.article {
+  min-width: 0;
+}
+
+/* ── Right rail — "On this page" ───────────────────────────── */
+.tocRail {
+  position: sticky;
+  top: 76px;
+  min-width: 0;
+}
+
+.tocTitle {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0 0 0.6rem;
+}
+
+.tocList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 2px solid color-mix(in srgb, var(--ifm-color-primary) 18%, transparent);
+}
+
+.tocItem {
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  padding: 4px 0 4px 0.7rem;
+  transition: color 0.15s ease;
+}
+
+.tocItem:hover {
+  color: var(--ifm-color-primary);
+}
+
+.tocItemActive {
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600;
+  border-left: 2px solid var(--ifm-color-primary);
+  margin-left: -2px;
+}
+
+/* The mobile "On this page" — a disclosure, so the article keeps the
+   top of the screen on a phone. */
+.tocDisclosure {
+  display: none;
+  margin-bottom: 1.75rem;
+  border: 1px solid var(--ifm-hr-border-color);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+}
+
+.tocDisclosure > summary {
+  cursor: pointer;
+  padding: 0.55rem 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-emphasis-700);
+  list-style: none;
+}
+
+.tocDisclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.tocDisclosure > summary::before {
+  content: '▸ ';
+  color: var(--ifm-color-primary);
+}
+
+.tocDisclosure[open] > summary::before {
+  content: '▾ ';
+}
+
+.tocDisclosure .tocList {
+  border-left: none;
+  border-top: 1px solid var(--ifm-hr-border-color);
+  padding: 0.5rem 0.85rem;
+}
+
+/* ── Hero — the Atlas landing ──────────────────────────────── */
+.hero {
+  margin-bottom: 2.75rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.5rem;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.6rem;
+  line-height: 1.1;
+}
+
+.heroSubtitle {
+  font-size: 1.02rem;
+  color: var(--ifm-font-color-base);
+  line-height: 1.7;
+  max-width: 66ch;
+  margin: 0;
+}
+
+.heroMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+/* ── Stats strip ───────────────────────────────────────────── */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.25rem;
+  margin: 1.75rem 0 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.stat dt {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.stat dd {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.statMeta {
+  font-size: 0.76rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ── The six questions ─────────────────────────────────────── */
+/* Three columns, so the six cards land as two even rows of three
+   rather than five and a leftover. */
+.questions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 2.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.question {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-top: 2px solid var(--ifm-color-primary);
+  border-radius: 2px;
+  padding: 0.7rem 0.8rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.questionMark {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.2rem;
+}
+
+.questionText {
+  display: block;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.45rem;
+}
+
+.questionLink {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.questionLink:hover {
+  text-decoration: underline !important;
+}
+
+/* ── Sections ──────────────────────────────────────────────── */
+.section {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 76px;
+}
+
+.sectionTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+}
+
+.para {
+  font-size: 0.94rem;
+  line-height: 1.75;
+  color: var(--ifm-font-color-base);
+  margin: 0 0 0.9rem;
+}
+
+.para:last-child {
+  margin-bottom: 0;
+}
+
+.bullets {
+  margin: 0 0 0.9rem;
+  padding-left: 1.15rem;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--ifm-font-color-base);
+}
+
+.bullets li {
+  margin-bottom: 0.4rem;
+}
+
+.bullets li::marker {
+  color: var(--ifm-color-primary);
+}
+
+/* ── Table ─────────────────────────────────────────────────── */
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid var(--ifm-table-border-color);
+  border-radius: 2px;
+  margin-bottom: 0.9rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.87rem;
+}
+
+.tableWrap thead tr {
+  background-color: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+}
+
+.tableWrap thead th {
+  text-align: left;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-primary);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--ifm-table-border-color);
+  white-space: nowrap;
+}
+
+.tableWrap tbody tr {
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
+
+.tableWrap tbody tr:last-child {
+  border-bottom: none;
+}
+
+.tableWrap tbody tr:nth-child(2n) {
+  background-color: var(--ifm-table-stripe-background);
+}
+
+.tableWrap tbody td {
+  padding: 0.55rem 0.75rem;
+  vertical-align: top;
+  color: var(--ifm-font-color-base);
+}
+
+.tableWrap tbody td:first-child {
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  white-space: nowrap;
+}
+
+/* ── Links block ───────────────────────────────────────────── */
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* ── Buttons ───────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 5px 13px;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-primary);
+  background: transparent;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+}
+
+.btnPrimary {
+  background: var(--ifm-color-primary);
+  color: #161b22;
+}
+
+.btnPrimary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #161b22;
+}
+
+.btnGhost {
+  border-color: var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-emphasis-700);
+}
+
+.btnGhost:hover {
+  background: color-mix(in srgb, var(--ifm-color-emphasis-700) 12%, transparent);
+  color: var(--ifm-heading-color);
+}
+
+/* ── Chips / badges ────────────────────────────────────────── */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-emphasis-700);
+  background: transparent;
+}
+
+.chipAccent {
+  border-color: color-mix(in srgb, var(--ifm-color-primary) 55%, transparent);
+  color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+}
+
+/* ── App page header ───────────────────────────────────────── */
+.appHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.appMark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  /* A light plate behind every logo, so a dark brand mark still reads
+     against the dark theme — and a light brand mark still reads in
+     light mode. */
+  background: #f1f3f5;
+}
+
+.appMark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.appHeaderMain {
+  min-width: 0;
+  flex: 1;
+}
+
+.appName {
+  font-size: 2.05rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.15rem;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.appRole {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.4rem;
+}
+
+.appTagline {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+.appActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* ── Infobox ───────────────────────────────────────────────── */
+.infobox {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  margin-bottom: 2.25rem;
+  overflow: hidden;
+}
+
+.infoboxTitle {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ifm-heading-color);
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+  padding: 0.6rem 0.9rem;
+  margin: 0;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.infoboxBody {
+  display: grid;
+  grid-template-columns: 128px minmax(0, 1fr);
+  font-size: 0.86rem;
+}
+
+.infoboxRow {
+  display: contents;
+}
+
+.infoboxTerm {
+  padding: 0.55rem 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+  background: color-mix(in srgb, var(--ifm-color-emphasis-700) 5%, transparent);
+}
+
+.infoboxDesc {
+  padding: 0.55rem 0.9rem;
+  color: var(--ifm-font-color-base);
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+  line-height: 1.6;
+}
+
+.infoboxRow:last-child .infoboxTerm,
+.infoboxRow:last-child .infoboxDesc {
+  border-bottom: none;
+}
+
+.infoboxDesc ul {
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+.infoboxDesc li {
+  margin-bottom: 0.3rem;
+  line-height: 1.55;
+}
+
+.infoboxDesc li::marker {
+  color: var(--ifm-color-primary);
+}
+
+.infoboxLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* ── Group directory (index page) ──────────────────────────── */
+.group {
+  margin-bottom: 2.75rem;
+  scroll-margin-top: 76px;
+}
+
+.groupHead {
+  margin-bottom: 1.1rem;
+}
+
+.groupTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.groupCount {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-600);
+  letter-spacing: 0.04em;
+}
+
+.groupBlurb {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border: 1px solid var(--ifm-hr-border-color);
+  border-left: 3px solid var(--card-accent, var(--ifm-color-primary));
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  padding: 0.95rem 1rem;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-emphasis-400);
+  border-left-color: var(--card-accent, var(--ifm-color-primary));
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cardMark {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: #f1f3f5;
+  overflow: hidden;
+}
+
+.cardMark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.cardName {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  line-height: 1.3;
+}
+
+.cardName:hover {
+  color: var(--ifm-color-primary);
+}
+
+.cardRole {
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-primary);
+  margin-top: 0.15rem;
+}
+
+.cardText {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+  flex: 1;
+}
+
+.cardFoot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+/* ── Footer note ───────────────────────────────────────────── */
+.pageFooter {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--ifm-hr-border-color);
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.65;
+}
+
+/* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 1200px) {
+  .shell {
+    grid-template-columns: 224px minmax(0, 1fr);
+  }
+
+  /* The right rail folds into a disclosure above the article. */
+  .tocRail {
+    display: none;
+  }
+
+  .tocDisclosure {
+    display: block;
+  }
+}
+
+@media (max-width: 996px) {
+  .questions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    padding: 1.75rem 1.25rem 3rem;
+  }
+
+  /* The page tree becomes a horizontal strip of chips, so it stays one
+     line tall on a phone instead of pushing the article down. */
+  .rail {
+    position: static;
+  }
+
+  .railInner {
+    border-left: none;
+    border-top: 2px solid color-mix(in srgb, var(--ifm-color-primary) 22%, transparent);
+    padding-left: 0;
+    padding-top: 0.75rem;
+    display: flex;
+    gap: 0.4rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  .railBrand,
+  .railBlurb,
+  .railGroupTitle {
+    display: none;
+  }
+
+  .railSection,
+  .railList {
+    display: contents;
+  }
+
+  .railLink {
+    flex: 0 0 auto;
+    border: 1px solid var(--ifm-hr-border-color);
+    padding: 3px 9px;
+    background: var(--ifm-background-surface-color);
+  }
+
+  .railLinkActive {
+    border-color: var(--ifm-color-primary);
+    box-shadow: none;
+  }
+
+  .railLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .shell {
+    padding: 1.25rem 1rem 2.5rem;
+  }
+
+  .heroTitle {
+    font-size: 1.95rem;
+  }
+
+  .appName {
+    font-size: 1.6rem;
+  }
+
+  .appHeader {
+    gap: 0.8rem;
+  }
+
+  .appMark {
+    width: 48px;
+    height: 48px;
+  }
+
+  .stats {
+    gap: 1.25rem;
+  }
+
+  .infoboxBody {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .infoboxTerm {
+    padding-bottom: 0.2rem;
+    border-bottom: none;
+    background: transparent;
+  }
+
+  .infoboxDesc {
+    padding-top: 0.15rem;
+  }
+
+  .cardGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .questions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
