@@ -89,6 +89,19 @@ WhereQ-DOSBox 是 DOSBox 的**原生 Android 移植版**。核心是 SDL2 分支
 
 bundle 会解压到 `C:\GAMES\<n>`，并生成一个 `RUN.BAT`；起点猜错了，可以用 **Start file…** 手动挑一个。文件按 DOS 的 8.3 名字存放：大写，八个字符加三个。这一点不是装饰：DOSBox 会缓存目录列表，所以名字是 DOS 写得出来的文件，在模拟器启动之后照样找得到——程序找 `RESOURCE.CFG`，它就落在 `RESOURC.CFG`，和真 DOS 上一样。
 
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-launcher.png"
+    alt="WhereQ-DOSBox 的启动器：Files 面板，上方是 Install a bundle (.zip) 和 Install all bundles from a folder 两个按钮，页脚是许可证和隐私政策的入口。"
+    width="760"
+  />
+</p>
+
+<p align="center">
+  <sub>启动器。两个入口，页脚是许可证和隐私政策。</sub>
+</p>
+
 ## 键盘是一台掌机
 
 DOS 画面是 4:3 且居中，横屏时两侧就有黑边，按键住在那里——像掌机那样，一边一只手，画面上什么都不压。
@@ -171,6 +184,19 @@ DOS 鼠标有两个键，触摸屏只有一个。第一根手指按住多久，�
 
 **许可证跟着应用走**：完整的 GPL v2 文本和 NOTICE 就在 APK 里，启动器页脚可以打开它们，旁边就是完整源码和隐私政策的入口。
 
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-licences.png"
+    alt="应用内的许可证页面：WhereQ-DOSBox 是自由软件，采用 GNU General Public License version 2，并给出完整源码的链接。"
+    width="760"
+  />
+</p>
+
+<p align="center">
+  <sub>APK 里的许可证页。GPL v2 全文、NOTICE 和源码链接，全都在本地。</sub>
+</p>
+
 **返回键也管用了**。从 Android 13 起，系统不再把返回键送给应用，SDL 的窗口又吞掉了漏过来的那一点，所以这个按钮曾经什么也不做。现在应用自己处理它，而且按下的顺序是有层次的：先关启动器，再退出 Game Mode，再收起键盘面板，最后才离开应用。`libdosbox.so` 的每一个可加载段也都按 **16 KB 内存页**对齐，因此在要求这种页大小的 64 位设备（Android 15 及以后）上也能加载。
 
 ## STARFALL，和一个证明声音的测试
@@ -187,6 +213,19 @@ DOS 鼠标有两个键，触摸屏只有一个。第一根手指按住多久，�
 
 <p align="center">
   <sub>模拟器里的 STARFALL。两边的按键属于应用，不属于游戏。</sub>
+</p>
+
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-opl-test.png"
+    alt="DOSBox 里运行 OPL 测试的画面：文字屏上写着 OPL test: one sustained tone on the FM chip. Save a state, wait, load it - the tone must not restart."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>正在跑的 OPL 测试。它在 FM 芯片上拉着一个长音，好让精确的声音快照可以被证明。</sub>
 </p>
 
 `examples/opl-test-bundle` 不是一个游戏，是一个测试：它在 FM 芯片上编出一个持续的长音，然后等一个按键。精确的声音恢复就是靠它证明的——应用每次保存和每次加载都会往日志里写一行，这两行必须完全一致，相隔两分钟真实的芯片时间也一样。

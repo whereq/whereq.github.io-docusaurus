@@ -90,6 +90,20 @@ The **File** button opens the launcher. A bundle is a `.zip` of DOS software —
 
 A bundle unpacks into `C:\GAMES\<n>` with a generated `RUN.BAT`; **Start file…** picks the entry point by hand when the guess is wrong. Files are stored under their DOS 8.3 names — upper case, eight characters plus three. That is not decoration: DOSBox caches the drive listing, so a file whose name DOS can spell is still found after the emulator started, and a program asking for `RESOURCE.CFG` ends up at `RESOURC.CFG`, as on a real DOS.
 
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-launcher.png"
+    alt="The WhereQ-DOSBox launcher: the Files panel with an Install a bundle (.zip) button and an Install all bundles from a folder button, and the licence and privacy policy links in the footer."
+    width="760"
+  />
+</p>
+
+<p align="center">
+  <sub>The launcher. Two ways in, and the licence and the privacy policy in the
+  footer.</sub>
+</p>
+
 ## The keyboard is a console
 
 The DOS picture is 4:3 and centred, so in landscape the keys live in the black bars beside it, one hand on each side, the way a handheld console is built. The **left pad** holds the arrow keys as a D-pad, the left half of a split QWERTY, and **File**, **Esc**, **Tab**, **RMB** along the top. The **right pad** holds **Alt**, **Ctrl**, **Shift**, **Space**, **Enter**, the right half of the QWERTY, and **#+=**, **Fn**, Backspace.
@@ -171,6 +185,20 @@ There is exactly one setting today: the **CPU core**. `auto` is the default — 
 
 The **licence travels with the app**: the full GPL v2 text and the NOTICE are inside the APK, and the launcher's footer opens them, next to the source and the privacy policy.
 
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-licences.png"
+    alt="The licence screen inside the app: WhereQ-DOSBox is free software, the GNU General Public License version 2, and the link to the complete source code."
+    width="760"
+  />
+</p>
+
+<p align="center">
+  <sub>The licence screen, inside the APK. The GPL v2 text, the NOTICE and the
+  link to the source, all offline.</sub>
+</p>
+
 The **Back button works**. From Android 13 on the system stopped sending the back key to the app, and SDL's surface swallowed what did arrive, so the button did nothing at all. The app handles it itself now, and the presses walk out in order: the launcher, then Game Mode, then the keyboard panel, then the app. And every loadable segment of `libdosbox.so` is aligned for **16 KB memory pages**, so the library loads on the 64-bit devices that require them — Android 15 and newer.
 
 ## STARFALL, and a test that proves the sound
@@ -187,6 +215,20 @@ The **Back button works**. From Android 13 on the system stopped sending the bac
 
 <p align="center">
   <sub>STARFALL in the emulator. The keys are the app's, not the game's.</sub>
+</p>
+
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-opl-test.png"
+    alt="The OPL test bundle running in DOSBox: the text screen reports OPL test: one sustained tone on the FM chip. Save a state, wait, load it - the tone must not restart."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The OPL test, running. It holds one tone on the FM chip so that the exact
+  sound snapshot can be proved.</sub>
 </p>
 
 `examples/opl-test-bundle` is a test, not a game: it programs one sustained tone on the FM chip and waits for a key. That is how the exact sound restore is proved — the app writes one line to the log on every save and on every load, and the two have to be identical, two minutes of live chip time apart.
