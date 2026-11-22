@@ -300,6 +300,23 @@ import ThemedImage from '@theme/ThemedImage';
 
 把手机转成竖屏，两块键盘区会折成底部的一条，适合画面高比宽大的游戏。
 
+**布局跟着屏幕走。** 4:3 的 DOS 画面两侧的黑边，至少要有 116 dp 才放得下一整块手柄区。窄一点的横屏手机仍然放得下——18:9 的黑边有 137 dp——但字母键被挤到大约 24 dp 宽，而 20:9 的屏幕上是 33 dp。十字键和动作键保持原尺寸，挤小的只有字母；**#+=** 和 **Fn** 两层同样如此。
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-29-keyboard-18x9-letters.png"
+    alt="18:9 屏幕下的字母层：DOS 画面两侧还是同样两块手柄区，但字母键明显更小，画面占的比例更大。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>同一套布局在 18:9 屏幕上。手柄区照样放得下，但字母键紧了——大约 24 dp 宽，
+  而 20:9 的屏幕上是 33 dp。</sub>
+</p>
+
+黑边一旦窄到 116 dp 以下，两块手柄区就退回到每边一列键，整个 QWERTY 从底部折叠起来；窄到 56 dp 以下，就只剩得下一条贴着底边的窄条。
+
 ---
 
 ## Game Mode —— 一台掌机手柄
