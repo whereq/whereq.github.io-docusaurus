@@ -125,6 +125,32 @@ The letter layer already carries `: . / \`, so a DOS path needs no layer switch.
 
 The layout follows the screen: a letterbox bar of at least 116 dp gets the full pads, a narrower one a single column per side and the fold-up QWERTY, portrait a slim strip along the bottom. The letter keys come to about 33 dp wide on a 20:9 screen and 24 dp on an 18:9 one.
 
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-keyboard-columns.png"
+    alt="The keyboard when the letterbox bar is too narrow for the two pads: a single column of keys on each side of the DOS picture — File, the keyboard icon, Esc, Tab, RMB and the arrow keys on the left, and the symbol key, Bks, Alt, Ctrl, Shift, Space and Enter on the right."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Below 116 dp the pads become one column of keys per side. The keyboard
+  icon in the left column folds the whole QWERTY up from the bottom.</sub>
+</p>
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-keyboard-columns-qwerty.png"
+    alt="The same columns layout with the full QWERTY folded up from the bottom: Esc and F1 to F6 on the top row, the digits on the second, the whole alphabet in the middle, and Shift, Ctrl, Alt, Space and the arrows along the bottom, with the keyboard icon lit blue on the left."
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The QWERTY folded up out of the way, over the picture. The same key puts
+  it away again.</sub>
+</p>
+
 ## The finger is the mouse
 
 A DOS mouse has two buttons and a touchscreen has one. The first finger holds the **left** button as long as it is down, so a drag drags. **RMB** sends a right click where the cursor stands, and a second finger does the same at its own position. Both are *held*, not tapped: a game that reads the mouse live — the button state at INT 33h AX=3 — misses an instantaneous click.

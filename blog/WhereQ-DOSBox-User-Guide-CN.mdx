@@ -315,7 +315,35 @@ import ThemedImage from '@theme/ThemedImage';
   而 20:9 的屏幕上是 33 dp。</sub>
 </p>
 
-黑边一旦窄到 116 dp 以下，两块手柄区就退回到每边一列键，整个 QWERTY 从底部折叠起来；窄到 56 dp 以下，就只剩得下一条贴着底边的窄条。
+**黑边窄到 116 dp 以下，两块手柄区就变成单列。** 116 dp 以下，画面旁边已经放不下一整块键盘，于是手柄区变成每边一列键——左边是方向键，右边是动作键——整个 QWERTY 则在需要时从底部折叠起来。
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-30-keyboard-columns.png"
+    alt="单列布局：DOS 画面两侧各一列键——左边是 File、键盘图标、Esc、Tab、RMB 和方向键，右边是符号键、Bks、Alt、Ctrl、Shift、Space 和 Enter。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>单列布局——每边一列键，DOS 画面仍然占着中间。</sub>
+</p>
+
+左边那列的 **⌨** 键会把 QWERTY 拉出来：从底部升起来，盖住画面的一部分；再按一次同样的键，它就收回去。
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/whereq/whereq-dosbox/main/docs/screenshots/android-n8-30b-keyboard-columns-qwerty.png"
+    alt="单列布局把整个 QWERTY 从底部折叠起来：最上面一排是 Esc 和 F1 到 F6，第二排是数字，中间是整个字母区，底部是 Shift、Ctrl、Alt、Space 和方向键，左边的键盘图标亮着蓝色。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>同一套布局，QWERTY 从底部折叠起来的样子。键盘图标亮着，再按一次就收起来。</sub>
+</p>
+
+黑边窄到 56 dp 以下，连这也放不下了，键盘就只剩一条贴着屏幕底边的窄条。
 
 ---
 
