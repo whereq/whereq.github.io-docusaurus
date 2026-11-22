@@ -308,7 +308,18 @@ export const PROPRIETARY_APPS: AppCategory[] = [
     url: 'https://whereq.ca',
     logo: '/img/apps/whereq-ca.png',
     accent: '#22d3ee',
-    announcements: [],
+    announcements: [
+      {
+        title: 'whereq.ca: the @whereq/react demo, live in your browser',
+        url: '/blog/WhereQ-CA-React-Demo',
+        date: '2026-11-22',
+      },
+      {
+        title: 'whereq.ca：@whereq/react 的实时演示，在你的浏览器里跑起来',
+        url: '/blog/WhereQ-CA-React-Demo-CN',
+        date: '2026-11-22',
+      },
+    ],
   },
 ];
 

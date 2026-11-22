@@ -1,0 +1,199 @@
+---
+title: "whereq.ca: the @whereq/react demo, live in your browser"
+slug: WhereQ-CA-React-Demo
+date: 2026-11-22
+tags: [whereq, whereq-ca, whereq-lab, react, component-library, design-system, open-source]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="whereq.ca — the WhereQ Lab"
+    sources={{
+      light: '/img/apps/whereq-ca-logo.png',
+      dark: '/img/apps/whereq-ca-logo-transparent.png',
+    }}
+    width="220"
+  />
+</figure>
+
+## A library you cannot trust from a README
+
+A component library is easy to publish and easy to ignore.
+
+The README shows a picture of a button. The demo page shows a page somebody built *to look like* the library, with the real component never loaded. The actual code sits in somebody's app, behind a build step, where you cannot see it — so the one thing you want to check, *does this thing work when it is really installed?*, is the one thing nobody checks.
+
+That is the gap this page closes.
+
+**whereq.ca now has a live demo of @whereq/react — and a playground to try it in.**
+
+The WhereQ Lab is built from one shared React component library. It lives on npm as `@whereq/react`, and the Lab now runs it in full: open `/react` and the real components from the published package render in front of you — not a screenshot of one, and not a story about one.
+
+<!-- truncate -->
+
+If the demo breaks, the package is broken. That is the whole point of it.
+
+## 🧭 A page with a rail, a stage and a manual
+
+Six primitives sit in the rail on the left: SearchBox, Tag, Toast, Avatar, Scrollbar and CountryFlag. Click one and the middle of the page becomes the live demo of that component, with the example code right underneath it. The column on the right documents the package, the install line, and what the component you just opened actually does.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-overview.jpg"
+    alt="The @whereq/react demo page in the WhereQ Lab — a narrow icon rail on the left, the live SearchBox demo and its code sample in the middle, and the documentation column on the right"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The demo page as it lands: the primitive rail, the live workspace, and the
+  documentation column that lists what each primitive does.</sub>
+</p>
+
+## ⌨️ SearchBox — the control behind the WhereQ search fields
+
+Type into it and the suggestion list opens under the field. The arrow keys move through it, Enter picks, Escape closes — and the demo tells you what you picked. The map's address field is the same combobox.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-searchbox.jpg"
+    alt="The SearchBox demo with its suggestion list open under the field"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Type and the list opens; the arrow keys walk it, Enter picks, Escape
+  closes it.</sub>
+</p>
+
+## 🏷️ Tag, in four variants and two sizes
+
+One inline chip for every label, badge and status pill. The chip's colours come from the app's own theme variables, so a tag looks native wherever the library is used.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-tag.jpg"
+    alt="The Tag demo showing four variants and two sizes of the inline chip"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Four variants, two sizes — one chip for every label in the universe.</sub>
+</p>
+
+## 🔔 Toast, with a small imperative API
+
+notify, success, warning, error — the stack appears in the corner of the window and fades on its own. Hover a toast to hold it open.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-toast.jpg"
+    alt="The Toast demo with the notification stack showing in the bottom-right corner"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The toast stack, in the corner, fading on its own unless you hover it.</sub>
+</p>
+
+## 👤 Avatar, with an initials fallback
+
+Initials or an image, in a circle, a rounded square or a square, with an optional presence dot. No picture means initials — never a hole in the layout.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-avatar.jpg"
+    alt="The Avatar demo showing circle, rounded and square shapes, a presence dot and an initials fallback"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Shapes, a presence dot, and initials whenever there is no picture.</sub>
+</p>
+
+## ↕️ Scrollbar, demonstrating itself
+
+A thin, themeable scroll container. The primitive list on the right of the page scrolls with it: the library showing its own work.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-scrollbar.jpg"
+    alt="The Scrollbar demo showing a scrollable list of rows inside the library's own scroll container"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The library's own scroll container, styling the browser's scrollbar
+  rather than replacing it.</sub>
+</p>
+
+## 🚩 CountryFlag, drawn as inline SVG
+
+Country flags from a small built-in registry — no image request, no flag CDN, nothing to block on. Each one is labelled with its country code: CA, CN, USA, UK, RU, FR, DE, EU.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-countryflag.jpg"
+    alt="The CountryFlag demo showing eight inline-SVG flags labelled CA, CN, USA, UK, RU, FR, DE and EU"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>Eight flags, drawn as inline SVG, labelled with their country code.</sub>
+</p>
+
+## 🧪 And the Lab is the playground
+
+The Map, Math Academy, Physics, Chemistry and the API Explorer all run in the browser, all free, all on your own machine — nothing to install, nothing to sign up for. The design system now sits next to them in the same list, so you can see what the apps are made of and then try the parts yourself.
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-lab-hub.jpg"
+    alt="The WhereQ Lab hub — a grid of thirteen experiment tiles including Map, Math, Physics, Chemistry, API Explorer and WhereQ React"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>The Lab hub: thirteen experiments, and the design system now sits in the
+  same list as the rest of them.</sub>
+</p>
+
+## 📦 Open source, on npm and on GitHub
+
+`yarn add @whereq/react` — six primitives, no runtime dependencies of their own (React is a peer), and the same package the Lab's own search box and tag chips are built from.
+
+The repository is **[github.com/whereq/whereq-react](https://github.com/whereq/whereq-react)**, MIT-licensed, and the package is on **[npm](https://www.npmjs.com/package/@whereq/react)**. It has its own docs site, its own Storybook, and a zero-build demo you can open as a single HTML file.
+
+## 🔧 And the United Kingdom flag renders again
+
+The registry keyed it under `"uk"` while the demo asked for `"gb"`, so the chip came back empty. `"gb"` is the key now, `"uk"` stays as an alias, and an unknown country draws a neutral emblem instead of an empty box.
+
+That one is worth writing down, because it is the kind of defect this page exists to catch: the flag was not broken in the demo, it was broken *in the package*, and it had been broken in the package the whole time. Nothing about a screenshot would ever have shown it.
+
+## Credits
+
+This one rests on a few other people's work, and it should say so.
+
+**[@whereq/react](https://github.com/whereq/whereq-react)** is MIT-licensed and © WhereQ. Its `Scrollbar` was extracted from [whereq.cc](https://whereq.cc), the privacy-first photo gallery, where it was first written to style the browser's native scrollbar instead of replacing it. The `Toast`, `Tag`, `Avatar`, `SearchBox` and `CountryFlag` primitives were written for the WhereQ apps and then given away.
+
+**[React](https://react.dev)** is a peer dependency and nothing more — the library ships no runtime dependencies of its own.
+
+**The Lab** — the map, the maths bench, the physics lab, the chemistry bench, the API explorer — is where all of this gets used first, which is why the playground and the library ship together.
+
+---
+
+Open the demo and click through the six primitives:
+
+→ https://www.whereq.ca/react
+→ https://www.whereq.ca/lab
+→ https://www.npmjs.com/package/@whereq/react
+→ https://github.com/whereq/whereq-react

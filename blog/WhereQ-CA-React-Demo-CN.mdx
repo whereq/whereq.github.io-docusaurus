@@ -1,0 +1,195 @@
+---
+title: "whereq.ca：@whereq/react 的实时演示，在你的浏览器里跑起来"
+slug: WhereQ-CA-React-Demo-CN
+date: 2026-11-22
+tags: [whereq, whereq-ca, whereq-lab, react, 组件库, 设计系统, 开源]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="whereq.ca —— WhereQ 实验室"
+    sources={{
+      light: '/img/apps/whereq-ca-logo.png',
+      dark: '/img/apps/whereq-ca-logo-transparent.png',
+    }}
+    width="220"
+  />
+</figure>
+
+## 一份 README 说服不了谁
+
+组件库这东西，发出去很容易，被真正用起来却很难。
+
+README 里放一张按钮的截图。demo 页面往往是为了**看起来像**这个库而专门做的一页，真正的组件根本没被加载过。真正的代码躺在某个应用的构建步骤后面，你看不见 —— 于是最该回答的那个问题，*这东西真装上去以后到底能不能用？*，反而从来没人回答。
+
+这一页要补的就是这个缺口。
+
+**whereq.ca 现在有了 @whereq/react 的实时演示 —— 也多了一个可以上手试的游乐场。**
+
+WhereQ 实验室就建在这套共享的 React 组件库之上。它在 npm 上的名字是 `@whereq/react`，而现在实验室把它整个跑了起来：打开 `/react`，已发布包里的真实组件就渲染在你面前 —— 不是截图，也不是关于它的介绍。
+
+<!-- truncate -->
+
+演示要是坏了，就是包坏了。这正是这一页存在的意义。
+
+## 🧭 一个有导轨、有舞台、有说明书的页面
+
+左侧导轨里排着六个基础组件：SearchBox、Tag、Toast、Avatar、Scrollbar 和 CountryFlag。点其中一个，页面中间就变成那个组件的实时演示，正下方就是它的示例代码。右边那一栏说明这个包、给出安装命令，也讲清楚你刚打开的这个组件到底做什么。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-overview.jpg"
+    alt="@whereq/react 演示页：左边一条窄窄的图标导轨，中间是 SearchBox 的实时演示和示例代码，右边是文档栏"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>演示页刚打开时的样子：组件导轨、实时工作区，以及说明每个组件做事的文档栏。</sub>
+</p>
+
+## ⌨️ SearchBox —— WhereQ 那些搜索框背后的那个控件
+
+输入，候选列表就在输入框下方展开。方向键移动，回车选中，Esc 关闭，演示还会告诉你你选中了什么。地图里的地址输入框，用的就是同一个组合框。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-searchbox.jpg"
+    alt="SearchBox 演示，候选列表在输入框下方展开"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>一输入列表就展开；方向键在里走，回车选中，Esc 关闭。</sub>
+</p>
+
+## 🏷️ Tag，四种变体，两种尺寸
+
+所有的标签、徽章、状态胶囊，一个行内标签就够了。标签的颜色取自应用自己的主题变量，所以无论这个库用在哪里，标签看起来都是原生的。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-tag.jpg"
+    alt="Tag 演示，展示行内标签的四种变体和两种尺寸"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>四种变体、两种尺寸 —— 整个宇宙里的标签，都是这一枚小芯片。</sub>
+</p>
+
+## 🔔 Toast，配一套极简的命令式 API
+
+notify、success、warning、error —— 通知堆出现在窗口的角落，会自己淡出；把鼠标停在通知上，它就留在那里。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-toast.jpg"
+    alt="Toast 演示，通知堆出现在右下角"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>通知堆就在角落里，自己淡出 —— 除非你把鼠标停在上面。</sub>
+</p>
+
+## 👤 Avatar，没有图片也有样子
+
+首字母或图片，可圆形、圆角方形、正方形，还能带一个在线状态点。没有图片就显示首字母 —— 界面上永远不会留下一个空洞。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-avatar.jpg"
+    alt="Avatar 演示，展示圆形、圆角方形和正方形三种形状、在线状态点，以及首字母兜底"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>三种形状、一个状态点，还有没有图片时的首字母兜底。</sub>
+</p>
+
+## ↕️ Scrollbar，拿自己给自己演示
+
+一个纤细、可换主题的滚动容器。页面右侧的组件列表就是用它滚动的：库在展示自己的本事。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-scrollbar.jpg"
+    alt="Scrollbar 演示，展示库自己的滚动容器里一段可滚动的行列表"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>库自己的滚动容器 —— 它给浏览器原生滚动条上样式，而不是把滚动条换掉。</sub>
+</p>
+
+## 🚩 CountryFlag，内联 SVG 画出来
+
+国家旗帜来自一个内置的小型注册表 —— 没有图片请求，没有旗帜 CDN，没有需要等待的东西。每个都标着国家代码：CA、CN、USA、UK、RU、FR、DE、EU。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-react-countryflag.jpg"
+    alt="CountryFlag 演示，八面以内联 SVG 绘制的国旗，分别标着 CA、CN、USA、UK、RU、FR、DE、EU"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>八面旗，全是内联 SVG，各自标着国家代码。</sub>
+</p>
+
+## 🧪 而且实验室本身就是游乐场
+
+地图、数学学院、物理、化学和 API 浏览器，全部跑在浏览器里，全部免费，全部在你自己的机器上运行 —— 不用安装，不用注册。设计系统现在就在同一份清单里、就摆在它们旁边，所以你既能看清这些应用是用什么搭出来的，也能自己上手试一试每一个零件。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-ca-lab-hub.jpg"
+    alt="WhereQ 实验室首页 —— 十三个实验卡片组成的网格，其中有地图、数学、物理、化学、API 浏览器和 WhereQ React"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>实验室首页：十三个实验，设计系统现在和它们排在同一份清单里。</sub>
+</p>
+
+## 📦 开源，在 npm 上，也在 GitHub 上
+
+`yarn add @whereq/react` —— 六个基础组件，自己不带任何运行时依赖（React 是 peer），实验室自己的搜索框和标签芯片用的就是这个包。
+
+仓库在 **[github.com/whereq/whereq-react](https://github.com/whereq/whereq-react)**，MIT 许可；包发在 **[npm](https://www.npmjs.com/package/@whereq/react)** 上。它有自己的文档站、自己的 Storybook，还有一个零构建的单文件 demo，下载下来直接用浏览器打开就行。
+
+## 🔧 而且英国国旗又回来了
+
+注册表把英国登记在 `"uk"` 名下，而演示请求的是 `"gb"`，所以那个小格子一直是空的。现在 `"gb"` 才是注册表的键，`"uk"` 保留为别名；查不到的国家也会画一个中性的徽记，而不是一个空盒子。
+
+这一条值得单独写下来，因为它是这一页存在的意义所对应的缺陷类型：出问题的不是演示，是**包** —— 而且这个毛病在包里一直都在。截图永远不可能让你看出这一点。
+
+## 致谢
+
+这东西站在别人的劳动成果上，得说清楚。
+
+**[@whereq/react](https://github.com/whereq/whereq-react)** 是 MIT 许可，© WhereQ。它的 `Scrollbar` 最初是从 [whereq.cc](https://whereq.cc)（那个注重隐私的照片橱窗）里抽出来的 —— 当初写它，是为了让浏览器原生的滚动条变得好看，而不是把滚动条换掉。`Toast`、`Tag`、`Avatar`、`SearchBox` 和 `CountryFlag` 都是先为 WhereQ 自己的应用写的，后来才交了出来。
+
+**[React](https://react.dev)** 是一个 peer 依赖，仅此而已 —— 这个库自己不附带任何运行时依赖。
+
+**实验室** —— 地图、数学工作台、物理实验室、化学工作台、API 浏览器 —— 是这一切最先被用起来的地方，所以游乐场和组件库是一起发布的。
+
+---
+
+打开演示，把六个组件挨个点一遍：
+
+→ https://www.whereq.ca/react
+→ https://www.whereq.ca/lab
+→ https://www.npmjs.com/package/@whereq/react
+→ https://github.com/whereq/whereq-react
