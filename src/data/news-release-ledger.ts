@@ -969,6 +969,174 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-ca': [
       {
+        version: 'v1.12.0',
+        date: '2026-11-22',
+        title:
+          'The flag row in the WhereQ React demo is now a row of country codes, with Russia in place of Japan.',
+        // The note was filled in after the release and lives on `dev` until
+        // the next release merges it into `main`.
+        url: doc('whereq.ca', 'docs/releases/v1.12.0-flag-row-2026-11-22.md', 'dev'),
+      },
+      {
+        version: 'v1.11.0',
+        date: '2026-11-22',
+        title:
+          'The United Kingdom flag shows up again in the WhereQ React demo, and every flag carries its short code.',
+        url: doc('whereq.ca', 'docs/releases/v1.11.0-flag-codes-2026-11-22.md'),
+      },
+      {
+        version: 'v1.10.0',
+        date: '2026-11-22',
+        title:
+          'A shape inside a group can now be picked and deleted on its own, and the WhereQ React demo finally has room for its code.',
+        url: doc('whereq.ca', 'docs/releases/v1.10.0-group-shapes-2026-11-22.md'),
+      },
+      {
+        version: 'v1.9.8',
+        date: '2026-11-21',
+        title: 'Undo now takes back a grouping and an ungrouping as well as a deletion.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.8-group-undo-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.7',
+        date: '2026-11-21',
+        title: 'A shape you deleted on the map can now be put back — by button or with Ctrl+Z.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.7-map-undo-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.6',
+        date: '2026-11-21',
+        title:
+          'The map’s tool bar does what its buttons say, and every one of them tells you what it will do.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.6-map-toolbar-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.5',
+        date: '2026-11-21',
+        title:
+          'The map can now hand its drawn polygons and polylines to a JSON file, and draw them again from one.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.5-shape-geojson-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.4',
+        date: '2026-11-21',
+        title:
+          'The Lab and the app chrome now wear the WhereQ universe’s MetroUI look, and every corner in the application sits on the same 2px radius.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.4-metroui-radius-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.3',
+        date: '2026-11-21',
+        title:
+          'The Lab hub now speaks the WhereQ universe’s visual language — a composed masthead instead of a paragraph — and a new demo page puts the open-source @whereq/react library on show.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.3-lab-universe-redesign-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.2',
+        date: '2026-11-21',
+        title:
+          'The /map search box is now the shared @whereq/react component, so it is written once for the whole whereq universe instead of once per app.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.2-shared-search-box-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.1',
+        date: '2026-11-21',
+        title:
+          'The /map search field now spans the full width of the tool panel, aligned edge-to-edge with the toolbar below it.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.1-search-field-width-2026-11-21.md'),
+      },
+      {
+        version: 'v1.9.0',
+        date: '2026-11-21',
+        title:
+          'The `/map` search bar now looks like the one on whereq.com — one clean field with a magnifier, a clear button and a proper dropdown.',
+        url: doc('whereq.ca', 'docs/releases/v1.9.0-map-search-redesign-2026-11-21.md'),
+      },
+      {
+        version: 'v1.8.8',
+        date: '2026-11-21',
+        title:
+          'When the map cannot start, the app now says so instead of showing an empty grey box.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.8-map-loading-notice-2026-11-21.md'),
+      },
+      {
+        version: 'v1.8.7',
+        date: '2026-11-20',
+        title:
+          'Two real defects in the map: a search that resolved but never moved the map, and a settings panel that did not sit where it belonged.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.7-camera-and-panel-2026-11-20.md'),
+      },
+      {
+        version: 'v1.8.6',
+        date: '2026-11-20',
+        title:
+          'Following v1.8.5: the fix for the settings table was partly undone by this project’s own documentation. Now it cannot happen again.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.6-tailwind-sources-2026-11-20.md'),
+      },
+      {
+        version: 'v1.8.5',
+        date: '2026-11-20',
+        title:
+          'The map’s settings table was rendering as one long stack of labels and values instead of four columns. Here is why, and what it looks like now.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.5-settings-layout-2026-11-20.md'),
+      },
+      {
+        version: 'v1.8.4',
+        date: '2026-11-20',
+        title:
+          'The map used to ask every visitor for their own Google Maps key before it would load anything. Now the deployment carries its own key and map ID, and the map just works. Your own key still wins if you set one.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.4-map-defaults-2026-11-20.md'),
+      },
+      {
+        version: 'v1.8.3',
+        date: '2026-11-20',
+        title:
+          'The v1.7.0 notes said something that turned out not to be true. This is the correction.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.3-note-correction-2026-11-20.md'),
+      },
+      {
+        version: 'v1.8.2',
+        date: '2026-11-19',
+        title:
+          'The map’s markers now use Google’s current element API, so the console stops warning about them.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.2-marker-events-2026-11-19.md'),
+      },
+      {
+        version: 'v1.8.1',
+        date: '2026-11-19',
+        title:
+          'One map implementation instead of two, and the leftovers it was keeping alive are gone.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.1-clean-up-2026-11-19.md'),
+      },
+      {
+        version: 'v1.8.0',
+        date: '2026-11-19',
+        title:
+          'The map search now shows its suggestions again — the list Google used to draw for us stopped being drawn, so we draw it ourselves.',
+        url: doc('whereq.ca', 'docs/releases/v1.8.0-places-autocomplete-2026-11-19.md'),
+      },
+      {
+        version: 'v1.7.0',
+        date: '2026-11-19',
+        title:
+          'The `/map` feature now actually loads Google Maps with the key you saved — and the map finally draws its imagery instead of an empty grey box.',
+        url: doc('whereq.ca', 'docs/releases/v1.7.0-map-credentials-2026-11-19.md'),
+      },
+      {
+        version: 'v1.6.0',
+        date: '2026-11-19',
+        title:
+          'The `/map` drawing tools are back — rebuilt on Google’s native maps API, with a safety net so a map tool can never take down the site again.',
+        url: doc('whereq.ca', 'docs/releases/v1.6.0-native-map-drawing-2026-11-19.md'),
+      },
+      {
+        version: 'v1.5.0',
+        date: '2026-11-19',
+        title:
+          'A dependency leap, a new planet in the galaxy, and a rewritten About page.',
+        url: doc('whereq.ca', 'docs/releases/v1.5.0-quantum-leap-2026-11-19.md'),
+      },
+      {
         version: 'v1.4.1',
         date: '2026-11-12',
         title: 'Clean up',
