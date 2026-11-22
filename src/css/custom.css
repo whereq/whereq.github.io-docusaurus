@@ -119,13 +119,23 @@ footer.footer {
   height: 60px;
   padding: 0 1.5rem;
   border-bottom: 1px solid rgba(245, 166, 35, 0.15);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /*
+   * No backdrop-filter here.
+   *
+   * `backdrop-filter` (like `filter`) makes the element a containing block
+   * for its fixed-position descendants. Docusaurus renders the mobile menu
+   * drawer (`.navbar-sidebar`) and its backdrop *inside* the navbar, so the
+   * blur would trap them inside the 60px navbar box: the drawer would be
+   * 59px tall instead of full-height, its items would collapse to
+   * `calc(100% - 60px)` = -1px, and the menu links would be invisible on
+   * every phone. The bar is opaque instead.
+   */
+  background-color: var(--ifm-navbar-background-color);
   box-shadow: 0 1px 16px rgba(0, 0, 0, 0.4);
 }
 
 [data-theme='dark'] .navbar {
-  background-color: rgba(10, 14, 26, 0.95);
+  background-color: #0a0e1a;
 }
 
 .navbar__brand {

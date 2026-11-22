@@ -64,7 +64,7 @@ function HeroBanner() {
           <Link className="button button--primary button--lg" to="/blog">
             Read the Blog
           </Link>
-          <Link className="button button--secondary button--lg" to="/about" style={{ marginLeft: '1rem' }}>
+          <Link className="button button--secondary button--lg" to="/about">
             About Me
           </Link>
         </div>
