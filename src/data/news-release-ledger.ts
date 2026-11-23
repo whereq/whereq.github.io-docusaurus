@@ -969,13 +969,25 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-ca': [
       {
+        version: 'v1.13.1',
+        date: '2026-11-22',
+        title:
+          'The CountryFlag description now counts the countries instead of calling the registry small.',
+        url: doc('whereq.ca', 'docs/releases/v1.13.1-flag-blurb-2026-11-22.md'),
+      },
+      {
+        version: 'v1.13.0',
+        date: '2026-11-22',
+        title:
+          'The flag row in the WhereQ React demo grows from eight countries to twenty-four, and the library behind it now draws sixty-five.',
+        url: doc('whereq.ca', 'docs/releases/v1.13.0-more-flags-2026-11-22.md'),
+      },
+      {
         version: 'v1.12.0',
         date: '2026-11-22',
         title:
           'The flag row in the WhereQ React demo is now a row of country codes, with Russia in place of Japan.',
-        // The note was filled in after the release and lives on `dev` until
-        // the next release merges it into `main`.
-        url: doc('whereq.ca', 'docs/releases/v1.12.0-flag-row-2026-11-22.md', 'dev'),
+        url: doc('whereq.ca', 'docs/releases/v1.12.0-flag-row-2026-11-22.md'),
       },
       {
         version: 'v1.11.0',
