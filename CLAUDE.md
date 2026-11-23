@@ -62,6 +62,7 @@ Architecture:
 - Application ids match `src/data/news.ts` wherever the app appears there, so the two cannot drift.
 - **A DOS game page carries four things the other pages do not**: the `facts` rows (author, publisher, published, platform, genre, entry point, bundle), the `notice` band (the licence — study and communication only, taken down on request), the download link to `/downloads/dos-games/<slug>.zip`, and the `comments` thread the collection switches on. The bundles are copied unchanged from `~/git/dos/games/`; the SHA-256 on the page is the upstream one, so a copy can be checked.
 - **The setup on a game page is tested, not remembered.** The launch script a game needs (`REKO3` for 三国志英杰传, the default `MK` for 真人快打), the keys that start it (`F1` for 真人快打) and the screens behind them were all read off an emulator running WhereQ-DOSBox. If a step is not known to work, it does not go on the page.
+- **The nav panel's scrollbar is `@whereq/react`'s**, not a hand-rolled one. `AtlasShell` uses the library's `Scrollbar` component — it carries the class, the `--wq-sb-*` variables and the stylesheet — and renders the library's `scrollbarCss` in the page under the library's own style id (so the component finds it and injects no second copy). That puts the scrollbar in the server HTML, so there is no flash. The `<nav>` stays the sticky grid item (`.railNav`); the `Scrollbar` inside it is the scroll container (`.rail`). The site-wide amber scrollbar in `custom.css` skips any `.wq-scrollbar` element so the two do not fight.
 
 ## Architecture notes
 

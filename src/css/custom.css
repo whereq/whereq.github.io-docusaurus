@@ -474,21 +474,27 @@ footer.footer {
 }
 
 /* ── Scrollbar ────────────────────────────────────────────── */
-[data-theme='dark'] ::-webkit-scrollbar {
+/*
+ * The site-wide amber scrollbar. It deliberately skips any element that
+ * carries the `wq-scrollbar` class, so the Atlas nav panel can use the
+ * scrollbar from `@whereq/react` instead — that one brings its own width,
+ * radius and colours, and a blanket rule here would override them.
+ */
+[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 
-[data-theme='dark'] ::-webkit-scrollbar-track {
+[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar-track {
   background: #0d1117;
 }
 
-[data-theme='dark'] ::-webkit-scrollbar-thumb {
+[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar-thumb {
   background: rgba(245, 166, 35, 0.3);
   border-radius: 3px;
 }
 
-[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar-thumb:hover {
   background: rgba(245, 166, 35, 0.5);
 }
 

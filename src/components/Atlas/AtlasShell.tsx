@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
+import {Scrollbar, scrollbarCss} from '@whereq/react';
 import {ATLAS_COLLECTIONS} from '../../data/atlas';
 import {collectionPath, entriesInGroup, monogram} from './atlas-utils';
 import styles from './atlas.module.css';
@@ -91,80 +92,90 @@ export default function AtlasShell({
 
   return (
     <Layout title={title} description={description}>
+      {/*
+       * The `@whereq/react` scrollbar stylesheet, rendered here so it is in
+       * the server HTML — no flash of the browser's default scrollbar before
+       * hydration. The id is the library's own, so the component finds this
+       * tag and does not inject a second copy.
+       */}
+      <style id="wq-scrollbar-styles">{scrollbarCss}</style>
       <div className={styles.shell}>
         {/* ── The page tree ───────────────────────────────────── */}
-        <nav className={styles.rail} aria-label="Atlas navigation">
-          <div className={styles.railInner}>
-            <Link to="/atlas/" className={styles.railBrand}>
-              <span className={styles.railBrandMark}>WhereQ</span>
-              <span className={styles.railBrandName}>Atlas</span>
-            </Link>
-            <p className={styles.railBlurb}>
-              A wiki of the WhereQ Universe and the craft behind it.
-            </p>
+        <nav className={styles.railNav} aria-label="Atlas navigation">
+          {/* The nav panel's scrollbar is the one from `@whereq/react`. */}
+          <Scrollbar className={styles.rail} axis="vertical">
+            <div className={styles.railInner}>
+              <Link to="/atlas/" className={styles.railBrand}>
+                <span className={styles.railBrandMark}>WhereQ</span>
+                <span className={styles.railBrandName}>Atlas</span>
+              </Link>
+              <p className={styles.railBlurb}>
+                A wiki of the WhereQ Universe and the craft behind it.
+              </p>
 
-            <div className={styles.railSection}>
-              <ul className={styles.railList}>
-                <li>
-                  <Link
-                    to="/atlas/"
-                    className={`${styles.railLink} ${
-                      !activeCollectionId ? styles.railLinkActive : ''
-                    }`}>
-                    <span className={styles.railLabel}>Overview</span>
-                  </Link>
-                </li>
-              </ul>
+              <div className={styles.railSection}>
+                <ul className={styles.railList}>
+                  <li>
+                    <Link
+                      to="/atlas/"
+                      className={`${styles.railLink} ${
+                        !activeCollectionId ? styles.railLinkActive : ''
+                      }`}>
+                      <span className={styles.railLabel}>Overview</span>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              {ATLAS_COLLECTIONS.map((collection) => {
+                const collectionActive = activeCollectionId === collection.id;
+
+                return (
+                  <div className={styles.railCollection} key={collection.id}>
+                    <Link
+                      to={collectionPath(collection.id)}
+                      className={`${styles.railCollectionLink} ${
+                        collectionActive ? styles.railLinkActive : ''
+                      }`}>
+                      {collection.short}
+                    </Link>
+
+                    {collection.kind === 'entries' &&
+                      collection.groups.map((group) => (
+                        <div className={styles.railGroup} key={group.id}>
+                          <p className={styles.railGroupTitle}>{group.title}</p>
+                          <ul className={styles.railList}>
+                            {entriesInGroup(collection.id, group.id).map((entry) => (
+                              <li key={entry.id}>
+                                <Link
+                                  to={`/atlas/${collection.id}/${entry.id}/`}
+                                  className={`${styles.railLink} ${
+                                    activeEntryId === entry.id
+                                      ? styles.railLinkActive
+                                      : ''
+                                  }`}>
+                                  {entry.logo ? (
+                                    <img className={styles.railLogo} src={entry.logo} alt="" />
+                                  ) : (
+                                    <span
+                                      className={styles.railMonogram}
+                                      style={{color: entry.accent}}
+                                      aria-hidden="true">
+                                      {monogram(entry.name)}
+                                    </span>
+                                  )}
+                                  <span className={styles.railLabel}>{entry.name}</span>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                  </div>
+                );
+              })}
             </div>
-
-            {ATLAS_COLLECTIONS.map((collection) => {
-              const collectionActive = activeCollectionId === collection.id;
-
-              return (
-                <div className={styles.railCollection} key={collection.id}>
-                  <Link
-                    to={collectionPath(collection.id)}
-                    className={`${styles.railCollectionLink} ${
-                      collectionActive ? styles.railLinkActive : ''
-                    }`}>
-                    {collection.short}
-                  </Link>
-
-                  {collection.kind === 'entries' &&
-                    collection.groups.map((group) => (
-                      <div className={styles.railGroup} key={group.id}>
-                        <p className={styles.railGroupTitle}>{group.title}</p>
-                        <ul className={styles.railList}>
-                          {entriesInGroup(collection.id, group.id).map((entry) => (
-                            <li key={entry.id}>
-                              <Link
-                                to={`/atlas/${collection.id}/${entry.id}/`}
-                                className={`${styles.railLink} ${
-                                  activeEntryId === entry.id
-                                    ? styles.railLinkActive
-                                    : ''
-                                }`}>
-                                {entry.logo ? (
-                                  <img className={styles.railLogo} src={entry.logo} alt="" />
-                                ) : (
-                                  <span
-                                    className={styles.railMonogram}
-                                    style={{color: entry.accent}}
-                                    aria-hidden="true">
-                                    {monogram(entry.name)}
-                                  </span>
-                                )}
-                                <span className={styles.railLabel}>{entry.name}</span>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                </div>
-              );
-            })}
-          </div>
+          </Scrollbar>
         </nav>
 
         {/* ── The article ─────────────────────────────────────── */}

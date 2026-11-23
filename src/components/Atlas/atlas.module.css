@@ -20,20 +20,31 @@
 }
 
 /* ── Left rail — the wiki's page tree ──────────────────────── */
-.rail {
+/*
+ * The nav panel is the sticky grid item. The tree inside it is taller than
+ * a screen once there is more than one collection, so the tree scrolls
+ * inside itself. Without a height cap, a sticky element that is too tall
+ * pins its top and its bottom is unreachable.
+ */
+.railNav {
   position: sticky;
   top: 76px;
   min-width: 0;
-  /*
-   * The tree is taller than a screen once there is more than one
-   * collection, so it scrolls inside itself. Without this, a sticky
-   * element that is too tall pins its top and its bottom is
-   * unreachable.
-   */
   max-height: calc(100vh - 92px);
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+ * The scroll container. Its scrollbar is the one from `@whereq/react` — the
+ * `Scrollbar` component brings the class, the `--wq-sb-*` variables and the
+ * stylesheet, so the width, the radius and the colours all come from the
+ * library rather than from here.
+ */
+.rail {
+  flex: 1 1 auto;
+  min-height: 0;
   overscroll-behavior: contain;
-  scrollbar-width: thin;
 }
 
 .railInner {
@@ -1248,10 +1259,14 @@
 
   /* The page tree becomes a horizontal strip of chips, so it stays one
      line tall on a phone instead of pushing the article down. */
-  .rail {
+  .railNav {
     position: static;
     max-height: none;
-    overflow-y: visible;
+    display: block;
+  }
+
+  .rail {
+    flex: none;
   }
 
   .railInner {
@@ -1263,7 +1278,6 @@
     gap: 0.4rem;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
   }
 
   .railBrand,
