@@ -56,6 +56,7 @@ MANUAL_SLUGS = {
     '真人快打': 'mortal-kombat',
     '沙丘魔堡': 'sha-qiu-mo-bao',
     '炎龙骑士团2黄金城之谜': 'yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi',
+    '三国志3': 'san-guo-zhi-iii',
 }
 MANUAL = set(MANUAL_SLUGS)
 
@@ -549,6 +550,9 @@ def main():
         tag = initial_for(slug)
         size = int(row['bytes']) if row['bytes'] else 0
         files = 0
+        # The archive's own entry point is the file the game is meant to be
+        # started from — for these games that is the launcher, not the
+        # biggest executable in the bundle.
         entry_point = row['executable'] or '—'
         path = os.path.join(args.games, identifier + '.zip')
         if os.path.exists(path):
@@ -556,8 +560,14 @@ def main():
                 names = [n for n in archive.namelist() if not n.endswith('/')]
             files = len(names)
             exes = [os.path.basename(n) for n in names if n.lower().endswith('.exe')]
-            if exes:
-                entry_point = exes[0]
+            wanted = (row['executable'] or '').lower()
+            for name in names:
+                if os.path.basename(name).lower() == wanted:
+                    entry_point = os.path.basename(name)
+                    break
+            else:
+                if exes:
+                    entry_point = exes[0]
         manifest.append({
             'identifier': identifier,
             'name': row['name_zh'] or identifier,

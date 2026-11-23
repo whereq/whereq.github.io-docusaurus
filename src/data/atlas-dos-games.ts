@@ -748,7 +748,11 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
           },
           {
             kind: 'paragraph',
-            text: 'Then the story plays as a dialogue, with a portrait on the right and the text on the left. The first line is 『兒臣索爾，晉見父王陛下』 — Saul before his father the king. Space, Enter and Escape all move the dialogue along.',
+            text: 'After the film comes the title menu: START, LOAD and CONTINUE, in English, on a blue screen with a red banner. Space starts a new game — the mouse does not work on this screen, so use the keyboard.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Then the story plays as a dialogue, with a portrait on the right and the text on the left. The first line is 『兒臣索爾，晉見父王陛下』 — Saul before his father the king — and in the throne room a little later: 『到這裡來，讓义王好好看看你。這一陣子國務繁忙，我們父子兩個也很久沒聚聚了』. Space, Enter and Escape all move the dialogue along.',
           },
           {
             kind: 'paragraph',
@@ -756,7 +760,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
           },
           {
             kind: 'paragraph',
-            text: 'Verified on the emulator: the game starts from Play with nothing else to do, the intro and the story play, the Chinese text is all there, the character walks on the map and the conversations start. The title menu and the battles were not played through — that is the next thing to work out, and the comments on this page are where it should go.',
+            text: 'Verified on the emulator: the game starts from Play with nothing else to do, the title menu comes up, the intro and the story play, the Chinese text is all there, the character walks on the map and the conversations start. The battles were not fought — that is the next thing to work out, and the comments on this page are where it should go.',
           },
         ],
       },
@@ -792,6 +796,201 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
               'The title screen\'s own line: DYNASTY INTERNATIONAL INFORMATION CO., LTD.',
               'FD2.EXE\'s own strings: "DOS/4G Copyright (C) Rational Systems, Inc. 1987 - 1993" and the WATCOM C/C++ 32-bit run-time.',
               'DIG.INI and MDI.INI out of the archive: "Miles Design Audio Interface Library V3.02 of 18-Jan-95", SB16.DIG and SBPRO2.MDI at 220h.',
+              'The archive listing and checksum of the upstream file.',
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'san-guo-zhi-iii',
+    collection: 'dos-games',
+    name: '三国志III',
+    role: 'The Grand Strategy',
+    tagline:
+      "KOEI's 1993 war of the Three Kingdoms — and it will not start unless you change the command the app runs.",
+    logo: '/img/dos-games/san-guo-zhi-iii.svg',
+    accent: '#B32A17',
+    group: 's',
+    related: ['whereq-dosbox'],
+    summary:
+      'The third of KOEI\'s Three Kingdoms games, in its Simplified Chinese DOS release. Import the zip, then change one line: the app starts MAIN.EXE on its own and the game exits at once — the launcher is KOEI.COM. Once that is set, the whole game opens: the opening cards with their poems, the dragon and the tiger, six scenarios from 189 to 235, and a map of China you run a war from.',
+    status: '1993',
+    url: 'https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%973.zip',
+    facts: [
+      {label: 'Developer', value: 'KOEI CO., LTD. (光荣) — named in the bundle\'s own FM sound driver'},
+      {label: 'Published', value: '1993 — 23 of the bundle\'s 35 files carry that year'},
+      {label: 'Platform', value: 'MS-DOS — 16-bit real mode'},
+      {label: 'Genre', value: 'Grand strategy — territories, cities, officers and battles'},
+      {label: 'Language', value: 'Simplified Chinese'},
+      {label: 'Entry point', value: 'KOEI.COM — you have to set this by hand'},
+      {label: 'Bundle', value: '35 files · 2,260,444 bytes'},
+    ],
+    capabilities: [
+      'Six scenarios, from 靈帝沒落 董卓進京 in 189 to 臥龍歸天 姜維繼志 in 235 — each one starts on a different date, in a different situation.',
+      'A map of the whole of China, with cities in the colour of their lord, roads, rivers and mountains, and the armies drawn as flags on it.',
+      'A full command set at the top of the screen — 休養, 軍事, 人事, 外交, 情報, 開發, 謀略, 商人, 特別 and 功能 — and a market panel quoting the price of rice, bows and horses.',
+      'A roster of every officer with his 武力, and a conscription that takes men away from the city and puts them under a general.',
+      'An opening of cards: a dithered picture — a warrior\'s head, a city gate — with a poem written down it in vertical columns.',
+    ],
+    notice: {
+      title: 'About this download',
+      text: 'The archive on this page is published for study, communication and preservation only. 三国志III is the work of KOEI CO., LTD. and of the people who made it; publishing it here claims none of their rights and waives none of them. If you believe this download breaks a licence, a copyright or any other right, tell us and we will take it down.',
+    },
+    sections: [
+      {
+        title: 'What it is',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: '三国志III — Romance of the Three Kingdoms III, in its Simplified Chinese DOS release. It is a grand strategy game: a map of the whole of China, the cities on it, the officers who hold them, and the markets they trade in. The archive calls it 三国志III, and this copy is the Chinese one — every word on the screen is 简体.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The bundle names its own maker. FMDRV.COM — the FM sound driver the launcher loads — carries the line "Copyright (C) 1991 KOEI CO.,LTD. JAPAN", and the game\'s own DOS shell is KOEI.COM. That shell is written into the bundle\'s SHELL.SYS, the file DOS reads at boot to decide what the command prompt is.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The copy is dated 1993: 23 of its 35 files carry that year, and the game\'s own program, MAIN.EXE, is dated 3 January 1994. The Chinese text is all there — the menus, the scenario list, the officers\' names and the orders you give them are in 简体, not in a Japanese or English release.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The whole game is one directory of plain files: three executables, two COM loaders, the Chinese 16-dot fonts, six scenario files and a stack of .DAT data files. Nothing is compressed and nothing needs installing.',
+          },
+        ],
+      },
+      {
+        title: 'Download the bundle',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'This is the original copy from the archive the page was generated from. The checksum below is what you should get.',
+          },
+          {
+            kind: 'table',
+            head: ['Field', 'Value'],
+            rows: [
+              ['File', '三国志3.zip'],
+              ['Size', '2,260,444 bytes'],
+              ['SHA-256', '515ec3ed07caf4948a92923388350ade12df279807c2510b0fdb51bf39f95216'],
+              ['Contents', '35 files — the game, its data and its DOS shell'],
+              ['Source', 'dos-bin.zczc.cz — the archive this page was generated from'],
+            ],
+          },
+          {
+            kind: 'links',
+            items: [
+              {
+                label: 'Download 三国志3.zip (2.2 MB)',
+                href: 'https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%973.zip',
+                external: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Set it up in WhereQ-DOSBox',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'There is one thing to change, and the app will not do it for you. Import the zip, open the game\'s row and tap Launch… — the command the app would run by itself is MAIN.EXE, and MAIN.EXE on its own exits immediately and drops you back at the DOS prompt. The launcher is KOEI.COM.',
+          },
+          {
+            kind: 'list',
+            items: [
+              'Import the zip into WhereQ-DOSBox — open it from the Files app on your phone and choose WhereQ-DOSBox, or use the app\'s own import.',
+              'Open the game\'s row and tap Launch….',
+              'Tap Clear, then tap the KOEI.COM chip. The script line reads KOEI, and that is right — DOS adds the .COM itself.',
+              'Tap Play. The app writes a RUN.BAT in the game folder and runs KOEI from it.',
+            ],
+          },
+          {
+            kind: 'paragraph',
+            text: 'What KOEI.COM does, in order: it loads FMDRV.COM as the resident sound driver, then runs OPEN.EXE, then MAIN.EXE, and END.EXE when the game ends. The names are all in the launcher\'s own strings, in that order.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'There is no installer to run and nothing to configure. Do not run OPEN.EXE or END.EXE yourself — KOEI.COM runs them for you, in the right order.',
+          },
+        ],
+      },
+      {
+        title: 'How to play',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'The opening is a run of cards. Each one is a dithered picture — a warrior\'s head in blue, a city gate — with a poem written down it in vertical columns. The first is 滾滾長江東逝水，浪花淘盡英雄, the poem that opens the Romance; the later ones tell the Yellow Turban rising — 十常侍弄權柄，陷害忠良亂朝廷。中平元年關癘氣，大賢良師他自稱。張角舉事造黃旗. Space moves the cards along.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The cards are followed by the password screen, and then the dragon and the tiger, and a card that says 「使用滑鼠時，請按滑鼠鍵. 使用鍵盤時，請接著鍵入.」 — use the mouse, or press a key to type. Press Enter and the title menu comes up: 1. 開始新遊戲, 2. 從進度檔案載入進度, 3. 登錄新武將.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Every menu in this game is a numbered one. Type the number and press Enter. A new game asks, in order: how many people are playing (0 to 8), which of the six scenarios, which lord you are, how hard (初級 or 高級), whether you want to watch the other countries\' wars first, and whether it is 史實型 (history happens) or 假想型 (history does not). It then shows the whole setup back to you and asks 全部都可以了嗎(Y/N)?.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The main screen is a map of China. Across the top is the command row — 0.休養 1.軍事 2.人事 3.外交 4.情報 5.開發 6.謀略 7.商人 8.特別 9.功能 — and the bottom line asks you what you want to do: 『劉備，請向23.新野下命令(0-9)?』. The panel on the right is the city you are standing in: its population, its gold, its grain, its soldiers, its officers and its mood, with the market prices beside it and your ruler\'s portrait below.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Under 軍事 there are nine more: 移動, 輸送, 戰爭準備, 戰爭, 徵兵, 募兵, 訓練, 再編成 and 造船. Taking 徵兵 asks 派誰徵兵(0-13)? and opens a roster of your officers with their 武力; type the number of the officer you want, press Enter, and the game asks 徵兵幾百人(1-38)?. The men are taken, the city\'s soldiers go up, and the leftover is offered to another general.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'One wrinkle worth knowing: when a roster of names is on screen, typing the number does not select the officer straight away — it moves the marker to that entry and marks it with a star. Press Enter as well, and the game takes it.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Verified on the emulator: the game starts from the KOEI.COM launcher, the opening cards and the dragon and tiger play, the title menu opens, a new game is set up from scratch, the map of China comes up, the 軍事 menu opens, and 徵兵 was carried through to the end — 100 soldiers recruited and the city\'s numbers changed. A battle was not fought, and the password screen was passed with the word "abc" rather than the one the game shows.',
+          },
+        ],
+      },
+      {
+        title: 'The password screen',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'After the opening cards, before the dragon and the tiger, the game asks 密碼: and, under it, 請輸入正確密碼 with the answer in red brackets — [孫李李]. That is the copy-protection screen, and in this release it does not check: the word "abc" was typed, Enter pressed, and the game carried on as if it had been right.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'So you do not have to type 孫李李 — and you cannot easily, since the on-screen keyboard has no Chinese characters on it. Type anything and press Enter.',
+          },
+        ],
+      },
+      {
+        title: 'What is in the bundle',
+        blocks: [
+          {
+            kind: 'table',
+            head: ['File', 'What it is'],
+            rows: [
+              ['KOEI.COM', 'The launcher — 694 bytes, and the file named in SHELL.SYS. It chains FMDRV.COM → OPEN.EXE → MAIN.EXE → END.EXE.'],
+              ['FMDRV.COM', 'The resident FM sound driver. Carries "Copyright (C) 1991 KOEI CO.,LTD. JAPAN".'],
+              ['OPEN.EXE, MAIN.EXE, END.EXE', 'The three programs the launcher runs, in that order. MAIN.EXE is dated 3 January 1994, and on its own it exits at once — the chain is not optional.'],
+              ['SHELL.SYS', 'Ten bytes: KOEI.COM. It is what DOS boots into.'],
+              ['SANGOKU3.SAV', 'The save file.'],
+              ['HAN.16P, NAME.16P', 'The fonts the game draws its Chinese text with — .16P is a 16-pixel dot font.'],
+              ['SNDATA1–6.CIM, SNDATA1–6B.CIM', 'The six scenarios, and a second set beside each of them.'],
+              ['MAPDATA.DAT, GRPDATA.DAT, KAODATA.DAT, PACKDATA.DAT, …', 'The map, the graphics, the officer data and the rest of the game\'s data.'],
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Where the facts come from',
+        blocks: [
+          {
+            kind: 'list',
+            items: [
+              'The game itself — the opening cards, the password screen, the dragon and the tiger, the title menu, the scenario list, the map of China, the 軍事 menu and the 徵兵 that was carried through, all read on the emulator.',
+              'FMDRV.COM\'s own string: "Copyright (C) 1991 KOEI CO.,LTD. JAPAN".',
+              'KOEI.COM\'s own strings: the four programs it chains, and its error messages — "DISK ERROR  HIT ENTER to RETRY", "Not enough memory.", "$ : cannot execute.", "$ : file access failure.", "$ : password error occurred."',
+              'SHELL.SYS out of the archive: KOEI.COM.',
               'The archive listing and checksum of the upstream file.',
             ],
           },

@@ -1,12 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="三国志III">
-  <title>三国志III</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="三国志III — Romance of the Three Kingdoms III card plate">
+  <title>三国志III — Romance of the Three Kingdoms III</title>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#EC7063"/>
-      <stop offset="1" stop-color="#EC7063" stop-opacity="0.72"/>
+    <linearGradient id="sg3-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#25405A"/>
+      <stop offset="0.55" stop-color="#1B3049"/>
+      <stop offset="1" stop-color="#132438"/>
+    </linearGradient>
+    <linearGradient id="sg3-banner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8E1B12"/>
+      <stop offset="0.5" stop-color="#B32A17"/>
+      <stop offset="1" stop-color="#7C1610"/>
+    </linearGradient>
+    <linearGradient id="sg3-river" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D74B5"/>
+      <stop offset="1" stop-color="#2A5588"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" fill="url(#g)"/>
-  <rect x="1" y="1" width="62" height="62" fill="none" stroke="#000" stroke-opacity="0.18" stroke-width="2"/>
-  <text x="32" y="44" text-anchor="middle" font-family="'Noto Serif CJK TC','Noto Serif TC','Songti TC','PMingLiU',serif" font-size="38" font-weight="700" fill="#FFF8E7">三</text>
+
+  <rect width="256" height="256" fill="url(#sg3-ground)"/>
+
+  <!-- the ground of the strategic map, as the game drew it -->
+  <path d="M0 96 C 46 82, 84 110, 128 100 C 176 89, 214 108, 256 98 L256 118 C 214 128, 174 109, 128 120 C 82 131, 46 102, 0 116 Z" fill="#2E4A3C" opacity="0.55"/>
+  <path d="M18 196 C 64 180, 96 206, 150 194 C 196 184, 224 198, 256 190 L256 208 C 222 216, 194 202, 150 212 C 96 224, 62 198, 18 214 Z" fill="#2E4A3C" opacity="0.45"/>
+
+  <!-- the river -->
+  <path d="M-10 44 C 46 66, 62 40, 100 58 C 142 78, 176 46, 266 74" fill="none" stroke="url(#sg3-river)" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M60 266 C 74 214, 46 186, 66 150 C 84 118, 120 112, 140 74" fill="none" stroke="url(#sg3-river)" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- the roads -->
+  <g stroke="#C9B37C" stroke-width="1" opacity="0.28" fill="none">
+    <path d="M28 60 L96 120 L150 96 L226 140"/>
+    <path d="M96 120 L118 176 L196 200"/>
+    <path d="M150 96 L170 44"/>
+  </g>
+
+  <!-- the cities, each one a block in the colour of its lord -->
+  <g>
+    <rect x="30" y="42" width="16" height="16" fill="#F2C14E" stroke="#7A5E12" stroke-width="1.5"/>
+    <rect x="92" y="116" width="16" height="16" fill="#E0603A" stroke="#7C2410" stroke-width="1.5"/>
+    <rect x="146" y="92" width="16" height="16" fill="#4FB0A5" stroke="#1E5C55" stroke-width="1.5"/>
+    <rect x="192" y="136" width="16" height="16" fill="#B07CC6" stroke="#5A2E6B" stroke-width="1.5"/>
+    <rect x="114" y="172" width="16" height="16" fill="#7FBF5A" stroke="#3B6B26" stroke-width="1.5"/>
+    <rect x="166" y="40" width="16" height="16" fill="#E0603A" stroke="#7C2410" stroke-width="1.5"/>
+  </g>
+
+  <!-- the armies, the small flags on the map -->
+  <g stroke="#F3E3B8" stroke-width="1.2">
+    <path d="M118 138 L118 152" fill="none"/>
+    <path d="M118 138 L130 142 L118 146 Z" fill="#F2C14E" stroke="none"/>
+    <path d="M72 160 L72 174" fill="none"/>
+    <path d="M72 160 L84 164 L72 168 Z" fill="#E0603A" stroke="none"/>
+  </g>
+
+  <!-- the border the game drew round its map -->
+  <rect x="12" y="12" width="232" height="232" fill="none" stroke="#C05A22" stroke-width="3" opacity="0.85"/>
+  <rect x="17" y="17" width="222" height="222" fill="none" stroke="#E8A25C" stroke-width="1" opacity="0.5"/>
+
+  <!-- the wordmark, on a red band the way the game's own title bar was red -->
+  <rect x="12" y="196" width="232" height="52" fill="url(#sg3-banner)"/>
+  <rect x="12" y="196" width="232" height="1.5" fill="#F0C978" opacity="0.7"/>
+
+  <text x="128" y="230" text-anchor="middle" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC','SimSun',serif" font-size="38" font-weight="700" fill="#F7E2AE" letter-spacing="8">三国志</text>
+  <text x="128" y="244" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="9" font-weight="700" fill="#E8B87E" letter-spacing="3">ROMANCE OF THE THREE KINGDOMS III</text>
 </svg>
