@@ -118,6 +118,30 @@ async function createConfig(): Promise<Config> {
           disableInDev: false,
         },
       ],
+      [
+        '@docusaurus/plugin-client-redirects',
+        {
+          // The Atlas used to hold one flat namespace — /atlas/<app>/. It now
+          // holds one namespace per collection — /atlas/universe/<app>/ —
+          // so the thirteen pages that were published in the flat shape are
+          // redirected to where they live now.
+          redirects: [
+            {from: '/atlas/whereq-cloud', to: '/atlas/universe/whereq-cloud'},
+            {from: '/atlas/keytomarvel', to: '/atlas/universe/keytomarvel'},
+            {from: '/atlas/whereq-ca', to: '/atlas/universe/whereq-ca'},
+            {from: '/atlas/whereq-hub', to: '/atlas/universe/whereq-hub'},
+            {from: '/atlas/flowdesk', to: '/atlas/universe/flowdesk'},
+            {from: '/atlas/caijing', to: '/atlas/universe/caijing'},
+            {from: '/atlas/whereq-com', to: '/atlas/universe/whereq-com'},
+            {from: '/atlas/chroniq', to: '/atlas/universe/chroniq'},
+            {from: '/atlas/qhaul', to: '/atlas/universe/qhaul'},
+            {from: '/atlas/catobigato', to: '/atlas/universe/catobigato'},
+            {from: '/atlas/whereq-cc', to: '/atlas/universe/whereq-cc'},
+            {from: '/atlas/whereq-dosbox', to: '/atlas/universe/whereq-dosbox'},
+            {from: '/atlas/ccbus', to: '/atlas/universe/ccbus'},
+          ],
+        },
+      ],
     ],
 
     themeConfig: {

@@ -40,6 +40,26 @@ This is a **source repo** (`whereq.github.io-docusaurus`). The built static site
 - **MetroUI**: radius **xs is 2px** — the whereq family standard (chips, tags, scrollbars and buttons all use it). A pill-shaped button is a second button; do not use `border-radius: 999px`.
 - **The announcement skill** is `.minimax/skills/whereq-site-post/` (installed copy at `~/.minimax/skills/whereq-site-post/`). It covers the whole flow: author the EN + CN post pair, register `{title, url, date}` in the app's `announcements` array, then release with `./bin/whereq.sh all`. The release mechanics live in its `references/release-flow.md`.
 
+## The WhereQ Atlas
+
+`/atlas/` is a **wiki**, and it is deliberately wider than the WhereQ Universe. It holds three collections, and a page in one has no obligation to know about the others:
+
+| Collection | Route | What it holds |
+|---|---|---|
+| **Universe** | `/atlas/universe/` | The 13 applications, one page each |
+| **References** | `/atlas/resources/` | The standards and tools the work is built on, each written to stand alone |
+| **Glossary** | `/atlas/glossary/` | The vocabulary, defined once, with its own page shape |
+
+Architecture:
+
+- **Content** lives in `src/data/atlas*.ts`. `atlas-types.ts` holds the shared types; `atlas-universe.ts`, `atlas-resources.ts` and `atlas-glossary.ts` hold the content; `atlas.ts` is the barrel that assembles the collections, the questions and the threads. A new collection is a new module plus a line in the barrel — the layout does not change.
+- **Layout** lives in `src/components/Atlas/`. `AtlasShell` draws the two-level tree (collection → group → page) and the "On this page" rail; `AtlasEntryPage` serves *every* page whether it is an application or a reference; `AtlasCollectionPage` serves *every* collection; `AtlasHomePage` and `AtlasGlossaryPage` are the two special shapes.
+- **Routes** are `src/pages/atlas/<collection>/<entry>.tsx`. Docusaurus has no dynamic route segments, so each page is a thin file that names its collection and entry id.
+- The flat URLs the Atlas used to have (`/atlas/<app>/`) redirect to `/atlas/universe/<app>/` through `@docusaurus/plugin-client-redirects`. Add a redirect there when a page moves.
+- Pages link to each other with `related` — the wiki's "See also". `ATLAS_THREADS` are the paths that cross between collections; they are the reason the Atlas is one wiki rather than three lists.
+- **Reference pages must state their source.** Version numbers and dates are checked against the project's own documentation, and a claim that cannot be traced to a primary source is not made. The "Where to read more" block links to that source.
+- Application ids match `src/data/news.ts` wherever the app appears there, so the two cannot drift.
+
 ## Architecture notes
 
 - **Config is async** (`docusaurus.config.ts` exports `createConfig()` as a promise) specifically so `remark-math` and `rehype-katex` can be dynamically imported. Math rendering (KaTeX) is wired into docs, blog, AND pages via `remarkPlugins`/`rehypePlugins`. The KaTeX CSS is loaded from a CDN `<link>` in `stylesheets`.

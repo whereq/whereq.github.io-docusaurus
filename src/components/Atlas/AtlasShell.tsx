@@ -1,8 +1,8 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import {ATLAS_GROUPS} from '../../data/atlas';
-import {appPath, appsInGroup} from './atlas-utils';
+import {ATLAS_COLLECTIONS} from '../../data/atlas';
+import {collectionPath, entriesInGroup, monogram} from './atlas-utils';
 import styles from './atlas.module.css';
 
 /** One entry in the "On this page" list. */
@@ -15,8 +15,10 @@ type AtlasShellProps = {
   /** The document title — the site name is appended by the theme. */
   title: string;
   description: string;
-  /** The application whose page is open, when one is. */
-  activeAppId?: string;
+  /** The collection the open page belongs to, when one is open. */
+  activeCollectionId?: string;
+  /** The page that is open, when one is open. */
+  activeEntryId?: string;
   /** The sections of the open page, for the "On this page" list. */
   toc?: AtlasTocItem[];
   children: React.ReactNode;
@@ -26,6 +28,10 @@ type AtlasShellProps = {
  * The shell every Atlas page sits in: the page tree on the left, the
  * article in the middle, and "On this page" on the right.
  *
+ * The tree is two levels deep — a collection, then its groups, then its
+ * pages — because a wiki holds several collections that have nothing to do
+ * with each other, and the tree has to say so.
+ *
  * Below 1200px the right rail folds into a disclosure at the top of the
  * article. Below 996px the left rail becomes a horizontal strip, so it
  * stays one line tall on a phone instead of pushing the article down.
@@ -33,7 +39,8 @@ type AtlasShellProps = {
 export default function AtlasShell({
   title,
   description,
-  activeAppId,
+  activeCollectionId,
+  activeEntryId,
   toc = [],
   children,
 }: AtlasShellProps): React.JSX.Element {
@@ -92,7 +99,9 @@ export default function AtlasShell({
               <span className={styles.railBrandMark}>WhereQ</span>
               <span className={styles.railBrandName}>Atlas</span>
             </Link>
-            <p className={styles.railBlurb}>The wiki of the WhereQ Universe.</p>
+            <p className={styles.railBlurb}>
+              A wiki of the WhereQ Universe and the craft behind it.
+            </p>
 
             <div className={styles.railSection}>
               <ul className={styles.railList}>
@@ -100,7 +109,7 @@ export default function AtlasShell({
                   <Link
                     to="/atlas/"
                     className={`${styles.railLink} ${
-                      !activeAppId ? styles.railLinkActive : ''
+                      !activeCollectionId ? styles.railLinkActive : ''
                     }`}>
                     <span className={styles.railLabel}>Overview</span>
                   </Link>
@@ -108,25 +117,53 @@ export default function AtlasShell({
               </ul>
             </div>
 
-            {ATLAS_GROUPS.map((group) => (
-              <div className={styles.railSection} key={group.id}>
-                <p className={styles.railGroupTitle}>{group.title}</p>
-                <ul className={styles.railList}>
-                  {appsInGroup(group.id).map((app) => (
-                    <li key={app.id}>
-                      <Link
-                        to={appPath(app.id)}
-                        className={`${styles.railLink} ${
-                          activeAppId === app.id ? styles.railLinkActive : ''
-                        }`}>
-                        <img className={styles.railLogo} src={app.logo} alt="" />
-                        <span className={styles.railLabel}>{app.name}</span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+            {ATLAS_COLLECTIONS.map((collection) => {
+              const collectionActive = activeCollectionId === collection.id;
+
+              return (
+                <div className={styles.railCollection} key={collection.id}>
+                  <Link
+                    to={collectionPath(collection.id)}
+                    className={`${styles.railCollectionLink} ${
+                      collectionActive ? styles.railLinkActive : ''
+                    }`}>
+                    {collection.short}
+                  </Link>
+
+                  {collection.kind === 'entries' &&
+                    collection.groups.map((group) => (
+                      <div className={styles.railGroup} key={group.id}>
+                        <p className={styles.railGroupTitle}>{group.title}</p>
+                        <ul className={styles.railList}>
+                          {entriesInGroup(collection.id, group.id).map((entry) => (
+                            <li key={entry.id}>
+                              <Link
+                                to={`/atlas/${collection.id}/${entry.id}/`}
+                                className={`${styles.railLink} ${
+                                  activeEntryId === entry.id
+                                    ? styles.railLinkActive
+                                    : ''
+                                }`}>
+                                {entry.logo ? (
+                                  <img className={styles.railLogo} src={entry.logo} alt="" />
+                                ) : (
+                                  <span
+                                    className={styles.railMonogram}
+                                    style={{color: entry.accent}}
+                                    aria-hidden="true">
+                                    {monogram(entry.name)}
+                                  </span>
+                                )}
+                                <span className={styles.railLabel}>{entry.name}</span>
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                </div>
+              );
+            })}
           </div>
         </nav>
 

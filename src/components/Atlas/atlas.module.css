@@ -24,6 +24,16 @@
   position: sticky;
   top: 76px;
   min-width: 0;
+  /*
+   * The tree is taller than a screen once there is more than one
+   * collection, so it scrolls inside itself. Without this, a sticky
+   * element that is too tall pins its top and its bottom is
+   * unreachable.
+   */
+  max-height: calc(100vh - 92px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
 }
 
 .railInner {
@@ -65,6 +75,33 @@
   margin-bottom: 1rem;
 }
 
+/* A collection header in the tree — Universe, References, Glossary. */
+.railCollection {
+  margin-bottom: 1.15rem;
+}
+
+.railCollectionLink {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  padding: 3px 6px;
+  margin-bottom: 0.35rem;
+  border-radius: 2px;
+  transition: background 0.15s ease;
+}
+
+.railCollectionLink:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, transparent);
+}
+
+.railGroup {
+  margin-bottom: 0.75rem;
+}
+
 .railGroupTitle {
   font-size: 0.6rem;
   font-weight: 700;
@@ -72,6 +109,22 @@
   letter-spacing: 0.1em;
   color: var(--ifm-color-emphasis-600);
   margin: 0 0 0.3rem;
+}
+
+/* A monogram stand-in for a mark that has no logo — the reference pages. */
+.railMonogram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--ifm-color-emphasis-700);
 }
 
 .railList {
@@ -447,6 +500,19 @@
   gap: 0.5rem;
 }
 
+/* A link label can be a whole sentence — a blog post title, say — so
+   these buttons wrap instead of forcing the page wider than the
+   viewport. The short buttons elsewhere keep their single line. */
+.linkList li {
+  max-width: 100%;
+}
+
+.linkList .btn {
+  white-space: normal;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
 /* ── Buttons ───────────────────────────────────────────────── */
 .btn {
   display: inline-flex;
@@ -782,6 +848,340 @@
   line-height: 1.65;
 }
 
+/* ── Monogram mark (pages with no logo) ───────────────────── */
+/*
+ * The mark sits on a light plate, so the monogram is dark ink — a
+ * themed colour would vanish against it in one theme or the other.
+ */
+.markMonogram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1f2937;
+  background: transparent;
+}
+
+/* ── The collection label on a page header ─────────────────── */
+.appCollection {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ifm-color-emphasis-600);
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 2px;
+  padding: 1px 6px;
+  margin-right: 0.55rem;
+  vertical-align: 0.1em;
+}
+
+/* ── "See also" ────────────────────────────────────────────── */
+.seeAlso {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.seeAlsoLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.seeAlsoLink:hover {
+  color: var(--ifm-color-primary);
+}
+
+.seeAlsoDot {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.seeAlsoName {
+  font-weight: 600;
+}
+
+.seeAlsoWhere {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* ── Collections on the home page ──────────────────────────── */
+.collectionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.collectionCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  align-items: flex-start;
+  border: 1px solid var(--ifm-hr-border-color);
+  border-top: 2px solid var(--ifm-color-primary);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  padding: 1.1rem 1.15rem;
+}
+
+.collectionTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.collectionTitle a {
+  color: var(--ifm-heading-color);
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.collectionTitle a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.collectionBlurb {
+  font-size: 0.87rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+  flex: 1;
+}
+
+.collectionMeta {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0;
+}
+
+/* ── Threads ───────────────────────────────────────────────── */
+.threadList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.thread {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  padding: 0.95rem 1.1rem;
+}
+
+.threadTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.3rem;
+}
+
+.threadBlurb {
+  font-size: 0.87rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 0.8rem;
+}
+
+.threadPath {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.threadStep {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.threadArrow {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.85rem;
+}
+
+.threadLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 2px;
+  padding: 2px 9px 2px 4px;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.threadLink:hover {
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.threadMark {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.threadMonogram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.threadName {
+  white-space: nowrap;
+}
+
+/* ── The A–Z index ─────────────────────────────────────────── */
+.indexGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.25rem 1.5rem;
+}
+
+.indexLetter {
+  break-inside: avoid;
+}
+
+.indexLetterHead {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.4rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 35%, transparent);
+}
+
+.indexList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.indexList li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.indexLink {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.indexLink:hover {
+  color: var(--ifm-color-primary);
+}
+
+.indexWhere {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* ── Glossary ──────────────────────────────────────────────── */
+.glossary {
+  margin: 0;
+  border-top: 1px solid var(--ifm-hr-border-color);
+}
+
+.glossaryRow {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+  scroll-margin-top: 76px;
+}
+
+.glossaryTerm {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0;
+  line-height: 1.45;
+}
+
+.glossaryDefinition {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--ifm-font-color-base);
+}
+
+.glossaryDefinition p {
+  margin: 0;
+}
+
+.glossaryLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.glossaryLink {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+  border-radius: 2px;
+  padding: 1px 7px;
+}
+
+.glossaryLink:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
+}
+
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 1200px) {
   .shell {
@@ -813,6 +1213,8 @@
      line tall on a phone instead of pushing the article down. */
   .rail {
     position: static;
+    max-height: none;
+    overflow-y: visible;
   }
 
   .railInner {
@@ -834,15 +1236,24 @@
   }
 
   .railSection,
-  .railList {
+  .railList,
+  .railCollection,
+  .railGroup {
     display: contents;
   }
 
-  .railLink {
+  .railLink,
+  .railCollectionLink {
     flex: 0 0 auto;
     border: 1px solid var(--ifm-hr-border-color);
     padding: 3px 9px;
     background: var(--ifm-background-surface-color);
+    margin-bottom: 0;
+  }
+
+  .railCollectionLink {
+    border-color: color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+    color: var(--ifm-color-primary);
   }
 
   .railLinkActive {
@@ -850,7 +1261,8 @@
     box-shadow: none;
   }
 
-  .railLogo {
+  .railLogo,
+  .railMonogram {
     display: none;
   }
 }
@@ -900,6 +1312,19 @@
   }
 
   .questions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .glossaryRow {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.35rem;
+  }
+
+  .indexGrid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+  .collectionGrid {
     grid-template-columns: minmax(0, 1fr);
   }
 }
