@@ -454,4 +454,180 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
       },
     ],
   },
+  {
+    id: 'sha-qiu-mo-bao',
+    collection: 'dos-games',
+    name: '沙丘魔堡',
+    role: 'The Real-Time Strategy',
+    tagline:
+      'Dune II in its Chinese release — it starts on its own, and then asks you to click a house.',
+    logo: '/img/dos-games/sha-qiu-mo-bao.svg',
+    accent: '#B87B3C',
+    group: 's',
+    related: ['whereq-dosbox'],
+    summary:
+      'The 1992 Cryo and Virgin Games real-time strategy game, in the Chinese release published by 第三波. Import the zip, press Play, and the batch file runs the intro and the game for you. The one thing the page has to explain is the house-selection screen: it is mouse-driven, and a quick tap moves the cursor without clicking.',
+    status: '1992',
+    url: 'https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao.zip',
+    facts: [
+      {label: 'Developer', value: 'Cryo Interactive — with Virgin Games'},
+      {label: 'Publisher', value: 'Virgin Games; the Chinese release by 第三波 (Soft-World)'},
+      {label: 'Published', value: '1992'},
+      {label: 'Platform', value: 'MS-DOS'},
+      {label: 'Genre', value: 'Real-time strategy'},
+      {label: 'Language', value: 'Traditional Chinese (Big5)'},
+      {label: 'Entry point', value: 'DUNE.BAT — picked automatically'},
+      {label: 'Bundle', value: '136 files · 1,743,136 bytes'},
+    ],
+    capabilities: [
+      'A real-time strategy game on Arrakis: you build on the map, the enemy house builds back, and the spice is what you are both fighting over.',
+      'Two houses — Atreides and Harkonnen — with their own units, buildings and commanders.',
+      'A mission map you can open at any time, with the troop positions of every house on it.',
+      'Hot-seat for two players on one screen: the panel at the bottom of the screen carries the number of each house.',
+    ],
+    notice: {
+      title: 'About this download',
+      text: 'The archive on this page is published for study, communication and preservation only. 沙丘魔堡 is the work of Cryo Interactive and Virgin Games and of the people who made the Chinese release; publishing it here claims none of their rights and waives none of them. If you believe this download breaks a licence, a copyright or any other right, tell us and we will take it down.',
+    },
+    sections: [
+      {
+        title: 'What it is',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: '沙丘魔堡 is the Chinese release of Dune II — the 1992 real-time strategy game from Cryo Interactive and Virgin Games. The Chinese title is 第三波\'s own: the intro screen reads VIRGIN GAMES under a Chinese line that says 第三波文化事業 1992 強強滾推出, and the whole game is in Traditional Chinese.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The archive carries the original installer, and it names the authors: INSTALL.EXE holds the line "(c) 1992 Cryo & Virgin Games". That is the game as it shipped — on floppies, with the first disk called out in the installer\'s own text, "INSERT DUNE DISK 1 IN DRIVE A:".',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The Chinese release is a translation of the whole thing, not just the interface: the introduction is narrated in Chinese ("在未來的世界裡 人類已發現了無數的星系…"), the map is called 沙丘地圖, and the build panel speaks in the language of the 1990s Chinese localisation.',
+          },
+        ],
+      },
+      {
+        title: 'Download the bundle',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'The archive is the upstream file, byte for byte. The checksum below is what you should get.',
+          },
+          {
+            kind: 'table',
+            head: ['Field', 'Value'],
+            rows: [
+              ['File', 'sha-qiu-mo-bao.zip'],
+              ['Size', '1,743,136 bytes'],
+              ['SHA-256', '982268c362a646be6454e8fce29c036a8ce1a1a38710f09c260806c621d5d641'],
+              ['Contents', '136 files — the game, its data and its original installer'],
+              ['Source', 'dos-bin.zczc.cz archive, mirrored unchanged'],
+            ],
+          },
+          {
+            kind: 'links',
+            items: [
+              {
+                label: 'Download 沙丘魔堡.zip (1.7 MB)',
+                href: 'https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao.zip',
+                external: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Set it up in WhereQ-DOSBox',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'This one needs no setup at all. The bundle has exactly one batch file, DUNE.BAT, and the app picks it on its own — so import the zip and press Play.',
+          },
+          {
+            kind: 'list',
+            items: [
+              'Import the zip into WhereQ-DOSBox — open it from the Files app on your phone and choose WhereQ-DOSBox, or use the app\'s own import.',
+              'Open the game\'s row and tap Play. The app starts DUNE.BAT.',
+              'DUNE.BAT turns the sound off, plays the intro logo and starts the game with the switches the release was made for.',
+            ],
+          },
+          {
+            kind: 'paragraph',
+            text: 'The whole of DUNE.BAT is three lines: @echo off, logo, and then duneprg CHIVGA SDB22227 EMS 386. The first runs LOGO.EXE, which is the Virgin and 第三波 title card. The second starts DUNEPRG.EXE with the language and display switches for the Chinese text on VGA, a Sound Blaster setting, and expanded memory on a 386.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Do not run INSTALL.EXE. It is the 1992 floppy installer: it wants DUNE DISK 1 in drive A:, asks for 2 500 KB of free space, and copies the game to C:\\DUNE. The archive is already the installed layout — the installer would only put the game in the wrong place.',
+          },
+        ],
+      },
+      {
+        title: 'How to play',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'The intro plays first: the Virgin Games logo, then the Chinese line naming 第三波, and then a narrated introduction over a desert scene. Press Space on the on-screen keyboard to step through the narration — one press, one line.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Then the house-selection screen comes up: a throne room, the name of a house on the panel at the bottom, and the mouse cursor. This is the one screen where the mouse matters, and the app needs a little care with it.',
+          },
+          {
+            kind: 'list',
+            items: [
+              'Give DOSBox the mouse first: press RMB on the on-screen keyboard (or the right mouse button on a Bluetooth keyboard) to switch mouse capture on.',
+              'Move the cursor with the arrow keys on the on-screen keyboard. The cursor is the arrow on the picture; the arrow keys move it.',
+              'A quick tap only moves the cursor — it does not click. Hold the press for about half a second before letting go, and the click lands.',
+              'Click the house crest at the top-left or the top-right of the screen to take that house.',
+              'Click the player number in the panel at the bottom — 1 or 2 — to confirm, and the world map comes up.',
+            ],
+          },
+          {
+            kind: 'paragraph',
+            text: 'The world map is 沙丘地圖, and the panel below it reads 結束地圖模式 — that is the hint for the control pad on the right, and pressing it takes you back out of the map. The panel carries the numbers of the houses in play, so a second player can take the other house on the same screen.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Verified on the emulator: the intro plays, the house is taken, and the world map opens with the base on it and the map panel showing the troop count. The build phase was not played through — that is the next thing to work out, and the comments on this page are where it should go.',
+          },
+        ],
+      },
+      {
+        title: 'What is in the bundle',
+        blocks: [
+          {
+            kind: 'table',
+            head: ['File', 'What it is'],
+            rows: [
+              ['DUNE.BAT', 'The launcher the app starts. Plays the logo, then the game.'],
+              ['DUNEPRG.EXE', 'The game itself.'],
+              ['LOGO.EXE', 'The Virgin Games and 第三波 title card, played by the batch file.'],
+              ['INSTALL.EXE', 'The 1992 floppy installer. Do not run it — the archive is already installed.'],
+              ['*.HSQ', 'The game\'s data: the map, the units, the buildings, the dialogue, the manual.'],
+              ['*.AGD, *.M32', 'The same data in other formats — the game\'s own compression and its 32-bit build.'],
+              ['FONT16.16P', 'The bitmap font the game draws its text with.'],
+              ['TABLAT.BIN, VERBIN.BIN', 'The building table and the version block.'],
+              ['DUNE23S0.SAV, DUNE23S3.SAV, DUNE23S4.SAV', 'Saved games that came with the release.'],
+              ['WOR16.FON, WOR16.ASC', 'The word font — this is what puts the Chinese text on the screen.'],
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Where the facts come from',
+        blocks: [
+          {
+            kind: 'list',
+            items: [
+              'The game itself — the intro card, the narrated introduction, the house-selection screen and the world map, all read on the emulator.',
+              'DUNE.BAT, read out of the archive: @echo off, logo, duneprg CHIVGA SDB22227 EMS 386.',
+              'INSTALL.EXE\'s own strings: "(c) 1992 Cryo & Virgin Games", "INSERT DUNE DISK 1 IN DRIVE A:", "Free disk space= 2500 Kb", and the files it writes.',
+              'The archive listing and checksum of the upstream file.',
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];

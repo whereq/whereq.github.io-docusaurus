@@ -53,6 +53,7 @@ RELEASE_HOST = f'https://github.com/{REPO}/releases/download'
 MANUAL_SLUGS = {
     '三国志英杰传': 'sanguo-yingjie-zhuan',
     '真人快打': 'mortal-kombat',
+    '沙丘魔堡': 'sha-qiu-mo-bao',
 }
 MANUAL = set(MANUAL_SLUGS)
 
@@ -402,6 +403,7 @@ def main():
         rows = list(csv.DictReader(handle))
 
     taken = set()
+    written = set()
     entries = []
     index_rows = []
     manifest = []
@@ -508,6 +510,8 @@ def main():
                 '  return <DosGamePage entry={entry} />;\n'
                 '}\n'
             )
+
+        written.add(slug)
 
         page = os.path.join(args.pages, f'{slug}.ts')
         with open(page, 'w', encoding='utf-8') as handle:
@@ -636,6 +640,27 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
 
     with open(args.manifest, 'w', encoding='utf-8') as handle:
         json.dump(manifest, handle, ensure_ascii=False, indent=1)
+
+    # ── clean up what a previous run left behind ────────────────
+    #
+    # A game that moves from the catalogue to the hand-written shelf
+    # stops being generated, and its old route and page would sit in
+    # the tree pointing at nothing. The generator owns these two
+    # directories, so it can take them back.
+    stale = []
+    for directory, suffix in ((args.routes, '.tsx'), (args.pages, '.ts')):
+        if not os.path.isdir(directory):
+            continue
+        for name in sorted(os.listdir(directory)):
+            stem, ext = os.path.splitext(name)
+            if ext != suffix or stem == 'index':
+                continue
+            if stem not in written:
+                stale.append(os.path.join(directory, name))
+    for path in stale:
+        os.remove(path)
+        print(f'removed stale {os.path.relpath(path, ROOT)}')
+
     print(f'entries: {len(entries)}  groups: {len(group_entries)}  routes: {len(entries)}')
     print(f'wrote {args.out}')
 

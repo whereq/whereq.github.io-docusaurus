@@ -1,12 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="沙丘魔堡">
-  <title>沙丘魔堡</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="沙丘魔堡 — Dune II title plate">
+  <title>沙丘魔堡 — Dune II</title>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#EC7063"/>
-      <stop offset="1" stop-color="#EC7063" stop-opacity="0.72"/>
+    <linearGradient id="d2-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3D9A4"/>
+      <stop offset="0.42" stop-color="#E0AE6A"/>
+      <stop offset="1" stop-color="#B87B3C"/>
     </linearGradient>
+    <linearGradient id="d2-dune" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#8C5524"/>
+      <stop offset="0.5" stop-color="#A96C2F"/>
+      <stop offset="1" stop-color="#5E3512"/>
+    </linearGradient>
+    <linearGradient id="d2-dune2" x1="1" y1="0" x2="0" y2="0.7">
+      <stop offset="0" stop-color="#6B3E17"/>
+      <stop offset="0.55" stop-color="#8C5524"/>
+      <stop offset="1" stop-color="#4A2A0E"/>
+    </linearGradient>
+    <radialGradient id="d2-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF4D6"/>
+      <stop offset="0.6" stop-color="#F7D488"/>
+      <stop offset="1" stop-color="#E9A94F"/>
+    </radialGradient>
   </defs>
-  <rect width="64" height="64" fill="url(#g)"/>
-  <rect x="1" y="1" width="62" height="62" fill="none" stroke="#000" stroke-opacity="0.18" stroke-width="2"/>
-  <text x="32" y="44" text-anchor="middle" font-family="'Noto Serif CJK TC','Noto Serif TC','Songti TC','PMingLiU',serif" font-size="38" font-weight="700" fill="#FFF8E7">沙</text>
+
+  <rect width="256" height="256" fill="url(#d2-sky)"/>
+
+  <!-- The sun, low over the dunes -->
+  <circle cx="128" cy="92" r="44" fill="url(#d2-sun)"/>
+  <circle cx="128" cy="92" r="44" fill="none" stroke="#FFEFC4" stroke-width="1" opacity="0.5"/>
+
+  <!-- Two dune ridges -->
+  <path d="M0 158 C 52 132, 96 168, 150 150 C 196 136, 226 154, 256 146 L256 256 L0 256 Z" fill="url(#d2-dune2)"/>
+  <path d="M0 196 C 60 168, 112 204, 168 186 C 206 174, 232 190, 256 184 L256 256 L0 256 Z" fill="url(#d2-dune)"/>
+
+  <!-- The wordmark on a dark band, the way the game drew its own logo -->
+  <rect x="0" y="176" width="256" height="80" fill="#2A1608" opacity="0.9"/>
+  <rect x="0" y="176" width="256" height="1.5" fill="#E8C88A" opacity="0.65"/>
+
+  <text x="128" y="222" text-anchor="middle" font-family="'Noto Serif CJK TC','Noto Serif TC','Songti TC','PMingLiU',serif" font-size="42" font-weight="700" fill="#F6D89B" letter-spacing="6">沙丘</text>
+  <text x="128" y="244" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="15" font-weight="700" fill="#C98F45" letter-spacing="7">DUNE II</text>
+
+  <rect x="4" y="4" width="248" height="248" fill="none" stroke="#2A1608" stroke-opacity="0.35" stroke-width="2"/>
 </svg>
