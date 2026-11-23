@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "闷绝性技王传说 is a DOS game in the WhereQ archive — 1996, 94 files, 7.1 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/men-jue-xing-ji-wang-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E9%97%B7%E7%BB%9D%E6%80%A7%E6%8A%80%E7%8E%8B%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "men-jue-xing-ji-wang-chuan-shuo.zip"],
           ["Size", "7,435,359 bytes (7.1 MB)"],
           ["SHA-256", "5cb2d4d0e8db4cbd1422d8e0e3ba9a45226bde3880c6484f247badd2c029bcae"],
           ["Files", "94"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%97%B7%E7%BB%9D%E6%80%A7%E6%8A%80%E7%8E%8B%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 闷绝性技王传说 (7.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/men-jue-xing-ji-wang-chuan-shuo.zip", external: true},
+          {label: "Download 闷绝性技王传说 (7.1 MB)", href: "https://dos-bin.zczc.cz/%E9%97%B7%E7%BB%9D%E6%80%A7%E6%8A%80%E7%8E%8B%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗之地 is a DOS game in the WhereQ archive — 1992, 642 files, 16.1 MB, and an entry point of DARKLAND.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-di.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%9C%B0.zip",
   facts: [
     {label: "Developer", value: "DOMO"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-zhi-di.zip"],
           ["Size", "16,891,365 bytes (16.1 MB)"],
           ["SHA-256", "925d9e8aa0f166d534bd647bc6d52b8dd44cdc9bc4a67c62cef32771b93b8b73"],
           ["Files", "642"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%9C%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗之地 (16.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-di.zip", external: true},
+          {label: "Download 黑暗之地 (16.1 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%9C%B0.zip", external: true},
         ]},
       ],
     },

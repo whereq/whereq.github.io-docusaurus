@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "神州八剑 is a DOS game in the WhereQ archive — 1991, 158 files, 1.4 MB, and an entry point of PLAY.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shen-zhou-ba-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%B7%9E%E5%85%AB%E5%89%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shen-zhou-ba-jian.zip"],
           ["Size", "1,509,690 bytes (1.4 MB)"],
           ["SHA-256", "3ebfb90eba22f87e7844bc0cb8b9e1d6630c4451dd6cc841191bafaea471fab3"],
           ["Files", "158"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A5%9E%E5%B7%9E%E5%85%AB%E5%89%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 神州八剑 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shen-zhou-ba-jian.zip", external: true},
+          {label: "Download 神州八剑 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%B7%9E%E5%85%AB%E5%89%91.zip", external: true},
         ]},
       ],
     },

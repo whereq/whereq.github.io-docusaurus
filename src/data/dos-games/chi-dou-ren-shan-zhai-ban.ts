@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "吃豆人山寨版 is a DOS game in the WhereQ archive — 1991, 13 files, 200 KB, and an entry point of CDMAN.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren-shan-zhai-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%B1%B1%E5%AF%A8%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chi-dou-ren-shan-zhai-ban.zip"],
           ["Size", "204,479 bytes (200 KB)"],
           ["SHA-256", "8fa0ff21a82937e12941f96e315c5f0abfa7673563e0ae268b1df06112f8b290"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%B1%B1%E5%AF%A8%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吃豆人山寨版 (200 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren-shan-zhai-ban.zip", external: true},
+          {label: "Download 吃豆人山寨版 (200 KB)", href: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%B1%B1%E5%AF%A8%E7%89%88.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "寻找鲸鱼座 is a DOS game in the WhereQ archive — 1991, 55 files, 6.6 MB, and an entry point of PLAY.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xun-zhao-jing-yu-zuo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E9%B2%B8%E9%B1%BC%E5%BA%A7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xun-zhao-jing-yu-zuo.zip"],
           ["Size", "6,908,031 bytes (6.6 MB)"],
           ["SHA-256", "e335d3d7bea79efbe1b7cf42b4044e840c9c51127d3b3cadcb9b5d106ddb0143"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E9%B2%B8%E9%B1%BC%E5%BA%A7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 寻找鲸鱼座 (6.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xun-zhao-jing-yu-zuo.zip", external: true},
+          {label: "Download 寻找鲸鱼座 (6.6 MB)", href: "https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E9%B2%B8%E9%B1%BC%E5%BA%A7.zip", external: true},
         ]},
       ],
     },

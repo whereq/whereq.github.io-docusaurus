@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "绝音魔琴 is a DOS game in the WhereQ archive — 2008, 336 files, 57.5 MB, and an entry point of HOPE.EXE.",
   status: "2008",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-yin-mo-qin.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%9D%E9%9F%B3%E9%AD%94%E7%90%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2008"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-yin-mo-qin.zip"],
           ["Size", "60,264,122 bytes (57.5 MB)"],
           ["SHA-256", "9eee13e6a088ed71066429ca82c6821ffa1af030cb2e379d99df05439c25807a"],
           ["Files", "336"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%9D%E9%9F%B3%E9%AD%94%E7%90%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 绝音魔琴 (57.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-yin-mo-qin.zip", external: true},
+          {label: "Download 绝音魔琴 (57.5 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%9D%E9%9F%B3%E9%AD%94%E7%90%B4.zip", external: true},
         ]},
       ],
     },

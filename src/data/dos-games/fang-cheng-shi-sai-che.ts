@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "方程式赛车 is a DOS game in the WhereQ archive — 1989, 66 files, 333 KB, and an entry point of GPC.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fang-cheng-shi-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fang-cheng-shi-sai-che.zip"],
           ["Size", "341,392 bytes (333 KB)"],
           ["SHA-256", "a94fc9be9bf363333bd58842c2dd5c95f610f4bb8a8ad7c21b6c56e98184ae88"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 方程式赛车 (333 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fang-cheng-shi-sai-che.zip", external: true},
+          {label: "Download 方程式赛车 (333 KB)", href: "https://dos-bin.zczc.cz/%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

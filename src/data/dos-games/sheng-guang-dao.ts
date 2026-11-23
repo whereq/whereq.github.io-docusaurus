@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣光岛 is a DOS game in the WhereQ archive — 1997, 1,557 files, 148.1 MB, and an entry point of game.exe.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-guang-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%85%89%E5%B2%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-guang-dao.zip"],
           ["Size", "155,277,566 bytes (148.1 MB)"],
           ["SHA-256", "40cbec9c0eb8b9540a33796e8ed5f45b874626df60d90f49c768f011498f93c7"],
           ["Files", "1,557"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E5%85%89%E5%B2%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣光岛 (148.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-guang-dao.zip", external: true},
+          {label: "Download 圣光岛 (148.1 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%85%89%E5%B2%9B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河飞将2 is a DOS game in the WhereQ archive — 1995, 350 files, 14.2 MB, and an entry point of WC2.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%862.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-fei-jiang-2.zip"],
           ["Size", "14,850,105 bytes (14.2 MB)"],
           ["SHA-256", "2d506d56ef8c244ba55b03cb6de714f2b41998b4f62133cbb660e859d940a51b"],
           ["Files", "350"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%862.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河飞将2 (14.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-2.zip", external: true},
+          {label: "Download 银河飞将2 (14.2 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%862.zip", external: true},
         ]},
       ],
     },

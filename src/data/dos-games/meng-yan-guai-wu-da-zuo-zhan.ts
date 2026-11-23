@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "梦魇怪物大作战 is a DOS game in the WhereQ archive — 1993, 12 files, 2.7 MB, and an entry point of play.bat.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/meng-yan-guai-wu-da-zuo-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A2%A6%E9%AD%87%E6%80%AA%E7%89%A9%E5%A4%A7%E4%BD%9C%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "meng-yan-guai-wu-da-zuo-zhan.zip"],
           ["Size", "2,802,297 bytes (2.7 MB)"],
           ["SHA-256", "c71dcf0b3578594201c3a1707a965218b3dfd847ae6daaa21f29682f843a48b0"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A2%A6%E9%AD%87%E6%80%AA%E7%89%A9%E5%A4%A7%E4%BD%9C%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 梦魇怪物大作战 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/meng-yan-guai-wu-da-zuo-zhan.zip", external: true},
+          {label: "Download 梦魇怪物大作战 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E6%A2%A6%E9%AD%87%E6%80%AA%E7%89%A9%E5%A4%A7%E4%BD%9C%E6%88%98.zip", external: true},
         ]},
       ],
     },

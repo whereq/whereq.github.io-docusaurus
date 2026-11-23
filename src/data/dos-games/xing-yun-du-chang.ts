@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "幸运赌场 is a DOS game in the WhereQ archive — 1994, 90 files, 1.2 MB, and an entry point of BTH.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-yun-du-chang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%B8%E8%BF%90%E8%B5%8C%E5%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-yun-du-chang.zip"],
           ["Size", "1,297,299 bytes (1.2 MB)"],
           ["SHA-256", "2571a505e1816060a378da15db33075af5529de3dff635bbed1dbe8bf5fb9596"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%B8%E8%BF%90%E8%B5%8C%E5%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幸运赌场 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-yun-du-chang.zip", external: true},
+          {label: "Download 幸运赌场 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%B8%E8%BF%90%E8%B5%8C%E5%9C%BA.zip", external: true},
         ]},
       ],
     },

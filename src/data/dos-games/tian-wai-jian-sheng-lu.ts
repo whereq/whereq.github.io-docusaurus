@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天外剑圣录 is a DOS game in the WhereQ archive — 1993, 478 files, 5.9 MB, and an entry point of GAME.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-wai-jian-sheng-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%A4%96%E5%89%91%E5%9C%A3%E5%BD%95.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-wai-jian-sheng-lu.zip"],
           ["Size", "6,208,269 bytes (5.9 MB)"],
           ["SHA-256", "c7ffc6d2bb32d900ec742b863dd336366e961595af58936dbd62b33986c55e07"],
           ["Files", "478"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E5%A4%96%E5%89%91%E5%9C%A3%E5%BD%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天外剑圣录 (5.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-wai-jian-sheng-lu.zip", external: true},
+          {label: "Download 天外剑圣录 (5.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%A4%96%E5%89%91%E5%9C%A3%E5%BD%95.zip", external: true},
         ]},
       ],
     },

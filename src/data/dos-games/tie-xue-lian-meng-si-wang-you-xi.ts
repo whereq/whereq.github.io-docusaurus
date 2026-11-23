@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁血联盟死亡游戏 is a DOS game in the WhereQ archive — 1996, 467 files, 11.1 MB, and an entry point of DG.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-lian-meng-si-wang-you-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F%E6%AD%BB%E4%BA%A1%E6%B8%B8%E6%88%8F.zip",
   facts: [
     {label: "Developer", value: "SIR-TECH"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-xue-lian-meng-si-wang-you-xi.zip"],
           ["Size", "11,654,213 bytes (11.1 MB)"],
           ["SHA-256", "e31ec39fc31ff9f91c0193fafa52dbfd4cf1fa0fe8c1154f6f6c3d9470218ad8"],
           ["Files", "467"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F%E6%AD%BB%E4%BA%A1%E6%B8%B8%E6%88%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁血联盟死亡游戏 (11.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-lian-meng-si-wang-you-xi.zip", external: true},
+          {label: "Download 铁血联盟死亡游戏 (11.1 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F%E6%AD%BB%E4%BA%A1%E6%B8%B8%E6%88%8F.zip", external: true},
         ]},
       ],
     },

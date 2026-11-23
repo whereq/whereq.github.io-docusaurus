@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "荣耀之路2 is a DOS game in the WhereQ archive — 1990, 50 files, 8.0 MB, and an entry point of SCIV.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "rong-yao-zhi-lu-2.zip"],
           ["Size", "8,433,692 bytes (8.0 MB)"],
           ["SHA-256", "dffbda4c84edc0f9227ae2c33f10e5d031182dfcdaba698937b752c5bd17b56b"],
           ["Files", "50"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 荣耀之路2 (8.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-2.zip", external: true},
+          {label: "Download 荣耀之路2 (8.0 MB)", href: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF2.zip", external: true},
         ]},
       ],
     },

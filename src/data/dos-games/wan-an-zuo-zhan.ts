@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "湾岸作战 is a DOS game in the WhereQ archive — 1995, 4 files, 2.8 MB, and an entry point of DESERT.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wan-an-zuo-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B9%BE%E5%B2%B8%E4%BD%9C%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wan-an-zuo-zhan.zip"],
           ["Size", "2,887,567 bytes (2.8 MB)"],
           ["SHA-256", "e44a97e975e28705cd4b6412131014d65c54bf6ee2cd834a5ba53ceaed17fae8"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B9%BE%E5%B2%B8%E4%BD%9C%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 湾岸作战 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wan-an-zuo-zhan.zip", external: true},
+          {label: "Download 湾岸作战 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E6%B9%BE%E5%B2%B8%E4%BD%9C%E6%88%98.zip", external: true},
         ]},
       ],
     },

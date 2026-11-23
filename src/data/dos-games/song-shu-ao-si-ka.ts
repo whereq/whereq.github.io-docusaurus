@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "松鼠奥斯卡 is a DOS game in the WhereQ archive — 1992, 243 files, 1.6 MB, and an entry point of OSCAR.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/s/song-shu-ao-si-ka.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9D%BE%E9%BC%A0%E5%A5%A5%E6%96%AF%E5%8D%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "song-shu-ao-si-ka.zip"],
           ["Size", "1,702,091 bytes (1.6 MB)"],
           ["SHA-256", "def06a45aa940da24f2fc51019277567db376f1cc467848604f4f0ed287b55e4"],
           ["Files", "243"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9D%BE%E9%BC%A0%E5%A5%A5%E6%96%AF%E5%8D%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 松鼠奥斯卡 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/song-shu-ao-si-ka.zip", external: true},
+          {label: "Download 松鼠奥斯卡 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E6%9D%BE%E9%BC%A0%E5%A5%A5%E6%96%AF%E5%8D%A1.zip", external: true},
         ]},
       ],
     },

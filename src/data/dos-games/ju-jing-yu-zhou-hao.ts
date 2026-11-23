@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "巨鲸宇宙号 is a DOS game in the WhereQ archive — 1993, 588 files, 2.2 MB, and an entry point of WV.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ju-jing-yu-zhou-hao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%A8%E9%B2%B8%E5%AE%87%E5%AE%99%E5%8F%B7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ju-jing-yu-zhou-hao.zip"],
           ["Size", "2,303,627 bytes (2.2 MB)"],
           ["SHA-256", "4da7f2963460d7264a18c0bc9d8abb7a82e832603420937a82aff5a7c9182c42"],
           ["Files", "588"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%A8%E9%B2%B8%E5%AE%87%E5%AE%99%E5%8F%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巨鲸宇宙号 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ju-jing-yu-zhou-hao.zip", external: true},
+          {label: "Download 巨鲸宇宙号 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%A8%E9%B2%B8%E5%AE%87%E5%AE%99%E5%8F%B7.zip", external: true},
         ]},
       ],
     },

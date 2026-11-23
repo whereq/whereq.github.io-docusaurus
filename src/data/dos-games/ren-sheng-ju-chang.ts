@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "人生剧场 is a DOS game in the WhereQ archive — 1990, 27 files, 588 KB, and an entry point of JONES.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ren-sheng-ju-chang.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%94%9F%E5%89%A7%E5%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ren-sheng-ju-chang.zip"],
           ["Size", "601,753 bytes (588 KB)"],
           ["SHA-256", "b5fb9ced25cfc2000b3bd5f002c1f15ca03e0148c2b1e59b24f20f5b03b7d061"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%BA%E7%94%9F%E5%89%A7%E5%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 人生剧场 (588 KB)", href: "https://github.com/whereq/dos-games/releases/download/r/ren-sheng-ju-chang.zip", external: true},
+          {label: "Download 人生剧场 (588 KB)", href: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%94%9F%E5%89%A7%E5%9C%BA.zip", external: true},
         ]},
       ],
     },

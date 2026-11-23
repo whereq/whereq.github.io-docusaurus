@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "进化鱼 is a DOS game in the WhereQ archive — 1993, 110 files, 2.6 MB, and an entry point of ELFISH.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jin-hua-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%9B%E5%8C%96%E9%B1%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jin-hua-yu.zip"],
           ["Size", "2,761,744 bytes (2.6 MB)"],
           ["SHA-256", "8ae9fd8a8bbe8ee4a94b446f055b24f84285bf5d1dfab13c068b36ba7361d229"],
           ["Files", "110"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%9B%E5%8C%96%E9%B1%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 进化鱼 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jin-hua-yu.zip", external: true},
+          {label: "Download 进化鱼 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E8%BF%9B%E5%8C%96%E9%B1%BC.zip", external: true},
         ]},
       ],
     },

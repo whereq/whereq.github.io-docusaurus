@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魅力游戏 is a DOS game in the WhereQ archive — an undated copy, 9 files, 3.6 MB, and an entry point of GO.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-li-you-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%85%E5%8A%9B%E6%B8%B8%E6%88%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-li-you-xi.zip"],
           ["Size", "3,805,055 bytes (3.6 MB)"],
           ["SHA-256", "55f876a7bef7b1bf6f71840f58f3d78921576583fdfc93febd1267c9bb30239b"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%85%E5%8A%9B%E6%B8%B8%E6%88%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魅力游戏 (3.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-li-you-xi.zip", external: true},
+          {label: "Download 魅力游戏 (3.6 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%85%E5%8A%9B%E6%B8%B8%E6%88%8F.zip", external: true},
         ]},
       ],
     },

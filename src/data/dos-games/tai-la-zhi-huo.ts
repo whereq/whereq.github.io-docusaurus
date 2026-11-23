@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "泰拉之火 is a DOS game in the WhereQ archive — 2007, 8 files, 2.1 MB, and an entry point of part2.exe.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-la-zhi-huo.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B3%B0%E6%8B%89%E4%B9%8B%E7%81%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-la-zhi-huo.zip"],
           ["Size", "2,242,335 bytes (2.1 MB)"],
           ["SHA-256", "a0e2f496ac7fdd611abfe58a543ed6d8b276356f6d240655f6b4ee340ad90d06"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B3%B0%E6%8B%89%E4%B9%8B%E7%81%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 泰拉之火 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-la-zhi-huo.zip", external: true},
+          {label: "Download 泰拉之火 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E6%B3%B0%E6%8B%89%E4%B9%8B%E7%81%AB.zip", external: true},
         ]},
       ],
     },

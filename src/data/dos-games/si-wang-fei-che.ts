@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死亡飞车 is a DOS game in the WhereQ archive — 1997, 4,679 files, 84.9 MB, and an entry point of play.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-fei-che.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%A3%9E%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-wang-fei-che.zip"],
           ["Size", "89,035,253 bytes (84.9 MB)"],
           ["SHA-256", "2f59ec0ee5243cd9c42312293ffdd926e6f122777a4af15cffb58bc1aac2ec6a"],
           ["Files", "4,679"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%A3%9E%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死亡飞车 (84.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-wang-fei-che.zip", external: true},
+          {label: "Download 死亡飞车 (84.9 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%A3%9E%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

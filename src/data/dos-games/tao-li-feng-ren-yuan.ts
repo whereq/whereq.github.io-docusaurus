@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "逃离疯人院 is a DOS game in the WhereQ archive — 1996, 19 files, 4.6 MB, and an entry point of DELIRIUM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tao-li-feng-ren-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E7%96%AF%E4%BA%BA%E9%99%A2.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tao-li-feng-ren-yuan.zip"],
           ["Size", "4,850,000 bytes (4.6 MB)"],
           ["SHA-256", "44c836a72af4c09da9071d69921f9f36519919ed354a037e8926a40f93b6f0a8"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E7%96%AF%E4%BA%BA%E9%99%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 逃离疯人院 (4.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tao-li-feng-ren-yuan.zip", external: true},
+          {label: "Download 逃离疯人院 (4.6 MB)", href: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E7%96%AF%E4%BA%BA%E9%99%A2.zip", external: true},
         ]},
       ],
     },

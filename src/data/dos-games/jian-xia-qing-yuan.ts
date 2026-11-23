@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "剑侠情缘 is a DOS game in the WhereQ archive — 2009, 1,071 files, 74.8 MB, and an entry point of PLAY.BAT.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jian-xia-qing-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jian-xia-qing-yuan.zip"],
           ["Size", "78,443,429 bytes (74.8 MB)"],
           ["SHA-256", "cd6305ff8816c2802708d14a503b6ae931fcc29610461dcc277d48c62fe69308"],
           ["Files", "1,071"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 剑侠情缘 (74.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jian-xia-qing-yuan.zip", external: true},
+          {label: "Download 剑侠情缘 (74.8 MB)", href: "https://dos-bin.zczc.cz/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98.zip", external: true},
         ]},
       ],
     },

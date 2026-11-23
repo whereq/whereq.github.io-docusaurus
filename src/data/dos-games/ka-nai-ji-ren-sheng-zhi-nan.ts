@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "卡耐鸡人生指南 is a DOS game in the WhereQ archive — 1994, 107 files, 2.8 MB, and an entry point of KNG.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ka-nai-ji-ren-sheng-zhi-nan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A1%E8%80%90%E9%B8%A1%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ka-nai-ji-ren-sheng-zhi-nan.zip"],
           ["Size", "2,978,926 bytes (2.8 MB)"],
           ["SHA-256", "1c3244b277c9436d38db3b965751ceaf0b141c2f8c74c7b4b49d2f0a17257803"],
           ["Files", "107"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A1%E8%80%90%E9%B8%A1%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卡耐鸡人生指南 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ka-nai-ji-ren-sheng-zhi-nan.zip", external: true},
+          {label: "Download 卡耐鸡人生指南 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%A1%E8%80%90%E9%B8%A1%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97.zip", external: true},
         ]},
       ],
     },

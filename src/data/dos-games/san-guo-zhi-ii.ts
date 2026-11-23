@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三国志II is a DOS game in the WhereQ archive — 1992, 21 files, 873 KB, and an entry point of Koei.bat.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-ii.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%972.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-guo-zhi-ii.zip"],
           ["Size", "893,672 bytes (873 KB)"],
           ["SHA-256", "1f6ffff5f68aae2479b777fc585532bcbdb274d134c1e373ee7a17ecb791100e"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%972.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三国志II (873 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-ii.zip", external: true},
+          {label: "Download 三国志II (873 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%972.zip", external: true},
         ]},
       ],
     },

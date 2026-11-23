@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "嬉笑春秋 is a DOS game in the WhereQ archive — 1995, 484 files, 2.7 MB, and an entry point of PLAY.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-xiao-chun-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AC%89%E7%AC%91%E6%98%A5%E7%A7%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-xiao-chun-qiu.zip"],
           ["Size", "2,812,357 bytes (2.7 MB)"],
           ["SHA-256", "9ad210d0ff462c6e88e252782608cd8f738adffe340dd22b780494d91c868d5d"],
           ["Files", "484"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AC%89%E7%AC%91%E6%98%A5%E7%A7%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 嬉笑春秋 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-xiao-chun-qiu.zip", external: true},
+          {label: "Download 嬉笑春秋 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E5%AC%89%E7%AC%91%E6%98%A5%E7%A7%8B.zip", external: true},
         ]},
       ],
     },

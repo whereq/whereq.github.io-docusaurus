@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "鉴赏家 is a DOS game in the WhereQ archive — an undated copy, 312 files, 8.1 MB, and an entry point of VIRTUOSO.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jian-shang-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E9%89%B4%E8%B5%8F%E5%AE%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jian-shang-jia.zip"],
           ["Size", "8,454,225 bytes (8.1 MB)"],
           ["SHA-256", "92c3325a2d3932c367e36e97eff06b8be7f45ca8ef8af1d7bdd1fa549db5f630"],
           ["Files", "312"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%89%B4%E8%B5%8F%E5%AE%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鉴赏家 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jian-shang-jia.zip", external: true},
+          {label: "Download 鉴赏家 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E9%89%B4%E8%B5%8F%E5%AE%B6.zip", external: true},
         ]},
       ],
     },

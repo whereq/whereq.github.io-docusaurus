@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "最后期限 is a DOS game in the WhereQ archive — 1996, 725 files, 26.9 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-qi-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E6%9C%9F%E9%99%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zui-hou-qi-xian.zip"],
           ["Size", "28,188,768 bytes (26.9 MB)"],
           ["SHA-256", "954726c1a5c33abc65840b8b6a49d5a25437ef39e20e9515362fbd9d6ab274fc"],
           ["Files", "725"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E6%9C%9F%E9%99%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 最后期限 (26.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-qi-xian.zip", external: true},
+          {label: "Download 最后期限 (26.9 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E6%9C%9F%E9%99%90.zip", external: true},
         ]},
       ],
     },

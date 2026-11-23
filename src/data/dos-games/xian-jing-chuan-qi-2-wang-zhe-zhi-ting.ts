@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "仙境传奇2亡者之庁 is a DOS game in the WhereQ archive — an undated copy, 51 files, 297.8 MB, and an entry point of DOSBOX.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xian-jing-chuan-qi-2-wang-zhe-zhi-ting.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%872%E4%BA%A1%E8%80%85%E4%B9%8B%E5%BA%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xian-jing-chuan-qi-2-wang-zhe-zhi-ting.zip"],
           ["Size", "312,238,288 bytes (297.8 MB)"],
           ["SHA-256", "98d01797cc7f59bb5f22de8a1165d1a5615c9811be11302059d092d9d3bc1608"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%872%E4%BA%A1%E8%80%85%E4%B9%8B%E5%BA%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 仙境传奇2亡者之庁 (297.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xian-jing-chuan-qi-2-wang-zhe-zhi-ting.zip", external: true},
+          {label: "Download 仙境传奇2亡者之庁 (297.8 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%872%E4%BA%A1%E8%80%85%E4%B9%8B%E5%BA%81.zip", external: true},
         ]},
       ],
     },

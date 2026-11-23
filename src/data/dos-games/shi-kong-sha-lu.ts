@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "时空杀戮 is a DOS game in the WhereQ archive — 1996, 66 files, 12.3 MB, and an entry point of TS.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-sha-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%9D%80%E6%88%AE.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-kong-sha-lu.zip"],
           ["Size", "12,873,870 bytes (12.3 MB)"],
           ["SHA-256", "6652d1a0fbae530ba6ff40663a77e543dde101c821fab5b9d18af636b47c7e7c"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%9D%80%E6%88%AE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 时空杀戮 (12.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-sha-lu.zip", external: true},
+          {label: "Download 时空杀戮 (12.3 MB)", href: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%9D%80%E6%88%AE.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小精灵历险 is a DOS game in the WhereQ archive — 2007, 50 files, 2.8 MB, and an entry point of PEE.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-jing-ling-li-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E7%B2%BE%E7%81%B5%E5%8E%86%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-jing-ling-li-xian.zip"],
           ["Size", "2,915,469 bytes (2.8 MB)"],
           ["SHA-256", "85ce6d4eca6ae5e96984f689cce6fd54bd638aca6604532f3d61a494818d1f3f"],
           ["Files", "50"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E7%B2%BE%E7%81%B5%E5%8E%86%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小精灵历险 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-jing-ling-li-xian.zip", external: true},
+          {label: "Download 小精灵历险 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E7%B2%BE%E7%81%B5%E5%8E%86%E9%99%A9.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "趣怪小巫师 is a DOS game in the WhereQ archive — 1994, 17 files, 1.2 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qu-guai-xiao-wu-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%A3%E6%80%AA%E5%B0%8F%E5%B7%AB%E5%B8%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qu-guai-xiao-wu-shi.zip"],
           ["Size", "1,283,016 bytes (1.2 MB)"],
           ["SHA-256", "983ef6242aa449e765e0ab31b696a85dd81e90d6edde3dd7613e51bdd2a81489"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%A3%E6%80%AA%E5%B0%8F%E5%B7%AB%E5%B8%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 趣怪小巫师 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qu-guai-xiao-wu-shi.zip", external: true},
+          {label: "Download 趣怪小巫师 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%A3%E6%80%AA%E5%B0%8F%E5%B7%AB%E5%B8%88.zip", external: true},
         ]},
       ],
     },

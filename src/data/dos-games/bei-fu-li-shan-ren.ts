@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "贝弗利山人 is a DOS game in the WhereQ archive — 1993, 44 files, 2.5 MB, and an entry point of hb.exe.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bei-fu-li-shan-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B4%9D%E5%BC%97%E5%88%A9%E5%B1%B1%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bei-fu-li-shan-ren.zip"],
           ["Size", "2,591,651 bytes (2.5 MB)"],
           ["SHA-256", "1cda0a9ed28434bee6c7956555781aa2508c53178b368c1629e1413425f75020"],
           ["Files", "44"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B4%9D%E5%BC%97%E5%88%A9%E5%B1%B1%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 贝弗利山人 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bei-fu-li-shan-ren.zip", external: true},
+          {label: "Download 贝弗利山人 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E8%B4%9D%E5%BC%97%E5%88%A9%E5%B1%B1%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

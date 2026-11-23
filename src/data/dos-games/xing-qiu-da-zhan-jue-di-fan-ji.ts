@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星球大战绝地反击 is a DOS game in the WhereQ archive — 1996, 11 files, 4.7 MB, and an entry point of SSW.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-jue-di-fan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E7%BB%9D%E5%9C%B0%E5%8F%8D%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-qiu-da-zhan-jue-di-fan-ji.zip"],
           ["Size", "4,884,492 bytes (4.7 MB)"],
           ["SHA-256", "a15776db32aaf723036f33102545d64e59eb15a929b3b8b0e757b2b9eedf5822"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E7%BB%9D%E5%9C%B0%E5%8F%8D%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星球大战绝地反击 (4.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-jue-di-fan-ji.zip", external: true},
+          {label: "Download 星球大战绝地反击 (4.7 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E7%BB%9D%E5%9C%B0%E5%8F%8D%E5%87%BB.zip", external: true},
         ]},
       ],
     },

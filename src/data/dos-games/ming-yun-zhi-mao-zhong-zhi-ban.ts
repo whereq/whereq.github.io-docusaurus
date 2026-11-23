@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "命运之矛重制版 is a DOS game in the WhereQ archive — 1996, 23 files, 1.7 MB, and an entry point of SPEAR.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ming-yun-zhi-mao-zhong-zhi-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E4%B9%8B%E7%9F%9B%E9%87%8D%E5%88%B6%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ming-yun-zhi-mao-zhong-zhi-ban.zip"],
           ["Size", "1,735,244 bytes (1.7 MB)"],
           ["SHA-256", "a073c7ea02cdc96c74bcacbb4e72f4c17f9deb8b4f16617962290b9edf6c63f0"],
           ["Files", "23"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E4%B9%8B%E7%9F%9B%E9%87%8D%E5%88%B6%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 命运之矛重制版 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ming-yun-zhi-mao-zhong-zhi-ban.zip", external: true},
+          {label: "Download 命运之矛重制版 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E4%B9%8B%E7%9F%9B%E9%87%8D%E5%88%B6%E7%89%88.zip", external: true},
         ]},
       ],
     },

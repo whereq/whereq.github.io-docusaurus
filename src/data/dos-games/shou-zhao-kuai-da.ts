@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "兽爪快打 is a DOS game in the WhereQ archive — 1996, 205 files, 2.6 MB, and an entry point of BRUTAL.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shou-zhao-kuai-da.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%BD%E7%88%AA%E5%BF%AB%E6%89%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shou-zhao-kuai-da.zip"],
           ["Size", "2,752,156 bytes (2.6 MB)"],
           ["SHA-256", "2d94c2f013efc5541771a352f8332db11e8a732047bd688957db1152bd41f66a"],
           ["Files", "205"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%BD%E7%88%AA%E5%BF%AB%E6%89%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 兽爪快打 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shou-zhao-kuai-da.zip", external: true},
+          {label: "Download 兽爪快打 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E5%85%BD%E7%88%AA%E5%BF%AB%E6%89%93.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "杀出机械城 is a DOS game in the WhereQ archive — 1990, 45 files, 480 KB, and an entry point of X.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-chu-ji-xie-cheng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9D%80%E5%87%BA%E6%9C%BA%E6%A2%B0%E5%9F%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-chu-ji-xie-cheng.zip"],
           ["Size", "491,427 bytes (480 KB)"],
           ["SHA-256", "b0b994524aedf202e9636edd574675536b731624ff316f29ae115097118f01c4"],
           ["Files", "45"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9D%80%E5%87%BA%E6%9C%BA%E6%A2%B0%E5%9F%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 杀出机械城 (480 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-chu-ji-xie-cheng.zip", external: true},
+          {label: "Download 杀出机械城 (480 KB)", href: "https://dos-bin.zczc.cz/%E6%9D%80%E5%87%BA%E6%9C%BA%E6%A2%B0%E5%9F%8E.zip", external: true},
         ]},
       ],
     },

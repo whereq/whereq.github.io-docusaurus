@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "红色男爵 is a DOS game in the WhereQ archive — 1994, 63 files, 1.6 MB, and an entry point of RB.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-nan-jue.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E7%94%B7%E7%88%B5.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hong-se-nan-jue.zip"],
           ["Size", "1,716,645 bytes (1.6 MB)"],
           ["SHA-256", "9999f2f07b40423b6c7d218a17d99931d7b7a48dbf72de8eba1b91d1cdbcb425"],
           ["Files", "63"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E7%94%B7%E7%88%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 红色男爵 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hong-se-nan-jue.zip", external: true},
+          {label: "Download 红色男爵 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E7%94%B7%E7%88%B5.zip", external: true},
         ]},
       ],
     },

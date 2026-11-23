@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "宇宙方舟/太空巨人 is a DOS game in the WhereQ archive — 1995, 382 files, 4.1 MB, and an entry point of HULK.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-fang-zhou-tai-kong-ju-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E6%96%B9%E8%88%9F%EF%BC%8F%E5%A4%AA%E7%A9%BA%E5%B7%A8%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-zhou-fang-zhou-tai-kong-ju-ren.zip"],
           ["Size", "4,256,871 bytes (4.1 MB)"],
           ["SHA-256", "64330896c0c6df97d0c5e0d96858ca32007a5ee392f6246f161b889bc006ce9b"],
           ["Files", "382"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E6%96%B9%E8%88%9F%EF%BC%8F%E5%A4%AA%E7%A9%BA%E5%B7%A8%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宇宙方舟/太空巨人 (4.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-fang-zhou-tai-kong-ju-ren.zip", external: true},
+          {label: "Download 宇宙方舟/太空巨人 (4.1 MB)", href: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E6%96%B9%E8%88%9F%EF%BC%8F%E5%A4%AA%E7%A9%BA%E5%B7%A8%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

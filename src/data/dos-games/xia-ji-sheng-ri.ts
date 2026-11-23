@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "下级生(日) is a DOS game in the WhereQ archive — 1996, 21 files, 18.6 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xia-ji-sheng-ri.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%8B%E7%BA%A7%E7%94%9F%28%E6%97%A5%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xia-ji-sheng-ri.zip"],
           ["Size", "19,526,933 bytes (18.6 MB)"],
           ["SHA-256", "960b1aded4c95ab776d958c99f4dce6b35cd7b3dcb065b61102396b5f6529cef"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%8B%E7%BA%A7%E7%94%9F%28%E6%97%A5%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 下级生(日) (18.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xia-ji-sheng-ri.zip", external: true},
+          {label: "Download 下级生(日) (18.6 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%8B%E7%BA%A7%E7%94%9F%28%E6%97%A5%29.zip", external: true},
         ]},
       ],
     },

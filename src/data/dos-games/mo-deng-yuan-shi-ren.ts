@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "摩登原始人 is a DOS game in the WhereQ archive — 1990, 14 files, 128 KB, and an entry point of FRED.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-deng-yuan-shi-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E6%91%A9%E7%99%BB%E5%8E%9F%E5%A7%8B%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-deng-yuan-shi-ren.zip"],
           ["Size", "131,245 bytes (128 KB)"],
           ["SHA-256", "3140ab724401aaa06b4bd381da3098186d94afbe7c5c68ec65a90b0a3583f419"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%91%A9%E7%99%BB%E5%8E%9F%E5%A7%8B%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 摩登原始人 (128 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-deng-yuan-shi-ren.zip", external: true},
+          {label: "Download 摩登原始人 (128 KB)", href: "https://dos-bin.zczc.cz/%E6%91%A9%E7%99%BB%E5%8E%9F%E5%A7%8B%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

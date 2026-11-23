@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王密使5失城记 is a DOS game in the WhereQ archive — 1990, 51 files, 8.5 MB, and an entry point of KQ5.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-5-shi-cheng-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF5%E5%A4%B1%E5%9F%8E%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-mi-shi-5-shi-cheng-ji.zip"],
           ["Size", "8,914,975 bytes (8.5 MB)"],
           ["SHA-256", "1167f3450fe40be6bf2090154bb511352bb76c106393aab1b9009d01f49a4c33"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF5%E5%A4%B1%E5%9F%8E%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王密使5失城记 (8.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-5-shi-cheng-ji.zip", external: true},
+          {label: "Download 国王密使5失城记 (8.5 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF5%E5%A4%B1%E5%9F%8E%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

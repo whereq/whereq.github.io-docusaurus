@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "英伦霸主2+资料片 is a DOS game in the WhereQ archive — 1996, 1,176 files, 110.2 MB, and an entry point of L2D.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ying-lun-ba-zhu-2-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8B%B1%E4%BC%A6%E9%9C%B8%E4%B8%BB2%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ying-lun-ba-zhu-2-zi-liao-pian.zip"],
           ["Size", "115,549,541 bytes (110.2 MB)"],
           ["SHA-256", "fd701e25b803a6238cc49b444092e320fd3f3b56e3fbf782191caefc25502d28"],
           ["Files", "1,176"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8B%B1%E4%BC%A6%E9%9C%B8%E4%B8%BB2%2B%E8%B5%84%E6%96%99%E7%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 英伦霸主2+资料片 (110.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ying-lun-ba-zhu-2-zi-liao-pian.zip", external: true},
+          {label: "Download 英伦霸主2+资料片 (110.2 MB)", href: "https://dos-bin.zczc.cz/%E8%8B%B1%E4%BC%A6%E9%9C%B8%E4%B8%BB2%2B%E8%B5%84%E6%96%99%E7%89%87.zip", external: true},
         ]},
       ],
     },

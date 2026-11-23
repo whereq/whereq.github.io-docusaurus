@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战线1981 is a DOS game in the WhereQ archive — 1996, 3 files, 47 KB, and an entry point of bzone.com.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-xian-1981.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E7%BA%BF1981.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-xian-1981.zip"],
           ["Size", "48,567 bytes (47 KB)"],
           ["SHA-256", "aa2f8cc6e1e6944fb8d14d51cd1d0b7f978b9b612f92317d4ade2b248397937a"],
           ["Files", "3"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E7%BA%BF1981.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战线1981 (47 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-xian-1981.zip", external: true},
+          {label: "Download 战线1981 (47 KB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E7%BA%BF1981.zip", external: true},
         ]},
       ],
     },

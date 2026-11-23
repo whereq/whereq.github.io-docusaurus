@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "猎杀潜航 is a DOS game in the WhereQ archive — 1997, 816 files, 65.4 MB, and an entry point of SH.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lie-sha-qian-hang.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8C%8E%E6%9D%80%E6%BD%9C%E8%88%AA.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lie-sha-qian-hang.zip"],
           ["Size", "68,579,942 bytes (65.4 MB)"],
           ["SHA-256", "0e23ba4555644b3c3c7042c8df5cdf02b8c23d8788af0d046bf4bfd7dc7feb84"],
           ["Files", "816"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8C%8E%E6%9D%80%E6%BD%9C%E8%88%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 猎杀潜航 (65.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lie-sha-qian-hang.zip", external: true},
+          {label: "Download 猎杀潜航 (65.4 MB)", href: "https://dos-bin.zczc.cz/%E7%8C%8E%E6%9D%80%E6%BD%9C%E8%88%AA.zip", external: true},
         ]},
       ],
     },

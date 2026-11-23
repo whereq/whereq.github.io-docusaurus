@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "妖魔道 is a DOS game in the WhereQ archive — 1994, 311 files, 17.0 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yao-mo-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A6%96%E9%AD%94%E9%81%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yao-mo-dao.zip"],
           ["Size", "17,856,552 bytes (17.0 MB)"],
           ["SHA-256", "f9d4e8b1e2157bea6a47caef18941e2544366a98c4932569d27f2e4972b25dec"],
           ["Files", "311"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A6%96%E9%AD%94%E9%81%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 妖魔道 (17.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yao-mo-dao.zip", external: true},
+          {label: "Download 妖魔道 (17.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A6%96%E9%AD%94%E9%81%93.zip", external: true},
         ]},
       ],
     },

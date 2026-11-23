@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟过山车 is a DOS game in the WhereQ archive — 1993, 21 files, 914 KB, and an entry point of COASTER.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-guo-shan-che.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E8%BF%87%E5%B1%B1%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-guo-shan-che.zip"],
           ["Size", "936,143 bytes (914 KB)"],
           ["SHA-256", "c3ef844938d8456e6c2b17744c9955a473f4d21ec269f895e49271680e3b9778"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E8%BF%87%E5%B1%B1%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟过山车 (914 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-guo-shan-che.zip", external: true},
+          {label: "Download 模拟过山车 (914 KB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E8%BF%87%E5%B1%B1%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

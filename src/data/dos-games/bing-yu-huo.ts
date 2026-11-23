@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "冰与火 is a DOS game in the WhereQ archive — 1996, 2 files, 733 KB, and an entry point of fire.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bing-yu-huo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%B0%E4%B8%8E%E7%81%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bing-yu-huo.zip"],
           ["Size", "750,714 bytes (733 KB)"],
           ["SHA-256", "4e8dfc60bde09b1bd943e57c6cd6ae1ae0e5c133260811ae96f429c719efa6ef"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%B0%E4%B8%8E%E7%81%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 冰与火 (733 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bing-yu-huo.zip", external: true},
+          {label: "Download 冰与火 (733 KB)", href: "https://dos-bin.zczc.cz/%E5%86%B0%E4%B8%8E%E7%81%AB.zip", external: true},
         ]},
       ],
     },

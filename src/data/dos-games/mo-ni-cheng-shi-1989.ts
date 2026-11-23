@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟城市(1989) is a DOS game in the WhereQ archive — 1989, 26 files, 501 KB, and an entry point of SIMCITY.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-cheng-shi-1989.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82%281989%29.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-cheng-shi-1989.zip"],
           ["Size", "513,016 bytes (501 KB)"],
           ["SHA-256", "b40d45941095cad1274e31ebc18df3ed6cd16f9f26a5c036176e2365cd817826"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82%281989%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟城市(1989) (501 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-cheng-shi-1989.zip", external: true},
+          {label: "Download 模拟城市(1989) (501 KB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82%281989%29.zip", external: true},
         ]},
       ],
     },

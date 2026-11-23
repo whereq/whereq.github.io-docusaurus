@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "日蚀 is a DOS game in the WhereQ archive — 1995, 57 files, 102.7 MB, and an entry point of ECP.exe.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ri-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A5%E8%9A%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ri-shi.zip"],
           ["Size", "107,730,281 bytes (102.7 MB)"],
           ["SHA-256", "9cf03fb3642cd5899c06f8a9ba860c8261825b9011648c67d015a109d73b2d9d"],
           ["Files", "57"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A5%E8%9A%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 日蚀 (102.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/ri-shi.zip", external: true},
+          {label: "Download 日蚀 (102.7 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A5%E8%9A%80.zip", external: true},
         ]},
       ],
     },

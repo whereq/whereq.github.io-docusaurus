@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "赛马 is a DOS game in the WhereQ archive — 1994, 9 files, 263 KB, and an entry point of GTF.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sai-ma.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B5%9B%E9%A9%AC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sai-ma.zip"],
           ["Size", "269,630 bytes (263 KB)"],
           ["SHA-256", "572735c2e5b949efda1507ec520784743b0ae08b8da364b42251987292c284c4"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B5%9B%E9%A9%AC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 赛马 (263 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sai-ma.zip", external: true},
+          {label: "Download 赛马 (263 KB)", href: "https://dos-bin.zczc.cz/%E8%B5%9B%E9%A9%AC.zip", external: true},
         ]},
       ],
     },

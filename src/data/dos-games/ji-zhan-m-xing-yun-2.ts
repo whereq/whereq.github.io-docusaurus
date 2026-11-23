@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "激战M星云2 is a DOS game in the WhereQ archive — 1996, 68 files, 6.8 MB, and an entry point of play.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-m-xing-yun-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%912.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-zhan-m-xing-yun-2.zip"],
           ["Size", "7,150,903 bytes (6.8 MB)"],
           ["SHA-256", "3f404a3917c074892c9ba0e8ddad765090e958c58fe64f5e2ddbf7c81b25c1a0"],
           ["Files", "68"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%912.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 激战M星云2 (6.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-m-xing-yun-2.zip", external: true},
+          {label: "Download 激战M星云2 (6.8 MB)", href: "https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%912.zip", external: true},
         ]},
       ],
     },

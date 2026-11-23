@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "试验驾驶2 is a DOS game in the WhereQ archive — 1989, 77 files, 372 KB, and an entry point of RUNME.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-yan-jia-shi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B62.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-yan-jia-shi-2.zip"],
           ["Size", "380,556 bytes (372 KB)"],
           ["SHA-256", "212e95c699ea5237e3fec2bab9074b9d60f9103ed3b5f414ce1182360ac94bbe"],
           ["Files", "77"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B62.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 试验驾驶2 (372 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-yan-jia-shi-2.zip", external: true},
+          {label: "Download 试验驾驶2 (372 KB)", href: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B62.zip", external: true},
         ]},
       ],
     },

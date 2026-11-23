@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "玉米飞机大战外星人 is a DOS game in the WhereQ archive — 1992, 113 files, 613 KB, and an entry point of MOAG.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-mi-fei-ji-da-zhan-wai-xing-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%89%E7%B1%B3%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-mi-fei-ji-da-zhan-wai-xing-ren.zip"],
           ["Size", "628,184 bytes (613 KB)"],
           ["SHA-256", "92b6b18cd51d3151fb0308e1d38c71ba5bfd7b26b13d86fabebb8739f54d38cb"],
           ["Files", "113"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%89%E7%B1%B3%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 玉米飞机大战外星人 (613 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-mi-fei-ji-da-zhan-wai-xing-ren.zip", external: true},
+          {label: "Download 玉米飞机大战外星人 (613 KB)", href: "https://dos-bin.zczc.cz/%E7%8E%89%E7%B1%B3%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

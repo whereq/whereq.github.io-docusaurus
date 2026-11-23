@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "乱世伏魔录 is a DOS game in the WhereQ archive — 1993, 48 files, 3.0 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luan-shi-fu-mo-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B9%B1%E4%B8%96%E4%BC%8F%E9%AD%94%E5%BD%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luan-shi-fu-mo-lu.zip"],
           ["Size", "3,101,545 bytes (3.0 MB)"],
           ["SHA-256", "da5ba48b7cac49595e5d2b7282b708c3a825fa5a4a6451d8a5d87ac182c73651"],
           ["Files", "48"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B9%B1%E4%B8%96%E4%BC%8F%E9%AD%94%E5%BD%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 乱世伏魔录 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/luan-shi-fu-mo-lu.zip", external: true},
+          {label: "Download 乱世伏魔录 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E4%B9%B1%E4%B8%96%E4%BC%8F%E9%AD%94%E5%BD%95.zip", external: true},
         ]},
       ],
     },

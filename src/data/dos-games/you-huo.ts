@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "诱惑 is a DOS game in the WhereQ archive — 1992, 16 files, 3.9 MB, and an entry point of LURE.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/you-huo.zip",
+  url: "https://dos-bin.zczc.cz/%E8%AF%B1%E6%83%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "you-huo.zip"],
           ["Size", "4,038,964 bytes (3.9 MB)"],
           ["SHA-256", "fd3d7182e865b0ff9cc32123ab284e8644bf20d77765e5bf8882aae9283a066b"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%AF%B1%E6%83%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 诱惑 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/you-huo.zip", external: true},
+          {label: "Download 诱惑 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E8%AF%B1%E6%83%91.zip", external: true},
         ]},
       ],
     },

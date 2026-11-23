@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星球大战暗影力量 is a DOS game in the WhereQ archive — 1996, 59 files, 29.2 MB, and an entry point of dark.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-an-ying-li-liang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E6%9A%97%E5%BD%B1%E5%8A%9B%E9%87%8F.zip",
   facts: [
     {label: "Developer", value: "PROBE"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-qiu-da-zhan-an-ying-li-liang.zip"],
           ["Size", "30,602,824 bytes (29.2 MB)"],
           ["SHA-256", "e3a6dd9c5ab693b6fb402e5cb0464166be3d8f84f766f03c41015cefb7b654ce"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E6%9A%97%E5%BD%B1%E5%8A%9B%E9%87%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星球大战暗影力量 (29.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-an-ying-li-liang.zip", external: true},
+          {label: "Download 星球大战暗影力量 (29.2 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E6%9A%97%E5%BD%B1%E5%8A%9B%E9%87%8F.zip", external: true},
         ]},
       ],
     },

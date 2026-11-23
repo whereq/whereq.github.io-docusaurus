@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王的桌游 is a DOS game in the WhereQ archive — 1999, 62 files, 1.7 MB, and an entry point of RAGNAROK.BAT.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-de-zhuo-you.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%A1%8C%E6%B8%B8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-de-zhuo-you.zip"],
           ["Size", "1,799,100 bytes (1.7 MB)"],
           ["SHA-256", "540edd40f2d112c19cb0e516963366b6b3635ce0a558d808210fe03a480ec18f"],
           ["Files", "62"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%A1%8C%E6%B8%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王的桌游 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-de-zhuo-you.zip", external: true},
+          {label: "Download 国王的桌游 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%A1%8C%E6%B8%B8.zip", external: true},
         ]},
       ],
     },

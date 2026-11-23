@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "博物馆惊魂夜 is a DOS game in the WhereQ archive — 1994, 13 files, 7.9 MB, and an entry point of SETUP.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bo-wu-guan-jing-hun-ye.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%9A%E7%89%A9%E9%A6%86%E6%83%8A%E9%AD%82%E5%A4%9C.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bo-wu-guan-jing-hun-ye.zip"],
           ["Size", "8,280,785 bytes (7.9 MB)"],
           ["SHA-256", "73dc9f24d8fb34d8f18df55c3d7b485e2b3b4cf0807bf8d9f9acf996cf4677f7"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%9A%E7%89%A9%E9%A6%86%E6%83%8A%E9%AD%82%E5%A4%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 博物馆惊魂夜 (7.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bo-wu-guan-jing-hun-ye.zip", external: true},
+          {label: "Download 博物馆惊魂夜 (7.9 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%9A%E7%89%A9%E9%A6%86%E6%83%8A%E9%AD%82%E5%A4%9C.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔眼封印 is a DOS game in the WhereQ archive — 1994, 88 files, 8.2 MB, and an entry point of SEAL.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-feng-yin.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E5%B0%81%E5%8D%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yan-feng-yin.zip"],
           ["Size", "8,582,084 bytes (8.2 MB)"],
           ["SHA-256", "aa0f7ce183ef757d0e1238adc3ad1f4eb23da197f4655e07a8d07dd129eb00fc"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E5%B0%81%E5%8D%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔眼封印 (8.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-feng-yin.zip", external: true},
+          {label: "Download 魔眼封印 (8.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E5%B0%81%E5%8D%B0.zip", external: true},
         ]},
       ],
     },

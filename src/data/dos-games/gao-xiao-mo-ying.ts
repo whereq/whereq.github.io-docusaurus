@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "高校魔影 is a DOS game in the WhereQ archive — 1994, 105 files, 3.8 MB, and an entry point of G_MAP.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gao-xiao-mo-ying.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AB%98%E6%A0%A1%E9%AD%94%E5%BD%B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gao-xiao-mo-ying.zip"],
           ["Size", "4,018,632 bytes (3.8 MB)"],
           ["SHA-256", "33e5c5c25e00df6cabc251479d097c3af003a13ccfff083d0d933492b5c13d4a"],
           ["Files", "105"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AB%98%E6%A0%A1%E9%AD%94%E5%BD%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 高校魔影 (3.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gao-xiao-mo-ying.zip", external: true},
+          {label: "Download 高校魔影 (3.8 MB)", href: "https://dos-bin.zczc.cz/%E9%AB%98%E6%A0%A1%E9%AD%94%E5%BD%B1.zip", external: true},
         ]},
       ],
     },

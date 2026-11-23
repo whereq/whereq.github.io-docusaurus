@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "爆笑水浒传 is a DOS game in the WhereQ archive — an undated copy, 537 files, 91.1 MB, and an entry point of MODEL.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-shui-hu-zhuan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E6%B0%B4%E6%B5%92%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-xiao-shui-hu-zhuan.zip"],
           ["Size", "95,541,626 bytes (91.1 MB)"],
           ["SHA-256", "822d0fcc74d6e9245f40792b9a599fc9a52971c0dd53602100399a9a703214c3"],
           ["Files", "537"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E6%B0%B4%E6%B5%92%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爆笑水浒传 (91.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-shui-hu-zhuan.zip", external: true},
+          {label: "Download 爆笑水浒传 (91.1 MB)", href: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E6%B0%B4%E6%B5%92%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

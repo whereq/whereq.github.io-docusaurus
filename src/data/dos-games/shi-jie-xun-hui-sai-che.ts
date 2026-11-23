@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "世界巡回赛车 is a DOS game in the WhereQ archive — 1993, 73 files, 3.8 MB, and an entry point of F1GP.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-xun-hui-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%B7%A1%E5%9B%9E%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-jie-xun-hui-sai-che.zip"],
           ["Size", "3,975,957 bytes (3.8 MB)"],
           ["SHA-256", "a3de43ada179dce26e1537ffdc4396650561aa9a47d42f5b945f92ccc78b52ae"],
           ["Files", "73"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%B7%A1%E5%9B%9E%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 世界巡回赛车 (3.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-xun-hui-sai-che.zip", external: true},
+          {label: "Download 世界巡回赛车 (3.8 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%B7%A1%E5%9B%9E%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

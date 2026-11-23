@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "丽兽 is a DOS game in the WhereQ archive — 1995, 523 files, 4.9 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/l/li-shou.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%BD%E5%85%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "li-shou.zip"],
           ["Size", "5,119,713 bytes (4.9 MB)"],
           ["SHA-256", "337a43daf12413b7f6ff408844d9cead1c784ae12e2ef029c198c0f195a6988a"],
           ["Files", "523"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%BD%E5%85%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 丽兽 (4.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/li-shou.zip", external: true},
+          {label: "Download 丽兽 (4.9 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%BD%E5%85%BD.zip", external: true},
         ]},
       ],
     },

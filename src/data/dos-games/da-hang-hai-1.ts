@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大航海1 is a DOS game in the WhereQ archive — 1991, 27 files, 867 KB, and an entry point of KOEI.COM.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-1.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B71.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hang-hai-1.zip"],
           ["Size", "887,589 bytes (867 KB)"],
           ["SHA-256", "bc881d8a78d34988ec97fc9075e5842ceaf599849a13f0814690df938aceab23"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B71.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大航海1 (867 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-1.zip", external: true},
+          {label: "Download 大航海1 (867 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B71.zip", external: true},
         ]},
       ],
     },

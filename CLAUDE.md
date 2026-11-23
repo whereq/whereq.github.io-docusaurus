@@ -92,11 +92,13 @@ reads the archive and writes the pages.
 - **Regenerate with** `~/git/whereq-dosbox-claude/.venv/bin/python scripts/generate-dos-games.py`.
   The generator overwrites everything it owns — do not hand-edit the index or a
   generated page module.
-- **The bundles are hosted on GitHub releases**, not on Pages: the archive is
-  36 GB and Pages holds 1 GB. The asset name is the pinyin slug (GitHub
-  strips non-ASCII from asset names) and the release tag is the slug's first
-  letter, so the download is
-  `https://github.com/whereq/dos-games/releases/download/<letter>/<slug>.zip`.
+- **The download link is the original copy.** Every game page links straight
+  at `https://dos-bin.zczc.cz/<name>.zip` — the archive the page was
+  generated from. There is no mirror: the file the reader downloads is the
+  file the page describes, and its SHA-256 is the archive's own. The archive
+  is 38 GB, which is why it was never hosted on Pages (1 GB) in the first
+  place. All 1 898 links were checked live: every one answers 200 with the
+  exact size of the archive file.
 - **The two hand-written games** — 三国志英杰传 and 真人快打 — keep their pages
   on the Atlas shelf at `/atlas/dos-games/<slug>/`, and the catalogue points at
   them there. The generator skips them and the catalogue's `page` field carries

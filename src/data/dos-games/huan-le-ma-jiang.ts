@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "欢乐麻将 is a DOS game in the WhereQ archive — 1997, 88 files, 620 KB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-ma-jiang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-le-ma-jiang.zip"],
           ["Size", "634,666 bytes (620 KB)"],
           ["SHA-256", "e7008146c5453cf67cf274182a2ddf34393cea9a199005b5349395dfa04081da"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 欢乐麻将 (620 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-le-ma-jiang.zip", external: true},
+          {label: "Download 欢乐麻将 (620 KB)", href: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86.zip", external: true},
         ]},
       ],
     },

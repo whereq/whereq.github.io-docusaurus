@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大海商 is a DOS game in the WhereQ archive — 1995, 378 files, 14.0 MB, and an entry point of HST.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hai-shang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E5%95%86.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hai-shang.zip"],
           ["Size", "14,639,660 bytes (14.0 MB)"],
           ["SHA-256", "55f3993cfe04e44080f75c4d5e6fb00172a0a724175d84947b49312b9a653e2b"],
           ["Files", "378"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E5%95%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大海商 (14.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hai-shang.zip", external: true},
+          {label: "Download 大海商 (14.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E5%95%86.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河英雄传说III SP is a DOS game in the WhereQ archive — 1995, 162 files, 3.4 MB, and an entry point of GIN3.COM.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong-zhuan-shuo-iii-sp.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43SP.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-ying-xiong-zhuan-shuo-iii-sp.zip"],
           ["Size", "3,527,452 bytes (3.4 MB)"],
           ["SHA-256", "cc71018c920d676d35acf6ac67abc15a00dfcce3d3aad811632c6ce646615f5c"],
           ["Files", "162"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43SP.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河英雄传说III SP (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong-zhuan-shuo-iii-sp.zip", external: true},
+          {label: "Download 银河英雄传说III SP (3.4 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43SP.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "卡诺夫 is a DOS game in the WhereQ archive — 1988, 18 files, 236 KB, and an entry point of KARNOV.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ka-nuo-fu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A1%E8%AF%BA%E5%A4%AB.zip",
   facts: [
     {label: "Developer", value: "DATA EAST"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ka-nuo-fu.zip"],
           ["Size", "241,471 bytes (236 KB)"],
           ["SHA-256", "6513c941899cdf777a1d6c1a8e9748cedbc6b6602bc6c965dceb0eb7d2c90a8a"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A1%E8%AF%BA%E5%A4%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卡诺夫 (236 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/ka-nuo-fu.zip", external: true},
+          {label: "Download 卡诺夫 (236 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%A1%E8%AF%BA%E5%A4%AB.zip", external: true},
         ]},
       ],
     },

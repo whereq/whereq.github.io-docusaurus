@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世纪4 is a DOS game in the WhereQ archive — 1987, 149 files, 339 KB, and an entry point of ULTIMA.COM.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-4.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-ji-4.zip"],
           ["Size", "347,478 bytes (339 KB)"],
           ["SHA-256", "1981946f9c4f24c21084e7a2e233b974cff5d2cf2038cb9221e78e4669e01033"],
           ["Files", "149"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世纪4 (339 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-4.zip", external: true},
+          {label: "Download 创世纪4 (339 KB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA4.zip", external: true},
         ]},
       ],
     },

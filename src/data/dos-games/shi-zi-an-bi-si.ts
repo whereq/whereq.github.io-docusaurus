@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "狮子安必斯 is a DOS game in the WhereQ archive — 1996, 67 files, 55 KB, and an entry point of ABMIS.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-zi-an-bi-si.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%AE%E5%AD%90%E5%AE%89%E5%BF%85%E6%96%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-zi-an-bi-si.zip"],
           ["Size", "56,099 bytes (55 KB)"],
           ["SHA-256", "353c26d82a33b0ef3449199fe907686106bc58e2bec6d550dc680d372c1afc5b"],
           ["Files", "67"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%AE%E5%AD%90%E5%AE%89%E5%BF%85%E6%96%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 狮子安必斯 (55 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-zi-an-bi-si.zip", external: true},
+          {label: "Download 狮子安必斯 (55 KB)", href: "https://dos-bin.zczc.cz/%E7%8B%AE%E5%AD%90%E5%AE%89%E5%BF%85%E6%96%AF.zip", external: true},
         ]},
       ],
     },

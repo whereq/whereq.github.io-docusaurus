@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "闪回-追寻记忆之旅 is a DOS game in the WhereQ archive — 1993, 241 files, 2.9 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shan-hui-zhui-xun-ji-yi-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E9%97%AA%E5%9B%9E-%E8%BF%BD%E5%AF%BB%E8%AE%B0%E5%BF%86%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shan-hui-zhui-xun-ji-yi-zhi-lv.zip"],
           ["Size", "3,071,503 bytes (2.9 MB)"],
           ["SHA-256", "19feabe1eef001f2a649fb1a81c32422564317506858155d6022ba268433f41b"],
           ["Files", "241"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%97%AA%E5%9B%9E-%E8%BF%BD%E5%AF%BB%E8%AE%B0%E5%BF%86%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 闪回-追寻记忆之旅 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shan-hui-zhui-xun-ji-yi-zhi-lv.zip", external: true},
+          {label: "Download 闪回-追寻记忆之旅 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E9%97%AA%E5%9B%9E-%E8%BF%BD%E5%AF%BB%E8%AE%B0%E5%BF%86%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

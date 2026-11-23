@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法门星云之剑 is a DOS game in the WhereQ archive — 1996, 6 files, 8.2 MB, and an entry point of swords.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-xing-yun-zhi-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E6%98%9F%E4%BA%91%E4%B9%8B%E5%89%91.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-men-xing-yun-zhi-jian.zip"],
           ["Size", "8,602,975 bytes (8.2 MB)"],
           ["SHA-256", "cc9dba3f95d88475dbcf6eeb768c7ac4b678875711ec9f0685759f6b6875aae3"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E6%98%9F%E4%BA%91%E4%B9%8B%E5%89%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法门星云之剑 (8.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-xing-yun-zhi-jian.zip", external: true},
+          {label: "Download 魔法门星云之剑 (8.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E6%98%9F%E4%BA%91%E4%B9%8B%E5%89%91.zip", external: true},
         ]},
       ],
     },

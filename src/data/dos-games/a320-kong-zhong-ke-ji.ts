@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "A320空中客机 is a DOS game in the WhereQ archive — 2008, 8 files, 324 KB, and an entry point of A320S.EXE.",
   status: "2008",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a320-kong-zhong-ke-ji.zip",
+  url: "https://dos-bin.zczc.cz/A320%E7%A9%BA%E4%B8%AD%E5%AE%A2%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2008"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a320-kong-zhong-ke-ji.zip"],
           ["Size", "331,975 bytes (324 KB)"],
           ["SHA-256", "3f1397972b2f52fe8f2840c30783b6fc09bca9424ddffae3c9b5a9db48f87503"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/A320%E7%A9%BA%E4%B8%AD%E5%AE%A2%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download A320空中客机 (324 KB)", href: "https://github.com/whereq/dos-games/releases/download/a/a320-kong-zhong-ke-ji.zip", external: true},
+          {label: "Download A320空中客机 (324 KB)", href: "https://dos-bin.zczc.cz/A320%E7%A9%BA%E4%B8%AD%E5%AE%A2%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

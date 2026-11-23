@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "迷失洛杉矶 is a DOS game in the WhereQ archive — 1991, 14 files, 3.5 MB, and an entry point of LES2.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mi-shi-luo-shan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%A4%B1%E6%B4%9B%E6%9D%89%E7%9F%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mi-shi-luo-shan-ji.zip"],
           ["Size", "3,703,294 bytes (3.5 MB)"],
           ["SHA-256", "a3d2771367c2c49e7ab198e2cbaafc985c4e3596b632aea98f620328b560bd06"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%B7%E5%A4%B1%E6%B4%9B%E6%9D%89%E7%9F%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 迷失洛杉矶 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mi-shi-luo-shan-ji.zip", external: true},
+          {label: "Download 迷失洛杉矶 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%A4%B1%E6%B4%9B%E6%9D%89%E7%9F%B6.zip", external: true},
         ]},
       ],
     },

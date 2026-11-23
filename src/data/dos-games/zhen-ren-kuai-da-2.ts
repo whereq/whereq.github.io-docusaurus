@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "真人快打2 is a DOS game in the WhereQ archive — 1994, 628 files, 9.9 MB, and an entry point of MK2.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhen-ren-kuai-da-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%932.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhen-ren-kuai-da-2.zip"],
           ["Size", "10,341,958 bytes (9.9 MB)"],
           ["SHA-256", "41374b13da8c7325bc093ec72eb7cdc823aca3b8e7fb55b53c99b63a4ee36a0f"],
           ["Files", "628"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%932.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 真人快打2 (9.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhen-ren-kuai-da-2.zip", external: true},
+          {label: "Download 真人快打2 (9.9 MB)", href: "https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%932.zip", external: true},
         ]},
       ],
     },

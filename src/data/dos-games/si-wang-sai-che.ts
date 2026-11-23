@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死亡赛车 is a DOS game in the WhereQ archive — 1994, 215 files, 2.9 MB, and an entry point of DRACER.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-wang-sai-che.zip"],
           ["Size", "3,046,036 bytes (2.9 MB)"],
           ["SHA-256", "bd3968725fde2ea0b9e1405eb0c8c2a1424366a8c226468839d5e393a5fd9ac5"],
           ["Files", "215"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死亡赛车 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-wang-sai-che.zip", external: true},
+          {label: "Download 死亡赛车 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

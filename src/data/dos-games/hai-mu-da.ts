@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海姆达 is a DOS game in the WhereQ archive — 2004, 178 files, 3.0 MB, and an entry point of GAME.EXE.",
   status: "2004",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-mu-da.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2004"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-mu-da.zip"],
           ["Size", "3,149,419 bytes (3.0 MB)"],
           ["SHA-256", "7fb8e0d2b26b5a5d2d3cfefe538a9891475da4ba05887e26bf11b672daddbc15"],
           ["Files", "178"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海姆达 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-mu-da.zip", external: true},
+          {label: "Download 海姆达 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE.zip", external: true},
         ]},
       ],
     },

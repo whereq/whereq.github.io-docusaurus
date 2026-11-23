@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "基因分裂 is a DOS game in the WhereQ archive — an undated copy, 244 files, 1.9 MB, and an entry point of START.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-yin-fen-lie.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E5%88%86%E8%A3%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-yin-fen-lie.zip"],
           ["Size", "1,953,239 bytes (1.9 MB)"],
           ["SHA-256", "a00d62649fce8f2734cfb75309139efbffed71e398acc2578eaa77ab1f3a948e"],
           ["Files", "244"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E5%88%86%E8%A3%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 基因分裂 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-yin-fen-lie.zip", external: true},
+          {label: "Download 基因分裂 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E5%88%86%E8%A3%82.zip", external: true},
         ]},
       ],
     },

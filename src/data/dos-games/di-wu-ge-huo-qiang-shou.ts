@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "第五个火枪手 is a DOS game in the WhereQ archive — 1995, 10 files, 15.9 MB, and an entry point of TOUCHE.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-wu-ge-huo-qiang-shou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AC%AC%E4%BA%94%E4%B8%AA%E7%81%AB%E6%9E%AA%E6%89%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-wu-ge-huo-qiang-shou.zip"],
           ["Size", "16,681,233 bytes (15.9 MB)"],
           ["SHA-256", "18d61b6df67713cc6d06004d6b20a72b21085bbd2eff962a15db5884c8b8ab39"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AC%AC%E4%BA%94%E4%B8%AA%E7%81%AB%E6%9E%AA%E6%89%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 第五个火枪手 (15.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-wu-ge-huo-qiang-shou.zip", external: true},
+          {label: "Download 第五个火枪手 (15.9 MB)", href: "https://dos-bin.zczc.cz/%E7%AC%AC%E4%BA%94%E4%B8%AA%E7%81%AB%E6%9E%AA%E6%89%8B.zip", external: true},
         ]},
       ],
     },

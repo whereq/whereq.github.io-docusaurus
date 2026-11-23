@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "南与北 is a DOS game in the WhereQ archive — 1990, 30 files, 576 KB, and an entry point of TATOU.COM.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nan-yu-bei.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%97%E4%B8%8E%E5%8C%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nan-yu-bei.zip"],
           ["Size", "589,377 bytes (576 KB)"],
           ["SHA-256", "4e9ea2d7f66fb1a6eedc0bd66293589f37965e75f14b534db2d39ddf596234e7"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%97%E4%B8%8E%E5%8C%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 南与北 (576 KB)", href: "https://github.com/whereq/dos-games/releases/download/n/nan-yu-bei.zip", external: true},
+          {label: "Download 南与北 (576 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%97%E4%B8%8E%E5%8C%97.zip", external: true},
         ]},
       ],
     },

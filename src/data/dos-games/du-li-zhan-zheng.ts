@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "独立战争 is a DOS game in the WhereQ archive — 1993, 31 files, 1.6 MB, and an entry point of MAIN.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/d/du-li-zhan-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E6%88%98%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "du-li-zhan-zheng.zip"],
           ["Size", "1,694,943 bytes (1.6 MB)"],
           ["SHA-256", "0476f66b9386758afcbd60b199953ae260d35cfb09c0781d5432bb0a00623667"],
           ["Files", "31"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E6%88%98%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 独立战争 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/du-li-zhan-zheng.zip", external: true},
+          {label: "Download 独立战争 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E6%88%98%E4%BA%89.zip", external: true},
         ]},
       ],
     },

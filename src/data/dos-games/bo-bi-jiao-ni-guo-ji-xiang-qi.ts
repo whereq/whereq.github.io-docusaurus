@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "博比教你国际象棋 is a DOS game in the WhereQ archive — 1994, 169 files, 2.6 MB, and an entry point of BFTCG.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bo-bi-jiao-ni-guo-ji-xiang-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%9A%E6%AF%94%E6%95%99%E4%BD%A0%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bo-bi-jiao-ni-guo-ji-xiang-qi.zip"],
           ["Size", "2,757,178 bytes (2.6 MB)"],
           ["SHA-256", "cfc63c1e57e2d3b0b4ca04e80faac060d090079adaa0843fc89cfb1f67819118"],
           ["Files", "169"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%9A%E6%AF%94%E6%95%99%E4%BD%A0%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 博比教你国际象棋 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bo-bi-jiao-ni-guo-ji-xiang-qi.zip", external: true},
+          {label: "Download 博比教你国际象棋 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%9A%E6%AF%94%E6%95%99%E4%BD%A0%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

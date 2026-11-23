@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "齿轮游戏 is a DOS game in the WhereQ archive — 1992, 119 files, 310 KB, and an entry point of GEAR.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chi-lun-you-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BD%BF%E8%BD%AE%E6%B8%B8%E6%88%8F.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chi-lun-you-xi.zip"],
           ["Size", "317,303 bytes (310 KB)"],
           ["SHA-256", "c53729bce8562d3cdcac6b4888d7683a3d4077a6b107728233fa2168c49bb0c2"],
           ["Files", "119"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BD%BF%E8%BD%AE%E6%B8%B8%E6%88%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 齿轮游戏 (310 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chi-lun-you-xi.zip", external: true},
+          {label: "Download 齿轮游戏 (310 KB)", href: "https://dos-bin.zczc.cz/%E9%BD%BF%E8%BD%AE%E6%B8%B8%E6%88%8F.zip", external: true},
         ]},
       ],
     },

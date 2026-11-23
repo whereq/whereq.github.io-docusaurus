@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "长弓传说－罗宾汉 is a DOS game in the WhereQ archive — 1991, 47 files, 7.0 MB, and an entry point of SCIDHUV.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhang-gong-chuan-shuo-luo-bin-han.zip",
+  url: "https://dos-bin.zczc.cz/%E9%95%BF%E5%BC%93%E4%BC%A0%E8%AF%B4%EF%BC%8D%E7%BD%97%E5%AE%BE%E6%B1%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhang-gong-chuan-shuo-luo-bin-han.zip"],
           ["Size", "7,350,477 bytes (7.0 MB)"],
           ["SHA-256", "a91038ca8a5e8c0f39a28df04d3e752d6f36e6d5af1f3118fa3ba86f42889ad5"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%95%BF%E5%BC%93%E4%BC%A0%E8%AF%B4%EF%BC%8D%E7%BD%97%E5%AE%BE%E6%B1%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 长弓传说－罗宾汉 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhang-gong-chuan-shuo-luo-bin-han.zip", external: true},
+          {label: "Download 长弓传说－罗宾汉 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E9%95%BF%E5%BC%93%E4%BC%A0%E8%AF%B4%EF%BC%8D%E7%BD%97%E5%AE%BE%E6%B1%89.zip", external: true},
         ]},
       ],
     },

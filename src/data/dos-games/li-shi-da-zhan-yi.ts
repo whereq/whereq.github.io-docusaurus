@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "历史大战役 is a DOS game in the WhereQ archive — 1993, 524 files, 4.6 MB, and an entry point of HL.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/l/li-shi-da-zhan-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8E%86%E5%8F%B2%E5%A4%A7%E6%88%98%E5%BD%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "li-shi-da-zhan-yi.zip"],
           ["Size", "4,826,549 bytes (4.6 MB)"],
           ["SHA-256", "9057bdf366bea5b3004416cb49442776b42ce31a0514e76347325209cf5ad7ae"],
           ["Files", "524"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8E%86%E5%8F%B2%E5%A4%A7%E6%88%98%E5%BD%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 历史大战役 (4.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/li-shi-da-zhan-yi.zip", external: true},
+          {label: "Download 历史大战役 (4.6 MB)", href: "https://dos-bin.zczc.cz/%E5%8E%86%E5%8F%B2%E5%A4%A7%E6%88%98%E5%BD%B9.zip", external: true},
         ]},
       ],
     },

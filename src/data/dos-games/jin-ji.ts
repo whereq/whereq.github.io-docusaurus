@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "禁忌 is a DOS game in the WhereQ archive — 1995, 1,840 files, 6.5 MB, and an entry point of PLAY.COM.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jin-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A6%81%E5%BF%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jin-ji.zip"],
           ["Size", "6,846,711 bytes (6.5 MB)"],
           ["SHA-256", "0d40b188957dfca2a98ced9b62bcb4aac8d5ad2593906faff4d160f791539e59"],
           ["Files", "1,840"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A6%81%E5%BF%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 禁忌 (6.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jin-ji.zip", external: true},
+          {label: "Download 禁忌 (6.5 MB)", href: "https://dos-bin.zczc.cz/%E7%A6%81%E5%BF%8C.zip", external: true},
         ]},
       ],
     },

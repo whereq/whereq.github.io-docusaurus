@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "陷害之人 is a DOS game in the WhereQ archive — 2000, 38 files, 368 KB, and an entry point of FRAMED.EXE.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xian-hai-zhi-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E9%99%B7%E5%AE%B3%E4%B9%8B%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xian-hai-zhi-ren.zip"],
           ["Size", "376,641 bytes (368 KB)"],
           ["SHA-256", "d4b0d86610a4eb2792c88f6a2e3af176de3263b2ad38ea3a8babc4dcaff30b72"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%99%B7%E5%AE%B3%E4%B9%8B%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 陷害之人 (368 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xian-hai-zhi-ren.zip", external: true},
+          {label: "Download 陷害之人 (368 KB)", href: "https://dos-bin.zczc.cz/%E9%99%B7%E5%AE%B3%E4%B9%8B%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

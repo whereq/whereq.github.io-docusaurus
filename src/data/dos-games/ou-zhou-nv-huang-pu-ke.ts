@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "o",
   summary: "欧洲女皇扑克 is a DOS game in the WhereQ archive — 1980, 36 files, 450 KB, and an entry point of IRUN.COM.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/o/ou-zhou-nv-huang-pu-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E5%A5%B3%E7%9A%87%E6%89%91%E5%85%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ou-zhou-nv-huang-pu-ke.zip"],
           ["Size", "460,321 bytes (450 KB)"],
           ["SHA-256", "c9ee11ae34441615ff658b351b0dc0ed33a467430ebd76a53968f717e97ec138"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E5%A5%B3%E7%9A%87%E6%89%91%E5%85%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 欧洲女皇扑克 (450 KB)", href: "https://github.com/whereq/dos-games/releases/download/o/ou-zhou-nv-huang-pu-ke.zip", external: true},
+          {label: "Download 欧洲女皇扑克 (450 KB)", href: "https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E5%A5%B3%E7%9A%87%E6%89%91%E5%85%8B.zip", external: true},
         ]},
       ],
     },

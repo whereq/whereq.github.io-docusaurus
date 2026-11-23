@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "古怪星球伊特兰 is a DOS game in the WhereQ archive — 1996, 81 files, 5.4 MB, and an entry point of etercrk.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-xing-qiu-yi-te-lan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E6%98%9F%E7%90%83%E4%BC%8A%E7%89%B9%E5%85%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-guai-xing-qiu-yi-te-lan.zip"],
           ["Size", "5,679,884 bytes (5.4 MB)"],
           ["SHA-256", "d68eef1d77cefe2c39d3eae3557c4c1678d2b044eddaf699f3ddb2852349b60f"],
           ["Files", "81"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E6%98%9F%E7%90%83%E4%BC%8A%E7%89%B9%E5%85%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 古怪星球伊特兰 (5.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-xing-qiu-yi-te-lan.zip", external: true},
+          {label: "Download 古怪星球伊特兰 (5.4 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E6%98%9F%E7%90%83%E4%BC%8A%E7%89%B9%E5%85%B0.zip", external: true},
         ]},
       ],
     },

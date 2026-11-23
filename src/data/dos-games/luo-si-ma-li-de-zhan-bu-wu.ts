@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "罗斯玛丽的占卜屋 is a DOS game in the WhereQ archive — 2010, 66 files, 2.7 MB, and an entry point of PLAY.BAT.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luo-si-ma-li-de-zhan-bu-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%97%E6%96%AF%E7%8E%9B%E4%B8%BD%E7%9A%84%E5%8D%A0%E5%8D%9C%E5%B1%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luo-si-ma-li-de-zhan-bu-wu.zip"],
           ["Size", "2,845,462 bytes (2.7 MB)"],
           ["SHA-256", "2e02dd371a5114cee5bfefe93867d4e36d572178ec2042f7b65b36ac3c74495b"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%97%E6%96%AF%E7%8E%9B%E4%B8%BD%E7%9A%84%E5%8D%A0%E5%8D%9C%E5%B1%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罗斯玛丽的占卜屋 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/luo-si-ma-li-de-zhan-bu-wu.zip", external: true},
+          {label: "Download 罗斯玛丽的占卜屋 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E7%BD%97%E6%96%AF%E7%8E%9B%E4%B8%BD%E7%9A%84%E5%8D%A0%E5%8D%9C%E5%B1%8B.zip", external: true},
         ]},
       ],
     },

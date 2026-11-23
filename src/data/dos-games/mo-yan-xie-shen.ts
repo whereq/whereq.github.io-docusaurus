@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔眼邪神 is a DOS game in the WhereQ archive — 1996, 219 files, 12.2 MB, and an entry point of KOEI.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-xie-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yan-xie-shen.zip"],
           ["Size", "12,835,270 bytes (12.2 MB)"],
           ["SHA-256", "d4c84befd24359699666ff6c4bfd6b281fbab8a291baea4943e089532f2394e7"],
           ["Files", "219"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔眼邪神 (12.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-xie-shen.zip", external: true},
+          {label: "Download 魔眼邪神 (12.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

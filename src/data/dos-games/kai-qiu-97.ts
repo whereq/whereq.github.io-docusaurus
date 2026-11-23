@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "开球97 is a DOS game in the WhereQ archive — 1997, 285 files, 16.1 MB, and an entry point of KO97.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kai-qiu-97.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%80%E7%90%8397.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kai-qiu-97.zip"],
           ["Size", "16,839,015 bytes (16.1 MB)"],
           ["SHA-256", "9853612ee2a6995dd1149848b136e1a856b5fdf423f148b270645033cdf923b2"],
           ["Files", "285"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%80%E7%90%8397.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 开球97 (16.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kai-qiu-97.zip", external: true},
+          {label: "Download 开球97 (16.1 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%80%E7%90%8397.zip", external: true},
         ]},
       ],
     },

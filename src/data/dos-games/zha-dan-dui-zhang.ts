@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "炸弹队长 is a DOS game in the WhereQ archive — 1993, 21 files, 206 KB, and an entry point of DYNAMO.COM.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zha-dan-dui-zhang.zip",
+  url: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E9%98%9F%E9%95%BF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zha-dan-dui-zhang.zip"],
           ["Size", "210,998 bytes (206 KB)"],
           ["SHA-256", "e89c25a79c551efcbc1502d409632266f8845111895c01f24eeeaf609edd3123"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E9%98%9F%E9%95%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 炸弹队长 (206 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zha-dan-dui-zhang.zip", external: true},
+          {label: "Download 炸弹队长 (206 KB)", href: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E9%98%9F%E9%95%BF.zip", external: true},
         ]},
       ],
     },

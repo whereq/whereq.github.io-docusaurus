@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国际象棋巫术对决 is a DOS game in the WhereQ archive — 1994, 10 files, 4.7 MB, and an entry point of ARCHON.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-xiang-qi-wu-shu-dui-jue.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E5%B7%AB%E6%9C%AF%E5%AF%B9%E5%86%B3.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-ji-xiang-qi-wu-shu-dui-jue.zip"],
           ["Size", "4,921,668 bytes (4.7 MB)"],
           ["SHA-256", "ccbf3509d08063519d0df1128ed3d40b2a297a0bcdc260ee22addf95b78af869"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E5%B7%AB%E6%9C%AF%E5%AF%B9%E5%86%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国际象棋巫术对决 (4.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-xiang-qi-wu-shu-dui-jue.zip", external: true},
+          {label: "Download 国际象棋巫术对决 (4.7 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E5%B7%AB%E6%9C%AF%E5%AF%B9%E5%86%B3.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "台海防卫战 is a DOS game in the WhereQ archive — 1980, 108 files, 1004 KB, and an entry point of GAME.BAT.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-hai-fang-wei-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%B0%E6%B5%B7%E9%98%B2%E5%8D%AB%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-hai-fang-wei-zhan.zip"],
           ["Size", "1,028,207 bytes (1004 KB)"],
           ["SHA-256", "33dd53a7465d2768735ff13c80dc816a9a88fb585ab759dbbe6062e270b6f6c7"],
           ["Files", "108"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%B0%E6%B5%B7%E9%98%B2%E5%8D%AB%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 台海防卫战 (1004 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-hai-fang-wei-zhan.zip", external: true},
+          {label: "Download 台海防卫战 (1004 KB)", href: "https://dos-bin.zczc.cz/%E5%8F%B0%E6%B5%B7%E9%98%B2%E5%8D%AB%E6%88%98.zip", external: true},
         ]},
       ],
     },

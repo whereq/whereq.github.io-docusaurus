@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "危险的里克1 is a DOS game in the WhereQ archive — 1989, 6 files, 221 KB, and an entry point of RICK.COM.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-de-li-ke-1.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E7%9A%84%E9%87%8C%E5%85%8B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-xian-de-li-ke-1.zip"],
           ["Size", "226,545 bytes (221 KB)"],
           ["SHA-256", "e61a36f7ea4e76f3c5713d2527e76dd0646c0808c6300ac602f10898df0cd25d"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E7%9A%84%E9%87%8C%E5%85%8B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 危险的里克1 (221 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-de-li-ke-1.zip", external: true},
+          {label: "Download 危险的里克1 (221 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E7%9A%84%E9%87%8C%E5%85%8B1.zip", external: true},
         ]},
       ],
     },

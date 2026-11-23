@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "终结者2射击版 is a DOS game in the WhereQ archive — 1996, 173 files, 719 KB, and an entry point of t2.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-jie-zhe-2-she-ji-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852%E5%B0%84%E5%87%BB%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-jie-zhe-2-she-ji-ban.zip"],
           ["Size", "736,038 bytes (719 KB)"],
           ["SHA-256", "64459e77074f6414b85bd08f5753edb0b0cc1c5f6b11d4edbd9d1d9c878408b0"],
           ["Files", "173"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852%E5%B0%84%E5%87%BB%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 终结者2射击版 (719 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-jie-zhe-2-she-ji-ban.zip", external: true},
+          {label: "Download 终结者2射击版 (719 KB)", href: "https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852%E5%B0%84%E5%87%BB%E7%89%88.zip", external: true},
         ]},
       ],
     },

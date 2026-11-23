@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "灵剑传奇 is a DOS game in the WhereQ archive — 1998, 265 files, 16.3 MB, and an entry point of SWORD.EXE.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/l/ling-jian-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%B5%E5%89%91%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ling-jian-chuan-qi.zip"],
           ["Size", "17,093,340 bytes (16.3 MB)"],
           ["SHA-256", "84daf763d547769affbb2a40ea5ca238e93442012b6b5ed7a5a74752a7ae818e"],
           ["Files", "265"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%B5%E5%89%91%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 灵剑传奇 (16.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/ling-jian-chuan-qi.zip", external: true},
+          {label: "Download 灵剑传奇 (16.3 MB)", href: "https://dos-bin.zczc.cz/%E7%81%B5%E5%89%91%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

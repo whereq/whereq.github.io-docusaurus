@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "永恒之烛3 is a DOS game in the WhereQ archive — 1996, 250 files, 2.2 MB, and an entry point of MC3.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yong-heng-zhi-zhu-3.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%B8%E6%81%92%E4%B9%8B%E7%83%9B3.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yong-heng-zhi-zhu-3.zip"],
           ["Size", "2,276,466 bytes (2.2 MB)"],
           ["SHA-256", "d7459d7e2d2c73c92f2903116e4277adef4c4959a914cedcfb1f81832e9678bc"],
           ["Files", "250"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%B8%E6%81%92%E4%B9%8B%E7%83%9B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 永恒之烛3 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yong-heng-zhi-zhu-3.zip", external: true},
+          {label: "Download 永恒之烛3 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E6%B0%B8%E6%81%92%E4%B9%8B%E7%83%9B3.zip", external: true},
         ]},
       ],
     },

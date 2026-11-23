@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿曼尼开国启示录 is a DOS game in the WhereQ archive — 1996, 110 files, 4.1 MB, and an entry point of AMYA.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-man-ni-kai-guo-qi-shi-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E5%BC%80%E5%9B%BD%E5%90%AF%E7%A4%BA%E5%BD%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-man-ni-kai-guo-qi-shi-lu.zip"],
           ["Size", "4,284,526 bytes (4.1 MB)"],
           ["SHA-256", "c5ddb90ec365e8620fbe8b2665e8b3a3fb6adadec2b46e6cf76c4deaaf6508a1"],
           ["Files", "110"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E5%BC%80%E5%9B%BD%E5%90%AF%E7%A4%BA%E5%BD%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿曼尼开国启示录 (4.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-man-ni-kai-guo-qi-shi-lu.zip", external: true},
+          {label: "Download 阿曼尼开国启示录 (4.1 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E5%BC%80%E5%9B%BD%E5%90%AF%E7%A4%BA%E5%BD%95.zip", external: true},
         ]},
       ],
     },

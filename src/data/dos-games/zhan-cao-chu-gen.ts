@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "斩草除根 is a DOS game in the WhereQ archive — 1996, 91 files, 16.6 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-cao-chu-gen.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%A9%E8%8D%89%E9%99%A4%E6%A0%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-cao-chu-gen.zip"],
           ["Size", "17,392,173 bytes (16.6 MB)"],
           ["SHA-256", "fe7d551c7653a8f8fd042a1599afaa5d40aae558a1f9b8b0c9cf669be556897e"],
           ["Files", "91"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%A9%E8%8D%89%E9%99%A4%E6%A0%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 斩草除根 (16.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-cao-chu-gen.zip", external: true},
+          {label: "Download 斩草除根 (16.6 MB)", href: "https://dos-bin.zczc.cz/%E6%96%A9%E8%8D%89%E9%99%A4%E6%A0%B9.zip", external: true},
         ]},
       ],
     },

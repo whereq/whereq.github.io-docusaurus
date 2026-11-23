@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "人类进化1+2 is a DOS game in the WhereQ archive — 1992, 12 files, 2.3 MB, and an entry point of RUNME.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ren-lei-jin-hua-1-2.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%B1%BB%E8%BF%9B%E5%8C%961%2B2.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ren-lei-jin-hua-1-2.zip"],
           ["Size", "2,423,785 bytes (2.3 MB)"],
           ["SHA-256", "3ca084c2f72ad11c7d6240442492c132c69542e7e70c6b7e6888ce4ddf4debf2"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%BA%E7%B1%BB%E8%BF%9B%E5%8C%961%2B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 人类进化1+2 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/ren-lei-jin-hua-1-2.zip", external: true},
+          {label: "Download 人类进化1+2 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%B1%BB%E8%BF%9B%E5%8C%961%2B2.zip", external: true},
         ]},
       ],
     },

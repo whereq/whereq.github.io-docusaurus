@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "克苏鲁传说魔影哈雷 is a DOS game in the WhereQ archive — 1993, 59 files, 7.3 MB, and an entry point of TATOU.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-su-lu-chuan-shuo-mo-ying-ha-lei.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8B%8F%E9%B2%81%E4%BC%A0%E8%AF%B4%E9%AD%94%E5%BD%B1%E5%93%88%E9%9B%B7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-su-lu-chuan-shuo-mo-ying-ha-lei.zip"],
           ["Size", "7,653,563 bytes (7.3 MB)"],
           ["SHA-256", "94f9df75b7c2279e577b96a0bbe280a7210717e19cd548e44e864c9d9a9a4126"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%8B%E8%8B%8F%E9%B2%81%E4%BC%A0%E8%AF%B4%E9%AD%94%E5%BD%B1%E5%93%88%E9%9B%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 克苏鲁传说魔影哈雷 (7.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-su-lu-chuan-shuo-mo-ying-ha-lei.zip", external: true},
+          {label: "Download 克苏鲁传说魔影哈雷 (7.3 MB)", href: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8B%8F%E9%B2%81%E4%BC%A0%E8%AF%B4%E9%AD%94%E5%BD%B1%E5%93%88%E9%9B%B7.zip", external: true},
         ]},
       ],
     },

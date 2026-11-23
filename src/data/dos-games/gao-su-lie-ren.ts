@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "高速猎人 is a DOS game in the WhereQ archive — 1994, 7 files, 1.2 MB, and an entry point of START.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gao-su-lie-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AB%98%E9%80%9F%E7%8C%8E%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gao-su-lie-ren.zip"],
           ["Size", "1,253,530 bytes (1.2 MB)"],
           ["SHA-256", "df11591eabbaae086acd8c0c6670036d24ca76fb43b55902e10eb8f04a053db9"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AB%98%E9%80%9F%E7%8C%8E%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 高速猎人 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gao-su-lie-ren.zip", external: true},
+          {label: "Download 高速猎人 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AB%98%E9%80%9F%E7%8C%8E%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大企业家 is a DOS game in the WhereQ archive — 1990, 52 files, 834 KB, and an entry point of BB.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-qi-ye-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E4%BC%81%E4%B8%9A%E5%AE%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-qi-ye-jia.zip"],
           ["Size", "854,501 bytes (834 KB)"],
           ["SHA-256", "612d495db3a59fa7f0c9f1c95725117335cb155421af10bea7ef98b7b17b7fed"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E4%BC%81%E4%B8%9A%E5%AE%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大企业家 (834 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-qi-ye-jia.zip", external: true},
+          {label: "Download 大企业家 (834 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E4%BC%81%E4%B8%9A%E5%AE%B6.zip", external: true},
         ]},
       ],
     },

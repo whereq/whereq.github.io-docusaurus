@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "奇幻游戏三合一 is a DOS game in the WhereQ archive — 1996, 22 files, 1.3 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-huan-you-xi-san-he-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A5%87%E5%B9%BB%E6%B8%B8%E6%88%8F%E4%B8%89%E5%90%88%E4%B8%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-huan-you-xi-san-he-yi.zip"],
           ["Size", "1,398,005 bytes (1.3 MB)"],
           ["SHA-256", "ce35a5292d044f323a60d8ce2eb06dd750c14ed22d56f4901698575f69ab84e8"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A5%87%E5%B9%BB%E6%B8%B8%E6%88%8F%E4%B8%89%E5%90%88%E4%B8%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 奇幻游戏三合一 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-huan-you-xi-san-he-yi.zip", external: true},
+          {label: "Download 奇幻游戏三合一 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E5%A5%87%E5%B9%BB%E6%B8%B8%E6%88%8F%E4%B8%89%E5%90%88%E4%B8%80.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风尘三侠之金剑使者 is a DOS game in the WhereQ archive — 1993, 189 files, 1.0 MB, and an entry point of FS.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-chen-san-xia-zhi-jin-jian-shi-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E5%B0%98%E4%B8%89%E4%BE%A0%E4%B9%8B%E9%87%91%E5%89%91%E4%BD%BF%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-chen-san-xia-zhi-jin-jian-shi-zhe.zip"],
           ["Size", "1,074,418 bytes (1.0 MB)"],
           ["SHA-256", "ed001184085d712f8609ce4c5d50e3586524c9ee53b89aede73397a5113c9768"],
           ["Files", "189"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E5%B0%98%E4%B8%89%E4%BE%A0%E4%B9%8B%E9%87%91%E5%89%91%E4%BD%BF%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风尘三侠之金剑使者 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-chen-san-xia-zhi-jin-jian-shi-zhe.zip", external: true},
+          {label: "Download 风尘三侠之金剑使者 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E5%B0%98%E4%B8%89%E4%BE%A0%E4%B9%8B%E9%87%91%E5%89%91%E4%BD%BF%E8%80%85.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死亡之门 is a DOS game in the WhereQ archive — 1994, 150 files, 21.6 MB, and an entry point of DGATE.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-zhi-men.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E9%97%A8.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-wang-zhi-men.zip"],
           ["Size", "22,690,407 bytes (21.6 MB)"],
           ["SHA-256", "eb92ca51dadf6e34c09589a9ebfb7fb637ee0ff9b03fccc3e86251be69d435cd"],
           ["Files", "150"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E9%97%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死亡之门 (21.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-wang-zhi-men.zip", external: true},
+          {label: "Download 死亡之门 (21.6 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E9%97%A8.zip", external: true},
         ]},
       ],
     },

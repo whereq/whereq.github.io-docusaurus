@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿拉丁传奇 is a DOS game in the WhereQ archive — 1994, 303 files, 1.7 MB, and an entry point of ALADDIN.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-la-ding-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%81%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "VIRGIN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-la-ding-chuan-qi.zip"],
           ["Size", "1,799,770 bytes (1.7 MB)"],
           ["SHA-256", "cb40b5d342d20f9479fd4eec4a14316d17672bd71024d975652d83e09db97e43"],
           ["Files", "303"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%81%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿拉丁传奇 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-la-ding-chuan-qi.zip", external: true},
+          {label: "Download 阿拉丁传奇 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%81%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

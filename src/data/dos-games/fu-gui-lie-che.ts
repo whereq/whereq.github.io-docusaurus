@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "富贵列车 is a DOS game in the WhereQ archive — 1996, 27 files, 14.0 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fu-gui-lie-che.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AF%8C%E8%B4%B5%E5%88%97%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fu-gui-lie-che.zip"],
           ["Size", "14,724,034 bytes (14.0 MB)"],
           ["SHA-256", "9a90956457c1fe7e1f1a2c9f4147ace5d5caed7b09e28fe4da3c3cb52c5acadc"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AF%8C%E8%B4%B5%E5%88%97%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 富贵列车 (14.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fu-gui-lie-che.zip", external: true},
+          {label: "Download 富贵列车 (14.0 MB)", href: "https://dos-bin.zczc.cz/%E5%AF%8C%E8%B4%B5%E5%88%97%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

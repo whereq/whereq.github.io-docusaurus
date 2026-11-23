@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "解救华盛顿 is a DOS game in the WhereQ archive — 1996, 109 files, 2.5 MB, and an entry point of freedc.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jie-jiu-hua-sheng-dun.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A7%A3%E6%95%91%E5%8D%8E%E7%9B%9B%E9%A1%BF.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jie-jiu-hua-sheng-dun.zip"],
           ["Size", "2,598,421 bytes (2.5 MB)"],
           ["SHA-256", "bb69e2f08c71ac57a43ada4f780181d82aa45a6b8a35378d4d416013c503a7c2"],
           ["Files", "109"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A7%A3%E6%95%91%E5%8D%8E%E7%9B%9B%E9%A1%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 解救华盛顿 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jie-jiu-hua-sheng-dun.zip", external: true},
+          {label: "Download 解救华盛顿 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E8%A7%A3%E6%95%91%E5%8D%8E%E7%9B%9B%E9%A1%BF.zip", external: true},
         ]},
       ],
     },

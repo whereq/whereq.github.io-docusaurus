@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "凯撒大帝2 is a DOS game in the WhereQ archive — 1995, 418 files, 31.1 MB, and an entry point of C2.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-da-di-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kai-sa-da-di-2.zip"],
           ["Size", "32,600,345 bytes (31.1 MB)"],
           ["SHA-256", "7044e7d62ec88f5b7b71b061e01dc98c2367e6b4160584c52b66675e6b8c3ad4"],
           ["Files", "418"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 凯撒大帝2 (31.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-da-di-2.zip", external: true},
+          {label: "Download 凯撒大帝2 (31.1 MB)", href: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D2.zip", external: true},
         ]},
       ],
     },

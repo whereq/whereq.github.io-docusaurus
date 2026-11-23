@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星际调查局 is a DOS game in the WhereQ archive — 1990, 98 files, 693 KB, and an entry point of BAT.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-diao-cha-ju.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%B0%83%E6%9F%A5%E5%B1%80.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-ji-diao-cha-ju.zip"],
           ["Size", "709,778 bytes (693 KB)"],
           ["SHA-256", "9ab5baae5583ce3f3c75ceef7f6a0fb02c4991f506cf87af48c1ce4c71e192c9"],
           ["Files", "98"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%B0%83%E6%9F%A5%E5%B1%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星际调查局 (693 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-diao-cha-ju.zip", external: true},
+          {label: "Download 星际调查局 (693 KB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%B0%83%E6%9F%A5%E5%B1%80.zip", external: true},
         ]},
       ],
     },

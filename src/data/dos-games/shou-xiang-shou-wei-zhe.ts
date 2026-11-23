@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "兽乡守卫者 is a DOS game in the WhereQ archive — 1995, 143 files, 9.6 MB, and an entry point of LG.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shou-xiang-shou-wei-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%BD%E4%B9%A1%E5%AE%88%E5%8D%AB%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shou-xiang-shou-wei-zhe.zip"],
           ["Size", "10,102,374 bytes (9.6 MB)"],
           ["SHA-256", "83646c81c958bb0a14c87dfb42dff810468803bf826f0a85391fc26f8a84361b"],
           ["Files", "143"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%BD%E4%B9%A1%E5%AE%88%E5%8D%AB%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 兽乡守卫者 (9.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shou-xiang-shou-wei-zhe.zip", external: true},
+          {label: "Download 兽乡守卫者 (9.6 MB)", href: "https://dos-bin.zczc.cz/%E5%85%BD%E4%B9%A1%E5%AE%88%E5%8D%AB%E8%80%85.zip", external: true},
         ]},
       ],
     },

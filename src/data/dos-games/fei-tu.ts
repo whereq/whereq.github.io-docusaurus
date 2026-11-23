@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "废土 is a DOS game in the WhereQ archive — 1992, 20 files, 678 KB, and an entry point of WL.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-tu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BA%9F%E5%9C%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-tu.zip"],
           ["Size", "694,544 bytes (678 KB)"],
           ["SHA-256", "a6897bc758866685ff7dc229838a4f3bef830ed94641907e1cd17290e53620e1"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BA%9F%E5%9C%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 废土 (678 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-tu.zip", external: true},
+          {label: "Download 废土 (678 KB)", href: "https://dos-bin.zczc.cz/%E5%BA%9F%E5%9C%9F.zip", external: true},
         ]},
       ],
     },

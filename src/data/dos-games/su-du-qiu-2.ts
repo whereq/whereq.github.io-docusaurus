@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "速度球2 is a DOS game in the WhereQ archive — 1991, 47 files, 434 KB, and an entry point of SB2.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/s/su-du-qiu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%832.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "su-du-qiu-2.zip"],
           ["Size", "444,745 bytes (434 KB)"],
           ["SHA-256", "3f9394e264cb2522c8298e1fdfbf5f26f73b2dc84bdd9cdd8d22ae61e9b6b302"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%832.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 速度球2 (434 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/su-du-qiu-2.zip", external: true},
+          {label: "Download 速度球2 (434 KB)", href: "https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%832.zip", external: true},
         ]},
       ],
     },

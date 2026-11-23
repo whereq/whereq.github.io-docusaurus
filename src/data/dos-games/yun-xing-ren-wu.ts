@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "陨星任务 is a DOS game in the WhereQ archive — 1995, 7 files, 84 KB, and an entry point of METEOR.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yun-xing-ren-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%99%A8%E6%98%9F%E4%BB%BB%E5%8A%A1.zip",
   facts: [
     {label: "Developer", value: "INTERPLAY"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yun-xing-ren-wu.zip"],
           ["Size", "86,270 bytes (84 KB)"],
           ["SHA-256", "efdb08facc458f4a4fb33c3a2979e80d02eb1566581825a8d4f68f3d14b62f1c"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%99%A8%E6%98%9F%E4%BB%BB%E5%8A%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 陨星任务 (84 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yun-xing-ren-wu.zip", external: true},
+          {label: "Download 陨星任务 (84 KB)", href: "https://dos-bin.zczc.cz/%E9%99%A8%E6%98%9F%E4%BB%BB%E5%8A%A1.zip", external: true},
         ]},
       ],
     },

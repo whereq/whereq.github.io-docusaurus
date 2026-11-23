@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "艺妓 is a DOS game in the WhereQ archive — 1991, 9 files, 766 KB, and an entry point of Go.bat.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%89%BA%E5%A6%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-ji.zip"],
           ["Size", "784,488 bytes (766 KB)"],
           ["SHA-256", "82758e0b8d297fc85ab803279d554ea736d30c200c12d3cae2810547e7aa54c5"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%89%BA%E5%A6%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 艺妓 (766 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-ji.zip", external: true},
+          {label: "Download 艺妓 (766 KB)", href: "https://dos-bin.zczc.cz/%E8%89%BA%E5%A6%93.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "沉默的舰队 is a DOS game in the WhereQ archive — 1996, 121 files, 2.8 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chen-mo-de-jian-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E7%9A%84%E8%88%B0%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chen-mo-de-jian-dui.zip"],
           ["Size", "2,931,822 bytes (2.8 MB)"],
           ["SHA-256", "607cb047c75a22cb3ad2cdaa89c3842d8b75a8c7d42b550849f46fd1f6b9b307"],
           ["Files", "121"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E7%9A%84%E8%88%B0%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沉默的舰队 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chen-mo-de-jian-dui.zip", external: true},
+          {label: "Download 沉默的舰队 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E7%9A%84%E8%88%B0%E9%98%9F.zip", external: true},
         ]},
       ],
     },

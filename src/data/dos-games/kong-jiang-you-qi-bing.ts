@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "空降游骑兵 is a DOS game in the WhereQ archive — 1988, 63 files, 285 KB, and an entry point of AR.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-jiang-you-qi-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A9%BA%E9%99%8D%E6%B8%B8%E9%AA%91%E5%85%B5.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-jiang-you-qi-bing.zip"],
           ["Size", "292,287 bytes (285 KB)"],
           ["SHA-256", "448791b78afcd88bd37ab81083799eaddb3c4ab1dcd2fff84efa87f86f638287"],
           ["Files", "63"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A9%BA%E9%99%8D%E6%B8%B8%E9%AA%91%E5%85%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 空降游骑兵 (285 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-jiang-you-qi-bing.zip", external: true},
+          {label: "Download 空降游骑兵 (285 KB)", href: "https://dos-bin.zczc.cz/%E7%A9%BA%E9%99%8D%E6%B8%B8%E9%AA%91%E5%85%B5.zip", external: true},
         ]},
       ],
     },

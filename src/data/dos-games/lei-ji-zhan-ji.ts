@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "雷击战机 is a DOS game in the WhereQ archive — 1990, 62 files, 245 KB, and an entry point of TS.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-ji-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%B7%E5%87%BB%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-ji-zhan-ji.zip"],
           ["Size", "251,361 bytes (245 KB)"],
           ["SHA-256", "bc7d91b4826e059b52b15d6c1683434e716066e33d5302659e2fc52cf25b751d"],
           ["Files", "62"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%B7%E5%87%BB%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雷击战机 (245 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-ji-zhan-ji.zip", external: true},
+          {label: "Download 雷击战机 (245 KB)", href: "https://dos-bin.zczc.cz/%E9%9B%B7%E5%87%BB%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

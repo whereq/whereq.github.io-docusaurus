@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "神剑游侠传 is a DOS game in the WhereQ archive — 1997, 612 files, 20.1 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shen-jian-you-xia-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%89%91%E6%B8%B8%E4%BE%A0%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shen-jian-you-xia-chuan.zip"],
           ["Size", "21,032,090 bytes (20.1 MB)"],
           ["SHA-256", "e64f1df115428779b8c6799af4a5a8da62ecdef263f62929622c35d3f1cbb847"],
           ["Files", "612"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A5%9E%E5%89%91%E6%B8%B8%E4%BE%A0%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 神剑游侠传 (20.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shen-jian-you-xia-chuan.zip", external: true},
+          {label: "Download 神剑游侠传 (20.1 MB)", href: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%89%91%E6%B8%B8%E4%BE%A0%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

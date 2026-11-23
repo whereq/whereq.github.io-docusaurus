@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣诞小旅鼠 is a DOS game in the WhereQ archive — 1996, 18 files, 209 KB, and an entry point of VGAL.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-dan-xiao-lv-shu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E5%B0%8F%E6%97%85%E9%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-dan-xiao-lv-shu.zip"],
           ["Size", "214,193 bytes (209 KB)"],
           ["SHA-256", "0efc52c7c2c886506a79974aa564f422cd645660b47d428eecc43af29f78340d"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E5%B0%8F%E6%97%85%E9%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣诞小旅鼠 (209 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-dan-xiao-lv-shu.zip", external: true},
+          {label: "Download 圣诞小旅鼠 (209 KB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E5%B0%8F%E6%97%85%E9%BC%A0.zip", external: true},
         ]},
       ],
     },

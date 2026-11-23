@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "德军总部MOD-黎明 is a DOS game in the WhereQ archive — an undated copy, 15 files, 1.5 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-li-ming.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-%E9%BB%8E%E6%98%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "de-jun-zong-bu-mod-li-ming.zip"],
           ["Size", "1,558,982 bytes (1.5 MB)"],
           ["SHA-256", "8a3cc98a7a0b3933c974cd3829e8275ad47c8168bb61f4f533134c42b9bffd59"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-%E9%BB%8E%E6%98%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 德军总部MOD-黎明 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-li-ming.zip", external: true},
+          {label: "Download 德军总部MOD-黎明 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-%E9%BB%8E%E6%98%8E.zip", external: true},
         ]},
       ],
     },

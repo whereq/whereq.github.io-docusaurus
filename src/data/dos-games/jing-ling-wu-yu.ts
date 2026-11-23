@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "精灵物语 is a DOS game in the WhereQ archive — 2007, 196 files, 4.7 MB, and an entry point of PLAY.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jing-ling-wu-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E7%89%A9%E8%AF%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jing-ling-wu-yu.zip"],
           ["Size", "4,912,357 bytes (4.7 MB)"],
           ["SHA-256", "fa03fefb67e50b1946c143620cdd764554cf1e73b9b54543550970126777c88e"],
           ["Files", "196"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E7%89%A9%E8%AF%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 精灵物语 (4.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jing-ling-wu-yu.zip", external: true},
+          {label: "Download 精灵物语 (4.7 MB)", href: "https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E7%89%A9%E8%AF%AD.zip", external: true},
         ]},
       ],
     },

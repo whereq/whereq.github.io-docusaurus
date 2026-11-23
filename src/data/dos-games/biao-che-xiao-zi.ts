@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "飚车小子 is a DOS game in the WhereQ archive — 1994, 28 files, 2.3 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/biao-che-xiao-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9A%E8%BD%A6%E5%B0%8F%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "biao-che-xiao-zi.zip"],
           ["Size", "2,409,104 bytes (2.3 MB)"],
           ["SHA-256", "45f307ac526d06b755c21cc116f899647715539816b24783346a6c35c5d9b666"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9A%E8%BD%A6%E5%B0%8F%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飚车小子 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/biao-che-xiao-zi.zip", external: true},
+          {label: "Download 飚车小子 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%9A%E8%BD%A6%E5%B0%8F%E5%AD%90.zip", external: true},
         ]},
       ],
     },

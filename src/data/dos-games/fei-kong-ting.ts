@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞空艇 is a DOS game in the WhereQ archive — 1994, 372 files, 3.3 MB, and an entry point of ZEPPELIN.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-kong-ting.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%A9%BA%E8%89%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-kong-ting.zip"],
           ["Size", "3,422,711 bytes (3.3 MB)"],
           ["SHA-256", "dce9339a33fcc9190341170af5b6f23de18a6ce78a5d570f2554f5c18752b041"],
           ["Files", "372"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E7%A9%BA%E8%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞空艇 (3.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-kong-ting.zip", external: true},
+          {label: "Download 飞空艇 (3.3 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%A9%BA%E8%89%87.zip", external: true},
         ]},
       ],
     },

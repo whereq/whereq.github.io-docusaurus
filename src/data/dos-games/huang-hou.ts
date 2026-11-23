@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "皇后 is a DOS game in the WhereQ archive — 1997, 784 files, 17.3 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huang-hou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9A%87%E5%90%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huang-hou.zip"],
           ["Size", "18,111,173 bytes (17.3 MB)"],
           ["SHA-256", "940f3715c72486451ce7c154bb8f094f8ec24f321e13173891b108e8f5bb9aa5"],
           ["Files", "784"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9A%87%E5%90%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 皇后 (17.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huang-hou.zip", external: true},
+          {label: "Download 皇后 (17.3 MB)", href: "https://dos-bin.zczc.cz/%E7%9A%87%E5%90%8E.zip", external: true},
         ]},
       ],
     },

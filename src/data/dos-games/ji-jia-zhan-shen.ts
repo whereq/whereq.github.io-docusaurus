@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机甲战神 is a DOS game in the WhereQ archive — 1995, 347 files, 2.4 MB, and an entry point of play.bat.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-jia-zhan-shen.zip"],
           ["Size", "2,497,701 bytes (2.4 MB)"],
           ["SHA-256", "24a928300447a59bfb5c907dcada4bceb2fbba95058434fb384815786c5cd1ad"],
           ["Files", "347"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机甲战神 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shen.zip", external: true},
+          {label: "Download 机甲战神 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

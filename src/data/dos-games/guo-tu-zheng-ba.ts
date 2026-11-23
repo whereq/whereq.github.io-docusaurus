@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国土争霸 is a DOS game in the WhereQ archive — 1992, 50 files, 310 KB, and an entry point of REALMS.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-tu-zheng-ba.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E5%9C%9F%E4%BA%89%E9%9C%B8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-tu-zheng-ba.zip"],
           ["Size", "317,449 bytes (310 KB)"],
           ["SHA-256", "90029eeac0784c978397a8ae1b578e17182b6d4a045cf23b668b0d9dfe96350f"],
           ["Files", "50"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E5%9C%9F%E4%BA%89%E9%9C%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国土争霸 (310 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-tu-zheng-ba.zip", external: true},
+          {label: "Download 国土争霸 (310 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E5%9C%9F%E4%BA%89%E9%9C%B8.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "火箭车 is a DOS game in the WhereQ archive — 2009, 6 files, 33 KB, and an entry point of road.exe.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huo-jian-che.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%AE%AD%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huo-jian-che.zip"],
           ["Size", "33,727 bytes (33 KB)"],
           ["SHA-256", "0fa49534e2f43787786b56fa40492914825af8ec54cb43eff4be7d964e2ea7d0"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%AB%E7%AE%AD%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 火箭车 (33 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/huo-jian-che.zip", external: true},
+          {label: "Download 火箭车 (33 KB)", href: "https://dos-bin.zczc.cz/%E7%81%AB%E7%AE%AD%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

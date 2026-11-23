@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机甲部队 is a DOS game in the WhereQ archive — 1996, 88 files, 14.1 MB, and an entry point of ES.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-bu-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E9%83%A8%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-jia-bu-dui.zip"],
           ["Size", "14,801,337 bytes (14.1 MB)"],
           ["SHA-256", "64d55e904a105cdfcf5e0cf29769429d70ae5519b4eae702e42111a875941547"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E9%83%A8%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机甲部队 (14.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-bu-dui.zip", external: true},
+          {label: "Download 机甲部队 (14.1 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E9%83%A8%E9%98%9F.zip", external: true},
         ]},
       ],
     },

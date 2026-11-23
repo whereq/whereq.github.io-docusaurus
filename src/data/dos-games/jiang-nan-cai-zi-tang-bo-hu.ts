@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "江南才子唐伯虎 is a DOS game in the WhereQ archive — 1999, 669 files, 70.9 MB, and an entry point of PLAY.BAT.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jiang-nan-cai-zi-tang-bo-hu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B1%9F%E5%8D%97%E6%89%8D%E5%AD%90%E5%94%90%E4%BC%AF%E8%99%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jiang-nan-cai-zi-tang-bo-hu.zip"],
           ["Size", "74,390,830 bytes (70.9 MB)"],
           ["SHA-256", "a030c106f412698f0daed8c2d6c27333c3b7694a0f5aacfc721a6e696dc550c9"],
           ["Files", "669"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B1%9F%E5%8D%97%E6%89%8D%E5%AD%90%E5%94%90%E4%BC%AF%E8%99%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 江南才子唐伯虎 (70.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jiang-nan-cai-zi-tang-bo-hu.zip", external: true},
+          {label: "Download 江南才子唐伯虎 (70.9 MB)", href: "https://dos-bin.zczc.cz/%E6%B1%9F%E5%8D%97%E6%89%8D%E5%AD%90%E5%94%90%E4%BC%AF%E8%99%8E.zip", external: true},
         ]},
       ],
     },

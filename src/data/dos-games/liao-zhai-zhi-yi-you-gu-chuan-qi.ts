@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "聊斋志异幽谷传奇 is a DOS game in the WhereQ archive — 1980, 35 files, 1.5 MB, and an entry point of PLAY.BAT.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/l/liao-zhai-zhi-yi-you-gu-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82%E5%B9%BD%E8%B0%B7%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "liao-zhai-zhi-yi-you-gu-chuan-qi.zip"],
           ["Size", "1,581,455 bytes (1.5 MB)"],
           ["SHA-256", "d1aaed19ddffe5024641dffb89da5ba1dcd292db23fb69298ce474dc33fcf8d0"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82%E5%B9%BD%E8%B0%B7%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 聊斋志异幽谷传奇 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/liao-zhai-zhi-yi-you-gu-chuan-qi.zip", external: true},
+          {label: "Download 聊斋志异幽谷传奇 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82%E5%B9%BD%E8%B0%B7%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

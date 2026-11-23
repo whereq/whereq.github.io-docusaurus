@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异教徒 is a DOS game in the WhereQ archive — 1994, 21 files, 5.4 MB, and an entry point of HERETIC.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-tu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%BE%92.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-jiao-tu.zip"],
           ["Size", "5,690,798 bytes (5.4 MB)"],
           ["SHA-256", "2ac6924c88c4f5d615d7325c02e501dc1aac69a63578cd07518ef5969ba426c3"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%BE%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异教徒 (5.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-tu.zip", external: true},
+          {label: "Download 异教徒 (5.4 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%BE%92.zip", external: true},
         ]},
       ],
     },

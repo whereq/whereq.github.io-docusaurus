@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "氙星异形2 is a DOS game in the WhereQ archive — 1989, 22 files, 204 KB, and an entry point of XENON2.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xian-xing-yi-xing-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%99%E6%98%9F%E5%BC%82%E5%BD%A22.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xian-xing-yi-xing-2.zip"],
           ["Size", "209,227 bytes (204 KB)"],
           ["SHA-256", "b5917a0712b0c6051ecd77e5703cef7f5e9d03d2b5d1af5b96b347025d0b6478"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%99%E6%98%9F%E5%BC%82%E5%BD%A22.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 氙星异形2 (204 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xian-xing-yi-xing-2.zip", external: true},
+          {label: "Download 氙星异形2 (204 KB)", href: "https://dos-bin.zczc.cz/%E6%B0%99%E6%98%9F%E5%BC%82%E5%BD%A22.zip", external: true},
         ]},
       ],
     },

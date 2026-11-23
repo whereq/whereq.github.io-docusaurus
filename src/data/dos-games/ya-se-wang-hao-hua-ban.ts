@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "亚瑟王豪华版 is a DOS game in the WhereQ archive — 1994, 25 files, 599 KB, and an entry point of KORT.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ya-se-wang-hao-hua-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%9A%E7%91%9F%E7%8E%8B%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ya-se-wang-hao-hua-ban.zip"],
           ["Size", "613,365 bytes (599 KB)"],
           ["SHA-256", "84b7bdeb256832c55cb94497141605ac6ead1748923a349525ddc1a247168b73"],
           ["Files", "25"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%9A%E7%91%9F%E7%8E%8B%E8%B1%AA%E5%8D%8E%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 亚瑟王豪华版 (599 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/ya-se-wang-hao-hua-ban.zip", external: true},
+          {label: "Download 亚瑟王豪华版 (599 KB)", href: "https://dos-bin.zczc.cz/%E4%BA%9A%E7%91%9F%E7%8E%8B%E8%B1%AA%E5%8D%8E%E7%89%88.zip", external: true},
         ]},
       ],
     },

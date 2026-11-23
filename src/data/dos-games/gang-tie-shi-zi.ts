@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁十字 is a DOS game in the WhereQ archive — 1996, 282 files, 7.8 MB, and an entry point of IC.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-shi-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%8D%81%E5%AD%97.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-shi-zi.zip"],
           ["Size", "8,184,031 bytes (7.8 MB)"],
           ["SHA-256", "e7cd29e0042d2e09bc698c97d378bf0daa3eca1e25beaebf861c4745b5c3a0d0"],
           ["Files", "282"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%8D%81%E5%AD%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁十字 (7.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-shi-zi.zip", external: true},
+          {label: "Download 钢铁十字 (7.8 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%8D%81%E5%AD%97.zip", external: true},
         ]},
       ],
     },

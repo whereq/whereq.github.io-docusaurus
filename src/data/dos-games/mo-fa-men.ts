@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法门 is a DOS game in the WhereQ archive — 1987, 74 files, 248 KB, and an entry point of MM.EXE.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-men.zip"],
           ["Size", "253,781 bytes (248 KB)"],
           ["SHA-256", "2a3576cdfb197a72a2b0c4a93c5ba37f3a5bd0d962d6f7bda9038a172ed99ac8"],
           ["Files", "74"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法门 (248 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men.zip", external: true},
+          {label: "Download 魔法门 (248 KB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8.zip", external: true},
         ]},
       ],
     },

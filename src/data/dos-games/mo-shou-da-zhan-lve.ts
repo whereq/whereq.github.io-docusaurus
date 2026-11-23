@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔兽大战略 is a DOS game in the WhereQ archive — 1994, 32 files, 2.2 MB, and an entry point of NEWSLG.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-da-zhan-lve.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E5%A4%A7%E6%88%98%E7%95%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-shou-da-zhan-lve.zip"],
           ["Size", "2,321,333 bytes (2.2 MB)"],
           ["SHA-256", "971e6778ad58fdf5a8129c8c9ae60cc53313f988c6e0788c36fb777b8750a253"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E5%A4%A7%E6%88%98%E7%95%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔兽大战略 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-da-zhan-lve.zip", external: true},
+          {label: "Download 魔兽大战略 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E5%A4%A7%E6%88%98%E7%95%A5.zip", external: true},
         ]},
       ],
     },

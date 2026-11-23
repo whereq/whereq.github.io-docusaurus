@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "南极大冒险 is a DOS game in the WhereQ archive — 1995, 2 files, 29 KB, and an entry point of antartic.exe.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nan-ji-da-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nan-ji-da-mao-xian.zip"],
           ["Size", "29,466 bytes (29 KB)"],
           ["SHA-256", "b4df1a594070cc8068fe832ad9791eb4647978b35fe763f4bf057070fd9c3bb5"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 南极大冒险 (29 KB)", href: "https://github.com/whereq/dos-games/releases/download/n/nan-ji-da-mao-xian.zip", external: true},
+          {label: "Download 南极大冒险 (29 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

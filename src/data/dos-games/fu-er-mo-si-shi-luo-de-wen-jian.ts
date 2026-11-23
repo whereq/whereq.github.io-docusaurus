@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "福尔摩斯失落的文件 is a DOS game in the WhereQ archive — 1993, 87 files, 8.7 MB, and an entry point of GAME.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fu-er-mo-si-shi-luo-de-wen-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF%E5%A4%B1%E8%90%BD%E7%9A%84%E6%96%87%E4%BB%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fu-er-mo-si-shi-luo-de-wen-jian.zip"],
           ["Size", "9,168,777 bytes (8.7 MB)"],
           ["SHA-256", "1cf49c72c69ba3b8457550d28e1c8dcfb0d49aa61ed03a441529fa050ff5fc09"],
           ["Files", "87"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF%E5%A4%B1%E8%90%BD%E7%9A%84%E6%96%87%E4%BB%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 福尔摩斯失落的文件 (8.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fu-er-mo-si-shi-luo-de-wen-jian.zip", external: true},
+          {label: "Download 福尔摩斯失落的文件 (8.7 MB)", href: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF%E5%A4%B1%E8%90%BD%E7%9A%84%E6%96%87%E4%BB%B6.zip", external: true},
         ]},
       ],
     },

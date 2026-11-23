@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战棋1-国际象棋 is a DOS game in the WhereQ archive — 1989, 10 files, 500 KB, and an entry point of CHESS.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-1-guo-ji-xiang-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B1-%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-qi-1-guo-ji-xiang-qi.zip"],
           ["Size", "512,367 bytes (500 KB)"],
           ["SHA-256", "ec07704f3b37ccd28583b91de506f9c66bb1e9de772fedbfa96d0b35fd364a0d"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B1-%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战棋1-国际象棋 (500 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-1-guo-ji-xiang-qi.zip", external: true},
+          {label: "Download 战棋1-国际象棋 (500 KB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B1-%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

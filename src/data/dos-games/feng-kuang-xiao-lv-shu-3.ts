@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "疯狂小旅鼠3 is a DOS game in the WhereQ archive — 1994, 503 files, 4.1 MB, and an entry point of L3.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-xiao-lv-shu-3.zip",
+  url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E6%97%85%E9%BC%A03.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-kuang-xiao-lv-shu-3.zip"],
           ["Size", "4,308,987 bytes (4.1 MB)"],
           ["SHA-256", "a2508424a13b90c05d2dc4192eb6affb4d515e688db1d2f472f3a389bbcc2491"],
           ["Files", "503"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E6%97%85%E9%BC%A03.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 疯狂小旅鼠3 (4.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-xiao-lv-shu-3.zip", external: true},
+          {label: "Download 疯狂小旅鼠3 (4.1 MB)", href: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E6%97%85%E9%BC%A03.zip", external: true},
         ]},
       ],
     },

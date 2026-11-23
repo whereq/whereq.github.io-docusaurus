@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "克里姆林宫危机 is a DOS game in the WhereQ archive — 1991, 178 files, 5.7 MB, and an entry point of CRISIS.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-li-mu-lin-gong-wei-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%8B%E9%87%8C%E5%A7%86%E6%9E%97%E5%AE%AB%E5%8D%B1%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-li-mu-lin-gong-wei-ji.zip"],
           ["Size", "5,947,863 bytes (5.7 MB)"],
           ["SHA-256", "29e3c194ecff01d2f2a1c84ec2ff79c217d111e20bd99951db773ac23cea971f"],
           ["Files", "178"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%8B%E9%87%8C%E5%A7%86%E6%9E%97%E5%AE%AB%E5%8D%B1%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 克里姆林宫危机 (5.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-li-mu-lin-gong-wei-ji.zip", external: true},
+          {label: "Download 克里姆林宫危机 (5.7 MB)", href: "https://dos-bin.zczc.cz/%E5%85%8B%E9%87%8C%E5%A7%86%E6%9E%97%E5%AE%AB%E5%8D%B1%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

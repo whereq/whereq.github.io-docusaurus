@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "盲战 is a DOS game in the WhereQ archive — 1996, 18 files, 148 KB, and an entry point of BLINDWAR.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mang-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9B%B2%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mang-zhan.zip"],
           ["Size", "151,930 bytes (148 KB)"],
           ["SHA-256", "d4446589e0ca9d7e2bbe92756e83008e796363c0d50f7572bdfda9468527aaef"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9B%B2%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 盲战 (148 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mang-zhan.zip", external: true},
+          {label: "Download 盲战 (148 KB)", href: "https://dos-bin.zczc.cz/%E7%9B%B2%E6%88%98.zip", external: true},
         ]},
       ],
     },

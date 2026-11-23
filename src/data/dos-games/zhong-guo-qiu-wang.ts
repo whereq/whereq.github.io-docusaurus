@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "中国球王 is a DOS game in the WhereQ archive — 1997, 468 files, 6.7 MB, and an entry point of PLAY.COM.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-guo-qiu-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E7%90%83%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-guo-qiu-wang.zip"],
           ["Size", "7,045,824 bytes (6.7 MB)"],
           ["SHA-256", "4e50109f346d58d67ea11a74ab4584b0508d907475fa1dcf9db4c7a044b7af15"],
           ["Files", "468"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E7%90%83%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 中国球王 (6.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-guo-qiu-wang.zip", external: true},
+          {label: "Download 中国球王 (6.7 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E7%90%83%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

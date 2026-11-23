@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "蝙蝠侠归来 is a DOS game in the WhereQ archive — 1993, 5 files, 8.0 MB, and an entry point of BATMAN.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bian-fu-xia-gui-lai.zip",
+  url: "https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E5%BD%92%E6%9D%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bian-fu-xia-gui-lai.zip"],
           ["Size", "8,368,160 bytes (8.0 MB)"],
           ["SHA-256", "5289c3fe5fe7d12f424c7d28ed94ae5972b9f8304666bf6dae4dd1345b6b39d5"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E5%BD%92%E6%9D%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蝙蝠侠归来 (8.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bian-fu-xia-gui-lai.zip", external: true},
+          {label: "Download 蝙蝠侠归来 (8.0 MB)", href: "https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E5%BD%92%E6%9D%A5.zip", external: true},
         ]},
       ],
     },

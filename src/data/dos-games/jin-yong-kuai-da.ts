@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "金庸快打 is a DOS game in the WhereQ archive — 1995, 583 files, 11.0 MB, and an entry point of FIGHTER.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jin-yong-kuai-da.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jin-yong-kuai-da.zip"],
           ["Size", "11,529,337 bytes (11.0 MB)"],
           ["SHA-256", "a16c2627276e314a818768f00c78a9cb32f3b6fbb9adf5bae7aad2217f0d2b0d"],
           ["Files", "583"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 金庸快打 (11.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jin-yong-kuai-da.zip", external: true},
+          {label: "Download 金庸快打 (11.0 MB)", href: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip", external: true},
         ]},
       ],
     },

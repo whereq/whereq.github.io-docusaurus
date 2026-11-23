@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "波斯王子2 is a DOS game in the WhereQ archive — 2000, 57 files, 4.8 MB, and an entry point of Prince.exe.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bo-si-wang-zi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%AD%902.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bo-si-wang-zi-2.zip"],
           ["Size", "5,084,112 bytes (4.8 MB)"],
           ["SHA-256", "9957d5d4a4af7bbb95719dcf07460ffad8f0eb434fcfcde1959eabd99a4d40eb"],
           ["Files", "57"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%AD%902.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 波斯王子2 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bo-si-wang-zi-2.zip", external: true},
+          {label: "Download 波斯王子2 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%AD%902.zip", external: true},
         ]},
       ],
     },

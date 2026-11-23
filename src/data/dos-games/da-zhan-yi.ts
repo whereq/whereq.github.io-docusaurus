@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大战役 is a DOS game in the WhereQ archive — 2008, 74 files, 2.6 MB, and an entry point of CPGAME.EXE.",
   status: "2008",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E5%BD%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2008"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-zhan-yi.zip"],
           ["Size", "2,676,906 bytes (2.6 MB)"],
           ["SHA-256", "2dfcdcbd1d23d0ad0b054f0c8f64317bfd23b5d5881aedda03f0cef55ab85d43"],
           ["Files", "74"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E5%BD%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大战役 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-yi.zip", external: true},
+          {label: "Download 大战役 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E5%BD%B9.zip", external: true},
         ]},
       ],
     },

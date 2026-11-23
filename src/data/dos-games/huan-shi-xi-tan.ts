@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻世喜谭 is a DOS game in the WhereQ archive — 1997, 73 files, 2.7 MB, and an entry point of GENSE.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-shi-xi-tan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E4%B8%96%E5%96%9C%E8%B0%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-shi-xi-tan.zip"],
           ["Size", "2,855,599 bytes (2.7 MB)"],
           ["SHA-256", "28327bd84f71d52c6bb9d351c5b9b6e913026b9ce9e1feb5c593dff3b9b02ea6"],
           ["Files", "73"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E4%B8%96%E5%96%9C%E8%B0%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻世喜谭 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-shi-xi-tan.zip", external: true},
+          {label: "Download 幻世喜谭 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E4%B8%96%E5%96%9C%E8%B0%AD.zip", external: true},
         ]},
       ],
     },

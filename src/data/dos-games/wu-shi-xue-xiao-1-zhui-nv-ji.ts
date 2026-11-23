@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "巫师学校1追女记 is a DOS game in the WhereQ archive — 1990, 58 files, 2.4 MB, and an entry point of S101MAIN.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-1-zhui-nv-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A11%E8%BF%BD%E5%A5%B3%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-shi-xue-xiao-1-zhui-nv-ji.zip"],
           ["Size", "2,525,261 bytes (2.4 MB)"],
           ["SHA-256", "a18e20f12a73d48a53796bf806f6ce4ed4ecf3c3e8a92a9dc3d94280ae039c36"],
           ["Files", "58"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A11%E8%BF%BD%E5%A5%B3%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巫师学校1追女记 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-1-zhui-nv-ji.zip", external: true},
+          {label: "Download 巫师学校1追女记 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A11%E8%BF%BD%E5%A5%B3%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

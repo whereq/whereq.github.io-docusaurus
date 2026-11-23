@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "突击士兵 is a DOS game in the WhereQ archive — 1997, 16 files, 945 KB, and an entry point of ASSAULT.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tu-ji-shi-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E5%A3%AB%E5%85%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tu-ji-shi-bing.zip"],
           ["Size", "967,312 bytes (945 KB)"],
           ["SHA-256", "94654ab53f52e146c86146d5b5bedfc91b651e92f44dec8e7c9139ee1f644b24"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E5%A3%AB%E5%85%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 突击士兵 (945 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tu-ji-shi-bing.zip", external: true},
+          {label: "Download 突击士兵 (945 KB)", href: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E5%A3%AB%E5%85%B5.zip", external: true},
         ]},
       ],
     },

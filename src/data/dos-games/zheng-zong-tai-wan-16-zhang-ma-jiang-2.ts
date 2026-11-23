@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "正宗台湾16张麻将2 is a DOS game in the WhereQ archive — 1997, 61 files, 11.3 MB, and an entry point of TWMJOPEN.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zheng-zong-tai-wan-16-zhang-ma-jiang-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%A3%E5%AE%97%E5%8F%B0%E6%B9%BE16%E5%BC%A0%E9%BA%BB%E5%B0%862.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zheng-zong-tai-wan-16-zhang-ma-jiang-2.zip"],
           ["Size", "11,821,735 bytes (11.3 MB)"],
           ["SHA-256", "e296190aed949eb737b902da93ef60459d47ddcc36ee6e5d0a3aafc60d948f16"],
           ["Files", "61"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%A3%E5%AE%97%E5%8F%B0%E6%B9%BE16%E5%BC%A0%E9%BA%BB%E5%B0%862.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 正宗台湾16张麻将2 (11.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zheng-zong-tai-wan-16-zhang-ma-jiang-2.zip", external: true},
+          {label: "Download 正宗台湾16张麻将2 (11.3 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%A3%E5%AE%97%E5%8F%B0%E6%B9%BE16%E5%BC%A0%E9%BA%BB%E5%B0%862.zip", external: true},
         ]},
       ],
     },

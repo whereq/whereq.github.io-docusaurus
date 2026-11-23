@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙战记X is a DOS game in the WhereQ archive — 1993, 137 files, 1.4 MB, and an entry point of XARGON.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-zhan-ji-x.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E6%88%98%E8%AE%B0X.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-zhan-ji-x.zip"],
           ["Size", "1,446,995 bytes (1.4 MB)"],
           ["SHA-256", "91976285d5bee6e205167f326e647038210c94fb62187e0051ad140d4fbcc8df"],
           ["Files", "137"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E6%88%98%E8%AE%B0X.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙战记X (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-zhan-ji-x.zip", external: true},
+          {label: "Download 龙战记X (1.4 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E6%88%98%E8%AE%B0X.zip", external: true},
         ]},
       ],
     },

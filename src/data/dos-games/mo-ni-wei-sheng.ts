@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟卫生 is a DOS game in the WhereQ archive — 1994, 61 files, 1.9 MB, and an entry point of HEALTH.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-wei-sheng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8D%AB%E7%94%9F.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-wei-sheng.zip"],
           ["Size", "1,953,573 bytes (1.9 MB)"],
           ["SHA-256", "8fee58a64a2f9addb8b2336e2aa8d807369c0c3b665a3f1e63b5b9d14302461f"],
           ["Files", "61"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8D%AB%E7%94%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟卫生 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-wei-sheng.zip", external: true},
+          {label: "Download 模拟卫生 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8D%AB%E7%94%9F.zip", external: true},
         ]},
       ],
     },

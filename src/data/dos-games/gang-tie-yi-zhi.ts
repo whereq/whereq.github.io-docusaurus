@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁意志 is a DOS game in the WhereQ archive — an undated copy, 801 files, 3.4 MB, and an entry point of NOS.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-yi-zhi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E6%84%8F%E5%BF%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-yi-zhi.zip"],
           ["Size", "3,562,927 bytes (3.4 MB)"],
           ["SHA-256", "2115083e65e59c05dd0325c8d7b0ef71f6ffab4a7bffec986db96fd536393a5d"],
           ["Files", "801"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E6%84%8F%E5%BF%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁意志 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-yi-zhi.zip", external: true},
+          {label: "Download 钢铁意志 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E6%84%8F%E5%BF%97.zip", external: true},
         ]},
       ],
     },

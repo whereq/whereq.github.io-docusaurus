@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "紧急关头 is a DOS game in the WhereQ archive — 1996, 192 files, 6.7 MB, and an entry point of extremis.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jin-ji-guan-tou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%B4%A7%E6%80%A5%E5%85%B3%E5%A4%B4.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jin-ji-guan-tou.zip"],
           ["Size", "7,075,052 bytes (6.7 MB)"],
           ["SHA-256", "b86c3c83eba2cef98ce1ad9a979af305a02b0a4648506d71bc795ff2664a9efa"],
           ["Files", "192"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%B4%A7%E6%80%A5%E5%85%B3%E5%A4%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 紧急关头 (6.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jin-ji-guan-tou.zip", external: true},
+          {label: "Download 紧急关头 (6.7 MB)", href: "https://dos-bin.zczc.cz/%E7%B4%A7%E6%80%A5%E5%85%B3%E5%A4%B4.zip", external: true},
         ]},
       ],
     },

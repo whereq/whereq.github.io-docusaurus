@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "忍者兔 is a DOS game in the WhereQ archive — 1996, 32 files, 276 KB, and an entry point of game.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-tu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%85%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ren-zhe-tu.zip"],
           ["Size", "282,867 bytes (276 KB)"],
           ["SHA-256", "a4c58af28ddfdbb2f40a0eb7236fc62b6a77e8b040bd36e08563731fd0cad383"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%85%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 忍者兔 (276 KB)", href: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-tu.zip", external: true},
+          {label: "Download 忍者兔 (276 KB)", href: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%85%94.zip", external: true},
         ]},
       ],
     },

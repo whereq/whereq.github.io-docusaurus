@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "威利的暑假 is a DOS game in the WhereQ archive — 1991, 11 files, 6.0 MB, and an entry point of WILLY.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-li-de-shu-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A8%81%E5%88%A9%E7%9A%84%E6%9A%91%E5%81%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-li-de-shu-jia.zip"],
           ["Size", "6,297,022 bytes (6.0 MB)"],
           ["SHA-256", "9be7e1519ecd6e1e780b0658f735774951d4315273c88197f4d8c7062147a9b5"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A8%81%E5%88%A9%E7%9A%84%E6%9A%91%E5%81%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 威利的暑假 (6.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-li-de-shu-jia.zip", external: true},
+          {label: "Download 威利的暑假 (6.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A8%81%E5%88%A9%E7%9A%84%E6%9A%91%E5%81%87.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "部落 is a DOS game in the WhereQ archive — 1994, 7 files, 8.3 MB, and an entry point of HORDE.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bu-luo.zip",
+  url: "https://dos-bin.zczc.cz/%E9%83%A8%E8%90%BD.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bu-luo.zip"],
           ["Size", "8,697,560 bytes (8.3 MB)"],
           ["SHA-256", "7f3c3f4461be6af69bb8f15ccee3ad6a0ff5a540636b9dc79e213deddbecceca"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%83%A8%E8%90%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 部落 (8.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bu-luo.zip", external: true},
+          {label: "Download 部落 (8.3 MB)", href: "https://dos-bin.zczc.cz/%E9%83%A8%E8%90%BD.zip", external: true},
         ]},
       ],
     },

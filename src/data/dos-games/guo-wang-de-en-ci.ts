@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王的恩赐 is a DOS game in the WhereQ archive — 1995, 3 files, 653 KB, and an entry point of KB.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-de-en-ci.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%81%A9%E8%B5%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-de-en-ci.zip"],
           ["Size", "668,382 bytes (653 KB)"],
           ["SHA-256", "2cfafadb840a16644fd20f7e096997e54e5353fd38311098a5dc1a417649277e"],
           ["Files", "3"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%81%A9%E8%B5%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王的恩赐 (653 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-de-en-ci.zip", external: true},
+          {label: "Download 国王的恩赐 (653 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%81%A9%E8%B5%90.zip", external: true},
         ]},
       ],
     },

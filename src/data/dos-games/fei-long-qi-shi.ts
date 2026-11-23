@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞龙骑士 is a DOS game in the WhereQ archive — 1990, 89 files, 987 KB, and an entry point of DSTRIKE.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-long-qi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E9%AA%91%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-long-qi-shi.zip"],
           ["Size", "1,010,188 bytes (987 KB)"],
           ["SHA-256", "12127e1703f79cc29de996b4bbf88674956096553f43e82ed9993c0771c2852c"],
           ["Files", "89"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E9%AA%91%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞龙骑士 (987 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-long-qi-shi.zip", external: true},
+          {label: "Download 飞龙骑士 (987 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E9%AA%91%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风暴之眼 is a DOS game in the WhereQ archive — 1996, 102 files, 1.5 MB, and an entry point of EOS.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-bao-zhi-yan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E4%B9%8B%E7%9C%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-bao-zhi-yan.zip"],
           ["Size", "1,572,846 bytes (1.5 MB)"],
           ["SHA-256", "e69228f11de189ab9f06028303740d8e9365df5d19e755c40840fd9789b8184c"],
           ["Files", "102"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E4%B9%8B%E7%9C%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风暴之眼 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-bao-zhi-yan.zip", external: true},
+          {label: "Download 风暴之眼 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E4%B9%8B%E7%9C%BC.zip", external: true},
         ]},
       ],
     },

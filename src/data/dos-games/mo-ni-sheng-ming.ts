@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟生命 is a DOS game in the WhereQ archive — an undated copy, 125 files, 1008 KB, and an entry point of simlife.bat.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-sheng-ming.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-sheng-ming.zip"],
           ["Size", "1,032,154 bytes (1008 KB)"],
           ["SHA-256", "3b807cf5fb16eea0d283d293f3649579ab69084e63ed95d81ea8bb600f121520"],
           ["Files", "125"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟生命 (1008 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-sheng-ming.zip", external: true},
+          {label: "Download 模拟生命 (1008 KB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip", external: true},
         ]},
       ],
     },

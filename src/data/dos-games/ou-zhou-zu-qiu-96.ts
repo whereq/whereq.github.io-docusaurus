@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "o",
   summary: "欧洲足球96 is a DOS game in the WhereQ archive — 1996, 289 files, 9.6 MB, and an entry point of START.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/o/ou-zhou-zu-qiu-96.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E8%B6%B3%E7%90%8396.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ou-zhou-zu-qiu-96.zip"],
           ["Size", "10,046,884 bytes (9.6 MB)"],
           ["SHA-256", "0bf974576bf9c9af5880981dfd67f7f650fb9c8f993c31a2d5845be00dbe4cb9"],
           ["Files", "289"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E8%B6%B3%E7%90%8396.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 欧洲足球96 (9.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/o/ou-zhou-zu-qiu-96.zip", external: true},
+          {label: "Download 欧洲足球96 (9.6 MB)", href: "https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E8%B6%B3%E7%90%8396.zip", external: true},
         ]},
       ],
     },

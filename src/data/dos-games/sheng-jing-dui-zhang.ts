@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣经队长 is a DOS game in the WhereQ archive — 2006, 96 files, 2.1 MB, and an entry point of CB.EXE.",
   status: "2006",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-jing-dui-zhang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E7%BB%8F%E9%98%9F%E9%95%BF.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2006"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-jing-dui-zhang.zip"],
           ["Size", "2,169,213 bytes (2.1 MB)"],
           ["SHA-256", "77d749d4d0a9be402c2d18686be9602b0f86b8e932d315cbe090ffee7bf5bd8c"],
           ["Files", "96"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E7%BB%8F%E9%98%9F%E9%95%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣经队长 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-jing-dui-zhang.zip", external: true},
+          {label: "Download 圣经队长 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E7%BB%8F%E9%98%9F%E9%95%BF.zip", external: true},
         ]},
       ],
     },

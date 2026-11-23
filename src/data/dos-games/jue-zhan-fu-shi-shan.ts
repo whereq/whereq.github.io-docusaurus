@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "决战富士山 is a DOS game in the WhereQ archive — 1986, 92 files, 80 KB, and an entry point of KARATEKA.EXE.",
   status: "1986",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-zhan-fu-shi-shan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E5%AF%8C%E5%A3%AB%E5%B1%B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1986"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-zhan-fu-shi-shan.zip"],
           ["Size", "81,432 bytes (80 KB)"],
           ["SHA-256", "920f8479f0ff6407a35980e029a4337ee51f2e6b03448287e1bc8bee52f0055a"],
           ["Files", "92"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E5%AF%8C%E5%A3%AB%E5%B1%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 决战富士山 (80 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-zhan-fu-shi-shan.zip", external: true},
+          {label: "Download 决战富士山 (80 KB)", href: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E5%AF%8C%E5%A3%AB%E5%B1%B1.zip", external: true},
         ]},
       ],
     },

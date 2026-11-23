@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "区域掠夺 is a DOS game in the WhereQ archive — 1995, 223 files, 17.7 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qu-yu-lve-duo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8C%BA%E5%9F%9F%E6%8E%A0%E5%A4%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qu-yu-lve-duo.zip"],
           ["Size", "18,601,479 bytes (17.7 MB)"],
           ["SHA-256", "0148486a2b48f99250e8fbc3cedc8f3cbef53f838aa5011bf7d095141eac30de"],
           ["Files", "223"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8C%BA%E5%9F%9F%E6%8E%A0%E5%A4%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 区域掠夺 (17.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qu-yu-lve-duo.zip", external: true},
+          {label: "Download 区域掠夺 (17.7 MB)", href: "https://dos-bin.zczc.cz/%E5%8C%BA%E5%9F%9F%E6%8E%A0%E5%A4%BA.zip", external: true},
         ]},
       ],
     },

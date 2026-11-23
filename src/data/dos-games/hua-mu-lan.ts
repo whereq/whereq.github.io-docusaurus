@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "花木兰 is a DOS game in the WhereQ archive — 1998, 341 files, 38.0 MB, and an entry point of Hml.exe.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hua-mu-lan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8A%B1%E6%9C%A8%E5%85%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hua-mu-lan.zip"],
           ["Size", "39,820,811 bytes (38.0 MB)"],
           ["SHA-256", "5fc97bd1c0384da24b53cdee63649f7524629f829358fbb620e1425f2fc07c8e"],
           ["Files", "341"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8A%B1%E6%9C%A8%E5%85%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 花木兰 (38.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hua-mu-lan.zip", external: true},
+          {label: "Download 花木兰 (38.0 MB)", href: "https://dos-bin.zczc.cz/%E8%8A%B1%E6%9C%A8%E5%85%B0.zip", external: true},
         ]},
       ],
     },

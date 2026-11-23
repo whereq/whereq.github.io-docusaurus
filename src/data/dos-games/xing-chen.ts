@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星尘 is a DOS game in the WhereQ archive — 1995, 83 files, 2.3 MB, and an entry point of RUNME.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-chen.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E5%B0%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-chen.zip"],
           ["Size", "2,426,728 bytes (2.3 MB)"],
           ["SHA-256", "c337e218153bc9d21d2b4887cf255cf52829065a995e1066032b9e90c6802b09"],
           ["Files", "83"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E5%B0%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星尘 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-chen.zip", external: true},
+          {label: "Download 星尘 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E5%B0%98.zip", external: true},
         ]},
       ],
     },

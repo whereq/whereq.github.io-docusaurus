@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "皇帝 is a DOS game in the WhereQ archive — 1996, 171 files, 10.7 MB, and an entry point of SKING.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huang-di.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9A%87%E5%B8%9D.zip",
   facts: [
     {label: "Developer", value: "光榮"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huang-di.zip"],
           ["Size", "11,231,841 bytes (10.7 MB)"],
           ["SHA-256", "41c8c3678d5381561f22bc8a7df2eef15f9e24e10ef2a54801a14a1eb1854923"],
           ["Files", "171"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9A%87%E5%B8%9D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 皇帝 (10.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huang-di.zip", external: true},
+          {label: "Download 皇帝 (10.7 MB)", href: "https://dos-bin.zczc.cz/%E7%9A%87%E5%B8%9D.zip", external: true},
         ]},
       ],
     },

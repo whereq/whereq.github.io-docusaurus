@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超时空G点 is a DOS game in the WhereQ archive — 1996, 215 files, 2.3 MB, and an entry point of QR.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-g-dian.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BAG%E7%82%B9.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-shi-kong-g-dian.zip"],
           ["Size", "2,400,478 bytes (2.3 MB)"],
           ["SHA-256", "0641956042b20b60ab3338cc369daf65b26d46494f323740b0d88c7ec10a0751"],
           ["Files", "215"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BAG%E7%82%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超时空G点 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-g-dian.zip", external: true},
+          {label: "Download 超时空G点 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BAG%E7%82%B9.zip", external: true},
         ]},
       ],
     },

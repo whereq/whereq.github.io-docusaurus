@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "3",
   summary: "3D陨石 is a DOS game in the WhereQ archive — 1996, 10 files, 2.3 MB, and an entry point of A3DSW.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/3/3d-yun-shi.zip",
+  url: "https://dos-bin.zczc.cz/3D%E9%99%A8%E7%9F%B3.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "3d-yun-shi.zip"],
           ["Size", "2,416,915 bytes (2.3 MB)"],
           ["SHA-256", "5e657759b26b657fae71df68762dfc30350b6f3cb4dc1ae2c9e10fc7570046b2"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/3D%E9%99%A8%E7%9F%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 3D陨石 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/3/3d-yun-shi.zip", external: true},
+          {label: "Download 3D陨石 (2.3 MB)", href: "https://dos-bin.zczc.cz/3D%E9%99%A8%E7%9F%B3.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "核能武士 is a DOS game in the WhereQ archive — 1987, 1 files, 40 KB, and an entry point of RWARRIOR.EXE.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/h/he-neng-wu-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A0%B8%E8%83%BD%E6%AD%A6%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Epyx"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "he-neng-wu-shi.zip"],
           ["Size", "40,624 bytes (40 KB)"],
           ["SHA-256", "87d20264b694e97ff22d77e99cae926dffad75df5d8013ed55a96db841bd2feb"],
           ["Files", "1"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A0%B8%E8%83%BD%E6%AD%A6%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 核能武士 (40 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/he-neng-wu-shi.zip", external: true},
+          {label: "Download 核能武士 (40 KB)", href: "https://dos-bin.zczc.cz/%E6%A0%B8%E8%83%BD%E6%AD%A6%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

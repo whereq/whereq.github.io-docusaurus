@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "凯兰蒂亚传奇 is a DOS game in the WhereQ archive — 1992, 238 files, 6.0 MB, and an entry point of M.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kai-lan-di-ya-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%87%AF%E5%85%B0%E8%92%82%E4%BA%9A%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kai-lan-di-ya-chuan-qi.zip"],
           ["Size", "6,265,547 bytes (6.0 MB)"],
           ["SHA-256", "0428eeb54c07259d94f098e76f938b8f00f257d9ab3a13ccf90809371e22cf78"],
           ["Files", "238"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%87%AF%E5%85%B0%E8%92%82%E4%BA%9A%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 凯兰蒂亚传奇 (6.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kai-lan-di-ya-chuan-qi.zip", external: true},
+          {label: "Download 凯兰蒂亚传奇 (6.0 MB)", href: "https://dos-bin.zczc.cz/%E5%87%AF%E5%85%B0%E8%92%82%E4%BA%9A%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

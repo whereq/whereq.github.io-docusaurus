@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机甲战士2第31世纪 is a DOS game in the WhereQ archive — 1995, 359 files, 32.4 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-di-31-shi-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%AC%AC31%E4%B8%96%E7%BA%AA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-jia-zhan-shi-2-di-31-shi-ji.zip"],
           ["Size", "33,996,176 bytes (32.4 MB)"],
           ["SHA-256", "0e8dbe622181deb8908a1322afa596f555044c8e4791db9f6d5c41bb2c9085fa"],
           ["Files", "359"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%AC%AC31%E4%B8%96%E7%BA%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机甲战士2第31世纪 (32.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-di-31-shi-ji.zip", external: true},
+          {label: "Download 机甲战士2第31世纪 (32.4 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%AC%AC31%E4%B8%96%E7%BA%AA.zip", external: true},
         ]},
       ],
     },

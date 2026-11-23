@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大富翁环游世界 is a DOS game in the WhereQ archive — 1990, 22 files, 230 KB, and an entry point of PLAY.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-huan-you-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%81%E7%8E%AF%E6%B8%B8%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-fu-weng-huan-you-shi-jie.zip"],
           ["Size", "235,624 bytes (230 KB)"],
           ["SHA-256", "8c10ee741a5e9ffccdcb478f95d7237f98e7b4c4e6d74233b9d71eee3868b192"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%81%E7%8E%AF%E6%B8%B8%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大富翁环游世界 (230 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-huan-you-shi-jie.zip", external: true},
+          {label: "Download 大富翁环游世界 (230 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%81%E7%8E%AF%E6%B8%B8%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

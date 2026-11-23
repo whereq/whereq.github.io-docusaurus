@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟潜艇 is a DOS game in the WhereQ archive — 1993, 106 files, 630 KB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-qian-ting.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E6%BD%9C%E8%89%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-qian-ting.zip"],
           ["Size", "645,201 bytes (630 KB)"],
           ["SHA-256", "535fb6a3105d16fffa32c1630ae76f753fb856179d2ed0b8692a360cb79dd708"],
           ["Files", "106"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E6%BD%9C%E8%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟潜艇 (630 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-qian-ting.zip", external: true},
+          {label: "Download 模拟潜艇 (630 KB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E6%BD%9C%E8%89%87.zip", external: true},
         ]},
       ],
     },

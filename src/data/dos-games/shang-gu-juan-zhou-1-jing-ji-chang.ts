@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "上古卷轴1竞技场 is a DOS game in the WhereQ archive — 1994, 149 files, 10.7 MB, and an entry point of ARENA.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-juan-zhou-1-jing-ji-chang.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B41%E7%AB%9E%E6%8A%80%E5%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shang-gu-juan-zhou-1-jing-ji-chang.zip"],
           ["Size", "11,198,675 bytes (10.7 MB)"],
           ["SHA-256", "65275e7d76fc74439d889473b2e031d403e218c1df3519e82aabde2e553774dd"],
           ["Files", "149"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B41%E7%AB%9E%E6%8A%80%E5%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 上古卷轴1竞技场 (10.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-juan-zhou-1-jing-ji-chang.zip", external: true},
+          {label: "Download 上古卷轴1竞技场 (10.7 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B41%E7%AB%9E%E6%8A%80%E5%9C%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "ALPHA风暴 is a DOS game in the WhereQ archive — 1997, 200 files, 15.5 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/a/alpha-feng-bao.zip",
+  url: "https://dos-bin.zczc.cz/ALPHA%E9%A3%8E%E6%9A%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "alpha-feng-bao.zip"],
           ["Size", "16,266,288 bytes (15.5 MB)"],
           ["SHA-256", "1348abb945f0b89f9af4c048b7767bd0100d3995ff170a9d990eb15dba553f29"],
           ["Files", "200"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/ALPHA%E9%A3%8E%E6%9A%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download ALPHA风暴 (15.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/alpha-feng-bao.zip", external: true},
+          {label: "Download ALPHA风暴 (15.5 MB)", href: "https://dos-bin.zczc.cz/ALPHA%E9%A3%8E%E6%9A%B4.zip", external: true},
         ]},
       ],
     },

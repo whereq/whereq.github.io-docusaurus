@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "沙拉那之剑 is a DOS game in the WhereQ archive — 1997, 98 files, 36.4 MB, and an entry point of SHANNARA.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-la-na-zhi-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%99%E6%8B%89%E9%82%A3%E4%B9%8B%E5%89%91.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-la-na-zhi-jian.zip"],
           ["Size", "38,153,881 bytes (36.4 MB)"],
           ["SHA-256", "f8ec212ae313529d83d794efd7f8d029ab6e43926b75f8de34ebf7d9cf000c34"],
           ["Files", "98"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%99%E6%8B%89%E9%82%A3%E4%B9%8B%E5%89%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沙拉那之剑 (36.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-la-na-zhi-jian.zip", external: true},
+          {label: "Download 沙拉那之剑 (36.4 MB)", href: "https://dos-bin.zczc.cz/%E6%B2%99%E6%8B%89%E9%82%A3%E4%B9%8B%E5%89%91.zip", external: true},
         ]},
       ],
     },

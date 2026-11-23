@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三国志III is a DOS game in the WhereQ archive — 1993, 35 files, 2.2 MB, and an entry point of KOEI.COM.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-iii.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%973.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-guo-zhi-iii.zip"],
           ["Size", "2,260,444 bytes (2.2 MB)"],
           ["SHA-256", "515ec3ed07caf4948a92923388350ade12df279807c2510b0fdb51bf39f95216"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%973.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三国志III (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-iii.zip", external: true},
+          {label: "Download 三国志III (2.2 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%973.zip", external: true},
         ]},
       ],
     },

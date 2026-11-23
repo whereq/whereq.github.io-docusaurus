@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "亚里士王物语 is a DOS game in the WhereQ archive — an undated copy, 9 files, 6.1 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ya-li-shi-wang-wu-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%87%8C%E5%A3%AB%E7%8E%8B%E7%89%A9%E8%AF%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ya-li-shi-wang-wu-yu.zip"],
           ["Size", "6,419,790 bytes (6.1 MB)"],
           ["SHA-256", "04e544602e25ab0095be62a1826c452a4ff8a9aee635f430e624b43a12a66710"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%9A%E9%87%8C%E5%A3%AB%E7%8E%8B%E7%89%A9%E8%AF%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 亚里士王物语 (6.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ya-li-shi-wang-wu-yu.zip", external: true},
+          {label: "Download 亚里士王物语 (6.1 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%87%8C%E5%A3%AB%E7%8E%8B%E7%89%A9%E8%AF%AD.zip", external: true},
         ]},
       ],
     },

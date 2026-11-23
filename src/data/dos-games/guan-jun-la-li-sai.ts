@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "冠军拉力赛 is a DOS game in the WhereQ archive — 1980, 37 files, 2.9 MB, and an entry point of RACE.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guan-jun-la-li-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guan-jun-la-li-sai.zip"],
           ["Size", "3,003,962 bytes (2.9 MB)"],
           ["SHA-256", "bf4827c52e17b732e54acb6fd7ed86970db87784139d6fccb9278708c86ca7cb"],
           ["Files", "37"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E6%8B%89%E5%8A%9B%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 冠军拉力赛 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guan-jun-la-li-sai.zip", external: true},
+          {label: "Download 冠军拉力赛 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E6%8B%89%E5%8A%9B%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

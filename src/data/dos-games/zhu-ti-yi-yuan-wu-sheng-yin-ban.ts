@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "主题医院 无声音版 is a DOS game in the WhereQ archive — 1997, 464 files, 25.4 MB, and an entry point of HOSPITAL.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-yi-yuan-wu-sheng-yin-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2.zip",
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhu-ti-yi-yuan-wu-sheng-yin-ban.zip"],
           ["Size", "26,619,552 bytes (25.4 MB)"],
           ["SHA-256", "6df81727261a637851b964f36f4f2cd6c1015e10fa1e03fbac5d91aeea3f6ddd"],
           ["Files", "464"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 主题医院 无声音版 (25.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-yi-yuan-wu-sheng-yin-ban.zip", external: true},
+          {label: "Download 主题医院 无声音版 (25.4 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2.zip", external: true},
         ]},
       ],
     },

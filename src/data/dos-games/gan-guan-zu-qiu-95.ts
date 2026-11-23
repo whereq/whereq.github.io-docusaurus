@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "感官足球95 is a DOS game in the WhereQ archive — 1997, 657 files, 19.7 MB, and an entry point of SWOS.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gan-guan-zu-qiu-95.zip",
+  url: "https://dos-bin.zczc.cz/%E6%84%9F%E5%AE%98%E8%B6%B3%E7%90%8395.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gan-guan-zu-qiu-95.zip"],
           ["Size", "20,606,225 bytes (19.7 MB)"],
           ["SHA-256", "aeefe2417a218044194e07dbeed9a1bad43c2b508bde7ecb67662d3c22e41bf6"],
           ["Files", "657"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%84%9F%E5%AE%98%E8%B6%B3%E7%90%8395.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 感官足球95 (19.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gan-guan-zu-qiu-95.zip", external: true},
+          {label: "Download 感官足球95 (19.7 MB)", href: "https://dos-bin.zczc.cz/%E6%84%9F%E5%AE%98%E8%B6%B3%E7%90%8395.zip", external: true},
         ]},
       ],
     },

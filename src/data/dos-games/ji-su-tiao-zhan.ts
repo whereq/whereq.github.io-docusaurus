@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "急速挑战 is a DOS game in the WhereQ archive — 1993, 179 files, 6.7 MB, and an entry point of SR.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-su-tiao-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E6%8C%91%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-su-tiao-zhan.zip"],
           ["Size", "7,044,992 bytes (6.7 MB)"],
           ["SHA-256", "52ec3bb389efb002e98c1026c5ece055b96781e341b6537b70b19fe539c51a9c"],
           ["Files", "179"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E6%8C%91%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 急速挑战 (6.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-su-tiao-zhan.zip", external: true},
+          {label: "Download 急速挑战 (6.7 MB)", href: "https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E6%8C%91%E6%88%98.zip", external: true},
         ]},
       ],
     },

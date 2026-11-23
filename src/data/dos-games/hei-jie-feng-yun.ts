@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑街风云 is a DOS game in the WhereQ archive — 1988, 11 files, 67 KB, and an entry point of RUNME.BAT.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-jie-feng-yun.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E8%A1%97%E9%A3%8E%E4%BA%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-jie-feng-yun.zip"],
           ["Size", "68,215 bytes (67 KB)"],
           ["SHA-256", "e8cf8c98ab7acc65be267c691e65beae554062acf9052055c6dafcd0c8b2eee2"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E8%A1%97%E9%A3%8E%E4%BA%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑街风云 (67 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-jie-feng-yun.zip", external: true},
+          {label: "Download 黑街风云 (67 KB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E8%A1%97%E9%A3%8E%E4%BA%91.zip", external: true},
         ]},
       ],
     },

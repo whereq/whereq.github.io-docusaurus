@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "猴岛小英雄2 is a DOS game in the WhereQ archive — 1998, 10 files, 6.4 MB, and an entry point of MONKEY2.EXE.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hou-dao-xiao-ying-xiong-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8C%B4%E5%B2%9B%E5%B0%8F%E8%8B%B1%E9%9B%842.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hou-dao-xiao-ying-xiong-2.zip"],
           ["Size", "6,760,779 bytes (6.4 MB)"],
           ["SHA-256", "c0447ed0f33ce007e3ad0ffd602958db46e314eb40751a253fd0dbc2c82e9281"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8C%B4%E5%B2%9B%E5%B0%8F%E8%8B%B1%E9%9B%842.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 猴岛小英雄2 (6.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hou-dao-xiao-ying-xiong-2.zip", external: true},
+          {label: "Download 猴岛小英雄2 (6.4 MB)", href: "https://dos-bin.zczc.cz/%E7%8C%B4%E5%B2%9B%E5%B0%8F%E8%8B%B1%E9%9B%842.zip", external: true},
         ]},
       ],
     },

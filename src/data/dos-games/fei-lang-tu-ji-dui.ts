@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞狼突击队 is a DOS game in the WhereQ archive — 1997, 28 files, 333 KB, and an entry point of AA.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-lang-tu-ji-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%8B%BC%E7%AA%81%E5%87%BB%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-lang-tu-ji-dui.zip"],
           ["Size", "341,456 bytes (333 KB)"],
           ["SHA-256", "b9ba5581745f945ad8749db13f1767b4023745f6575ff3ea7cf64ca3b0d354e4"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E7%8B%BC%E7%AA%81%E5%87%BB%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞狼突击队 (333 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-lang-tu-ji-dui.zip", external: true},
+          {label: "Download 飞狼突击队 (333 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%8B%BC%E7%AA%81%E5%87%BB%E9%98%9F.zip", external: true},
         ]},
       ],
     },

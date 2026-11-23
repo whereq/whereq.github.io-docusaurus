@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "拂晓攻击 is a DOS game in the WhereQ archive — 1990, 59 files, 392 KB, and an entry point of DR.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fu-xiao-gong-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8B%82%E6%99%93%E6%94%BB%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fu-xiao-gong-ji.zip"],
           ["Size", "401,021 bytes (392 KB)"],
           ["SHA-256", "8e1d2b805383deab3f9af340618002f4d422515c0b83cb35d75d17a76342a5b8"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8B%82%E6%99%93%E6%94%BB%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 拂晓攻击 (392 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fu-xiao-gong-ji.zip", external: true},
+          {label: "Download 拂晓攻击 (392 KB)", href: "https://dos-bin.zczc.cz/%E6%8B%82%E6%99%93%E6%94%BB%E5%87%BB.zip", external: true},
         ]},
       ],
     },

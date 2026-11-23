@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "贪食蛇 is a DOS game in the WhereQ archive — 1995, 9 files, 40 KB, and an entry point of AMAZON.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tan-shi-she.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B4%AA%E9%A3%9F%E8%9B%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tan-shi-she.zip"],
           ["Size", "41,398 bytes (40 KB)"],
           ["SHA-256", "cfa20ed061fed53e60a9fc56c2be21ac85245d3e06b830fb46c5744c5aff3462"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B4%AA%E9%A3%9F%E8%9B%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 贪食蛇 (40 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tan-shi-she.zip", external: true},
+          {label: "Download 贪食蛇 (40 KB)", href: "https://dos-bin.zczc.cz/%E8%B4%AA%E9%A3%9F%E8%9B%87.zip", external: true},
         ]},
       ],
     },

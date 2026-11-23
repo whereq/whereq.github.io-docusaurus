@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "纳斯卡赛车1 is a DOS game in the WhereQ archive — 1994, 212 files, 9.3 MB, and an entry point of NASCAR.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/n/na-si-ka-sai-che-1.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%B3%E6%96%AF%E5%8D%A1%E8%B5%9B%E8%BD%A61.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "na-si-ka-sai-che-1.zip"],
           ["Size", "9,766,244 bytes (9.3 MB)"],
           ["SHA-256", "177461d4fa28d241a621065d31737803f89b9f0e3fe1743edf7ca86e5bc149f9"],
           ["Files", "212"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%B3%E6%96%AF%E5%8D%A1%E8%B5%9B%E8%BD%A61.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 纳斯卡赛车1 (9.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/na-si-ka-sai-che-1.zip", external: true},
+          {label: "Download 纳斯卡赛车1 (9.3 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%B3%E6%96%AF%E5%8D%A1%E8%B5%9B%E8%BD%A61.zip", external: true},
         ]},
       ],
     },

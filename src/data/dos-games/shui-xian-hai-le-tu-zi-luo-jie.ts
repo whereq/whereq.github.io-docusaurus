@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "谁陷害了兔子罗杰 is a DOS game in the WhereQ archive — 1989, 104 files, 264 KB, and an entry point of EFACT.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shui-xian-hai-le-tu-zi-luo-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B0%81%E9%99%B7%E5%AE%B3%E4%BA%86%E5%85%94%E5%AD%90%E7%BD%97%E6%9D%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shui-xian-hai-le-tu-zi-luo-jie.zip"],
           ["Size", "269,894 bytes (264 KB)"],
           ["SHA-256", "baddba12852567612b017de31584689b5bdbd2d3083152ff50ea68527bc196b5"],
           ["Files", "104"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B0%81%E9%99%B7%E5%AE%B3%E4%BA%86%E5%85%94%E5%AD%90%E7%BD%97%E6%9D%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 谁陷害了兔子罗杰 (264 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shui-xian-hai-le-tu-zi-luo-jie.zip", external: true},
+          {label: "Download 谁陷害了兔子罗杰 (264 KB)", href: "https://dos-bin.zczc.cz/%E8%B0%81%E9%99%B7%E5%AE%B3%E4%BA%86%E5%85%94%E5%AD%90%E7%BD%97%E6%9D%B0.zip", external: true},
         ]},
       ],
     },

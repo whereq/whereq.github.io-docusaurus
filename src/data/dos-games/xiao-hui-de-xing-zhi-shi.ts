@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小惠的性知识 is a DOS game in the WhereQ archive — 1997, 422 files, 8.2 MB, and an entry point of SEX.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-hui-de-xing-zhi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%83%A0%E7%9A%84%E6%80%A7%E7%9F%A5%E8%AF%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-hui-de-xing-zhi-shi.zip"],
           ["Size", "8,583,157 bytes (8.2 MB)"],
           ["SHA-256", "0c34b82780abb2dba8205e9bdfc2298e7a30403fef4863b5b4f66a7f7eb1c485"],
           ["Files", "422"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E6%83%A0%E7%9A%84%E6%80%A7%E7%9F%A5%E8%AF%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小惠的性知识 (8.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-hui-de-xing-zhi-shi.zip", external: true},
+          {label: "Download 小惠的性知识 (8.2 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%83%A0%E7%9A%84%E6%80%A7%E7%9F%A5%E8%AF%86.zip", external: true},
         ]},
       ],
     },

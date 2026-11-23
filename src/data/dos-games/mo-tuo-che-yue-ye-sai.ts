@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "摩托车越野赛 is a DOS game in the WhereQ archive — 1996, 214 files, 2.0 MB, and an entry point of across.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-tuo-che-yue-ye-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%91%A9%E6%89%98%E8%BD%A6%E8%B6%8A%E9%87%8E%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-tuo-che-yue-ye-sai.zip"],
           ["Size", "2,132,393 bytes (2.0 MB)"],
           ["SHA-256", "72383b6917d973a21fdd3c1f251a6888365394e003d383fc770cbdff0c1fe7e3"],
           ["Files", "214"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%91%A9%E6%89%98%E8%BD%A6%E8%B6%8A%E9%87%8E%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 摩托车越野赛 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-tuo-che-yue-ye-sai.zip", external: true},
+          {label: "Download 摩托车越野赛 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E6%91%A9%E6%89%98%E8%BD%A6%E8%B6%8A%E9%87%8E%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

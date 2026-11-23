@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "宇宙大冒险 is a DOS game in the WhereQ archive — 1996, 6 files, 5.4 MB, and an entry point of UNIVERSE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-da-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%A4%A7%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-zhou-da-mao-xian.zip"],
           ["Size", "5,702,582 bytes (5.4 MB)"],
           ["SHA-256", "88eb5c062392124b0592ca88a1918f7481ddae3570054ab626ff3c783b509e2d"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%A4%A7%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宇宙大冒险 (5.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-da-mao-xian.zip", external: true},
+          {label: "Download 宇宙大冒险 (5.4 MB)", href: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%A4%A7%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

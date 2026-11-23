@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "维特自由赛车 is a DOS game in the WhereQ archive — 1989, 33 files, 330 KB, and an entry point of VETTE.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-te-zi-you-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%B4%E7%89%B9%E8%87%AA%E7%94%B1%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-te-zi-you-sai-che.zip"],
           ["Size", "337,794 bytes (330 KB)"],
           ["SHA-256", "05b40b01d7fadc0e70f2938640dfcb5cf54671d2e13b121a11052eb9e8a09e0a"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%B4%E7%89%B9%E8%87%AA%E7%94%B1%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 维特自由赛车 (330 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-te-zi-you-sai-che.zip", external: true},
+          {label: "Download 维特自由赛车 (330 KB)", href: "https://dos-bin.zczc.cz/%E7%BB%B4%E7%89%B9%E8%87%AA%E7%94%B1%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

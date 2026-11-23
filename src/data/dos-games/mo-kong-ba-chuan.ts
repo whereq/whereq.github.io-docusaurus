@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔空霸传 is a DOS game in the WhereQ archive — an undated copy, 102 files, 492.7 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-kong-ba-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%A9%BA%E9%9C%B8%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-kong-ba-chuan.zip"],
           ["Size", "516,664,147 bytes (492.7 MB)"],
           ["SHA-256", "bf09660f3741586230c2f715ab3d5c22af87428a682ec8894d2caae459fc1903"],
           ["Files", "102"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%A9%BA%E9%9C%B8%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔空霸传 (492.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-kong-ba-chuan.zip", external: true},
+          {label: "Download 魔空霸传 (492.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%A9%BA%E9%9C%B8%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

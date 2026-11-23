@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "武道馆 is a DOS game in the WhereQ archive — 1989, 5 files, 692 KB, and an entry point of BUDO.COM.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-dao-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%A6%E9%81%93%E9%A6%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-dao-guan.zip"],
           ["Size", "708,653 bytes (692 KB)"],
           ["SHA-256", "c36c0cb9bebaf00d880209864f7155c0faecd8488c6af05858cbfeaf7e136382"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%A6%E9%81%93%E9%A6%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 武道馆 (692 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-dao-guan.zip", external: true},
+          {label: "Download 武道馆 (692 KB)", href: "https://dos-bin.zczc.cz/%E6%AD%A6%E9%81%93%E9%A6%86.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大红大冒险 is a DOS game in the WhereQ archive — 1994, 2,368 files, 23.0 MB, and an entry point of TBRA.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hong-da-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E7%BA%A2%E5%A4%A7%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hong-da-mao-xian.zip"],
           ["Size", "24,078,497 bytes (23.0 MB)"],
           ["SHA-256", "0e4158074ac2f8ae2fc030f9008cd91b26799bdefcfb44686567d81b3b00933d"],
           ["Files", "2,368"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E7%BA%A2%E5%A4%A7%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大红大冒险 (23.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hong-da-mao-xian.zip", external: true},
+          {label: "Download 大红大冒险 (23.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E7%BA%A2%E5%A4%A7%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

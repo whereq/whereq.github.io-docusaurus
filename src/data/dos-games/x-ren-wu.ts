@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "X任务 is a DOS game in the WhereQ archive — 1996, 30 files, 585 KB, and an entry point of XQUEST.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/x-ren-wu.zip",
+  url: "https://dos-bin.zczc.cz/X%E4%BB%BB%E5%8A%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "x-ren-wu.zip"],
           ["Size", "599,264 bytes (585 KB)"],
           ["SHA-256", "7ae7d14f8fae42b2af4f8b6d23d1181ce71093d4d38b417fd31908c24a5d928b"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/X%E4%BB%BB%E5%8A%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download X任务 (585 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/x-ren-wu.zip", external: true},
+          {label: "Download X任务 (585 KB)", href: "https://dos-bin.zczc.cz/X%E4%BB%BB%E5%8A%A1.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "河源崎家一族(日) is a DOS game in the WhereQ archive — 1993, 19 files, 4.0 MB, and an entry point of GAME.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/h/he-yuan-qi-jia-yi-zu-ri.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%B3%E6%BA%90%E5%B4%8E%E5%AE%B6%E4%B8%80%E6%97%8F%28%E6%97%A5%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "he-yuan-qi-jia-yi-zu-ri.zip"],
           ["Size", "4,224,196 bytes (4.0 MB)"],
           ["SHA-256", "48a402a7274ad582ddbcdbb8fab24944ef241ae6d171872dfdfe6cf415f01a18"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%B3%E6%BA%90%E5%B4%8E%E5%AE%B6%E4%B8%80%E6%97%8F%28%E6%97%A5%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 河源崎家一族(日) (4.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/he-yuan-qi-jia-yi-zu-ri.zip", external: true},
+          {label: "Download 河源崎家一族(日) (4.0 MB)", href: "https://dos-bin.zczc.cz/%E6%B2%B3%E6%BA%90%E5%B4%8E%E5%AE%B6%E4%B8%80%E6%97%8F%28%E6%97%A5%29.zip", external: true},
         ]},
       ],
     },

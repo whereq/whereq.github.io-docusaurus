@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "北极行动 is a DOS game in the WhereQ archive — 1995, 111 files, 791 KB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bei-ji-xing-dong.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8C%97%E6%9E%81%E8%A1%8C%E5%8A%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bei-ji-xing-dong.zip"],
           ["Size", "810,246 bytes (791 KB)"],
           ["SHA-256", "3a524f4a833c2143cf10d3ec99dcc5e0207f908ac9a2df0b1156834c722ab897"],
           ["Files", "111"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8C%97%E6%9E%81%E8%A1%8C%E5%8A%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 北极行动 (791 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bei-ji-xing-dong.zip", external: true},
+          {label: "Download 北极行动 (791 KB)", href: "https://dos-bin.zczc.cz/%E5%8C%97%E6%9E%81%E8%A1%8C%E5%8A%A8.zip", external: true},
         ]},
       ],
     },

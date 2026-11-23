@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "3",
   summary: "3D桌上体育 is a DOS game in the WhereQ archive — 1996, 24 files, 6.0 MB, and an entry point of table.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/3/3d-zhuo-shang-ti-yu.zip",
+  url: "https://dos-bin.zczc.cz/3D%E6%A1%8C%E4%B8%8A%E4%BD%93%E8%82%B2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "3d-zhuo-shang-ti-yu.zip"],
           ["Size", "6,319,040 bytes (6.0 MB)"],
           ["SHA-256", "0eba005af501b6fcec011625014ec49d916bb1e76e54d6bdd395215783ab1baa"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/3D%E6%A1%8C%E4%B8%8A%E4%BD%93%E8%82%B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 3D桌上体育 (6.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/3/3d-zhuo-shang-ti-yu.zip", external: true},
+          {label: "Download 3D桌上体育 (6.0 MB)", href: "https://dos-bin.zczc.cz/3D%E6%A1%8C%E4%B8%8A%E4%BD%93%E8%82%B2.zip", external: true},
         ]},
       ],
     },

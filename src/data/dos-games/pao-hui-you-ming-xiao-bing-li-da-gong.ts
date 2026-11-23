@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "炮灰(又名小兵立大功) is a DOS game in the WhereQ archive — 1993, 457 files, 1.3 MB, and an entry point of C.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pao-hui-you-ming-xiao-bing-li-da-gong.zip",
+  url: "https://dos-bin.zczc.cz/%E7%82%AE%E7%81%B0%28%E5%8F%88%E5%90%8D%E5%B0%8F%E5%85%B5%E7%AB%8B%E5%A4%A7%E5%8A%9F%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pao-hui-you-ming-xiao-bing-li-da-gong.zip"],
           ["Size", "1,335,554 bytes (1.3 MB)"],
           ["SHA-256", "bdb36f19aa86a22285a70b610e7fb3c051717e0f11f44c46a2b1e6e1c884bcbb"],
           ["Files", "457"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%82%AE%E7%81%B0%28%E5%8F%88%E5%90%8D%E5%B0%8F%E5%85%B5%E7%AB%8B%E5%A4%A7%E5%8A%9F%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 炮灰(又名小兵立大功) (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/pao-hui-you-ming-xiao-bing-li-da-gong.zip", external: true},
+          {label: "Download 炮灰(又名小兵立大功) (1.3 MB)", href: "https://dos-bin.zczc.cz/%E7%82%AE%E7%81%B0%28%E5%8F%88%E5%90%8D%E5%B0%8F%E5%85%B5%E7%AB%8B%E5%A4%A7%E5%8A%9F%29.zip", external: true},
         ]},
       ],
     },

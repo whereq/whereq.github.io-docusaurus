@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "掘金者2 is a DOS game in the WhereQ archive — 1996, 261 files, 32.7 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-jin-zhe-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8E%98%E9%87%91%E8%80%852.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-jin-zhe-2.zip"],
           ["Size", "34,239,264 bytes (32.7 MB)"],
           ["SHA-256", "ad966af1f35cd18b1d7c73d6b8096af681ee4ad11e1dffa37208bfaa23f43933"],
           ["Files", "261"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8E%98%E9%87%91%E8%80%852.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 掘金者2 (32.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-jin-zhe-2.zip", external: true},
+          {label: "Download 掘金者2 (32.7 MB)", href: "https://dos-bin.zczc.cz/%E6%8E%98%E9%87%91%E8%80%852.zip", external: true},
         ]},
       ],
     },

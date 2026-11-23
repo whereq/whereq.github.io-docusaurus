@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "回到大魔域 is a DOS game in the WhereQ archive — 1990, 71 files, 455 KB, and an entry point of STORYII.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-dao-da-mo-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%9E%E5%88%B0%E5%A4%A7%E9%AD%94%E5%9F%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-dao-da-mo-yu.zip"],
           ["Size", "465,809 bytes (455 KB)"],
           ["SHA-256", "244f8258090b0ff279775b2c62d4199813ce6f716cdf362951120c9fff2b4f9b"],
           ["Files", "71"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%9E%E5%88%B0%E5%A4%A7%E9%AD%94%E5%9F%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 回到大魔域 (455 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-dao-da-mo-yu.zip", external: true},
+          {label: "Download 回到大魔域 (455 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%9E%E5%88%B0%E5%A4%A7%E9%AD%94%E5%9F%9F.zip", external: true},
         ]},
       ],
     },

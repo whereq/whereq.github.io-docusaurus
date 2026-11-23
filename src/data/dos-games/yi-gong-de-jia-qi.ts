@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "伊贡的假期 is a DOS game in the WhereQ archive — 1998, 4 files, 4.1 MB, and an entry point of IGOR.EXE.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-gong-de-jia-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%B4%A1%E7%9A%84%E5%81%87%E6%9C%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-gong-de-jia-qi.zip"],
           ["Size", "4,340,134 bytes (4.1 MB)"],
           ["SHA-256", "11094c2ec723401bcba6089b01ab71ba2bae5da6b1b7ef17194625a58f72b7b7"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%8A%E8%B4%A1%E7%9A%84%E5%81%87%E6%9C%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 伊贡的假期 (4.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-gong-de-jia-qi.zip", external: true},
+          {label: "Download 伊贡的假期 (4.1 MB)", href: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%B4%A1%E7%9A%84%E5%81%87%E6%9C%9F.zip", external: true},
         ]},
       ],
     },

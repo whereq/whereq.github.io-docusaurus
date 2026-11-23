@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战争之岛 is a DOS game in the WhereQ archive — 1994, 204 files, 984 KB, and an entry point of DESERT.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E5%B2%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-zheng-zhi-dao.zip"],
           ["Size", "1,007,760 bytes (984 KB)"],
           ["SHA-256", "9246042ecb376001cb19d06fa8072e96472d0eb6bb21c058cfaae153ee20daee"],
           ["Files", "204"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E5%B2%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战争之岛 (984 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-dao.zip", external: true},
+          {label: "Download 战争之岛 (984 KB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E5%B2%9B.zip", external: true},
         ]},
       ],
     },

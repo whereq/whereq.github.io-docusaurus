@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁之心 is a DOS game in the WhereQ archive — 1996, 233 files, 4.0 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-xin.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E5%BF%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-zhi-xin.zip"],
           ["Size", "4,170,573 bytes (4.0 MB)"],
           ["SHA-256", "47b4d6a2c599ab8ebb4f77eff137eb4b2a0b8d5c02b37382d1697213010c18cb"],
           ["Files", "233"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E5%BF%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁之心 (4.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-xin.zip", external: true},
+          {label: "Download 钢铁之心 (4.0 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E5%BF%83.zip", external: true},
         ]},
       ],
     },

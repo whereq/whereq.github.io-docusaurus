@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "卒业 is a DOS game in the WhereQ archive — 1995, 182 files, 5.1 MB, and an entry point of JOSI.COM.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zu-ye.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zu-ye.zip"],
           ["Size", "5,373,382 bytes (5.1 MB)"],
           ["SHA-256", "d21dee62fac9a6cd8d5d2427a7ff4d0437dfda698864445b02ba4400e849cbde"],
           ["Files", "182"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卒业 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zu-ye.zip", external: true},
+          {label: "Download 卒业 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A.zip", external: true},
         ]},
       ],
     },

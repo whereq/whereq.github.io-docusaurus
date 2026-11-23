@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "麒麟传说 is a DOS game in the WhereQ archive — 1994, 367 files, 4.5 MB, and an entry point of PLAY.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-lin-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BA%92%E9%BA%9F%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-lin-chuan-shuo.zip"],
           ["Size", "4,729,932 bytes (4.5 MB)"],
           ["SHA-256", "0e09050f30ef6be8446df84571173eca59cda640fef922a18ce23bb92e093dc4"],
           ["Files", "367"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BA%92%E9%BA%9F%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 麒麟传说 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-lin-chuan-shuo.zip", external: true},
+          {label: "Download 麒麟传说 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E9%BA%92%E9%BA%9F%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

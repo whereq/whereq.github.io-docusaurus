@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无限空间 is a DOS game in the WhereQ archive — 1993, 122 files, 831 KB, and an entry point of GENESIA.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-xian-kong-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-xian-kong-jian.zip"],
           ["Size", "850,592 bytes (831 KB)"],
           ["SHA-256", "76537bd405e913992b84f7ec7475771a5b9c4b035332a4f1f624406f412786f6"],
           ["Files", "122"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无限空间 (831 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-xian-kong-jian.zip", external: true},
+          {label: "Download 无限空间 (831 KB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4.zip", external: true},
         ]},
       ],
     },

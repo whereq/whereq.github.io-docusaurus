@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "英雄使命 is a DOS game in the WhereQ archive — 1992, 85 files, 587 KB, and an entry point of HERO.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-shi-ming.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BD%BF%E5%91%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ying-xiong-shi-ming.zip"],
           ["Size", "601,112 bytes (587 KB)"],
           ["SHA-256", "6fd13092812f39f629ec33147a2d3c3dcfb7c896493e3dc6da1b33cc66757d91"],
           ["Files", "85"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BD%BF%E5%91%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 英雄使命 (587 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-shi-ming.zip", external: true},
+          {label: "Download 英雄使命 (587 KB)", href: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BD%BF%E5%91%BD.zip", external: true},
         ]},
       ],
     },

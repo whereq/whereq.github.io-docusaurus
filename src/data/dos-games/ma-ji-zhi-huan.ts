@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "玛吉之环 is a DOS game in the WhereQ archive — 1996, 10 files, 1.3 MB, and an entry point of ROTM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-ji-zhi-huan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%9B%E5%90%89%E4%B9%8B%E7%8E%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-ji-zhi-huan.zip"],
           ["Size", "1,388,928 bytes (1.3 MB)"],
           ["SHA-256", "892c91f7645ae24341887cacd967ef6664a46eeaa3bdf569f18b995713909c1d"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%9B%E5%90%89%E4%B9%8B%E7%8E%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 玛吉之环 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-ji-zhi-huan.zip", external: true},
+          {label: "Download 玛吉之环 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E7%8E%9B%E5%90%89%E4%B9%8B%E7%8E%AF.zip", external: true},
         ]},
       ],
     },

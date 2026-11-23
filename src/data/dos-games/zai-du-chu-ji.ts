@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "再度出击 is a DOS game in the WhereQ archive — 1991, 72 files, 507 KB, and an entry point of S2.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zai-du-chu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zai-du-chu-ji.zip"],
           ["Size", "519,167 bytes (507 KB)"],
           ["SHA-256", "c0960c83be87aaa7264ef6edca406fdf7874c5cd0e4f4c5091da7d7d280e2403"],
           ["Files", "72"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 再度出击 (507 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zai-du-chu-ji.zip", external: true},
+          {label: "Download 再度出击 (507 KB)", href: "https://dos-bin.zczc.cz/%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip", external: true},
         ]},
       ],
     },

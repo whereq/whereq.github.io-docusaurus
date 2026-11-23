@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "伊雷查历险记 is a DOS game in the WhereQ archive — 1996, 176 files, 2.7 MB, and an entry point of DOS4GW.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-lei-cha-li-xian-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%8A%E9%9B%B7%E6%9F%A5%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-lei-cha-li-xian-ji.zip"],
           ["Size", "2,813,171 bytes (2.7 MB)"],
           ["SHA-256", "2b66c8055d04937a5130787d49c06dfe588b5c8950285116990c4a687aab8179"],
           ["Files", "176"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%8A%E9%9B%B7%E6%9F%A5%E5%8E%86%E9%99%A9%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 伊雷查历险记 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-lei-cha-li-xian-ji.zip", external: true},
+          {label: "Download 伊雷查历险记 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E4%BC%8A%E9%9B%B7%E6%9F%A5%E5%8E%86%E9%99%A9%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

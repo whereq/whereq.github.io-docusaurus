@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "古墓丽影 is a DOS game in the WhereQ archive — 1996, 55 files, 32.8 MB, and an entry point of TOMB.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-mu-li-ying.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-mu-li-ying.zip"],
           ["Size", "34,422,403 bytes (32.8 MB)"],
           ["SHA-256", "08da92845d80bd3262751c1c9aee8163ee742872fd78b29e1b8bb0aebe4b0f4a"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 古墓丽影 (32.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-mu-li-ying.zip", external: true},
+          {label: "Download 古墓丽影 (32.8 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "生物游戏 is a DOS game in the WhereQ archive — 1993, 15 files, 254 KB, and an entry point of RUNME.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-wu-you-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%94%9F%E7%89%A9%E6%B8%B8%E6%88%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-wu-you-xi.zip"],
           ["Size", "260,076 bytes (254 KB)"],
           ["SHA-256", "6339982bb4fb186aade85eb714ccc85794740cd962a55e27f9c4d8d71b8eea27"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%94%9F%E7%89%A9%E6%B8%B8%E6%88%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 生物游戏 (254 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-wu-you-xi.zip", external: true},
+          {label: "Download 生物游戏 (254 KB)", href: "https://dos-bin.zczc.cz/%E7%94%9F%E7%89%A9%E6%B8%B8%E6%88%8F.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小旅鼠俄罗斯 is a DOS game in the WhereQ archive — 2010, 7 files, 150 KB, and an entry point of LEMRIS.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-lv-shu-e-luo-si.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%97%85%E9%BC%A0%E4%BF%84%E7%BD%97%E6%96%AF.zip",
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-lv-shu-e-luo-si.zip"],
           ["Size", "153,420 bytes (150 KB)"],
           ["SHA-256", "b4318ca4825216185374ec2b61618e5cb8a049ee2b40d5e2740c092abf947e3c"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E6%97%85%E9%BC%A0%E4%BF%84%E7%BD%97%E6%96%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小旅鼠俄罗斯 (150 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-lv-shu-e-luo-si.zip", external: true},
+          {label: "Download 小旅鼠俄罗斯 (150 KB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%97%85%E9%BC%A0%E4%BF%84%E7%BD%97%E6%96%AF.zip", external: true},
         ]},
       ],
     },

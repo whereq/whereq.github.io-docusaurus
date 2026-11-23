@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "印第安公主 is a DOS game in the WhereQ archive — 1996, 193 files, 11.7 MB, and an entry point of poca.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-gong-zhu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E5%85%AC%E4%B8%BB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-di-an-gong-zhu.zip"],
           ["Size", "12,317,350 bytes (11.7 MB)"],
           ["SHA-256", "b586f03838f5086669aecc4ed7c476b65d2d16c06cbf157baf3d65511e908670"],
           ["Files", "193"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E5%85%AC%E4%B8%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 印第安公主 (11.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-gong-zhu.zip", external: true},
+          {label: "Download 印第安公主 (11.7 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E5%85%AC%E4%B8%BB.zip", external: true},
         ]},
       ],
     },

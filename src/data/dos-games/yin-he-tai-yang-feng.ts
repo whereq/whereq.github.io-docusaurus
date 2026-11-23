@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河太阳风 is a DOS game in the WhereQ archive — 1996, 114 files, 6.1 MB, and an entry point of run.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-tai-yang-feng.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%A4%AA%E9%98%B3%E9%A3%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-tai-yang-feng.zip"],
           ["Size", "6,348,351 bytes (6.1 MB)"],
           ["SHA-256", "55f2f79736e9be030a55d1669a1e09745566cf0b5c7729c28b081c63349da6a5"],
           ["Files", "114"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%A4%AA%E9%98%B3%E9%A3%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河太阳风 (6.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-tai-yang-feng.zip", external: true},
+          {label: "Download 银河太阳风 (6.1 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%A4%AA%E9%98%B3%E9%A3%8E.zip", external: true},
         ]},
       ],
     },

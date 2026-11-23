@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "爵士兔 is a DOS game in the WhereQ archive — 1994, 229 files, 5.5 MB, and an entry point of JAZZ.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-shi-tu.zip"],
           ["Size", "5,729,591 bytes (5.5 MB)"],
           ["SHA-256", "08e55e7590c3d518c61cde0efbe756909af53ce75542553a7ebd28901e8347ca"],
           ["Files", "229"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爵士兔 (5.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu.zip", external: true},
+          {label: "Download 爵士兔 (5.5 MB)", href: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94.zip", external: true},
         ]},
       ],
     },

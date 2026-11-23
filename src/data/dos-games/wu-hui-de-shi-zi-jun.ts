@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无悔的十字军 is a DOS game in the WhereQ archive — 2007, 64 files, 28.4 MB, and an entry point of CRUSADER.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-hui-de-shi-zi-jun.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-hui-de-shi-zi-jun.zip"],
           ["Size", "29,817,459 bytes (28.4 MB)"],
           ["SHA-256", "70b7593455d5416cfa0b58458288592d18905e53c883dec43f1afa8694a687ac"],
           ["Files", "64"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无悔的十字军 (28.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-hui-de-shi-zi-jun.zip", external: true},
+          {label: "Download 无悔的十字军 (28.4 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B.zip", external: true},
         ]},
       ],
     },

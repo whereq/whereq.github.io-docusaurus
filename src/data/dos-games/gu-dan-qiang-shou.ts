@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "孤胆枪手 is a DOS game in the WhereQ archive — 1997, 138 files, 108.9 MB, and an entry point of SETUP.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-dan-qiang-shou.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AD%A4%E8%83%86%E6%9E%AA%E6%89%8B.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-dan-qiang-shou.zip"],
           ["Size", "114,189,148 bytes (108.9 MB)"],
           ["SHA-256", "249e0694113b9bdce0d8a5f2c50e45b67848ed215c8631951e5edcc67000e435"],
           ["Files", "138"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AD%A4%E8%83%86%E6%9E%AA%E6%89%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 孤胆枪手 (108.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-dan-qiang-shou.zip", external: true},
+          {label: "Download 孤胆枪手 (108.9 MB)", href: "https://dos-bin.zczc.cz/%E5%AD%A4%E8%83%86%E6%9E%AA%E6%89%8B.zip", external: true},
         ]},
       ],
     },

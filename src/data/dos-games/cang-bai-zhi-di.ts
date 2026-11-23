@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "苍白之地 is a DOS game in the WhereQ archive — 1997, 307 files, 23.2 MB, and an entry point of LLAND.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/c/cang-bai-zhi-di.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8B%8D%E7%99%BD%E4%B9%8B%E5%9C%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "cang-bai-zhi-di.zip"],
           ["Size", "24,295,509 bytes (23.2 MB)"],
           ["SHA-256", "96694ecd83b1bef7b69ccfa1a9059d3865a9921180ff80b49dc131a390a31b4a"],
           ["Files", "307"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8B%8D%E7%99%BD%E4%B9%8B%E5%9C%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 苍白之地 (23.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/cang-bai-zhi-di.zip", external: true},
+          {label: "Download 苍白之地 (23.2 MB)", href: "https://dos-bin.zczc.cz/%E8%8B%8D%E7%99%BD%E4%B9%8B%E5%9C%B0.zip", external: true},
         ]},
       ],
     },

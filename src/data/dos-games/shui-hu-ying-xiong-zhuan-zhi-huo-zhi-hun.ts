@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "水浒英雄传之火之魂 is a DOS game in the WhereQ archive — 2007, 50 files, 94.9 MB, and an entry point of HEROES.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-ying-xiong-zhuan-zhi-huo-zhi-hun.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E8%8B%B1%E9%9B%84%E4%BC%A0%E4%B9%8B%E7%81%AB%E4%B9%8B%E9%AD%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shui-hu-ying-xiong-zhuan-zhi-huo-zhi-hun.zip"],
           ["Size", "99,498,758 bytes (94.9 MB)"],
           ["SHA-256", "e22018f1b6262d056734be8851e368eb4aa6c31d8500dcb969fbff2ef773b53d"],
           ["Files", "50"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E8%8B%B1%E9%9B%84%E4%BC%A0%E4%B9%8B%E7%81%AB%E4%B9%8B%E9%AD%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 水浒英雄传之火之魂 (94.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-ying-xiong-zhuan-zhi-huo-zhi-hun.zip", external: true},
+          {label: "Download 水浒英雄传之火之魂 (94.9 MB)", href: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E8%8B%B1%E9%9B%84%E4%BC%A0%E4%B9%8B%E7%81%AB%E4%B9%8B%E9%AD%82.zip", external: true},
         ]},
       ],
     },

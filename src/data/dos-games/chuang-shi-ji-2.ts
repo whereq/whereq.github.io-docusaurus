@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世纪2 is a DOS game in the WhereQ archive — 1980, 91 files, 66 KB, and an entry point of ULTIMAII.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA2.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-ji-2.zip"],
           ["Size", "67,994 bytes (66 KB)"],
           ["SHA-256", "1aa8e5c83f223b4300bbe7e30e2c22ab6ea34980f74be207aa94363cc117645a"],
           ["Files", "91"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世纪2 (66 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-2.zip", external: true},
+          {label: "Download 创世纪2 (66 KB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA2.zip", external: true},
         ]},
       ],
     },

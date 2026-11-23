@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星月奇缘 is a DOS game in the WhereQ archive — 1998, 647 files, 167.5 MB, and an entry point of PLAY.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-yue-qi-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E6%9C%88%E5%A5%87%E7%BC%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-yue-qi-yuan.zip"],
           ["Size", "175,648,729 bytes (167.5 MB)"],
           ["SHA-256", "16eff0f8c7dc4a58f77c58c5a984b601e8337c2bc9012c8a34ad0eb8198e423f"],
           ["Files", "647"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E6%9C%88%E5%A5%87%E7%BC%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星月奇缘 (167.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-yue-qi-yuan.zip", external: true},
+          {label: "Download 星月奇缘 (167.5 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E6%9C%88%E5%A5%87%E7%BC%98.zip", external: true},
         ]},
       ],
     },

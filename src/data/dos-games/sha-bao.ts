@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "沙暴 is a DOS game in the WhereQ archive — 1996, 13 files, 184 KB, and an entry point of sand.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-bao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%99%E6%9A%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-bao.zip"],
           ["Size", "188,290 bytes (184 KB)"],
           ["SHA-256", "9b45a499f5cf67f63f04410a210fec76a422131019abb0243db6a1d0ba6237a9"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%99%E6%9A%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沙暴 (184 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-bao.zip", external: true},
+          {label: "Download 沙暴 (184 KB)", href: "https://dos-bin.zczc.cz/%E6%B2%99%E6%9A%B4.zip", external: true},
         ]},
       ],
     },

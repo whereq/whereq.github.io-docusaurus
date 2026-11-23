@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "特种部队 is a DOS game in the WhereQ archive — 1992, 157 files, 1.7 MB, and an entry point of FORCES.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/t/te-zhong-bu-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E7%89%B9%E7%A7%8D%E9%83%A8%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "te-zhong-bu-dui.zip"],
           ["Size", "1,758,883 bytes (1.7 MB)"],
           ["SHA-256", "7bd3b1cd3a7074d7ce13982c7479850cc746a262c82126f62336880f11098bce"],
           ["Files", "157"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%89%B9%E7%A7%8D%E9%83%A8%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 特种部队 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/te-zhong-bu-dui.zip", external: true},
+          {label: "Download 特种部队 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E7%89%B9%E7%A7%8D%E9%83%A8%E9%98%9F.zip", external: true},
         ]},
       ],
     },

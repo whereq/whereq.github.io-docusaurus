@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "8",
   summary: "80年空中激斗 is a DOS game in the WhereQ archive — 1996, 59 files, 4.6 MB, and an entry point of dog.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/8/80-nian-kong-zhong-ji-dou.zip",
+  url: "https://dos-bin.zczc.cz/80%E5%B9%B4%E7%A9%BA%E4%B8%AD%E6%BF%80%E6%96%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "80-nian-kong-zhong-ji-dou.zip"],
           ["Size", "4,834,076 bytes (4.6 MB)"],
           ["SHA-256", "8c36f6d3ef0ea1f5e2cbd38e334ab429aa74a322087c9570bf7965c0fbe038ef"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/80%E5%B9%B4%E7%A9%BA%E4%B8%AD%E6%BF%80%E6%96%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 80年空中激斗 (4.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/8/80-nian-kong-zhong-ji-dou.zip", external: true},
+          {label: "Download 80年空中激斗 (4.6 MB)", href: "https://dos-bin.zczc.cz/80%E5%B9%B4%E7%A9%BA%E4%B8%AD%E6%BF%80%E6%96%97.zip", external: true},
         ]},
       ],
     },

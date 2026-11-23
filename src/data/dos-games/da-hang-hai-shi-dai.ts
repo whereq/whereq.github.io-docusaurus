@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大航海时代 is a DOS game in the WhereQ archive — 1991, 31 files, 892 KB, and an entry point of KOEI.COM.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-shi-dai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hang-hai-shi-dai.zip"],
           ["Size", "913,167 bytes (892 KB)"],
           ["SHA-256", "67f93d244498a953bd6f27e33ba7a0a87b061f7418fb08647949fc4ff891c326"],
           ["Files", "31"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大航海时代 (892 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-shi-dai.zip", external: true},
+          {label: "Download 大航海时代 (892 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3.zip", external: true},
         ]},
       ],
     },

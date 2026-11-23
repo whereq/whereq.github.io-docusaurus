@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王密使2皇家罗曼史 is a DOS game in the WhereQ archive — 1987, 22 files, 354 KB, and an entry point of KQ2.COM.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-2-huang-jia-luo-man-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF2%E7%9A%87%E5%AE%B6%E7%BD%97%E6%9B%BC%E5%8F%B2.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-mi-shi-2-huang-jia-luo-man-shi.zip"],
           ["Size", "362,091 bytes (354 KB)"],
           ["SHA-256", "03de6e0e919660dcab3eb84fdcbdce1952ee3714ec3bc16440d24872b55bfa47"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF2%E7%9A%87%E5%AE%B6%E7%BD%97%E6%9B%BC%E5%8F%B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王密使2皇家罗曼史 (354 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-2-huang-jia-luo-man-shi.zip", external: true},
+          {label: "Download 国王密使2皇家罗曼史 (354 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF2%E7%9A%87%E5%AE%B6%E7%BD%97%E6%9B%BC%E5%8F%B2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "辛迪加战争 is a DOS game in the WhereQ archive — 1996, 514 files, 36.5 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-di-jia-zhan-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BE%9B%E8%BF%AA%E5%8A%A0%E6%88%98%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-di-jia-zhan-zheng.zip"],
           ["Size", "38,274,338 bytes (36.5 MB)"],
           ["SHA-256", "478aa8f8c1680729960d87578e9e5efa75c50baf5fd9d911948a456426c805b1"],
           ["Files", "514"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BE%9B%E8%BF%AA%E5%8A%A0%E6%88%98%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 辛迪加战争 (36.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-di-jia-zhan-zheng.zip", external: true},
+          {label: "Download 辛迪加战争 (36.5 MB)", href: "https://dos-bin.zczc.cz/%E8%BE%9B%E8%BF%AA%E5%8A%A0%E6%88%98%E4%BA%89.zip", external: true},
         ]},
       ],
     },

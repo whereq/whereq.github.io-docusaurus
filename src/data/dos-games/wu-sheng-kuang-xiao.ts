@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无声狂啸 is a DOS game in the WhereQ archive — 2007, 50 files, 60.6 MB, and an entry point of SCREAM.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-sheng-kuang-xiao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-sheng-kuang-xiao.zip"],
           ["Size", "63,576,979 bytes (60.6 MB)"],
           ["SHA-256", "f029eeee2d79a0346371f3ee040e1b7fa0cccf2f3b31eb090d0b350883d47184"],
           ["Files", "50"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无声狂啸 (60.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-sheng-kuang-xiao.zip", external: true},
+          {label: "Download 无声狂啸 (60.6 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8.zip", external: true},
         ]},
       ],
     },

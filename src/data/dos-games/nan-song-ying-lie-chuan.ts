@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "南宋英烈传 is a DOS game in the WhereQ archive — 1992, 20 files, 1.2 MB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nan-song-ying-lie-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%97%E5%AE%8B%E8%8B%B1%E7%83%88%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nan-song-ying-lie-chuan.zip"],
           ["Size", "1,252,065 bytes (1.2 MB)"],
           ["SHA-256", "70fdd8ae3fedbf4fadc91b01304316ecad0cbe913cf382979e42aa9e315d4357"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%97%E5%AE%8B%E8%8B%B1%E7%83%88%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 南宋英烈传 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nan-song-ying-lie-chuan.zip", external: true},
+          {label: "Download 南宋英烈传 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%97%E5%AE%8B%E8%8B%B1%E7%83%88%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

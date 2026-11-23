@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美少女梦工厂 2 is a DOS game in the WhereQ archive — 1994, 74 files, 7.6 MB, and an entry point of PM2.COM.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-meng-gong-chang-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%A2%A6%E5%B7%A5%E5%8E%822.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-shao-nv-meng-gong-chang-2.zip"],
           ["Size", "7,960,255 bytes (7.6 MB)"],
           ["SHA-256", "d05e57cc8204a68263e4c93e09dc24247820181d176ed4f7f336368cc78ebbdd"],
           ["Files", "74"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%A2%A6%E5%B7%A5%E5%8E%822.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美少女梦工厂 2 (7.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-meng-gong-chang-2.zip", external: true},
+          {label: "Download 美少女梦工厂 2 (7.6 MB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%A2%A6%E5%B7%A5%E5%8E%822.zip", external: true},
         ]},
       ],
     },

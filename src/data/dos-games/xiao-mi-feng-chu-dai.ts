@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小蜜蜂初代 is a DOS game in the WhereQ archive — 1996, 2 files, 40 KB, and an entry point of inv78.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mi-feng-chu-dai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82%E5%88%9D%E4%BB%A3.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-mi-feng-chu-dai.zip"],
           ["Size", "40,503 bytes (40 KB)"],
           ["SHA-256", "1011e64fe387a757c39a9dfbe174af04bb4fa59dcc7ec274e9bfb6696f1094f4"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82%E5%88%9D%E4%BB%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小蜜蜂初代 (40 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-mi-feng-chu-dai.zip", external: true},
+          {label: "Download 小蜜蜂初代 (40 KB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82%E5%88%9D%E4%BB%A3.zip", external: true},
         ]},
       ],
     },

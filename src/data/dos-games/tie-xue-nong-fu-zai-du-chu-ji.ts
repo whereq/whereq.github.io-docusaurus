@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁血农夫再度出击 is a DOS game in the WhereQ archive — 2009, 71 files, 103.9 MB, and an entry point of AGAIN.BAT.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-nong-fu-zai-du-chu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-xue-nong-fu-zai-du-chu-ji.zip"],
           ["Size", "108,992,716 bytes (103.9 MB)"],
           ["SHA-256", "e31bee0ae539123277da6d7acae3c1e855321157746bb6b0426b1106f157ef2d"],
           ["Files", "71"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁血农夫再度出击 (103.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-nong-fu-zai-du-chu-ji.zip", external: true},
+          {label: "Download 铁血农夫再度出击 (103.9 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "e",
   summary: "恶魔禁地英文版 is a DOS game in the WhereQ archive — 1993, 26 files, 8.0 MB, and an entry point of SETUP.COM.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/e/e-mo-jin-di-ying-wen-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0%E8%8B%B1%E6%96%87%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "e-mo-jin-di-ying-wen-ban.zip"],
           ["Size", "8,388,045 bytes (8.0 MB)"],
           ["SHA-256", "5f7b438400257c963b3b639af414cf79795db27868db9f615ca38d61927c5561"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0%E8%8B%B1%E6%96%87%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恶魔禁地英文版 (8.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/e/e-mo-jin-di-ying-wen-ban.zip", external: true},
+          {label: "Download 恶魔禁地英文版 (8.0 MB)", href: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0%E8%8B%B1%E6%96%87%E7%89%88.zip", external: true},
         ]},
       ],
     },

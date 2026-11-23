@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美国噩梦 is a DOS game in the WhereQ archive — 1994, 110 files, 1.5 MB, and an entry point of ALOG.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-guo-e-meng.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E5%99%A9%E6%A2%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-guo-e-meng.zip"],
           ["Size", "1,541,943 bytes (1.5 MB)"],
           ["SHA-256", "3cdfb369f91d1be664900007305f29be9f762fd43e3e079545fa8b091d82a493"],
           ["Files", "110"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E5%99%A9%E6%A2%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美国噩梦 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-guo-e-meng.zip", external: true},
+          {label: "Download 美国噩梦 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E5%99%A9%E6%A2%A6.zip", external: true},
         ]},
       ],
     },

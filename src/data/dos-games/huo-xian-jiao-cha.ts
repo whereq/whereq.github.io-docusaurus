@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "火线交叉 is a DOS game in the WhereQ archive — 1996, 19 files, 10.9 MB, and an entry point of STRIFE1.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huo-xian-jiao-cha.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%BA%BF%E4%BA%A4%E5%8F%89.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huo-xian-jiao-cha.zip"],
           ["Size", "11,392,729 bytes (10.9 MB)"],
           ["SHA-256", "e66d0c5fe82d85fbddfde2ea75f99d4440f3303c77071c40b166550d650f79bc"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%AB%E7%BA%BF%E4%BA%A4%E5%8F%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 火线交叉 (10.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huo-xian-jiao-cha.zip", external: true},
+          {label: "Download 火线交叉 (10.9 MB)", href: "https://dos-bin.zczc.cz/%E7%81%AB%E7%BA%BF%E4%BA%A4%E5%8F%89.zip", external: true},
         ]},
       ],
     },

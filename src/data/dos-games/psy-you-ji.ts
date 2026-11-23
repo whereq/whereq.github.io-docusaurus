@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "PSY幽记 is a DOS game in the WhereQ archive — 1996, 1,901 files, 11.5 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/p/psy-you-ji.zip",
+  url: "https://dos-bin.zczc.cz/PSY%E5%B9%BD%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "psy-you-ji.zip"],
           ["Size", "12,048,493 bytes (11.5 MB)"],
           ["SHA-256", "cbc7fd461bb2b268c632b1bb5fcbfa2e6d86a2f3c778a9de280f221822e409dd"],
           ["Files", "1,901"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/PSY%E5%B9%BD%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download PSY幽记 (11.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/psy-you-ji.zip", external: true},
+          {label: "Download PSY幽记 (11.5 MB)", href: "https://dos-bin.zczc.cz/PSY%E5%B9%BD%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

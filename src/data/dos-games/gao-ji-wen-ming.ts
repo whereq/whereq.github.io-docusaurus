@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "高级文明 is a DOS game in the WhereQ archive — 1995, 67 files, 13.4 MB, and an entry point of AC_MAIN.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gao-ji-wen-ming.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E6%96%87%E6%98%8E.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gao-ji-wen-ming.zip"],
           ["Size", "14,039,565 bytes (13.4 MB)"],
           ["SHA-256", "777290ee06f7fcacf410578a4f4abf1244e723693192df43db4c2e488370cdda"],
           ["Files", "67"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E6%96%87%E6%98%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 高级文明 (13.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gao-ji-wen-ming.zip", external: true},
+          {label: "Download 高级文明 (13.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E6%96%87%E6%98%8E.zip", external: true},
         ]},
       ],
     },

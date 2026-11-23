@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "西洋陆军棋 is a DOS game in the WhereQ archive — 1994, 12 files, 1.4 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-yang-lu-jun-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E9%99%86%E5%86%9B%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-yang-lu-jun-qi.zip"],
           ["Size", "1,429,127 bytes (1.4 MB)"],
           ["SHA-256", "ebdd22c6fb7f166791df448ffaf7483a3a84962cf7d93abf505d92b5b94ced82"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E9%99%86%E5%86%9B%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 西洋陆军棋 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-yang-lu-jun-qi.zip", external: true},
+          {label: "Download 西洋陆军棋 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E9%99%86%E5%86%9B%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

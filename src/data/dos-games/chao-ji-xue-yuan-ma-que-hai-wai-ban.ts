@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级学园麻雀海外版 is a DOS game in the WhereQ archive — 1980, 45 files, 2.9 MB, and an entry point of SCMC2.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-xue-yuan-ma-que-hai-wai-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E5%9B%AD%E9%BA%BB%E9%9B%80%E6%B5%B7%E5%A4%96%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-xue-yuan-ma-que-hai-wai-ban.zip"],
           ["Size", "3,001,149 bytes (2.9 MB)"],
           ["SHA-256", "8404f969ebd4b0d391804b42c90d7d9dc036732fec08aff0d697520222664138"],
           ["Files", "45"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E5%9B%AD%E9%BA%BB%E9%9B%80%E6%B5%B7%E5%A4%96%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级学园麻雀海外版 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-xue-yuan-ma-que-hai-wai-ban.zip", external: true},
+          {label: "Download 超级学园麻雀海外版 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E5%9B%AD%E9%BA%BB%E9%9B%80%E6%B5%B7%E5%A4%96%E7%89%88.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "四海冒险家 is a DOS game in the WhereQ archive — 1996, 132 files, 2.4 MB, and an entry point of VOD.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-hai-mao-xian-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%9B%E6%B5%B7%E5%86%92%E9%99%A9%E5%AE%B6.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-hai-mao-xian-jia.zip"],
           ["Size", "2,508,623 bytes (2.4 MB)"],
           ["SHA-256", "5eb2a8f654ffc3d80e95aae6e1286e552e42580797188357c080c5db3a4e20dd"],
           ["Files", "132"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%9B%E6%B5%B7%E5%86%92%E9%99%A9%E5%AE%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 四海冒险家 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-hai-mao-xian-jia.zip", external: true},
+          {label: "Download 四海冒险家 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%9B%E6%B5%B7%E5%86%92%E9%99%A9%E5%AE%B6.zip", external: true},
         ]},
       ],
     },

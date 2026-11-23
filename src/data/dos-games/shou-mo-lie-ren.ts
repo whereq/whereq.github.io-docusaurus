@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "狩魔猎人 is a DOS game in the WhereQ archive — 1996, 143 files, 14.5 MB, and an entry point of sierra.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shou-mo-lie-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%A9%E9%AD%94%E7%8C%8E%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shou-mo-lie-ren.zip"],
           ["Size", "15,182,563 bytes (14.5 MB)"],
           ["SHA-256", "db1e355c53c78d49d2ce168c987c2482f1c5b75d257f73ea7964301ee220341f"],
           ["Files", "143"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%A9%E9%AD%94%E7%8C%8E%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 狩魔猎人 (14.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shou-mo-lie-ren.zip", external: true},
+          {label: "Download 狩魔猎人 (14.5 MB)", href: "https://dos-bin.zczc.cz/%E7%8B%A9%E9%AD%94%E7%8C%8E%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小沙弥 is a DOS game in the WhereQ archive — 1996, 73 files, 3.1 MB, and an entry point of GAME.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-sha-mi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%B2%99%E5%BC%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-sha-mi.zip"],
           ["Size", "3,211,183 bytes (3.1 MB)"],
           ["SHA-256", "2c5556c2f50f0fa769fe6f791aa8ea780b2803e426ed739f27341e477b764926"],
           ["Files", "73"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E6%B2%99%E5%BC%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小沙弥 (3.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-sha-mi.zip", external: true},
+          {label: "Download 小沙弥 (3.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%B2%99%E5%BC%A5.zip", external: true},
         ]},
       ],
     },

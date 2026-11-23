@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "疯狂时代 is a DOS game in the WhereQ archive — 1988, 67 files, 7.8 MB, and an entry point of DOTT.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-shi-dai.zip",
+  url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E6%97%B6%E4%BB%A3.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-kuang-shi-dai.zip"],
           ["Size", "8,207,725 bytes (7.8 MB)"],
           ["SHA-256", "26dbb343f35a74f546d345477eddb2d5fb78e881e424260e78430ec05c395954"],
           ["Files", "67"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E6%97%B6%E4%BB%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 疯狂时代 (7.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-shi-dai.zip", external: true},
+          {label: "Download 疯狂时代 (7.8 MB)", href: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E6%97%B6%E4%BB%A3.zip", external: true},
         ]},
       ],
     },

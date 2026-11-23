@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "空中决斗 is a DOS game in the WhereQ archive — 1996, 335 files, 6.8 MB, and an entry point of FD.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhong-jue-dou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%86%B3%E6%96%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-zhong-jue-dou.zip"],
           ["Size", "7,118,256 bytes (6.8 MB)"],
           ["SHA-256", "a7441b3025f61d7eeaf36257d14d178c12cb104af37f070c0e963631455dd2dd"],
           ["Files", "335"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%86%B3%E6%96%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 空中决斗 (6.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-zhong-jue-dou.zip", external: true},
+          {label: "Download 空中决斗 (6.8 MB)", href: "https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%86%B3%E6%96%97.zip", external: true},
         ]},
       ],
     },

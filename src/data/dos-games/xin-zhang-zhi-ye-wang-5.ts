@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "信长之野望5 is a DOS game in the WhereQ archive — 1994, 38 files, 2.5 MB, and an entry point of Koei.com.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-5.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-zhang-zhi-ye-wang-5.zip"],
           ["Size", "2,605,333 bytes (2.5 MB)"],
           ["SHA-256", "94af3256757821858d932bd58e00c5c0ad866611b7860d040e3bd64dbdd83530"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 信长之野望5 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-5.zip", external: true},
+          {label: "Download 信长之野望5 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B5.zip", external: true},
         ]},
       ],
     },

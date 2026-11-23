@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "通道 is a DOS game in the WhereQ archive — 1994, 36 files, 991 KB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tong-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%9A%E9%81%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tong-dao.zip"],
           ["Size", "1,014,292 bytes (991 KB)"],
           ["SHA-256", "50c878d97dc8df63fba0428e221b304cb485f5eac539023cd19362afd965974f"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%9A%E9%81%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 通道 (991 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tong-dao.zip", external: true},
+          {label: "Download 通道 (991 KB)", href: "https://dos-bin.zczc.cz/%E9%80%9A%E9%81%93.zip", external: true},
         ]},
       ],
     },

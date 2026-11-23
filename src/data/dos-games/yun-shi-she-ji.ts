@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "陨石射击 is a DOS game in the WhereQ archive — 1995, 86 files, 1.2 MB, and an entry point of ASTRO.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yun-shi-she-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%99%A8%E7%9F%B3%E5%B0%84%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yun-shi-she-ji.zip"],
           ["Size", "1,304,576 bytes (1.2 MB)"],
           ["SHA-256", "03628cdda17f2734b957074a3d683cc9f4a36b657767666fa0647affd5c23016"],
           ["Files", "86"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%99%A8%E7%9F%B3%E5%B0%84%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 陨石射击 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yun-shi-she-ji.zip", external: true},
+          {label: "Download 陨石射击 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E9%99%A8%E7%9F%B3%E5%B0%84%E5%87%BB.zip", external: true},
         ]},
       ],
     },

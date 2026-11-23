@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "梦见坡 is a DOS game in the WhereQ archive — 1995, 157 files, 6.2 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/meng-jian-po.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A2%A6%E8%A7%81%E5%9D%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "meng-jian-po.zip"],
           ["Size", "6,458,420 bytes (6.2 MB)"],
           ["SHA-256", "995b1d9a8c8bbc577865ff48d58c73772766d987eea08e0b6b5dd07e83e2d3dc"],
           ["Files", "157"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A2%A6%E8%A7%81%E5%9D%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 梦见坡 (6.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/meng-jian-po.zip", external: true},
+          {label: "Download 梦见坡 (6.2 MB)", href: "https://dos-bin.zczc.cz/%E6%A2%A6%E8%A7%81%E5%9D%A1.zip", external: true},
         ]},
       ],
     },

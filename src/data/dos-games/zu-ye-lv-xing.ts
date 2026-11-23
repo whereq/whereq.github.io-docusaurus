@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "卒业旅行 is a DOS game in the WhereQ archive — 1997, 259 files, 5.9 MB, and an entry point of DOS4GW.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zu-ye-lv-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A%E6%97%85%E8%A1%8C.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zu-ye-lv-xing.zip"],
           ["Size", "6,187,178 bytes (5.9 MB)"],
           ["SHA-256", "bde43da0195b2da503303c12852d3f567e6770e3ca8c9818e1f1a0064ea05d54"],
           ["Files", "259"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A%E6%97%85%E8%A1%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卒业旅行 (5.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zu-ye-lv-xing.zip", external: true},
+          {label: "Download 卒业旅行 (5.9 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A%E6%97%85%E8%A1%8C.zip", external: true},
         ]},
       ],
     },

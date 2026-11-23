@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "围棋大战 is a DOS game in the WhereQ archive — 1997, 47 files, 694 KB, and an entry point of GOHERC.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-qi-da-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%B4%E6%A3%8B%E5%A4%A7%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-qi-da-zhan.zip"],
           ["Size", "710,461 bytes (694 KB)"],
           ["SHA-256", "7c98beff2835694ce41861e8383595a614dad9d0d3d87160ef198e6bdfe144ef"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%B4%E6%A3%8B%E5%A4%A7%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 围棋大战 (694 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-qi-da-zhan.zip", external: true},
+          {label: "Download 围棋大战 (694 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%B4%E6%A3%8B%E5%A4%A7%E6%88%98.zip", external: true},
         ]},
       ],
     },

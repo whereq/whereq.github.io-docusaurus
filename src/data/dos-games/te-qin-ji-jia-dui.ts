@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "特勤机甲队 is a DOS game in the WhereQ archive — 1994, 399 files, 3.0 MB, and an entry point of GAMEMAIN.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/te-qin-ji-jia-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E7%89%B9%E5%8B%A4%E6%9C%BA%E7%94%B2%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "te-qin-ji-jia-dui.zip"],
           ["Size", "3,141,661 bytes (3.0 MB)"],
           ["SHA-256", "0cd9b9a9e00a87ef485f0cc1b6617630542912ca4f0f0e4274d640ed27907e52"],
           ["Files", "399"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%89%B9%E5%8B%A4%E6%9C%BA%E7%94%B2%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 特勤机甲队 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/te-qin-ji-jia-dui.zip", external: true},
+          {label: "Download 特勤机甲队 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E7%89%B9%E5%8B%A4%E6%9C%BA%E7%94%B2%E9%98%9F.zip", external: true},
         ]},
       ],
     },

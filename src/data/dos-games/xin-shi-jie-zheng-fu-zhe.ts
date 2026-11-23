@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "新世界征服者 is a DOS game in the WhereQ archive — 2001, 30 files, 53.9 MB, and an entry point of PLAY.BAT.",
   status: "2001",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-shi-jie-zheng-fu-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%95%8C%E5%BE%81%E6%9C%8D%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-shi-jie-zheng-fu-zhe.zip"],
           ["Size", "56,523,305 bytes (53.9 MB)"],
           ["SHA-256", "69f1f9d624a844a1872c379d17ad3032f672e4fc4ed11a2c9beee60bc093b053"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%95%8C%E5%BE%81%E6%9C%8D%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 新世界征服者 (53.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-shi-jie-zheng-fu-zhe.zip", external: true},
+          {label: "Download 新世界征服者 (53.9 MB)", href: "https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%95%8C%E5%BE%81%E6%9C%8D%E8%80%85.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大野风云 is a DOS game in the WhereQ archive — 2007, 16 files, 2.7 MB, and an entry point of VIRGIN.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-ye-feng-yun.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%8E%E9%A3%8E%E4%BA%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-ye-feng-yun.zip"],
           ["Size", "2,859,014 bytes (2.7 MB)"],
           ["SHA-256", "48c2cb94faccc0c209c313b2e7ac7199e87d025c0c02aa0a6a908df700ce177a"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%8E%E9%A3%8E%E4%BA%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大野风云 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-ye-feng-yun.zip", external: true},
+          {label: "Download 大野风云 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%8E%E9%A3%8E%E4%BA%91.zip", external: true},
         ]},
       ],
     },

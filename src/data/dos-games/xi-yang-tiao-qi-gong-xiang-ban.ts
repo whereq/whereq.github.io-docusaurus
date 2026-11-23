@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "西洋跳棋(共享版) is a DOS game in the WhereQ archive — 1995, 14 files, 530 KB, and an entry point of CHECKERS.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-yang-tiao-qi-gong-xiang-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E8%B7%B3%E6%A3%8B%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-yang-tiao-qi-gong-xiang-ban.zip"],
           ["Size", "542,981 bytes (530 KB)"],
           ["SHA-256", "cb0d5e6e48bb3103b4589b9b3e83ef4e5be1b8bf2552bf92083bc9326dedb8de"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E8%B7%B3%E6%A3%8B%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 西洋跳棋(共享版) (530 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-yang-tiao-qi-gong-xiang-ban.zip", external: true},
+          {label: "Download 西洋跳棋(共享版) (530 KB)", href: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E8%B7%B3%E6%A3%8B%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip", external: true},
         ]},
       ],
     },

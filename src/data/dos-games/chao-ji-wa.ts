@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级蛙 is a DOS game in the WhereQ archive — 1996, 147 files, 2.5 MB, and an entry point of SF.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-wa.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%9B%99.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-wa.zip"],
           ["Size", "2,580,131 bytes (2.5 MB)"],
           ["SHA-256", "f38d1e43e4308a2a23c8d00bacd70a938f495833339719abf2dee32c27af974d"],
           ["Files", "147"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%9B%99.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级蛙 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-wa.zip", external: true},
+          {label: "Download 超级蛙 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%9B%99.zip", external: true},
         ]},
       ],
     },

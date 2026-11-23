@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔界之泉灰石传奇 is a DOS game in the WhereQ archive — 1995, 638 files, 3.4 MB, and an entry point of MAIN.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhi-quan-hui-shi-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E7%81%B0%E7%9F%B3%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-jie-zhi-quan-hui-shi-chuan-qi.zip"],
           ["Size", "3,558,202 bytes (3.4 MB)"],
           ["SHA-256", "2b1a62629c51283b18c00f216943580f8b2a642efec10b7e4f1d7000c021d01b"],
           ["Files", "638"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E7%81%B0%E7%9F%B3%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔界之泉灰石传奇 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhi-quan-hui-shi-chuan-qi.zip", external: true},
+          {label: "Download 魔界之泉灰石传奇 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E7%81%B0%E7%9F%B3%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

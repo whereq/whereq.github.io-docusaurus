@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "滑轮小子2 is a DOS game in the WhereQ archive — 1996, 62 files, 2.7 MB, and an entry point of LEVEL6.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hua-lun-xiao-zi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%BB%91%E8%BD%AE%E5%B0%8F%E5%AD%902.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hua-lun-xiao-zi-2.zip"],
           ["Size", "2,878,865 bytes (2.7 MB)"],
           ["SHA-256", "1db12d020afd85454197cee6b0e45accf4d484a3f53e67b482685651f1e458ae"],
           ["Files", "62"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%BB%91%E8%BD%AE%E5%B0%8F%E5%AD%902.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 滑轮小子2 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hua-lun-xiao-zi-2.zip", external: true},
+          {label: "Download 滑轮小子2 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E6%BB%91%E8%BD%AE%E5%B0%8F%E5%AD%902.zip", external: true},
         ]},
       ],
     },

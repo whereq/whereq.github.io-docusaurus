@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗天使 is a DOS game in the WhereQ archive — 1995, 71 files, 5.0 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-tian-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%A4%A9%E4%BD%BF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-tian-shi.zip"],
           ["Size", "5,250,599 bytes (5.0 MB)"],
           ["SHA-256", "2584585b5a1a1c1943f5d1ce7da22b86659e4705483958725386987f93bbfd66"],
           ["Files", "71"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%A4%A9%E4%BD%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗天使 (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-tian-shi.zip", external: true},
+          {label: "Download 黑暗天使 (5.0 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%A4%A9%E4%BD%BF.zip", external: true},
         ]},
       ],
     },

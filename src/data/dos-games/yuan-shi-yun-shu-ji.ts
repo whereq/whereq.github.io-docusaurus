@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "原始运输机 is a DOS game in the WhereQ archive — 1996, 9 files, 287 KB, and an entry point of ugh.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yuan-shi-yun-shu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8E%9F%E5%A7%8B%E8%BF%90%E8%BE%93%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yuan-shi-yun-shu-ji.zip"],
           ["Size", "294,304 bytes (287 KB)"],
           ["SHA-256", "88a8c1ea239dcd85656cd86ea745501a47665d94fe441958561cf537eb83788d"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8E%9F%E5%A7%8B%E8%BF%90%E8%BE%93%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 原始运输机 (287 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yuan-shi-yun-shu-ji.zip", external: true},
+          {label: "Download 原始运输机 (287 KB)", href: "https://dos-bin.zczc.cz/%E5%8E%9F%E5%A7%8B%E8%BF%90%E8%BE%93%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河霸主2 is a DOS game in the WhereQ archive — 1996, 427 files, 172.7 MB, and an entry point of Orion2.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ba-zhu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-ba-zhu-2.zip"],
           ["Size", "181,048,541 bytes (172.7 MB)"],
           ["SHA-256", "53f64b47f002d39887e93c8c9156b03c9eacd604b2aa52240fb2b2eced9ab635"],
           ["Files", "427"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河霸主2 (172.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ba-zhu-2.zip", external: true},
+          {label: "Download 银河霸主2 (172.7 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "性感机器 is a DOS game in the WhereQ archive — 2000, 31 files, 434 KB, and an entry point of SEXY.EXE.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-gan-ji-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E6%9C%BA%E5%99%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-gan-ji-qi.zip"],
           ["Size", "444,243 bytes (434 KB)"],
           ["SHA-256", "e4ded633c91593b1bb617f7080166d678d3a315cd05d11b9c4d777bf012787eb"],
           ["Files", "31"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E6%9C%BA%E5%99%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 性感机器 (434 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-gan-ji-qi.zip", external: true},
+          {label: "Download 性感机器 (434 KB)", href: "https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E6%9C%BA%E5%99%A8.zip", external: true},
         ]},
       ],
     },

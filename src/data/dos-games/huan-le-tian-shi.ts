@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "欢乐天使 is a DOS game in the WhereQ archive — 1996, 337 files, 5.1 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-tian-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%A4%A9%E4%BD%BF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-le-tian-shi.zip"],
           ["Size", "5,309,396 bytes (5.1 MB)"],
           ["SHA-256", "f004fe3257f51c3b3488969df70908dc99803c6ae6c9e88f9e6efdbc7e405916"],
           ["Files", "337"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%A4%A9%E4%BD%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 欢乐天使 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-le-tian-shi.zip", external: true},
+          {label: "Download 欢乐天使 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%A4%A9%E4%BD%BF.zip", external: true},
         ]},
       ],
     },

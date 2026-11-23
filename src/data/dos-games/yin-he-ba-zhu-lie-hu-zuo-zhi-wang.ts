@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河霸主(猎户座之王) is a DOS game in the WhereQ archive — 1993, 55 files, 6.6 MB, and an entry point of ORION.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ba-zhu-lie-hu-zuo-zhi-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB%28%E7%8C%8E%E6%88%B7%E5%BA%A7%E4%B9%8B%E7%8E%8B%29.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-ba-zhu-lie-hu-zuo-zhi-wang.zip"],
           ["Size", "6,902,494 bytes (6.6 MB)"],
           ["SHA-256", "86d7330f1007c08ba18989fd9bb333913c480a496cddd824fe6e4deae2419cac"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB%28%E7%8C%8E%E6%88%B7%E5%BA%A7%E4%B9%8B%E7%8E%8B%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河霸主(猎户座之王) (6.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ba-zhu-lie-hu-zuo-zhi-wang.zip", external: true},
+          {label: "Download 银河霸主(猎户座之王) (6.6 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB%28%E7%8C%8E%E6%88%B7%E5%BA%A7%E4%B9%8B%E7%8E%8B%29.zip", external: true},
         ]},
       ],
     },

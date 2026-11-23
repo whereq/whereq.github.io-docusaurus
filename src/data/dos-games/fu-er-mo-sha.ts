@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "福尔摩莎 is a DOS game in the WhereQ archive — 1992, 153 files, 3.4 MB, and an entry point of CHINA.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fu-er-mo-sha.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E8%8E%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fu-er-mo-sha.zip"],
           ["Size", "3,569,209 bytes (3.4 MB)"],
           ["SHA-256", "b72770580e083d75619d2b1b8fff23ae8a9b25fa7701e02f95e2a8a22862e60c"],
           ["Files", "153"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E8%8E%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 福尔摩莎 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fu-er-mo-sha.zip", external: true},
+          {label: "Download 福尔摩莎 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E8%8E%8E.zip", external: true},
         ]},
       ],
     },

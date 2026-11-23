@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "太平天国 is a DOS game in the WhereQ archive — 1998, 785 files, 111.8 MB, and an entry point of Play.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-tian-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E5%A4%A9%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-ping-tian-guo.zip"],
           ["Size", "117,233,275 bytes (111.8 MB)"],
           ["SHA-256", "fd85104aea779b31f2db9332caedd33f4064c60764e35fd53ef9f213439fbe01"],
           ["Files", "785"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E5%A4%A9%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 太平天国 (111.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-tian-guo.zip", external: true},
+          {label: "Download 太平天国 (111.8 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E5%A4%A9%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

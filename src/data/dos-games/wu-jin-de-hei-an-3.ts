@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无尽的黑暗3 is a DOS game in the WhereQ archive — 1980, 350 files, 1.2 MB, and an entry point of PLAY.BAT.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-hei-an-3.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%BB%91%E6%9A%973.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-jin-de-hei-an-3.zip"],
           ["Size", "1,219,952 bytes (1.2 MB)"],
           ["SHA-256", "7710036227863cd48c1b8eb67f67980e4b6284757f389b9f1816869e8890a084"],
           ["Files", "350"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%BB%91%E6%9A%973.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无尽的黑暗3 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-hei-an-3.zip", external: true},
+          {label: "Download 无尽的黑暗3 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%BB%91%E6%9A%973.zip", external: true},
         ]},
       ],
     },

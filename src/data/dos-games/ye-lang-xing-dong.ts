@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "野狼行动 is a DOS game in the WhereQ archive — 1989, 32 files, 594 KB, and an entry point of PLAY.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ye-lang-xing-dong.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%8E%E7%8B%BC%E8%A1%8C%E5%8A%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ye-lang-xing-dong.zip"],
           ["Size", "608,110 bytes (594 KB)"],
           ["SHA-256", "bd26ef8b532a480b2f79be7c2b32beb052b1e189c4cc007d6fe1ec003f65bd51"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%8E%E7%8B%BC%E8%A1%8C%E5%8A%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 野狼行动 (594 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/ye-lang-xing-dong.zip", external: true},
+          {label: "Download 野狼行动 (594 KB)", href: "https://dos-bin.zczc.cz/%E9%87%8E%E7%8B%BC%E8%A1%8C%E5%8A%A8.zip", external: true},
         ]},
       ],
     },

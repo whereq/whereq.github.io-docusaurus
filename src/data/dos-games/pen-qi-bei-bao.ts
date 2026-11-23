@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "喷气背包 is a DOS game in the WhereQ archive — 1998, 32 files, 484 KB, and an entry point of JETPACK.EXE.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pen-qi-bei-bao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%96%B7%E6%B0%94%E8%83%8C%E5%8C%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pen-qi-bei-bao.zip"],
           ["Size", "495,199 bytes (484 KB)"],
           ["SHA-256", "a3bdb5a45038b8e9efe0676fbeacb75cac9fef6db955821a7a56883813597382"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%96%B7%E6%B0%94%E8%83%8C%E5%8C%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 喷气背包 (484 KB)", href: "https://github.com/whereq/dos-games/releases/download/p/pen-qi-bei-bao.zip", external: true},
+          {label: "Download 喷气背包 (484 KB)", href: "https://dos-bin.zczc.cz/%E5%96%B7%E6%B0%94%E8%83%8C%E5%8C%85.zip", external: true},
         ]},
       ],
     },

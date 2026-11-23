@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蓝色行动 is a DOS game in the WhereQ archive — 2007, 19 files, 19.9 MB, and an entry point of BLUE.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-xing-dong.zip",
+  url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E8%A1%8C%E5%8A%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-se-xing-dong.zip"],
           ["Size", "20,891,021 bytes (19.9 MB)"],
           ["SHA-256", "16cd764b4a8d25d1ed9af61ecfb6c2995a8d33aae13a9d95173bb2d8d781186d"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E8%A1%8C%E5%8A%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蓝色行动 (19.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-se-xing-dong.zip", external: true},
+          {label: "Download 蓝色行动 (19.9 MB)", href: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E8%A1%8C%E5%8A%A8.zip", external: true},
         ]},
       ],
     },

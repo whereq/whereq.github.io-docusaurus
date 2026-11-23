@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "枪神 is a DOS game in the WhereQ archive — 1995, 27 files, 3.5 MB, and an entry point of TGUN.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qiang-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9E%AA%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qiang-shen.zip"],
           ["Size", "3,687,455 bytes (3.5 MB)"],
           ["SHA-256", "2a9f74cd69b37d3d3ef47875fce4065f0b4c92ef3f566aab489d5e9ef14007eb"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9E%AA%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 枪神 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qiang-shen.zip", external: true},
+          {label: "Download 枪神 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E6%9E%AA%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

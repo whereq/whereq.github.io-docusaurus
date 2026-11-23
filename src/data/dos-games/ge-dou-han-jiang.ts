@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "格斗悍将 is a DOS game in the WhereQ archive — 2005, 52 files, 7.3 MB, and an entry point of TOUGH.EXE.",
   status: "2005",
-  url: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-han-jiang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%82%8D%E5%B0%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2005"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ge-dou-han-jiang.zip"],
           ["Size", "7,683,894 bytes (7.3 MB)"],
           ["SHA-256", "589ebbe654a2c4b54fafbd3a0ccf9fba97ebafba8a9fffc8a047d3df2a05b3e6"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%82%8D%E5%B0%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 格斗悍将 (7.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-han-jiang.zip", external: true},
+          {label: "Download 格斗悍将 (7.3 MB)", href: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%82%8D%E5%B0%86.zip", external: true},
         ]},
       ],
     },

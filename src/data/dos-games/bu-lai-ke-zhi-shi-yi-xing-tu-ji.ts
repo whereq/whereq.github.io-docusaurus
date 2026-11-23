@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "布莱克之石异星突击 is a DOS game in the WhereQ archive — 1994, 30 files, 2.1 MB, and an entry point of PLANET.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bu-lai-ke-zhi-shi-yi-xing-tu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bu-lai-ke-zhi-shi-yi-xing-tu-ji.zip"],
           ["Size", "2,185,414 bytes (2.1 MB)"],
           ["SHA-256", "6757ec340f5b38e553755221edeb5e097f9efd10f3d0588e6db410d493906783"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 布莱克之石异星突击 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bu-lai-ke-zhi-shi-yi-xing-tu-ji.zip", external: true},
+          {label: "Download 布莱克之石异星突击 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "双子星传奇2 is a DOS game in the WhereQ archive — 2009, 83 files, 689.3 MB, and an entry point of BACKUP.EXE.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-xing-chuan-qi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%872.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shuang-zi-xing-chuan-qi-2.zip"],
           ["Size", "722,811,031 bytes (689.3 MB)"],
           ["SHA-256", "cd11ee5ab1151cb8cbb01c814f0f848744cd6d99599d825e07486581e8dbadc6"],
           ["Files", "83"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%872.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 双子星传奇2 (689.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-xing-chuan-qi-2.zip", external: true},
+          {label: "Download 双子星传奇2 (689.3 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%872.zip", external: true},
         ]},
       ],
     },

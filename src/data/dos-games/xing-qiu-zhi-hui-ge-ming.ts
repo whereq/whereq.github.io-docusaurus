@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星球指挥革命 is a DOS game in the WhereQ archive — 1997, 198 files, 10.4 MB, and an entry point of STARCOM.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-zhi-hui-ge-ming.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E6%8C%87%E6%8C%A5%E9%9D%A9%E5%91%BD.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-qiu-zhi-hui-ge-ming.zip"],
           ["Size", "10,936,282 bytes (10.4 MB)"],
           ["SHA-256", "2dd5b5ce37765b86eaf48c3ffe393c0f262220da20dae51ca79b243e1fa3a3cc"],
           ["Files", "198"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E6%8C%87%E6%8C%A5%E9%9D%A9%E5%91%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星球指挥革命 (10.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-zhi-hui-ge-ming.zip", external: true},
+          {label: "Download 星球指挥革命 (10.4 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E6%8C%87%E6%8C%A5%E9%9D%A9%E5%91%BD.zip", external: true},
         ]},
       ],
     },

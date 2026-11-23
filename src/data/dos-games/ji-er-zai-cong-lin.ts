@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "吉尔在丛林 is a DOS game in the WhereQ archive — 1993, 41 files, 294 KB, and an entry point of JILL.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%97.zip",
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-er-zai-cong-lin.zip"],
           ["Size", "301,019 bytes (294 KB)"],
           ["SHA-256", "75cbaffe210c9d091b4cc00588a6c6c54b2c02c26ecf999652ee87d03791f6c9"],
           ["Files", "41"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吉尔在丛林 (294 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin.zip", external: true},
+          {label: "Download 吉尔在丛林 (294 KB)", href: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%97.zip", external: true},
         ]},
       ],
     },

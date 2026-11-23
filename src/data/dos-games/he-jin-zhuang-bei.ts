@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "合金装备 is a DOS game in the WhereQ archive — 1980, 100 files, 239 KB, and an entry point of PLAY.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/h/he-jin-zhuang-bei.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "he-jin-zhuang-bei.zip"],
           ["Size", "245,095 bytes (239 KB)"],
           ["SHA-256", "2cb7d80611741c375e5ae4355d5670f3528a715ef7d4f2fa8a3b7da1930118b3"],
           ["Files", "100"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 合金装备 (239 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/he-jin-zhuang-bei.zip", external: true},
+          {label: "Download 合金装备 (239 KB)", href: "https://dos-bin.zczc.cz/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87.zip", external: true},
         ]},
       ],
     },

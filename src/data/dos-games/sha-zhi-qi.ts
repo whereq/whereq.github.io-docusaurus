@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "纱之器 is a DOS game in the WhereQ archive — 1993, 84 files, 3.8 MB, and an entry point of LOOM.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-zhi-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%B1%E4%B9%8B%E5%99%A8.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-zhi-qi.zip"],
           ["Size", "4,029,847 bytes (3.8 MB)"],
           ["SHA-256", "a22de97eeb148954e341181143798ae434fec344a0ecda12bdb86f62c2a488da"],
           ["Files", "84"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%B1%E4%B9%8B%E5%99%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 纱之器 (3.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-zhi-qi.zip", external: true},
+          {label: "Download 纱之器 (3.8 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%B1%E4%B9%8B%E5%99%A8.zip", external: true},
         ]},
       ],
     },

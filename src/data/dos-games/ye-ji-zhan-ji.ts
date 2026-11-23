@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "耶基战机 is a DOS game in the WhereQ archive — 1991, 13 files, 1.2 MB, and an entry point of PLAY.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ye-ji-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%80%B6%E5%9F%BA%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ye-ji-zhan-ji.zip"],
           ["Size", "1,296,040 bytes (1.2 MB)"],
           ["SHA-256", "31163598975e0a4069dd5c6bd726ec08f0f9813d950d52042f42d7381ada2410"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%80%B6%E5%9F%BA%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 耶基战机 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ye-ji-zhan-ji.zip", external: true},
+          {label: "Download 耶基战机 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E8%80%B6%E5%9F%BA%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

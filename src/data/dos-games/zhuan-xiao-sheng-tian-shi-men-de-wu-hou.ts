@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "转校生-天使们的午后 is a DOS game in the WhereQ archive — 1995, 585 files, 4.8 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuan-xiao-sheng-tian-shi-men-de-wu-hou.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BD%AC%E6%A0%A1%E7%94%9F-%E5%A4%A9%E4%BD%BF%E4%BB%AC%E7%9A%84%E5%8D%88%E5%90%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuan-xiao-sheng-tian-shi-men-de-wu-hou.zip"],
           ["Size", "4,985,765 bytes (4.8 MB)"],
           ["SHA-256", "f4e2c3c4f393bcd1f997e56dce5cbb198bb190614ca1991a878d8aaea33d9bd2"],
           ["Files", "585"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BD%AC%E6%A0%A1%E7%94%9F-%E5%A4%A9%E4%BD%BF%E4%BB%AC%E7%9A%84%E5%8D%88%E5%90%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 转校生-天使们的午后 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuan-xiao-sheng-tian-shi-men-de-wu-hou.zip", external: true},
+          {label: "Download 转校生-天使们的午后 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E8%BD%AC%E6%A0%A1%E7%94%9F-%E5%A4%A9%E4%BD%BF%E4%BB%AC%E7%9A%84%E5%8D%88%E5%90%8E.zip", external: true},
         ]},
       ],
     },

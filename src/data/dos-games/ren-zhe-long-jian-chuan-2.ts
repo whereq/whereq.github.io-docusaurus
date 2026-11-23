@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "忍者龙剑传2 is a DOS game in the WhereQ archive — 1991, 49 files, 471 KB, and an entry point of NINJA.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-long-jian-chuan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A02.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ren-zhe-long-jian-chuan-2.zip"],
           ["Size", "482,305 bytes (471 KB)"],
           ["SHA-256", "b276849e8507890051fb554b1eceda627bb33e459de0e4213b02b4d48a0032aa"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A02.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 忍者龙剑传2 (471 KB)", href: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-long-jian-chuan-2.zip", external: true},
+          {label: "Download 忍者龙剑传2 (471 KB)", href: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A02.zip", external: true},
         ]},
       ],
     },

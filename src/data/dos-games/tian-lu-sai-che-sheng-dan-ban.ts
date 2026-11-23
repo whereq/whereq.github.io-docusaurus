@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天路赛车圣诞版 is a DOS game in the WhereQ archive — 1993, 29 files, 585 KB, and an entry point of SKYXMAS.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-lu-sai-che-sheng-dan-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6%E5%9C%A3%E8%AF%9E%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-lu-sai-che-sheng-dan-ban.zip"],
           ["Size", "598,689 bytes (585 KB)"],
           ["SHA-256", "478686ec2445eeeae94a65c26e91f671b9f07fbef10b50fd7b4809f8de5b99e5"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6%E5%9C%A3%E8%AF%9E%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天路赛车圣诞版 (585 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-lu-sai-che-sheng-dan-ban.zip", external: true},
+          {label: "Download 天路赛车圣诞版 (585 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6%E5%9C%A3%E8%AF%9E%E7%89%88.zip", external: true},
         ]},
       ],
     },

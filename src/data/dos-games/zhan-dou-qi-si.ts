@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战斗起司 is a DOS game in the WhereQ archive — 1996, 108 files, 5.0 MB, and an entry point of BC.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-qi-si.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%B5%B7%E5%8F%B8.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-dou-qi-si.zip"],
           ["Size", "5,263,365 bytes (5.0 MB)"],
           ["SHA-256", "5a1654f9f76888da67e86595556016613ca6b348efbf733151318cc5cf843bd9"],
           ["Files", "108"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%B5%B7%E5%8F%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战斗起司 (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-qi-si.zip", external: true},
+          {label: "Download 战斗起司 (5.0 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%B5%B7%E5%8F%B8.zip", external: true},
         ]},
       ],
     },

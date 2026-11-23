@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔栈 is a DOS game in the WhereQ archive — 1996, 330 files, 10.6 MB, and an entry point of PLAY.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%A0%88.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-zhan.zip"],
           ["Size", "11,064,531 bytes (10.6 MB)"],
           ["SHA-256", "8c1d2d45bf4ae2f8f498ac76c8e9f168f3642c72776d5af6d3548dc541675147"],
           ["Files", "330"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%A0%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔栈 (10.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-zhan.zip", external: true},
+          {label: "Download 魔栈 (10.6 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%A0%88.zip", external: true},
         ]},
       ],
     },

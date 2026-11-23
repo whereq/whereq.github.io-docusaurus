@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "鹿鼎记 is a DOS game in the WhereQ archive — 1994, 1,664 files, 7.0 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lu-ding-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%B9%BF%E9%BC%8E%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lu-ding-ji.zip"],
           ["Size", "7,388,352 bytes (7.0 MB)"],
           ["SHA-256", "a532867691897c9e87a4ee90c4a3239787f5d87b93199d0827730a90b2729eb6"],
           ["Files", "1,664"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%B9%BF%E9%BC%8E%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鹿鼎记 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lu-ding-ji.zip", external: true},
+          {label: "Download 鹿鼎记 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E9%B9%BF%E9%BC%8E%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣诞残杀 is a DOS game in the WhereQ archive — 1996, 11 files, 9.5 MB, and an entry point of CC.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-dan-can-sha.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E6%AE%8B%E6%9D%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-dan-can-sha.zip"],
           ["Size", "9,949,664 bytes (9.5 MB)"],
           ["SHA-256", "a8be13c481b761453343bbae7fc737e5864e1d3417a8af695d36eff69a8f0b30"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E6%AE%8B%E6%9D%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣诞残杀 (9.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-dan-can-sha.zip", external: true},
+          {label: "Download 圣诞残杀 (9.5 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E6%AE%8B%E6%9D%80.zip", external: true},
         ]},
       ],
     },

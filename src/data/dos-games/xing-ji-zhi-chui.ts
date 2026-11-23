@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星际之锤 is a DOS game in the WhereQ archive — 1994, 51 files, 613 KB, and an entry point of HAMMER.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-zhi-chui.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E4%B9%8B%E9%94%A4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-ji-zhi-chui.zip"],
           ["Size", "628,155 bytes (613 KB)"],
           ["SHA-256", "dda9213069a5f5daa51f1f705470045c865b6acc82f3d29bca1790f4c7bd4117"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E4%B9%8B%E9%94%A4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星际之锤 (613 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-zhi-chui.zip", external: true},
+          {label: "Download 星际之锤 (613 KB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E4%B9%8B%E9%94%A4.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "荣耀之路1 is a DOS game in the WhereQ archive — 1992, 74 files, 24.6 MB, and an entry point of HERO.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-1.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "rong-yao-zhi-lu-1.zip"],
           ["Size", "25,813,452 bytes (24.6 MB)"],
           ["SHA-256", "8dc751ce272818bc008c6df7e1ac0c563410bd63a4fb43cef6e378108eef2bcb"],
           ["Files", "74"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 荣耀之路1 (24.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-1.zip", external: true},
+          {label: "Download 荣耀之路1 (24.6 MB)", href: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF1.zip", external: true},
         ]},
       ],
     },

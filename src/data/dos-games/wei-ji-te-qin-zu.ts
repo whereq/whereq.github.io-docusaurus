@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "危机特勤组 is a DOS game in the WhereQ archive — 1996, 32 files, 5.6 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-ji-te-qin-zu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%B1%E6%9C%BA%E7%89%B9%E5%8B%A4%E7%BB%84.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-ji-te-qin-zu.zip"],
           ["Size", "5,912,860 bytes (5.6 MB)"],
           ["SHA-256", "ca85a3bc846133d08128cc8840638ec25468ace276bb7d463de5b9dead8ef941"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%B1%E6%9C%BA%E7%89%B9%E5%8B%A4%E7%BB%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 危机特勤组 (5.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-ji-te-qin-zu.zip", external: true},
+          {label: "Download 危机特勤组 (5.6 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%B1%E6%9C%BA%E7%89%B9%E5%8B%A4%E7%BB%84.zip", external: true},
         ]},
       ],
     },

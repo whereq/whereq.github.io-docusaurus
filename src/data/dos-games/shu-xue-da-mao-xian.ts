@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "数学大冒险 is a DOS game in the WhereQ archive — 1983, 12 files, 88 KB, and an entry point of Run.bat.",
   status: "1983",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shu-xue-da-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%95%B0%E5%AD%A6%E5%A4%A7%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1983"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shu-xue-da-mao-xian.zip"],
           ["Size", "89,694 bytes (88 KB)"],
           ["SHA-256", "0c59f8fdd98dc2e101ddd1fd171f6e8e375ff81928df19f38dd2d04dcc7a49c0"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%95%B0%E5%AD%A6%E5%A4%A7%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 数学大冒险 (88 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shu-xue-da-mao-xian.zip", external: true},
+          {label: "Download 数学大冒险 (88 KB)", href: "https://dos-bin.zczc.cz/%E6%95%B0%E5%AD%A6%E5%A4%A7%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

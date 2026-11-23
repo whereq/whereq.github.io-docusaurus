@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "灰烬帝国 is a DOS game in the WhereQ archive — 1996, 354 files, 1.4 MB, and an entry point of ASHES.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-jin-di-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%B0%E7%83%AC%E5%B8%9D%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-jin-di-guo.zip"],
           ["Size", "1,489,490 bytes (1.4 MB)"],
           ["SHA-256", "4b04ee2ff9299a21be1728d499252acdb8d5636ba995cce0193d0369e69b58ab"],
           ["Files", "354"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%B0%E7%83%AC%E5%B8%9D%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 灰烬帝国 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-jin-di-guo.zip", external: true},
+          {label: "Download 灰烬帝国 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E7%81%B0%E7%83%AC%E5%B8%9D%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

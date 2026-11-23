@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国际超级车赛 is a DOS game in the WhereQ archive — 1996, 11 files, 2.8 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-chao-ji-che-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B6%85%E7%BA%A7%E8%BD%A6%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-ji-chao-ji-che-sai.zip"],
           ["Size", "2,886,140 bytes (2.8 MB)"],
           ["SHA-256", "019d71634e6ce955a80f7810fcb599ab449a2f7bf288fcec1eb0b8a1e95770b1"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B6%85%E7%BA%A7%E8%BD%A6%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国际超级车赛 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-chao-ji-che-sai.zip", external: true},
+          {label: "Download 国际超级车赛 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B6%85%E7%BA%A7%E8%BD%A6%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

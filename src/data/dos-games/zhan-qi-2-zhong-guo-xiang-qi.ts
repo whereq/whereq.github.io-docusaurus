@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战棋2-中国象棋 is a DOS game in the WhereQ archive — 1990, 12 files, 928 KB, and an entry point of CHESS2.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-2-zhong-guo-xiang-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B2-%E4%B8%AD%E5%9B%BD%E8%B1%A1%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-qi-2-zhong-guo-xiang-qi.zip"],
           ["Size", "950,327 bytes (928 KB)"],
           ["SHA-256", "16f6e74c2e1f5b06af28d9a1917d891865008e40a0b9ccf9bda1dc5b72ebbf91"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B2-%E4%B8%AD%E5%9B%BD%E8%B1%A1%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战棋2-中国象棋 (928 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-2-zhong-guo-xiang-qi.zip", external: true},
+          {label: "Download 战棋2-中国象棋 (928 KB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B2-%E4%B8%AD%E5%9B%BD%E8%B1%A1%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星河舰长历险记 is a DOS game in the WhereQ archive — 1996, 799 files, 23.4 MB, and an entry point of STARSHIP.COM.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-he-jian-zhang-li-xian-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E6%B2%B3%E8%88%B0%E9%95%BF%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-he-jian-zhang-li-xian-ji.zip"],
           ["Size", "24,527,642 bytes (23.4 MB)"],
           ["SHA-256", "82fd08c7416e3b1f1c860ba0bca4130fb5605927abd8e24d559ade67ca5f623c"],
           ["Files", "799"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E6%B2%B3%E8%88%B0%E9%95%BF%E5%8E%86%E9%99%A9%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星河舰长历险记 (23.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-he-jian-zhang-li-xian-ji.zip", external: true},
+          {label: "Download 星河舰长历险记 (23.4 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E6%B2%B3%E8%88%B0%E9%95%BF%E5%8E%86%E9%99%A9%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

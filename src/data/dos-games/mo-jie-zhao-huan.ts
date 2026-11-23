@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔界召唤 is a DOS game in the WhereQ archive — 1993, 35 files, 2.4 MB, and an entry point of SETUP.COM.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhao-huan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%8F%AC%E5%94%A4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-jie-zhao-huan.zip"],
           ["Size", "2,566,990 bytes (2.4 MB)"],
           ["SHA-256", "311bfce0836b33fba6fda2c36ae124a973856d10e034fc361d86d06be8cb9e54"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%8F%AC%E5%94%A4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔界召唤 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhao-huan.zip", external: true},
+          {label: "Download 魔界召唤 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%8F%AC%E5%94%A4.zip", external: true},
         ]},
       ],
     },

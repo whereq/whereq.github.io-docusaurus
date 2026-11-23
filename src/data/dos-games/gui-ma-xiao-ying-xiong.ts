@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "鬼马小英雄 is a DOS game in the WhereQ archive — 1996, 82 files, 8.1 MB, and an entry point of MONK.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gui-ma-xiao-ying-xiong.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AC%BC%E9%A9%AC%E5%B0%8F%E8%8B%B1%E9%9B%84.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gui-ma-xiao-ying-xiong.zip"],
           ["Size", "8,448,633 bytes (8.1 MB)"],
           ["SHA-256", "2fdb4e45fc3bfba20315e48194aaaf76cbbc3e2a406d46867614ec370b70f9e9"],
           ["Files", "82"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AC%BC%E9%A9%AC%E5%B0%8F%E8%8B%B1%E9%9B%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鬼马小英雄 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gui-ma-xiao-ying-xiong.zip", external: true},
+          {label: "Download 鬼马小英雄 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E9%AC%BC%E9%A9%AC%E5%B0%8F%E8%8B%B1%E9%9B%84.zip", external: true},
         ]},
       ],
     },

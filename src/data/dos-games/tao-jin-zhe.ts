@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "淘金者 is a DOS game in the WhereQ archive — 1995, 108 files, 4.9 MB, and an entry point of LODERUNN.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tao-jin-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B7%98%E9%87%91%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tao-jin-zhe.zip"],
           ["Size", "5,166,057 bytes (4.9 MB)"],
           ["SHA-256", "d36e686ee8e36c2f91a45856daa3d4225917a4510dc8b612ee7344a3564e10e2"],
           ["Files", "108"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B7%98%E9%87%91%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 淘金者 (4.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tao-jin-zhe.zip", external: true},
+          {label: "Download 淘金者 (4.9 MB)", href: "https://dos-bin.zczc.cz/%E6%B7%98%E9%87%91%E8%80%85.zip", external: true},
         ]},
       ],
     },

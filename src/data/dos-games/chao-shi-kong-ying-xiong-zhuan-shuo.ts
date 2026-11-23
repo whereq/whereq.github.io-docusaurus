@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超时空英雄传说 is a DOS game in the WhereQ archive — an undated copy, 146 files, 199.1 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-ying-xiong-zhuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-shi-kong-ying-xiong-zhuan-shuo.zip"],
           ["Size", "208,736,280 bytes (199.1 MB)"],
           ["SHA-256", "e49dbd3b2902d7007f89f08030c4656d7ab63c960f551ea6c48763a343a0fb32"],
           ["Files", "146"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超时空英雄传说 (199.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-ying-xiong-zhuan-shuo.zip", external: true},
+          {label: "Download 超时空英雄传说 (199.1 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

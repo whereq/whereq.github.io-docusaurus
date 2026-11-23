@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "突击美少女 is a DOS game in the WhereQ archive — 1994, 294 files, 2.5 MB, and an entry point of TMIX.COM.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tu-ji-mei-shao-nv.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E7%BE%8E%E5%B0%91%E5%A5%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tu-ji-mei-shao-nv.zip"],
           ["Size", "2,619,181 bytes (2.5 MB)"],
           ["SHA-256", "2d5e939abe85e9ff0c7356a933bad65cfa3c49b8249707bbdf0e31e8eed0dcd5"],
           ["Files", "294"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E7%BE%8E%E5%B0%91%E5%A5%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 突击美少女 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tu-ji-mei-shao-nv.zip", external: true},
+          {label: "Download 突击美少女 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E7%BE%8E%E5%B0%91%E5%A5%B3.zip", external: true},
         ]},
       ],
     },

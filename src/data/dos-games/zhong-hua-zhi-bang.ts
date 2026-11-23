@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "中华职棒 is a DOS game in the WhereQ archive — 1993, 503 files, 8.2 MB, and an entry point of CPB.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-hua-zhi-bang.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%8D%8E%E8%81%8C%E6%A3%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-hua-zhi-bang.zip"],
           ["Size", "8,582,360 bytes (8.2 MB)"],
           ["SHA-256", "e20188af320b87e94d47efacafb6cc424a3f56dab100bb6caa396981413b9440"],
           ["Files", "503"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%AD%E5%8D%8E%E8%81%8C%E6%A3%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 中华职棒 (8.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-hua-zhi-bang.zip", external: true},
+          {label: "Download 中华职棒 (8.2 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%8D%8E%E8%81%8C%E6%A3%92.zip", external: true},
         ]},
       ],
     },

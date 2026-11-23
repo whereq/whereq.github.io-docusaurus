@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "拼图乒乓台 is a DOS game in the WhereQ archive — 1994, 53 files, 1.1 MB, and an entry point of UC.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pin-tu-ping-pang-tai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8B%BC%E5%9B%BE%E4%B9%92%E4%B9%93%E5%8F%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pin-tu-ping-pang-tai.zip"],
           ["Size", "1,138,498 bytes (1.1 MB)"],
           ["SHA-256", "33c224f38d8b07e33daa5d11e018e650da883e2352b5709f7d543f47371f2697"],
           ["Files", "53"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8B%BC%E5%9B%BE%E4%B9%92%E4%B9%93%E5%8F%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 拼图乒乓台 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/pin-tu-ping-pang-tai.zip", external: true},
+          {label: "Download 拼图乒乓台 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E6%8B%BC%E5%9B%BE%E4%B9%92%E4%B9%93%E5%8F%B0.zip", external: true},
         ]},
       ],
     },

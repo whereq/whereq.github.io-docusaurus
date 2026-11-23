@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "镭射坦克 is a DOS game in the WhereQ archive — 1991, 149 files, 906 KB, and an entry point of TANK1.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-she-tan-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E9%95%AD%E5%B0%84%E5%9D%A6%E5%85%8B.zip",
   facts: [
     {label: "Developer", value: "SOFTSTAR"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-she-tan-ke.zip"],
           ["Size", "927,681 bytes (906 KB)"],
           ["SHA-256", "0b263bbd3778d647794914ebe19c9b00ff9568a2acd6a7cca82e72105c8e2c69"],
           ["Files", "149"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%95%AD%E5%B0%84%E5%9D%A6%E5%85%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 镭射坦克 (906 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-she-tan-ke.zip", external: true},
+          {label: "Download 镭射坦克 (906 KB)", href: "https://dos-bin.zczc.cz/%E9%95%AD%E5%B0%84%E5%9D%A6%E5%85%8B.zip", external: true},
         ]},
       ],
     },

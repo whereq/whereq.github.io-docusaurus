@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "时空悖论 is a DOS game in the WhereQ archive — 1995, 5,116 files, 97.0 MB, and an entry point of PARADOX.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-bei-lun.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%82%96%E8%AE%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-kong-bei-lun.zip"],
           ["Size", "101,760,973 bytes (97.0 MB)"],
           ["SHA-256", "ee8ae7aa885234bcf2c19d84d507a12b1c2b0c2a0d34ec04e8b24dbf9d28744b"],
           ["Files", "5,116"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%82%96%E8%AE%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 时空悖论 (97.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-bei-lun.zip", external: true},
+          {label: "Download 时空悖论 (97.0 MB)", href: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%82%96%E8%AE%BA.zip", external: true},
         ]},
       ],
     },

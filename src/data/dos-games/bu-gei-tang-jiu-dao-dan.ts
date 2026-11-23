@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "不给糖就捣蛋 is a DOS game in the WhereQ archive — 1996, 69 files, 25.1 MB, and an entry point of TOT.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bu-gei-tang-jiu-dao-dan.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%8D%E7%BB%99%E7%B3%96%E5%B0%B1%E6%8D%A3%E8%9B%8B.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bu-gei-tang-jiu-dao-dan.zip"],
           ["Size", "26,327,660 bytes (25.1 MB)"],
           ["SHA-256", "adcd96ee7d69a502737aecd6f46bd2eb1b88c2020625c5c52b81f4132f916331"],
           ["Files", "69"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%8D%E7%BB%99%E7%B3%96%E5%B0%B1%E6%8D%A3%E8%9B%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 不给糖就捣蛋 (25.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bu-gei-tang-jiu-dao-dan.zip", external: true},
+          {label: "Download 不给糖就捣蛋 (25.1 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%8D%E7%BB%99%E7%B3%96%E5%B0%B1%E6%8D%A3%E8%9B%8B.zip", external: true},
         ]},
       ],
     },

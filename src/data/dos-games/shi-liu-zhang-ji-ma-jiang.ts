@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "十六张姬麻将 is a DOS game in the WhereQ archive — an undated copy, 502 files, 5.6 MB, and an entry point of GMJ.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-liu-zhang-ji-ma-jiang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%81%E5%85%AD%E5%BC%A0%E5%A7%AC%E9%BA%BB%E5%B0%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-liu-zhang-ji-ma-jiang.zip"],
           ["Size", "5,903,127 bytes (5.6 MB)"],
           ["SHA-256", "8eed8356bdfdd23a5f6e0dda082f7e9dbc1e6c3b797a853d7bc6d6ec23b7103e"],
           ["Files", "502"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%81%E5%85%AD%E5%BC%A0%E5%A7%AC%E9%BA%BB%E5%B0%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 十六张姬麻将 (5.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-liu-zhang-ji-ma-jiang.zip", external: true},
+          {label: "Download 十六张姬麻将 (5.6 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%81%E5%85%AD%E5%BC%A0%E5%A7%AC%E9%BA%BB%E5%B0%86.zip", external: true},
         ]},
       ],
     },

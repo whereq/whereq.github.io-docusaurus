@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "虐杀异形 is a DOS game in the WhereQ archive — 2000, 549 files, 5.4 MB, and an entry point of abuse.exe.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nve-sha-yi-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E8%99%90%E6%9D%80%E5%BC%82%E5%BD%A2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nve-sha-yi-xing.zip"],
           ["Size", "5,687,951 bytes (5.4 MB)"],
           ["SHA-256", "07f30c691d89cc7800ec36c0a25148c6f6d1221e6b7dcfd78a9e1111b9305c75"],
           ["Files", "549"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%99%90%E6%9D%80%E5%BC%82%E5%BD%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 虐杀异形 (5.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nve-sha-yi-xing.zip", external: true},
+          {label: "Download 虐杀异形 (5.4 MB)", href: "https://dos-bin.zczc.cz/%E8%99%90%E6%9D%80%E5%BC%82%E5%BD%A2.zip", external: true},
         ]},
       ],
     },

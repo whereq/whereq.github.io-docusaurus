@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大海战13 is a DOS game in the WhereQ archive — 1995, 19 files, 323 KB, and an entry point of OJB.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hai-zhan-13.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%9813.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hai-zhan-13.zip"],
           ["Size", "331,128 bytes (323 KB)"],
           ["SHA-256", "75e4ed5c0c8e13526112b0644e547d014946296cfb04b26f498b866f3cfa9543"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%9813.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大海战13 (323 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hai-zhan-13.zip", external: true},
+          {label: "Download 大海战13 (323 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%9813.zip", external: true},
         ]},
       ],
     },

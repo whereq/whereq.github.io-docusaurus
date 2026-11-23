@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王密使3魔法生死门 is a DOS game in the WhereQ archive — 1986, 24 files, 4.6 MB, and an entry point of KING.COM.",
   status: "1986",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-3-mo-fa-sheng-si-men.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF3%E9%AD%94%E6%B3%95%E7%94%9F%E6%AD%BB%E9%97%A8.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1986"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-mi-shi-3-mo-fa-sheng-si-men.zip"],
           ["Size", "4,794,531 bytes (4.6 MB)"],
           ["SHA-256", "77d58de90c949126d7a10599df25693b6f845a8f9725989480985febed83bc2d"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF3%E9%AD%94%E6%B3%95%E7%94%9F%E6%AD%BB%E9%97%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王密使3魔法生死门 (4.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-3-mo-fa-sheng-si-men.zip", external: true},
+          {label: "Download 国王密使3魔法生死门 (4.6 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF3%E9%AD%94%E6%B3%95%E7%94%9F%E6%AD%BB%E9%97%A8.zip", external: true},
         ]},
       ],
     },

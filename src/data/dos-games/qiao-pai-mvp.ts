@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "桥牌MVP is a DOS game in the WhereQ archive — an undated copy, 20 files, 241 KB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qiao-pai-mvp.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8CMVP.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qiao-pai-mvp.zip"],
           ["Size", "246,883 bytes (241 KB)"],
           ["SHA-256", "e7b01674394da5d4341beaba90631bc07e562779b60d883fb596ec8ca5edc5d3"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8CMVP.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 桥牌MVP (241 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/qiao-pai-mvp.zip", external: true},
+          {label: "Download 桥牌MVP (241 KB)", href: "https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8CMVP.zip", external: true},
         ]},
       ],
     },

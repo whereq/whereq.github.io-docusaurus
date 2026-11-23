@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿卡尼亚之地命运之刃 is a DOS game in the WhereQ archive — 1993, 70 files, 4.5 MB, and an entry point of BLADE.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-ming-yun-zhi-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E5%91%BD%E8%BF%90%E4%B9%8B%E5%88%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-ka-ni-ya-zhi-di-ming-yun-zhi-ren.zip"],
           ["Size", "4,768,482 bytes (4.5 MB)"],
           ["SHA-256", "2835c7e400ad6b2b7f7a3cbc7c0945dcca6e15df830c2e254d4be7d81f45e82c"],
           ["Files", "70"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E5%91%BD%E8%BF%90%E4%B9%8B%E5%88%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿卡尼亚之地命运之刃 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-ming-yun-zhi-ren.zip", external: true},
+          {label: "Download 阿卡尼亚之地命运之刃 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E5%91%BD%E8%BF%90%E4%B9%8B%E5%88%83.zip", external: true},
         ]},
       ],
     },

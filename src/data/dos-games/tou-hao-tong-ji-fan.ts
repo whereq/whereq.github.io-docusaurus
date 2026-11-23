@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "头号通缉犯 is a DOS game in the WhereQ archive — 1998, 576 files, 78.3 MB, and an entry point of PLAY.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tou-hao-tong-ji-fan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%B4%E5%8F%B7%E9%80%9A%E7%BC%89%E7%8A%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tou-hao-tong-ji-fan.zip"],
           ["Size", "82,107,208 bytes (78.3 MB)"],
           ["SHA-256", "01ee8a5f1d4f5579787e9ddb46a81e61f567ee325214816befd2f80f6274dadc"],
           ["Files", "576"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%B4%E5%8F%B7%E9%80%9A%E7%BC%89%E7%8A%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 头号通缉犯 (78.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tou-hao-tong-ji-fan.zip", external: true},
+          {label: "Download 头号通缉犯 (78.3 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%B4%E5%8F%B7%E9%80%9A%E7%BC%89%E7%8A%AF.zip", external: true},
         ]},
       ],
     },

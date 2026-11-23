@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "新星9龙机归来 is a DOS game in the WhereQ archive — 1996, 7 files, 2.8 MB, and an entry point of nova.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-xing-9-long-ji-gui-lai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%B0%E6%98%9F9%E9%BE%99%E6%9C%BA%E5%BD%92%E6%9D%A5.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-xing-9-long-ji-gui-lai.zip"],
           ["Size", "2,967,381 bytes (2.8 MB)"],
           ["SHA-256", "3d779c86d31a6521fcd97e80a4b03032bd6460cdfab128a276f371dd7af79a34"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%B0%E6%98%9F9%E9%BE%99%E6%9C%BA%E5%BD%92%E6%9D%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 新星9龙机归来 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-xing-9-long-ji-gui-lai.zip", external: true},
+          {label: "Download 新星9龙机归来 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E6%96%B0%E6%98%9F9%E9%BE%99%E6%9C%BA%E5%BD%92%E6%9D%A5.zip", external: true},
         ]},
       ],
     },

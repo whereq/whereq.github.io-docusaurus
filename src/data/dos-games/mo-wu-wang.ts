@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔武王 is a DOS game in the WhereQ archive — 1994, 39 files, 4.3 MB, and an entry point of DKS.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-wu-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%AD%A6%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-wu-wang.zip"],
           ["Size", "4,493,160 bytes (4.3 MB)"],
           ["SHA-256", "bb123b4c847bda2442a661f1378f67320ca04954f55ca4e659159a3ec47d2df5"],
           ["Files", "39"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%AD%A6%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔武王 (4.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-wu-wang.zip", external: true},
+          {label: "Download 魔武王 (4.3 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%AD%A6%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

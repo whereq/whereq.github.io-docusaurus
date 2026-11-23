@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "麻将争霸 is a DOS game in the WhereQ archive — 1995, 35 files, 50.3 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-zheng-ba.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E4%BA%89%E9%9C%B8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-jiang-zheng-ba.zip"],
           ["Size", "52,723,415 bytes (50.3 MB)"],
           ["SHA-256", "15f210e3e80f1e036a1f60e83aebeb5c14c08e323a36248312fcb00baedf67a4"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E4%BA%89%E9%9C%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 麻将争霸 (50.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-zheng-ba.zip", external: true},
+          {label: "Download 麻将争霸 (50.3 MB)", href: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E4%BA%89%E9%9C%B8.zip", external: true},
         ]},
       ],
     },

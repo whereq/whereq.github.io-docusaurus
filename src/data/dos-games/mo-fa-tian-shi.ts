@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法天师 is a DOS game in the WhereQ archive — 1994, 123 files, 9.7 MB, and an entry point of WIZARDS.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-tian-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A9%E5%B8%88.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-tian-shi.zip"],
           ["Size", "10,223,516 bytes (9.7 MB)"],
           ["SHA-256", "6a9f314b8cc23827e44e3c392608ad95ab04ba3da6eda10f1a54225f242e57d2"],
           ["Files", "123"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A9%E5%B8%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法天师 (9.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-tian-shi.zip", external: true},
+          {label: "Download 魔法天师 (9.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A9%E5%B8%88.zip", external: true},
         ]},
       ],
     },

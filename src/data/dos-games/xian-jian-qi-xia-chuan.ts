@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "仙剑奇侠传 is a DOS game in the WhereQ archive — 1997, 85 files, 19.3 MB, and an entry point of PAL!.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xian-jian-qi-xia-chuan.zip"],
           ["Size", "20,272,189 bytes (19.3 MB)"],
           ["SHA-256", "ef209d15734a9e2e533d9a73f2550b3524be5c4cfd5b0ed68c82df6638784adb"],
           ["Files", "85"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 仙剑奇侠传 (19.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan.zip", external: true},
+          {label: "Download 仙剑奇侠传 (19.3 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

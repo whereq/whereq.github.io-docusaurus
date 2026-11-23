@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战棋4000 is a DOS game in the WhereQ archive — 1992, 55 files, 10.4 MB, and an entry point of BC4000.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-4000.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B4000.zip",
   facts: [
     {label: "Developer", value: "INTERPLAY"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-qi-4000.zip"],
           ["Size", "10,893,309 bytes (10.4 MB)"],
           ["SHA-256", "34d11165427a8f0ab6708455e4a00d55a58f39df792100aa4538f0bd43387962"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B4000.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战棋4000 (10.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-4000.zip", external: true},
+          {label: "Download 战棋4000 (10.4 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B4000.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "萨巴巴指挥官 is a DOS game in the WhereQ archive — 1994, 4 files, 265 KB, and an entry point of commando.exe.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sa-ba-ba-zhi-hui-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%90%A8%E5%B7%B4%E5%B7%B4%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sa-ba-ba-zhi-hui-guan.zip"],
           ["Size", "271,232 bytes (265 KB)"],
           ["SHA-256", "6d2a45f937f639d65aceb13ed19a91212b4ce16b58ed89d93c9d4e361b602eeb"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%90%A8%E5%B7%B4%E5%B7%B4%E6%8C%87%E6%8C%A5%E5%AE%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 萨巴巴指挥官 (265 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sa-ba-ba-zhi-hui-guan.zip", external: true},
+          {label: "Download 萨巴巴指挥官 (265 KB)", href: "https://dos-bin.zczc.cz/%E8%90%A8%E5%B7%B4%E5%B7%B4%E6%8C%87%E6%8C%A5%E5%AE%98.zip", external: true},
         ]},
       ],
     },

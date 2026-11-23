@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "青涩的果实 is a DOS game in the WhereQ archive — an undated copy, 2 files, 12.2 MB, and an entry point of marry.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qing-se-de-guo-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9D%92%E6%B6%A9%E7%9A%84%E6%9E%9C%E5%AE%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qing-se-de-guo-shi.zip"],
           ["Size", "12,815,343 bytes (12.2 MB)"],
           ["SHA-256", "0509de4a541663a5030e671ed1be30b66549fc1f5eb7980763d59aea206be707"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9D%92%E6%B6%A9%E7%9A%84%E6%9E%9C%E5%AE%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 青涩的果实 (12.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qing-se-de-guo-shi.zip", external: true},
+          {label: "Download 青涩的果实 (12.2 MB)", href: "https://dos-bin.zczc.cz/%E9%9D%92%E6%B6%A9%E7%9A%84%E6%9E%9C%E5%AE%9E.zip", external: true},
         ]},
       ],
     },

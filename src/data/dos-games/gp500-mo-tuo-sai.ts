@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "GP500摩托赛 is a DOS game in the WhereQ archive — 1991, 93 files, 643 KB, and an entry point of GP.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gp500-mo-tuo-sai.zip",
+  url: "https://dos-bin.zczc.cz/GP500%E6%91%A9%E6%89%98%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gp500-mo-tuo-sai.zip"],
           ["Size", "658,282 bytes (643 KB)"],
           ["SHA-256", "946890390ea0967b2a0ed5e30471dd2fc27f0b8209f6b8c04fc69c890fa8a644"],
           ["Files", "93"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/GP500%E6%91%A9%E6%89%98%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download GP500摩托赛 (643 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/gp500-mo-tuo-sai.zip", external: true},
+          {label: "Download GP500摩托赛 (643 KB)", href: "https://dos-bin.zczc.cz/GP500%E6%91%A9%E6%89%98%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

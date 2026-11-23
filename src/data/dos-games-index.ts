@@ -29,7 +29,7 @@ export type DosGameIndexEntry = {
   entry: string;
   /** The first letter of the name — the letter its release sits under. */
   tag: string;
-  /** The download, on the release host. */
+  /** The download — the original copy, on the archive the page came from. */
   url: string;
   /** Where the game's own page lives on this site. */
   page: string;
@@ -45,7 +45,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "1-0.exe",
     tag: "1",
-    url: "https://github.com/whereq/dos-games/releases/download/1/1-0-zu-qiu-jing-li.zip",
+    url: "https://dos-bin.zczc.cz/1-0%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%86.zip",
     page: "/dos-games/1-0-zu-qiu-jing-li/",
   },
   {
@@ -56,7 +56,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 124,
     entry: "RUNME.BAT",
     tag: "1",
-    url: "https://github.com/whereq/dos-games/releases/download/1/1000-gong-li.zip",
+    url: "https://dos-bin.zczc.cz/1000%E5%85%AC%E9%87%8C.zip",
     page: "/dos-games/1000-gong-li/",
   },
   {
@@ -67,7 +67,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 124,
     entry: "MIGLIA.EXE",
     tag: "1",
-    url: "https://github.com/whereq/dos-games/releases/download/1/1000-mi-li-ya.zip",
+    url: "https://dos-bin.zczc.cz/1000%E7%B1%B3%E5%88%A9%E4%BA%9A.zip",
     page: "/dos-games/1000-mi-li-ya/",
   },
   {
@@ -78,7 +78,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 41,
     entry: "1830.EXE",
     tag: "1",
-    url: "https://github.com/whereq/dos-games/releases/download/1/1830-tie-lu-gong-jue.zip",
+    url: "https://dos-bin.zczc.cz/1830%E9%93%81%E8%B7%AF%E5%85%AC%E7%88%B5.zip",
     page: "/dos-games/1830-tie-lu-gong-jue/",
   },
   {
@@ -89,7 +89,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 143,
     entry: "1869.EXE",
     tag: "1",
-    url: "https://github.com/whereq/dos-games/releases/download/1/1869-da-hang-hai.zip",
+    url: "https://dos-bin.zczc.cz/1869%E5%A4%A7%E8%88%AA%E6%B5%B7.zip",
     page: "/dos-games/1869-da-hang-hai/",
   },
   {
@@ -100,7 +100,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "TF.EXE",
     tag: "1",
-    url: "https://github.com/whereq/dos-games/releases/download/1/1942-te-zhong-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/1942%E7%89%B9%E7%A7%8D%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/1942-te-zhong-bu-dui/",
   },
   {
@@ -111,7 +111,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 210,
     entry: "MIS.EXE",
     tag: "2",
-    url: "https://github.com/whereq/dos-games/releases/download/2/2001-te-qian-dui.zip",
+    url: "https://dos-bin.zczc.cz/2001%E7%89%B9%E9%81%A3%E9%98%9F.zip",
     page: "/dos-games/2001-te-qian-dui/",
   },
   {
@@ -122,7 +122,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 131,
     entry: "PLAY.COM",
     tag: "2",
-    url: "https://github.com/whereq/dos-games/releases/download/2/2601-di-guo-lian-he-jian-dui.zip",
+    url: "https://dos-bin.zczc.cz/2601%E5%B8%9D%E5%9B%BD%E8%81%94%E5%90%88%E8%88%B0%E9%98%9F.zip",
     page: "/dos-games/2601-di-guo-lian-he-jian-dui/",
   },
   {
@@ -133,7 +133,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "PLAY.BAT",
     tag: "3",
-    url: "https://github.com/whereq/dos-games/releases/download/3/3d-e-luo-si.zip",
+    url: "https://dos-bin.zczc.cz/3D%E4%BF%84%E7%BD%97%E6%96%AF.zip",
     page: "/dos-games/3d-e-luo-si/",
   },
   {
@@ -144,7 +144,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "table.exe",
     tag: "3",
-    url: "https://github.com/whereq/dos-games/releases/download/3/3d-zhuo-shang-ti-yu.zip",
+    url: "https://dos-bin.zczc.cz/3D%E6%A1%8C%E4%B8%8A%E4%BD%93%E8%82%B2.zip",
     page: "/dos-games/3d-zhuo-shang-ti-yu/",
   },
   {
@@ -155,7 +155,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "BOMB.EXE",
     tag: "3",
-    url: "https://github.com/whereq/dos-games/releases/download/3/3d-zha-dan-ren.zip",
+    url: "https://dos-bin.zczc.cz/3D%E7%82%B8%E5%BC%B9%E4%BA%BA.zip",
     page: "/dos-games/3d-zha-dan-ren/",
   },
   {
@@ -166,7 +166,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "A3DSW.EXE",
     tag: "3",
-    url: "https://github.com/whereq/dos-games/releases/download/3/3d-yun-shi.zip",
+    url: "https://dos-bin.zczc.cz/3D%E9%99%A8%E7%9F%B3.zip",
     page: "/dos-games/3d-yun-shi/",
   },
   {
@@ -177,7 +177,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "3DCUBE.EXE",
     tag: "3",
-    url: "https://github.com/whereq/dos-games/releases/download/3/3d-mo-fang.zip",
+    url: "https://dos-bin.zczc.cz/3D%E9%AD%94%E6%96%B9.zip",
     page: "/dos-games/3d-mo-fang/",
   },
   {
@@ -188,7 +188,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 673,
     entry: "3X3.BAT",
     tag: "3",
-    url: "https://github.com/whereq/dos-games/releases/download/3/3x3-zhi-yan.zip",
+    url: "https://dos-bin.zczc.cz/3x3%E5%8F%AA%E7%9C%BC.zip",
     page: "/dos-games/3x3-zhi-yan/",
   },
   {
@@ -199,7 +199,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 191,
     entry: "TENNIS.EXE",
     tag: "4",
-    url: "https://github.com/whereq/dos-games/releases/download/4/4d-wang-qiu.zip",
+    url: "https://dos-bin.zczc.cz/4D%E7%BD%91%E7%90%83.zip",
     page: "/dos-games/4d-wang-qiu/",
   },
   {
@@ -210,7 +210,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 203,
     entry: "zone66.bat",
     tag: "6",
-    url: "https://github.com/whereq/dos-games/releases/download/6/66-qu.zip",
+    url: "https://dos-bin.zczc.cz/66%E5%8C%BA.zip",
     page: "/dos-games/66-qu/",
   },
   {
@@ -221,7 +221,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "688.BAT",
     tag: "6",
-    url: "https://github.com/whereq/dos-games/releases/download/6/688-gong-ji-qian-ting.zip",
+    url: "https://dos-bin.zczc.cz/688%E6%94%BB%E5%87%BB%E6%BD%9C%E8%89%87.zip",
     page: "/dos-games/688-gong-ji-qian-ting/",
   },
   {
@@ -232,7 +232,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "dog.exe",
     tag: "8",
-    url: "https://github.com/whereq/dos-games/releases/download/8/80-nian-kong-zhong-ji-dou.zip",
+    url: "https://dos-bin.zczc.cz/80%E5%B9%B4%E7%A9%BA%E4%B8%AD%E6%BF%80%E6%96%97.zip",
     page: "/dos-games/80-nian-kong-zhong-ji-dou/",
   },
   {
@@ -243,7 +243,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "FOOTBALL.EXE",
     tag: "9",
-    url: "https://github.com/whereq/dos-games/releases/download/9/94-mei-guo-shi-jie-bei.zip",
+    url: "https://dos-bin.zczc.cz/94%E7%BE%8E%E5%9B%BD%E4%B8%96%E7%95%8C%E6%9D%AF.zip",
     page: "/dos-games/94-mei-guo-shi-jie-bei/",
   },
   {
@@ -254,7 +254,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 132,
     entry: "SUPER97.EXE",
     tag: "9",
-    url: "https://github.com/whereq/dos-games/releases/download/9/97-chao-shao-nv.zip",
+    url: "https://dos-bin.zczc.cz/97%E8%B6%85%E5%B0%91%E5%A5%B3.zip",
     page: "/dos-games/97-chao-shao-nv/",
   },
   {
@@ -265,7 +265,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "A320S.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a320-kong-zhong-ke-ji.zip",
+    url: "https://dos-bin.zczc.cz/A320%E7%A9%BA%E4%B8%AD%E5%AE%A2%E6%9C%BA.zip",
     page: "/dos-games/a320-kong-zhong-ke-ji/",
   },
   {
@@ -276,7 +276,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 200,
     entry: "PLAY.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/alpha-feng-bao.zip",
+    url: "https://dos-bin.zczc.cz/ALPHA%E9%A3%8E%E6%9A%B4.zip",
     page: "/dos-games/alpha-feng-bao/",
   },
   {
@@ -287,7 +287,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "B17.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/b17-fei-xing-bao-lei.zip",
+    url: "https://dos-bin.zczc.cz/B17%E9%A3%9E%E8%A1%8C%E5%A0%A1%E5%9E%92.zip",
     page: "/dos-games/b17-fei-xing-bao-lei/",
   },
   {
@@ -298,7 +298,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "boppin.exe",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/boppin-wu-li-you-xi.zip",
+    url: "https://dos-bin.zczc.cz/BOPPIN%E7%89%A9%E7%90%86%E6%B8%B8%E6%88%8F.zip",
     page: "/dos-games/boppin-wu-li-you-xi/",
   },
   {
@@ -309,7 +309,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 161,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cba-jia-nian-hua.zip",
+    url: "https://dos-bin.zczc.cz/CBA%E5%98%89%E5%B9%B4%E5%8D%8E.zip",
     page: "/dos-games/cba-jia-nian-hua/",
   },
   {
@@ -320,7 +320,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 178,
     entry: "DT.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dvorak-da-zi.zip",
+    url: "https://dos-bin.zczc.cz/Dvorak%E6%89%93%E5%AD%97.zip",
     page: "/dos-games/dvorak-da-zi/",
   },
   {
@@ -331,7 +331,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 376,
     entry: "TASK.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/d-ji-hua.zip",
+    url: "https://dos-bin.zczc.cz/D%E8%AE%A1%E5%88%92.zip",
     page: "/dos-games/d-ji-hua/",
   },
   {
@@ -342,7 +342,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "PLAY.BAT",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/es-fang-cheng-shi.zip",
+    url: "https://dos-bin.zczc.cz/ES%E6%96%B9%E7%A8%8B%E5%BC%8F.zip",
     page: "/dos-games/es-fang-cheng-shi/",
   },
   {
@@ -353,7 +353,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 482,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/f14-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/F14%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/f14-zhan-ji/",
   },
   {
@@ -364,7 +364,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 174,
     entry: "F15.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/f15-zhan-dou-ji.zip",
+    url: "https://dos-bin.zczc.cz/F15%E6%88%98%E6%96%97%E6%9C%BA.zip",
     page: "/dos-games/f15-zhan-dou-ji/",
   },
   {
@@ -375,7 +375,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "play.bat",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/f1-sai-che-1994.zip",
+    url: "https://dos-bin.zczc.cz/F1%E8%B5%9B%E8%BD%A61994.zip",
     page: "/dos-games/f1-sai-che-1994/",
   },
   {
@@ -386,7 +386,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 552,
     entry: "F1.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/f1-sai-che-jing-li.zip",
+    url: "https://dos-bin.zczc.cz/F1%E8%B5%9B%E8%BD%A6%E7%BB%8F%E7%90%86.zip",
     page: "/dos-games/f1-sai-che-jing-li/",
   },
   {
@@ -397,7 +397,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 233,
     entry: "FIFA.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fifa1996.zip",
+    url: "https://dos-bin.zczc.cz/FIFA1996.zip",
     page: "/dos-games/fifa1996/",
   },
   {
@@ -408,7 +408,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1143,
     entry: "FIFADOS.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fifa97.zip",
+    url: "https://dos-bin.zczc.cz/FIFA97.zip",
     page: "/dos-games/fifa97/",
   },
   {
@@ -419,7 +419,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 392,
     entry: "FIGHT.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fx-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/FX%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/fx-zhan-shi/",
   },
   {
@@ -430,7 +430,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "GEEKWAD.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/geek-you-xi-ji.zip",
+    url: "https://dos-bin.zczc.cz/GEEK%E6%B8%B8%E6%88%8F%E9%9B%86.zip",
     page: "/dos-games/geek-you-xi-ji/",
   },
   {
@@ -441,7 +441,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 93,
     entry: "GP.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gp500-mo-tuo-sai.zip",
+    url: "https://dos-bin.zczc.cz/GP500%E6%91%A9%E6%89%98%E8%B5%9B.zip",
     page: "/dos-games/gp500-mo-tuo-sai/",
   },
   {
@@ -452,7 +452,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 533,
     entry: "GT.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gt-sai-che-97.zip",
+    url: "https://dos-bin.zczc.cz/GT%E8%B5%9B%E8%BD%A697.zip",
     page: "/dos-games/gt-sai-che-97/",
   },
   {
@@ -463,7 +463,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 368,
     entry: "MAX.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/max-ji-xie-tu-xi.zip",
+    url: "https://dos-bin.zczc.cz/MAX%E6%9C%BA%E6%A2%B0%E7%AA%81%E8%A2%AD.zip",
     page: "/dos-games/max-ji-xie-tu-xi/",
   },
   {
@@ -474,7 +474,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 506,
     entry: "JAM.COM",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nba-jia-nian-hua.zip",
+    url: "https://dos-bin.zczc.cz/NBA%E5%98%89%E5%B9%B4%E5%8D%8E.zip",
     page: "/dos-games/nba-jia-nian-hua/",
   },
   {
@@ -485,7 +485,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "BBV.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nba-zhi-bo.zip",
+    url: "https://dos-bin.zczc.cz/NBA%E7%9B%B4%E6%92%AD.zip",
     page: "/dos-games/nba-zhi-bo/",
   },
   {
@@ -496,7 +496,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 164,
     entry: "start.bat",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nectaris.zip",
+    url: "https://dos-bin.zczc.cz/Nectaris.zip",
     page: "/dos-games/nectaris/",
   },
   {
@@ -507,7 +507,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 301,
     entry: "PCE.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pce-he-ji-zhi-xing-pce-wen-jian-ming.zip",
+    url: "https://dos-bin.zczc.cz/PCE%E5%90%88%E9%9B%86%28%E6%89%A7%E8%A1%8CPCE%2B%E6%96%87%E4%BB%B6%E5%90%8D%29.zip",
     page: "/dos-games/pce-he-ji-zhi-xing-pce-wen-jian-ming/",
   },
   {
@@ -518,7 +518,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "play.bat",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pc-yuan-ren.zip",
+    url: "https://dos-bin.zczc.cz/PC%E5%8E%9F%E4%BA%BA.zip",
     page: "/dos-games/pc-yuan-ren/",
   },
   {
@@ -529,7 +529,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 54,
     entry: "pre2.exe",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pc-yuan-ren-2.zip",
+    url: "https://dos-bin.zczc.cz/PC%E5%8E%9F%E4%BA%BA2.zip",
     page: "/dos-games/pc-yuan-ren-2/",
   },
   {
@@ -540,7 +540,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 544,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pc-la-li-sai.zip",
+    url: "https://dos-bin.zczc.cz/PC%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
     page: "/dos-games/pc-la-li-sai/",
   },
   {
@@ -551,7 +551,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1901,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/psy-you-ji.zip",
+    url: "https://dos-bin.zczc.cz/PSY%E5%B9%BD%E8%AE%B0.zip",
     page: "/dos-games/psy-you-ji/",
   },
   {
@@ -562,7 +562,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 184,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qq-san-guo-zhi.zip",
+    url: "https://dos-bin.zczc.cz/QQ%E4%B8%89%E5%9B%BD%E5%BF%97.zip",
     page: "/dos-games/qq-san-guo-zhi/",
   },
   {
@@ -573,7 +573,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "PLAY.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/rs2.zip",
+    url: "https://dos-bin.zczc.cz/RS2.zip",
     page: "/dos-games/rs2/",
   },
   {
@@ -584,7 +584,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 138,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/su27-ce-yi-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/SU27%E4%BE%A7%E7%BF%BC%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/su27-ce-yi-bu-dui/",
   },
   {
@@ -595,7 +595,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "VWING.EXE",
     tag: "v",
-    url: "https://github.com/whereq/dos-games/releases/download/v/v-zi-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/V%E5%AD%97%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/v-zi-zhan-ji/",
   },
   {
@@ -606,7 +606,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "XATAX.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xatax-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/XATAX%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/xatax-zhan-ji/",
   },
   {
@@ -617,7 +617,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "XQUEST.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/x-ren-wu.zip",
+    url: "https://dos-bin.zczc.cz/X%E4%BB%BB%E5%8A%A1.zip",
     page: "/dos-games/x-ren-wu/",
   },
   {
@@ -628,7 +628,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "X.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/x-ji-hua.zip",
+    url: "https://dos-bin.zczc.cz/X%E8%AE%A1%E5%88%92.zip",
     page: "/dos-games/x-ji-hua/",
   },
   {
@@ -639,7 +639,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "YAB.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yab-bang-qiu.zip",
+    url: "https://dos-bin.zczc.cz/YAB%E6%A3%92%E7%90%83.zip",
     page: "/dos-games/yab-bang-qiu/",
   },
   {
@@ -650,7 +650,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yes-hg.zip",
+    url: "https://dos-bin.zczc.cz/YES%EF%BC%81HG.zip",
     page: "/dos-games/yes-hg/",
   },
   {
@@ -661,7 +661,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 535,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/z-zi-te-gong-dui.zip",
+    url: "https://dos-bin.zczc.cz/Z%E5%AD%97%E7%89%B9%E5%B7%A5%E9%98%9F.zip",
     page: "/dos-games/z-zi-te-gong-dui/",
   },
   {
@@ -672,7 +672,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-bu-zhi-yao.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%80%E6%AD%A5%E4%B9%8B%E9%81%A5.zip",
     page: "/dos-games/yi-bu-zhi-yao/",
   },
   {
@@ -683,7 +683,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "GPU.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-fang-cheng-shi-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%A7%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/yi-ji-fang-cheng-shi-sai-che/",
   },
   {
@@ -694,7 +694,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 320,
     entry: "DANGER.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xian-sheng-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%BF%E7%94%9F%E6%9C%BA.zip",
     page: "/dos-games/yi-xian-sheng-ji/",
   },
   {
@@ -705,7 +705,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 283,
     entry: "DIME.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-cheng-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%80%E8%A7%92%E5%9F%8E%E5%B8%82.zip",
     page: "/dos-games/yi-jiao-cheng-shi/",
   },
   {
@@ -716,7 +716,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "TINTIN.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/ding-ding-li-xian-ji-tai-yang-zhi-zui.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%81%E4%B8%81%E5%8E%86%E9%99%A9%E8%AE%B0%E5%A4%AA%E9%98%B3%E4%B9%8B%E7%BD%AA.zip",
     page: "/dos-games/ding-ding-li-xian-ji-tai-yang-zhi-zui/",
   },
   {
@@ -727,7 +727,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/ding-ding-zai-xi-zang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%81%E4%B8%81%E5%9C%A8%E8%A5%BF%E8%97%8F.zip",
     page: "/dos-games/ding-ding-zai-xi-zang/",
   },
   {
@@ -738,7 +738,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 188,
     entry: "SLOAD.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-xi-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%96%9C%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/qi-xi-xiao-zi/",
   },
   {
@@ -749,7 +749,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 157,
     entry: "7cities.exe",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-da-huang-jin-zhi-cheng.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%A4%A7%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E.zip",
     page: "/dos-games/qi-da-huang-jin-zhi-cheng/",
   },
   {
@@ -760,7 +760,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "Goonies.exe",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-bao-qi-mou.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B.zip",
     page: "/dos-games/qi-bao-qi-mou/",
   },
   {
@@ -771,7 +771,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 504,
     entry: "SIERRA.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-xing-mo-fa-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%83%E6%98%9F%E9%AD%94%E6%B3%95%E4%BD%BF.zip",
     page: "/dos-games/qi-xing-mo-fa-shi/",
   },
   {
@@ -782,7 +782,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 836,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-ying-xiong-wai-zhuan-wang-zhe-zhi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%83%E8%8B%B1%E9%9B%84%E5%A4%96%E4%BC%A0%E7%8E%8B%E8%80%85%E4%B9%8B%E5%B8%88.zip",
     page: "/dos-games/qi-ying-xiong-wai-zhuan-wang-zhe-zhi-shi/",
   },
   {
@@ -793,7 +793,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 96,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-ying-xiong-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%83%E8%8B%B1%E9%9B%84%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/qi-ying-xiong-wu-yu/",
   },
   {
@@ -804,7 +804,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 159,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-ying-xiong-wu-yu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%83%E8%8B%B1%E9%9B%84%E7%89%A9%E8%AF%AD2.zip",
     page: "/dos-games/qi-ying-xiong-wu-yu-2/",
   },
   {
@@ -815,7 +815,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 610,
     entry: "PLAY.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wan-li-chang-cheng-bian-cheng-qi-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E8%BE%B9%E5%9F%8E%E5%A5%87%E4%BE%A0.zip",
     page: "/dos-games/wan-li-chang-cheng-bian-cheng-qi-xia/",
   },
   {
@@ -826,7 +826,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "MAIN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-1.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%971.zip",
     page: "/dos-games/san-guo-zhi-1/",
   },
   {
@@ -837,7 +837,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "Koei.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-ii.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%972.zip",
     page: "/dos-games/san-guo-zhi-ii/",
   },
   {
@@ -848,7 +848,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "KOEI.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-iii.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%973.zip",
     page: "/dos-games/san-guo-zhi-iii/",
   },
   {
@@ -859,7 +859,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "SAN486.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-iv.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%974.zip",
     page: "/dos-games/san-guo-zhi-iv/",
   },
   {
@@ -870,7 +870,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "SAN4.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-4-jia-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%974%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/san-guo-zhi-4-jia-qiang-ban/",
   },
   {
@@ -881,7 +881,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "SAN5.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-v.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975.zip",
     page: "/dos-games/san-guo-zhi-v/",
   },
   {
@@ -892,7 +892,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-v-wei-li-jia-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975X.zip",
     page: "/dos-games/san-guo-zhi-v-wei-li-jia-qiang-ban/",
   },
   {
@@ -903,7 +903,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 87,
     entry: "SAN586.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-5-jia-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/san-guo-zhi-5-jia-qiang-ban/",
   },
   {
@@ -914,7 +914,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 72,
     entry: "PLAY.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-xiong-ba-tian-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%97%E9%9B%84%E9%9C%B8%E5%A4%A9%E4%B8%8B.zip",
     page: "/dos-games/san-guo-zhi-xiong-ba-tian-xia/",
   },
   {
@@ -925,7 +925,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "AA.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-yan-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89.zip",
     page: "/dos-games/san-guo-yan-yi/",
   },
   {
@@ -936,7 +936,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "ASV.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-yan-yi-1-jia-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%891%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/san-guo-yan-yi-1-jia-qiang-ban/",
   },
   {
@@ -947,7 +947,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "SAN2.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-yan-yi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%892.zip",
     page: "/dos-games/san-guo-yan-yi-2/",
   },
   {
@@ -958,7 +958,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "MAIN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-ying-jie-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E8%8B%B1%E6%9D%B0%E4%BC%A0.zip",
     page: "/dos-games/san-guo-ying-jie-chuan/",
   },
   {
@@ -969,7 +969,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 483,
     entry: "SAN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/san-guo-ying-xiong-zhuan/",
   },
   {
@@ -980,7 +980,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 412,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-feng-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E9%A3%8E%E4%BA%91.zip",
     page: "/dos-games/san-guo-feng-yun/",
   },
   {
@@ -991,7 +991,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 451,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-ma-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E9%BA%BB%E5%B0%86.zip",
     page: "/dos-games/san-guo-ma-jiang/",
   },
   {
@@ -1002,7 +1002,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 504,
     entry: "3SIS.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-jie-mei.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%A7%90%E5%A6%B9.zip",
     page: "/dos-games/san-jie-mei/",
   },
   {
@@ -1013,7 +1013,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 93,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-jie-lun-bang-pei-zhi-mi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%AE%BA-%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%B0%9C.zip",
     page: "/dos-games/san-jie-lun-bang-pei-zhi-mi/",
   },
   {
@@ -1024,7 +1024,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 92,
     entry: "3K_CRK.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-jie-yu-bang-pei-zhi-mi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%B0%95%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%BF%B7.zip",
     page: "/dos-games/san-jie-yu-bang-pei-zhi-mi/",
   },
   {
@@ -1035,7 +1035,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 149,
     entry: "ARENA.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-juan-zhou-1-jing-ji-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B41%E7%AB%9E%E6%8A%80%E5%9C%BA.zip",
     page: "/dos-games/shang-gu-juan-zhou-1-jing-ji-chang/",
   },
   {
@@ -1046,7 +1046,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "ARENA.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-juan-zhou-1-hao-hua-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B41%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
     page: "/dos-games/shang-gu-juan-zhou-1-hao-hua-ban/",
   },
   {
@@ -1057,7 +1057,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 444,
     entry: "FALL.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-juan-zhou-2-bi-shou-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B42%E5%8C%95%E9%A6%96%E9%9B%A8.zip",
     page: "/dos-games/shang-gu-juan-zhou-2-bi-shou-yu/",
   },
   {
@@ -1068,7 +1068,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 111,
     entry: "SPIRE.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-juan-zhou-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B4%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/shang-gu-juan-zhou-chuan-qi/",
   },
   {
@@ -1079,7 +1079,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 286,
     entry: "CC.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-shen-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E7%A5%9E%E5%85%B5.zip",
     page: "/dos-games/shang-gu-shen-bing/",
   },
   {
@@ -1090,7 +1090,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 472,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-gu-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/shang-gu-ying-xiong-zhuan/",
   },
   {
@@ -1101,7 +1101,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 186,
     entry: "GOD.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-di.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D.zip",
     page: "/dos-games/shang-di/",
   },
   {
@@ -1112,7 +1112,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 331,
     entry: "HAMMER.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-di-zhi-chui.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%8B%E9%94%A4.zip",
     page: "/dos-games/shang-di-zhi-chui/",
   },
   {
@@ -1123,7 +1123,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "POP.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-di-ye-feng-kuang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%96%AF%E7%8B%82.zip",
     page: "/dos-games/shang-di-ye-feng-kuang/",
   },
   {
@@ -1134,7 +1134,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 91,
     entry: "GO.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-di-ye-feng-kuang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%96%AF%E7%8B%822.zip",
     page: "/dos-games/shang-di-ye-feng-kuang-2/",
   },
   {
@@ -1145,7 +1145,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "DE.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-hai-ma-jiang-jie-long.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8A%E6%B5%B7%E9%BA%BB%E5%B0%86%E6%8E%A5%E9%BE%99.zip",
     page: "/dos-games/shang-hai-ma-jiang-jie-long/",
   },
   {
@@ -1156,7 +1156,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xia-ji-sheng-ri.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8B%E7%BA%A7%E7%94%9F%28%E6%97%A5%29.zip",
     page: "/dos-games/xia-ji-sheng-ri/",
   },
   {
@@ -1167,7 +1167,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "TIM.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-ke-si-yi-de-ji-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A8.zip",
     page: "/dos-games/bu-ke-si-yi-de-ji-qi/",
   },
   {
@@ -1178,7 +1178,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "TIM2.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-ke-si-yi-de-ji-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A82.zip",
     page: "/dos-games/bu-ke-si-yi-de-ji-qi-2/",
   },
   {
@@ -1189,7 +1189,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "TIM.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-ke-si-yi-de-ji-qi-tuo-zhan-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A8%E6%8B%93%E5%B1%95%E5%8C%85.zip",
     page: "/dos-games/bu-ke-si-yi-de-ji-qi-tuo-zhan-bao/",
   },
   {
@@ -1200,7 +1200,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "IMMORTAL.COM",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-xiu-zhi-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8D%E6%9C%BD%E4%B9%8B%E4%BA%BA.zip",
     page: "/dos-games/bu-xiu-zhi-ren/",
   },
   {
@@ -1211,7 +1211,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 69,
     entry: "TOT.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-gei-tang-jiu-dao-dan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%8D%E7%BB%99%E7%B3%96%E5%B0%B1%E6%8D%A3%E8%9B%8B.zip",
     page: "/dos-games/bu-gei-tang-jiu-dao-dan/",
   },
   {
@@ -1222,7 +1222,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "PTT2.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuan-ye-wang-qiu-xun-hui-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%93%E4%B8%9A%E7%BD%91%E7%90%83%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip",
     page: "/dos-games/zhuan-ye-wang-qiu-xun-hui-sai/",
   },
   {
@@ -1233,7 +1233,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 638,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/shi-jie-da-zhan/",
   },
   {
@@ -1244,7 +1244,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "GO.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-xun-hui-gong-lu-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%B7%A1%E5%9B%9E%E5%85%AC%E8%B7%AF%E8%B5%9B.zip",
     page: "/dos-games/shi-jie-xun-hui-gong-lu-sai/",
   },
   {
@@ -1255,7 +1255,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "F1GP.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-xun-hui-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%B7%A1%E5%9B%9E%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/shi-jie-xun-hui-sai-che/",
   },
   {
@@ -1266,7 +1266,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 290,
     entry: "GP2.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-xun-hui-che-sai-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%B7%A1%E5%9B%9E%E8%BD%A6%E8%B5%9B2.zip",
     page: "/dos-games/shi-jie-xun-hui-che-sai-2/",
   },
   {
@@ -1277,7 +1277,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "boxing.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-quan-ji-jing-li.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E6%8B%B3%E5%87%BB%E7%BB%8F%E7%90%86.zip",
     page: "/dos-games/shi-jie-quan-ji-jing-li/",
   },
   {
@@ -1288,7 +1288,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 137,
     entry: "WWFIYH.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-shuai-jiao-lian-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F.zip",
     page: "/dos-games/shi-jie-shuai-jiao-lian-meng/",
   },
   {
@@ -1299,7 +1299,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 265,
     entry: "TSC.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-ji-mo-shang-ye-ge-ming.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%BA%AA%E6%9C%AB%E5%95%86%E4%B8%9A%E9%9D%A9%E5%91%BD.zip",
     page: "/dos-games/shi-ji-mo-shang-ye-ge-ming/",
   },
   {
@@ -1310,7 +1310,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cong-lin-zhi-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E4%B9%8B%E4%B9%A6.zip",
     page: "/dos-games/cong-lin-zhi-shu/",
   },
   {
@@ -1321,7 +1321,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 316,
     entry: "HUGO.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cong-lin-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/cong-lin-li-xian-ji/",
   },
   {
@@ -1332,7 +1332,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "JUNGLE.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cong-lin-da-zuo-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E5%A4%A7%E4%BD%9C%E6%88%98.zip",
     page: "/dos-games/cong-lin-da-zuo-zhan/",
   },
   {
@@ -1343,7 +1343,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 75,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-guan-cun-qi-shi-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%85%B3%E6%9D%91%E5%90%AF%E7%A4%BA%E5%BD%95.zip",
     page: "/dos-games/zhong-guan-cun-qi-shi-lu/",
   },
   {
@@ -1354,7 +1354,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 503,
     entry: "CPB.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-hua-zhi-bang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%8D%8E%E8%81%8C%E6%A3%92.zip",
     page: "/dos-games/zhong-hua-zhi-bang/",
   },
   {
@@ -1365,7 +1365,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 175,
     entry: "UVCONFIG.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-yuan-biao-ju.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%8E%9F%E9%95%96%E5%B1%80.zip",
     page: "/dos-games/zhong-yuan-biao-ju/",
   },
   {
@@ -1376,7 +1376,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 450,
     entry: "CHINA.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD.zip",
     page: "/dos-games/zhong-guo/",
   },
   {
@@ -1387,7 +1387,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "HOC.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-guo-zhi-xin.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E4%B9%8B%E5%BF%83.zip",
     page: "/dos-games/zhong-guo-zhi-xin/",
   },
   {
@@ -1398,7 +1398,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "CAAC.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-guo-min-hang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E6%B0%91%E8%88%AA.zip",
     page: "/dos-games/zhong-guo-min-hang/",
   },
   {
@@ -1409,7 +1409,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 468,
     entry: "PLAY.COM",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-guo-qiu-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E7%90%83%E7%8E%8B.zip",
     page: "/dos-games/zhong-guo-qiu-wang/",
   },
   {
@@ -1420,7 +1420,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 700,
     entry: "CI.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-yang-qing-bao-ju.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%A4%AE%E6%83%85%E6%8A%A5%E5%B1%80.zip",
     page: "/dos-games/zhong-yang-qing-bao-ju/",
   },
   {
@@ -1431,7 +1431,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "THEME.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-gong-yuan-guang-die-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD%E5%85%89%E7%A2%9F%E7%89%88.zip",
     page: "/dos-games/zhu-ti-gong-yuan-guang-die-ban/",
   },
   {
@@ -1442,7 +1442,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 221,
     entry: "PARK.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-gong-yuan-ci-die-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD%E7%A3%81%E7%A2%9F%E7%89%88.zip",
     page: "/dos-games/zhu-ti-gong-yuan-ci-die-ban/",
   },
   {
@@ -1453,7 +1453,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 464,
     entry: "HOSPITAL.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-yi-yuan-wu-sheng-yin-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2.zip",
     page: "/dos-games/zhu-ti-yi-yuan-wu-sheng-yin-ban/",
   },
   {
@@ -1464,7 +1464,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 470,
     entry: "HOSPITAL.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-yi-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2S.zip",
     page: "/dos-games/zhu-ti-yi-yuan/",
   },
   {
@@ -1475,7 +1475,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 523,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%BD%E5%85%BD.zip",
     page: "/dos-games/li-shou/",
   },
   {
@@ -1486,7 +1486,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 163,
     entry: "DTEST.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-tuo-bang-guo-jia-jue-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B9%8C%E6%89%98%E9%82%A6%E5%9B%BD%E5%AE%B6%E5%B4%9B%E8%B5%B7.zip",
     page: "/dos-games/wu-tuo-bang-guo-jia-jue-qi/",
   },
   {
@@ -1497,7 +1497,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 314,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-long-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B9%8C%E9%BE%99%E9%99%A2.zip",
     page: "/dos-games/wu-long-yuan/",
   },
   {
@@ -1508,7 +1508,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luan-shi-fu-mo-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B9%B1%E4%B8%96%E4%BC%8F%E9%AD%94%E5%BD%95.zip",
     page: "/dos-games/luan-shi-fu-mo-lu/",
   },
   {
@@ -1519,7 +1519,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "clock.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zheng-fen-duo-miao.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%89%E5%88%86%E5%A4%BA%E7%A7%92.zip",
     page: "/dos-games/zheng-fen-duo-miao/",
   },
   {
@@ -1530,7 +1530,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yun-guo-xiao-jing-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%91%E5%9B%BD%E5%B0%8F%E7%B2%BE%E7%81%B5.zip",
     page: "/dos-games/yun-guo-xiao-jing-ling/",
   },
   {
@@ -1541,7 +1541,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "KORT.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ya-se-wang-hao-hua-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%9A%E7%91%9F%E7%8E%8B%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
     page: "/dos-games/ya-se-wang-hao-hua-ban/",
   },
   {
@@ -1552,7 +1552,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ya-li-shi-wang-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%87%8C%E5%A3%AB%E7%8E%8B%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/ya-li-shi-wang-wu-yu/",
   },
   {
@@ -1563,7 +1563,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 111,
     entry: "AMAZON.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ya-ma-xun-yi-dian-yuan-shou-wei-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BC%8A%E7%94%B8%E5%9B%AD%E5%AE%88%E5%8D%AB%E8%80%85.zip",
     page: "/dos-games/ya-ma-xun-yi-dian-yuan-shou-wei-zhe/",
   },
   {
@@ -1574,7 +1574,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "aq.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ya-ma-xun-nv-huang-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A5%B3%E7%9A%87%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/ya-ma-xun-nv-huang-zhi-lv/",
   },
   {
@@ -1585,7 +1585,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "AMAZON.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ya-ma-xun-xiao-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%B0%8F%E9%81%93.zip",
     page: "/dos-games/ya-ma-xun-xiao-dao/",
   },
   {
@@ -1596,7 +1596,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "SETUP.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wang-hun-fu-chou.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%A1%E9%AD%82%E5%A4%8D%E4%BB%87.zip",
     page: "/dos-games/wang-hun-fu-chou/",
   },
   {
@@ -1607,7 +1607,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 222,
     entry: "FILE0001.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiao-tong-ju-2192.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%A4%E9%80%9A%E5%B1%802192.zip",
     page: "/dos-games/jiao-tong-ju-2192/",
   },
   {
@@ -1618,7 +1618,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "AD.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiao-cuo-de-ming-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%A4%E9%94%99%E7%9A%84%E5%91%BD%E8%BF%90.zip",
     page: "/dos-games/jiao-cuo-de-ming-yun/",
   },
   {
@@ -1629,7 +1629,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "JONES.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-sheng-ju-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%94%9F%E5%89%A7%E5%9C%BA.zip",
     page: "/dos-games/ren-sheng-ju-chang/",
   },
   {
@@ -1640,7 +1640,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "RUNME.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-lei-jin-hua-1-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%B1%BB%E8%BF%9B%E5%8C%961%2B2.zip",
     page: "/dos-games/ren-lei-jin-hua-1-2/",
   },
   {
@@ -1651,7 +1651,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 352,
     entry: "EVO.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-lei-jin-hua-3.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%B1%BB%E8%BF%9B%E5%8C%963.zip",
     page: "/dos-games/ren-lei-jin-hua-3/",
   },
   {
@@ -1662,7 +1662,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 214,
     entry: "PLAY.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-jian-dao-shao-nian-yan-chi-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%BA%E9%97%B4%E9%81%93%E5%B0%91%E5%B9%B4%E7%87%95%E8%B5%A4%E9%9C%9E.zip",
     page: "/dos-games/ren-jian-dao-shao-nian-yan-chi-xia/",
   },
   {
@@ -1673,7 +1673,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 84,
     entry: "MOTHCD.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-mian-e.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%BA%E9%9D%A2%E8%9B%BE.zip",
     page: "/dos-games/ren-mian-e/",
   },
   {
@@ -1684,7 +1684,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "STARTUP.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-zhao-lv-xing-zhe-1.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%BF%E5%85%86%E6%97%85%E8%A1%8C%E8%80%851.zip",
     page: "/dos-games/yi-zhao-lv-xing-zhe-1/",
   },
   {
@@ -1695,7 +1695,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 99,
     entry: "MT2.COM",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-zhao-lv-xing-zhe-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BA%BF%E5%85%86%E6%97%85%E8%A1%8C%E8%80%852.zip",
     page: "/dos-games/yi-zhao-lv-xing-zhe-2/",
   },
   {
@@ -1706,7 +1706,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "OUAF.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cong-qian-you-pian-lin.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%8E%E5%89%8D%E6%9C%89%E7%89%87%E6%9E%97.zip",
     page: "/dos-games/cong-qian-you-pian-lin/",
   },
   {
@@ -1717,7 +1717,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "PAL!.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0.zip",
     page: "/dos-games/xian-jian-qi-xia-chuan/",
   },
   {
@@ -1728,7 +1728,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "NVC-0004.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan-guang-pan-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E5%85%89%E7%9B%98%E7%89%88.zip",
     page: "/dos-games/xian-jian-qi-xia-chuan-guang-pan-ban/",
   },
   {
@@ -1739,7 +1739,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "PAL!.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan-jia-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/xian-jian-qi-xia-chuan-jia-qiang-ban/",
   },
   {
@@ -1750,7 +1750,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "PAL!.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan-meng-huan-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E6%A2%A6%E5%B9%BB%E7%89%88.zip",
     page: "/dos-games/xian-jian-qi-xia-chuan-meng-huan-ban/",
   },
   {
@@ -1761,7 +1761,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 127,
     entry: "FTC.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-jing-chuan-qi-1.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%871.zip",
     page: "/dos-games/xian-jing-chuan-qi-1/",
   },
   {
@@ -1772,7 +1772,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "DOSBOX.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-jing-chuan-qi-2-wang-zhe-zhi-ting.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%872%E4%BA%A1%E8%80%85%E4%B9%8B%E5%BA%81.zip",
     page: "/dos-games/xian-jing-chuan-qi-2-wang-zhe-zhi-ting/",
   },
   {
@@ -1783,7 +1783,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 111,
     entry: "start.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-1-ying-xiong-bao-lei.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%921%E8%8B%B1%E9%9B%84%E5%A0%A1%E5%9E%92.zip",
     page: "/dos-games/yi-sa-1-ying-xiong-bao-lei/",
   },
   {
@@ -1794,7 +1794,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 157,
     entry: "start.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-2-mo-ri-shi-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%922%E6%9C%AB%E6%97%A5%E4%BD%BF%E8%80%85.zip",
     page: "/dos-games/yi-sa-2-mo-ri-shi-zhe/",
   },
   {
@@ -1805,7 +1805,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 152,
     entry: "START.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-3-yong-heng-zhi-men.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%923%E6%B0%B8%E6%81%92%E4%B9%8B%E9%97%A8.zip",
     page: "/dos-games/yi-sa-3-yong-heng-zhi-men/",
   },
   {
@@ -1816,7 +1816,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "INTERPOS.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-cai-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BB%B2%E8%A3%81%E8%80%85.zip",
     page: "/dos-games/zhong-cai-zhe/",
   },
   {
@@ -1827,7 +1827,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "KOEI.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-ren-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%8A%E5%BF%8D%E9%81%93.zip",
     page: "/dos-games/yi-ren-dao/",
   },
   {
@@ -1838,7 +1838,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 137,
     entry: "YSERBIUS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-se-bi-si-de-yin-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%8A%E7%91%9F%E6%AF%94%E6%96%AF%E7%9A%84%E9%98%B4%E5%BD%B1.zip",
     page: "/dos-games/yi-se-bi-si-de-yin-ying/",
   },
   {
@@ -1849,7 +1849,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 436,
     entry: "SETUP1.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-dian-feng-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%8A%E7%94%B8%E9%A3%8E%E6%9A%B4.zip",
     page: "/dos-games/yi-dian-feng-bao/",
   },
   {
@@ -1860,7 +1860,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 151,
     entry: "YS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-su.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%8B%8F.zip",
     page: "/dos-games/yi-su/",
   },
   {
@@ -1871,7 +1871,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "IGOR.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-gong-de-jia-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%B4%A1%E7%9A%84%E5%81%87%E6%9C%9F.zip",
     page: "/dos-games/yi-gong-de-jia-qi/",
   },
   {
@@ -1882,7 +1882,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 176,
     entry: "DOS4GW.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-lei-cha-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%8A%E9%9B%B7%E6%9F%A5%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/yi-lei-cha-li-xian-ji/",
   },
   {
@@ -1893,7 +1893,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 104,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-zi-xu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%8D%E5%AD%90%E8%83%A5.zip",
     page: "/dos-games/wu-zi-xu/",
   },
   {
@@ -1904,7 +1904,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "Niteraid.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/san-bing-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%9E%E5%85%B5%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/san-bing-da-zhan/",
   },
   {
@@ -1915,7 +1915,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "wofl.exe",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-yong-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E5%8B%87%E5%A3%AB.zip",
     page: "/dos-games/chuan-shuo-yong-shi/",
   },
   {
@@ -1926,7 +1926,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 105,
     entry: "EMPIRE.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-da-lu-di-wang-zhi-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E5%A4%A7%E9%99%86%E5%B8%9D%E7%8E%8B%E4%B9%8B%E5%AD%90.zip",
     page: "/dos-games/chuan-shuo-da-lu-di-wang-zhi-zi/",
   },
   {
@@ -1937,7 +1937,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 339,
     entry: "LEGACY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-kong-ju-zhi-ye.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E6%81%90%E6%83%A7%E4%B9%8B%E5%A4%9C.zip",
     page: "/dos-games/chuan-shuo-kong-ju-zhi-ye/",
   },
   {
@@ -1948,7 +1948,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "LORE.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-shi-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E6%97%B6%E4%BB%A3.zip",
     page: "/dos-games/chuan-shuo-shi-dai/",
   },
   {
@@ -1959,7 +1959,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 79,
     entry: "DARK.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-ji-yuan-hei-an-zhi-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E7%BA%AA%E5%85%83%E9%BB%91%E6%9A%97%E4%B9%8B%E5%B1%8B.zip",
     page: "/dos-games/chuan-shuo-ji-yuan-hei-an-zhi-wu/",
   },
   {
@@ -1970,7 +1970,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 92,
     entry: "ZORRO.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zuo-luo.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BD%90%E7%BD%97.zip",
     page: "/dos-games/zuo-luo/",
   },
   {
@@ -1981,7 +1981,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "CORP.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zuo-zhan-ji-tuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BD%9C%E6%88%98%E9%9B%86%E5%9B%A2.zip",
     page: "/dos-games/zuo-zhan-ji-tuan/",
   },
   {
@@ -1992,7 +1992,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 370,
     entry: "MERCS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-bing-1-tie-ge-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BD%A3%E5%85%B51%E9%93%81%E6%A0%BC%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/yong-bing-1-tie-ge-bu-dui/",
   },
   {
@@ -2003,7 +2003,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 396,
     entry: "ss.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-bing-2-tu-ji-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BD%A3%E5%85%B52%E7%AA%81%E5%87%BB%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/yong-bing-2-tu-ji-bu-dui/",
   },
   {
@@ -2014,7 +2014,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "JP.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-luo-ji-gong-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%85%AC%E5%9B%AD.zip",
     page: "/dos-games/zhu-luo-ji-gong-yuan/",
   },
   {
@@ -2025,7 +2025,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-luo-ji-sheng-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%9C%A3%E6%88%98.zip",
     page: "/dos-games/zhu-luo-ji-sheng-zhan/",
   },
   {
@@ -2036,7 +2036,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 585,
     entry: "LUNA2.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xia-ke-you-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E6%B8%B82.zip",
     page: "/dos-games/xia-ke-you-2/",
   },
   {
@@ -2047,7 +2047,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 355,
     entry: "GAME.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xia-ke-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/xia-ke-ying-xiong-zhuan/",
   },
   {
@@ -2058,7 +2058,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "play.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xia-ke-ying-xiong-zhuan-3.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E4%BC%A03.zip",
     page: "/dos-games/xia-ke-ying-xiong-zhuan-3/",
   },
   {
@@ -2069,7 +2069,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xia-ying-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%BD%B1%E8%AE%B0.zip",
     page: "/dos-games/xia-ying-ji/",
   },
   {
@@ -2080,7 +2080,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 439,
     entry: "play.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xia-dao-lie-che-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%A0%E7%9B%97%E7%8C%8E%E8%BD%A6%E6%89%8B.zip",
     page: "/dos-games/xia-dao-lie-che-shou/",
   },
   {
@@ -2091,7 +2091,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "SIERRA.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-tan-lao-la-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BE%A6%E6%8E%A2%E5%8A%B3%E6%8B%892.zip",
     page: "/dos-games/zhen-tan-lao-la-2/",
   },
   {
@@ -2102,7 +2102,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "OREGON.EXE",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-lei-gang-xiao-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%84%E5%8B%92%E5%86%88%E5%B0%8F%E9%81%93.zip",
     page: "/dos-games/e-lei-gang-xiao-dao/",
   },
   {
@@ -2113,7 +2113,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "MENU.EXE",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-luo-si-pin-pan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%8B%BC%E7%9B%98.zip",
     page: "/dos-games/e-luo-si-pin-pan/",
   },
   {
@@ -2124,7 +2124,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "CTETRIS.EXE",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-luo-si-fang-kuai.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip",
     page: "/dos-games/e-luo-si-fang-kuai/",
   },
   {
@@ -2135,7 +2135,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "tetrisc.exe",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-luo-si-fang-kuai-jing-dian-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97%E7%BB%8F%E5%85%B8%E7%89%88.zip",
     page: "/dos-games/e-luo-si-fang-kuai-jing-dian-ban/",
   },
   {
@@ -2146,7 +2146,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B.zip",
     page: "/dos-games/xin-zhang-zhi-ye-wang/",
   },
   {
@@ -2157,7 +2157,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "KOEI.COM",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B2.zip",
     page: "/dos-games/xin-zhang-zhi-ye-wang-2/",
   },
   {
@@ -2168,7 +2168,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "MAIN.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-4.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B4.zip",
     page: "/dos-games/xin-zhang-zhi-ye-wang-4/",
   },
   {
@@ -2179,7 +2179,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "Koei.com",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-5.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B5.zip",
     page: "/dos-games/xin-zhang-zhi-ye-wang-5/",
   },
   {
@@ -2190,7 +2190,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "TENSHOU.COM",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-6.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B6.zip",
     page: "/dos-games/xin-zhang-zhi-ye-wang-6/",
   },
   {
@@ -2201,7 +2201,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "TENSHOU.COM",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-tian-xiang-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E5%A4%A9%E7%BF%94%E8%AE%B0.zip",
     page: "/dos-games/xin-zhang-zhi-ye-wang-tian-xiang-ji/",
   },
   {
@@ -2212,7 +2212,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "KOEI.COM",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-ba-wang-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E9%9C%B8%E7%8E%8B%E4%BC%A0.zip",
     page: "/dos-games/xin-zhang-zhi-ye-wang-ba-wang-chuan/",
   },
   {
@@ -2223,7 +2223,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 523,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-tian-tu-long-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0.zip",
     page: "/dos-games/yi-tian-tu-long-ji/",
   },
   {
@@ -2234,7 +2234,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "LR.COM",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tou-jin-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%81%B7%E9%87%91%E5%AD%90.zip",
     page: "/dos-games/tou-jin-zi/",
   },
   {
@@ -2245,7 +2245,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "ELEMENTS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yuan-su-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%83%E7%B4%A0%E7%90%83.zip",
     page: "/dos-games/yuan-su-qiu/",
   },
   {
@@ -2256,7 +2256,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 809,
     entry: "play.bat",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guang-tou-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%89%E5%A4%B4%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/guang-tou-da-zhan/",
   },
   {
@@ -2267,7 +2267,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 948,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guang-ming-sheng-shi-tuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%89%E6%98%8E%E5%9C%A3%E4%BD%BF%E5%9B%A2.zip",
     page: "/dos-games/guang-ming-sheng-shi-tuan/",
   },
   {
@@ -2278,7 +2278,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 69,
     entry: "DFORCE.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guang-ming-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%89%E6%98%8E%E6%88%98%E5%8F%B2.zip",
     page: "/dos-games/guang-ming-zhan-shi/",
   },
   {
@@ -2289,7 +2289,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "TATOU.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-su-lu-chuan-shuo-mo-ying-ha-lei.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8B%8F%E9%B2%81%E4%BC%A0%E8%AF%B4%E9%AD%94%E5%BD%B1%E5%93%88%E9%9B%B7.zip",
     page: "/dos-games/ke-su-lu-chuan-shuo-mo-ying-ha-lei/",
   },
   {
@@ -2300,7 +2300,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "CLYDE1.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-de-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/ke-lai-de-mao-xian/",
   },
   {
@@ -2311,7 +2311,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "REVENGE.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-de-fu-chou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%A4%8D%E4%BB%87.zip",
     page: "/dos-games/ke-lai-de-fu-chou/",
   },
   {
@@ -2322,7 +2322,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 54,
     entry: "DQK.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-en-de-hei-an-nv-huang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E6%81%A9%E7%9A%84%E9%BB%91%E6%9A%97%E5%A5%B3%E7%9A%87.zip",
     page: "/dos-games/ke-lai-en-de-hei-an-nv-huang/",
   },
   {
@@ -2333,7 +2333,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 178,
     entry: "CRISIS.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-li-mu-lin-gong-wei-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%8B%E9%87%8C%E5%A7%86%E6%9E%97%E5%AE%AB%E5%8D%B1%E6%9C%BA.zip",
     page: "/dos-games/ke-li-mu-lin-gong-wei-ji/",
   },
   {
@@ -2344,7 +2344,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 121,
     entry: "GLOBV.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/quan-qiu-xiao-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%A8%E7%90%83%E6%95%88%E5%BA%94.zip",
     page: "/dos-games/quan-qiu-xiao-ying/",
   },
   {
@@ -2355,7 +2355,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 480,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ba-nv-shen-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%AB%E5%A5%B3%E7%A5%9E%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/ba-nv-shen-wu-yu/",
   },
   {
@@ -2366,7 +2366,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 458,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ba-nv-shen-wu-yu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%AB%E5%A5%B3%E7%A5%9E%E7%89%A9%E8%AF%AD2.zip",
     page: "/dos-games/ba-nv-shen-wu-yu-2/",
   },
   {
@@ -2377,7 +2377,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 394,
     entry: "Go.bat",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gong-yuan-qian-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%AC%E5%85%83%E5%89%8D%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/gong-yuan-qian-che-sai/",
   },
   {
@@ -2388,7 +2388,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "CARNAGE.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gong-lu-kuang-biao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%AC%E8%B7%AF%E7%8B%82%E9%A3%99.zip",
     page: "/dos-games/gong-lu-kuang-biao/",
   },
   {
@@ -2399,7 +2399,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 169,
     entry: "MISSION.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guan-jian-ren-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%B3%E9%94%AE%E4%BB%BB%E5%8A%A1.zip",
     page: "/dos-games/guan-jian-ren-wu/",
   },
   {
@@ -2410,7 +2410,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 175,
     entry: "RUNME.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-pu-si-de-tiao-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%B6%E6%99%AE%E6%96%AF%E7%9A%84%E6%8C%91%E6%88%98.zip",
     page: "/dos-games/qi-pu-si-de-tiao-zhan/",
   },
   {
@@ -2421,7 +2421,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 143,
     entry: "LG.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shou-xiang-shou-wei-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%BD%E4%B9%A1%E5%AE%88%E5%8D%AB%E8%80%85.zip",
     page: "/dos-games/shou-xiang-shou-wei-zhe/",
   },
   {
@@ -2432,7 +2432,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 205,
     entry: "BRUTAL.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shou-zhao-kuai-da.zip",
+    url: "https://dos-bin.zczc.cz/%E5%85%BD%E7%88%AA%E5%BF%AB%E6%89%93.zip",
     page: "/dos-games/shou-zhao-kuai-da/",
   },
   {
@@ -2443,7 +2443,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 72,
     entry: "S2.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zai-du-chu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip",
     page: "/dos-games/zai-du-chu-ji/",
   },
   {
@@ -2454,7 +2454,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 78,
     entry: "SOA.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mao-xian-zhi-hun.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%92%E9%99%A9%E4%B9%8B%E9%AD%82.zip",
     page: "/dos-games/mao-xian-zhi-hun/",
   },
   {
@@ -2465,7 +2465,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "ARSENAL.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jun-bei-jing-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%9B%E5%A4%87%E7%AB%9E%E8%B5%9B.zip",
     page: "/dos-games/jun-bei-jing-sai/",
   },
   {
@@ -2476,7 +2476,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "SERF.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nong-nu-cheng-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%9C%E5%A5%B4%E5%9F%8E%E5%B8%82.zip",
     page: "/dos-games/nong-nu-cheng-shi/",
   },
   {
@@ -2487,7 +2487,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 37,
     entry: "RACE.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guan-jun-la-li-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
     page: "/dos-games/guan-jun-la-li-sai/",
   },
   {
@@ -2498,7 +2498,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 165,
     entry: "GO.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guan-jun-zu-qiu-jing-li-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%862.zip",
     page: "/dos-games/guan-jun-zu-qiu-jing-li-2/",
   },
   {
@@ -2509,7 +2509,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 414,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-jie-huan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%A5%E7%95%8C%E5%B9%BB%E5%A7%AC.zip",
     page: "/dos-games/ming-jie-huan-ji/",
   },
   {
@@ -2520,7 +2520,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "fire.exe",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bing-yu-huo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B0%E4%B8%8E%E7%81%AB.zip",
     page: "/dos-games/bing-yu-huo/",
   },
   {
@@ -2531,7 +2531,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "RUNME.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bing-leng-zhi-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B0%E5%86%B7%E4%B9%8B%E6%A2%A6.zip",
     page: "/dos-games/bing-leng-zhi-meng/",
   },
   {
@@ -2542,7 +2542,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "BARD.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bing-cheng-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/bing-cheng-chuan-qi/",
   },
   {
@@ -2553,7 +2553,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "DK.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bing-cheng-chuan-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%872.zip",
     page: "/dos-games/bing-cheng-chuan-qi-2/",
   },
   {
@@ -2564,7 +2564,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "Thief.exe",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bing-cheng-chuan-qi-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%873.zip",
     page: "/dos-games/bing-cheng-chuan-qi-3/",
   },
   {
@@ -2575,7 +2575,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 166,
     entry: "HOCKEY.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bing-qiu-95.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B0%E7%90%8395.zip",
     page: "/dos-games/bing-qiu-95/",
   },
   {
@@ -2586,7 +2586,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 143,
     entry: "HOCKEY.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bing-qiu-lian-sai-97.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B0%E7%90%83%E8%81%94%E8%B5%9B97.zip",
     page: "/dos-games/bing-qiu-lian-sai-97/",
   },
   {
@@ -2597,7 +2597,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-zhan-e-luo-si.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E4%BF%84%E7%BD%97%E6%96%AF.zip",
     page: "/dos-games/jue-zhan-e-luo-si/",
   },
   {
@@ -2608,7 +2608,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 92,
     entry: "KARATEKA.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-zhan-fu-shi-shan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E5%AF%8C%E5%A3%AB%E5%B1%B1.zip",
     page: "/dos-games/jue-zhan-fu-shi-shan/",
   },
   {
@@ -2619,7 +2619,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "START.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-zhan-huang-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E7%9A%87%E9%99%B5.zip",
     page: "/dos-games/jue-zhan-huang-ling/",
   },
   {
@@ -2630,7 +2630,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 238,
     entry: "M.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-lan-di-ya-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%87%AF%E5%85%B0%E8%92%82%E4%BA%9A%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/kai-lan-di-ya-chuan-qi/",
   },
   {
@@ -2641,7 +2641,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 119,
     entry: "MAIN.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-lan-di-ya-chuan-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%87%AF%E5%85%B0%E8%92%82%E4%BA%9A%E4%BC%A0%E5%A5%872.zip",
     page: "/dos-games/kai-lan-di-ya-chuan-qi-2/",
   },
   {
@@ -2652,7 +2652,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 214,
     entry: "RUNMAIN.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-lan-di-ya-chuan-qi-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%87%AF%E5%85%B0%E8%92%82%E4%BA%9A%E4%BC%A0%E5%A5%873.zip",
     page: "/dos-games/kai-lan-di-ya-chuan-qi-3/",
   },
   {
@@ -2663,7 +2663,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "CENTURIO.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-da-di.zip",
+    url: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D.zip",
     page: "/dos-games/kai-sa-da-di/",
   },
   {
@@ -2674,7 +2674,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 418,
     entry: "C2.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-da-di-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D2.zip",
     page: "/dos-games/kai-sa-da-di-2/",
   },
   {
@@ -2685,7 +2685,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 121,
     entry: "KAISER.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-li-zhi-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E7%AB%8B%E5%BF%97%E4%BC%A0.zip",
     page: "/dos-games/kai-sa-li-zhi-chuan/",
   },
   {
@@ -2696,7 +2696,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "G.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chu-ji-fei-long.zip",
+    url: "https://dos-bin.zczc.cz/%E5%87%BA%E5%87%BB%E9%A3%9E%E9%BE%99.zip",
     page: "/dos-games/chu-ji-fei-long/",
   },
   {
@@ -2707,7 +2707,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "chasm.bat",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fen-qi-lie-hen.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%86%E6%AD%A7%EF%BC%9A%E8%A3%82%E7%97%95.zip",
     page: "/dos-games/fen-qi-lie-hen/",
   },
   {
@@ -2718,7 +2718,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "menu.exe",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qie-ke-si-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%87%E5%85%8B%E6%96%AF%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/qie-ke-si-li-xian-ji/",
   },
   {
@@ -2729,7 +2729,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "menu.exe",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qie-ke-si-li-xian-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%87%E5%85%8B%E6%96%AF%E5%8E%86%E9%99%A9%E8%AE%B02.zip",
     page: "/dos-games/qie-ke-si-li-xian-ji-2/",
   },
   {
@@ -2740,7 +2740,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 574,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/liu-bo-wen-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%98%E4%BC%AF%E6%B8%A9%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/liu-bo-wen-chuan-qi/",
   },
   {
@@ -2751,7 +2751,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1312,
     entry: "LIUMAIN.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/liu-bei-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%98%E5%A4%87%E4%BC%A0.zip",
     page: "/dos-games/liu-bei-chuan/",
   },
   {
@@ -2762,7 +2762,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 399,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-feng-mo-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E5%B0%81%E9%AD%94%E4%BC%A0.zip",
     page: "/dos-games/chuang-shi-feng-mo-chuan/",
   },
   {
@@ -2773,7 +2773,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 84,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-dan-zhu-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
     page: "/dos-games/chuang-shi-dan-zhu-tai/",
   },
   {
@@ -2784,7 +2784,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 98,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E6%9C%BA%E7%A5%9E.zip",
     page: "/dos-games/chuang-shi-ji-shen/",
   },
   {
@@ -2795,7 +2795,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "ULTIMA.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-1-1987rm-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA1%281987RM%E7%89%88%29.zip",
     page: "/dos-games/chuang-shi-ji-1-1987rm-ban/",
   },
   {
@@ -2806,7 +2806,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 91,
     entry: "ULTIMAII.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA2.zip",
     page: "/dos-games/chuang-shi-ji-2/",
   },
   {
@@ -2817,7 +2817,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "ULTIMA.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA3.zip",
     page: "/dos-games/chuang-shi-ji-3/",
   },
   {
@@ -2828,7 +2828,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 149,
     entry: "ULTIMA.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-4.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA4.zip",
     page: "/dos-games/chuang-shi-ji-4/",
   },
   {
@@ -2839,7 +2839,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 124,
     entry: "ULTIMA.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-5.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA5.zip",
     page: "/dos-games/chuang-shi-ji-5/",
   },
   {
@@ -2850,7 +2850,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 171,
     entry: "ULTIMA6.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-6.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA6.zip",
     page: "/dos-games/chuang-shi-ji-6/",
   },
   {
@@ -2861,7 +2861,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 219,
     entry: "U7.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-7-shang-hei-yue-zhi-men.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8A%E9%BB%91%E6%9C%88%E4%B9%8B%E9%97%A8.zip",
     page: "/dos-games/chuang-shi-ji-7-shang-hei-yue-zhi-men/",
   },
   {
@@ -2872,7 +2872,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 418,
     entry: "SI.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-7-xia-ju-she-zhi-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8B%E5%B7%A8%E8%9B%87%E4%B9%8B%E5%B2%9B.zip",
     page: "/dos-games/chuang-shi-ji-7-xia-ju-she-zhi-dao/",
   },
   {
@@ -2883,7 +2883,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "U8.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-8.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA8.zip",
     page: "/dos-games/chuang-shi-ji-8/",
   },
   {
@@ -2894,7 +2894,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 123,
     entry: "savage.exe",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-wai-zhuan-1-huang-wu-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA%E5%A4%96%E4%BC%A01%E8%8D%92%E8%8A%9C%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/chuang-shi-ji-wai-zhuan-1-huang-wu-di-guo/",
   },
   {
@@ -2905,7 +2905,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 143,
     entry: "GAME.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-wai-zhuan-2-huo-xing-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA%E5%A4%96%E4%BC%A02%E7%81%AB%E6%98%9F%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/chuang-shi-ji-wai-zhuan-2-huo-xing-zhi-lv/",
   },
   {
@@ -2916,7 +2916,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "FPFP.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qian-xian-yao-ji-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%89%8D%E7%BA%BF%E8%8D%AF%E5%89%82%E5%B8%88.zip",
     page: "/dos-games/qian-xian-yao-ji-shi/",
   },
   {
@@ -2927,7 +2927,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1071,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-xia-qing-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98.zip",
     page: "/dos-games/jian-xia-qing-yuan/",
   },
   {
@@ -2938,7 +2938,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 977,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-mang-luo-man-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%89%91%E8%8A%92%E7%BD%97%E6%9B%BC%E5%8F%B2.zip",
     page: "/dos-games/jian-mang-luo-man-shi/",
   },
   {
@@ -2949,7 +2949,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "SB.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-qiu-luo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%89%AA%E7%A7%8B%E7%BD%97.zip",
     page: "/dos-games/jian-qiu-luo/",
   },
   {
@@ -2960,7 +2960,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "PS.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-zhi-nu-pu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8A%9B%E4%B9%8B%E5%A5%B4%E4%BB%86.zip",
     page: "/dos-games/li-zhi-nu-pu/",
   },
   {
@@ -2971,7 +2971,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 166,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dong-zuo-zu-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8A%A8%E4%BD%9C%E8%B6%B3%E7%90%83.zip",
     page: "/dos-games/dong-zuo-zu-qiu/",
   },
   {
@@ -2982,7 +2982,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 401,
     entry: "PD.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-li-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8A%B2%E5%8A%9B%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/jin-li-sai-che/",
   },
   {
@@ -2993,7 +2993,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 122,
     entry: "GAME.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-bu-liang-li.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8A%BF%E4%B8%8D%E4%B8%A4%E7%AB%8B.zip",
     page: "/dos-games/shi-bu-liang-li/",
   },
   {
@@ -3004,7 +3004,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 270,
     entry: "LOV.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-shi-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8B%87%E5%A3%AB%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/yong-shi-chuan-qi/",
   },
   {
@@ -3015,7 +3015,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "HERO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/yong-zhe-chuan-shuo/",
   },
   {
@@ -3026,7 +3026,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-dou-e-long.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%99.zip",
     page: "/dos-games/yong-zhe-dou-e-long/",
   },
   {
@@ -3037,7 +3037,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-dou-e-long-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%992.zip",
     page: "/dos-games/yong-zhe-dou-e-long-2/",
   },
   {
@@ -3048,7 +3048,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 191,
     entry: "DQ3.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-dou-e-long-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%993.zip",
     page: "/dos-games/yong-zhe-dou-e-long-3/",
   },
   {
@@ -3059,7 +3059,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 103,
     entry: "GNBNA.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bei-tai-ping-yang-hai-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8C%97%E5%A4%AA%E5%B9%B3%E6%B4%8B%E6%B5%B7%E6%88%98.zip",
     page: "/dos-games/bei-tai-ping-yang-hai-zhan/",
   },
   {
@@ -3070,7 +3070,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 111,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bei-ji-xing-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8C%97%E6%9E%81%E8%A1%8C%E5%8A%A8.zip",
     page: "/dos-games/bei-ji-xing-dong/",
   },
   {
@@ -3081,7 +3081,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 223,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qu-yu-lve-duo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8C%BA%E5%9F%9F%E6%8E%A0%E5%A4%BA.zip",
     page: "/dos-games/qu-yu-lve-duo/",
   },
   {
@@ -3092,7 +3092,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "LND.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-sheng-ye-feng-kuang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8C%BB%E7%94%9F%E4%B9%9F%E7%96%AF%E7%8B%82.zip",
     page: "/dos-games/yi-sheng-ye-feng-kuang/",
   },
   {
@@ -3103,7 +3103,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "LD2.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-sheng-ye-feng-kuang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8C%BB%E7%94%9F%E4%B9%9F%E7%96%AF%E7%8B%822.zip",
     page: "/dos-games/yi-sheng-ye-feng-kuang-2/",
   },
   {
@@ -3114,7 +3114,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 502,
     entry: "GMJ.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-liu-zhang-ji-ma-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%81%E5%85%AD%E5%BC%A0%E5%A7%AC%E9%BA%BB%E5%B0%86.zip",
     page: "/dos-games/shi-liu-zhang-ji-ma-jiang/",
   },
   {
@@ -3125,7 +3125,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 39,
     entry: "CRUSADE.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-zi-jun-quan-li-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%81%E5%AD%97%E5%86%9B%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/shi-zi-jun-quan-li-zhi-zhan/",
   },
   {
@@ -3136,7 +3136,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 889,
     entry: "EGA.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-mian-mai-fu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%81%E9%9D%A2%E5%9F%8B%E4%BC%8F.zip",
     page: "/dos-games/shi-mian-mai-fu/",
   },
   {
@@ -3147,7 +3147,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "kilo.bat",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qian-zhao-hong-zha.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%83%E5%85%86%E8%BD%B0%E7%82%B8.zip",
     page: "/dos-games/qian-zhao-hong-zha/",
   },
   {
@@ -3158,7 +3158,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 243,
     entry: "MIDNIGHT.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-ye-ling-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%88%E5%A4%9C%E9%A2%86%E4%B8%BB.zip",
     page: "/dos-games/wu-ye-ling-zhu/",
   },
   {
@@ -3169,7 +3169,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 436,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hua-li-ren-sheng-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%8E%E4%B8%BD%E4%BA%BA%E7%94%9F2.zip",
     page: "/dos-games/hua-li-ren-sheng-2/",
   },
   {
@@ -3180,7 +3180,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 182,
     entry: "JOSI.COM",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zu-ye.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A.zip",
     page: "/dos-games/zu-ye/",
   },
   {
@@ -3191,7 +3191,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 259,
     entry: "DOS4GW.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zu-ye-lv-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A%E6%97%85%E8%A1%8C.zip",
     page: "/dos-games/zu-ye-lv-xing/",
   },
   {
@@ -3202,7 +3202,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "TATOU.COM",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nan-yu-bei.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%97%E4%B8%8E%E5%8C%97.zip",
     page: "/dos-games/nan-yu-bei/",
   },
   {
@@ -3213,7 +3213,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "PLAY.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nan-song-ying-lie-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%97%E5%AE%8B%E8%8B%B1%E7%83%88%E4%BC%A0.zip",
     page: "/dos-games/nan-song-ying-lie-chuan/",
   },
   {
@@ -3224,7 +3224,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 53,
     entry: "ICE640.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nan-ji-bing-guai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%86%B0%E6%80%AA.zip",
     page: "/dos-games/nan-ji-bing-guai/",
   },
   {
@@ -3235,7 +3235,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "antartic.exe",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nan-ji-da-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/nan-ji-da-mao-xian/",
   },
   {
@@ -3246,7 +3246,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 100,
     entry: "PLAY.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nan-hai-ba-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%97%E6%B5%B7%E9%9C%B8%E4%B8%BB.zip",
     page: "/dos-games/nan-hai-ba-zhu/",
   },
   {
@@ -3257,7 +3257,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 169,
     entry: "BFTCG.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bo-bi-jiao-ni-guo-ji-xiang-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%9A%E6%AF%94%E6%95%99%E4%BD%A0%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
     page: "/dos-games/bo-bi-jiao-ni-guo-ji-xiang-qi/",
   },
   {
@@ -3268,7 +3268,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "SETUP.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bo-wu-guan-jing-hun-ye.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%9A%E7%89%A9%E9%A6%86%E6%83%8A%E9%AD%82%E5%A4%9C.zip",
     page: "/dos-games/bo-wu-guan-jing-hun-ye/",
   },
   {
@@ -3279,7 +3279,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 134,
     entry: "ccs.exe",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-la-han-shi-kong-sha-long.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E6%8B%89%E6%B1%89%E6%97%B6%E7%A9%BA%E6%B2%99%E9%BE%99.zip",
     page: "/dos-games/ka-la-han-shi-kong-sha-long/",
   },
   {
@@ -3290,7 +3290,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 107,
     entry: "KNG.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-nai-ji-ren-sheng-zhi-nan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E8%80%90%E9%B8%A1%E4%BA%BA%E7%94%9F%E6%8C%87%E5%8D%97.zip",
     page: "/dos-games/ka-nai-ji-ren-sheng-zhi-nan/",
   },
   {
@@ -3301,7 +3301,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "KARNOV.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-nuo-fu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E8%AF%BA%E5%A4%AB.zip",
     page: "/dos-games/ka-nuo-fu/",
   },
   {
@@ -3312,7 +3312,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "PEE.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-tong-kuai-da.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%80%9A%E5%BF%AB%E6%89%93.zip",
     page: "/dos-games/ka-tong-kuai-da/",
   },
   {
@@ -3323,7 +3323,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "PEE.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-tong-kuai-da-sp.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%80%9A%E5%BF%AB%E6%89%93SP.zip",
     page: "/dos-games/ka-tong-kuai-da-sp/",
   },
   {
@@ -3334,7 +3334,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "WW.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-tong-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%80%9A%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/ka-tong-sai-che/",
   },
   {
@@ -3345,7 +3345,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "CARMEN.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-shi-jie-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E4%B8%96%E7%95%8C%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/ka-men-shi-jie-zhi-lv/",
   },
   {
@@ -3356,7 +3356,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "CARMEN.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-tai-kong-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E5%A4%AA%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/ka-men-tai-kong-zhi-lv/",
   },
   {
@@ -3367,7 +3367,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "carmen.exe",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-shi-kong-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/ka-men-shi-kong-zhi-lv/",
   },
   {
@@ -3378,7 +3378,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "CARMEN.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-mei-guo-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/ka-men-mei-guo-zhi-lv/",
   },
   {
@@ -3389,7 +3389,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "RUNME.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-mei-guo-shi-kong-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/ka-men-mei-guo-shi-kong-zhi-lv/",
   },
   {
@@ -3400,7 +3400,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 544,
     entry: "sw.bat",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lu-fu-de-mi-mi-wu-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A2%E5%A4%AB%E7%9A%84%E7%A7%98%E5%AF%86%E6%AD%A6%E5%99%A8.zip",
     page: "/dos-games/lu-fu-de-mi-mi-wu-qi/",
   },
   {
@@ -3411,7 +3411,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 69,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wo-long-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%A7%E9%BE%99%E4%BC%A0.zip",
     page: "/dos-games/wo-long-chuan/",
   },
   {
@@ -3422,7 +3422,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 193,
     entry: "poca.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-gong-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E5%85%AC%E4%B8%BB.zip",
     page: "/dos-games/yin-di-an-gong-zhu/",
   },
   {
@@ -3433,7 +3433,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "INDY4A.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-na-qiong-si-atlantisact.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AFAtlantisAct.zip",
     page: "/dos-games/yin-di-an-na-qiong-si-atlantisact/",
   },
   {
@@ -3444,7 +3444,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "ATLANTIS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-na-qiong-si-ya-te-lan-di-si.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AF%E4%BA%9A%E7%89%B9%E5%85%B0%E8%92%82%E6%96%AF.zip",
     page: "/dos-games/yin-di-an-na-qiong-si-ya-te-lan-di-si/",
   },
   {
@@ -3455,7 +3455,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-ji-te-qin-zu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B1%E6%9C%BA%E7%89%B9%E5%8B%A4%E7%BB%84.zip",
     page: "/dos-games/wei-ji-te-qin-zu/",
   },
   {
@@ -3466,7 +3466,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "RISKY.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-cong-lin.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E4%B8%9B%E6%9E%97.zip",
     page: "/dos-games/wei-xian-cong-lin/",
   },
   {
@@ -3477,7 +3477,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "RICK.COM",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-de-li-ke-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E7%9A%84%E9%87%8C%E5%85%8B1.zip",
     page: "/dos-games/wei-xian-de-li-ke-1/",
   },
   {
@@ -3488,7 +3488,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-de-li-ke-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E7%9A%84%E9%87%8C%E5%85%8B2.zip",
     page: "/dos-games/wei-xian-de-li-ke-2/",
   },
   {
@@ -3499,7 +3499,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 284,
     entry: "CONFIG.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-jie-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E8%A1%97%E9%81%93.zip",
     page: "/dos-games/wei-xian-jie-dao/",
   },
   {
@@ -3510,7 +3510,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 524,
     entry: "HL.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-shi-da-zhan-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8E%86%E5%8F%B2%E5%A4%A7%E6%88%98%E5%BD%B9.zip",
     page: "/dos-games/li-shi-da-zhan-yi/",
   },
   {
@@ -3521,7 +3521,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "ugh.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yuan-shi-yun-shu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8E%9F%E5%A7%8B%E8%BF%90%E8%BE%93%E6%9C%BA.zip",
     page: "/dos-games/yuan-shi-yun-shu-ji/",
   },
   {
@@ -3532,7 +3532,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "GAME.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yuan-zi-tui-xiang-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8E%9F%E5%AD%90%E6%8E%A8%E7%AE%B1%E5%AD%90.zip",
     page: "/dos-games/yuan-zi-tui-xiang-zi/",
   },
   {
@@ -3543,7 +3543,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "PROTO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yuan-heng-xing-zhan-zheng-qian-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8E%9F%E6%81%92%E6%98%9F%E6%88%98%E4%BA%89%E5%89%8D%E7%BA%BF.zip",
     page: "/dos-games/yuan-heng-xing-zhan-zheng-qian-xian/",
   },
   {
@@ -3554,7 +3554,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 103,
     entry: "twinion.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-cheng-ming-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E5%9F%8E%E5%91%BD%E8%BF%90.zip",
     page: "/dos-games/shuang-zi-cheng-ming-yun/",
   },
   {
@@ -3565,7 +3565,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "BACKUP.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-xing-chuan-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%872.zip",
     page: "/dos-games/shuang-zi-xing-chuan-qi-2/",
   },
   {
@@ -3576,7 +3576,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 64,
     entry: "RELENT.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-xing-chuan-qi-da-xiao-bu-liang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%87%EF%BC%8F%E5%A4%A7%E5%B0%8F%E4%B8%8D%E8%89%AF.zip",
     page: "/dos-games/shuang-zi-xing-chuan-qi-da-xiao-bu-liang/",
   },
   {
@@ -3587,7 +3587,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "DRAGON.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuang-jie-long.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%99.zip",
     page: "/dos-games/shuang-jie-long/",
   },
   {
@@ -3598,7 +3598,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "DRAGON.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuang-jie-long-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%992.zip",
     page: "/dos-games/shuang-jie-long-2/",
   },
   {
@@ -3609,7 +3609,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "DD3.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuang-jie-long-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%993.zip",
     page: "/dos-games/shuang-jie-long-3/",
   },
   {
@@ -3620,7 +3620,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "UGAM.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuang-lu-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%8C%E9%99%86%E6%A3%8B.zip",
     page: "/dos-games/shuang-lu-qi/",
   },
   {
@@ -3631,7 +3631,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "dosbox.exe",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bian-tai-sha-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%98%E6%80%81%E6%9D%80%E6%89%8B.zip",
     page: "/dos-games/bian-tai-sha-shou/",
   },
   {
@@ -3642,7 +3642,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "KRONDOR.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pan-bian-ke-lang-duo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%9B%E5%8F%98%E5%85%8B%E6%9C%97%E5%A4%9A.zip",
     page: "/dos-games/pan-bian-ke-lang-duo/",
   },
   {
@@ -3653,7 +3653,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "play.bat",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-shi-ji-wai-zhuan-ri-wen.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E4%BA%8B%E8%AE%B0%E5%A4%96%E4%BC%A0%28%E6%97%A5%E6%96%87%29.zip",
     page: "/dos-games/gu-shi-ji-wai-zhuan-ri-wen/",
   },
   {
@@ -3664,7 +3664,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-bao-zhi-yan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A0%A1%E4%B9%8B%E5%AE%B4.zip",
     page: "/dos-games/gu-bao-zhi-yan/",
   },
   {
@@ -3675,7 +3675,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "TOMB.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-mu-li-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.zip",
     page: "/dos-games/gu-mu-li-ying/",
   },
   {
@@ -3686,7 +3686,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 553,
     entry: "FS.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-da-lu-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A4%A7%E9%99%86%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/gu-da-lu-wu-yu/",
   },
   {
@@ -3697,7 +3697,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 761,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-da-lu-wu-yu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A4%A7%E9%99%86%E7%89%A9%E8%AF%AD2.zip",
     page: "/dos-games/gu-da-lu-wu-yu-2/",
   },
   {
@@ -3708,7 +3708,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 743,
     entry: "FSW.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-da-lu-wu-yu-4.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A4%A7%E9%99%86%E7%89%A9%E8%AF%AD4.zip",
     page: "/dos-games/gu-da-lu-wu-yu-4/",
   },
   {
@@ -3719,7 +3719,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 761,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-da-lu-wu-yu-5-guang-pan-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A4%A7%E9%99%86%E7%89%A9%E8%AF%AD5%E5%85%89%E7%9B%98%E7%89%88.zip",
     page: "/dos-games/gu-da-lu-wu-yu-5-guang-pan-ban/",
   },
   {
@@ -3730,7 +3730,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 282,
     entry: "PNOCOMP.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-zhi-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E4%B9%8B%E6%A2%A6.zip",
     page: "/dos-games/gu-guai-zhi-meng/",
   },
   {
@@ -3741,7 +3741,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "doofus.exe",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-xiao-da-dang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E5%B0%8F%E6%90%AD%E6%A1%A3.zip",
     page: "/dos-games/gu-guai-xiao-da-dang/",
   },
   {
@@ -3752,7 +3752,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "etercrk.exe",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-xing-qiu-yi-te-lan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E6%98%9F%E7%90%83%E4%BC%8A%E7%89%B9%E5%85%B0.zip",
     page: "/dos-games/gu-guai-xing-qiu-yi-te-lan/",
   },
   {
@@ -3763,7 +3763,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 89,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-wen-ming-ba-wang-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0.zip",
     page: "/dos-games/gu-wen-ming-ba-wang-chuan/",
   },
   {
@@ -3774,7 +3774,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "WORLD.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/ling-yi-ge-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%A6%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/ling-yi-ge-shi-jie/",
   },
   {
@@ -3785,7 +3785,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 108,
     entry: "GAME.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-hai-fang-wei-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%B0%E6%B5%B7%E9%98%B2%E5%8D%AB%E6%88%98.zip",
     page: "/dos-games/tai-hai-fang-wei-zhan/",
   },
   {
@@ -3796,7 +3796,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 203,
     entry: "PLAY.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-wan-mo-ni-xuan-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%B0%E6%B9%BE%E6%A8%A1%E6%8B%9F%E9%80%89%E6%88%98.zip",
     page: "/dos-games/tai-wan-mo-ni-xuan-zhan/",
   },
   {
@@ -3807,7 +3807,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "EP8.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-shi-dan-zhu-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%B2%E8%AF%97%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
     page: "/dos-games/shi-shi-dan-zhu-tai/",
   },
   {
@@ -3818,7 +3818,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "START.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-shi-xing-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%8F%B2%E8%AF%97%E6%98%9F%E6%88%98.zip",
     page: "/dos-games/shi-shi-xing-zhan/",
   },
   {
@@ -3829,7 +3829,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "pacem.bat",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA.zip",
     page: "/dos-games/chi-dou-ren/",
   },
   {
@@ -3840,7 +3840,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "PACMAN.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren-chu-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%88%9D%E4%BB%A3.zip",
     page: "/dos-games/chi-dou-ren-chu-dai/",
   },
   {
@@ -3851,7 +3851,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "CDMAN.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren-shan-zhai-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%B1%B1%E5%AF%A8%E7%89%88.zip",
     page: "/dos-games/chi-dou-ren-shan-zhai-ban/",
   },
   {
@@ -3862,7 +3862,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 291,
     entry: "PAC.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren-shi-kong-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/chi-dou-ren-shi-kong-zhi-lv/",
   },
   {
@@ -3873,7 +3873,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "mspacem.bat",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-fu-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E5%A4%AB%E4%BA%BA.zip",
     page: "/dos-games/chi-dou-fu-ren/",
   },
   {
@@ -3884,7 +3884,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 100,
     entry: "PLAY.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/he-jin-zhuang-bei.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87.zip",
     page: "/dos-games/he-jin-zhuang-bei/",
   },
   {
@@ -3895,7 +3895,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "Runme.bat",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/he-jin-zhuang-bei-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%872.zip",
     page: "/dos-games/he-jin-zhuang-bei-2/",
   },
   {
@@ -3906,7 +3906,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "GIANA32K.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-an-na-jie-mei.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%89%E5%AE%89%E5%A8%9C%E5%A7%90%E5%A6%B9.zip",
     page: "/dos-games/ji-an-na-jie-mei/",
   },
   {
@@ -3917,7 +3917,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 41,
     entry: "JILL.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%97.zip",
     page: "/dos-games/ji-er-zai-cong-lin/",
   },
   {
@@ -3928,7 +3928,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "JILL2.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin-2-di-xia-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%972%E5%9C%B0%E4%B8%8B%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/ji-er-zai-cong-lin-2-di-xia-mao-xian/",
   },
   {
@@ -3939,7 +3939,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "play.bat",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin-3-he-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%973%E5%90%881.zip",
     page: "/dos-games/ji-er-zai-cong-lin-3-he-1/",
   },
   {
@@ -3950,7 +3950,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 41,
     entry: "JILL3.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin-3-zheng-jiu-wang-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%973%E6%8B%AF%E6%95%91%E7%8E%8B%E5%AD%90.zip",
     page: "/dos-games/ji-er-zai-cong-lin-3-zheng-jiu-wang-zi/",
   },
   {
@@ -3961,7 +3961,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "NANPA.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tong-ji-sheng-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%8C%E7%BA%A7%E7%94%9F1.zip",
     page: "/dos-games/tong-ji-sheng-1/",
   },
   {
@@ -3972,7 +3972,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1692,
     entry: "START.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tong-ji-sheng-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%8C%E7%BA%A7%E7%94%9F2.zip",
     page: "/dos-games/tong-ji-sheng-2/",
   },
   {
@@ -3983,7 +3983,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "GOBMAN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tun-dou-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%9E%E8%B1%86%E4%BA%BA.zip",
     page: "/dos-games/tun-dou-ren/",
   },
   {
@@ -3994,7 +3994,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "SANGO.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tun-shi-tian-di-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B01.zip",
     page: "/dos-games/tun-shi-tian-di-1/",
   },
   {
@@ -4005,7 +4005,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 69,
     entry: "MAIN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tun-shi-tian-di-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B02.zip",
     page: "/dos-games/tun-shi-tian-di-2/",
   },
   {
@@ -4016,7 +4016,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1430,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tun-shi-tian-di-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B03.zip",
     page: "/dos-games/tun-shi-tian-di-3/",
   },
   {
@@ -4027,7 +4027,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2943,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tun-shi-tian-di-4.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B04.zip",
     page: "/dos-games/tun-shi-tian-di-4/",
   },
   {
@@ -4038,7 +4038,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tun-shi-tian-di-qing-shan-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B0%E9%9D%92%E8%A1%AB%E7%89%88.zip",
     page: "/dos-games/tun-shi-tian-di-qing-shan-ban/",
   },
   {
@@ -4049,7 +4049,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "VTOWER.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-xue-gui-zhi-ta.zip",
+    url: "https://dos-bin.zczc.cz/%E5%90%B8%E8%A1%80%E9%AC%BC%E4%B9%8B%E5%A1%94.zip",
     page: "/dos-games/xi-xue-gui-zhi-ta/",
   },
   {
@@ -4060,7 +4060,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "start65l.exe",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hu-xiao-la-li-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
     page: "/dos-games/hu-xiao-la-li-sai/",
   },
   {
@@ -4071,7 +4071,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 56,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hu-xiao-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/hu-xiao-sai-che/",
   },
   {
@@ -4082,7 +4082,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "S2.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hu-xiao-sai-che-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E8%B5%9B%E8%BD%A62.zip",
     page: "/dos-games/hu-xiao-sai-che-2/",
   },
   {
@@ -4093,7 +4093,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "_SETUP.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-ling-yu-zheng-fu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D.zip",
     page: "/dos-games/ming-ling-yu-zheng-fu/",
   },
   {
@@ -4104,7 +4104,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "play.bat",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-ling-yu-zheng-fu-zheng-he-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D%E6%95%B4%E5%90%88%E7%89%88.zip",
     page: "/dos-games/ming-ling-yu-zheng-fu-zheng-he-ban/",
   },
   {
@@ -4115,7 +4115,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 274,
     entry: "BATTLES.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-yun-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/ming-yun-zhi-zhan/",
   },
   {
@@ -4126,7 +4126,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "SPEAR.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-yun-zhi-mao-zhong-zhi-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E4%B9%8B%E7%9F%9B%E9%87%8D%E5%88%B6%E7%89%88.zip",
     page: "/dos-games/ming-yun-zhi-mao-zhong-zhi-ban/",
   },
   {
@@ -4137,7 +4137,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "CHAOS.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-yun-zhan-shi-hun-dun-yin-qing.zip",
+    url: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E6%88%98%E5%A3%AB%EF%BC%8F%E6%B7%B7%E6%B2%8C%E5%BC%95%E6%93%8E.zip",
     page: "/dos-games/ming-yun-zhan-shi-hun-dun-yin-qing/",
   },
   {
@@ -4148,7 +4148,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 65,
     entry: "SPELCROS.exe",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhou-yu-jiao-cha.zip",
+    url: "https://dos-bin.zczc.cz/%E5%92%92%E8%AF%AD%E4%BA%A4%E5%8F%89.zip",
     page: "/dos-games/zhou-yu-jiao-cha/",
   },
   {
@@ -4159,7 +4159,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 368,
     entry: "SC.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhou-yu-duan-zao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%92%92%E8%AF%AD%E9%94%BB%E9%80%A0.zip",
     page: "/dos-games/zhou-yu-duan-zao/",
   },
   {
@@ -4170,7 +4170,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "start",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-shang-luo-man-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%93%80%E4%BC%A4%E7%BD%97%E6%9B%BC%E5%8F%B2.zip",
     page: "/dos-games/ai-shang-luo-man-shi/",
   },
   {
@@ -4181,7 +4181,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "DISCOVER.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-lun-bu-fa-xian-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%93%A5%E4%BC%A6%E5%B8%83%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/ge-lun-bu-fa-xian-zhi-lv/",
   },
   {
@@ -4192,7 +4192,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 379,
     entry: "MERCHANT.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shang-ye-wang-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%95%86%E4%B8%9A%E7%8E%8B%E5%AD%90.zip",
     page: "/dos-games/shang-ye-wang-zi/",
   },
   {
@@ -4203,7 +4203,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3367,
     entry: "Splat.exe",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/die-xue-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E5%96%8B%E8%A1%80%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/die-xue-sai-che/",
   },
   {
@@ -4214,7 +4214,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "JETPACK.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pen-qi-bei-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%96%B7%E6%B0%94%E8%83%8C%E5%8C%85.zip",
     page: "/dos-games/pen-qi-bei-bao/",
   },
   {
@@ -4225,7 +4225,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 205,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pu-pu-chuang-tong-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%99%97%E5%99%97%E9%97%AF%E9%80%9A%E5%85%B3.zip",
     page: "/dos-games/pu-pu-chuang-tong-guan/",
   },
   {
@@ -4236,7 +4236,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "N3D.EXE",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-meng-3d.zip",
+    url: "https://dos-bin.zczc.cz/%E5%99%A9%E6%A2%A63D.zip",
     page: "/dos-games/e-meng-3d/",
   },
   {
@@ -4247,7 +4247,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 127,
     entry: "4DBEGA.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-zhang-quan-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9A%A3%E5%BC%A0%E6%8B%B3%E7%8E%8B.zip",
     page: "/dos-games/xiao-zhang-quan-wang/",
   },
   {
@@ -4258,7 +4258,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "SUPER.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-ren-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%9B%E4%BA%BA%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/si-ren-che-sai/",
   },
   {
@@ -4269,7 +4269,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "SUPER.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-ren-che-sai-sheng-dan-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%9B%E4%BA%BA%E8%BD%A6%E8%B5%9B%E5%9C%A3%E8%AF%9E%E7%89%88.zip",
     page: "/dos-games/si-ren-che-sai-sheng-dan-ban/",
   },
   {
@@ -4280,7 +4280,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 97,
     entry: "PLAYV.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-chuan-sheng-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%9B%E5%B7%9D%E7%9C%812.zip",
     page: "/dos-games/si-chuan-sheng-2/",
   },
   {
@@ -4291,7 +4291,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "TT.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-chuan-sheng-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%9B%E5%B7%9D%E7%9C%813.zip",
     page: "/dos-games/si-chuan-sheng-3/",
   },
   {
@@ -4302,7 +4302,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 132,
     entry: "VOD.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-hai-mao-xian-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%9B%E6%B5%B7%E5%86%92%E9%99%A9%E5%AE%B6.zip",
     page: "/dos-games/si-hai-mao-xian-jia/",
   },
   {
@@ -4313,7 +4313,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "STORYII.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-dao-da-mo-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%9E%E5%88%B0%E5%A4%A7%E9%AD%94%E5%9F%9F.zip",
     page: "/dos-games/hui-dao-da-mo-yu/",
   },
   {
@@ -4324,7 +4324,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "run.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-ka-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%A0%E5%8D%A1%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/yin-ka-zhan-ji/",
   },
   {
@@ -4335,7 +4335,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "inca2.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-ka-zhan-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%A0%E5%8D%A1%E6%88%98%E6%9C%BA2.zip",
     page: "/dos-games/yin-ka-zhan-ji-2/",
   },
   {
@@ -4346,7 +4346,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 904,
     entry: "JS_RETRN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tuan-ju.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%A2%E8%81%9A.zip",
     page: "/dos-games/tuan-ju/",
   },
   {
@@ -4357,7 +4357,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "GOHERC.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-qi-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%B4%E6%A3%8B%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/wei-qi-da-zhan/",
   },
   {
@@ -4368,7 +4368,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-qi-jing-hua.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%B4%E6%A3%8B%E7%B2%BE%E5%8D%8E.zip",
     page: "/dos-games/wei-qi-jing-hua/",
   },
   {
@@ -4379,7 +4379,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "REALMS.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-tu-zheng-ba.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E5%9C%9F%E4%BA%89%E9%9C%B8.zip",
     page: "/dos-games/guo-tu-zheng-ba/",
   },
   {
@@ -4390,7 +4390,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "KQ1.COM",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-1-huang-guan-tan-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF1%E7%9A%87%E5%86%A0%E6%8E%A2%E6%B1%82.zip",
     page: "/dos-games/guo-wang-mi-shi-1-huang-guan-tan-qiu/",
   },
   {
@@ -4401,7 +4401,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "KQ2.COM",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-2-huang-jia-luo-man-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF2%E7%9A%87%E5%AE%B6%E7%BD%97%E6%9B%BC%E5%8F%B2.zip",
     page: "/dos-games/guo-wang-mi-shi-2-huang-jia-luo-man-shi/",
   },
   {
@@ -4412,7 +4412,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "KING.COM",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-3-mo-fa-sheng-si-men.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF3%E9%AD%94%E6%B3%95%E7%94%9F%E6%AD%BB%E9%97%A8.zip",
     page: "/dos-games/guo-wang-mi-shi-3-mo-fa-sheng-si-men/",
   },
   {
@@ -4423,7 +4423,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "SIERRA.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-4-luo-sai-la-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF4%E7%BD%97%E5%A1%9E%E6%8B%89%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/guo-wang-mi-shi-4-luo-sai-la-mao-xian/",
   },
   {
@@ -4434,7 +4434,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "KQ5.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-5-shi-cheng-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF5%E5%A4%B1%E5%9F%8E%E8%AE%B0.zip",
     page: "/dos-games/guo-wang-mi-shi-5-shi-cheng-ji/",
   },
   {
@@ -4445,7 +4445,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 141,
     entry: "SIERRA.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-6-xi-wang-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/guo-wang-mi-shi-6-xi-wang-zhi-lv/",
   },
   {
@@ -4456,7 +4456,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "KB.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-de-en-ci.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%81%A9%E8%B5%90.zip",
     page: "/dos-games/guo-wang-de-en-ci/",
   },
   {
@@ -4467,7 +4467,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "RAGNAROK.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-de-zhuo-you.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%A1%8C%E6%B8%B8.zip",
     page: "/dos-games/guo-wang-de-zhuo-you/",
   },
   {
@@ -4478,7 +4478,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 242,
     entry: "SPORTS.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-ti-yu-lian-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E4%BD%93%E8%82%B2%E8%81%94%E8%B5%9B.zip",
     page: "/dos-games/guo-ji-ti-yu-lian-sai/",
   },
   {
@@ -4489,7 +4489,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 39,
     entry: "vga.exe",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-ren-zhe-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E5%BF%8D%E8%80%85%E5%85%94.zip",
     page: "/dos-games/guo-ji-ren-zhe-tu/",
   },
   {
@@ -4500,7 +4500,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "BOX.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-quan-ji-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%8B%B3%E5%87%BB%E8%B5%9B.zip",
     page: "/dos-games/guo-ji-quan-ji-sai/",
   },
   {
@@ -4511,7 +4511,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 397,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-mo-tuo-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%91%A9%E6%89%98%E8%B5%9B.zip",
     page: "/dos-games/guo-ji-mo-tuo-sai/",
   },
   {
@@ -4522,7 +4522,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 219,
     entry: "TENF.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-wang-qiu-lian-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E7%BD%91%E7%90%83%E8%81%94%E8%B5%9B.zip",
     page: "/dos-games/guo-ji-wang-qiu-lian-sai/",
   },
   {
@@ -4533,7 +4533,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "ARCHON.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-xiang-qi-wu-shu-dui-jue.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E5%B7%AB%E6%9C%AF%E5%AF%B9%E5%86%B3.zip",
     page: "/dos-games/guo-ji-xiang-qi-wu-shu-dui-jue/",
   },
   {
@@ -4544,7 +4544,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 195,
     entry: "T2.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-xiang-qi-mo-ri-shen-pan-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E6%9C%AB%E6%97%A5%E5%AE%A1%E5%88%A4%E7%89%88.zip",
     page: "/dos-games/guo-ji-xiang-qi-mo-ri-shen-pan-ban/",
   },
   {
@@ -4555,7 +4555,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-chao-ji-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B6%85%E7%BA%A7%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/guo-ji-chao-ji-che-sai/",
   },
   {
@@ -4566,7 +4566,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1557,
     entry: "game.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-guang-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%85%89%E5%B2%9B.zip",
     page: "/dos-games/sheng-guang-dao/",
   },
   {
@@ -4577,7 +4577,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "DRAGO.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-cheng-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%8E%E5%8A%AB.zip",
     page: "/dos-games/sheng-cheng-jie/",
   },
   {
@@ -4588,7 +4588,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 302,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-yu-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%9F%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/sheng-yu-chuan-shuo/",
   },
   {
@@ -4599,7 +4599,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 482,
     entry: "SAN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-shao-nv-zhan-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%B0%91%E5%A5%B3%E6%88%98%E9%98%9F.zip",
     page: "/dos-games/sheng-shao-nv-zhan-dui/",
   },
   {
@@ -4610,7 +4610,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 588,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-shao-nv-zhan-dui-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%B0%91%E5%A5%B3%E6%88%98%E9%98%9F2.zip",
     page: "/dos-games/sheng-shao-nv-zhan-dui-2/",
   },
   {
@@ -4621,7 +4621,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1381,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-shao-nv-zhan-dui-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%B0%91%E5%A5%B3%E6%88%98%E9%98%9F3.zip",
     page: "/dos-games/sheng-shao-nv-zhan-dui-3/",
   },
   {
@@ -4632,7 +4632,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "ASH.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E5%BD%95.zip",
     page: "/dos-games/sheng-zhan-lu/",
   },
   {
@@ -4643,7 +4643,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 150,
     entry: "DS.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/sheng-zhan-wu-yu/",
   },
   {
@@ -4654,7 +4654,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-feng-yun-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E9%A3%8E%E4%BA%91%E5%BD%95.zip",
     page: "/dos-games/sheng-zhan-feng-yun-lu/",
   },
   {
@@ -4665,7 +4665,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 96,
     entry: "CB.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-jing-dui-zhang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E7%BB%8F%E9%98%9F%E9%95%BF.zip",
     page: "/dos-games/sheng-jing-dui-zhang/",
   },
   {
@@ -4676,7 +4676,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "VGAL.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-dan-xiao-lv-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E5%B0%8F%E6%97%85%E9%BC%A0.zip",
     page: "/dos-games/sheng-dan-xiao-lv-shu/",
   },
   {
@@ -4687,7 +4687,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "CC.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-dan-can-sha.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%A3%E8%AF%9E%E6%AE%8B%E6%9D%80.zip",
     page: "/dos-games/sheng-dan-can-sha/",
   },
   {
@@ -4698,7 +4698,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "play.bat",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-xia-ke-li-mu-lin-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E4%B8%8B%E5%85%8B%E9%87%8C%E5%A7%86%E6%9E%97%E5%AE%AB.zip",
     page: "/dos-games/di-xia-ke-li-mu-lin-gong/",
   },
   {
@@ -4709,7 +4709,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 301,
     entry: "UW.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-xia-chuang-shi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E4%B8%8B%E5%88%9B%E4%B8%96%E7%BA%AA.zip",
     page: "/dos-games/di-xia-chuang-shi-ji/",
   },
   {
@@ -4720,7 +4720,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 316,
     entry: "UW2.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-xia-chuang-shi-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E4%B8%8B%E5%88%9B%E4%B8%96%E7%BA%AA2.zip",
     page: "/dos-games/di-xia-chuang-shi-ji-2/",
   },
   {
@@ -4731,7 +4731,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "Quiver.bat",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-dong-shan-yao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E5%8A%A8%E5%B1%B1%E6%91%87.zip",
     page: "/dos-games/di-dong-shan-yao/",
   },
   {
@@ -4742,7 +4742,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1257,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-yu-ye-feng-kuang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%B9%9F%E7%96%AF%E7%8B%82.zip",
     page: "/dos-games/di-yu-ye-feng-kuang/",
   },
   {
@@ -4753,7 +4753,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "HELL2PAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-yu-fu-fei-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%BB%98%E8%B4%B9%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/di-yu-fu-fei-zhi-lv/",
   },
   {
@@ -4764,7 +4764,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "HELLFIRE.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-yu-huo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E7%81%AB.zip",
     page: "/dos-games/di-yu-huo/",
   },
   {
@@ -4775,7 +4775,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "HECK.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-yu-sai-bo-peng-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B.zip",
     page: "/dos-games/di-yu-sai-bo-peng-ke/",
   },
   {
@@ -4786,7 +4786,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "EARTH800.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-qiu-2140.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%90%832140.zip",
     page: "/dos-games/di-qiu-2140/",
   },
   {
@@ -4797,7 +4797,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "DBSIM.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-qiu-wei-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%90%83%E5%9B%B4%E6%94%BB.zip",
     page: "/dos-games/di-qiu-wei-gong/",
   },
   {
@@ -4808,7 +4808,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tan-ke-da-jue-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9D%A6%E5%85%8B%E5%A4%A7%E5%86%B3%E6%88%98.zip",
     page: "/dos-games/tan-ke-da-jue-zhan/",
   },
   {
@@ -4819,7 +4819,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "PLAY.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-ji-tong-zhi-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9F%83%E5%8F%8A%E7%BB%9F%E6%B2%BB%E8%80%85.zip",
     page: "/dos-games/ai-ji-tong-zhi-zhe/",
   },
   {
@@ -4830,7 +4830,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 244,
     entry: "START.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-yin-fen-lie.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E5%88%86%E8%A3%82.zip",
     page: "/dos-games/ji-yin-fen-lie/",
   },
   {
@@ -4841,7 +4841,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 324,
     entry: "GENE.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-yin-ji-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E6%9C%BA%E5%99%A8.zip",
     page: "/dos-games/ji-yin-ji-qi/",
   },
   {
@@ -4852,7 +4852,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 368,
     entry: "BIOFORGE.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-yin-duan-zao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E9%94%BB%E9%80%A0.zip",
     page: "/dos-games/ji-yin-duan-zao/",
   },
   {
@@ -4863,7 +4863,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "RAMPART.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-lei-fang-wei-zhan-ling-guo-zhan-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A0%A1%E5%9E%92%E9%98%B2%E5%8D%AB%E6%88%98%EF%BC%8F%E9%A2%86%E5%9B%BD%E6%88%98%E5%BD%B9.zip",
     page: "/dos-games/bao-lei-fang-wei-zhan-ling-guo-zhan-yi/",
   },
   {
@@ -4874,7 +4874,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 215,
     entry: "VIG1.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/ta-luo-si-de-jing-jue.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A1%94%E7%BD%97%E6%96%AF%E7%9A%84%E8%AD%A6%E8%A7%89.zip",
     page: "/dos-games/ta-luo-si-de-jing-jue/",
   },
   {
@@ -4885,7 +4885,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "HZEGA.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mu-di-sang-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A2%93%E5%9C%B0%E4%B8%A7%E5%B0%B8.zip",
     page: "/dos-games/mu-di-sang-shi/",
   },
   {
@@ -4896,7 +4896,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 80,
     entry: "run.bat",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mu-xue-zu-zhou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A2%93%E7%A9%B4%E8%AF%85%E5%92%92.zip",
     page: "/dos-games/mu-xue-zu-zhou/",
   },
   {
@@ -4907,7 +4907,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "UVCONFIG.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-zhi-ling-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A3%AE%E5%BF%97%E5%87%8C%E4%BA%91.zip",
     page: "/dos-games/zhuang-zhi-ling-yun/",
   },
   {
@@ -4918,7 +4918,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 541,
     entry: "SUMMER.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xia-ri-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%8F%E6%97%A5%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/xia-ri-wu-yu/",
   },
   {
@@ -4929,7 +4929,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "OUTRIDGE.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wai-tai-kong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%96%E5%A4%AA%E7%A9%BA.zip",
     page: "/dos-games/wai-tai-kong/",
   },
   {
@@ -4940,7 +4940,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wai-xing-da-fu-weng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
     page: "/dos-games/wai-xing-da-fu-weng/",
   },
   {
@@ -4951,7 +4951,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 481,
     entry: "LOGO.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wai-xing-ao-lin-pi-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B.zip",
     page: "/dos-games/wai-xing-ao-lin-pi-ke/",
   },
   {
@@ -4962,7 +4962,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "TURRICAN.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wai-xing-han-jiang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E6%82%8D%E5%B0%862.zip",
     page: "/dos-games/wai-xing-han-jiang-2/",
   },
   {
@@ -4973,7 +4973,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 236,
     entry: "DYLANDOG.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ye-zhi-wang-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%9C%E4%B9%8B%E4%BA%A1%E7%81%B5.zip",
     page: "/dos-games/ye-zhi-wang-ling/",
   },
   {
@@ -4984,7 +4984,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "BB.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-qi-ye-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E4%BC%81%E4%B8%9A%E5%AE%B6.zip",
     page: "/dos-games/da-qi-ye-jia/",
   },
   {
@@ -4995,7 +4995,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 109,
     entry: "BSDB.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-bing-ri-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%85%B5%E6%97%A5%E8%AE%B0.zip",
     page: "/dos-games/da-bing-ri-ji/",
   },
   {
@@ -5006,7 +5006,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "POPEYE.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-li-shui-shou-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%8A%9B%E6%B0%B4%E6%89%8B2.zip",
     page: "/dos-games/da-li-shui-shou-2/",
   },
   {
@@ -5017,7 +5017,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1002,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-tang-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/da-tang-ying-xiong-zhuan/",
   },
   {
@@ -5028,7 +5028,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "WOE.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-di-zhi-nu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%B9%8B%E6%80%92.zip",
     page: "/dos-games/da-di-zhi-nu/",
   },
   {
@@ -5039,7 +5039,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "MAIN.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-di-chuan-shuo-hei-an-wang-zuo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%BC%A0%E8%AF%B4%E9%BB%91%E6%9A%97%E7%8E%8B%E5%BA%A7.zip",
     page: "/dos-games/da-di-chuan-shuo-hei-an-wang-zuo/",
   },
   {
@@ -5050,7 +5050,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 457,
     entry: "YFZ.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-song-ying-hao-yue-fei-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AE%8B%E8%8B%B1%E8%B1%AA%E5%B2%B3%E9%A3%9E%E4%BC%A0.zip",
     page: "/dos-games/da-song-ying-hao-yue-fei-chuan/",
   },
   {
@@ -5061,7 +5061,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "Rich1.bat",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%811.zip",
     page: "/dos-games/da-fu-weng-1/",
   },
   {
@@ -5072,7 +5072,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 113,
     entry: "SS.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%812.zip",
     page: "/dos-games/da-fu-weng-2/",
   },
   {
@@ -5083,7 +5083,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%813.zip",
     page: "/dos-games/da-fu-weng-3/",
   },
   {
@@ -5094,7 +5094,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1654,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-cheng-shi-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%81%E5%9F%8E%E5%B8%82%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/da-fu-weng-cheng-shi-ying-xiong/",
   },
   {
@@ -5105,7 +5105,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2013,
     entry: "CRAZY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-zong-dong-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%81%E6%80%BB%E5%8A%A8%E5%91%98.zip",
     page: "/dos-games/da-fu-weng-zong-dong-yuan/",
   },
   {
@@ -5116,7 +5116,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-fu-weng-huan-you-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%81%E7%8E%AF%E6%B8%B8%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/da-fu-weng-huan-you-shi-jie/",
   },
   {
@@ -5127,7 +5127,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "CPGAME.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E5%BD%B9.zip",
     page: "/dos-games/da-zhan-yi/",
   },
   {
@@ -5138,7 +5138,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "CPGAME.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-yi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E5%BD%B92.zip",
     page: "/dos-games/da-zhan-yi-2/",
   },
   {
@@ -5149,7 +5149,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 572,
     entry: "WAR.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-lve.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E7%95%A5.zip",
     page: "/dos-games/da-zhan-lve/",
   },
   {
@@ -5160,7 +5160,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 715,
     entry: "WARSP.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-lve-sp.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E7%95%A5SP.zip",
     page: "/dos-games/da-zhan-lve-sp/",
   },
   {
@@ -5171,7 +5171,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 656,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-lve-sp2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E7%95%A5SP2.zip",
     page: "/dos-games/da-zhan-lve-sp2/",
   },
   {
@@ -5182,7 +5182,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 148,
     entry: "play.bat",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-shi-dai-de-gu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%97%B6%E4%BB%A3%E7%9A%84%E6%95%85%E4%BA%8B.zip",
     page: "/dos-games/da-shi-dai-de-gu-shi/",
   },
   {
@@ -5193,7 +5193,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 124,
     entry: "play.bat",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-ming-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%98%8E%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/da-ming-ying-xiong-zhuan/",
   },
   {
@@ -5204,7 +5204,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 378,
     entry: "HST.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hai-shang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E5%95%86.zip",
     page: "/dos-games/da-hai-shang/",
   },
   {
@@ -5215,7 +5215,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "BATTLESH.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hai-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%98.zip",
     page: "/dos-games/da-hai-zhan/",
   },
   {
@@ -5226,7 +5226,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "OJB.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hai-zhan-13.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%9813.zip",
     page: "/dos-games/da-hai-zhan-13/",
   },
   {
@@ -5237,7 +5237,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2368,
     entry: "TBRA.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hong-da-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E7%BA%A2%E5%A4%A7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/da-hong-da-mao-xian/",
   },
   {
@@ -5248,7 +5248,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "KOEI.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B71.zip",
     page: "/dos-games/da-hang-hai-1/",
   },
   {
@@ -5259,7 +5259,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B72.zip",
     page: "/dos-games/da-hang-hai-2/",
   },
   {
@@ -5270,7 +5270,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "KOEI.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-shi-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3.zip",
     page: "/dos-games/da-hang-hai-shi-dai/",
   },
   {
@@ -5281,7 +5281,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "KOUKAI2.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-shi-dai-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A32.zip",
     page: "/dos-games/da-hang-hai-shi-dai-2/",
   },
   {
@@ -5292,7 +5292,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "VIRGIN.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-ye-feng-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%8E%E9%A3%8E%E4%BA%91.zip",
     page: "/dos-games/da-ye-feng-yun/",
   },
   {
@@ -5303,7 +5303,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "KONG.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-jin-gang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%91%E5%88%9A.zip",
     page: "/dos-games/da-jin-gang/",
   },
   {
@@ -5314,7 +5314,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 96,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-mo-wang-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%AD%94%E7%8E%8B%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/da-mo-wang-wu-yu/",
   },
   {
@@ -5325,7 +5325,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 109,
     entry: "GANJA.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-ma-nong-fu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%BA%BB%E5%86%9C%E5%A4%AB.zip",
     page: "/dos-games/da-ma-nong-fu/",
   },
   {
@@ -5336,7 +5336,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "TG.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-xia-yi-tong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%B8%8B%E4%B8%80%E7%BB%9F.zip",
     page: "/dos-games/tian-xia-yi-tong/",
   },
   {
@@ -5347,7 +5347,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 415,
     entry: "INSTALL.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-xia-wu-di.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%B8%8B%E6%97%A0%E6%95%8C.zip",
     page: "/dos-games/tian-xia-wu-di/",
   },
   {
@@ -5358,7 +5358,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 993,
     entry: "PLAY.bat",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-q-nv-xue-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BFQ%E5%A5%B3%E5%AD%A6%E9%99%A2.zip",
     page: "/dos-games/tian-shi-q-nv-xue-yuan/",
   },
   {
@@ -5369,7 +5369,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 172,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-ren-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BF%E4%BB%BB%E5%8A%A1.zip",
     page: "/dos-games/tian-shi-ren-wu/",
   },
   {
@@ -5380,7 +5380,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "HGO.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/tian-shi-di-guo/",
   },
   {
@@ -5391,7 +5391,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "SETUP.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-di-guo-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9B%BD2.zip",
     page: "/dos-games/tian-shi-di-guo-2/",
   },
   {
@@ -5402,7 +5402,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 568,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-di-wu-yong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%9C%B0%E6%97%A0%E7%94%A8.zip",
     page: "/dos-games/tian-di-wu-yong/",
   },
   {
@@ -5413,7 +5413,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "HEAVEN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-tang-he-ren-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%A0%82%E5%92%8C%E4%BA%BA%E9%97%B4.zip",
     page: "/dos-games/tian-tang-he-ren-jian/",
   },
   {
@@ -5424,7 +5424,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 478,
     entry: "GAME.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-wai-jian-sheng-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%A4%96%E5%89%91%E5%9C%A3%E5%BD%95.zip",
     page: "/dos-games/tian-wai-jian-sheng-lu/",
   },
   {
@@ -5435,7 +5435,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 748,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-zhong-kui.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%B8%88%E9%92%9F%E9%A6%97.zip",
     page: "/dos-games/tian-shi-zhong-kui/",
   },
   {
@@ -5446,7 +5446,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 629,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-di-zhi-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%B8%9D%E4%B9%8B%E5%AD%90.zip",
     page: "/dos-games/tian-di-zhi-zi/",
   },
   {
@@ -5457,7 +5457,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "GENIUS.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-cai-bao-bao-da-jin-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%89%8D%E5%AE%9D%E5%AE%9D%E5%A4%A7%E8%BF%9B%E5%87%BB.zip",
     page: "/dos-games/tian-cai-bao-bao-da-jin-ji/",
   },
   {
@@ -5468,7 +5468,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "DESCENT.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-xuan-di-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%AC.zip",
     page: "/dos-games/tian-xuan-di-zhuan/",
   },
   {
@@ -5479,7 +5479,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "DESCENT2.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-xuan-di-zhuan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%AC2.zip",
     page: "/dos-games/tian-xuan-di-zhuan-2/",
   },
   {
@@ -5490,7 +5490,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "play.bat",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-qing-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%99%B4%E4%BC%A0.zip",
     page: "/dos-games/tian-qing-chuan/",
   },
   {
@@ -5501,7 +5501,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 209,
     entry: "SILK.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-can-bian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E8%9A%95%E5%8F%98.zip",
     page: "/dos-games/tian-can-bian/",
   },
   {
@@ -5512,7 +5512,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "skyroads.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-lu-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/tian-lu-sai-che/",
   },
   {
@@ -5523,7 +5523,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "SKYXMAS.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-lu-sai-che-sheng-dan-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6%E5%9C%A3%E8%AF%9E%E7%89%88.zip",
     page: "/dos-games/tian-lu-sai-che-sheng-dan-ban/",
   },
   {
@@ -5534,7 +5534,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1715,
     entry: "play.bat",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tian-long-ba-bu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8.zip",
     page: "/dos-games/tian-long-ba-bu/",
   },
   {
@@ -5545,7 +5545,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 785,
     entry: "Play.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-tian-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E5%A4%A9%E5%9B%BD.zip",
     page: "/dos-games/tai-ping-tian-guo/",
   },
   {
@@ -5556,7 +5556,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 112,
     entry: "START.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-gong-jue.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%85%AC%E7%88%B5.zip",
     page: "/dos-games/tai-ping-yang-gong-jue/",
   },
   {
@@ -5567,7 +5567,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 56,
     entry: "1946.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-wang-pai-fei-xing-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%8E%8B%E7%89%8C%E9%A3%9E%E8%A1%8C%E5%91%98.zip",
     page: "/dos-games/tai-ping-yang-wang-pai-fei-xing-yuan/",
   },
   {
@@ -5578,7 +5578,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "ACES.COM",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-wang-pai-fei-xing-yuan-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%8E%8B%E7%89%8C%E9%A3%9E%E8%A1%8C%E5%91%98%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/tai-ping-yang-wang-pai-fei-xing-yuan-zi-liao-pian/",
   },
   {
@@ -5589,7 +5589,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-tu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%AA%81%E5%87%BB.zip",
     page: "/dos-games/tai-ping-yang-tu-ji/",
   },
   {
@@ -5600,7 +5600,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "GWR.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-yong-shi-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E5%8B%87%E5%A3%AB%E9%BC%A0.zip",
     page: "/dos-games/tai-kong-yong-shi-shu/",
   },
   {
@@ -5611,7 +5611,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "SEXVIXEN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-nv-yao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E5%A5%B3%E5%A6%96.zip",
     page: "/dos-games/tai-kong-nv-yao/",
   },
   {
@@ -5622,7 +5622,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "PLAN9.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-di-9-ji-hua.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E7%AC%AC9%E8%AE%A1%E5%88%92.zip",
     page: "/dos-games/tai-kong-di-9-ji-hua/",
   },
   {
@@ -5633,7 +5633,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "bats.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-bian-fu-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E8%9D%99%E8%9D%A0%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/tai-kong-bian-fu-da-zhan/",
   },
   {
@@ -5644,7 +5644,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "BARIS.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-ji-hua.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E8%AE%A1%E5%88%92.zip",
     page: "/dos-games/tai-kong-ji-hua/",
   },
   {
@@ -5655,7 +5655,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 142,
     entry: "START.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-lu-bin-xun.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E9%B2%81%E5%AE%BE%E9%80%8A.zip",
     page: "/dos-games/tai-kong-lu-bin-xun/",
   },
   {
@@ -5666,7 +5666,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 72,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-ge-li-zhi-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0.zip",
     page: "/dos-games/tai-ge-li-zhi-chuan/",
   },
   {
@@ -5677,7 +5677,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "FF.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-jia-shi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E6%8E%A7%E9%A9%BE%E9%A9%B62.zip",
     page: "/dos-games/shi-kong-jia-shi-2/",
   },
   {
@@ -5688,7 +5688,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-zhi-di-ying-xiong-shi-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E4%B9%8B%E5%9C%B0%E8%8B%B1%E9%9B%84%E6%97%B6%E4%BB%A3.zip",
     page: "/dos-games/shi-luo-zhi-di-ying-xiong-shi-dai/",
   },
   {
@@ -5699,7 +5699,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-da-di.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E5%A4%A7%E5%9C%B0.zip",
     page: "/dos-games/shi-luo-de-da-di/",
   },
   {
@@ -5710,7 +5710,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 992,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-feng-yin.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E5%B0%81%E5%8D%B0.zip",
     page: "/dos-games/shi-luo-de-feng-yin/",
   },
   {
@@ -5721,7 +5721,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "TRIBE.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-shi-zu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E6%B0%8F%E6%97%8F.zip",
     page: "/dos-games/shi-luo-de-shi-zu/",
   },
   {
@@ -5732,7 +5732,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "ARMAETH.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-wang-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%8E%8B%E5%9B%BD.zip",
     page: "/dos-games/shi-luo-de-wang-guo/",
   },
   {
@@ -5743,7 +5743,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "VIKINGS.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-wei-jing-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA.zip",
     page: "/dos-games/shi-luo-de-wei-jing-ren/",
   },
   {
@@ -5754,7 +5754,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 834,
     entry: "LV2.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-wei-jing-ren-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA2.zip",
     page: "/dos-games/shi-luo-de-wei-jing-ren-2/",
   },
   {
@@ -5765,7 +5765,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 576,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tou-hao-tong-ji-fan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B4%E5%8F%B7%E9%80%9A%E7%BC%89%E7%8A%AF.zip",
     page: "/dos-games/tou-hao-tong-ji-fan/",
   },
   {
@@ -5776,7 +5776,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 104,
     entry: "SKULL.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tou-gu-yu-ku-lou-shi-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%B4%E9%AA%A8%E4%B8%8E%E9%AA%B7%E9%AB%85%E5%8D%81%E5%AD%97.zip",
     page: "/dos-games/tou-gu-yu-ku-lou-shi-zi/",
   },
   {
@@ -5787,7 +5787,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "CAPFLAG2.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/duo-qi-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A4%BA%E6%97%97%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/duo-qi-da-zhan/",
   },
   {
@@ -5798,7 +5798,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "ZACK.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-miao-de-zha-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%87%E5%A6%99%E7%9A%84%E6%89%8E%E5%85%8B.zip",
     page: "/dos-games/qi-miao-de-zha-ke/",
   },
   {
@@ -5809,7 +5809,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-huan-you-xi-san-he-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%87%E5%B9%BB%E6%B8%B8%E6%88%8F%E4%B8%89%E5%90%88%E4%B8%80.zip",
     page: "/dos-games/qi-huan-you-xi-san-he-yi/",
   },
   {
@@ -5820,7 +5820,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "GADGET.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-tan-jia-jie-te-quan-qiu-kong-huang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%87%E6%8E%A2%E5%8A%A0%E6%9D%B0%E7%89%B9%E5%85%A8%E7%90%83%E6%81%90%E6%85%8C.zip",
     page: "/dos-games/qi-tan-jia-jie-te-quan-qiu-kong-huang/",
   },
   {
@@ -5831,7 +5831,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 568,
     entry: "MAIN.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-men-dun-jia-zhi-jiu-wu-zhen-long.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E4%B9%8B%E4%B9%9D%E4%BA%94%E7%9C%9F%E9%BE%99.zip",
     page: "/dos-games/qi-men-dun-jia-zhi-jiu-wu-zhen-long/",
   },
   {
@@ -5842,7 +5842,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "ARNIE2.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ao-ni-da-zuo-zhan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%A5%E5%B0%BC%E5%A4%A7%E4%BD%9C%E6%88%982.zip",
     page: "/dos-games/ao-ni-da-zuo-zhan-2/",
   },
   {
@@ -5853,7 +5853,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 187,
     entry: "START.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nv-huang-bei-ri.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%9A%87%E6%9D%AF%28%E6%97%A5%29.zip",
     page: "/dos-games/nv-huang-bei-ri/",
   },
   {
@@ -5864,7 +5864,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "runme.bat",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nv-huang-du-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%9A%87%E8%B5%8C%E5%9C%BA.zip",
     page: "/dos-games/nv-huang-du-chang/",
   },
   {
@@ -5875,7 +5875,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "MADE.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nv-shen-zhi-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%A5%9E%E4%B9%8B%E7%BF%BC.zip",
     page: "/dos-games/nv-shen-zhi-yi/",
   },
   {
@@ -5886,7 +5886,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 244,
     entry: "PLAY.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nv-shen-xue-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%A5%9E%E5%AD%A6%E9%99%A2.zip",
     page: "/dos-games/nv-shen-xue-yuan/",
   },
   {
@@ -5897,7 +5897,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "WEIRD.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hao-meng-lian-chuang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%BD%E6%A2%A6%E8%BF%9E%E5%BA%8A.zip",
     page: "/dos-games/hao-meng-lian-chuang/",
   },
   {
@@ -5908,7 +5908,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "HM.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hao-lai-wu-mou-sha-an.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A5%BD%E8%8E%B1%E5%9D%9E%E8%B0%8B%E6%9D%80%E6%A1%88.zip",
     page: "/dos-games/hao-lai-wu-mou-sha-an/",
   },
   {
@@ -5919,7 +5919,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "BOOK.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ru-lai-jin-gang-quan-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A6%82%E6%9D%A5%E9%87%91%E5%88%9A%E6%8B%B3%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/ru-lai-jin-gang-quan-chuan-qi/",
   },
   {
@@ -5930,7 +5930,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 579,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yao-ji-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A6%96%E5%87%BB%E9%98%9F.zip",
     page: "/dos-games/yao-ji-dui/",
   },
   {
@@ -5941,7 +5941,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 487,
     entry: "2189.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yao-ta-2189.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A6%96%E5%A1%942189.zip",
     page: "/dos-games/yao-ta-2189/",
   },
   {
@@ -5952,7 +5952,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 311,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yao-mo-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A6%96%E9%AD%94%E9%81%93.zip",
     page: "/dos-games/yao-mo-dao/",
   },
   {
@@ -5963,7 +5963,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "ARIA.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/miao-hu-shen-tan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A6%99%E7%8B%90%E7%A5%9E%E6%8E%A2.zip",
     page: "/dos-games/miao-hu-shen-tan/",
   },
   {
@@ -5974,7 +5974,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 155,
     entry: "GO.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-zi-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A8%81%E5%85%B9%E5%85%94.zip",
     page: "/dos-games/wei-zi-tu/",
   },
   {
@@ -5985,7 +5985,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "WILLY.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-li-de-shu-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A8%81%E5%88%A9%E7%9A%84%E6%9A%91%E5%81%87.zip",
     page: "/dos-games/wei-li-de-shu-jia/",
   },
   {
@@ -5996,7 +5996,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 37,
     entry: "JO.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiao-de-ke-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%A8%87%E7%9A%84%E5%AE%A2%E4%BA%BA.zip",
     page: "/dos-games/jiao-de-ke-ren/",
   },
   {
@@ -6007,7 +6007,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 484,
     entry: "PLAY.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-xiao-chun-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AC%89%E7%AC%91%E6%98%A5%E7%A7%8B.zip",
     page: "/dos-games/xi-xiao-chun-qiu/",
   },
   {
@@ -6018,7 +6018,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "zzt.exe",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zi-fu-shi-jie-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AD%97%E7%AC%A6%E4%B8%96%E7%95%8C%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/zi-fu-shi-jie-li-xian-ji/",
   },
   {
@@ -6029,7 +6029,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 138,
     entry: "SETUP.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-dan-qiang-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AD%A4%E8%83%86%E6%9E%AA%E6%89%8B.zip",
     page: "/dos-games/gu-dan-qiang-shou/",
   },
   {
@@ -6040,7 +6040,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 140,
     entry: "RK.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-yuan-tui-mo-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AD%A6%E5%9B%AD%E9%80%80%E9%AD%94%E4%BC%A0.zip",
     page: "/dos-games/xue-yuan-tui-mo-chuan/",
   },
   {
@@ -6051,7 +6051,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "SQ4.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-chuan-qi-7.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E4%BC%A0%E5%A5%877.zip",
     page: "/dos-games/yu-zhou-chuan-qi-7/",
   },
   {
@@ -6062,7 +6062,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "intro.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-shi-zi-jun.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%8D%81%E5%AD%97%E5%86%9B.zip",
     page: "/dos-games/yu-zhou-shi-zi-jun/",
   },
   {
@@ -6073,7 +6073,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "UNIVERSE.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-da-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%A4%A7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/yu-zhou-da-mao-xian/",
   },
   {
@@ -6084,7 +6084,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 382,
     entry: "HULK.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-fang-zhou-tai-kong-ju-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E6%96%B9%E8%88%9F%EF%BC%8F%E5%A4%AA%E7%A9%BA%E5%B7%A8%E4%BA%BA.zip",
     page: "/dos-games/yu-zhou-fang-zhou-tai-kong-ju-ren/",
   },
   {
@@ -6095,7 +6095,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "runme.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-wang-pai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%8E%8B%E7%89%8C.zip",
     page: "/dos-games/yu-zhou-wang-pai/",
   },
   {
@@ -6106,7 +6106,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "sa2.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-wang-pai-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%8E%8B%E7%89%8C2.zip",
     page: "/dos-games/yu-zhou-wang-pai-2/",
   },
   {
@@ -6117,7 +6117,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "SILPHEED.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-shen-feng-hao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%A5%9E%E9%A3%8E%E5%8F%B7.zip",
     page: "/dos-games/yu-zhou-shen-feng-hao/",
   },
   {
@@ -6128,7 +6128,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/yu-zhou-ying-xiong/",
   },
   {
@@ -6139,7 +6139,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "game.exe",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-ya-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%89%E9%9B%85%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/an-ya-zhan-ji/",
   },
   {
@@ -6150,7 +6150,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 217,
     entry: "dosbox.bat",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wan-mei-jiang-jun-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%8C%E7%BE%8E%E5%B0%86%E5%86%9B2.zip",
     page: "/dos-games/wan-mei-jiang-jun-2/",
   },
   {
@@ -6161,7 +6161,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guan-neng-xi-jiao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%98%E8%83%BD%E4%B9%A0%E6%95%99.zip",
     page: "/dos-games/guan-neng-xi-jiao/",
   },
   {
@@ -6172,7 +6172,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "XIXIT.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-shi-mi-zhen.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%9D%E7%9F%B3%E8%BF%B7%E9%98%B5.zip",
     page: "/dos-games/bao-shi-mi-zhen/",
   },
   {
@@ -6183,7 +6183,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "TT.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-zang-xian-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%9D%E8%97%8F%E9%99%B7%E9%98%B1.zip",
     page: "/dos-games/bao-zang-xian-jing/",
   },
   {
@@ -6194,7 +6194,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 124,
     entry: "ERIC.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-li-bao-qi-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%9D%E9%87%8C%E5%AE%9D%E6%B0%94%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/bao-li-bao-qi-qi-shi/",
   },
   {
@@ -6205,7 +6205,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 145,
     entry: "entity.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-ti.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AE%9E%E4%BD%93.zip",
     page: "/dos-games/shi-ti/",
   },
   {
@@ -6216,7 +6216,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-jia-tian-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B.zip",
     page: "/dos-games/fu-jia-tian-xia/",
   },
   {
@@ -6227,7 +6227,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 250,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-jia-tian-xia-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B2.zip",
     page: "/dos-games/fu-jia-tian-xia-2/",
   },
   {
@@ -6238,7 +6238,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-gui-lie-che.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%8C%E8%B4%B5%E5%88%97%E8%BD%A6.zip",
     page: "/dos-games/fu-gui-lie-che/",
   },
   {
@@ -6249,7 +6249,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "FABLE.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-yan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%93%E8%A8%80.zip",
     page: "/dos-games/yu-yan/",
   },
   {
@@ -6260,7 +6260,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 112,
     entry: "ANTAGONY.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dui-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%B9%E6%89%8B.zip",
     page: "/dos-games/dui-shou/",
   },
   {
@@ -6271,7 +6271,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 284,
     entry: "whenaria.exe",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dui-kang-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%B9%E6%8A%97%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/dui-kang-zhan-zheng/",
   },
   {
@@ -6282,7 +6282,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "RIPTIDE.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xun-zhao-ji-liu-bo-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E6%BF%80%E6%B5%81%E5%8D%9A%E5%A3%AB.zip",
     page: "/dos-games/xun-zhao-ji-liu-bo-shi/",
   },
   {
@@ -6293,7 +6293,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xun-zhao-jing-yu-zuo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E9%B2%B8%E9%B1%BC%E5%BA%A7.zip",
     page: "/dos-games/xun-zhao-jing-yu-zuo/",
   },
   {
@@ -6304,7 +6304,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "GAME.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-shen-bang-ge-dou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%81%E7%A5%9E%E6%A6%9C%E6%A0%BC%E6%96%97.zip",
     page: "/dos-games/feng-shen-bang-ge-dou/",
   },
   {
@@ -6315,7 +6315,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 41,
     entry: "GS.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-shen-yan-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89.zip",
     page: "/dos-games/feng-shen-yan-yi/",
   },
   {
@@ -6326,7 +6326,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "BALL.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/she-bo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%84%E6%B3%A2.zip",
     page: "/dos-games/she-bo/",
   },
   {
@@ -6337,7 +6337,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/she-dou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%84%E8%B1%86.zip",
     page: "/dos-games/she-dou/",
   },
   {
@@ -6348,7 +6348,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 296,
     entry: "STRIKER.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/she-men-95.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%84%E9%97%A895.zip",
     page: "/dos-games/she-men-95/",
   },
   {
@@ -6359,7 +6359,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 169,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/she-diao-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/she-diao-ying-xiong-zhuan/",
   },
   {
@@ -6370,7 +6370,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 80,
     entry: "HOMEY.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-chou-he-mi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E4%B8%91%E8%8D%B7%E7%B1%B3.zip",
     page: "/dos-games/xiao-chou-he-mi/",
   },
   {
@@ -6381,7 +6381,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "KING.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-ren-wu-kuang-xiang-qu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%8B%82%E6%83%B3%E6%9B%B2.zip",
     page: "/dos-games/xiao-ren-wu-kuang-xiang-qu/",
   },
   {
@@ -6392,7 +6392,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 99,
     entry: "ELF2V.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-yao-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E5%A6%96%E7%B2%BE.zip",
     page: "/dos-games/xiao-yao-jing/",
   },
   {
@@ -6403,7 +6403,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 92,
     entry: "DIVIL.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-e-mo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%81%B6%E9%AD%94.zip",
     page: "/dos-games/xiao-e-mo/",
   },
   {
@@ -6414,7 +6414,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 422,
     entry: "SEX.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-hui-de-xing-zhi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%83%A0%E7%9A%84%E6%80%A7%E7%9F%A5%E8%AF%86.zip",
     page: "/dos-games/xiao-hui-de-xing-zhi-shi/",
   },
   {
@@ -6425,7 +6425,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "LEMRIS.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-lv-shu-e-luo-si.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%97%85%E9%BC%A0%E4%BF%84%E7%BD%97%E6%96%AF.zip",
     page: "/dos-games/xiao-lv-shu-e-luo-si/",
   },
   {
@@ -6436,7 +6436,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "LF1.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-peng-you-qi-da-jiao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%90%E6%89%93%E4%BA%A4.zip",
     page: "/dos-games/xiao-peng-you-qi-da-jiao/",
   },
   {
@@ -6447,7 +6447,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "GAME.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-sha-mi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%B2%99%E5%BC%A5.zip",
     page: "/dos-games/xiao-sha-mi/",
   },
   {
@@ -6458,7 +6458,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "PEE.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-jing-ling-li-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E7%B2%BE%E7%81%B5%E5%8E%86%E9%99%A9.zip",
     page: "/dos-games/xiao-jing-ling-li-xian/",
   },
   {
@@ -6469,7 +6469,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "galaxia.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mi-feng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82.zip",
     page: "/dos-games/xiao-mi-feng/",
   },
   {
@@ -6480,7 +6480,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "inv78.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mi-feng-chu-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82%E5%88%9D%E4%BB%A3.zip",
     page: "/dos-games/xiao-mi-feng-chu-dai/",
   },
   {
@@ -6491,7 +6491,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "PEPPER.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-la-jiao-shi-kong-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%BE%A3%E6%A4%92%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/xiao-la-jiao-shi-kong-zhi-lv/",
   },
   {
@@ -6502,7 +6502,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "PAN.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-fei-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip",
     page: "/dos-games/xiao-fei-xia/",
   },
   {
@@ -6513,7 +6513,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "HA.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-gui-dang-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AC%BC%E5%BD%93%E5%AE%B6.zip",
     page: "/dos-games/xiao-gui-dang-jia/",
   },
   {
@@ -6524,7 +6524,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "HA2.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-gui-dang-jia-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AC%BC%E5%BD%93%E5%AE%B62.zip",
     page: "/dos-games/xiao-gui-dang-jia-2/",
   },
   {
@@ -6535,7 +6535,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "GREMLINS.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mo-guai-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%80%AA2.zip",
     page: "/dos-games/xiao-mo-guai-2/",
   },
   {
@@ -6546,7 +6546,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 163,
     entry: "SPIDER.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mo-xing-zhi-zhu-kong-ju-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%98%9F%EF%BC%8F%E8%9C%98%E8%9B%9B%E6%81%90%E6%83%A7%E7%97%87.zip",
     page: "/dos-games/xiao-mo-xing-zhi-zhu-kong-ju-zheng/",
   },
   {
@@ -6557,7 +6557,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "TEENAGNT.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shao-nian-zhen-tan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%91%E5%B9%B4%E4%BE%A6%E6%8E%A2.zip",
     page: "/dos-games/shao-nian-zhen-tan/",
   },
   {
@@ -6568,7 +6568,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 278,
     entry: "SABRE.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-dao-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%96%E5%88%80%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/jian-dao-bu-dui/",
   },
   {
@@ -6579,7 +6579,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "ADV.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/ni-pang-shi-wu-suo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B0%BC%E6%97%81%E4%BA%8B%E5%8A%A1%E6%89%80.zip",
     page: "/dos-games/ni-pang-shi-wu-suo/",
   },
   {
@@ -6590,7 +6590,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "SAMNMAX.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shan-mu-he-ma-ke-si.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B1%B1%E5%A7%86%E5%92%8C%E9%A9%AC%E5%85%8B%E6%80%9D.zip",
     page: "/dos-games/shan-mu-he-ma-ke-si/",
   },
   {
@@ -6601,7 +6601,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 644,
     entry: "DOSBOX.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shan-hai-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B1%B1%E6%B5%B7%E7%BB%8F.zip",
     page: "/dos-games/shan-hai-jing/",
   },
   {
@@ -6612,7 +6612,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "SERF.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gong-ren-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/gong-ren-wu-yu/",
   },
   {
@@ -6623,7 +6623,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 356,
     entry: "S2.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gong-ren-wu-yu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD2.zip",
     page: "/dos-games/gong-ren-wu-yu-2/",
   },
   {
@@ -6634,7 +6634,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "AARGH.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ju-shou-qin-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%A8%E5%85%BD%E4%BE%B5%E8%A2%AD.zip",
     page: "/dos-games/ju-shou-qin-xi/",
   },
   {
@@ -6645,7 +6645,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "HUGECAVE.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ju-ku-wen-zi-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%A8%E7%AA%9F%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/ju-ku-wen-zi-mao-xian/",
   },
   {
@@ -6656,7 +6656,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 588,
     entry: "WV.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ju-jing-yu-zhou-hao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%A8%E9%B2%B8%E5%AE%87%E5%AE%99%E5%8F%B7.zip",
     page: "/dos-games/ju-jing-yu-zhou-hao/",
   },
   {
@@ -6667,7 +6667,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "CAULDRON.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-da-gan-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%A4%A7%E5%9D%A9%E5%9F%9A.zip",
     page: "/dos-games/wu-shi-da-gan-guo/",
   },
   {
@@ -6678,7 +6678,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "S101MAIN.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-1-zhui-nv-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A11%E8%BF%BD%E5%A5%B3%E8%AE%B0.zip",
     page: "/dos-games/wu-shi-xue-xiao-1-zhui-nv-ji/",
   },
   {
@@ -6689,7 +6689,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "S201MAIN.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-2-ru-xue-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A12%E5%85%A5%E5%AD%A6%E8%AE%B0.zip",
     page: "/dos-games/wu-shi-xue-xiao-2-ru-xue-ji/",
   },
   {
@@ -6700,7 +6700,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 103,
     entry: "S301MAIN.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-3-chun-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A13%E6%98%A5%E5%81%87.zip",
     page: "/dos-games/wu-shi-xue-xiao-3-chun-jia/",
   },
   {
@@ -6711,7 +6711,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "WIZ1.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF1.zip",
     page: "/dos-games/wu-shu-1/",
   },
   {
@@ -6722,7 +6722,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "WIZ2.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF2.zip",
     page: "/dos-games/wu-shu-2/",
   },
   {
@@ -6733,7 +6733,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "WIZDOS.COM",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF3.zip",
     page: "/dos-games/wu-shu-3/",
   },
   {
@@ -6744,7 +6744,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "WIZ4.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-4.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF4.zip",
     page: "/dos-games/wu-shu-4/",
   },
   {
@@ -6755,7 +6755,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "WIZ5.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-5.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF5.zip",
     page: "/dos-games/wu-shu-5/",
   },
   {
@@ -6766,7 +6766,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 150,
     entry: "PLAYBANE.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-6.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF6.zip",
     page: "/dos-games/wu-shu-6/",
   },
   {
@@ -6777,7 +6777,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 241,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-7-shi-luo-de-jia-di-ya.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF7%E5%A4%B1%E8%90%BD%E7%9A%84%E5%8A%A0%E5%B8%9D%E4%BA%9A.zip",
     page: "/dos-games/wu-shu-7-shi-luo-de-jia-di-ya/",
   },
   {
@@ -6788,7 +6788,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 75,
     entry: "WH.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-mo-tian-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E9%AD%94%E5%A4%A9%E5%A2%83.zip",
     page: "/dos-games/wu-mo-tian-jing/",
   },
   {
@@ -6799,7 +6799,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "WH2.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-mo-tian-jing-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%AB%E9%AD%94%E5%A4%A9%E5%A2%832.zip",
     page: "/dos-games/wu-mo-tian-jing-2/",
   },
   {
@@ -6810,7 +6810,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 95,
     entry: "START.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ba-ke-luo-jie-mo-ri-dao-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E6%9C%AB%E6%97%A5%E5%80%92%E6%95%B0.zip",
     page: "/dos-games/ba-ke-luo-jie-mo-ri-dao-shu/",
   },
   {
@@ -6821,7 +6821,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "START.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ba-ke-luo-jie-ju-zhen-li-fang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E7%9F%A9%E9%98%B5%E7%AB%8B%E6%96%B9.zip",
     page: "/dos-games/ba-ke-luo-jie-ju-zhen-li-fang/",
   },
   {
@@ -6832,7 +6832,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "BUS.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ba-shi-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%A3%AB%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/ba-shi-di-guo/",
   },
   {
@@ -6843,7 +6843,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "PLANET.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-lai-ke-zhi-shi-yi-xing-tu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip",
     page: "/dos-games/bu-lai-ke-zhi-shi-yi-xing-tu-ji/",
   },
   {
@@ -6854,7 +6854,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "BSTONE.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-lai-ke-zhi-shi-yi-xing-huang-jin.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E9%BB%84%E9%87%91.zip",
     page: "/dos-games/bu-lai-ke-zhi-shi-yi-xing-huang-jin/",
   },
   {
@@ -6865,7 +6865,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 141,
     entry: "E2.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-guo-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B8%9D%E5%9B%BD2.zip",
     page: "/dos-games/di-guo-2/",
   },
   {
@@ -6876,7 +6876,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-guo-de-guang-rong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B8%9D%E5%9B%BD%E7%9A%84%E5%85%89%E8%8D%A3.zip",
     page: "/dos-games/di-guo-de-guang-rong/",
   },
   {
@@ -6887,7 +6887,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "EMPIRE.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-guo-hao-hua-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B8%9D%E5%9B%BD%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
     page: "/dos-games/di-guo-hao-hua-ban/",
   },
   {
@@ -6898,7 +6898,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-fu-ren-sheng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%B8%E7%A6%8F%E4%BA%BA%E7%94%9F.zip",
     page: "/dos-games/xing-fu-ren-sheng/",
   },
   {
@@ -6909,7 +6909,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "BTH.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-yun-du-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%B8%E8%BF%90%E8%B5%8C%E5%9C%BA.zip",
     page: "/dos-games/xing-yun-du-chang/",
   },
   {
@@ -6920,7 +6920,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "GENSE.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-shi-xi-tan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E4%B8%96%E5%96%9C%E8%B0%AD.zip",
     page: "/dos-games/huan-shi-xi-tan/",
   },
   {
@@ -6931,7 +6931,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-ying-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E5%BD%B1%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/huan-ying-ying-xiong/",
   },
   {
@@ -6942,7 +6942,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 255,
     entry: "JHL.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-qi-xia-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E5%A5%87%E4%BE%A0%E4%BC%A0.zip",
     page: "/dos-games/huan-xiang-qi-xia-chuan/",
   },
   {
@@ -6953,7 +6953,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 139,
     entry: "STAGE_1.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-huo-yan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%81%AB%E7%84%B0.zip",
     page: "/dos-games/huan-xiang-huo-yan/",
   },
   {
@@ -6964,7 +6964,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "LSL1.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B4.zip",
     page: "/dos-games/huan-xiang-kong-jian/",
   },
   {
@@ -6975,7 +6975,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "LSL2.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B42.zip",
     page: "/dos-games/huan-xiang-kong-jian-2/",
   },
   {
@@ -6986,7 +6986,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 69,
     entry: "SIERRA.COM",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B43.zip",
     page: "/dos-games/huan-xiang-kong-jian-3/",
   },
   {
@@ -6997,7 +6997,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "SCIDHUV.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-5.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B45.zip",
     page: "/dos-games/huan-xiang-kong-jian-5/",
   },
   {
@@ -7008,7 +7008,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 94,
     entry: "SIERRA.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-6.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B46.zip",
     page: "/dos-games/huan-xiang-kong-jian-6/",
   },
   {
@@ -7019,7 +7019,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 346,
     entry: "Play.com",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-jie-ba-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E7%95%8C%E9%9C%B8%E8%80%85.zip",
     page: "/dos-games/huan-jie-ba-zhe/",
   },
   {
@@ -7030,7 +7030,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "start.bat",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-dan-zhu-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
     page: "/dos-games/huan-xiang-dan-zhu-tai/",
   },
   {
@@ -7041,7 +7041,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 285,
     entry: "dif2.bat",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-lei-dian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E9%9B%B7%E7%94%B5.zip",
     page: "/dos-games/huan-xiang-lei-dian/",
   },
   {
@@ -7052,7 +7052,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "HILLSFAR.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-cheng-bao-zang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BD%E5%9F%8E%E5%AE%9D%E8%97%8F.zip",
     page: "/dos-games/you-cheng-bao-zang/",
   },
   {
@@ -7063,7 +7063,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1032,
     entry: "FULL.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-fu-1-wei-zhi-di-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE1%E6%9C%AA%E7%9F%A5%E6%95%8C%E4%BA%BA.zip",
     page: "/dos-games/you-fu-1-wei-zhi-di-ren/",
   },
   {
@@ -7074,7 +7074,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1175,
     entry: "START.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-fu-2-shen-hai-zhi-mi-ti.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE2%E6%B7%B1%E6%B5%B7%E4%B9%8B%E8%B0%9C%E9%A2%98.zip",
     page: "/dos-games/you-fu-2-shen-hai-zhi-mi-ti/",
   },
   {
@@ -7085,7 +7085,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4244,
     entry: "Tacp.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-fu-3-tian-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE3%E5%A4%A9%E5%90%AF.zip",
     page: "/dos-games/you-fu-3-tian-qi/",
   },
   {
@@ -7096,7 +7096,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4144,
     entry: "XCOMAPOC.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-fu-3-tian-qi-guang-die-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE3%E5%A4%A9%E5%90%AF%E5%85%89%E7%A2%9F%E7%89%88.zip",
     page: "/dos-games/you-fu-3-tian-qi-guang-die-ban/",
   },
   {
@@ -7107,7 +7107,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "ALONE.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-ling-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%B9%BD%E7%81%B5%E9%A6%86.zip",
     page: "/dos-games/you-ling-guan/",
   },
   {
@@ -7118,7 +7118,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 332,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-te-lv-qi-che-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BA%95%E7%89%B9%E5%BE%8B%E6%B1%BD%E8%BD%A6%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/di-te-lv-qi-che-da-heng/",
   },
   {
@@ -7129,7 +7129,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "WL.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BA%9F%E5%9C%9F.zip",
     page: "/dos-games/fei-tu/",
   },
   {
@@ -7140,7 +7140,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "GAME.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-zhu-da-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BB%BA%E7%AD%91%E5%A4%A7%E5%B8%88.zip",
     page: "/dos-games/jian-zhu-da-shi/",
   },
   {
@@ -7151,7 +7151,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 325,
     entry: "_KO96.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-qiu-96.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%80%E7%90%8396.zip",
     page: "/dos-games/kai-qiu-96/",
   },
   {
@@ -7162,7 +7162,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 285,
     entry: "KO97.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-qiu-97.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%80%E7%90%8397.zip",
     page: "/dos-games/kai-qiu-97/",
   },
   {
@@ -7173,7 +7173,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 135,
     entry: "JACK.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kai-tang-shou-jie-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%80%E8%86%9B%E6%89%8B%E6%9D%B0%E5%85%8B.zip",
     page: "/dos-games/kai-tang-shou-jie-ke/",
   },
   {
@@ -7184,7 +7184,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 167,
     entry: "GAME.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-yu-shen-bing-zhu-shen-zu-zhou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%9F%9F%E7%A5%9E%E5%85%B5%E8%AF%B8%E7%A5%9E%E8%AF%85%E5%92%92.zip",
     page: "/dos-games/yi-yu-shen-bing-zhu-shen-zu-zhou/",
   },
   {
@@ -7195,7 +7195,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 751,
     entry: "TRILOGY.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-san-bu-qu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E4%B8%89%E9%83%A8%E6%9B%B2.zip",
     page: "/dos-games/yi-xing-san-bu-qu/",
   },
   {
@@ -7206,7 +7206,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 940,
     entry: "AI.COM",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-shi-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E4%BA%8B%E4%BB%B6.zip",
     page: "/dos-games/yi-xing-shi-jian/",
   },
   {
@@ -7217,7 +7217,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-da-jin-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E5%A4%A7%E8%BF%9B%E5%87%BB.zip",
     page: "/dos-games/yi-xing-da-jin-ji/",
   },
   {
@@ -7228,7 +7228,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "LOADER.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-ba-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E5%B7%B4%E8%B4%A1.zip",
     page: "/dos-games/yi-xing-ba-gong/",
   },
   {
@@ -7239,7 +7239,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "PHOBIA.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-kong-ju-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%81%90%E6%83%A7%E7%97%87.zip",
     page: "/dos-games/yi-xing-kong-ju-zheng/",
   },
   {
@@ -7250,7 +7250,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 111,
     entry: "21TETRIS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-fang-kuai.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%96%B9%E5%9D%97.zip",
     page: "/dos-games/yi-xing-fang-kuai/",
   },
   {
@@ -7261,7 +7261,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "HARRY.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-can-sha-wan-sheng-jie-ha-li.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%AE%8B%E6%9D%80%EF%BC%9A%E4%B8%87%E5%9C%A3%E8%8A%82%E5%93%88%E5%88%A9.zip",
     page: "/dos-games/yi-xing-can-sha-wan-sheng-jie-ha-li/",
   },
   {
@@ -7272,7 +7272,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 130,
     entry: "alien.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-fan-zhi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%96.zip",
     page: "/dos-games/yi-xing-fan-zhi/",
   },
   {
@@ -7283,7 +7283,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "TA.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-fan-zhi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%962.zip",
     page: "/dos-games/yi-xing-fan-zhi-2/",
   },
   {
@@ -7294,7 +7294,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "ACABAL.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-yin-mou.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E9%98%B4%E8%B0%8B.zip",
     page: "/dos-games/yi-xing-yin-mou/",
   },
   {
@@ -7305,7 +7305,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "HEXEN.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%B7%AB%E5%B8%88.zip",
     page: "/dos-games/yi-jiao-wu-shi/",
   },
   {
@@ -7316,7 +7316,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 123,
     entry: "HEXX.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-wu-shi-rpg.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%B7%AB%E5%B8%88RPG.zip",
     page: "/dos-games/yi-jiao-wu-shi-rpg/",
   },
   {
@@ -7327,7 +7327,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "HEXEN.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-wu-shi-hei-an-jiao-tang-de-si-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%B7%AB%E5%B8%88%E9%BB%91%E6%9A%97%E6%95%99%E5%A0%82%E7%9A%84%E6%AD%BB%E7%A5%9E.zip",
     page: "/dos-games/yi-jiao-wu-shi-hei-an-jiao-tang-de-si-shen/",
   },
   {
@@ -7338,7 +7338,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "HERETIC.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%BE%92.zip",
     page: "/dos-games/yi-jiao-tu/",
   },
   {
@@ -7349,7 +7349,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "play.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-sou-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E6%90%9C%E5%A5%87.zip",
     page: "/dos-games/yi-xing-sou-qi/",
   },
   {
@@ -7360,7 +7360,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "AV.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-bing-du.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%97%85%E6%AF%92.zip",
     page: "/dos-games/yi-xing-bing-du/",
   },
   {
@@ -7371,7 +7371,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 54,
     entry: "GC.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-tu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip",
     page: "/dos-games/yi-xing-tu-ji/",
   },
   {
@@ -7382,7 +7382,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "ALIEN.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-luo-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%80%BB%E8%BE%91.zip",
     page: "/dos-games/yi-xing-luo-ji/",
   },
   {
@@ -7393,7 +7393,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 340,
     entry: "AL.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-yi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%81%97%E8%BF%B9.zip",
     page: "/dos-games/yi-xing-yi-ji/",
   },
   {
@@ -7404,7 +7404,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 530,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-ci-yuan-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%AC%A1%E5%85%83%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/yi-ci-yuan-zhi-lv/",
   },
   {
@@ -7415,7 +7415,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1851,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-ci-yuan-zhi-lv-wu-zhe-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%AC%A1%E5%85%83%E4%B9%8B%E6%97%85%E6%AD%A6%E8%80%85%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/yi-ci-yuan-zhi-lv-wu-zhe-chuan-shuo/",
   },
   {
@@ -7426,7 +7426,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 257,
     entry: "PWORLD.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dan-zhu-tai-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%B9%E7%8F%A0%E5%8F%B0%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/dan-zhu-tai-shi-jie/",
   },
   {
@@ -7437,7 +7437,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 424,
     entry: "MAIN.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dan-zhen-tan-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%B9%E9%9C%87%E5%9D%A6%E5%85%8B.zip",
     page: "/dos-games/dan-zhen-tan-ke/",
   },
   {
@@ -7448,7 +7448,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "MONOPOLY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qiang-shou-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BC%BA%E6%89%8B%E6%A3%8B.zip",
     page: "/dos-games/qiang-shou-qi/",
   },
   {
@@ -7459,7 +7459,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2270,
     entry: "CONQUER.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zheng-fu-ad1086.zip",
+    url: "https://binary.dos.lol/fdcab2ffba10008272884e0f0fb0ee669df63e238979ac94073f7d7124e56e33.zip",
     page: "/dos-games/zheng-fu-ad1086/",
   },
   {
@@ -7470,7 +7470,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 136,
     entry: "2000.COM",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-guang-2000.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%85%892000.zip",
     page: "/dos-games/wei-guang-2000/",
   },
   {
@@ -7481,7 +7481,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 166,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-xing-ji-qi-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9E%8B%E6%9C%BA%E5%99%A81.zip",
     page: "/dos-games/wei-xing-ji-qi-1/",
   },
   {
@@ -7492,7 +7492,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 337,
     entry: "MM2.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-xing-ji-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9E%8B%E6%9C%BA%E5%99%A82.zip",
     page: "/dos-games/wei-xing-ji-qi-2/",
   },
   {
@@ -7503,7 +7503,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 174,
     entry: "SIEGE.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8.zip",
     page: "/dos-games/wei-cheng-zheng-ba/",
   },
   {
@@ -7514,7 +7514,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 302,
     entry: "PLAYC.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba-zhan-gou-zhong-wen.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E6%88%98%E7%8B%97%28%E4%B8%AD%E6%96%87%29.zip",
     page: "/dos-games/wei-cheng-zheng-ba-zhan-gou-zhong-wen/",
   },
   {
@@ -7525,7 +7525,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 242,
     entry: "play.bat",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba-ying-ban-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E8%8B%B1%E7%89%88%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/wei-cheng-zheng-ba-ying-ban-zi-liao-pian/",
   },
   {
@@ -7536,7 +7536,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 907,
     entry: "SS1.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-ruan-tai-kong-mo-ni.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E8%BD%AF%E5%A4%AA%E7%A9%BA%E6%A8%A1%E6%8B%9F.zip",
     page: "/dos-games/wei-ruan-tai-kong-mo-ni/",
   },
   {
@@ -7547,7 +7547,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 734,
     entry: "fs.bat",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%AE%E8%BD%AF%E9%A3%9E%E8%A1%8C%E6%A8%A1%E6%8B%9F%2B3%E4%B8%AA%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian/",
   },
   {
@@ -7558,7 +7558,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "CW.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8.zip",
     page: "/dos-games/de-jun-zong-bu/",
   },
   {
@@ -7569,7 +7569,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 72,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-carven.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-CARVEN.zip",
     page: "/dos-games/de-jun-zong-bu-mod-carven/",
   },
   {
@@ -7580,7 +7580,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-doom-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-DOOM%E7%89%88.zip",
     page: "/dos-games/de-jun-zong-bu-mod-doom-ban/",
   },
   {
@@ -7591,7 +7591,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "GO.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-roman.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-ROMAN.zip",
     page: "/dos-games/de-jun-zong-bu-mod-roman/",
   },
   {
@@ -7602,7 +7602,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-li-ming.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-%E9%BB%8E%E6%98%8E.zip",
     page: "/dos-games/de-jun-zong-bu-mod-li-ming/",
   },
   {
@@ -7613,7 +7613,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "play.bat",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-ming-yun-zhi-mao.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8%E5%91%BD%E8%BF%90%E4%B9%8B%E7%9F%9B.zip",
     page: "/dos-games/de-jun-zong-bu-ming-yun-zhi-mao/",
   },
   {
@@ -7624,7 +7624,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-chuan-jia-kang.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%B7%9D%E5%AE%B6%E5%BA%B7.zip",
     page: "/dos-games/de-chuan-jia-kang/",
   },
   {
@@ -7635,7 +7635,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 65,
     entry: "DRAC.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-ku-la-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%BA%93%E6%8B%89%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/de-ku-la-chuan-shuo/",
   },
   {
@@ -7646,7 +7646,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1150,
     entry: "DRUID.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/de-lu-yi-e-mo-zhi-xin.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BE%B7%E9%B2%81%E4%BC%8A%E6%81%B6%E9%AD%94%E4%B9%8B%E5%BF%83.zip",
     page: "/dos-games/de-lu-yi-e-mo-zhi-xin/",
   },
   {
@@ -7657,7 +7657,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "SH.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D.zip",
     page: "/dos-games/ren/",
   },
   {
@@ -7668,7 +7668,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "game.bat",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%85%94.zip",
     page: "/dos-games/ren-zhe-tu/",
   },
   {
@@ -7679,7 +7679,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "caveman.exe",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-shan-dong-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%B1%B1%E6%B4%9E%E4%BA%BA.zip",
     page: "/dos-games/ren-zhe-shan-dong-ren/",
   },
   {
@@ -7690,7 +7690,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 194,
     entry: "TMNTEGA.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-shen-gui.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F.zip",
     page: "/dos-games/ren-zhe-shen-gui/",
   },
   {
@@ -7701,7 +7701,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 509,
     entry: "TMNT2.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-shen-gui-2-man-ha-dun-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F2%E6%9B%BC%E5%93%88%E9%A1%BF%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/ren-zhe-shen-gui-2-man-ha-dun-zhi-zhan/",
   },
   {
@@ -7712,7 +7712,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 134,
     entry: "TURTLES.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-shen-gui-3.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F3.zip",
     page: "/dos-games/ren-zhe-shen-gui-3/",
   },
   {
@@ -7723,7 +7723,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "ninja.exe",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-long-jian-chuan-1.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A01.zip",
     page: "/dos-games/ren-zhe-long-jian-chuan-1/",
   },
   {
@@ -7734,7 +7734,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "NINJA.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-long-jian-chuan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A02.zip",
     page: "/dos-games/ren-zhe-long-jian-chuan-2/",
   },
   {
@@ -7745,7 +7745,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 126,
     entry: "PLAY.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kuai-da-zhi-zun.zip",
+    url: "https://dos-bin.zczc.cz/%E5%BF%AB%E6%89%93%E8%87%B3%E5%B0%8A.zip",
     page: "/dos-games/kuai-da-zhi-zun/",
   },
   {
@@ -7756,7 +7756,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "WOFE.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nu-zhi-ji-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%80%92%E4%B9%8B%E6%9C%BA%E7%BF%BC.zip",
     page: "/dos-games/nu-zhi-ji-yi/",
   },
   {
@@ -7767,7 +7767,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 179,
     entry: "SR.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-su-tiao-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E6%8C%91%E6%88%98.zip",
     page: "/dos-games/ji-su-tiao-zhan/",
   },
   {
@@ -7778,7 +7778,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "SPEED.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-su-kuang-biao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E7%8B%82%E9%A3%99.zip",
     page: "/dos-games/ji-su-kuang-biao/",
   },
   {
@@ -7789,7 +7789,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 175,
     entry: "GW.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-bie-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%80%A7%E5%88%AB%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/xing-bie-zhan-zheng/",
   },
   {
@@ -7800,7 +7800,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "sext.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-gan-e-luo-si.zip",
+    url: "https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E4%BF%84%E7%BD%97%E6%96%AF.zip",
     page: "/dos-games/xing-gan-e-luo-si/",
   },
   {
@@ -7811,7 +7811,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "SEXY.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-gan-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/xing-gan-zhan-shi/",
   },
   {
@@ -7822,7 +7822,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "SEXY.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-gan-ji-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E6%9C%BA%E5%99%A8.zip",
     page: "/dos-games/xing-gan-ji-qi/",
   },
   {
@@ -7833,7 +7833,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "PLAY.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lian-ai-shi-lian-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%8B%E7%88%B1%E8%AF%95%E7%82%BC%E5%9C%BA.zip",
     page: "/dos-games/lian-ai-shi-lian-chang/",
   },
   {
@@ -7844,7 +7844,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 319,
     entry: "PLAY.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-shi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E4%B8%96%E7%BA%AA.zip",
     page: "/dos-games/kong-long-shi-ji/",
   },
   {
@@ -7855,7 +7855,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 191,
     entry: "DINOPARK.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-gong-yuan-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%85%AC%E5%9B%AD%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/kong-long-gong-yuan-da-heng/",
   },
   {
@@ -7866,7 +7866,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 111,
     entry: "WRBK.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-gui-lai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BD%92%E6%9D%A5.zip",
     page: "/dos-games/kong-long-gui-lai/",
   },
   {
@@ -7877,7 +7877,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 94,
     entry: "PLAY.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-kuai-da.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93.zip",
     page: "/dos-games/kong-long-kuai-da/",
   },
   {
@@ -7888,7 +7888,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 127,
     entry: "DW.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E6%A3%8B.zip",
     page: "/dos-games/kong-long-qi/",
   },
   {
@@ -7899,7 +7899,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "DINO3D.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-yi-zhi-wen-da.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E7%9B%8A%E6%99%BA%E9%97%AE%E7%AD%94.zip",
     page: "/dos-games/kong-long-yi-zhi-wen-da/",
   },
   {
@@ -7910,7 +7910,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "DGINST.EXE",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-mo-zhi-men.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E4%B9%8B%E9%97%A8.zip",
     page: "/dos-games/e-mo-zhi-men/",
   },
   {
@@ -7921,7 +7921,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 149,
     entry: "CASTLE.EXE",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-mo-cheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E5%9F%8E.zip",
     page: "/dos-games/e-mo-cheng/",
   },
   {
@@ -7932,7 +7932,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "SETUP.COM",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-mo-jin-di.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0.zip",
     page: "/dos-games/e-mo-jin-di/",
   },
   {
@@ -7943,7 +7943,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "SETUP.COM",
     tag: "e",
-    url: "https://github.com/whereq/dos-games/releases/download/e/e-mo-jin-di-ying-wen-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0%E8%8B%B1%E6%96%87%E7%89%88.zip",
     page: "/dos-games/e-mo-jin-di-ying-wen-ban/",
   },
   {
@@ -7954,7 +7954,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "YOGHO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-you-da-zuo-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%82%A0%E6%82%A0%E5%A4%A7%E4%BD%9C%E6%88%98.zip",
     page: "/dos-games/you-you-da-zuo-zhan/",
   },
   {
@@ -7965,7 +7965,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 147,
     entry: "SADLAKE.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bei-lian-hu-sha-ren-shi-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%82%B2%E6%81%8B%E6%B9%96%E6%9D%80%E4%BA%BA%E4%BA%8B%E4%BB%B6.zip",
     page: "/dos-games/bei-lian-hu-sha-ren-shi-jian/",
   },
   {
@@ -7976,7 +7976,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "PUNISHER.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cheng-fa-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%83%A9%E7%BD%9A%E8%80%85.zip",
     page: "/dos-games/cheng-fa-zhe/",
   },
   {
@@ -7987,7 +7987,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "CM.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-da-li-zu-qiu-jing-li.zip",
+    url: "https://dos-bin.zczc.cz/%E6%84%8F%E5%A4%A7%E5%88%A9%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%86.zip",
     page: "/dos-games/yi-da-li-zu-qiu-jing-li/",
   },
   {
@@ -7998,7 +7998,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "SOC.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gan-guan-zu-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%84%9F%E5%AE%98%E8%B6%B3%E7%90%83.zip",
     page: "/dos-games/gan-guan-zu-qiu/",
   },
   {
@@ -8009,7 +8009,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 657,
     entry: "SWOS.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gan-guan-zu-qiu-95.zip",
+    url: "https://dos-bin.zczc.cz/%E6%84%9F%E5%AE%98%E8%B6%B3%E7%90%8395.zip",
     page: "/dos-games/gan-guan-zu-qiu-95/",
   },
   {
@@ -8020,7 +8020,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 189,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-chong-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%87%92%E8%99%AB%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/lan-chong-da-zhan/",
   },
   {
@@ -8031,7 +8031,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cheng-ji-si-han.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97.zip",
     page: "/dos-games/cheng-ji-si-han/",
   },
   {
@@ -8042,7 +8042,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cheng-ji-si-han-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%973.zip",
     page: "/dos-games/cheng-ji-si-han-3/",
   },
   {
@@ -8053,7 +8053,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "KOEI.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cheng-ji-si-han-ying-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97%E8%8B%B1%E7%89%88.zip",
     page: "/dos-games/cheng-ji-si-han-ying-ban/",
   },
   {
@@ -8064,7 +8064,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 125,
     entry: "IMMEEN.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wo-shi-mi-en.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%91%E6%98%AF%E7%B1%B3%E6%81%A9.zip",
     page: "/dos-games/wo-shi-mi-en/",
   },
   {
@@ -8075,7 +8075,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 118,
     entry: "MOW.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA.zip",
     page: "/dos-games/zhan-zheng-zhi-ren/",
   },
   {
@@ -8086,7 +8086,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 204,
     entry: "DESERT.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E5%B2%9B.zip",
     page: "/dos-games/zhan-zheng-zhi-dao/",
   },
   {
@@ -8097,7 +8097,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 164,
     entry: "MOON.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-dao-1993.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E5%B2%9B1993.zip",
     page: "/dos-games/zhan-zheng-zhi-dao-1993/",
   },
   {
@@ -8108,7 +8108,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 245,
     entry: "BI2.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-dao-2020.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E5%B2%9B2020.zip",
     page: "/dos-games/zhan-zheng-zhi-dao-2020/",
   },
   {
@@ -8119,7 +8119,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 621,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E6%97%97.zip",
     page: "/dos-games/zhan-zheng-zhi-qi/",
   },
   {
@@ -8130,7 +8130,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 294,
     entry: "AIR.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-you-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E6%B8%B8%E6%88%8F.zip",
     page: "/dos-games/zhan-zheng-you-xi/",
   },
   {
@@ -8141,7 +8141,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1351,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-you-xi-he-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E6%B8%B8%E6%88%8F%E5%90%88%E9%9B%86.zip",
     page: "/dos-games/zhan-zheng-you-xi-he-ji/",
   },
   {
@@ -8152,7 +8152,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 331,
     entry: "CDKAW.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-wang-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E7%8E%8B%E5%9B%BD.zip",
     page: "/dos-games/zhan-zheng-wang-guo/",
   },
   {
@@ -8163,7 +8163,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 127,
     entry: "START.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-li-pin.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E5%88%A9%E5%93%81.zip",
     page: "/dos-games/zhan-li-pin/",
   },
   {
@@ -8174,7 +8174,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-guo-shi-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E5%9B%BD%E6%97%B6%E4%BB%A3.zip",
     page: "/dos-games/zhan-guo-shi-dai/",
   },
   {
@@ -8185,7 +8185,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-di-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E5%9C%B0%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/zhan-di-da-heng/",
   },
   {
@@ -8196,7 +8196,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 249,
     entry: "GAME.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-di-ri-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E5%9C%B0%E6%97%A5%E8%AE%B0.zip",
     page: "/dos-games/zhan-di-ri-ji/",
   },
   {
@@ -8207,7 +8207,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3475,
     entry: "WRATH.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-zhi-nu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E4%B9%8B%E6%80%92.zip",
     page: "/dos-games/zhan-dou-zhi-nu/",
   },
   {
@@ -8218,7 +8218,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 142,
     entry: "BM.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-da-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E5%A4%A7%E5%B8%88.zip",
     page: "/dos-games/zhan-dou-da-shi/",
   },
   {
@@ -8229,7 +8229,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 490,
     entry: "WARWIZ1.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E5%B7%AB%E5%B8%88.zip",
     page: "/dos-games/zhan-dou-wu-shi/",
   },
   {
@@ -8240,7 +8240,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "COMBAT.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-xing-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%A1%8C%E5%8A%A8.zip",
     page: "/dos-games/zhan-dou-xing-dong/",
   },
   {
@@ -8251,7 +8251,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "COMBAT2.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-xing-dong-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%A1%8C%E5%8A%A82.zip",
     page: "/dos-games/zhan-dou-xing-dong-2/",
   },
   {
@@ -8262,7 +8262,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 108,
     entry: "BC.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-qi-si.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%B5%B7%E5%8F%B8.zip",
     page: "/dos-games/zhan-dou-qi-si/",
   },
   {
@@ -8273,7 +8273,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 89,
     entry: "GOLDAXE.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-fu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%A7.zip",
     page: "/dos-games/zhan-fu/",
   },
   {
@@ -8284,7 +8284,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 37,
     entry: "CONFIG.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shu-fei-xing-shi-yan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%AF%E9%A3%9E%E8%A1%8C%E8%AF%95%E9%AA%8C.zip",
     page: "/dos-games/zhan-shu-fei-xing-shi-yan/",
   },
   {
@@ -8295,7 +8295,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "ML.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-ji-shao-nv.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E5%B0%91%E5%A5%B3.zip",
     page: "/dos-games/zhan-ji-shao-nv/",
   },
   {
@@ -8306,7 +8306,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 366,
     entry: "JS.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-ji-tu-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E7%AA%81%E8%A2%AD.zip",
     page: "/dos-games/zhan-ji-tu-xi/",
   },
   {
@@ -8317,7 +8317,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "CHESS.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-1-guo-ji-xiang-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B1-%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
     page: "/dos-games/zhan-qi-1-guo-ji-xiang-qi/",
   },
   {
@@ -8328,7 +8328,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "CHESS2.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-2-zhong-guo-xiang-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B2-%E4%B8%AD%E5%9B%BD%E8%B1%A1%E6%A3%8B.zip",
     page: "/dos-games/zhan-qi-2-zhong-guo-xiang-qi/",
   },
   {
@@ -8339,7 +8339,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "BC4000.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-qi-4000.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B4000.zip",
     page: "/dos-games/zhan-qi-4000/",
   },
   {
@@ -8350,7 +8350,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 154,
     entry: "REVENGE.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-jia-yue-ying-fu-chou.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E7%94%B2%EF%BC%9A%E6%9C%88%E9%B9%B0%E5%A4%8D%E4%BB%87.zip",
     page: "/dos-games/zhan-jia-yue-ying-fu-chou/",
   },
   {
@@ -8361,7 +8361,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 42,
     entry: "WARLORDS.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E.zip",
     page: "/dos-games/zhan-shen/",
   },
   {
@@ -8372,7 +8372,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 463,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2.zip",
     page: "/dos-games/zhan-shen-2/",
   },
   {
@@ -8383,7 +8383,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1210,
     entry: "play.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen-2-ying-ban-bian-ji-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2%E8%8B%B1%E7%89%88%2B%E7%BC%96%E8%BE%91%E5%99%A8.zip",
     page: "/dos-games/zhan-shen-2-ying-ban-bian-ji-qi/",
   },
   {
@@ -8394,7 +8394,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2584,
     entry: "WAR2.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen-2-hao-hua-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
     page: "/dos-games/zhan-shen-2-hao-hua-ban/",
   },
   {
@@ -8405,7 +8405,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "LW2.COM",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E7%BA%BF.zip",
     page: "/dos-games/zhan-xian/",
   },
   {
@@ -8416,7 +8416,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "bzone.com",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-xian-1981.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E7%BA%BF1981.zip",
     page: "/dos-games/zhan-xian-1981/",
   },
   {
@@ -8427,7 +8427,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "BUGS_CHT.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-chong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%88%98%E8%99%AB.zip",
     page: "/dos-games/zhan-chong/",
   },
   {
@@ -8438,7 +8438,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "play.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zha-ke-yu-zhou-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%89%8E%E5%85%8B%E5%AE%87%E5%AE%99%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/zha-ke-yu-zhou-li-xian-ji/",
   },
   {
@@ -8449,7 +8449,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 127,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pu-ke-ju-le-bu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%89%91%E5%85%8B%E4%BF%B1%E4%B9%90%E9%83%A8.zip",
     page: "/dos-games/pu-ke-ju-le-bu/",
   },
   {
@@ -8460,7 +8460,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "START.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-zhuan-kuai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%89%93%E7%A0%96%E5%9D%97.zip",
     page: "/dos-games/da-zhuan-kuai/",
   },
   {
@@ -8471,7 +8471,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "ARK.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-zhuan-kuai-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%89%93%E7%A0%96%E5%9D%972.zip",
     page: "/dos-games/da-zhuan-kuai-2/",
   },
   {
@@ -8482,7 +8482,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "MINERVA.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sao-lei.zip",
+    url: "https://dos-bin.zczc.cz/%E6%89%AB%E9%9B%B7.zip",
     page: "/dos-games/sao-lei/",
   },
   {
@@ -8493,7 +8493,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "RUNME.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhua-zhu-ta-men.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8A%93%E4%BD%8F%E4%BB%96%E4%BB%AC.zip",
     page: "/dos-games/zhua-zhu-ta-men/",
   },
   {
@@ -8504,7 +8504,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "ORIGAMO.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhe-zhi-mi-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8A%98%E7%BA%B8%E8%BF%B7%E5%AE%AB.zip",
     page: "/dos-games/zhe-zhi-mi-gong/",
   },
   {
@@ -8515,7 +8515,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 216,
     entry: "RUNME.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8A%A5%E5%BA%94.zip",
     page: "/dos-games/bao-ying/",
   },
   {
@@ -8526,7 +8526,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 529,
     entry: "PT.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pi-sa-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8A%AB%E8%90%A8%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/pi-sa-da-heng/",
   },
   {
@@ -8537,7 +8537,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "DR.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-xiao-gong-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8B%82%E6%99%93%E6%94%BB%E5%87%BB.zip",
     page: "/dos-games/fu-xiao-gong-ji/",
   },
   {
@@ -8548,7 +8548,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 493,
     entry: "FIGHT.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/quan-dou-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8B%B3%E6%96%97%E5%A3%AB.zip",
     page: "/dos-games/quan-dou-shi/",
   },
   {
@@ -8559,7 +8559,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 53,
     entry: "UC.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pin-tu-ping-pang-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8B%BC%E5%9B%BE%E4%B9%92%E4%B9%93%E5%8F%B0.zip",
     page: "/dos-games/pin-tu-ping-pang-tai/",
   },
   {
@@ -8570,7 +8570,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "PUZZLER.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pin-tu-da-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8B%BC%E5%9B%BE%E5%A4%A7%E5%B8%88.zip",
     page: "/dos-games/pin-tu-da-shi/",
   },
   {
@@ -8581,7 +8581,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "PHONICS.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pin-zi-you-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8B%BC%E5%AD%97%E6%B8%B8%E6%88%8F.zip",
     page: "/dos-games/pin-zi-you-xi/",
   },
   {
@@ -8592,7 +8592,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "CATALOG.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-1.zip",
+    url: "https://binary.dos.lol/e41b1770449eec608dde9aa7ddc7672e3bcceea29244e063a1108a4f238a512d.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-1/",
   },
   {
@@ -8603,7 +8603,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "KEEN4E.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-10-min-jian-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A910%E6%B0%91%E9%97%B4%E7%89%88.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-10-min-jian-ban/",
   },
   {
@@ -8614,7 +8614,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "KEEN2.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A92.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-2/",
   },
   {
@@ -8625,7 +8625,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "KEEN3.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A93.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-3/",
   },
   {
@@ -8636,7 +8636,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "kdreams.exe",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-3-5.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A93.5.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-3-5/",
   },
   {
@@ -8647,7 +8647,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "keen4e.exe",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-4.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A94.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-4/",
   },
   {
@@ -8658,7 +8658,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "KEEN5E.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-5.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A95.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-5/",
   },
   {
@@ -8669,7 +8669,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "KEEN6C.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-6.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A96.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-6/",
   },
   {
@@ -8680,7 +8680,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-7-min-jian-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A97%E6%B0%91%E9%97%B4%E7%89%88.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-7-min-jian-ban/",
   },
   {
@@ -8691,7 +8691,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "KEEN6.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-8-min-jian-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A98%E6%B0%91%E9%97%B4%E7%89%88.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-8-min-jian-ban/",
   },
   {
@@ -8702,7 +8702,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "KEEN5E.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-9-min-jian-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A99%E6%B0%91%E9%97%B4%E7%89%88.zip",
     page: "/dos-games/zhi-hui-guan-ji-en-9-min-jian-ban/",
   },
   {
@@ -8713,7 +8713,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 41,
     entry: "LORD.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-huan-wang.zip",
+    url: "https://binary.dos.lol/88777ec4ea921f9b6826fbf00556b8fbd975dddc4de13a7e9ea9590abbfaab63.zip",
     page: "/dos-games/zhi-huan-wang/",
   },
   {
@@ -8724,7 +8724,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 183,
     entry: "TOWERS.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-huan-wang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8C%87%E7%8E%AF%E7%8E%8B2.zip",
     page: "/dos-games/zhi-huan-wang-2/",
   },
   {
@@ -8735,7 +8735,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "GB.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuo-gui-gan-si-dui-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8D%89%E9%AC%BC%E6%95%A2%E6%AD%BB%E9%98%9F2.zip",
     page: "/dos-games/zhuo-gui-gan-si-dui-2/",
   },
   {
@@ -8746,7 +8746,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "EFALCON.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/han-wei-xiong-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8D%8D%E5%8D%AB%E9%9B%84%E9%B9%B0.zip",
     page: "/dos-games/han-wei-xiong-ying/",
   },
   {
@@ -8757,7 +8757,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 324,
     entry: "SHUNT.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-lie-xing-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8D%95%E7%8C%8E%E8%A1%8C%E5%8A%A8.zip",
     page: "/dos-games/bu-lie-xing-dong/",
   },
   {
@@ -8768,7 +8768,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 179,
     entry: "DIGGERS.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-jin-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8E%98%E9%87%91%E8%80%85.zip",
     page: "/dos-games/jue-jin-zhe/",
   },
   {
@@ -8779,7 +8779,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 261,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-jin-zhe-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8E%98%E9%87%91%E8%80%852.zip",
     page: "/dos-games/jue-jin-zhe-2/",
   },
   {
@@ -8790,7 +8790,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "VESA_E.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jie-long-777.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8E%A5%E9%BE%99777.zip",
     page: "/dos-games/jie-long-777/",
   },
   {
@@ -8801,7 +8801,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 107,
     entry: "tyrian.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/ti-er-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8F%90%E5%B0%94%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/ti-er-zhan-ji/",
   },
   {
@@ -8812,7 +8812,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "file0001.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/ti-er-zhan-ji-2000.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8F%90%E5%B0%94%E6%88%98%E6%9C%BA2000.zip",
     page: "/dos-games/ti-er-zhan-ji-2000/",
   },
   {
@@ -8823,7 +8823,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 100,
     entry: "TEK2.COM",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/ti-du-zhi-jue-duan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%8F%90%E7%9D%A3%E4%B9%8B%E5%86%B3%E6%96%AD2.zip",
     page: "/dos-games/ti-du-zhi-jue-duan-2/",
   },
   {
@@ -8834,7 +8834,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "play.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yao-gun-shao-lin-zhi-qi-xia-wu-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%91%87%E6%BB%9A%E5%B0%91%E6%9E%97%E4%B9%8B%E4%B8%83%E4%BE%A0%E4%BA%94%E4%B9%89.zip",
     page: "/dos-games/yao-gun-shao-lin-zhi-qi-xia-wu-yi/",
   },
   {
@@ -8845,7 +8845,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 116,
     entry: "WWF4.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shuai-jiao-lian-meng-1995.zip",
+    url: "https://dos-bin.zczc.cz/%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F1995.zip",
     page: "/dos-games/shuai-jiao-lian-meng-1995/",
   },
   {
@@ -8856,7 +8856,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 248,
     entry: "IDMAS.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-tuo-cheng-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%91%A9%E6%89%98%E5%9F%8E%E5%B8%82.zip",
     page: "/dos-games/mo-tuo-cheng-shi/",
   },
   {
@@ -8867,7 +8867,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 214,
     entry: "across.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-tuo-che-yue-ye-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%91%A9%E6%89%98%E8%BD%A6%E8%B6%8A%E9%87%8E%E8%B5%9B.zip",
     page: "/dos-games/mo-tuo-che-yue-ye-sai/",
   },
   {
@@ -8878,7 +8878,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "FRED.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-deng-yuan-shi-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E6%91%A9%E7%99%BB%E5%8E%9F%E5%A7%8B%E4%BA%BA.zip",
     page: "/dos-games/mo-deng-yuan-shi-ren/",
   },
   {
@@ -8889,7 +8889,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "PLAY_AD.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-qiu-bu-xi-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%92%9E%E7%90%83%E8%A1%A5%E4%B9%A0%E7%8F%AD.zip",
     page: "/dos-games/zhuang-qiu-bu-xi-ban/",
   },
   {
@@ -8900,7 +8900,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 99,
     entry: "VT.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/han-tian-shen-ta.zip",
+    url: "https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%94.zip",
     page: "/dos-games/han-tian-shen-ta/",
   },
   {
@@ -8911,7 +8911,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 171,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/han-tian-shen-ta-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%942.zip",
     page: "/dos-games/han-tian-shen-ta-2/",
   },
   {
@@ -8922,7 +8922,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 219,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/han-tian-shen-ta-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%943.zip",
     page: "/dos-games/han-tian-shen-ta-3/",
   },
   {
@@ -8933,7 +8933,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "VT.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/han-tian-shen-ta-vt.zip",
+    url: "https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%94VT.zip",
     page: "/dos-games/han-tian-shen-ta-vt/",
   },
   {
@@ -8944,7 +8944,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 368,
     entry: "TT.COM",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-tai-mei-shao-nv-3-tian-shi-shuai-jiao-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%93%82%E5%8F%B0%E7%BE%8E%E5%B0%91%E5%A5%B33%EF%BC%8F%E5%A4%A9%E4%BD%BF%E6%91%94%E8%A7%923.zip",
     page: "/dos-games/lei-tai-mei-shao-nv-3-tian-shi-shuai-jiao-3/",
   },
   {
@@ -8955,7 +8955,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 360,
     entry: "ANGEL.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-tai-mei-shao-nv-tian-shi-shuai-jiao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%93%82%E5%8F%B0%E7%BE%8E%E5%B0%91%E5%A5%B3%EF%BC%8F%E5%A4%A9%E4%BD%BF%E6%91%94%E8%A7%92.zip",
     page: "/dos-games/lei-tai-mei-shao-nv-tian-shi-shuai-jiao/",
   },
   {
@@ -8966,7 +8966,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "ASCEND.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-pei-li-liang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%94%AF%E9%85%8D%E5%8A%9B%E9%87%8F.zip",
     page: "/dos-games/zhi-pei-li-liang/",
   },
   {
@@ -8977,7 +8977,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "RADIAKI.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fang-she-bo-shi-de-cheng-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%94%BE%E5%B0%84%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip",
     page: "/dos-games/fang-she-bo-shi-de-cheng-bao/",
   },
   {
@@ -8988,7 +8988,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "GOD.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiao-fu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%95%99%E7%88%B6.zip",
     page: "/dos-games/jiao-fu/",
   },
   {
@@ -8999,7 +8999,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "MEGAMATH.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shu-xue-da-zuo-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%95%B0%E5%AD%A6%E5%A4%A7%E4%BD%9C%E6%88%98.zip",
     page: "/dos-games/shu-xue-da-zuo-zhan/",
   },
   {
@@ -9010,7 +9010,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "Run.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shu-xue-da-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%95%B0%E5%AD%A6%E5%A4%A7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/shu-xue-da-mao-xian/",
   },
   {
@@ -9021,7 +9021,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 182,
     entry: "CIV.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wen-ming.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%87%E6%98%8E.zip",
     page: "/dos-games/wen-ming/",
   },
   {
@@ -9032,7 +9032,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "TSD.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dou-shen-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%97%E7%A5%9E%E4%BC%A0.zip",
     page: "/dos-games/dou-shen-chuan/",
   },
   {
@@ -9043,7 +9043,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 192,
     entry: "zan.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-3-ri-wen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%A93%28%E6%97%A5%E6%96%87%29.zip",
     page: "/dos-games/zhan-3-ri-wen/",
   },
   {
@@ -9054,7 +9054,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 91,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-cao-chu-gen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%A9%E8%8D%89%E9%99%A4%E6%A0%B9.zip",
     page: "/dos-games/zhan-cao-chu-gen/",
   },
   {
@@ -9065,7 +9065,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "STALIN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-da-lin-ge-lei.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%A0%BC%E5%8B%92.zip",
     page: "/dos-games/si-da-lin-ge-lei/",
   },
   {
@@ -9076,7 +9076,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "S7.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-te-la-qi-hao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%AF%E7%89%B9%E6%8B%89%E4%B8%83%E5%8F%B7.zip",
     page: "/dos-games/si-te-la-qi-hao/",
   },
   {
@@ -9087,7 +9087,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-ke-qi-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%AF%E7%A7%91%E5%A5%87%E8%B5%9B.zip",
     page: "/dos-games/si-ke-qi-sai/",
   },
   {
@@ -9098,7 +9098,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-shi-jie-zheng-fu-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%95%8C%E5%BE%81%E6%9C%8D%E8%80%85.zip",
     page: "/dos-games/xin-shi-jie-zheng-fu-zhe/",
   },
   {
@@ -9109,7 +9109,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-shi-ji-xing-wang-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%BA%AA%E5%85%B4%E4%BA%A1%E5%8F%B2.zip",
     page: "/dos-games/xin-shi-ji-xing-wang-shi/",
   },
   {
@@ -9120,7 +9120,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "nova.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-xing-9-long-ji-gui-lai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%B0%E6%98%9F9%E9%BE%99%E6%9C%BA%E5%BD%92%E6%9D%A5.zip",
     page: "/dos-games/xin-xing-9-long-ji-gui-lai/",
   },
   {
@@ -9131,7 +9131,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 148,
     entry: "DOS4GW.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-lang-ren-mo-tian-lou.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%B0%E7%8B%BC%E4%BA%BA%E6%91%A9%E5%A4%A9%E6%A5%BC.zip",
     page: "/dos-games/xin-lang-ren-mo-tian-lou/",
   },
   {
@@ -9142,7 +9142,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "BEAUTY.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-mei-nv-quan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%B0%E7%BE%8E%E5%A5%B3%E6%8B%B3.zip",
     page: "/dos-games/xin-mei-nv-quan/",
   },
   {
@@ -9153,7 +9153,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "GPC.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fang-cheng-shi-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/fang-cheng-shi-sai-che/",
   },
   {
@@ -9164,7 +9164,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 72,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-ming-zhi-de-jiao-ke-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%90%8D%E6%8C%87%E7%9A%84%E6%95%99%E7%A7%91%E4%B9%A6.zip",
     page: "/dos-games/wu-ming-zhi-de-jiao-ke-shu/",
   },
   {
@@ -9175,7 +9175,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "SCREAM.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-sheng-kuang-xiao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8.zip",
     page: "/dos-games/wu-sheng-kuang-xiao/",
   },
   {
@@ -9186,7 +9186,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 215,
     entry: "ID.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-ye-xin.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%87%8E%E5%BF%83.zip",
     page: "/dos-games/wu-jin-de-ye-xin/",
   },
   {
@@ -9197,7 +9197,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-hei-an.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%BB%91%E6%9A%97.zip",
     page: "/dos-games/wu-jin-de-hei-an/",
   },
   {
@@ -9208,7 +9208,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 215,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-hei-an-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%BB%91%E6%9A%972.zip",
     page: "/dos-games/wu-jin-de-hei-an-2/",
   },
   {
@@ -9219,7 +9219,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 350,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-hei-an-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%BB%91%E6%9A%973.zip",
     page: "/dos-games/wu-jin-de-hei-an-3/",
   },
   {
@@ -9230,7 +9230,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 140,
     entry: "ULTIMATE.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-kong-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%A9%BA%E9%97%B4.zip",
     page: "/dos-games/wu-jin-kong-jian/",
   },
   {
@@ -9241,7 +9241,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 64,
     entry: "CRUSADER.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-hui-de-shi-zi-jun.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B.zip",
     page: "/dos-games/wu-hui-de-shi-zi-jun/",
   },
   {
@@ -9252,7 +9252,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "REGRET.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-hui-de-shi-zi-jun-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B2.zip",
     page: "/dos-games/wu-hui-de-shi-zi-jun-2/",
   },
   {
@@ -9263,7 +9263,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 97,
     entry: "START.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-di-fei-lang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E6%95%8C%E9%A3%9E%E7%8B%BC.zip",
     page: "/dos-games/wu-di-fei-lang/",
   },
   {
@@ -9274,7 +9274,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 65,
     entry: "KICK.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-xian-zhi-lei-tai-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E9%99%90%E5%88%B6%E6%93%82%E5%8F%B0%E8%B5%9B.zip",
     page: "/dos-games/wu-xian-zhi-lei-tai-sai/",
   },
   {
@@ -9285,7 +9285,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 122,
     entry: "GENESIA.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-xian-kong-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4.zip",
     page: "/dos-games/wu-xian-kong-jian/",
   },
   {
@@ -9296,7 +9296,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 70,
     entry: "CONQUEST.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ri-ben-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A5%E6%9C%AC%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/ri-ben-zhi-zhan/",
   },
   {
@@ -9307,7 +9307,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 113,
     entry: "SUNSET.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ri-mo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A5%E6%B2%A1.zip",
     page: "/dos-games/ri-mo/",
   },
   {
@@ -9318,7 +9318,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "ECP.exe",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ri-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A5%E8%9A%80.zip",
     page: "/dos-games/ri-shi/",
   },
   {
@@ -9329,7 +9329,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "cisco.exe",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiu-jin-shan-jing-che-da-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%A7%E9%87%91%E5%B1%B1%E8%AD%A6%E8%BD%A6%E5%A4%A7%E8%B5%9B.zip",
     page: "/dos-games/jiu-jin-shan-jing-che-da-sai/",
   },
   {
@@ -9340,7 +9340,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 212,
     entry: "GAME.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-yi-bian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E5%BC%82%E5%8F%98.zip",
     page: "/dos-games/shi-kong-yi-bian/",
   },
   {
@@ -9351,7 +9351,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5116,
     entry: "PARADOX.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-bei-lun.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%82%96%E8%AE%BA.zip",
     page: "/dos-games/shi-kong-bei-lun/",
   },
   {
@@ -9362,7 +9362,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 93,
     entry: "HARRIER.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/shi-kong-zhan-shi/",
   },
   {
@@ -9373,7 +9373,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "TS.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-sha-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%9D%80%E6%88%AE.zip",
     page: "/dos-games/shi-kong-sha-lu/",
   },
   {
@@ -9384,7 +9384,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "TIMEDEB.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-you-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%B8%B8%E4%BE%A0.zip",
     page: "/dos-games/shi-kong-you-xia/",
   },
   {
@@ -9395,7 +9395,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-te-qin-zu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E7%89%B9%E5%8B%A4%E7%BB%84.zip",
     page: "/dos-games/shi-kong-te-qin-zu/",
   },
   {
@@ -9406,7 +9406,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "LOST.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-mi-hang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E8%BF%B7%E8%88%AA.zip",
     page: "/dos-games/shi-kong-mi-hang/",
   },
   {
@@ -9417,7 +9417,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 136,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-ri-zhi-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%8E%E6%97%A5%E4%B9%8B%E6%98%9F.zip",
     page: "/dos-games/ming-ri-zhi-xing/",
   },
   {
@@ -9428,7 +9428,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 204,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-ri-zhi-xing-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%8E%E6%97%A5%E4%B9%8B%E6%98%9F2.zip",
     page: "/dos-games/ming-ri-zhi-xing-2/",
   },
   {
@@ -9439,7 +9439,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "STARDOM.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-xing-zhi-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%8E%E6%98%9F%E5%BF%97%E6%84%BF.zip",
     page: "/dos-games/ming-xing-zhi-yuan/",
   },
   {
@@ -9450,7 +9450,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ming-xing-zhi-yuan-1.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%8E%E6%98%9F%E5%BF%97%E6%84%BF1.zip",
     page: "/dos-games/ming-xing-zhi-yuan-1/",
   },
   {
@@ -9461,7 +9461,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 300,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-shi-ji-zhan-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E4%B8%96%E7%BA%AA%E6%88%98%E5%B0%86.zip",
     page: "/dos-games/xing-shi-ji-zhan-jiang/",
   },
   {
@@ -9472,7 +9472,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "SP.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-cheng-lv-zhou-ji-hua.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E5%9F%8E%E7%BB%BF%E6%B4%B2%E8%AE%A1%E5%88%92.zip",
     page: "/dos-games/xing-cheng-lv-zhou-ji-hua/",
   },
   {
@@ -9483,7 +9483,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "RUNME.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-chen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E5%B0%98.zip",
     page: "/dos-games/xing-chen/",
   },
   {
@@ -9494,7 +9494,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 647,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-yue-qi-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E6%9C%88%E5%A5%87%E7%BC%98.zip",
     page: "/dos-games/xing-yue-qi-yuan/",
   },
   {
@@ -9505,7 +9505,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 799,
     entry: "STARSHIP.COM",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-he-jian-zhang-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E6%B2%B3%E8%88%B0%E9%95%BF%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/xing-he-jian-zhang-li-xian-ji/",
   },
   {
@@ -9516,7 +9516,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "STARFIRE.COM",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-zhi-huo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E4%B9%8B%E7%81%AB.zip",
     page: "/dos-games/xing-qiu-zhi-huo/",
   },
   {
@@ -9527,7 +9527,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "BWING.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-x-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98X%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/xing-qiu-da-zhan-x-zhan-ji/",
   },
   {
@@ -9538,7 +9538,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 336,
     entry: "SWC.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-guo-ji-xiang-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
     page: "/dos-games/xing-qiu-da-zhan-guo-ji-xiang-qi/",
   },
   {
@@ -9549,7 +9549,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "dark.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-an-ying-li-liang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E6%9A%97%E5%BD%B1%E5%8A%9B%E9%87%8F.zip",
     page: "/dos-games/xing-qiu-da-zhan-an-ying-li-liang/",
   },
   {
@@ -9560,7 +9560,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "SSW.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-jue-di-fan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E7%BB%9D%E5%9C%B0%E5%8F%8D%E5%87%BB.zip",
     page: "/dos-games/xing-qiu-da-zhan-jue-di-fan-ji/",
   },
   {
@@ -9571,7 +9571,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 211,
     entry: "TIE.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-tai-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E9%92%9B%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/xing-qiu-da-zhan-tai-zhan-ji/",
   },
   {
@@ -9582,7 +9582,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 198,
     entry: "STARCOM.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-zhi-hui-ge-ming.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E6%8C%87%E6%8C%A5%E9%9D%A9%E5%91%BD.zip",
     page: "/dos-games/xing-qiu-zhi-hui-ge-ming/",
   },
   {
@@ -9593,7 +9593,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "PLANET.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-tu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E7%AA%81%E5%87%BB.zip",
     page: "/dos-games/xing-qiu-tu-ji/",
   },
   {
@@ -9604,7 +9604,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "RIFT.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-lie-hen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E8%A3%82%E7%97%95.zip",
     page: "/dos-games/xing-qiu-lie-hen/",
   },
   {
@@ -9615,7 +9615,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "HAMMER.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-zhi-chui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E4%B9%8B%E9%94%A4.zip",
     page: "/dos-games/xing-ji-zhi-chui/",
   },
   {
@@ -9626,7 +9626,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "SRANGERS.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-you-qi-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E6%B8%B8%E9%AA%91%E5%85%B5.zip",
     page: "/dos-games/xing-ji-you-qi-bing/",
   },
   {
@@ -9637,7 +9637,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "stargun.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-pao-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%82%AE%E6%89%8B.zip",
     page: "/dos-games/xing-ji-pao-shou/",
   },
   {
@@ -9648,7 +9648,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 320,
     entry: "MAIN.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-tong-zhi-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%BB%9F%E6%B2%BB%E8%80%85.zip",
     page: "/dos-games/xing-ji-tong-zhi-zhe/",
   },
   {
@@ -9659,7 +9659,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 403,
     entry: "FRAGILE.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-lian-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%81%94%E7%9B%9F.zip",
     page: "/dos-games/xing-ji-lian-meng/",
   },
   {
@@ -9670,7 +9670,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "STARFLT.COM",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-hang-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%88%AA%E8%88%B0.zip",
     page: "/dos-games/xing-ji-hang-jian/",
   },
   {
@@ -9681,7 +9681,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 98,
     entry: "BAT.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-diao-cha-ju.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%B0%83%E6%9F%A5%E5%B1%80.zip",
     page: "/dos-games/xing-ji-diao-cha-ju/",
   },
   {
@@ -9692,7 +9692,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 421,
     entry: "BAT2.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-diao-cha-ju-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%B0%83%E6%9F%A5%E5%B1%802.zip",
     page: "/dos-games/xing-ji-diao-cha-ju-2/",
   },
   {
@@ -9703,7 +9703,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 288,
     entry: "rites.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-mi-hang-cai-jue-yi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%BF%B7%E8%88%AA%E8%A3%81%E5%86%B3%E4%BB%AA%E5%BC%8F.zip",
     page: "/dos-games/xing-ji-mi-hang-cai-jue-yi-shi/",
   },
   {
@@ -9714,7 +9714,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 42,
     entry: "STARLORD.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-ba-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E9%9C%B8%E4%B8%BB.zip",
     page: "/dos-games/xing-ji-ba-zhu/",
   },
   {
@@ -9725,7 +9725,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 259,
     entry: "PLAY.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chun-qiu-zheng-ba-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%A5%E7%A7%8B%E4%BA%89%E9%9C%B8%E4%BC%A0.zip",
     page: "/dos-games/chun-qiu-zheng-ba-chuan/",
   },
   {
@@ -9736,7 +9736,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 152,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chun-qiu-zheng-ba-chuan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%98%A5%E7%A7%8B%E4%BA%89%E9%9C%B8%E4%BC%A02.zip",
     page: "/dos-games/chun-qiu-zheng-ba-chuan-2/",
   },
   {
@@ -9747,7 +9747,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 75,
     entry: "BALL.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-guan-bei-guan-lan-da-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%99%BA%E5%86%A0%E6%9D%AF%E7%81%8C%E7%AF%AE%E5%A4%A7%E8%B5%9B.zip",
     page: "/dos-games/zhi-guan-bei-guan-lan-da-sai/",
   },
   {
@@ -9758,7 +9758,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 171,
     entry: "SCHOOL.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-sheng-xian-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%99%BA%E5%9C%A3%E9%B2%9C%E5%B8%88.zip",
     page: "/dos-games/zhi-sheng-xian-shi/",
   },
   {
@@ -9769,7 +9769,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-dan-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%99%BA%E6%85%A7%E5%BC%B9%E7%8F%A0.zip",
     page: "/dos-games/zhi-hui-dan-zhu/",
   },
   {
@@ -9780,7 +9780,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "M.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-zhi-wen-zhang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E4%B9%8B%E7%BA%B9%E7%AB%A0.zip",
     page: "/dos-games/an-zhi-wen-zhang/",
   },
   {
@@ -9791,7 +9791,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "SFORCE.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-ying-zhi-li.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%8A%9B.zip",
     page: "/dos-games/an-ying-zhi-li/",
   },
   {
@@ -9802,7 +9802,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "MAIN.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-ying-zhi-di.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%9C%B0.zip",
     page: "/dos-games/an-ying-zhi-di/",
   },
   {
@@ -9813,7 +9813,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "SHADOW.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-ying-shu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E6%9C%AF%E5%A3%AB.zip",
     page: "/dos-games/an-ying-shu-shi/",
   },
   {
@@ -9824,7 +9824,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 150,
     entry: "SW.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-ying-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E6%AD%A6%E5%A3%AB.zip",
     page: "/dos-games/an-ying-wu-shi/",
   },
   {
@@ -9835,7 +9835,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 113,
     entry: "PLAY.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-qi-zhu-luo-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E6%A3%8B%E4%BE%8F%E7%BD%97%E7%BA%AA.zip",
     page: "/dos-games/an-qi-zhu-luo-ji/",
   },
   {
@@ -9846,7 +9846,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 89,
     entry: "CHESS.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-qi-sheng-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E6%A3%8B%E5%9C%A3%E6%89%8B.zip",
     page: "/dos-games/an-qi-sheng-shou/",
   },
   {
@@ -9857,7 +9857,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "darkwolf.exe",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-lang-gong-xiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E7%8B%BC%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip",
     page: "/dos-games/an-lang-gong-xiang-ban/",
   },
   {
@@ -9868,7 +9868,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "DARKER.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/an-se.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%97%E8%89%B2.zip",
     page: "/dos-games/an-se/",
   },
   {
@@ -9879,7 +9879,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 909,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-li-xin-di-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%B4%E5%8A%9B%E8%BE%9B%E8%BF%AA%E5%8A%A0.zip",
     page: "/dos-games/bao-li-xin-di-jia/",
   },
   {
@@ -9890,7 +9890,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 53,
     entry: "TERM.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-nu-zhong-jie-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9A%B4%E6%80%92%E7%BB%88%E7%BB%93%E8%80%85.zip",
     page: "/dos-games/bao-nu-zhong-jie-zhe/",
   },
   {
@@ -9901,7 +9901,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 93,
     entry: "go.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/man-lian-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9B%BC%E8%81%94%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/man-lian-chuan-qi/",
   },
   {
@@ -9912,7 +9912,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 725,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-qi-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E6%9C%9F%E9%99%90.zip",
     page: "/dos-games/zui-hou-qi-xian/",
   },
   {
@@ -9923,7 +9923,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 190,
     entry: "GAME.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-wu-li.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E6%AD%A6%E5%8A%9B.zip",
     page: "/dos-games/zui-hou-wu-li/",
   },
   {
@@ -9934,7 +9934,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "E.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-de-ren-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E7%9A%84%E5%BF%8D%E8%80%85.zip",
     page: "/dos-games/zui-hou-de-ren-zhe/",
   },
   {
@@ -9945,7 +9945,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 471,
     entry: "GOBLINS.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-de-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E7%9A%84%E6%AD%A6%E5%A3%AB.zip",
     page: "/dos-games/zui-hou-de-wu-shi/",
   },
   {
@@ -9956,7 +9956,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 281,
     entry: "MS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yue-liang-shi-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%88%E4%BA%AE%E7%9F%B3%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/yue-liang-shi-qi-shi/",
   },
   {
@@ -9967,7 +9967,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "PATROL.COM",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yue-qiu-xun-luo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%88%E7%90%83%E5%B7%A1%E9%80%BB.zip",
     page: "/dos-games/yue-qiu-xun-luo/",
   },
   {
@@ -9978,7 +9978,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "LUNAR.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yue-qiu-zhi-hui-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%88%E7%90%83%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
     page: "/dos-games/yue-qiu-zhi-hui-guan/",
   },
   {
@@ -9989,7 +9989,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "FW.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-lai-zhan-zheng-shi-jian-lv-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%AA%E6%9D%A5%E6%88%98%E4%BA%89%E6%97%B6%E9%97%B4%E6%97%85%E8%80%85.zip",
     page: "/dos-games/wei-lai-zhan-zheng-shi-jian-lv-zhe/",
   },
   {
@@ -10000,7 +10000,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 98,
     entry: "COW.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-zhi-niu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E4%B9%8B%E7%89%9B.zip",
     page: "/dos-games/mo-ri-zhi-niu/",
   },
   {
@@ -10011,7 +10011,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 989,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-bao-dian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E5%AE%9D%E5%85%B8.zip",
     page: "/dos-games/mo-ri-bao-dian/",
   },
   {
@@ -10022,7 +10022,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 668,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-zhan-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E6%88%98%E7%A5%9E.zip",
     page: "/dos-games/mo-ri-zhan-shen/",
   },
   {
@@ -10033,7 +10033,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 98,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-dong-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/ji-dong-zhan-shi/",
   },
   {
@@ -10044,7 +10044,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "LRISE.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-qi-ren-jue-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B4%9B%E8%B5%B7.zip",
     page: "/dos-games/ji-qi-ren-jue-qi/",
   },
   {
@@ -10055,7 +10055,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 246,
     entry: "BD.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-wang-luo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%88%98%E7%BD%91%E7%BB%9C.zip",
     page: "/dos-games/ji-zhan-wang-luo/",
   },
   {
@@ -10066,7 +10066,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "GX1.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-xiao-mi-feng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B0%8F%E8%9C%9C%E8%9C%82.zip",
     page: "/dos-games/ji-xie-xiao-mi-feng/",
   },
   {
@@ -10077,7 +10077,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 146,
     entry: "KEYINIT.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/ji-xie-di-guo/",
   },
   {
@@ -10088,7 +10088,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "DOGS.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-zhan-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E6%88%98%E9%98%9F.zip",
     page: "/dos-games/ji-xie-zhan-dui/",
   },
   {
@@ -10099,7 +10099,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "CM.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-fa-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E6%B3%95%E5%B8%88.zip",
     page: "/dos-games/ji-xie-fa-shi/",
   },
   {
@@ -10110,7 +10110,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 298,
     entry: "GBL.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-xiong-hun-yi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%86%8A%E9%AD%82%E9%81%97%E8%BF%B9.zip",
     page: "/dos-games/ji-jia-zhan-shi-2-xiong-hun-yi-ji/",
   },
   {
@@ -10121,7 +10121,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 359,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-di-31-shi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%AC%AC31%E4%B8%96%E7%BA%AA.zip",
     page: "/dos-games/ji-jia-zhan-shi-2-di-31-shi-ji/",
   },
   {
@@ -10132,7 +10132,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 580,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-gu-yong-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E9%9B%87%E4%BD%A3%E5%85%B5.zip",
     page: "/dos-games/ji-jia-zhan-shi-2-gu-yong-bing/",
   },
   {
@@ -10143,7 +10143,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 347,
     entry: "play.bat",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E7%A5%9E.zip",
     page: "/dos-games/ji-jia-zhan-shen/",
   },
   {
@@ -10154,7 +10154,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "ES.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/ji-jia-bu-dui/",
   },
   {
@@ -10165,7 +10165,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "X.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-chu-ji-xie-cheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%80%E5%87%BA%E6%9C%BA%E6%A2%B0%E5%9F%8E.zip",
     page: "/dos-games/sha-chu-ji-xie-cheng/",
   },
   {
@@ -10176,7 +10176,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 163,
     entry: "AMOK.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-lu-ji-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%80%E6%88%AE%E6%9C%BA%E5%99%A8.zip",
     page: "/dos-games/sha-lu-ji-qi/",
   },
   {
@@ -10187,7 +10187,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "XPR.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-sheng-yi-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%80%E7%94%9F%E5%BC%82%E5%BD%A2.zip",
     page: "/dos-games/sha-sheng-yi-xing/",
   },
   {
@@ -10198,7 +10198,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/quan-li-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/quan-li-zhi-zhan/",
   },
   {
@@ -10209,7 +10209,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 468,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%8F%E6%9E%97%E4%B9%9F%E7%96%AF%E7%8B%82%28%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2%E5%8F%B0%E7%89%88%29.zip",
     page: "/dos-games/xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban/",
   },
   {
@@ -10220,7 +10220,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 149,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shu-fu-zhi-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%9F%E7%BC%9A%E4%B9%8B%E9%A6%86.zip",
     page: "/dos-games/shu-fu-zhi-guan/",
   },
   {
@@ -10231,7 +10231,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 243,
     entry: "OSCAR.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/song-shu-ao-si-ka.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%BE%E9%BC%A0%E5%A5%A5%E6%96%AF%E5%8D%A1.zip",
     page: "/dos-games/song-shu-ao-si-ka/",
   },
   {
@@ -10242,7 +10242,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ban-qiu-97.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9D%BF%E7%90%8397.zip",
     page: "/dos-games/ban-qiu-97/",
   },
   {
@@ -10253,7 +10253,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 396,
     entry: "RUNSB.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-pin-fei-che.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6.zip",
     page: "/dos-games/ji-pin-fei-che/",
   },
   {
@@ -10264,7 +10264,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 357,
     entry: "32RTM.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-chao-hao-quan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9E%81%E8%B6%85%E8%B1%AA%E6%8B%B3.zip",
     page: "/dos-games/ji-chao-hao-quan/",
   },
   {
@@ -10275,7 +10275,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 115,
     entry: "dos4gw.exe",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-xian-dan-zhu-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9E%81%E9%99%90%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
     page: "/dos-games/ji-xian-dan-zhu-tai/",
   },
   {
@@ -10286,7 +10286,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2817,
     entry: "START.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-xian-tu-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9E%81%E9%99%90%E7%AA%81%E8%A2%AD.zip",
     page: "/dos-games/ji-xian-tu-xi/",
   },
   {
@@ -10297,7 +10297,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "TGUN.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qiang-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E6%9E%AA%E7%A5%9E.zip",
     page: "/dos-games/qiang-shen/",
   },
   {
@@ -10308,7 +10308,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 429,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-yuan-da-fu-weng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A0%A1%E5%9B%AD%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
     page: "/dos-games/xiao-yuan-da-fu-weng/",
   },
   {
@@ -10319,7 +10319,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "NUKEWAR.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/he-zhan-kuang-ren-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A0%B8%E6%88%98%E7%8B%82%E4%BA%BA%E6%A2%A6.zip",
     page: "/dos-games/he-zhan-kuang-ren-meng/",
   },
   {
@@ -10330,7 +10330,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1,
     entry: "RWARRIOR.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/he-neng-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A0%B8%E8%83%BD%E6%AD%A6%E5%A3%AB.zip",
     page: "/dos-games/he-neng-wu-shi/",
   },
   {
@@ -10341,7 +10341,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "TOUGH.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-han-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%82%8D%E5%B0%86.zip",
     page: "/dos-games/ge-dou-han-jiang/",
   },
   {
@@ -10352,7 +10352,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 293,
     entry: "ACT.COM",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-quan-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%8B%B3%E7%8E%8B.zip",
     page: "/dos-games/ge-dou-quan-wang/",
   },
   {
@@ -10363,7 +10363,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 176,
     entry: "OVERKILL.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-guo-du-sha-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%EF%BC%9A%E8%BF%87%E5%BA%A6%E6%9D%80%E6%88%AE.zip",
     page: "/dos-games/ge-dou-guo-du-sha-lu/",
   },
   {
@@ -10374,7 +10374,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-sha-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%9D%80%E4%BB%A4.zip",
     page: "/dos-games/ge-sha-ling/",
   },
   {
@@ -10385,7 +10385,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "DB.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qiao-pai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8C.zip",
     page: "/dos-games/qiao-pai/",
   },
   {
@@ -10396,7 +10396,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qiao-pai-mvp.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8CMVP.zip",
     page: "/dos-games/qiao-pai-mvp/",
   },
   {
@@ -10407,7 +10407,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 479,
     entry: "FANTASY.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-huan-guo-du.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%9B%BD%E5%BA%A6.zip",
     page: "/dos-games/meng-huan-guo-du/",
   },
   {
@@ -10418,7 +10418,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 293,
     entry: "PRO2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-huan-tian-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%A4%A9%E4%BD%BF.zip",
     page: "/dos-games/meng-huan-tian-shi/",
   },
   {
@@ -10429,7 +10429,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "SLEEP.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-you-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A2%A6%E6%B8%B8%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/meng-you-xiao-zi/",
   },
   {
@@ -10440,7 +10440,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 106,
     entry: "dweb.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A2%A6%E7%BD%91.zip",
     page: "/dos-games/meng-wang/",
   },
   {
@@ -10451,7 +10451,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 157,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-jian-po.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A2%A6%E8%A7%81%E5%9D%A1.zip",
     page: "/dos-games/meng-jian-po/",
   },
   {
@@ -10462,7 +10462,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "play.bat",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-yan-guai-wu-da-zuo-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A2%A6%E9%AD%87%E6%80%AA%E7%89%A9%E5%A4%A7%E4%BD%9C%E6%88%98.zip",
     page: "/dos-games/meng-yan-guai-wu-da-zuo-zhan/",
   },
   {
@@ -10473,7 +10473,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "LOLLY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bang-bang-tang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A3%92%E6%A3%92%E7%B3%96.zip",
     page: "/dos-games/bang-bang-tang/",
   },
   {
@@ -10484,7 +10484,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "HB.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bang-qiu-da-lian-meng-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F3.zip",
     page: "/dos-games/bang-qiu-da-lian-meng-3/",
   },
   {
@@ -10495,7 +10495,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "HB4.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bang-qiu-da-lian-meng-4.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F4.zip",
     page: "/dos-games/bang-qiu-da-lian-meng-4/",
   },
   {
@@ -10506,7 +10506,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 128,
     entry: "K.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sen-ta-yong-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A3%AE%E5%A1%94%E5%8B%87%E5%A3%AB.zip",
     page: "/dos-games/sen-ta-yong-shi/",
   },
   {
@@ -10517,7 +10517,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 240,
     entry: "pick.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sen-lin-xiao-jing-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E5%B0%8F%E7%B2%BE%E7%81%B5.zip",
     page: "/dos-games/sen-lin-xiao-jing-ling/",
   },
   {
@@ -10528,7 +10528,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "FSSW2K.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sen-lin-jiu-huo-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E6%95%91%E7%81%AB%E5%91%98.zip",
     page: "/dos-games/sen-lin-jiu-huo-yuan/",
   },
   {
@@ -10539,7 +10539,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chu-han-zhi-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A5%9A%E6%B1%89%E4%B9%8B%E4%BA%89.zip",
     page: "/dos-games/chu-han-zhi-zheng/",
   },
   {
@@ -10550,7 +10550,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chu-han-zhi-zheng-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A5%9A%E6%B1%89%E4%B9%8B%E4%BA%892.zip",
     page: "/dos-games/chu-han-zhi-zheng-2/",
   },
   {
@@ -10561,7 +10561,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 921,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chu-liu-xiang-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A5%9A%E7%95%99%E9%A6%99%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/chu-liu-xiang-chuan-qi/",
   },
   {
@@ -10572,7 +10572,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 64,
     entry: "SIMFARM.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-nong-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%86%9C%E5%9C%BA.zip",
     page: "/dos-games/mo-ni-nong-chang/",
   },
   {
@@ -10583,7 +10583,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "ZOO.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-dong-wu-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8A%A8%E7%89%A9%E5%9B%AD.zip",
     page: "/dos-games/mo-ni-dong-wu-yuan/",
   },
   {
@@ -10594,7 +10594,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "HEALTH.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-wei-sheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8D%AB%E7%94%9F.zip",
     page: "/dos-games/mo-ni-wei-sheng/",
   },
   {
@@ -10605,7 +10605,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "SIMEARTH.COM",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-di-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9C%B0%E7%90%83.zip",
     page: "/dos-games/mo-ni-di-qiu/",
   },
   {
@@ -10616,7 +10616,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "RUNME.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-chui-diao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9E%82%E9%92%93.zip",
     page: "/dos-games/mo-ni-chui-diao/",
   },
   {
@@ -10627,7 +10627,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "SIMCITY.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-cheng-shi-1989.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82%281989%29.zip",
     page: "/dos-games/mo-ni-cheng-shi-1989/",
   },
   {
@@ -10638,7 +10638,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 132,
     entry: "SC2000.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-cheng-shi-2000.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%822000.zip",
     page: "/dos-games/mo-ni-cheng-shi-2000/",
   },
   {
@@ -10649,7 +10649,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 201,
     entry: "SC2000.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-cheng-shi-2000-zeng-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%822000%E5%A2%9E%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/mo-ni-cheng-shi-2000-zeng-qiang-ban/",
   },
   {
@@ -10660,7 +10660,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 474,
     entry: "HR2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-da-lou.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E6%A5%BC.zip",
     page: "/dos-games/mo-ni-da-lou/",
   },
   {
@@ -10671,7 +10671,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 106,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-qian-ting.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E6%BD%9C%E8%89%87.zip",
     page: "/dos-games/mo-ni-qian-ting/",
   },
   {
@@ -10682,7 +10682,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 125,
     entry: "simlife.bat",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-sheng-ming.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip",
     page: "/dos-games/mo-ni-sheng-ming/",
   },
   {
@@ -10693,7 +10693,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "SIMANT.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-ma-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E8%9A%82%E8%9A%81.zip",
     page: "/dos-games/mo-ni-ma-yi/",
   },
   {
@@ -10704,7 +10704,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "COASTER.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-guo-shan-che.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E8%BF%87%E5%B1%B1%E8%BD%A6.zip",
     page: "/dos-games/mo-ni-guo-shan-che/",
   },
   {
@@ -10715,7 +10715,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "STRIFE.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/heng-sao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%AA%E6%89%AB.zip",
     page: "/dos-games/heng-sao/",
   },
   {
@@ -10726,7 +10726,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/heng-ban-e-luo-si-fang-kuai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%AA%E7%89%88%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip",
     page: "/dos-games/heng-ban-e-luo-si-fang-kuai/",
   },
   {
@@ -10737,7 +10737,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 675,
     entry: "T_ADV1.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-hua-de-ji-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A8%B1%E8%8A%B1%E7%9A%84%E5%AD%A3%E8%8A%82.zip",
     page: "/dos-games/ying-hua-de-ji-jie/",
   },
   {
@@ -10748,7 +10748,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 213,
     entry: "GO.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gan-lan-qiu-shi-jie-bei-95.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A9%84%E6%A6%84%E7%90%83%E4%B8%96%E7%95%8C%E6%9D%AF95.zip",
     page: "/dos-games/gan-lan-qiu-shi-jie-bei-95/",
   },
   {
@@ -10759,7 +10759,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "MLF2.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gan-lan-qiu-xiao-lian-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%A9%84%E6%A6%84%E7%90%83%E5%B0%8F%E8%81%94%E7%9B%9F.zip",
     page: "/dos-games/gan-lan-qiu-xiao-lian-meng/",
   },
   {
@@ -10770,7 +10770,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 236,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-cheng-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%9F%8E%E5%B8%82.zip",
     page: "/dos-games/huan-le-cheng-shi/",
   },
   {
@@ -10781,7 +10781,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 337,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-tian-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%A4%A9%E4%BD%BF.zip",
     page: "/dos-games/huan-le-tian-shi/",
   },
   {
@@ -10792,7 +10792,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 182,
     entry: "HAPPY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-xing-fu-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%B9%B8%E7%A6%8F%E4%BA%BA.zip",
     page: "/dos-games/huan-le-xing-fu-ren/",
   },
   {
@@ -10803,7 +10803,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 109,
     entry: "POKER.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-jie-long.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E6%8E%A5%E9%BE%99.zip",
     page: "/dos-games/huan-le-jie-long/",
   },
   {
@@ -10814,7 +10814,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-ma-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86.zip",
     page: "/dos-games/huan-le-ma-jiang/",
   },
   {
@@ -10825,7 +10825,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "IRUN.COM",
     tag: "o",
-    url: "https://github.com/whereq/dos-games/releases/download/o/ou-zhou-nv-huang-pu-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E5%A5%B3%E7%9A%87%E6%89%91%E5%85%8B.zip",
     page: "/dos-games/ou-zhou-nv-huang-pu-ke/",
   },
   {
@@ -10836,7 +10836,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "WWF.COM",
     tag: "o",
-    url: "https://github.com/whereq/dos-games/releases/download/o/ou-zhou-xun-hui-shuai-jiao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E5%B7%A1%E5%9B%9E%E6%91%94%E8%A7%92.zip",
     page: "/dos-games/ou-zhou-xun-hui-shuai-jiao/",
   },
   {
@@ -10847,7 +10847,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 289,
     entry: "START.BAT",
     tag: "o",
-    url: "https://github.com/whereq/dos-games/releases/download/o/ou-zhou-zu-qiu-96.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A7%E6%B4%B2%E8%B6%B3%E7%90%8396.zip",
     page: "/dos-games/ou-zhou-zu-qiu-96/",
   },
   {
@@ -10858,7 +10858,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "PLAY.BAT",
     tag: "o",
-    url: "https://github.com/whereq/dos-games/releases/download/o/ou-lu-zhan-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AC%A7%E9%99%86%E6%88%98%E7%BA%BF.zip",
     page: "/dos-games/ou-lu-zhan-xian/",
   },
   {
@@ -10869,7 +10869,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zheng-zong-tai-wan-16-zhang-ma-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A3%E5%AE%97%E5%8F%B0%E6%B9%BE16%E5%BC%A0%E9%BA%BB%E5%B0%86.zip",
     page: "/dos-games/zheng-zong-tai-wan-16-zhang-ma-jiang/",
   },
   {
@@ -10880,7 +10880,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "TWMJOPEN.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zheng-zong-tai-wan-16-zhang-ma-jiang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A3%E5%AE%97%E5%8F%B0%E6%B9%BE16%E5%BC%A0%E9%BA%BB%E5%B0%862.zip",
     page: "/dos-games/zheng-zong-tai-wan-16-zhang-ma-jiang-2/",
   },
   {
@@ -10891,7 +10891,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 644,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-ji-shen-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A6%E5%A7%AC%E7%A5%9E%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/wu-ji-shen-chuan-shuo/",
   },
   {
@@ -10902,7 +10902,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 79,
     entry: "play.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jiang-zheng-ba.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A6%E5%B0%86%E4%BA%89%E9%9C%B8.zip",
     page: "/dos-games/wu-jiang-zheng-ba/",
   },
   {
@@ -10913,7 +10913,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jiang-zheng-ba-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A6%E5%B0%86%E4%BA%89%E9%9C%B82.zip",
     page: "/dos-games/wu-jiang-zheng-ba-2/",
   },
   {
@@ -10924,7 +10924,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 282,
     entry: "V1.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-lin-qi-xia-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A6%E6%9E%97%E5%A5%87%E4%BE%A0%E4%BC%A0.zip",
     page: "/dos-games/wu-lin-qi-xia-chuan/",
   },
   {
@@ -10935,7 +10935,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1165,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-zhuang-yuan-huang-fei-hong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A6%E7%8A%B6%E5%85%83%E9%BB%84%E9%A3%9E%E9%B8%BF.zip",
     page: "/dos-games/wu-zhuang-yuan-huang-fei-hong/",
   },
   {
@@ -10946,7 +10946,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 683,
     entry: "______XS.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-zhuang-huan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A6%E8%A3%85%E8%BF%98%E5%87%BB.zip",
     page: "/dos-games/wu-zhuang-huan-ji/",
   },
   {
@@ -10957,7 +10957,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "BUDO.COM",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-dao-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%A6%E9%81%93%E9%A6%86.zip",
     page: "/dos-games/wu-dao-guan/",
   },
   {
@@ -10968,7 +10968,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 156,
     entry: "DON.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-zhi-ye.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E5%A4%9C.zip",
     page: "/dos-games/si-wang-zhi-ye/",
   },
   {
@@ -10979,7 +10979,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 150,
     entry: "DGATE.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-zhi-men.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E9%97%A8.zip",
     page: "/dos-games/si-wang-zhi-men/",
   },
   {
@@ -10990,7 +10990,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 198,
     entry: "TOD.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-ju-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E5%89%A7%E5%9C%BA.zip",
     page: "/dos-games/si-wang-ju-chang/",
   },
   {
@@ -11001,7 +11001,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1006,
     entry: "IOD.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E5%B2%9B.zip",
     page: "/dos-games/si-wang-dao/",
   },
   {
@@ -11012,7 +11012,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "RALLY.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-la-li-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
     page: "/dos-games/si-wang-la-li-sai/",
   },
   {
@@ -11023,7 +11023,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 324,
     entry: "PRAY.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-dao-gao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E7%A5%B7%E5%91%8A.zip",
     page: "/dos-games/si-wang-dao-gao/",
   },
   {
@@ -11034,7 +11034,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 215,
     entry: "DRACER.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/si-wang-sai-che/",
   },
   {
@@ -11045,7 +11045,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4679,
     entry: "play.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-fei-che.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%A3%9E%E8%BD%A6.zip",
     page: "/dos-games/si-wang-fei-che/",
   },
   {
@@ -11056,7 +11056,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "START.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/si-wang-qi-shi/",
   },
   {
@@ -11067,7 +11067,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 113,
     entry: "DB.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-xing-zhi-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E5%88%91%E4%B9%8B%E5%89%91.zip",
     page: "/dos-games/si-xing-zhi-jian/",
   },
   {
@@ -11078,7 +11078,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "DARK.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/si-xing-zhan-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BB%E6%98%9F%E6%88%98%E5%B0%86.zip",
     page: "/dos-games/si-xing-zhan-jiang/",
   },
   {
@@ -11089,7 +11089,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "BC.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-di-xing-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AD%BC%E6%95%8C%E8%A1%8C%E5%8A%A8.zip",
     page: "/dos-games/jian-di-xing-dong/",
   },
   {
@@ -11100,7 +11100,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "CARNAGE.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/can-sha-xing-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AE%8B%E6%9D%80%E8%A1%8C%E5%8A%A8.zip",
     page: "/dos-games/can-sha-xing-dong/",
   },
   {
@@ -11111,7 +11111,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 133,
     entry: "CRUEL.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/can-ku-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AE%8B%E9%85%B7%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/can-ku-shi-jie/",
   },
   {
@@ -11122,7 +11122,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "COLONY.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-shi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E4%B8%96%E7%BA%AA.zip",
     page: "/dos-games/zhi-min-shi-ji/",
   },
   {
@@ -11133,7 +11133,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 286,
     entry: "COLONIZE.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/zhi-min-di-guo/",
   },
   {
@@ -11144,7 +11144,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 190,
     entry: "APS.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-ji-hua.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E8%AE%A1%E5%88%92.zip",
     page: "/dos-games/zhi-min-ji-hua/",
   },
   {
@@ -11155,7 +11155,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "TARGHAN.COM",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-tian-mie-di.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E5%A4%A9%E7%81%AD%E5%9C%B0.zip",
     page: "/dos-games/hui-tian-mie-di/",
   },
   {
@@ -11166,7 +11166,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 190,
     entry: "play.bat",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-gong-jue-1.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B51.zip",
     page: "/dos-games/hui-mie-gong-jue-1/",
   },
   {
@@ -11177,7 +11177,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "NUKEM2.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-gong-jue-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B52.zip",
     page: "/dos-games/hui-mie-gong-jue-2/",
   },
   {
@@ -11188,7 +11188,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "DUKE3D.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-gong-jue-3d.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B53D.zip",
     page: "/dos-games/hui-mie-gong-jue-3d/",
   },
   {
@@ -11199,7 +11199,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 70,
     entry: "MASSD.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-tan-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%9D%A6%E5%85%8B.zip",
     page: "/dos-games/hui-mie-tan-ke/",
   },
   {
@@ -11210,7 +11210,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "DOOM.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/hui-mie-zhan-shi/",
   },
   {
@@ -11221,7 +11221,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "DOOM2.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-shi-2-zhong-jie-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB2%E7%BB%88%E7%BB%93%E7%89%88.zip",
     page: "/dos-games/hui-mie-zhan-shi-2-zhong-jie-ban/",
   },
   {
@@ -11232,7 +11232,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "DOOM2D.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-shi-heng-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB%E6%A8%AA%E7%89%88.zip",
     page: "/dos-games/hui-mie-zhan-shi-heng-ban/",
   },
   {
@@ -11243,7 +11243,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "RAVAGE.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/hui-mie-zhan-ji/",
   },
   {
@@ -11254,7 +11254,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 112,
     entry: "DD",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-jing-ji-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E7%AB%9E%E6%8A%80%E5%9C%BA.zip",
     page: "/dos-games/hui-mie-jing-ji-chang/",
   },
   {
@@ -11265,7 +11265,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "BUNNY.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/du-tu-zai-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%92%E5%85%94%E5%B4%BD%E5%AD%90.zip",
     page: "/dos-games/du-tu-zai-zi/",
   },
   {
@@ -11276,7 +11276,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "DWSB8.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/du-pin-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%AF%92%E5%93%81%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/du-pin-zhan-zheng/",
   },
   {
@@ -11287,7 +11287,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "xenon.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-xing-yi-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%99%E6%98%9F%E5%BC%82%E5%BD%A2.zip",
     page: "/dos-games/xian-xing-yi-xing/",
   },
   {
@@ -11298,7 +11298,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "XENON2.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-xing-yi-xing-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%99%E6%98%9F%E5%BC%82%E5%BD%A22.zip",
     page: "/dos-games/xian-xing-yi-xing-2/",
   },
   {
@@ -11309,7 +11309,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "CMAZE.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-jing-mi-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%99%B6%E8%BF%B7%E5%AE%AB.zip",
     page: "/dos-games/shui-jing-mi-gong/",
   },
   {
@@ -11320,7 +11320,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "FRUIT.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-guo-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%9E%9C%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/shui-guo-da-heng/",
   },
   {
@@ -11331,7 +11331,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "KOEI.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E4%BC%A0.zip",
     page: "/dos-games/shui-hu-zhuan/",
   },
   {
@@ -11342,7 +11342,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "WATER.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-zhuan-zhi-liang-shan-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E4%BC%A0%E4%B9%8B%E6%A2%81%E5%B1%B1%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/shui-hu-zhuan-zhi-liang-shan-ying-xiong/",
   },
   {
@@ -11353,7 +11353,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 746,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-zhuan-shao-nian-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E4%BC%A0%E5%B0%91%E5%B9%B4%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/shui-hu-zhuan-shao-nian-ying-xiong/",
   },
   {
@@ -11364,7 +11364,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "HEROES.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-ying-xiong-zhuan-zhi-huo-zhi-hun.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E8%8B%B1%E9%9B%84%E4%BC%A0%E4%B9%8B%E7%81%AB%E4%B9%8B%E9%AD%82.zip",
     page: "/dos-games/shui-hu-ying-xiong-zhuan-zhi-huo-zhi-hun/",
   },
   {
@@ -11375,7 +11375,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-guan-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip",
     page: "/dos-games/shui-guan-gong/",
   },
   {
@@ -11386,7 +11386,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "runme.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-guan-ma-li-ao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B4%E7%AE%A1%E9%A9%AC%E9%87%8C%E5%A5%A5.zip",
     page: "/dos-games/shui-guan-ma-li-ao/",
   },
   {
@@ -11397,7 +11397,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 530,
     entry: "MCANDLE.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-heng-zhi-zhu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B8%E6%81%92%E4%B9%8B%E7%83%9B1.zip",
     page: "/dos-games/yong-heng-zhi-zhu-1/",
   },
   {
@@ -11408,7 +11408,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 513,
     entry: "MC2.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-heng-zhi-zhu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B8%E6%81%92%E4%B9%8B%E7%83%9B2.zip",
     page: "/dos-games/yong-heng-zhi-zhu-2/",
   },
   {
@@ -11419,7 +11419,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 250,
     entry: "MC3.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-heng-zhi-zhu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B8%E6%81%92%E4%B9%8B%E7%83%9B3.zip",
     page: "/dos-games/yong-heng-zhi-zhu-3/",
   },
   {
@@ -11430,7 +11430,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 660,
     entry: "BATMAN.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-bian-fu-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%9D%99%E8%9D%A0%E4%BE%A0.zip",
     page: "/dos-games/yong-yuan-de-bian-fu-xia/",
   },
   {
@@ -11441,7 +11441,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "rayman",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-lei-man.zip",
+    url: "https://binary.dos.lol/f8220e53422dc33749b01e5902e6dbaaaa12500d5929435cc7d31b7f91160990.zip",
     page: "/dos-games/yong-yuan-de-lei-man/",
   },
   {
@@ -11452,7 +11452,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 238,
     entry: "Rayman.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-lei-man-zi-zhi-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E9%9B%B7%E6%9B%BC%E8%87%AA%E5%88%B6%E5%85%B3.zip",
     page: "/dos-games/yong-yuan-de-lei-man-zi-zhi-guan/",
   },
   {
@@ -11463,7 +11463,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 112,
     entry: "365.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qiu-hun-365-ri.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B1%82%E5%A9%9A365%E6%97%A5.zip",
     page: "/dos-games/qiu-hun-365-ri/",
   },
   {
@@ -11474,7 +11474,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/han-bao-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B1%89%E5%A0%A1%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/han-bao-zhan-zheng/",
   },
   {
@@ -11485,7 +11485,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 119,
     entry: "HANNIBAL.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/han-ni-ba.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B1%89%E5%B0%BC%E6%8B%94.zip",
     page: "/dos-games/han-ni-ba/",
   },
   {
@@ -11496,7 +11496,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 669,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiang-nan-cai-zi-tang-bo-hu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B1%9F%E5%8D%97%E6%89%8D%E5%AD%90%E5%94%90%E4%BC%AF%E8%99%8E.zip",
     page: "/dos-games/jiang-nan-cai-zi-tang-bo-hu/",
   },
   {
@@ -11507,7 +11507,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 319,
     entry: "stalker.exe",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiang-hu-ren-wo-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B1%9F%E6%B9%96%E4%BB%BB%E6%88%91%E8%A1%8C.zip",
     page: "/dos-games/jiang-hu-ren-wo-xing/",
   },
   {
@@ -11518,7 +11518,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 53,
     entry: "GAME.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiang-hu-wai-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B1%9F%E6%B9%96%E5%A4%96%E4%BC%A0.zip",
     page: "/dos-games/jiang-hu-wai-zhuan/",
   },
   {
@@ -11529,7 +11529,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 255,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-che-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B1%BD%E8%BD%A6%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/qi-che-da-heng/",
   },
   {
@@ -11540,7 +11540,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 64,
     entry: "SS2.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chen-mo-qian-hang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E6%BD%9C%E8%88%AA2.zip",
     page: "/dos-games/chen-mo-qian-hang-2/",
   },
   {
@@ -11551,7 +11551,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 121,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chen-mo-de-jian-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E7%9A%84%E8%88%B0%E9%98%9F.zip",
     page: "/dos-games/chen-mo-de-jian-dui/",
   },
   {
@@ -11562,7 +11562,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "DUNE2.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12.zip",
     page: "/dos-games/sha-qiu-mo-bao-2/",
   },
   {
@@ -11573,7 +11573,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "play.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-2-guang-die-ban-1-07.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%85%89%E7%A2%9F%E7%89%881.07.zip",
     page: "/dos-games/sha-qiu-mo-bao-2-guang-die-ban-1-07/",
   },
   {
@@ -11584,7 +11584,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 156,
     entry: "SD2.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-2-jia-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/sha-qiu-mo-bao-2-jia-qiang-ban/",
   },
   {
@@ -11595,7 +11595,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "DUNE.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-guang-die-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A1%E5%85%89%E7%A2%9F%E7%89%88.zip",
     page: "/dos-games/sha-qiu-mo-bao-guang-die-ban/",
   },
   {
@@ -11606,7 +11606,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 43,
     entry: "LSAND.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-zhi-zhan-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B9%8B%E6%88%98%E7%BA%BF.zip",
     page: "/dos-games/sha-zhi-zhan-xian/",
   },
   {
@@ -11617,7 +11617,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "HIGH.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-ke-lang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E5%85%8B%E7%8B%BC.zip",
     page: "/dos-games/sha-ke-lang/",
   },
   {
@@ -11628,7 +11628,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 98,
     entry: "SHANNARA.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-la-na-zhi-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E6%8B%89%E9%82%A3%E4%B9%8B%E5%89%91.zip",
     page: "/dos-games/sha-la-na-zhi-jian/",
   },
   {
@@ -11639,7 +11639,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "sand.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E6%9A%B4.zip",
     page: "/dos-games/sha-bao/",
   },
   {
@@ -11650,7 +11650,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1156,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-mo-yong-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E6%BC%A0%E5%8B%87%E5%A3%AB.zip",
     page: "/dos-games/sha-mo-yong-shi/",
   },
   {
@@ -11661,7 +11661,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "GAME.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/he-yuan-qi-jia-yi-zu-ri.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%B3%E6%BA%90%E5%B4%8E%E5%AE%B6%E4%B8%80%E6%97%8F%28%E6%97%A5%29.zip",
     page: "/dos-games/he-yuan-qi-jia-yi-zu-ri/",
   },
   {
@@ -11672,7 +11672,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 229,
     entry: "FRANKO.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fa-lan-ke-feng-kuang-fu-chou.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B3%95%E5%85%B0%E5%85%8B%E7%96%AF%E7%8B%82%E5%A4%8D%E4%BB%87.zip",
     page: "/dos-games/fa-lan-ke-feng-kuang-fu-chou/",
   },
   {
@@ -11683,7 +11683,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "DOB.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bo-shi-dun-shou-wei-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B3%A2%E5%A3%AB%E9%A1%BF%E5%AE%88%E5%8D%AB%E8%80%85.zip",
     page: "/dos-games/bo-shi-dun-shou-wei-zhe/",
   },
   {
@@ -11694,7 +11694,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "prince.exe",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bo-si-wang-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%AD%90.zip",
     page: "/dos-games/bo-si-wang-zi/",
   },
   {
@@ -11705,7 +11705,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "Prince.exe",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bo-si-wang-zi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%AD%902.zip",
     page: "/dos-games/bo-si-wang-zi-2/",
   },
   {
@@ -11716,7 +11716,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 42,
     entry: "4D_PRIN.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bo-si-wang-zi-min-jian-gai-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%AD%90%E6%B0%91%E9%97%B4%E6%94%B9%E7%89%88.zip",
     page: "/dos-games/bo-si-wang-zi-min-jian-gai-ban/",
   },
   {
@@ -11727,7 +11727,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 78,
     entry: "TEKWAR.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-ke-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B3%B0%E5%85%8B%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/tai-ke-zhan-zheng/",
   },
   {
@@ -11738,7 +11738,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "part2.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tai-la-zhi-huo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B3%B0%E6%8B%89%E4%B9%8B%E7%81%AB.zip",
     page: "/dos-games/tai-la-zhi-huo/",
   },
   {
@@ -11749,7 +11749,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "MM.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-ke-ren-3.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B4%9B%E5%85%8B%E4%BA%BA3.zip",
     page: "/dos-games/luo-ke-ren-3/",
   },
   {
@@ -11760,7 +11760,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 425,
     entry: "MMX.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-ke-ren-x.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B4%9B%E5%85%8B%E4%BA%BAX.zip",
     page: "/dos-games/luo-ke-ren-x/",
   },
   {
@@ -11771,7 +11771,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 169,
     entry: "CAVE.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dong-xue-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B4%9E%E7%A9%B4%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/dong-xue-zhan-zheng/",
   },
   {
@@ -11782,7 +11782,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "GO.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-liu-jian-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B4%AA%E6%B5%81%E5%89%91%E5%AE%A2.zip",
     page: "/dos-games/hong-liu-jian-ke/",
   },
   {
@@ -11793,7 +11793,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 546,
     entry: "RAGE.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-huang-ge-dou.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B4%AA%E8%8D%92%E6%A0%BC%E6%96%97.zip",
     page: "/dos-games/hong-huang-ge-dou/",
   },
   {
@@ -11804,7 +11804,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 80,
     entry: "SL.COM",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-shang-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E4%B8%8A%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/hai-shang-chuan-qi/",
   },
   {
@@ -11815,7 +11815,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 378,
     entry: "ROGUE.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-xia-luo-ge.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E4%B8%8B%E7%BD%97%E6%A0%BC.zip",
     page: "/dos-games/hai-xia-luo-ge/",
   },
   {
@@ -11826,7 +11826,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 950,
     entry: "DOS4GW.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-jun-chu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%86%9B%E5%87%BA%E5%87%BB.zip",
     page: "/dos-games/hai-jun-chu-ji/",
   },
   {
@@ -11837,7 +11837,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 178,
     entry: "GAME.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-mu-da.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE.zip",
     page: "/dos-games/hai-mu-da/",
   },
   {
@@ -11848,7 +11848,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 358,
     entry: "H2PC.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-mu-da-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE2.zip",
     page: "/dos-games/hai-mu-da-2/",
   },
   {
@@ -11859,7 +11859,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 196,
     entry: "ANTE.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-yang-duo-mi-nuo.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E6%B4%8B%E5%A4%9A%E7%B1%B3%E8%AF%BA.zip",
     page: "/dos-games/hai-yang-duo-mi-nuo/",
   },
   {
@@ -11870,7 +11870,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 114,
     entry: "ninjas.exe",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-tan-dou-ren-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E6%BB%A9%E6%96%97%E5%BF%8D%E8%80%85.zip",
     page: "/dos-games/hai-tan-dou-ren-zhe/",
   },
   {
@@ -11881,7 +11881,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 114,
     entry: "SEAWOLF.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-lang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%8B%BC.zip",
     page: "/dos-games/hai-lang/",
   },
   {
@@ -11892,7 +11892,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "PIRATES.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-dao-da-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E5%A4%A7%E6%88%98.zip",
     page: "/dos-games/hai-dao-da-zhan/",
   },
   {
@@ -11903,7 +11903,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 249,
     entry: "PIRATESG.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-dao-huang-jin-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E9%BB%84%E9%87%91%E7%89%88.zip",
     page: "/dos-games/hai-dao-huang-jin-ban/",
   },
   {
@@ -11914,7 +11914,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 98,
     entry: "ST.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hai-bao-tu-ji-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B5%B7%E8%B1%B9%E7%AA%81%E5%87%BB%E9%98%9F.zip",
     page: "/dos-games/hai-bao-tu-ji-dui/",
   },
   {
@@ -11925,7 +11925,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 53,
     entry: "MERC.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-fang-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B6%88%E9%98%B2%E9%98%9F.zip",
     page: "/dos-games/xiao-fang-dui/",
   },
   {
@@ -11936,7 +11936,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 108,
     entry: "LODERUNN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tao-jin-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B7%98%E9%87%91%E8%80%85.zip",
     page: "/dos-games/tao-jin-zhe/",
   },
   {
@@ -11947,7 +11947,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "MAIN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-ru-hu-xue.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B7%B1%E5%85%A5%E8%99%8E%E7%A9%B4.zip",
     page: "/dos-games/shen-ru-hu-xue/",
   },
   {
@@ -11958,7 +11958,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "TITVGA.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-hai-tai-tan-ni-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B7%B1%E6%B5%B7%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B.zip",
     page: "/dos-games/shen-hai-tai-tan-ni-ke/",
   },
   {
@@ -11969,7 +11969,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hun-zhan-zhi-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%88%98%E4%B9%8B%E7%BF%BC.zip",
     page: "/dos-games/hun-zhan-zhi-yi/",
   },
   {
@@ -11980,7 +11980,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "ROCGUS.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hun-dun-zhi-di.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E4%B9%8B%E5%9C%B0.zip",
     page: "/dos-games/hun-dun-zhi-di/",
   },
   {
@@ -11991,7 +11991,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1005,
     entry: "BEDLAM.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hun-dun-ji-jia-1.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip",
     page: "/dos-games/hun-dun-ji-jia-1/",
   },
   {
@@ -12002,7 +12002,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 989,
     entry: "BEDLAM.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hun-dun-ji-jia-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B22.zip",
     page: "/dos-games/hun-dun-ji-jia-2/",
   },
   {
@@ -12013,7 +12013,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "INNOCENT.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qing-bai-wu-zui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B8%85%E7%99%BD%E6%97%A0%E7%BD%AA.zip",
     page: "/dos-games/qing-bai-wu-zui/",
   },
   {
@@ -12024,7 +12024,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 131,
     entry: "GUILTY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qing-bai-wu-zui-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B8%85%E7%99%BD%E6%97%A0%E7%BD%AA2.zip",
     page: "/dos-games/qing-bai-wu-zui-2/",
   },
   {
@@ -12035,7 +12035,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "CRUISE.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-lun-xiong-an.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B8%B8%E8%BD%AE%E5%87%B6%E6%A1%88.zip",
     page: "/dos-games/you-lun-xiong-an/",
   },
   {
@@ -12046,7 +12046,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "NBA.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hu-ren-dui-kai-er-te-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B9%96%E4%BA%BA%E5%AF%B9%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA.zip",
     page: "/dos-games/hu-ren-dui-kai-er-te-ren/",
   },
   {
@@ -12057,7 +12057,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "DESERT.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wan-an-zuo-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B9%BE%E5%B2%B8%E4%BD%9C%E6%88%98.zip",
     page: "/dos-games/wan-an-zuo-zhan/",
   },
   {
@@ -12068,7 +12068,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "SLIPSTRM.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hua-liu-5000.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BB%91%E6%B5%815000.zip",
     page: "/dos-games/hua-liu-5000/",
   },
   {
@@ -12079,7 +12079,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hua-liu-xiao-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BB%91%E6%BA%9C%E5%B0%8F%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/hua-liu-xiao-sai-che/",
   },
   {
@@ -12090,7 +12090,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "level7.exe",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hua-lun-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BB%91%E8%BD%AE%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/hua-lun-xiao-zi/",
   },
   {
@@ -12101,7 +12101,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "LEVEL6.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hua-lun-xiao-zi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BB%91%E8%BD%AE%E5%B0%8F%E5%AD%902.zip",
     page: "/dos-games/hua-lun-xiao-zi-2/",
   },
   {
@@ -12112,7 +12112,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 194,
     entry: "SKIPRO.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hua-xue-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BB%91%E9%9B%AA%E5%9C%BA.zip",
     page: "/dos-games/hua-xue-chang/",
   },
   {
@@ -12123,7 +12123,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 279,
     entry: "LASER.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-guang-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BF%80%E5%85%89%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/ji-guang-bu-dui/",
   },
   {
@@ -12134,7 +12134,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 136,
     entry: "GOAL.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-qing-zu-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%83%85%E8%B6%B3%E7%90%83.zip",
     page: "/dos-games/ji-qing-zu-qiu/",
   },
   {
@@ -12145,7 +12145,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "STARCON.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-m-xing-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%91.zip",
     page: "/dos-games/ji-zhan-m-xing-yun/",
   },
   {
@@ -12156,7 +12156,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "play.bat",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-m-xing-yun-2.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%912.zip",
     page: "/dos-games/ji-zhan-m-xing-yun-2/",
   },
   {
@@ -12167,7 +12167,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 410,
     entry: "FIGHTER.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-dou-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%96%97%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/ji-dou-zhan-shi/",
   },
   {
@@ -12178,7 +12178,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 396,
     entry: "SLAM.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guan-lan-96.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%8C%E7%AF%AE96.zip",
     page: "/dos-games/guan-lan-96/",
   },
   {
@@ -12189,7 +12189,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 168,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guan-lan-jin-gang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%8C%E7%AF%AE%E9%87%91%E5%88%9A.zip",
     page: "/dos-games/guan-lan-jin-gang/",
   },
   {
@@ -12200,7 +12200,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-xing-ren-bei-wang-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E6%98%9F%E4%BA%BA%E5%A4%87%E5%BF%98%E5%BD%95.zip",
     page: "/dos-games/huo-xing-ren-bei-wang-lu/",
   },
   {
@@ -12211,7 +12211,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "GODDESS.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-xing-nv-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E6%98%9F%E5%A5%B3%E7%A5%9E.zip",
     page: "/dos-games/huo-xing-nv-shen/",
   },
   {
@@ -12222,7 +12222,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 75,
     entry: "FP.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-yan-zhi-li.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%8A%9B.zip",
     page: "/dos-games/huo-yan-zhi-li/",
   },
   {
@@ -12233,7 +12233,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 271,
     entry: "GAME.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-yan-zhi-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E7%8E%8B.zip",
     page: "/dos-games/huo-yan-zhi-wang/",
   },
   {
@@ -12244,7 +12244,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "FFC.COM",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-hu-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%8B%90%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/huo-hu-mao-xian/",
   },
   {
@@ -12255,7 +12255,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 245,
     entry: "rocket.exe",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-jian-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%AE%AD%E6%89%8B.zip",
     page: "/dos-games/huo-jian-shou/",
   },
   {
@@ -12266,7 +12266,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "road.exe",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-jian-che.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%AE%AD%E8%BD%A6.zip",
     page: "/dos-games/huo-jian-che/",
   },
   {
@@ -12277,7 +12277,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "STRIFE1.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huo-xian-jiao-cha.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%BA%BF%E4%BA%A4%E5%8F%89.zip",
     page: "/dos-games/huo-xian-jiao-cha/",
   },
   {
@@ -12288,7 +12288,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 354,
     entry: "ASHES.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hui-jin-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%B0%E7%83%AC%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/hui-jin-di-guo/",
   },
   {
@@ -12299,7 +12299,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 265,
     entry: "SWORD.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/ling-jian-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%81%B5%E5%89%91%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/ling-jian-chuan-qi/",
   },
   {
@@ -12310,7 +12310,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 278,
     entry: "FD.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yan-long-qi-shi-tuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A2.zip",
     page: "/dos-games/yan-long-qi-shi-tuan/",
   },
   {
@@ -12321,19 +12321,8 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "FD2.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yan-long-qi-shi-tuan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A22.zip",
     page: "/dos-games/yan-long-qi-shi-tuan-2/",
-  },
-  {
-    id: "yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi",
-    name: "炎龙骑士团II‧黄金城之谜",
-    year: "",
-    size: 8155666,
-    files: 47,
-    entry: "FD2.EXE",
-    tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi.zip",
-    page: "/dos-games/yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi/",
   },
   {
     id: "yan-long-qi-shi-tuan-wai-zhuan",
@@ -12343,7 +12332,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "FDPS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yan-long-qi-shi-tuan-wai-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A2%E5%A4%96%E4%BC%A0.zip",
     page: "/dos-games/yan-long-qi-shi-tuan-wai-zhuan/",
   },
   {
@@ -12354,7 +12343,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 457,
     entry: "C.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pao-hui-you-ming-xiao-bing-li-da-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%AE%E7%81%B0%28%E5%8F%88%E5%90%8D%E5%B0%8F%E5%85%B5%E7%AB%8B%E5%A4%A7%E5%8A%9F%29.zip",
     page: "/dos-games/pao-hui-you-ming-xiao-bing-li-da-gong/",
   },
   {
@@ -12365,7 +12354,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "CAN2.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pao-hui-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%AE%E7%81%B02.zip",
     page: "/dos-games/pao-hui-2/",
   },
   {
@@ -12376,7 +12365,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 106,
     entry: "BOMBX.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zha-dan-ren-x.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E4%BA%BAX.zip",
     page: "/dos-games/zha-dan-ren-x/",
   },
   {
@@ -12387,7 +12376,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zha-dan-chao-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E8%B6%85%E4%BA%BA.zip",
     page: "/dos-games/zha-dan-chao-ren/",
   },
   {
@@ -12398,7 +12387,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "DYNAMO.COM",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zha-dan-dui-zhang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E9%98%9F%E9%95%BF.zip",
     page: "/dos-games/zha-dan-dui-zhang/",
   },
   {
@@ -12409,7 +12398,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 41,
     entry: "INFERNO.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lian-yu-fei-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%BC%E7%8B%B1%E9%A3%9E%E8%A1%8C.zip",
     page: "/dos-games/lian-yu-fei-xing/",
   },
   {
@@ -12420,7 +12409,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2074,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-tian-zhi-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%82%BD%E5%A4%A9%E4%B9%8B%E7%BF%BC.zip",
     page: "/dos-games/chi-tian-zhi-yi/",
   },
   {
@@ -12431,7 +12420,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 171,
     entry: "TESTIMG.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lie-yan-gang-lang-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%83%88%E7%84%B0%E9%92%A2%E7%8B%BC%E4%BC%A0.zip",
     page: "/dos-games/lie-yan-gang-lang-chuan/",
   },
   {
@@ -12442,7 +12431,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 342,
     entry: "MAINDOS.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/re-li-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%83%AD%E5%8A%9B%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/re-li-che-sai/",
   },
   {
@@ -12453,7 +12442,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "SIERRA.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/re-dai-yu-lin-de-mi-mi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%83%AD%E5%B8%A6%E9%9B%A8%E6%9E%97%E7%9A%84%E7%A7%98%E5%AF%86.zip",
     page: "/dos-games/re-dai-yu-lin-de-mi-mi/",
   },
   {
@@ -12464,7 +12453,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 166,
     entry: "GRAV.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/re-neng-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%83%AD%E8%83%BD%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/re-neng-zhan-ji/",
   },
   {
@@ -12475,7 +12464,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "PLAY.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/re-xue-ying-pai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%83%AD%E8%A1%80%E7%A1%AC%E6%B4%BE.zip",
     page: "/dos-games/re-xue-ying-pai/",
   },
   {
@@ -12486,7 +12475,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 54,
     entry: "RUN.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiong-mao-da-jin-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%86%8A%E7%8C%AB%E5%A4%A7%E8%BF%9B%E5%87%BB.zip",
     page: "/dos-games/xiong-mao-da-jin-ji/",
   },
   {
@@ -12497,7 +12486,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 292,
     entry: "BT.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/ran-shao-shi-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E7%87%83%E7%83%A7%E6%97%B6%E5%88%BB.zip",
     page: "/dos-games/ran-shao-shi-ke/",
   },
   {
@@ -12508,7 +12497,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 484,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-san-guo-zhi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%B8%89%E5%9B%BD%E5%BF%97.zip",
     page: "/dos-games/bao-xiao-san-guo-zhi/",
   },
   {
@@ -12519,7 +12508,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "BOWLING.COM",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-bao-ling-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%BF%9D%E9%BE%84%E7%90%83.zip",
     page: "/dos-games/bao-xiao-bao-ling-qiu/",
   },
   {
@@ -12530,7 +12519,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 201,
     entry: "AIR.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-chu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E5%87%BA%E5%87%BB.zip",
     page: "/dos-games/bao-xiao-chu-ji/",
   },
   {
@@ -12541,7 +12530,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 537,
     entry: "MODEL.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-shui-hu-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E6%B0%B4%E6%B5%92%E4%BC%A0.zip",
     page: "/dos-games/bao-xiao-shui-hu-zhuan/",
   },
   {
@@ -12552,7 +12541,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "CDODGE.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-duo-bi-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E8%BA%B2%E9%81%BF%E7%90%83.zip",
     page: "/dos-games/bao-xiao-duo-bi-qiu/",
   },
   {
@@ -12563,7 +12552,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 317,
     entry: "PLAY.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-zhi-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B1%E4%B9%8B%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/ai-zhi-wu-yu/",
   },
   {
@@ -12574,7 +12563,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 335,
     entry: "PLAY.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-zhi-wu-yu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B1%E4%B9%8B%E7%89%A9%E8%AF%AD2.zip",
     page: "/dos-games/ai-zhi-wu-yu-2/",
   },
   {
@@ -12585,7 +12574,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 326,
     entry: "PLAY.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-zhi-wu-yu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B1%E4%B9%8B%E7%89%A9%E8%AF%AD3.zip",
     page: "/dos-games/ai-zhi-wu-yu-3/",
   },
   {
@@ -12596,7 +12585,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 229,
     entry: "JAZZ.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94.zip",
     page: "/dos-games/jue-shi-tu/",
   },
   {
@@ -12607,7 +12596,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 522,
     entry: "JAZZ.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-wan-zheng-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%E5%AE%8C%E6%95%B4%E7%89%88.zip",
     page: "/dos-games/jue-shi-tu-wan-zheng-ban/",
   },
   {
@@ -12618,7 +12607,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "JAZZ.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-jia-ri-tu-94.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%EF%BC%9A%E5%81%87%E6%97%A5%E5%85%9494.zip",
     page: "/dos-games/jue-shi-tu-jia-ri-tu-94/",
   },
   {
@@ -12629,7 +12618,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "JAZZ.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-jia-ri-tu-95.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%EF%BC%9A%E5%81%87%E6%97%A5%E5%85%9495.zip",
     page: "/dos-games/jue-shi-tu-jia-ri-tu-95/",
   },
   {
@@ -12640,7 +12629,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 310,
     entry: "JAZZ.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-guang-die-zeng-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%EF%BC%9A%E5%85%89%E7%A2%9F%E5%A2%9E%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/jue-shi-tu-guang-die-zeng-qiang-ban/",
   },
   {
@@ -12651,7 +12640,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 411,
     entry: "UNS.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wu-jing-tian-bu-ze.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%A9%E7%AB%9E%E5%A4%A9%E4%B8%8D%E6%8B%A9.zip",
     page: "/dos-games/wu-jing-tian-bu-ze/",
   },
   {
@@ -12662,7 +12651,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 399,
     entry: "GAMEMAIN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-qin-ji-jia-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E5%8B%A4%E6%9C%BA%E7%94%B2%E9%98%9F.zip",
     page: "/dos-games/te-qin-ji-jia-dui/",
   },
   {
@@ -12673,7 +12662,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 140,
     entry: "TACTICS.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-qin-ji-jia-dui-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E5%8B%A4%E6%9C%BA%E7%94%B2%E9%98%9F2.zip",
     page: "/dos-games/te-qin-ji-jia-dui-2/",
   },
   {
@@ -12684,7 +12673,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 171,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-qin-ji-jia-dui-2-zeng-qiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E5%8B%A4%E6%9C%BA%E7%94%B2%E9%98%9F2%E5%A2%9E%E5%BC%BA%E7%89%88.zip",
     page: "/dos-games/te-qin-ji-jia-dui-2-zeng-qiang-ban/",
   },
   {
@@ -12695,7 +12684,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "guyspy.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-gong-gai-zhi-hui-mie-shui-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E5%B7%A5%E7%9B%96%E4%B9%8B%E6%AF%81%E7%81%AD%E6%B0%B4%E6%99%B6.zip",
     page: "/dos-games/te-gong-gai-zhi-hui-mie-shui-jing/",
   },
   {
@@ -12706,7 +12695,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 107,
     entry: "STUNT.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-ji-zhi-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E4%B9%8B%E5%B2%9B.zip",
     page: "/dos-games/te-ji-zhi-dao/",
   },
   {
@@ -12717,7 +12706,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 218,
     entry: "STUNT.COM",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-ji-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/te-ji-sai-che/",
   },
   {
@@ -12728,7 +12717,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 183,
     entry: "STUNT.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-ji-jia-shi-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E9%A9%BE%E9%A9%B6%E5%91%98.zip",
     page: "/dos-games/te-ji-jia-shi-yuan/",
   },
   {
@@ -12739,7 +12728,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 157,
     entry: "FORCES.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-zhong-bu-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E7%A7%8D%E9%83%A8%E9%98%9F.zip",
     page: "/dos-games/te-zhong-bu-dui/",
   },
   {
@@ -12750,7 +12739,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "TERESA.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-lei-sha.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E8%95%BE%E8%8E%8E.zip",
     page: "/dos-games/te-lei-sha/",
   },
   {
@@ -12761,7 +12750,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 579,
     entry: "JD.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/te-jing-pan-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%89%B9%E8%AD%A6%E5%88%A4%E5%AE%98.zip",
     page: "/dos-games/te-jing-pan-guan/",
   },
   {
@@ -12772,7 +12761,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "CW.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fan-zui-lang-chao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8A%AF%E7%BD%AA%E6%B5%AA%E6%BD%AE.zip",
     page: "/dos-games/fan-zui-lang-chao/",
   },
   {
@@ -12783,7 +12772,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "RAMPAGE.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kuang-bao-yi-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%82%E6%9A%B4%E5%BC%82%E5%BD%A2.zip",
     page: "/dos-games/kuang-bao-yi-xing/",
   },
   {
@@ -12794,7 +12783,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "play.bat",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kuang-re-dan-zhu-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%82%E7%83%AD%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
     page: "/dos-games/kuang-re-dan-zhu-tai/",
   },
   {
@@ -12805,7 +12794,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 181,
     entry: "DOS4GW.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kuang-re-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%82%E7%83%AD%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/kuang-re-che-sai/",
   },
   {
@@ -12816,7 +12805,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 390,
     entry: "START.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kuang-ye-bei-lun.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%82%E9%87%8E%E6%82%96%E8%AE%BA.zip",
     page: "/dos-games/kuang-ye-bei-lun/",
   },
   {
@@ -12827,7 +12816,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "WWW.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kuang-ye-xi-bu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%82%E9%87%8E%E8%A5%BF%E9%83%A8.zip",
     page: "/dos-games/kuang-ye-xi-bu/",
   },
   {
@@ -12838,7 +12827,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "PLAY.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kuang-long-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%82%E9%BE%99%E4%BC%A0.zip",
     page: "/dos-games/kuang-long-chuan/",
   },
   {
@@ -12849,7 +12838,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "FR.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hu-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%90%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/hu-zhan-ji/",
   },
   {
@@ -12860,7 +12849,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 143,
     entry: "sierra.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shou-mo-lie-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%A9%E9%AD%94%E7%8C%8E%E4%BA%BA.zip",
     page: "/dos-games/shou-mo-lie-ren/",
   },
   {
@@ -12871,7 +12860,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "MAIN.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/du-li-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/du-li-zhan-zheng/",
   },
   {
@@ -12882,7 +12871,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 333,
     entry: "INDYCAR.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/du-li-sai-che-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E8%B5%9B%E8%BD%A62.zip",
     page: "/dos-games/du-li-sai-che-2/",
   },
   {
@@ -12893,7 +12882,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 113,
     entry: "INDYCAR.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/du-li-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/du-li-che-sai/",
   },
   {
@@ -12904,7 +12893,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "ABMIS.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-zi-an-bi-si.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%AE%E5%AD%90%E5%AE%89%E5%BF%85%E6%96%AF.zip",
     page: "/dos-games/shi-zi-an-bi-si/",
   },
   {
@@ -12915,7 +12904,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "LIONKING.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-zi-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%AE%E5%AD%90%E7%8E%8B.zip",
     page: "/dos-games/shi-zi-wang/",
   },
   {
@@ -12926,7 +12915,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "WLFSBANE.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lang-huo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8B%BC%E7%A5%B8.zip",
     page: "/dos-games/lang-huo/",
   },
   {
@@ -12937,7 +12926,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 82,
     entry: "ORION.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lie-hu-zuo-yin-mou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%8E%E6%88%B7%E5%BA%A7%E9%98%B4%E8%B0%8B.zip",
     page: "/dos-games/lie-hu-zuo-yin-mou/",
   },
   {
@@ -12948,7 +12937,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 816,
     entry: "SH.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lie-sha-qian-hang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%8E%E6%9D%80%E6%BD%9C%E8%88%AA.zip",
     page: "/dos-games/lie-sha-qian-hang/",
   },
   {
@@ -12959,7 +12948,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "RUNME.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lie-sha-hong-se-shi-yue.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%8E%E6%9D%80%E7%BA%A2%E8%89%B2%E5%8D%81%E6%9C%88.zip",
     page: "/dos-games/lie-sha-hong-se-shi-yue/",
   },
   {
@@ -12970,7 +12959,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "DREAM.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-gui-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%9B%E9%AC%BC%E8%A1%97.zip",
     page: "/dos-games/meng-gui-jie/",
   },
   {
@@ -12981,7 +12970,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "RAPTOR.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/meng-long-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%9B%E9%BE%99%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/meng-long-zhan-ji/",
   },
   {
@@ -12992,7 +12981,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "TJ.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mao-he-lao-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A0.zip",
     page: "/dos-games/mao-he-lao-shu/",
   },
   {
@@ -13003,7 +12992,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1,
     entry: "TJ2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mao-he-lao-shu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A02.zip",
     page: "/dos-games/mao-he-lao-shu-2/",
   },
   {
@@ -13014,7 +13003,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "MONKEY.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hou-dao-xiao-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%B4%E5%B2%9B%E5%B0%8F%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/hou-dao-xiao-ying-xiong/",
   },
   {
@@ -13025,7 +13014,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "MONKEY2.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hou-dao-xiao-ying-xiong-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8C%B4%E5%B2%9B%E5%B0%8F%E8%8B%B1%E9%9B%842.zip",
     page: "/dos-games/hou-dao-xiao-ying-xiong-2/",
   },
   {
@@ -13036,7 +13025,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 113,
     entry: "MOAG.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-mi-fei-ji-da-zhan-wai-xing-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%89%E7%B1%B3%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip",
     page: "/dos-games/yu-mi-fei-ji-da-zhan-wai-xing-ren/",
   },
   {
@@ -13047,7 +13036,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 513,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-pu-tuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%89%E8%92%B2%E5%9B%A2.zip",
     page: "/dos-games/yu-pu-tuan/",
   },
   {
@@ -13058,7 +13047,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "START.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wang-wei-ji-cheng-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%8B%E4%BD%8D%E7%BB%A7%E6%89%BF%E8%80%85.zip",
     page: "/dos-games/wang-wei-ji-cheng-zhe/",
   },
   {
@@ -13069,7 +13058,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "PRINCE.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wang-zi-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%8B%E5%AD%90%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/wang-zi-chuan-qi/",
   },
   {
@@ -13080,7 +13069,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 564,
     entry: "AOD.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wang-pai-qian-ting-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%8B%E7%89%8C%E6%BD%9C%E8%89%87%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/wang-pai-qian-ting-zi-liao-pian/",
   },
   {
@@ -13091,7 +13080,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-jie-mei.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%9B%E4%B8%BD%E5%A7%90%E5%A6%B9.zip",
     page: "/dos-games/ma-li-jie-mei/",
   },
   {
@@ -13102,7 +13091,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "ROTM.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-ji-zhi-huan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%9B%E5%90%89%E4%B9%8B%E7%8E%AF.zip",
     page: "/dos-games/ma-ji-zhi-huan/",
   },
   {
@@ -13113,7 +13102,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 179,
     entry: "JONNY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-ya-yong-shi-de-zu-zhou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%9B%E9%9B%85%E5%8B%87%E5%A3%AB%E7%9A%84%E8%AF%85%E5%92%92.zip",
     page: "/dos-games/ma-ya-yong-shi-de-zu-zhou/",
   },
   {
@@ -13124,7 +13113,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1223,
     entry: "ROSE.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-gui-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%AB%E7%91%B0%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/mei-gui-qi-shi/",
   },
   {
@@ -13135,7 +13124,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "RING.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huan-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8E%AF%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/huan-shi-jie/",
   },
   {
@@ -13146,7 +13135,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "ZOOL.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-bao-zhu-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8F%8D%E5%AE%9D%E7%8F%A0%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/zhen-bao-zhu-xiao-zi/",
   },
   {
@@ -13157,7 +13146,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "play.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-bao-zhu-xiao-zi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8F%8D%E5%AE%9D%E7%8F%A0%E5%B0%8F%E5%AD%902.zip",
     page: "/dos-games/zhen-bao-zhu-xiao-zi-2/",
   },
   {
@@ -13168,7 +13157,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ban-ji-99.zip",
+    url: "https://dos-bin.zczc.cz/%E7%8F%AD%E7%BA%A799.zip",
     page: "/dos-games/ban-ji-99/",
   },
   {
@@ -13179,7 +13168,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "AMBER.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hu-po-zhi-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%90%A5%E7%8F%80%E4%B9%8B%E6%98%9F.zip",
     page: "/dos-games/hu-po-zhi-xing/",
   },
   {
@@ -13190,7 +13179,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 39,
     entry: "play.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-hua-wei-xie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E5%A8%81%E8%83%81.zip",
     page: "/dos-games/sheng-hua-wei-xie/",
   },
   {
@@ -13201,7 +13190,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "CYBERIA.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-hua-han-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E6%82%8D%E5%B0%86.zip",
     page: "/dos-games/sheng-hua-han-jiang/",
   },
   {
@@ -13212,7 +13201,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 223,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-hua-qing-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E6%83%85%E4%BA%BA.zip",
     page: "/dos-games/sheng-hua-qing-ren/",
   },
   {
@@ -13223,7 +13212,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 84,
     entry: "DOS4GW.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-si-jue-dou-2097.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%9F%E6%AD%BB%E5%86%B3%E6%96%972097.zip",
     page: "/dos-games/sheng-si-jue-dou-2097/",
   },
   {
@@ -13234,7 +13223,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "RUNME.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sheng-wu-you-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%9F%E7%89%A9%E6%B8%B8%E6%88%8F.zip",
     page: "/dos-games/sheng-wu-you-xi/",
   },
   {
@@ -13245,7 +13234,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 174,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jia-a-feng-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%B2A%E9%A3%8E%E4%BA%91.zip",
     page: "/dos-games/jia-a-feng-yun/",
   },
   {
@@ -13256,7 +13245,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "EM.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dian-zi-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%B5%E5%AD%90%E4%BE%A0.zip",
     page: "/dos-games/dian-zi-xia/",
   },
   {
@@ -13267,7 +13256,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "POPPLE.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dian-zi-bo-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%B5%E5%AD%90%E6%B3%A2%E5%8A%A8.zip",
     page: "/dos-games/dian-zi-bo-dong/",
   },
   {
@@ -13278,7 +13267,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "CAMMAN.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dian-ying-gong-fang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%B5%E5%BD%B1%E5%B7%A5%E5%9D%8A.zip",
     page: "/dos-games/dian-ying-gong-fang/",
   },
   {
@@ -13289,7 +13278,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "A_.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dian-nao-mo-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%94%B5%E8%84%91%E9%AD%94%E5%9F%9F.zip",
     page: "/dos-games/dian-nao-mo-yu/",
   },
   {
@@ -13300,7 +13289,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 589,
     entry: "UU3.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E5%AD%90.zip",
     page: "/dos-games/feng-zi/",
   },
   {
@@ -13311,7 +13300,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 329,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-yi-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%8C%BB%E9%99%A2.zip",
     page: "/dos-games/feng-kuang-yi-yuan/",
   },
   {
@@ -13322,7 +13311,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 242,
     entry: "DR2.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-yi-yuan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%8C%BB%E9%99%A22.zip",
     page: "/dos-games/feng-kuang-yi-yuan-2/",
   },
   {
@@ -13333,7 +13322,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "CRAZY.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-shuang-xiang-pao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%8F%8C%E5%93%8D%E7%82%AE.zip",
     page: "/dos-games/feng-kuang-shuang-xiang-pao/",
   },
   {
@@ -13344,7 +13333,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "RAMPAGE.COM",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-da-hui-mie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%A4%A7%E6%AF%81%E7%81%AD.zip",
     page: "/dos-games/feng-kuang-da-hui-mie/",
   },
   {
@@ -13355,7 +13344,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "MEGA.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-da-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%A4%A7%E9%99%86.zip",
     page: "/dos-games/feng-kuang-da-lu/",
   },
   {
@@ -13366,7 +13355,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 575,
     entry: "L3CD.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-xiao-lv-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E6%97%85%E9%BC%A0.zip",
     page: "/dos-games/feng-kuang-xiao-lv-shu/",
   },
   {
@@ -13377,7 +13366,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 232,
     entry: "L2.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-xiao-lv-shu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E6%97%85%E9%BC%A02.zip",
     page: "/dos-games/feng-kuang-xiao-lv-shu-2/",
   },
   {
@@ -13388,7 +13377,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 503,
     entry: "L3.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-xiao-lv-shu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E6%97%85%E9%BC%A03.zip",
     page: "/dos-games/feng-kuang-xiao-lv-shu-3/",
   },
   {
@@ -13399,7 +13388,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "Ducks.exe",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-xiao-ya.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E9%B8%AD.zip",
     page: "/dos-games/feng-kuang-xiao-ya/",
   },
   {
@@ -13410,7 +13399,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "DOTT.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-shi-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E6%97%B6%E4%BB%A3.zip",
     page: "/dos-games/feng-kuang-shi-dai/",
   },
   {
@@ -13421,7 +13410,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 37,
     entry: "CRAZY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-gan-lan-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E6%A9%84%E6%A6%84%E7%90%83.zip",
     page: "/dos-games/feng-kuang-gan-lan-qiu/",
   },
   {
@@ -13432,7 +13421,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 244,
     entry: "MTV.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-dian-shi-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E7%94%B5%E8%A7%86%E5%8F%B0.zip",
     page: "/dos-games/feng-kuang-dian-shi-tai/",
   },
   {
@@ -13443,7 +13432,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "MAIN.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-ke-xue-ji-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E7%A7%91%E5%AD%A6%E6%9C%BA%E5%99%A8.zip",
     page: "/dos-games/feng-kuang-ke-xue-ji-qi/",
   },
   {
@@ -13454,7 +13443,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "cc2ega.exe",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-sai-che-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E8%B5%9B%E8%BD%A62.zip",
     page: "/dos-games/feng-kuang-sai-che-2/",
   },
   {
@@ -13465,7 +13454,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 200,
     entry: "CC3.COM",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-sai-che-3.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E8%B5%9B%E8%BD%A63.zip",
     page: "/dos-games/feng-kuang-sai-che-3/",
   },
   {
@@ -13476,7 +13465,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "MADDOG.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-gou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%97.zip",
     page: "/dos-games/feng-gou/",
   },
   {
@@ -13487,7 +13476,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "MDWVGA.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-gou-wei-lian-de-di-xia-cheng-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%97%E5%A8%81%E5%BB%89%E7%9A%84%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/feng-gou-wei-lian-de-di-xia-cheng-zhi-lv/",
   },
   {
@@ -13498,7 +13487,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "GO.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-yin-ta-li-si-man-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BD%E9%93%B6%E5%A1%94%E9%87%8C%E6%96%AF%E6%9B%BC%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/bai-yin-ta-li-si-man-chuan-qi/",
   },
   {
@@ -13509,7 +13498,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "RUNME.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-fu-zhang-luo-ma-fang-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BE%E5%A4%AB%E9%95%BF%E7%BD%97%E9%A9%AC%E9%98%B2%E5%BE%A1.zip",
     page: "/dos-games/bai-fu-zhang-luo-ma-fang-yu/",
   },
   {
@@ -13520,7 +13509,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "LIERO.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-di-chong.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%9C%B0%E8%99%AB.zip",
     page: "/dos-games/bai-zhan-di-chong/",
   },
   {
@@ -13531,7 +13520,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 103,
     entry: "WORMS2.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-tian-chong.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB.zip",
     page: "/dos-games/bai-zhan-tian-chong/",
   },
   {
@@ -13542,7 +13531,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 272,
     entry: "WORMS.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-tian-chong-guang-die-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB%E5%85%89%E7%A2%9F%E7%89%88.zip",
     page: "/dos-games/bai-zhan-tian-chong-guang-die-ban/",
   },
   {
@@ -13553,7 +13542,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "PIPE.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-shui-guan-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip",
     page: "/dos-games/bai-zhan-shui-guan-gong/",
   },
   {
@@ -13564,7 +13553,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "CREEPERS.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-pa-chong.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E7%88%AC%E8%99%AB.zip",
     page: "/dos-games/bai-zhan-pa-chong/",
   },
   {
@@ -13575,7 +13564,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "A.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-bai-sheng.zip",
+    url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E7%99%BE%E8%83%9C.zip",
     page: "/dos-games/bai-zhan-bai-sheng/",
   },
   {
@@ -13586,7 +13575,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "CROWN.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huang-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9A%87%E5%86%A0.zip",
     page: "/dos-games/huang-guan/",
   },
   {
@@ -13597,7 +13586,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 784,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huang-hou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9A%87%E5%90%8E.zip",
     page: "/dos-games/huang-hou/",
   },
   {
@@ -13608,7 +13597,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 171,
     entry: "SKING.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huang-di.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9A%87%E5%B8%9D.zip",
     page: "/dos-games/huang-di/",
   },
   {
@@ -13619,7 +13608,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "SOUND.COM",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-zhi-gui-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E8%BD%A8%E9%81%93.zip",
     page: "/dos-games/yi-zhi-gui-dao/",
   },
   {
@@ -13630,7 +13619,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "FUN.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-zhi-wen-ti-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E9%97%AE%E9%A2%98%E9%9B%86.zip",
     page: "/dos-games/yi-zhi-wen-ti-ji/",
   },
   {
@@ -13641,7 +13630,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 117,
     entry: "DLORD.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gai-shi-long-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9B%96%E4%B8%96%E9%BE%99%E7%8E%8B.zip",
     page: "/dos-games/gai-shi-long-wang/",
   },
   {
@@ -13652,7 +13641,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "BLINDWAR.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mang-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9B%B2%E6%88%98.zip",
     page: "/dos-games/mang-zhan/",
   },
   {
@@ -13663,7 +13652,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "SEEK.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-sheng-ji-sou-di-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%90%9C%E6%95%8C%E8%AE%B0.zip",
     page: "/dos-games/zhi-sheng-ji-sou-di-ji/",
   },
   {
@@ -13674,7 +13663,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "airlift.exe",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-sheng-ji-jiu-yuan-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%95%91%E6%8F%B4%E9%98%9F.zip",
     page: "/dos-games/zhi-sheng-ji-jiu-yuan-dui/",
   },
   {
@@ -13685,7 +13674,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 628,
     entry: "MK2.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-ren-kuai-da-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%932.zip",
     page: "/dos-games/zhen-ren-kuai-da-2/",
   },
   {
@@ -13696,7 +13685,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "MK3.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-ren-kuai-da-3.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%933.zip",
     page: "/dos-games/zhen-ren-kuai-da-3/",
   },
   {
@@ -13707,7 +13696,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 39,
     entry: "PLAY.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-shi-zu-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9C%9F%E5%AE%9E%E8%B6%B3%E7%90%83.zip",
     page: "/dos-games/zhen-shi-zu-qiu/",
   },
   {
@@ -13718,7 +13707,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-shi-zu-qiu-ju-le-bu-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9C%9F%E5%AE%9E%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8%E7%89%88.zip",
     page: "/dos-games/zhen-shi-zu-qiu-ju-le-bu-ban/",
   },
   {
@@ -13729,7 +13718,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 390,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-hong-de-sha-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9C%9F%E7%BA%A2%E7%9A%84%E6%9D%80%E6%84%8F.zip",
     page: "/dos-games/zhen-hong-de-sha-yi/",
   },
   {
@@ -13740,7 +13729,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "CM.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yan-jing-she-ren-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9C%BC%E9%95%9C%E8%9B%87%E4%BB%BB%E5%8A%A1.zip",
     page: "/dos-games/yan-jing-she-ren-wu/",
   },
   {
@@ -13751,7 +13740,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 712,
     entry: "rocks.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-yu-zuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%8E%E9%92%BB.zip",
     page: "/dos-games/shi-yu-zuan/",
   },
   {
@@ -13762,7 +13751,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "vex.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-zhong-jian-de-fu-chou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%AD%E5%89%91%E7%9A%84%E5%A4%8D%E4%BB%87.zip",
     page: "/dos-games/shi-zhong-jian-de-fu-chou/",
   },
   {
@@ -13773,7 +13762,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "STONE.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-qi-shi-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3.zip",
     page: "/dos-games/shi-qi-shi-dai/",
   },
   {
@@ -13784,7 +13773,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 173,
     entry: "SK.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9F%B3%E5%A0%A1.zip",
     page: "/dos-games/shi-bao/",
   },
   {
@@ -13795,7 +13784,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 18,
     entry: "ZYCA.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/po-huai-shen-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A0%B4%E5%9D%8F%E7%A5%9E%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/po-huai-shen-chuan-shuo/",
   },
   {
@@ -13806,7 +13795,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 197,
     entry: "START.bat",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/die-xing-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A2%9F%E5%BD%A2%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/die-xing-shi-jie/",
   },
   {
@@ -13817,7 +13806,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 225,
     entry: "DW2.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/die-xing-shi-jie-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A2%9F%E5%BD%A2%E4%B8%96%E7%95%8C2.zip",
     page: "/dos-games/die-xing-shi-jie-2/",
   },
   {
@@ -13828,7 +13817,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 76,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/peng-peng-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A2%B0%E7%A2%B0%E7%90%83.zip",
     page: "/dos-games/peng-peng-qiu/",
   },
   {
@@ -13839,7 +13828,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 122,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/peng-mei-long-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A2%B0%E7%BE%8E%E9%BE%99%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/peng-mei-long-zhan-shi/",
   },
   {
@@ -13850,7 +13839,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 541,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A4%BC%E7%89%A9.zip",
     page: "/dos-games/li-wu/",
   },
   {
@@ -13861,7 +13850,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 280,
     entry: "LIAR.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-jian-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%89%91%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/shen-jian-chuan-shuo/",
   },
   {
@@ -13872,7 +13861,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "ZELIARD.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-jian-feng-mo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%89%91%E5%B0%81%E9%AD%94.zip",
     page: "/dos-games/shen-jian-feng-mo/",
   },
   {
@@ -13883,7 +13872,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 612,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-jian-you-xia-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%89%91%E6%B8%B8%E4%BE%A0%E4%BC%A0.zip",
     page: "/dos-games/shen-jian-you-xia-chuan/",
   },
   {
@@ -13894,7 +13883,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-qi-wang-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%A5%87%E7%8E%8B%E5%9B%BD.zip",
     page: "/dos-games/shen-qi-wang-guo/",
   },
   {
@@ -13905,7 +13894,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 158,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-zhou-ba-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%B7%9E%E5%85%AB%E5%89%91.zip",
     page: "/dos-games/shen-zhou-ba-jian/",
   },
   {
@@ -13916,7 +13905,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "GAME.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-shi-lu-bei-pan-yu-hui-mie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A4%BA%E5%BD%95%E8%83%8C%E5%8F%9B%E4%B8%8E%E6%AF%81%E7%81%AD.zip",
     page: "/dos-games/shen-shi-lu-bei-pan-yu-hui-mie/",
   },
   {
@@ -13927,7 +13916,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "TOWERS.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-mi-zhi-ta.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A7%98%E4%B9%8B%E5%A1%94.zip",
     page: "/dos-games/shen-mi-zhi-ta/",
   },
   {
@@ -13938,7 +13927,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 211,
     entry: "MSONG.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-mi-zhi-ge.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A7%98%E4%B9%8B%E6%AD%8C.zip",
     page: "/dos-games/shen-mi-zhi-ge/",
   },
   {
@@ -13949,7 +13938,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "MAIN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-mi-bo-wu-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A7%98%E5%8D%9A%E7%89%A9%E9%A6%86.zip",
     page: "/dos-games/shen-mi-bo-wu-guan/",
   },
   {
@@ -13960,7 +13949,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 122,
     entry: "_p_.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-jing-dan-zhu-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%BB%8F%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
     page: "/dos-games/shen-jing-dan-zhu-tai/",
   },
   {
@@ -13971,7 +13960,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 809,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E8%B0%95.zip",
     page: "/dos-games/shen-yu/",
   },
   {
@@ -13982,7 +13971,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "EAGLE.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shen-diao-xia-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A5%9E%E9%9B%95%E4%BE%A0%E4%BE%A3.zip",
     page: "/dos-games/shen-diao-xia-lv/",
   },
   {
@@ -13993,7 +13982,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1840,
     entry: "PLAY.COM",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%81%E5%BF%8C.zip",
     page: "/dos-games/jin-ji/",
   },
   {
@@ -14004,7 +13993,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 381,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-duan-zhi-xue-zu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%81%E6%96%AD%E4%B9%8B%E8%A1%80%E6%97%8F.zip",
     page: "/dos-games/jin-duan-zhi-xue-zu/",
   },
   {
@@ -14015,7 +14004,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 963,
     entry: "play.bat",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-yan-feng-yun-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%81%E7%83%9F%E9%A3%8E%E4%BA%91%E5%BD%95.zip",
     page: "/dos-games/jin-yan-feng-yun-lu/",
   },
   {
@@ -14026,7 +14015,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 181,
     entry: "HOLMES2.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-er-mo-si-2-mei-gui-wen-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF2%E7%8E%AB%E7%91%B0%E7%BA%B9%E8%BA%AB.zip",
     page: "/dos-games/fu-er-mo-si-2-mei-gui-wen-shen/",
   },
   {
@@ -14037,7 +14026,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 87,
     entry: "GAME.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-er-mo-si-shi-luo-de-wen-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF%E5%A4%B1%E8%90%BD%E7%9A%84%E6%96%87%E4%BB%B6.zip",
     page: "/dos-games/fu-er-mo-si-shi-luo-de-wen-jian/",
   },
   {
@@ -14048,7 +14037,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 153,
     entry: "CHINA.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-er-mo-sha.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E8%8E%8E.zip",
     page: "/dos-games/fu-er-mo-sha/",
   },
   {
@@ -14059,7 +14048,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "FORD.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-te-mo-ni-jia-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%8F%E7%89%B9%E6%A8%A1%E6%8B%9F%E9%A9%BE%E9%A9%B6.zip",
     page: "/dos-games/fu-te-mo-ni-jia-shi/",
   },
   {
@@ -14070,7 +14059,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 53,
     entry: "1.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-lu-shuang-ba-tian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%8F%E7%A6%84%E5%8F%8C%E9%9C%B8%E5%A4%A9.zip",
     page: "/dos-games/fu-lu-shuang-ba-tian/",
   },
   {
@@ -14081,7 +14070,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "blues.bat",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fu-lu-shuang-ba-tian-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A6%8F%E7%A6%84%E5%8F%8C%E9%9C%B8%E5%A4%A92.zip",
     page: "/dos-games/fu-lu-shuang-ba-tian-2/",
   },
   {
@@ -14092,7 +14081,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "play.bat",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-ying-yi-an.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A7%83%E9%B9%B0%E7%96%91%E6%A1%88.zip",
     page: "/dos-games/tu-ying-yi-an/",
   },
   {
@@ -14103,7 +14092,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "GENOCIDE.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-zu-mie-jue.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A7%8D%E6%97%8F%E7%81%AD%E7%BB%9D.zip",
     page: "/dos-games/zhong-zu-mie-jue/",
   },
   {
@@ -14114,7 +14103,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 496,
     entry: "PLAY.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-xue-xiao-fei-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A7%91%E5%AD%A6%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip",
     page: "/dos-games/ke-xue-xiao-fei-xia/",
   },
   {
@@ -14125,7 +14114,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 184,
     entry: "FR.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-xue-guai-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A7%91%E5%AD%A6%E6%80%AA%E4%BA%BA.zip",
     page: "/dos-games/ke-xue-guai-ren/",
   },
   {
@@ -14136,7 +14125,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 657,
     entry: "C.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-man-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A7%91%E6%9B%BC%E5%A5%872.zip",
     page: "/dos-games/ke-man-qi-2/",
   },
   {
@@ -14147,7 +14136,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "COLORADO.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ke-luo-la-duo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A.zip",
     page: "/dos-games/ke-luo-la-duo/",
   },
   {
@@ -14158,7 +14147,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 335,
     entry: "FD.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhong-jue-dou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%86%B3%E6%96%97.zip",
     page: "/dos-games/kong-zhong-jue-dou/",
   },
   {
@@ -14169,7 +14158,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 647,
     entry: "CAP.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhong-xun-luo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%B7%A1%E9%80%BB.zip",
     page: "/dos-games/kong-zhong-xun-luo/",
   },
   {
@@ -14180,7 +14169,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "AIR18.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhong-tu-ji-18.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E7%AA%81%E5%87%BB18.zip",
     page: "/dos-games/kong-zhong-tu-ji-18/",
   },
   {
@@ -14191,7 +14180,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 70,
     entry: "START.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-jun-zhi-hui-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BA%E5%86%9B%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
     page: "/dos-games/kong-jun-zhi-hui-guan/",
   },
   {
@@ -14202,7 +14191,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 124,
     entry: "SKIES.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhan-yi-shu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BA%E6%88%98%E8%89%BA%E6%9C%AF.zip",
     page: "/dos-games/kong-zhan-yi-shu/",
   },
   {
@@ -14213,7 +14202,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 320,
     entry: "BK.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhan-hei-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BA%E6%88%98%E9%BB%91%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/kong-zhan-hei-qi-shi/",
   },
   {
@@ -14224,7 +14213,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "AR.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kong-jiang-you-qi-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BA%E9%99%8D%E6%B8%B8%E9%AA%91%E5%85%B5.zip",
     page: "/dos-games/kong-jiang-you-qi-bing/",
   },
   {
@@ -14235,7 +14224,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 326,
     entry: "BIT.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chuan-yue-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%A9%BF%E8%B6%8A%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/chuan-yue-zhi-zhan/",
   },
   {
@@ -14246,7 +14235,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 630,
     entry: "OFF.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB.zip",
     page: "/dos-games/tu-ji/",
   },
   {
@@ -14257,7 +14246,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "ASSAULT.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-ji-shi-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E5%A3%AB%E5%85%B5.zip",
     page: "/dos-games/tu-ji-shi-bing/",
   },
   {
@@ -14268,7 +14257,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 294,
     entry: "TMIX.COM",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-ji-mei-shao-nv.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB%E7%BE%8E%E5%B0%91%E5%A5%B3.zip",
     page: "/dos-games/tu-ji-mei-shao-nv/",
   },
   {
@@ -14279,7 +14268,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-po-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AA%81%E7%A0%B42.zip",
     page: "/dos-games/tu-po-2/",
   },
   {
@@ -14290,7 +14279,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 641,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-po-3.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AA%81%E7%A0%B43.zip",
     page: "/dos-games/tu-po-3/",
   },
   {
@@ -14301,7 +14290,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 168,
     entry: "AWING.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-xi-zhi-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E4%B9%8B%E7%BF%BC.zip",
     page: "/dos-games/tu-xi-zhi-yi/",
   },
   {
@@ -14312,7 +14301,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 58,
     entry: "OPTTEST.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tu-xi-zhi-hui-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
     page: "/dos-games/tu-xi-zhi-hui-guan/",
   },
   {
@@ -14323,7 +14312,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "3DPIT.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-ti-e-luo-si.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AB%8B%E4%BD%93%E4%BF%84%E7%BD%97%E6%96%AF.zip",
     page: "/dos-games/li-ti-e-luo-si/",
   },
   {
@@ -14334,7 +14323,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 172,
     entry: "HIOCTANE.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-ti-kuang-biao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AB%8B%E4%BD%93%E7%8B%82%E9%A3%9A.zip",
     page: "/dos-games/li-ti-kuang-biao/",
   },
   {
@@ -14345,7 +14334,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 313,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tong-meng-shi-hun-ye-mi-er-cheng.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AB%A5%E6%A2%A6%E5%A4%B1%E9%AD%82%E5%A4%9C%EF%BC%8F%E8%BF%B7%E5%84%BF%E5%9F%8E.zip",
     page: "/dos-games/tong-meng-shi-hun-ye-mi-er-cheng/",
   },
   {
@@ -14356,7 +14345,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "SCIDHUV.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tong-hua-xin-bian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AB%A5%E8%AF%9D%E6%96%B0%E7%BC%96.zip",
     page: "/dos-games/tong-hua-xin-bian/",
   },
   {
@@ -14367,7 +14356,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 149,
     entry: "SM.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiao-ao-jiang-hu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96.zip",
     page: "/dos-games/xiao-ao-jiang-hu/",
   },
   {
@@ -14378,7 +14367,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "B13.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-13-zhi-ju.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC13%E6%94%AF%E5%B1%80.zip",
     page: "/dos-games/di-13-zhi-ju/",
   },
   {
@@ -14389,7 +14378,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 156,
     entry: "FLOOR13.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-13-lou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC13%E6%A5%BC.zip",
     page: "/dos-games/di-13-lou/",
   },
   {
@@ -14400,7 +14389,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 141,
     entry: "INSTALL.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-3-ri-long-zhi-li-liang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC3%E6%97%A5%E9%BE%99%E4%B9%8B%E5%8A%9B%E9%87%8F.zip",
     page: "/dos-games/di-3-ri-long-zhi-li-liang/",
   },
   {
@@ -14411,7 +14400,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 155,
     entry: "INSTALL.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-4-ri-yi-ka-luo-si.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC4%E6%97%A5%E4%BC%8A%E5%8D%A1%E6%B4%9B%E6%96%AF.zip",
     page: "/dos-games/di-4-ri-yi-ka-luo-si/",
   },
   {
@@ -14422,7 +14411,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 148,
     entry: "DOS4GW.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-5-ri-long-ji-tu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC5%E6%97%A5%E9%BE%99%E6%9C%BA%E7%AA%81%E5%87%BB.zip",
     page: "/dos-games/di-5-ri-long-ji-tu-ji/",
   },
   {
@@ -14433,7 +14422,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 76,
     entry: "FLEET.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-5-jian-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC5%E8%88%B0%E9%98%9F.zip",
     page: "/dos-games/di-5-jian-dui/",
   },
   {
@@ -14444,7 +14433,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "SAMURAI.COM",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-yi-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC%E4%B8%80%E6%AD%A6%E5%A3%AB.zip",
     page: "/dos-games/di-yi-wu-shi/",
   },
   {
@@ -14455,7 +14444,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "TOUCHE.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-wu-ge-huo-qiang-shou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC%E4%BA%94%E4%B8%AA%E7%81%AB%E6%9E%AA%E6%89%8B.zip",
     page: "/dos-games/di-wu-ge-huo-qiang-shou/",
   },
   {
@@ -14466,7 +14455,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1,
     entry: "bowl.exe",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-shi-ping-bao-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AC%AC%E5%8D%81%E7%93%B6-%E4%BF%9D%E9%BE%84.zip",
     page: "/dos-games/di-shi-ping-bao-ling/",
   },
   {
@@ -14477,7 +14466,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 64,
     entry: "CASTLES1.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-cheng-da-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AD%91%E5%9F%8E%E5%A4%A7%E5%B8%88.zip",
     page: "/dos-games/zhu-cheng-da-shi/",
   },
   {
@@ -14488,7 +14477,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 182,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-cheng-da-shi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AD%91%E5%9F%8E%E5%A4%A7%E5%B8%882.zip",
     page: "/dos-games/zhu-cheng-da-shi-2/",
   },
   {
@@ -14499,7 +14488,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 112,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guan-zhuang-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AE%A1%E7%8A%B6%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/guan-zhuang-shi-jie/",
   },
   {
@@ -14510,7 +14499,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "RUNME.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-qiu-jing-li.zip",
+    url: "https://dos-bin.zczc.cz/%E7%AF%AE%E7%90%83%E7%BB%8F%E7%90%86.zip",
     page: "/dos-games/lan-qiu-jing-li/",
   },
   {
@@ -14521,7 +14510,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 703,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mi-lan-si-ji-shi-sheng-yu-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%B1%B3%E5%85%B0%E6%96%AF%E7%BA%AA%E4%BA%8B-%E5%9C%A3%E5%9F%9F%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/mi-lan-si-ji-shi-sheng-yu-chuan-qi/",
   },
   {
@@ -14532,7 +14521,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 636,
     entry: "TOCO.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jing-ling-huan-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E5%B9%BB%E7%95%8C.zip",
     page: "/dos-games/jing-ling-huan-jie/",
   },
   {
@@ -14543,7 +14532,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 196,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jing-ling-wu-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E7%89%A9%E8%AF%AD.zip",
     page: "/dos-games/jing-ling-wu-yu/",
   },
   {
@@ -14554,7 +14543,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 157,
     entry: "CDSHOCK.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-tong-zhen-dang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%B3%BB%E7%BB%9F%E9%9C%87%E8%8D%A1.zip",
     page: "/dos-games/xi-tong-zhen-dang/",
   },
   {
@@ -14565,7 +14554,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 192,
     entry: "extremis.exe",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-ji-guan-tou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%B4%A7%E6%80%A5%E5%85%B3%E5%A4%B4.zip",
     page: "/dos-games/jin-ji-guan-tou/",
   },
   {
@@ -14576,7 +14565,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 174,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-lou-meng-zhi-shi-er-jin-chai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%B9%8B%E5%8D%81%E4%BA%8C%E9%87%91%E9%92%97.zip",
     page: "/dos-games/hong-lou-meng-zhi-shi-er-jin-chai/",
   },
   {
@@ -14587,7 +14576,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 520,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-lou-meng-ma-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E9%BA%BB%E5%B0%86.zip",
     page: "/dos-games/hong-lou-meng-ma-jiang/",
   },
   {
@@ -14598,7 +14587,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "RC1.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-mao-1.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E7%8C%AB1.zip",
     page: "/dos-games/hong-mao-1/",
   },
   {
@@ -14609,7 +14598,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "RC2.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-mao-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E7%8C%AB2.zip",
     page: "/dos-games/hong-mao-2/",
   },
   {
@@ -14620,7 +14609,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 930,
     entry: "REDHELL.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-di-yu-na-cui-bei-lun.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E5%9C%B0%E7%8B%B1%E7%BA%B3%E7%B2%B9%E6%82%96%E8%AE%BA.zip",
     page: "/dos-games/hong-se-di-yu-na-cui-bei-lun/",
   },
   {
@@ -14631,7 +14620,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 100,
     entry: "MOD7.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-shui-jing-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E6%B0%B4%E6%99%B6%E7%9F%B3.zip",
     page: "/dos-games/hong-se-shui-jing-shi/",
   },
   {
@@ -14642,7 +14631,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "RB.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-nan-jue.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E7%94%B7%E7%88%B5.zip",
     page: "/dos-games/hong-se-nan-jue/",
   },
   {
@@ -14653,7 +14642,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 65,
     entry: "RA.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-jing-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E8%AD%A6%E6%88%92.zip",
     page: "/dos-games/hong-se-jing-jie/",
   },
   {
@@ -14664,7 +14653,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 653,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-you-huo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E8%AF%B1%E6%83%91.zip",
     page: "/dos-games/hong-se-you-huo/",
   },
   {
@@ -14675,7 +14664,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 837,
     entry: "RACING.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-yue-ye-la-li-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E8%B6%8A%E9%87%8E%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
     page: "/dos-games/hong-se-yue-ye-la-li-sai/",
   },
   {
@@ -14686,7 +14675,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "INSTALL.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-feng-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E9%A3%8E%E6%9A%B4.zip",
     page: "/dos-games/hong-se-feng-bao/",
   },
   {
@@ -14697,7 +14686,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 84,
     entry: "LOOM.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-zhi-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%B1%E4%B9%8B%E5%99%A8.zip",
     page: "/dos-games/sha-zhi-qi/",
   },
   {
@@ -14708,7 +14697,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 212,
     entry: "NASCAR.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/na-si-ka-sai-che-1.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%B3%E6%96%AF%E5%8D%A1%E8%B5%9B%E8%BD%A61.zip",
     page: "/dos-games/na-si-ka-sai-che-1/",
   },
   {
@@ -14719,7 +14708,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 576,
     entry: "N2.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/na-si-ka-sai-che-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%B3%E6%96%AF%E5%8D%A1%E8%B5%9B%E8%BD%A62.zip",
     page: "/dos-games/na-si-ka-sai-che-2/",
   },
   {
@@ -14730,7 +14719,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 547,
     entry: "SW.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/na-cui-fei-xing-mi-shi-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%B3%E7%B2%B9%E9%A3%9E%E8%A1%8C%E7%A7%98%E5%8F%B2%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/na-cui-fei-xing-mi-shi-zi-liao-pian/",
   },
   {
@@ -14741,7 +14730,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 153,
     entry: "SEA.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zong-heng-qi-hai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%B5%E6%A8%AA%E4%B8%83%E6%B5%B7.zip",
     page: "/dos-games/zong-heng-qi-hai/",
   },
   {
@@ -14752,7 +14741,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 449,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-suo.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BA%BF%E7%B4%A2.zip",
     page: "/dos-games/xian-suo/",
   },
   {
@@ -14763,7 +14752,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "UM.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-ren-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E4%BB%BB%E5%8A%A1.zip",
     page: "/dos-games/zhong-ji-ren-wu/",
   },
   {
@@ -14774,7 +14763,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 232,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-kuai-da.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E5%BF%AB%E6%89%93.zip",
     page: "/dos-games/zhong-ji-kuai-da/",
   },
   {
@@ -14785,7 +14774,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 132,
     entry: "MARS.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/zhong-ji-zhan-shi/",
   },
   {
@@ -14796,7 +14785,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "game.exe",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-su-du.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E9%80%9F%E5%BA%A6.zip",
     page: "/dos-games/zhong-ji-su-du/",
   },
   {
@@ -14807,7 +14796,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 311,
     entry: "PNOCOMP.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-duan-kong-ju.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%88%E7%AB%AF%E6%81%90%E6%83%A7.zip",
     page: "/dos-games/zhong-duan-kong-ju/",
   },
   {
@@ -14818,7 +14807,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 283,
     entry: "TERM.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-jie-zhe-2029.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852029.zip",
     page: "/dos-games/zhong-jie-zhe-2029/",
   },
   {
@@ -14829,7 +14818,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 173,
     entry: "t2.exe",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-jie-zhe-2-she-ji-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852%E5%B0%84%E5%87%BB%E7%89%88.zip",
     page: "/dos-games/zhong-jie-zhe-2-she-ji-ban/",
   },
   {
@@ -14840,7 +14829,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 716,
     entry: "PLAYX.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-dai-shuang-jiao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%9D%E4%BB%A3%E5%8F%8C%E9%AA%84.zip",
     page: "/dos-games/jue-dai-shuang-jiao/",
   },
   {
@@ -14851,7 +14840,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 233,
     entry: "AVG.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-di-zhong-shen-de-zu-zhou.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0-%E4%BC%97%E7%A5%9E%E7%9A%84%E8%AF%85%E5%92%92.zip",
     page: "/dos-games/jue-di-zhong-shen-de-zu-zhou/",
   },
   {
@@ -14862,7 +14851,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 87,
     entry: "KKND.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-di-feng-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0%E9%A3%8E%E6%9A%B4.zip",
     page: "/dos-games/jue-di-feng-bao/",
   },
   {
@@ -14873,7 +14862,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 182,
     entry: "AZGAME.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-dui-ling-du.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%AF%B9%E9%9B%B6%E5%BA%A6.zip",
     page: "/dos-games/jue-dui-ling-du/",
   },
   {
@@ -14884,7 +14873,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 336,
     entry: "HOPE.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-yin-mo-qin.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%9D%E9%9F%B3%E9%AD%94%E7%90%B4.zip",
     page: "/dos-games/jue-yin-mo-qin/",
   },
   {
@@ -14895,7 +14884,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 344,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-wang-chuan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%AF%E7%8E%8B%E4%BC%A02.zip",
     page: "/dos-games/fei-wang-chuan-2/",
   },
   {
@@ -14906,7 +14895,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "VIKINGS.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-jing-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%B4%E4%BA%AC%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/wei-jing-zhan-zheng/",
   },
   {
@@ -14917,7 +14906,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "VETTE.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-te-zi-you-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BB%B4%E7%89%B9%E8%87%AA%E7%94%B1%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/wei-te-zi-you-sai-che/",
   },
   {
@@ -14928,7 +14917,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "Npolice.exe",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-du-xing-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BC%89%E6%AF%92%E5%88%91%E8%AD%A6.zip",
     page: "/dos-games/ji-du-xing-jing/",
   },
   {
@@ -14939,7 +14928,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 207,
     entry: "PLAY.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wang-qiu-xun-lian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%91%E7%90%83%E8%AE%AD%E7%BB%83.zip",
     page: "/dos-games/wang-qiu-xun-lian/",
   },
   {
@@ -14950,7 +14939,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "RALLY.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wang-luo-la-li-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%91%E7%BB%9C%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
     page: "/dos-games/wang-luo-la-li-sai/",
   },
   {
@@ -14961,7 +14950,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 39,
     entry: "ISOVGA.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-bin-han-da-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%97%E5%AE%BE%E6%B1%89%E5%A4%A7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/luo-bin-han-da-mao-xian/",
   },
   {
@@ -14972,7 +14961,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "ROHAN.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-en-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%97%E6%81%A9%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/luo-en-qi-shi/",
   },
   {
@@ -14983,7 +14972,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-si-ma-li-de-zhan-bu-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%97%E6%96%AF%E7%8E%9B%E4%B8%BD%E7%9A%84%E5%8D%A0%E5%8D%9C%E5%B1%8B.zip",
     page: "/dos-games/luo-si-ma-li-de-zhan-bu-wu/",
   },
   {
@@ -14994,7 +14983,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 37,
     entry: "ROTOR.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-te-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/luo-te-zhan-ji/",
   },
   {
@@ -15005,7 +14994,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "ROTOX.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-te-si-ji-xie-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%96%AF%E6%9C%BA%E6%A2%B0%E4%BA%BA.zip",
     page: "/dos-games/luo-te-si-ji-xie-ren/",
   },
   {
@@ -15016,7 +15005,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 173,
     entry: "WALLS.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-ma-zhi-qiang-bian-ji-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E4%B9%8B%E5%A2%99%2B%E7%BC%96%E8%BE%91%E5%99%A8.zip",
     page: "/dos-games/luo-ma-zhi-qiang-bian-ji-qi/",
   },
   {
@@ -15027,7 +15016,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 336,
     entry: "ROME.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/luo-ma-quan-li-zhi-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E6%9D%83%E5%88%A9%E4%B9%8B%E8%B7%AF.zip",
     page: "/dos-games/luo-ma-quan-li-zhi-lu/",
   },
   {
@@ -15038,7 +15027,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 205,
     entry: "CRIME.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zui-e-ke-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E5%85%8B%E6%98%9F.zip",
     page: "/dos-games/zui-e-ke-xing/",
   },
   {
@@ -15049,7 +15038,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 64,
     entry: "city.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zui-e-du-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E9%83%BD%E5%B8%82.zip",
     page: "/dos-games/zui-e-du-shi/",
   },
   {
@@ -15060,7 +15049,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "ALOG.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-guo-e-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E5%99%A9%E6%A2%A6.zip",
     page: "/dos-games/mei-guo-e-meng/",
   },
   {
@@ -15071,7 +15060,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 64,
     entry: "MF.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-guo-hai-jun-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/mei-guo-hai-jun-zhan-ji/",
   },
   {
@@ -15082,7 +15071,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 59,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-nv-quan.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%A5%B3%E6%8B%B3.zip",
     page: "/dos-games/mei-nv-quan/",
   },
   {
@@ -15093,7 +15082,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-nv-zhong-jie-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%A5%B3%E7%BB%88%E7%BB%93%E8%80%85.zip",
     page: "/dos-games/mei-nv-zhong-jie-zhe/",
   },
   {
@@ -15104,7 +15093,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 128,
     entry: "QUIZ.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-nv-zong-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%A5%B3%E7%BB%BC%E8%89%BA.zip",
     page: "/dos-games/mei-nv-zong-yi/",
   },
   {
@@ -15115,7 +15104,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 175,
     entry: "INSTT.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%88%98%E8%AE%B0.zip",
     page: "/dos-games/mei-shao-nv-zhan-ji/",
   },
   {
@@ -15126,7 +15115,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 69,
     entry: "PK1.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-pu-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%89%91%E5%85%8B.zip",
     page: "/dos-games/mei-shao-nv-pu-ke/",
   },
   {
@@ -15137,7 +15126,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 445,
     entry: "PM.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-meng-gong-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%A2%A6%E5%B7%A5%E5%8E%82.zip",
     page: "/dos-games/mei-shao-nv-meng-gong-chang/",
   },
   {
@@ -15148,7 +15137,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "PM2.COM",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-meng-gong-chang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%A2%A6%E5%B7%A5%E5%8E%822.zip",
     page: "/dos-games/mei-shao-nv-meng-gong-chang-2/",
   },
   {
@@ -15159,7 +15148,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 457,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-te-qin-zu.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E7%89%B9%E5%8B%A4%E7%BB%84.zip",
     page: "/dos-games/mei-shao-nv-te-qin-zu/",
   },
   {
@@ -15170,7 +15159,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "ROM.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-du-sha-gui-lai.zip",
+    url: "https://dos-bin.zczc.cz/%E7%BE%8E%E6%9D%9C%E8%8E%8E%E5%BD%92%E6%9D%A5.zip",
     page: "/dos-games/mei-du-sha-gui-lai/",
   },
   {
@@ -15181,7 +15170,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ye-ji-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%80%B6%E5%9F%BA%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/ye-ji-zhan-ji/",
   },
   {
@@ -15192,7 +15181,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/liao-zhai-zhi-yi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82.zip",
     page: "/dos-games/liao-zhai-zhi-yi/",
   },
   {
@@ -15203,7 +15192,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/liao-zhai-zhi-yi-you-gu-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82%E5%B9%BD%E8%B0%B7%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/liao-zhai-zhi-yi-you-gu-chuan-qi/",
   },
   {
@@ -15214,7 +15203,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 289,
     entry: "GM.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-ye-bang-qiu-lian-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%81%8C%E4%B8%9A%E6%A3%92%E7%90%83%E8%81%94%E8%B5%9B.zip",
     page: "/dos-games/zhi-ye-bang-qiu-lian-sai/",
   },
   {
@@ -15225,7 +15214,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "KEN.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ken-de-mi-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E8%82%AF%E7%9A%84%E8%BF%B7%E5%AE%AB.zip",
     page: "/dos-games/ken-de-mi-gong/",
   },
   {
@@ -15236,7 +15225,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "FATMAN.EXE",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pang-zi-zhi-nu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%83%96%E5%AD%90%E4%B9%8B%E6%80%92.zip",
     page: "/dos-games/pang-zi-zhi-nu/",
   },
   {
@@ -15247,7 +15236,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "SIERRA.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nao-bo-shi-zhi-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E8%84%91%E5%8D%9A%E5%A3%AB%E4%B9%8B%E5%B2%9B.zip",
     page: "/dos-games/nao-bo-shi-zhi-dao/",
   },
   {
@@ -15258,7 +15247,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 104,
     entry: "FACESVGA.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lian-pu-fang-kuai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%84%B8%E8%B0%B1%E6%96%B9%E5%9D%97.zip",
     page: "/dos-games/lian-pu-fang-kuai/",
   },
   {
@@ -15269,7 +15258,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "SKUNNYK.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chou-you-sai-che.zip",
+    url: "https://dos-bin.zczc.cz/%E8%87%AD%E9%BC%AC%E8%B5%9B%E8%BD%A6.zip",
     page: "/dos-games/chou-you-sai-che/",
   },
   {
@@ -15280,7 +15269,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "KICK.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-gao-tai-quan-dao-guan-jun-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%87%B3%E9%AB%98%E8%B7%86%E6%8B%B3%E9%81%93%E5%86%A0%E5%86%9B%E8%B5%9B.zip",
     page: "/dos-games/zhi-gao-tai-quan-dao-guan-jun-sai/",
   },
   {
@@ -15291,7 +15280,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "KAR.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-ming-tiao-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%8C%91%E6%88%98.zip",
     page: "/dos-games/zhi-ming-tiao-zhan/",
   },
   {
@@ -15302,7 +15291,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-ming-du-yao.zip",
+    url: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%AF%92%E8%8D%AF.zip",
     page: "/dos-games/zhi-ming-du-yao/",
   },
   {
@@ -15313,7 +15302,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 277,
     entry: "FATAL.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhi-ming-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/zhi-ming-che-sai/",
   },
   {
@@ -15324,7 +15313,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 613,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shu-ke-da-de-mo-fa-cheng-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E8%88%92%E5%85%8B%E8%BE%BE%E7%9A%84%E9%AD%94%E6%B3%95%E5%9F%8E%E5%A0%A1.zip",
     page: "/dos-games/shu-ke-da-de-mo-fa-cheng-bao/",
   },
   {
@@ -15335,7 +15324,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1062,
     entry: "ELLI.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hang-hai-shi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%88%AA%E6%B5%B7%E4%B8%96%E7%BA%AA.zip",
     page: "/dos-games/hang-hai-shi-ji/",
   },
   {
@@ -15346,7 +15335,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 95,
     entry: "AM2.COM",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hang-kong-ba-ye-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%88%AA%E7%A9%BA%E9%9C%B8%E4%B8%9A2.zip",
     page: "/dos-games/hang-kong-ba-ye-2/",
   },
   {
@@ -15357,7 +15346,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1099,
     entry: "play.bat",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-dui-shou-hu-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E8%88%B0%E9%98%9F%E5%AE%88%E6%8A%A4%E7%A5%9E.zip",
     page: "/dos-games/jian-dui-shou-hu-shen/",
   },
   {
@@ -15368,7 +15357,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "Go.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%89%BA%E5%A6%93.zip",
     page: "/dos-games/yi-ji/",
   },
   {
@@ -15379,7 +15368,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2001,
     entry: "play.bat",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-di-si-mo-fa-da-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E8%89%BE%E8%92%82%E4%B8%9D%E9%AD%94%E6%B3%95%E5%A4%A7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/ai-di-si-mo-fa-da-mao-xian/",
   },
   {
@@ -15390,7 +15379,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 417,
     entry: "ELVIRA.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-wei-la.zip",
+    url: "https://dos-bin.zczc.cz/%E8%89%BE%E8%96%87%E6%8B%89.zip",
     page: "/dos-games/ai-wei-la/",
   },
   {
@@ -15401,7 +15390,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 244,
     entry: "runit.exe",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-wei-la-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%89%BE%E8%96%87%E6%8B%892.zip",
     page: "/dos-games/ai-wei-la-2/",
   },
   {
@@ -15412,7 +15401,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "ELVIRA.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/ai-wei-la-dong-zuo-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%89%BE%E8%96%87%E6%8B%89%E5%8A%A8%E4%BD%9C%E7%89%88.zip",
     page: "/dos-games/ai-wei-la-dong-zuo-ban/",
   },
   {
@@ -15423,7 +15412,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 94,
     entry: "BARBIE.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/ba-bi-chao-ji-mo-te.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8A%AD%E6%AF%94%E8%B6%85%E7%BA%A7%E6%A8%A1%E7%89%B9.zip",
     page: "/dos-games/ba-bi-chao-ji-mo-te/",
   },
   {
@@ -15434,7 +15423,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 341,
     entry: "Hml.exe",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hua-mu-lan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8A%B1%E6%9C%A8%E5%85%B0.zip",
     page: "/dos-games/hua-mu-lan/",
   },
   {
@@ -15445,7 +15434,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 307,
     entry: "LLAND.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/cang-bai-zhi-di.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%8D%E7%99%BD%E4%B9%8B%E5%9C%B0.zip",
     page: "/dos-games/cang-bai-zhi-di/",
   },
   {
@@ -15456,7 +15445,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 449,
     entry: "PAIN.EXE",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/ku-nan-ju-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%A6%E9%9A%BE%E5%89%A7%E5%9C%BA.zip",
     page: "/dos-games/ku-nan-ju-chang/",
   },
   {
@@ -15467,7 +15456,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 277,
     entry: "LORDS.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-lun-ba-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E4%BC%A6%E9%9C%B8%E4%B8%BB.zip",
     page: "/dos-games/ying-lun-ba-zhu/",
   },
   {
@@ -15478,7 +15467,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1176,
     entry: "L2D.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-lun-ba-zhu-2-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E4%BC%A6%E9%9C%B8%E4%B8%BB2%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/ying-lun-ba-zhu-2-zi-liao-pian/",
   },
   {
@@ -15489,7 +15478,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-zhuan-shuo-1.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B41.zip",
     page: "/dos-games/ying-xiong-zhuan-shuo-1/",
   },
   {
@@ -15500,7 +15489,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 904,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-zhuan-shuo-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42.zip",
     page: "/dos-games/ying-xiong-zhuan-shuo-2/",
   },
   {
@@ -15511,7 +15500,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 129,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-zhuan-shuo-3.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43.zip",
     page: "/dos-games/ying-xiong-zhuan-shuo-3/",
   },
   {
@@ -15522,7 +15511,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 238,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-zhuan-shuo-4.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B44.zip",
     page: "/dos-games/ying-xiong-zhuan-shuo-4/",
   },
   {
@@ -15533,7 +15522,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "HERO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-shi-ming.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BD%BF%E5%91%BD.zip",
     page: "/dos-games/ying-xiong-shi-ming/",
   },
   {
@@ -15544,7 +15533,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1526,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-sheng-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E5%9C%A3%E6%88%98.zip",
     page: "/dos-games/ying-xiong-sheng-zhan/",
   },
   {
@@ -15555,7 +15544,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E6%88%98%E8%AE%B0.zip",
     page: "/dos-games/ying-xiong-zhan-ji/",
   },
   {
@@ -15566,7 +15555,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 528,
     entry: "WAR.COM",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huang-man-yong-shi-ge-dou.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%92%E8%9B%AE%E5%8B%87%E5%A3%AB%E6%A0%BC%E6%96%97.zip",
     page: "/dos-games/huang-man-yong-shi-ge-dou/",
   },
   {
@@ -15577,7 +15566,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 224,
     entry: "FLINES.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dang-kou-xiong-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A1%E5%AF%87%E9%9B%84%E7%8B%AE.zip",
     page: "/dos-games/dang-kou-xiong-shi/",
   },
   {
@@ -15588,7 +15577,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "WRATH.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dang-mo-ping-yao-zhi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A1%E9%AD%94%E5%B9%B3%E5%A6%96%E5%BF%97.zip",
     page: "/dos-games/dang-mo-ping-yao-zhi/",
   },
   {
@@ -15599,7 +15588,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 136,
     entry: "soh.exe",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E5%89%91.zip",
     page: "/dos-games/rong-yao-zhi-jian/",
   },
   {
@@ -15610,7 +15599,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "HERO.BAT",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF1.zip",
     page: "/dos-games/rong-yao-zhi-lu-1/",
   },
   {
@@ -15621,7 +15610,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "SCIV.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF2.zip",
     page: "/dos-games/rong-yao-zhi-lu-2/",
   },
   {
@@ -15632,7 +15621,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 76,
     entry: "AUDIO.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF3.zip",
     page: "/dos-games/rong-yao-zhi-lu-3/",
   },
   {
@@ -15643,7 +15632,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 205,
     entry: "sierra.exe",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-lu-4.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF4.zip",
     page: "/dos-games/rong-yao-zhi-lu-4/",
   },
   {
@@ -15654,7 +15643,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 166,
     entry: "FOG32.EXE",
     tag: "r",
-    url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhan-chang.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E6%88%98%E5%9C%BA.zip",
     page: "/dos-games/rong-yao-zhan-chang/",
   },
   {
@@ -15665,7 +15654,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "LDM.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/he-lan-ren-de-shi-luo-zhi-kuang.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8D%B7%E5%85%B0%E4%BA%BA%E7%9A%84%E5%A4%B1%E8%90%BD%E4%B9%8B%E7%9F%BF.zip",
     page: "/dos-games/he-lan-ren-de-shi-luo-zhi-kuang/",
   },
   {
@@ -15676,7 +15665,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "Moktar.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ke-ta-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8E%AB%E5%85%8B%E5%A1%94%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/mo-ke-ta-li-xian-ji/",
   },
   {
@@ -15687,7 +15676,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "LOTUS.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lian-hua-sai-che-wu-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E8%8E%B2%E8%8A%B1%E8%B5%9B%E8%BD%A6%E6%97%A0%E9%99%90.zip",
     page: "/dos-games/lian-hua-sai-che-wu-xian/",
   },
   {
@@ -15698,7 +15687,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "commando.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sa-ba-ba-zhi-hui-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%90%A8%E5%B7%B4%E5%B7%B4%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
     page: "/dos-games/sa-ba-ba-zhi-hui-guan/",
   },
   {
@@ -15709,7 +15698,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "FASTFOOD.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-kuai-can-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E5%BF%AB%E9%A4%90%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/di-si-dan-kuai-can-shi-jie/",
   },
   {
@@ -15720,7 +15709,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "DIZZY.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-meng-huan-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%A2%A6%E5%B9%BB%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/di-si-dan-meng-huan-shi-jie/",
   },
   {
@@ -15731,7 +15720,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "PCDIZZY.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-meng-huan-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/di-si-dan-meng-huan-zhi-lv/",
   },
   {
@@ -15742,7 +15731,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "bubble.exe",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-pao-pao-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%B3%A1%E6%B3%A1%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/di-si-dan-pao-pao-mao-xian/",
   },
   {
@@ -15753,7 +15742,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "YOLK.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-dan-huang-wang-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E8%9B%8B%E9%BB%84%E7%8E%8B%E5%AD%90.zip",
     page: "/dos-games/di-si-dan-dan-huang-wang-zi/",
   },
   {
@@ -15764,7 +15753,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 481,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E5%86%B0.zip",
     page: "/dos-games/lan-bing/",
   },
   {
@@ -15775,7 +15764,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "SMURFS.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-jing-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E7%B2%BE%E7%81%B5.zip",
     page: "/dos-games/lan-jing-ling/",
   },
   {
@@ -15786,7 +15775,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "BA69.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-tian-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E5%A4%A9%E4%BD%BF.zip",
     page: "/dos-games/lan-se-tian-shi/",
   },
   {
@@ -15797,7 +15786,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "DEMON.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-guai-mo.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E6%80%AA%E9%AD%94.zip",
     page: "/dos-games/lan-se-guai-mo/",
   },
   {
@@ -15808,7 +15797,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-shi-liu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E7%9F%B3%E6%A6%B4%E7%9F%B3.zip",
     page: "/dos-games/lan-se-shi-liu-shi/",
   },
   {
@@ -15819,7 +15808,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "BLUE.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-xing-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E8%A1%8C%E5%8A%A8.zip",
     page: "/dos-games/lan-se-xing-dong/",
   },
   {
@@ -15830,7 +15819,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "BLUEMAX.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-ma-ke-si.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E9%A9%AC%E5%85%8B%E6%80%9D.zip",
     page: "/dos-games/lan-se-ma-ke-si/",
   },
   {
@@ -15841,7 +15830,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "DRIVE.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lan-mo-ji-ni-xun-hui-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%8E%AB%E5%90%89%E5%B0%BC%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip",
     page: "/dos-games/lan-mo-ji-ni-xun-hui-sai/",
   },
   {
@@ -15852,7 +15841,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 78,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hu-dan-miao-suan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%99%8E%E8%83%86%E5%A6%99%E7%AE%97.zip",
     page: "/dos-games/hu-dan-miao-suan/",
   },
   {
@@ -15863,7 +15852,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 549,
     entry: "abuse.exe",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nve-sha-yi-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E8%99%90%E6%9D%80%E5%BC%82%E5%BD%A2.zip",
     page: "/dos-games/nve-sha-yi-xing/",
   },
   {
@@ -15874,7 +15863,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 334,
     entry: "run.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xu-huan-zhi-di.zip",
+    url: "https://dos-bin.zczc.cz/%E8%99%9A%E5%B9%BB%E4%B9%8B%E5%9C%B0.zip",
     page: "/dos-games/xu-huan-zhi-di/",
   },
   {
@@ -15885,7 +15874,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "POOL.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xu-ni-zhuo-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E6%A1%8C%E7%90%83.zip",
     page: "/dos-games/xu-ni-zhuo-qiu/",
   },
   {
@@ -15896,7 +15885,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 352,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xu-ni-gao-er-fu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E9%AB%98%E5%B0%94%E5%A4%AB.zip",
     page: "/dos-games/xu-ni-gao-er-fu/",
   },
   {
@@ -15907,7 +15896,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "ewj.exe",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qiu-yin-ji-mu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9A%AF%E8%9A%93%E5%90%89%E5%A7%86.zip",
     page: "/dos-games/qiu-yin-ji-mu/",
   },
   {
@@ -15918,7 +15907,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "EWJ2.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qiu-yin-ji-mu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9A%AF%E8%9A%93%E5%90%89%E5%A7%862.zip",
     page: "/dos-games/qiu-yin-ji-mu-2/",
   },
   {
@@ -15929,7 +15918,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 169,
     entry: "SERPENTS.COM",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/she-nv.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9B%87%E5%A5%B3.zip",
     page: "/dos-games/she-nv/",
   },
   {
@@ -15940,7 +15929,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 267,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shu-shan-jian-xia-chuan-zhi-zi-jing-shuang-jian-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9C%80%E5%B1%B1%E5%89%91%E4%BE%A0%E4%BC%A0%E4%B9%8B%E7%B4%AB%E8%8F%81%E5%8F%8C%E5%89%91%E5%BD%95.zip",
     page: "/dos-games/shu-shan-jian-xia-chuan-zhi-zi-jing-shuang-jian-lu/",
   },
   {
@@ -15951,7 +15940,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "RUNME.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-xiang-du-fang.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9C%82%E7%AE%B1%E8%B5%8C%E5%9D%8A.zip",
     page: "/dos-games/feng-xiang-du-fang/",
   },
   {
@@ -15962,7 +15951,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 474,
     entry: "Play.bat",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/la-xiang-guan-zhi-mi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9C%A1%E5%83%8F%E9%A6%86%E4%B9%8B%E8%B0%9C.zip",
     page: "/dos-games/la-xiang-guan-zhi-mi/",
   },
   {
@@ -15973,7 +15962,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "LM.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-yi-chao-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9C%A5%E8%9C%B4%E8%B6%85%E4%BA%BA.zip",
     page: "/dos-games/xi-yi-chao-ren/",
   },
   {
@@ -15984,7 +15973,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "BATMAN.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bian-fu-xia-gui-lai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E5%BD%92%E6%9D%A5.zip",
     page: "/dos-games/bian-fu-xia-gui-lai/",
   },
   {
@@ -15995,7 +15984,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 79,
     entry: "BATMAN.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bian-fu-xia-dian-ying-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E7%94%B5%E5%BD%B1%E7%89%88.zip",
     page: "/dos-games/bian-fu-xia-dian-ying-ban/",
   },
   {
@@ -16006,7 +15995,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 333,
     entry: "SETUP.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tang-lang-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%9E%B3%E8%9E%82%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/tang-lang-zhan-ji/",
   },
   {
@@ -16017,7 +16006,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 128,
     entry: "BAM.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-yu-mo-fa.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%80%E4%B8%8E%E9%AD%94%E6%B3%95.zip",
     page: "/dos-games/xue-yu-mo-fa/",
   },
   {
@@ -16028,7 +16017,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "setup.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-chao.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%80%E5%B7%A2.zip",
     page: "/dos-games/xue-chao/",
   },
   {
@@ -16039,7 +16028,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "BWYCH.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%80%E5%B7%AB.zip",
     page: "/dos-games/xue-wu/",
   },
   {
@@ -16050,7 +16039,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 286,
     entry: "BLOOD.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-shi-ai-ren-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%80%E7%9F%B3%E7%9F%AE%E4%BA%BA%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/xue-shi-ai-ren-chuan-qi/",
   },
   {
@@ -16061,7 +16050,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 75,
     entry: "blood.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%80%E7%A5%AD.zip",
     page: "/dos-games/xue-ji/",
   },
   {
@@ -16072,7 +16061,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "Space.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xing-xing-bian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%8C%E6%98%9F%E8%BE%B9%E9%99%85.zip",
     page: "/dos-games/xing-xing-bian-ji/",
   },
   {
@@ -16083,7 +16072,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 96,
     entry: "PIT.COM",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jie-tou-di-xia-ge-dou.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%97%E5%A4%B4%E5%9C%B0%E4%B8%8B%E6%A0%BC%E6%96%97.zip",
     page: "/dos-games/jie-tou-di-xia-ge-dou/",
   },
   {
@@ -16094,7 +16083,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "SF.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jie-tou-ba-wang-1.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%97%E5%A4%B4%E9%9C%B8%E7%8E%8B1.zip",
     page: "/dos-games/jie-tou-ba-wang-1/",
   },
   {
@@ -16105,7 +16094,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "KINGPIN.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jie-ji-bao-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%97%E6%9C%BA%E4%BF%9D%E9%BE%84.zip",
     page: "/dos-games/jie-ji-bao-ling/",
   },
   {
@@ -16116,7 +16105,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "pool.exe",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jie-ji-zhuo-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%97%E6%9C%BA%E6%A1%8C%E7%90%83.zip",
     page: "/dos-games/jie-ji-zhuo-qiu/",
   },
   {
@@ -16127,7 +16116,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "MIDPAK.COM",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jie-qiu-da-guan-lan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A1%97%E7%90%83%E5%A4%A7%E7%81%8C%E7%AF%AE.zip",
     page: "/dos-games/jie-qiu-da-guan-lan/",
   },
   {
@@ -16138,7 +16127,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 100,
     entry: "START.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bei-yi-wang-zhi-di.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A2%AB%E9%81%97%E5%BF%98%E4%B9%8B%E5%9C%B0.zip",
     page: "/dos-games/bei-yi-wang-zhi-di/",
   },
   {
@@ -16149,7 +16138,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "RUNME.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bei-yi-wang-de-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A2%AB%E9%81%97%E5%BF%98%E7%9A%84%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/bei-yi-wang-de-shi-jie/",
   },
   {
@@ -16160,7 +16149,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 894,
     entry: "PG.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-yuan-shuai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%85%83%E5%B8%85.zip",
     page: "/dos-games/zhuang-jia-yuan-shuai/",
   },
   {
@@ -16171,7 +16160,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "RUN.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-shou-hu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%AE%88%E6%8A%A4.zip",
     page: "/dos-games/zhuang-jia-shou-hu/",
   },
   {
@@ -16182,7 +16171,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "INSTALL.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-xiong-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E9%9B%84%E7%8B%AE.zip",
     page: "/dos-games/zhuang-jia-xiong-shi/",
   },
   {
@@ -16193,7 +16182,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 290,
     entry: "WKING.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-chu-ba-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%A5%9A%E9%9C%B8%E7%8E%8B.zip",
     page: "/dos-games/xi-chu-ba-wang/",
   },
   {
@@ -16204,7 +16193,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 140,
     entry: "GODS.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-yang-feng-shen-bang.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E5%B0%81%E7%A5%9E%E6%A6%9C.zip",
     page: "/dos-games/xi-yang-feng-shen-bang/",
   },
   {
@@ -16215,7 +16204,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "CHECKERS.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-yang-tiao-qi-gong-xiang-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E8%B7%B3%E6%A3%8B%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip",
     page: "/dos-games/xi-yang-tiao-qi-gong-xiang-ban/",
   },
   {
@@ -16226,7 +16215,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-yang-lu-jun-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B4%8B%E9%99%86%E5%86%9B%E6%A3%8B.zip",
     page: "/dos-games/xi-yang-lu-jun-qi/",
   },
   {
@@ -16237,7 +16226,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-you-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0.zip",
     page: "/dos-games/xi-you-ji/",
   },
   {
@@ -16248,7 +16237,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 268,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xi-you-ji-wai-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E5%A4%96%E4%BC%A0.zip",
     page: "/dos-games/xi-you-ji-wai-zhuan/",
   },
   {
@@ -16259,7 +16248,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "STRONG.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yao-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A6%81%E5%A1%9E.zip",
     page: "/dos-games/yao-sai/",
   },
   {
@@ -16270,7 +16259,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "GLAD.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jue-dou-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A7%92%E6%96%97%E5%A3%AB.zip",
     page: "/dos-games/jue-dou-shi/",
   },
   {
@@ -16281,7 +16270,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 109,
     entry: "freedc.exe",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jie-jiu-hua-sheng-dun.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A7%A3%E6%95%91%E5%8D%8E%E7%9B%9B%E9%A1%BF.zip",
     page: "/dos-games/jie-jiu-hua-sheng-dun/",
   },
   {
@@ -16292,7 +16281,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "robocod.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhan-mu-si-pang-de-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%A9%B9%E5%A7%86%E6%96%AF%E5%BA%9E%E5%BE%B72.zip",
     page: "/dos-games/zhan-mu-si-pang-de-2/",
   },
   {
@@ -16303,7 +16292,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "SCIDHUV.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B.zip",
     page: "/dos-games/jing-cha-gu-shi/",
   },
   {
@@ -16314,7 +16303,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "PQ.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi-1-zhong-zhi-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B1%E9%87%8D%E5%88%B6%E7%89%88.zip",
     page: "/dos-games/jing-cha-gu-shi-1-zhong-zhi-ban/",
   },
   {
@@ -16325,7 +16314,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "SIERRA.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B2.zip",
     page: "/dos-games/jing-cha-gu-shi-2/",
   },
   {
@@ -16336,7 +16325,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 61,
     entry: "INSTALL.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi-3.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B3.zip",
     page: "/dos-games/jing-cha-gu-shi-3/",
   },
   {
@@ -16347,7 +16336,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "FLASHER2.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ji-yi-ce-yan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AE%B0%E5%BF%86%E6%B5%8B%E9%AA%8C.zip",
     page: "/dos-games/ji-yi-ce-yan/",
   },
   {
@@ -16358,7 +16347,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "TDCGA.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-yan-jia-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B6.zip",
     page: "/dos-games/shi-yan-jia-shi/",
   },
   {
@@ -16369,7 +16358,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "RUNME.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-yan-jia-shi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B62.zip",
     page: "/dos-games/shi-yan-jia-shi-2/",
   },
   {
@@ -16380,7 +16369,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "TD3.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shi-yan-jia-shi-3.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B63.zip",
     page: "/dos-games/shi-yan-jia-shi-3/",
   },
   {
@@ -16391,7 +16380,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "DEBUT.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dan-sheng.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%9E%E7%94%9F.zip",
     page: "/dos-games/dan-sheng/",
   },
   {
@@ -16402,7 +16391,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "LURE.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/you-huo.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%B1%E6%83%91.zip",
     page: "/dos-games/you-huo/",
   },
   {
@@ -16413,7 +16402,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 506,
     entry: "Play.bat",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-shen-feng-yin.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%B8%E7%A5%9E%E5%B0%81%E5%8D%B0.zip",
     page: "/dos-games/zhu-shen-feng-yin/",
   },
   {
@@ -16424,7 +16413,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "DUSK.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhu-shen-de-huang-hun.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%B8%E7%A5%9E%E7%9A%84%E9%BB%84%E6%98%8F.zip",
     page: "/dos-games/zhu-shen-de-huang-hun/",
   },
   {
@@ -16435,7 +16424,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "NOMAD.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/nuo-man-ji-hua-93.zip",
+    url: "https://dos-bin.zczc.cz/%E8%AF%BA%E6%9B%BC%E8%AE%A1%E5%88%9293.zip",
     page: "/dos-games/nuo-man-ji-hua-93/",
   },
   {
@@ -16446,7 +16435,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 104,
     entry: "EFACT.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shui-xian-hai-le-tu-zi-luo-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B0%81%E9%99%B7%E5%AE%B3%E4%BA%86%E5%85%94%E5%AD%90%E7%BD%97%E6%9D%B0.zip",
     page: "/dos-games/shui-xian-hai-le-tu-zi-luo-jie/",
   },
   {
@@ -16457,7 +16446,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 37,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiang-qi-e-luo-si.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B1%A1%E6%A3%8B%E4%BF%84%E7%BD%97%E6%96%AF.zip",
     page: "/dos-games/xiang-qi-e-luo-si/",
   },
   {
@@ -16468,7 +16457,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 65,
     entry: "CCH.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiang-qi-da-shi-3-jiang-zu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B1%A1%E6%A3%8B%E5%A4%A7%E5%B8%883%E5%B0%86%E6%97%8F.zip",
     page: "/dos-games/xiang-qi-da-shi-3-jiang-zu/",
   },
   {
@@ -16479,7 +16468,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 254,
     entry: "pd.exe",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hao-hua-dan-zhu-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B1%AA%E5%8D%8E%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
     page: "/dos-games/hao-hua-dan-zhu-tai/",
   },
   {
@@ -16490,7 +16479,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 65,
     entry: "BTVN.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bei-duo-fen-er-shi-quan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B4%9D%E5%A4%9A%E8%8A%AC%E4%BA%8C%E4%B8%96%E7%8A%AC.zip",
     page: "/dos-games/bei-duo-fen-er-shi-quan/",
   },
   {
@@ -16501,7 +16490,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "hb.exe",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bei-fu-li-shan-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B4%9D%E5%BC%97%E5%88%A9%E5%B1%B1%E4%BA%BA.zip",
     page: "/dos-games/bei-fu-li-shan-ren/",
   },
   {
@@ -16512,7 +16501,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 82,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tan-yu-su-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B4%AA%E6%AC%B2%E8%AF%89%E6%B1%82.zip",
     page: "/dos-games/tan-yu-su-qiu/",
   },
   {
@@ -16523,7 +16512,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "AMAZON.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tan-shi-she.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B4%AA%E9%A3%9F%E8%9B%87.zip",
     page: "/dos-games/tan-shi-she/",
   },
   {
@@ -16534,7 +16523,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 158,
     entry: "PATR.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gui-zu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B4%B5%E6%97%8F.zip",
     page: "/dos-games/gui-zu/",
   },
   {
@@ -16545,7 +16534,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1335,
     entry: "PLAY.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/du-shen-zhi-zun-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%8C%E7%A5%9E%E8%87%B3%E5%B0%8A%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/du-shen-zhi-zun-zhi-zhan/",
   },
   {
@@ -16556,7 +16545,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 515,
     entry: "CL.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sai-bo-zhan-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%9B%E5%8D%9A%E6%88%98%E8%AD%A6.zip",
     page: "/dos-games/sai-bo-zhan-jing/",
   },
   {
@@ -16567,7 +16556,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "_CYRIL.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sai-bo-hua-ban-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%9B%E5%8D%9A%E6%BB%91%E6%9D%BF%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/sai-bo-hua-ban-xiao-zi/",
   },
   {
@@ -16578,7 +16567,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "zelda.exe",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sai-er-da-jing-dian-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%9B%E5%B0%94%E8%BE%BE%E7%BB%8F%E5%85%B8%E7%89%88.zip",
     page: "/dos-games/sai-er-da-jing-dian-ban/",
   },
   {
@@ -16589,7 +16578,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "GTF.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sai-ma.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%9B%E9%A9%AC.zip",
     page: "/dos-games/sai-ma/",
   },
   {
@@ -16600,7 +16589,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 97,
     entry: "XANTH.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zan-si-de-tong-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%9E%E6%96%AF%E7%9A%84%E5%90%8C%E4%BC%B4.zip",
     page: "/dos-games/zan-si-de-tong-ban/",
   },
   {
@@ -16611,7 +16600,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-bi-zhi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%A4%E5%A3%81%E4%B9%8B%E6%88%98.zip",
     page: "/dos-games/chi-bi-zhi-zhan/",
   },
   {
@@ -16622,7 +16611,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "HERA.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/he-la-rui-en-zhi-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%AB%E6%8B%89%E7%91%9E%E6%81%A9%E4%B9%8B%E5%89%91.zip",
     page: "/dos-games/he-la-rui-en-zhi-jian/",
   },
   {
@@ -16633,7 +16622,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "CORR7.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zou-lang-yi-xing-ru-qin.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B5%B0%E5%BB%8A%EF%BC%9A%E5%BC%82%E5%BD%A2%E5%85%A5%E4%BE%B5.zip",
     page: "/dos-games/zou-lang-yi-xing-ru-qin/",
   },
   {
@@ -16644,7 +16633,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 635,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ren-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E4%BA%BA%E6%88%98%E8%AE%B0.zip",
     page: "/dos-games/chao-ren-zhan-ji/",
   },
   {
@@ -16655,7 +16644,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "SPIDEY.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-fan-zhi-zhu-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E5%87%A1%E8%9C%98%E8%9B%9B%E4%BE%A0.zip",
     page: "/dos-games/chao-fan-zhi-zhu-xia/",
   },
   {
@@ -16666,7 +16655,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 215,
     entry: "QR.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-g-dian.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BAG%E7%82%B9.zip",
     page: "/dos-games/chao-shi-kong-g-dian/",
   },
   {
@@ -16677,7 +16666,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 146,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-ying-xiong-zhuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/chao-shi-kong-ying-xiong-zhuan-shuo/",
   },
   {
@@ -16688,7 +16677,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 117,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-ying-xiong-zhuan-shuo-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42.zip",
     page: "/dos-games/chao-shi-kong-ying-xiong-zhuan-shuo-2/",
   },
   {
@@ -16699,7 +16688,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 95,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-ying-xiong-zhuan-shuo-2sp.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42SP.zip",
     page: "/dos-games/chao-shi-kong-ying-xiong-zhuan-shuo-2sp/",
   },
   {
@@ -16710,7 +16699,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 468,
     entry: "MAC.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-yao-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%A6%81%E5%A1%9E.zip",
     page: "/dos-games/chao-shi-kong-yao-sai/",
   },
   {
@@ -16721,7 +16710,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 83,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-wei-lai-shao-nv.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%9C%AA%E6%9D%A5%E5%B0%91%E5%A5%B3.zip",
     page: "/dos-games/chao-wei-lai-shao-nv/",
   },
   {
@@ -16732,7 +16721,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 191,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-kong-ba-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%A9%BA%E9%9C%B8%E4%BC%A0.zip",
     page: "/dos-games/chao-kong-ba-chuan/",
   },
   {
@@ -16743,7 +16732,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "ST.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-san-jian-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%B8%89%E5%89%91%E5%AE%A2.zip",
     page: "/dos-games/chao-ji-san-jian-ke/",
   },
   {
@@ -16754,7 +16743,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 79,
     entry: "PLAY.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-wu-zi-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BA%94%E5%AD%90%E6%A3%8B.zip",
     page: "/dos-games/chao-ji-wu-zi-qi/",
   },
   {
@@ -16765,7 +16754,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "SUPERTET.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-e-luo-si-fang-kuai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip",
     page: "/dos-games/chao-ji-e-luo-si-fang-kuai/",
   },
   {
@@ -16776,7 +16765,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "KART.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-ka-ding-che.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%8D%A1%E4%B8%81%E8%BD%A6.zip",
     page: "/dos-games/chao-ji-ka-ding-che/",
   },
   {
@@ -16787,7 +16776,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "_CHESS2.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-guo-ji-xiang-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B2.zip",
     page: "/dos-games/chao-ji-guo-ji-xiang-qi-2/",
   },
   {
@@ -16798,7 +16787,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 470,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-da-fu-weng.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
     page: "/dos-games/chao-ji-da-fu-weng/",
   },
   {
@@ -16809,7 +16798,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "SUPER.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-da-zhan-lve.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E6%88%98%E7%95%A5.zip",
     page: "/dos-games/chao-ji-da-zhan-lve/",
   },
   {
@@ -16820,7 +16809,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "SCMC2.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-xue-yuan-ma-que-hai-wai-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E5%9B%AD%E9%BA%BB%E9%9B%80%E6%B5%B7%E5%A4%96%E7%89%88.zip",
     page: "/dos-games/chao-ji-xue-yuan-ma-que-hai-wai-ban/",
   },
   {
@@ -16831,7 +16820,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "SCMC.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-xue-yuan-ma-que.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E9%99%A2%E9%BA%BB%E9%9B%80.zip",
     page: "/dos-games/chao-ji-xue-yuan-ma-que/",
   },
   {
@@ -16842,7 +16831,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 198,
     entry: "GO.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-xing-chen.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%98%9F%E5%B0%98.zip",
     page: "/dos-games/chao-ji-xing-chen/",
   },
   {
@@ -16853,7 +16842,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "SB.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-ji-che-sai.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%9C%BA%E8%BD%A6%E8%B5%9B.zip",
     page: "/dos-games/chao-ji-ji-che-sai/",
   },
   {
@@ -16864,7 +16853,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 109,
     entry: "SUPERSKI.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA2.zip",
     page: "/dos-games/chao-ji-hua-xue-2/",
   },
   {
@@ -16875,7 +16864,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 93,
     entry: "SKI.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-3.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA3.zip",
     page: "/dos-games/chao-ji-hua-xue-3/",
   },
   {
@@ -16886,7 +16875,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 207,
     entry: "SKI.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-zhuan-ye-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA%E4%B8%93%E4%B8%9A%E7%89%88.zip",
     page: "/dos-games/chao-ji-hua-xue-zhuan-ye-ban/",
   },
   {
@@ -16897,7 +16886,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "MARIO.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-ma-li.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD.zip",
     page: "/dos-games/chao-ji-ma-li/",
   },
   {
@@ -16908,7 +16897,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "COMANCHE.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-ke-man-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E7%A7%91%E6%9B%BC%E5%A5%87.zip",
     page: "/dos-games/chao-ji-ke-man-qi/",
   },
   {
@@ -16919,7 +16908,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 45,
     entry: "legend.bat",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-ying-xiong-lian-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F.zip",
     page: "/dos-games/chao-ji-ying-xiong-lian-meng/",
   },
   {
@@ -16930,7 +16919,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 147,
     entry: "SF.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-wa.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%9B%99.zip",
     page: "/dos-games/chao-ji-wa/",
   },
   {
@@ -16941,7 +16930,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1416,
     entry: "SSF2T.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-jie-ba-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B82.zip",
     page: "/dos-games/chao-ji-jie-ba-2/",
   },
   {
@@ -16952,7 +16941,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 357,
     entry: "SF2.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-jie-ba-xin-tiao-zhan-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B8%E6%96%B0%E6%8C%91%E6%88%98%E8%80%85.zip",
     page: "/dos-games/chao-ji-jie-ba-xin-tiao-zhan-zhe/",
   },
   {
@@ -16963,7 +16952,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "SEGA.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-chao-yue-jing-su.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip",
     page: "/dos-games/chao-ji-chao-yue-jing-su/",
   },
   {
@@ -16974,7 +16963,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "RADIX.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-yue-void-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8AVoid%E6%98%9F.zip",
     page: "/dos-games/chao-yue-void-xing/",
   },
   {
@@ -16985,7 +16974,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "ABYSS.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-yue-shen-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E6%B7%B1%E6%B8%8A.zip",
     page: "/dos-games/chao-yue-shen-yuan/",
   },
   {
@@ -16996,7 +16985,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 109,
     entry: "PKARC.COM",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-yue-jing-su.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip",
     page: "/dos-games/chao-yue-jing-su/",
   },
   {
@@ -17007,7 +16996,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "GO.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-su-jia-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%85%E9%80%9F%E9%A9%BE%E9%A9%B6.zip",
     page: "/dos-games/chao-su-jia-shi/",
   },
   {
@@ -17018,7 +17007,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qu-guai-xiao-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%A3%E6%80%AA%E5%B0%8F%E5%B7%AB%E5%B8%88.zip",
     page: "/dos-games/qu-guai-xiao-wu-shi/",
   },
   {
@@ -17029,7 +17018,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 524,
     entry: "KID.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/zu-qiu-xiao-zi/",
   },
   {
@@ -17040,7 +17029,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "SOCCER.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/zu-qiu-di-guo/",
   },
   {
@@ -17051,7 +17040,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "E.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-jing-li-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%86%E4%BA%BA.zip",
     page: "/dos-games/zu-qiu-jing-li-ren/",
   },
   {
@@ -17062,7 +17051,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 306,
     entry: "GO.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-chao-ji-ming-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E8%B6%85%E7%BA%A7%E6%98%8E%E6%98%9F.zip",
     page: "/dos-games/zu-qiu-chao-ji-ming-xing/",
   },
   {
@@ -17073,7 +17062,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 323,
     entry: "STAR.BAT",
     tag: "k",
-    url: "https://github.com/whereq/dos-games/releases/download/k/kua-yue-xing-xing.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B7%A8%E8%B6%8A%E8%A1%8C%E6%98%9F.zip",
     page: "/dos-games/kua-yue-xing-xing/",
   },
   {
@@ -17084,7 +17073,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "IQ-BALLS.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tiao-tiao-tiao.zip",
+    url: "https://dos-bin.zczc.cz/%E8%B7%B3%E8%B7%B3%E8%B7%B3.zip",
     page: "/dos-games/tiao-tiao-tiao/",
   },
   {
@@ -17095,7 +17084,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 346,
     entry: "Play.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-1.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%911.zip",
     page: "/dos-games/xuan-yuan-jian-1/",
   },
   {
@@ -17106,7 +17095,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2315,
     entry: "SWD2.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%912.zip",
     page: "/dos-games/xuan-yuan-jian-2/",
   },
   {
@@ -17117,7 +17106,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 342,
     entry: "SuperSwdEditor.exe",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-wai-zhuan-feng-zhi-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%91%E5%A4%96%E4%BC%A0%E6%9E%AB%E4%B9%8B%E8%88%9E.zip",
     page: "/dos-games/xuan-yuan-jian-wai-zhuan-feng-zhi-wu/",
   },
   {
@@ -17128,7 +17117,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 339,
     entry: "SWDA.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-wai-zhuan-feng-zhi-wu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%91%E5%A4%96%E4%BC%A0%EF%BC%9A%E6%9E%AB%E4%B9%8B%E8%88%9E.zip",
     page: "/dos-games/xuan-yuan-jian-wai-zhuan-feng-zhi-wu-2/",
   },
   {
@@ -17139,7 +17128,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1822,
     entry: "MAP.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-sheng-zhan-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%9C%A3%E6%88%98%E5%BD%95.zip",
     page: "/dos-games/xuan-yuan-sheng-zhan-lu/",
   },
   {
@@ -17150,7 +17139,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 677,
     entry: "PLAY.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuan-xiao-sheng.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%AC%E6%A0%A1%E7%94%9F.zip",
     page: "/dos-games/zhuan-xiao-sheng/",
   },
   {
@@ -17161,7 +17150,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 585,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuan-xiao-sheng-tian-shi-men-de-wu-hou.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%AC%E6%A0%A1%E7%94%9F-%E5%A4%A9%E4%BD%BF%E4%BB%AC%E7%9A%84%E5%8D%88%E5%90%8E.zip",
     page: "/dos-games/zhuan-xiao-sheng-tian-shi-men-de-wu-hou/",
   },
   {
@@ -17172,7 +17161,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 710,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhuan-xiao-sheng-tian-shi-men-de-wu-hou-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BD%AC%E6%A0%A1%E7%94%9F-%E5%A4%A9%E4%BD%BF%E4%BB%AC%E7%9A%84%E5%8D%88%E5%90%8E2.zip",
     page: "/dos-games/zhuan-xiao-sheng-tian-shi-men-de-wu-hou-2/",
   },
   {
@@ -17183,7 +17172,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "SIMPSONS.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-yi-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B6.zip",
     page: "/dos-games/xin-pu-sen-yi-jia/",
   },
   {
@@ -17194,7 +17183,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 342,
     entry: "S.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-yi-jia-2-gu-guai-zhi-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B62%E5%8F%A4%E6%80%AA%E4%B9%8B%E5%B1%8B.zip",
     page: "/dos-games/xin-pu-sen-yi-jia-2-gu-guai-zhi-wu/",
   },
   {
@@ -17205,7 +17194,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "SIMPSONS.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-da-zhan-wai-xing-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip",
     page: "/dos-games/xin-pu-sen-da-zhan-wai-xing-ren/",
   },
   {
@@ -17216,7 +17205,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 216,
     entry: "krusty.bat",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-xiao-chou-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%B0%8F%E4%B8%91%E5%B1%8B.zip",
     page: "/dos-games/xin-pu-sen-xiao-chou-wu/",
   },
   {
@@ -17227,7 +17216,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 514,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xin-di-jia-zhan-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BE%9B%E8%BF%AA%E5%8A%A0%E6%88%98%E4%BA%89.zip",
     page: "/dos-games/xin-di-jia-zhan-zheng/",
   },
   {
@@ -17238,7 +17227,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "START.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bian-jing-bao-zang.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BE%B9%E5%A2%83%E5%AE%9D%E8%97%8F.zip",
     page: "/dos-games/bian-jing-bao-zang/",
   },
   {
@@ -17249,7 +17238,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "DRWHO",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/da-lan-ke-chu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BE%BE%E5%85%B0%E7%A7%91%E5%87%BA%E5%87%BB.zip",
     page: "/dos-games/da-lan-ke-chu-ji/",
   },
   {
@@ -17260,7 +17249,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "OVERKILL.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/guo-du-sha-lu-92.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%87%E5%BA%A6%E6%9D%80%E6%88%AE92.zip",
     page: "/dos-games/guo-du-sha-lu-92/",
   },
   {
@@ -17271,7 +17260,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "TYCOON.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yun-shu-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%90%E8%BE%93%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/yun-shu-da-heng/",
   },
   {
@@ -17282,7 +17271,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "DART.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yun-biao-tian-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%90%E9%95%96%E5%A4%A9%E4%B8%8B.zip",
     page: "/dos-games/yun-biao-tian-xia/",
   },
   {
@@ -17293,7 +17282,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "ELFISH.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-hua-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%9B%E5%8C%96%E9%B1%BC.zip",
     page: "/dos-games/jin-hua-yu/",
   },
   {
@@ -17304,7 +17293,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "DUCKTALE.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/di-si-ni-duo-bao-qi-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%AA%E6%96%AF%E5%B0%BC%E5%A4%BA%E5%AE%9D%E5%A5%87%E5%85%B5.zip",
     page: "/dos-games/di-si-ni-duo-bao-qi-bing/",
   },
   {
@@ -17315,7 +17304,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "LES2.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mi-shi-luo-shan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%A4%B1%E6%B4%9B%E6%9D%89%E7%9F%B6.zip",
     page: "/dos-games/mi-shi-luo-shan-ji/",
   },
   {
@@ -17326,7 +17315,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "DM.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mi-gong-da-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E5%A4%A7%E5%B8%88.zip",
     page: "/dos-games/mi-gong-da-shi/",
   },
   {
@@ -17337,7 +17326,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "DM2.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mi-gong-da-shi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E5%A4%A7%E5%B8%882.zip",
     page: "/dos-games/mi-gong-da-shi-2/",
   },
   {
@@ -17348,7 +17337,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 39,
     entry: "HACK.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mi-gong-luo-ge.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E7%BD%97%E6%A0%BC.zip",
     page: "/dos-games/mi-gong-luo-ge/",
   },
   {
@@ -17359,7 +17348,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 494,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mi-zou-du-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E8%BF%B7%E8%B5%B0%E9%83%BD%E5%B8%82.zip",
     page: "/dos-games/mi-zou-du-shi/",
   },
   {
@@ -17370,7 +17359,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/song-bao-tong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%81%E6%8A%A5%E7%AB%A5.zip",
     page: "/dos-games/song-bao-tong/",
   },
   {
@@ -17381,7 +17370,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 130,
     entry: "ESCAPE.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tao-li-di-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E5%9C%B0%E7%8B%B1.zip",
     page: "/dos-games/tao-li-di-yu/",
   },
   {
@@ -17392,7 +17381,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 19,
     entry: "DELIRIUM.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tao-li-feng-ren-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E7%96%AF%E4%BA%BA%E9%99%A2.zip",
     page: "/dos-games/tao-li-feng-ren-yuan/",
   },
   {
@@ -17403,7 +17392,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 68,
     entry: "BRAIN.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tao-li-nao-bo-shi-de-cheng-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E8%84%91%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip",
     page: "/dos-games/tao-li-nao-bo-shi-de-cheng-bao/",
   },
   {
@@ -17414,7 +17403,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 566,
     entry: "PLAY.BAT",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/ni-yu-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%86%E7%8E%89%E7%8E%8B.zip",
     page: "/dos-games/ni-yu-wang/",
   },
   {
@@ -17425,7 +17414,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 21,
     entry: "VOTE.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xuan-ju-feng-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%89%E4%B8%BE%E9%A3%8E%E4%BA%91.zip",
     page: "/dos-games/xuan-ju-feng-yun/",
   },
   {
@@ -17436,7 +17425,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 122,
     entry: "GATE.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tong-lu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%9A%E8%B7%AF1.zip",
     page: "/dos-games/tong-lu-1/",
   },
   {
@@ -17447,7 +17436,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 80,
     entry: "HOME.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tong-lu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%9A%E8%B7%AF2.zip",
     page: "/dos-games/tong-lu-2/",
   },
   {
@@ -17458,7 +17447,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 36,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tong-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%9A%E9%81%93.zip",
     page: "/dos-games/tong-dao/",
   },
   {
@@ -17469,7 +17458,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 57,
     entry: "EGA.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/su-du-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%83.zip",
     page: "/dos-games/su-du-qiu/",
   },
   {
@@ -17480,7 +17469,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "SB2.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/su-du-qiu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%832.zip",
     page: "/dos-games/su-du-qiu-2/",
   },
   {
@@ -17491,7 +17480,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 478,
     entry: "F2B.BAT",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/dun-ru-hei-an.zip",
+    url: "https://dos-bin.zczc.cz/%E9%81%81%E5%85%A5%E9%BB%91%E6%9A%97.zip",
     page: "/dos-games/dun-ru-hei-an/",
   },
   {
@@ -17502,7 +17491,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "ISAKU.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-zuo-ri.zip",
+    url: "https://dos-bin.zczc.cz/%E9%81%97%E4%BD%9C%28%E6%97%A5%EF%BC%89.zip",
     page: "/dos-games/yi-zuo-ri/",
   },
   {
@@ -17513,7 +17502,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "GO.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-1-si-wang-shou-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B91%E6%AD%BB%E4%BA%A1%E5%AE%88%E6%9C%9B.zip",
     page: "/dos-games/yi-ji-1-si-wang-shou-wang/",
   },
   {
@@ -17524,7 +17513,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 130,
     entry: "FANTGAME.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-2-xie-e-lin-jin.zip",
+    url: "https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B92%E9%82%AA%E6%81%B6%E4%B8%B4%E8%BF%91.zip",
     page: "/dos-games/yi-ji-2-xie-e-lin-jin/",
   },
   {
@@ -17535,7 +17524,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "NASHUA.EXE",
     tag: "n",
-    url: "https://github.com/whereq/dos-games/releases/download/n/na-su-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%82%A3%E8%8B%8F%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/na-su-mao-xian/",
   },
   {
@@ -17546,7 +17535,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 997,
     entry: "MAIN.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xie-ling-shi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%82%AA%E7%81%B5%E4%B8%96%E7%BA%AA.zip",
     page: "/dos-games/xie-ling-shi-ji/",
   },
   {
@@ -17557,7 +17546,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 937,
     entry: "DOS4GW.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xie-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%82%AA%E7%A5%9E.zip",
     page: "/dos-games/xie-shen/",
   },
   {
@@ -17568,7 +17557,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xie-shen-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%82%AA%E7%A5%9E%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/xie-shen-chuan-shuo/",
   },
   {
@@ -17579,7 +17568,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 210,
     entry: "PLAY.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xie-shen-da-di.zip",
+    url: "https://dos-bin.zczc.cz/%E9%82%AA%E7%A5%9E%E5%A4%A7%E5%9C%B0.zip",
     page: "/dos-games/xie-shen-da-di/",
   },
   {
@@ -17590,7 +17579,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "HORDE.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bu-luo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%83%A8%E8%90%BD.zip",
     page: "/dos-games/bu-luo/",
   },
   {
@@ -17601,7 +17590,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 148,
     entry: "DUCK.EXE",
     tag: "d",
-    url: "https://github.com/whereq/dos-games/releases/download/d/du-shi-fei-ya.zip",
+    url: "https://dos-bin.zczc.cz/%E9%83%BD%E5%B8%82%E9%A3%9E%E9%B8%AD.zip",
     page: "/dos-games/du-shi-fei-ya/",
   },
   {
@@ -17612,7 +17601,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "IW.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-shi-jie-lang-nv.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8C%E4%B8%96%E7%95%8C%EF%BC%8F%E7%8B%BC%E5%A5%B3.zip",
     page: "/dos-games/li-shi-jie-lang-nv/",
   },
   {
@@ -17623,7 +17612,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 41,
     entry: "DELTAV.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-li-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8D%E5%8A%9B%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/zhong-li-zhan-ji/",
   },
   {
@@ -17634,7 +17623,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 37,
     entry: "DOS4GW.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhong-jia-ji-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8D%E7%94%B2%E6%9C%BA%E7%A5%9E.zip",
     page: "/dos-games/zhong-jia-ji-shen/",
   },
   {
@@ -17645,7 +17634,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "WOLF3D.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chong-fan-de-jun-zong-bu-3d.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8D%E8%BF%94%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A83D.zip",
     page: "/dos-games/chong-fan-de-jun-zong-bu-3d/",
   },
   {
@@ -17656,7 +17645,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "CLONK.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ye-ren-sheng-cun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8E%E4%BA%BA%E7%94%9F%E5%AD%98.zip",
     page: "/dos-games/ye-ren-sheng-cun/",
   },
   {
@@ -17667,7 +17656,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "CLONK.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ye-ren-sheng-cun-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8E%E4%BA%BA%E7%94%9F%E5%AD%982.zip",
     page: "/dos-games/ye-ren-sheng-cun-2/",
   },
   {
@@ -17678,7 +17667,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "CLONK.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ye-ren-sheng-cun-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8E%E4%BA%BA%E7%94%9F%E5%AD%983.zip",
     page: "/dos-games/ye-ren-sheng-cun-3/",
   },
   {
@@ -17689,7 +17678,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ye-lang-xing-dong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8E%E7%8B%BC%E8%A1%8C%E5%8A%A8.zip",
     page: "/dos-games/ye-lang-xing-dong/",
   },
   {
@@ -17700,7 +17689,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "QISLAND.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/liang-zi-bo-shi-zhi-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%8F%E5%AD%90%E5%8D%9A%E5%A3%AB%E4%B9%8B%E5%B2%9B.zip",
     page: "/dos-games/liang-zi-bo-shi-zhi-dao/",
   },
   {
@@ -17711,7 +17700,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "METAL.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-shu-bian-yi-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%91%E5%B1%9E%E5%8F%98%E5%BC%82%E4%BA%BA.zip",
     page: "/dos-games/jin-shu-bian-yi-ren/",
   },
   {
@@ -17722,7 +17711,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 583,
     entry: "FIGHTER.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-yong-kuai-da.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip",
     page: "/dos-games/jin-yong-kuai-da/",
   },
   {
@@ -17733,7 +17722,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 625,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-yong-qun-xia-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BE%A0%E4%BC%A0.zip",
     page: "/dos-games/jin-yong-qun-xia-chuan/",
   },
   {
@@ -17744,7 +17733,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 248,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-ping-mei-zhi-tou-qing-bao-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%91%E7%93%B6%E6%A2%85.zip",
     page: "/dos-games/jin-ping-mei-zhi-tou-qing-bao-jian/",
   },
   {
@@ -17755,7 +17744,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 257,
     entry: "PLAY.BAT",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jin-ping-mei-zhi-tou-qing-bao-jian-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%87%91%E7%93%B6%E6%A2%85%E4%B9%8B%E5%81%B7%E6%83%85%E5%AE%9D%E9%89%B4.zip",
     page: "/dos-games/jin-ping-mei-zhi-tou-qing-bao-jian-2/",
   },
   {
@@ -17766,7 +17755,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 312,
     entry: "VIRTUOSO.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jian-shang-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E9%89%B4%E8%B5%8F%E5%AE%B6.zip",
     page: "/dos-games/jian-shang-jia/",
   },
   {
@@ -17777,7 +17766,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 306,
     entry: "PLAY.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chao-piao-qiang-qiang-gun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%9E%E7%A5%A8%E5%BC%BA%E5%BC%BA%E6%BB%9A.zip",
     page: "/dos-games/chao-piao-qiang-qiang-gun/",
   },
   {
@@ -17788,7 +17777,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 233,
     entry: "PLAY.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-xin.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E5%BF%83.zip",
     page: "/dos-games/gang-tie-zhi-xin/",
   },
   {
@@ -17799,7 +17788,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 407,
     entry: "F.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-quan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E6%8B%B3.zip",
     page: "/dos-games/gang-tie-zhi-quan/",
   },
   {
@@ -17810,7 +17799,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 30,
     entry: "IRON.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-xue.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%A1%80.zip",
     page: "/dos-games/gang-tie-zhi-xue/",
   },
   {
@@ -17821,7 +17810,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1425,
     entry: "STEEL.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-lu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%B7%AF1.zip",
     page: "/dos-games/gang-tie-zhi-lu-1/",
   },
   {
@@ -17832,7 +17821,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1446,
     entry: "STEEL2.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-lu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%B7%AF2.zip",
     page: "/dos-games/gang-tie-zhi-lu-2/",
   },
   {
@@ -17843,7 +17832,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2336,
     entry: "Mech.exe",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-lu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%B7%AF3.zip",
     page: "/dos-games/gang-tie-zhi-lu-3/",
   },
   {
@@ -17854,7 +17843,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "START.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-xin-tiao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%BF%A1%E6%9D%A1.zip",
     page: "/dos-games/gang-tie-xin-tiao/",
   },
   {
@@ -17865,7 +17854,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 99,
     entry: "COS.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-chong-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81.zip",
     page: "/dos-games/gang-tie-chong-tu/",
   },
   {
@@ -17876,7 +17865,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 100,
     entry: "COS2.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-chong-tu-wei-lai-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81%E6%9C%AA%E6%9D%A5%E7%89%88.zip",
     page: "/dos-games/gang-tie-chong-tu-wei-lai-ban/",
   },
   {
@@ -17887,7 +17876,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 282,
     entry: "IC.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-shi-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%8D%81%E5%AD%97.zip",
     page: "/dos-games/gang-tie-shi-zi/",
   },
   {
@@ -17898,7 +17887,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 801,
     entry: "NOS.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-yi-zhi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E6%84%8F%E5%BF%97.zip",
     page: "/dos-games/gang-tie-yi-zhi/",
   },
   {
@@ -17909,7 +17898,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 93,
     entry: "IRONLORD.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-ling-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%A2%86%E4%B8%BB.zip",
     page: "/dos-games/gang-tie-ling-zhu/",
   },
   {
@@ -17920,7 +17909,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 512,
     entry: "gtqs.exe",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-qi-shi-tuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%AA%91%E5%A3%AB%E5%9B%A2.zip",
     page: "/dos-games/gang-tie-qi-shi-tuan/",
   },
   {
@@ -17931,7 +17920,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "DIGIT.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zuan-di-xiao-jing-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E9%92%BB%E5%9C%B0%E5%B0%8F%E7%B2%BE%E7%81%B5.zip",
     page: "/dos-games/zuan-di-xiao-jing-ling/",
   },
   {
@@ -17942,7 +17931,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 902,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-jia-zhan-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E7%94%B2%E6%88%98%E8%88%B0.zip",
     page: "/dos-games/tie-jia-zhan-jian/",
   },
   {
@@ -17953,7 +17942,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 103,
     entry: "FMJ.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-jia-shen-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E7%94%B2%E7%A5%9E%E5%85%B5.zip",
     page: "/dos-games/tie-jia-shen-bing/",
   },
   {
@@ -17964,7 +17953,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "HARDNOVA.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-yong-bing.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E4%BD%A3%E5%85%B5.zip",
     page: "/dos-games/tie-xue-yong-bing/",
   },
   {
@@ -17975,7 +17964,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "RR.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-nong-fu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB1.zip",
     page: "/dos-games/tie-xue-nong-fu-1/",
   },
   {
@@ -17986,7 +17975,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "AGAIN.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-nong-fu-zai-du-chu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB%E5%86%8D%E5%BA%A6%E5%87%BA%E5%87%BB.zip",
     page: "/dos-games/tie-xue-nong-fu-zai-du-chu-ji/",
   },
   {
@@ -17997,7 +17986,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 80,
     entry: "play.bat",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-zhan-shi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E6%88%98%E5%A3%AB2.zip",
     page: "/dos-games/tie-xue-zhan-shi-2/",
   },
   {
@@ -18008,7 +17997,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "BB.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-gan-lan-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E6%A9%84%E6%A6%84%E7%90%83.zip",
     page: "/dos-games/tie-xue-gan-lan-qiu/",
   },
   {
@@ -18019,7 +18008,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 227,
     entry: "JA.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-lian-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F.zip",
     page: "/dos-games/tie-xue-lian-meng/",
   },
   {
@@ -18030,7 +18019,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 467,
     entry: "DG.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-lian-meng-si-wang-you-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F%E6%AD%BB%E4%BA%A1%E6%B8%B8%E6%88%8F.zip",
     page: "/dos-games/tie-xue-lian-meng-si-wang-you-xi/",
   },
   {
@@ -18041,7 +18030,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "PLAY.BAT",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-lu-a-ji-hua-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AFA%E8%AE%A1%E5%88%92%2B%E8%B5%84%E6%96%99%E7%AF%87.zip",
     page: "/dos-games/tie-lu-a-ji-hua-zi-liao-pian/",
   },
   {
@@ -18052,7 +18041,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 245,
     entry: "REX.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-lu-da-heng-hao-hua-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AF%E5%A4%A7%E4%BA%A8%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
     page: "/dos-games/tie-lu-da-heng-hao-hua-ban/",
   },
   {
@@ -18063,7 +18052,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "hook.exe",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-gou-chuan-zhang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E9%92%A9%E8%88%B9%E9%95%BF.zip",
     page: "/dos-games/tie-gou-chuan-zhang/",
   },
   {
@@ -18074,7 +18063,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 345,
     entry: "play.bat",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-suo-de-xing-qun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E9%94%81%E7%9A%84%E6%98%9F%E7%BE%A4.zip",
     page: "/dos-games/tie-suo-de-xing-qun/",
   },
   {
@@ -18085,7 +18074,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "DINAMIC.EXE",
     tag: "t",
-    url: "https://github.com/whereq/dos-games/releases/download/t/tie-chui-nan-hai.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%81%E9%94%A4%E7%94%B7%E5%AD%A9.zip",
     page: "/dos-games/tie-chui-nan-hai/",
   },
   {
@@ -18096,7 +18085,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 54,
     entry: "PROG4.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-duo-rui-chuan-qi-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E5%A4%9A%E7%91%9E%E4%BC%A0%E5%A5%871.zip",
     page: "/dos-games/yin-duo-rui-chuan-qi-1/",
   },
   {
@@ -18107,7 +18096,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "ch2.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-duo-rui-chuan-qi-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E5%A4%9A%E7%91%9E%E4%BC%A0%E5%A5%872.zip",
     page: "/dos-games/yin-duo-rui-chuan-qi-2/",
   },
   {
@@ -18118,7 +18107,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 16,
     entry: "Yendor3-full.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-duo-rui-chuan-qi-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E5%A4%9A%E7%91%9E%E4%BC%A0%E5%A5%873.zip",
     page: "/dos-games/yin-duo-rui-chuan-qi-3/",
   },
   {
@@ -18129,7 +18118,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 114,
     entry: "run.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-tai-yang-feng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%A4%AA%E9%98%B3%E9%A3%8E.zip",
     page: "/dos-games/yin-he-tai-yang-feng/",
   },
   {
@@ -18140,7 +18129,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 167,
     entry: "GLMM.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-di-guo-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD%E4%BC%A0.zip",
     page: "/dos-games/yin-he-di-guo-chuan/",
   },
   {
@@ -18151,7 +18140,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 329,
     entry: "MACHINES.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-zhan-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E6%88%98%E5%A3%AB.zip",
     page: "/dos-games/yin-he-zhan-shi/",
   },
   {
@@ -18162,7 +18151,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 247,
     entry: "GF.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-jian-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%88%B0%E9%98%9F.zip",
     page: "/dos-games/yin-he-jian-dui/",
   },
   {
@@ -18173,7 +18162,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/yin-he-ying-xiong/",
   },
   {
@@ -18184,7 +18173,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 162,
     entry: "GIN3.COM",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong-zhuan-shuo-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43.zip",
     page: "/dos-games/yin-he-ying-xiong-zhuan-shuo-3/",
   },
   {
@@ -18195,7 +18184,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 162,
     entry: "GIN3.COM",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong-zhuan-shuo-iii-sp.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43SP.zip",
     page: "/dos-games/yin-he-ying-xiong-zhuan-shuo-iii-sp/",
   },
   {
@@ -18206,7 +18195,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "SYNUPS.COM",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong-zhuan-shuo-4ex.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B44EX.zip",
     page: "/dos-games/yin-he-ying-xiong-zhuan-shuo-4ex/",
   },
   {
@@ -18217,7 +18206,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 55,
     entry: "ORION.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ba-zhu-lie-hu-zuo-zhi-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB%28%E7%8C%8E%E6%88%B7%E5%BA%A7%E4%B9%8B%E7%8E%8B%29.zip",
     page: "/dos-games/yin-he-ba-zhu-lie-hu-zuo-zhi-wang/",
   },
   {
@@ -18228,7 +18217,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 427,
     entry: "Orion2.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ba-zhu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB2.zip",
     page: "/dos-games/yin-he-ba-zhu-2/",
   },
   {
@@ -18239,7 +18228,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "RLEGION.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-feng-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%8E%E6%9A%B4.zip",
     page: "/dos-games/yin-he-feng-bao/",
   },
   {
@@ -18250,7 +18239,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 91,
     entry: "WC.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%861.zip",
     page: "/dos-games/yin-he-fei-jiang-1/",
   },
   {
@@ -18261,7 +18250,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 350,
     entry: "WC2.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%862.zip",
     page: "/dos-games/yin-he-fei-jiang-2/",
   },
   {
@@ -18272,7 +18261,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 27,
     entry: "prso.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-xian-feng-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E5%85%88%E9%94%8B%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/yin-he-fei-jiang-xian-feng-zi-liao-pian/",
   },
   {
@@ -18283,7 +18272,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 115,
     entry: "wca.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-xun-lian-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E8%AE%AD%E7%BB%83%E8%90%A5.zip",
     page: "/dos-games/yin-he-fei-jiang-xun-lian-ying/",
   },
   {
@@ -18294,7 +18283,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "ARMADA.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-a-man-da.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E9%98%BF%E6%9B%BC%E8%BE%BE.zip",
     page: "/dos-games/yin-he-fei-jiang-a-man-da/",
   },
   {
@@ -18305,7 +18294,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 49,
     entry: "silver.exe",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-se-dan-qiu-95.zip",
+    url: "https://dos-bin.zczc.cz/%E9%93%B6%E8%89%B2%E5%BC%B9%E7%90%8395.zip",
     page: "/dos-games/yin-se-dan-qiu-95/",
   },
   {
@@ -18316,7 +18305,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "BIG2.BAT",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chu-da-di-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%94%84%E5%A4%A7%E5%9C%B02.zip",
     page: "/dos-games/chu-da-di-2/",
   },
   {
@@ -18327,7 +18316,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "PLAY.BAT",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhen-bao-te-qian-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E9%95%87%E6%9A%B4%E7%89%B9%E9%81%A3%E9%98%9F.zip",
     page: "/dos-games/zhen-bao-te-qian-dui/",
   },
   {
@@ -18338,7 +18327,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 149,
     entry: "TANK1.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-she-tan-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E9%95%AD%E5%B0%84%E5%9D%A6%E5%85%8B.zip",
     page: "/dos-games/lei-she-tan-ke/",
   },
   {
@@ -18349,7 +18338,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "SCIDHUV.EXE",
     tag: "z",
-    url: "https://github.com/whereq/dos-games/releases/download/z/zhang-gong-chuan-shuo-luo-bin-han.zip",
+    url: "https://dos-bin.zczc.cz/%E9%95%BF%E5%BC%93%E4%BC%A0%E8%AF%B4%EF%BC%8D%E7%BD%97%E5%AE%BE%E6%B1%89.zip",
     page: "/dos-games/zhang-gong-chuan-shuo-luo-bin-han/",
   },
   {
@@ -18360,7 +18349,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "START.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chang-qiang-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%95%BF%E6%9E%AA%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/chang-qiang-ying-xiong/",
   },
   {
@@ -18371,7 +18360,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 115,
     entry: "play.bat",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/men-wai-shi-jie-san-bu-qu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%97%A8%E5%A4%96%E4%B8%96%E7%95%8C%E4%B8%89%E9%83%A8%E6%9B%B2.zip",
     page: "/dos-games/men-wai-shi-jie-san-bu-qu/",
   },
   {
@@ -18382,7 +18371,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 241,
     entry: "PLAY.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shan-hui-zhui-xun-ji-yi-zhi-lv.zip",
+    url: "https://dos-bin.zczc.cz/%E9%97%AA%E5%9B%9E-%E8%BF%BD%E5%AF%BB%E8%AE%B0%E5%BF%86%E4%B9%8B%E6%97%85.zip",
     page: "/dos-games/shan-hui-zhui-xun-ji-yi-zhi-lv/",
   },
   {
@@ -18393,7 +18382,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 94,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/men-jue-xing-ji-wang-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%97%B7%E7%BB%9D%E6%80%A7%E6%8A%80%E7%8E%8B%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/men-jue-xing-ji-wang-chuan-shuo/",
   },
   {
@@ -18404,7 +18393,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 103,
     entry: "KGB.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yin-mou-lun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%B4%E8%B0%8B%E8%AE%BA.zip",
     page: "/dos-games/yin-mou-lun/",
   },
   {
@@ -18415,7 +18404,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 70,
     entry: "BLADE.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-ming-yun-zhi-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E5%91%BD%E8%BF%90%E4%B9%8B%E5%88%83.zip",
     page: "/dos-games/a-ka-ni-ya-zhi-di-ming-yun-zhi-ren/",
   },
   {
@@ -18426,7 +18415,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "star.exe",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-xing-hen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E6%98%9F%E7%97%95.zip",
     page: "/dos-games/a-ka-ni-ya-zhi-di-xing-hen/",
   },
   {
@@ -18437,7 +18426,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 150,
     entry: "RIVA.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-li-wa-yin-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E8%8E%89%E5%A8%83%E9%98%B4%E5%BD%B1.zip",
     page: "/dos-games/a-ka-ni-ya-zhi-di-li-wa-yin-ying/",
   },
   {
@@ -18448,7 +18437,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 84,
     entry: "alcatraz.exe",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-te-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E7%89%B9%E5%85%B9.zip",
     page: "/dos-games/a-ka-te-zi/",
   },
   {
@@ -18459,7 +18448,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 222,
     entry: "ALBILOW.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-er-bi-en.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%B0%94%E6%AF%94%E6%81%A9.zip",
     page: "/dos-games/a-er-bi-en/",
   },
   {
@@ -18470,7 +18459,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 294,
     entry: "GENIE.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-la-ding-2-deng-shen-zu-zhou.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%812%E7%81%AF%E7%A5%9E%E8%AF%85%E5%92%92.zip",
     page: "/dos-games/a-la-ding-2-deng-shen-zu-zhou/",
   },
   {
@@ -18481,7 +18470,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 303,
     entry: "ALADDIN.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-la-ding-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%81%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/a-la-ding-chuan-qi/",
   },
   {
@@ -18492,7 +18481,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 110,
     entry: "AMYA.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-man-ni-kai-guo-qi-shi-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E5%BC%80%E5%9B%BD%E5%90%AF%E7%A4%BA%E5%BD%95.zip",
     page: "/dos-games/a-man-ni-kai-guo-qi-shi-lu/",
   },
   {
@@ -18503,7 +18492,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "PLAY.BAT",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-man-ni-si-chuan-shuo-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E6%96%AF%E4%BC%A0%E8%AF%B43.zip",
     page: "/dos-games/a-man-ni-si-chuan-shuo-3/",
   },
   {
@@ -18514,7 +18503,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 22,
     entry: "2525DE.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-man-da-2525.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E8%BE%BE2525.zip",
     page: "/dos-games/a-man-da-2525/",
   },
   {
@@ -18525,7 +18514,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 237,
     entry: "MAPZ.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-mao-a-gou.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E7%8C%AB%E9%98%BF%E7%8B%97.zip",
     page: "/dos-games/a-mao-a-gou/",
   },
   {
@@ -18536,7 +18525,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 267,
     entry: "AVALON.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-wa-long.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E7%93%A6%E9%9A%86.zip",
     page: "/dos-games/a-wa-long/",
   },
   {
@@ -18547,7 +18536,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 223,
     entry: "ALESHAR.EXE",
     tag: "a",
-    url: "https://github.com/whereq/dos-games/releases/download/a/a-lei-sha-bing-feng-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E9%98%BF%E8%95%BE%E8%8E%8E%E5%86%B0%E5%B0%81%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/a-lei-sha-bing-feng-shi-jie/",
   },
   {
@@ -18558,7 +18547,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "START.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/jiang-mo-yong-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%99%8D%E9%AD%94%E5%8B%87%E5%A3%AB.zip",
     page: "/dos-games/jiang-mo-yong-shi/",
   },
   {
@@ -18569,7 +18558,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "METEOR.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yun-xing-ren-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%99%A8%E6%98%9F%E4%BB%BB%E5%8A%A1.zip",
     page: "/dos-games/yun-xing-ren-wu/",
   },
   {
@@ -18580,7 +18569,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 86,
     entry: "ASTRO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yun-shi-she-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%99%A8%E7%9F%B3%E5%B0%84%E5%87%BB.zip",
     page: "/dos-games/yun-shi-she-ji/",
   },
   {
@@ -18591,7 +18580,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "FRAMED.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xian-hai-zhi-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E9%99%B7%E5%AE%B3%E4%B9%8B%E4%BA%BA.zip",
     page: "/dos-games/xian-hai-zhi-ren/",
   },
   {
@@ -18602,7 +18591,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 50,
     entry: "TMARK.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sui-tang-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9A%8B%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/sui-tang-ying-xiong-zhuan/",
   },
   {
@@ -18613,7 +18602,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 542,
     entry: "Q.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-li-qu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA1.zip",
     page: "/dos-games/ge-li-qu-1/",
   },
   {
@@ -18624,7 +18613,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1591,
     entry: "RW.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-li-qu-2-ma-lu-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA2%E9%A9%AC%E8%B7%AF%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/ge-li-qu-2-ma-lu-ying-xiong/",
   },
   {
@@ -18635,7 +18624,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "TOMJ.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/que-zhi-ta.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%80%E4%B9%8B%E5%A1%94.zip",
     page: "/dos-games/que-zhi-ta/",
   },
   {
@@ -18646,7 +18635,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 318,
     entry: "hg.bat",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gu-yong-zhi-qiang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%87%E4%BD%A3%E4%B9%8B%E6%9E%AA.zip",
     page: "/dos-games/gu-yong-zhi-qiang/",
   },
   {
@@ -18657,7 +18646,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "HUGO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C.zip",
     page: "/dos-games/yu-guo/",
   },
   {
@@ -18668,7 +18657,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 107,
     entry: "HHH.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-guo-de-kong-bu-zhi-wu-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B1.zip",
     page: "/dos-games/yu-guo-de-kong-bu-zhi-wu-1/",
   },
   {
@@ -18679,7 +18668,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 10,
     entry: "HUGO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-guo-de-kong-bu-zhi-wu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B2.zip",
     page: "/dos-games/yu-guo-de-kong-bu-zhi-wu-2/",
   },
   {
@@ -18690,7 +18679,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "HUGO.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-guo-de-kong-bu-zhi-wu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B3.zip",
     page: "/dos-games/yu-guo-de-kong-bu-zhi-wu-3/",
   },
   {
@@ -18701,7 +18690,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "STRIKE.EXE",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-zhong-chu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%AA%E4%B8%AD%E5%87%BA%E5%87%BB.zip",
     page: "/dos-games/xue-zhong-chu-ji/",
   },
   {
@@ -18712,7 +18701,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 460,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xue-mao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%AA%E7%8C%AB.zip",
     page: "/dos-games/xue-mao/",
   },
   {
@@ -18723,7 +18712,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 72,
     entry: "NEBULAR.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-ke-si.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E5%85%8B%E6%96%AF.zip",
     page: "/dos-games/lei-ke-si/",
   },
   {
@@ -18734,7 +18723,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "TS.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-ji-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E5%87%BB%E6%88%98%E6%9C%BA.zip",
     page: "/dos-games/lei-ji-zhan-ji/",
   },
   {
@@ -18745,7 +18734,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "TH2.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-ji-zhan-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E5%87%BB%E6%88%98%E6%9C%BA2.zip",
     page: "/dos-games/lei-ji-zhan-ji-2/",
   },
   {
@@ -18756,7 +18745,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 533,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-jing-ai-deng-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E6%99%AF%EF%BC%9A%E8%89%BE%E7%99%BB%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/lei-jing-ai-deng-shi-jie/",
   },
   {
@@ -18767,7 +18756,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "RAIDEN.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-dian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5.zip",
     page: "/dos-games/lei-dian/",
   },
   {
@@ -18778,7 +18767,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 316,
     entry: "QUIK.COM",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-dian-tu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5%E5%85%94.zip",
     page: "/dos-games/lei-dian-tu/",
   },
   {
@@ -18789,7 +18778,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "GOT.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E.zip",
     page: "/dos-games/lei-shen/",
   },
   {
@@ -18800,7 +18789,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "quake.exe",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-shen-zhi-chui.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%94%A4.zip",
     page: "/dos-games/lei-shen-zhi-chui/",
   },
   {
@@ -18811,7 +18800,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-mi-tu-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%B1%B3%E5%85%94%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/lei-mi-tu-chuan-qi/",
   },
   {
@@ -18822,7 +18811,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 244,
     entry: "XANADU.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-nuo-ni-dou-ji-shi-mi-cheng-de-guo-du.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E8%AF%BA%E5%B0%BC%E9%83%BD%E7%BA%AA%E4%BA%8B%28%E8%BF%B7%E5%9F%8E%E7%9A%84%E5%9B%BD%E5%BA%A6%29.zip",
     page: "/dos-games/lei-nuo-ni-dou-ji-shi-mi-cheng-de-guo-du/",
   },
   {
@@ -18833,7 +18822,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 114,
     entry: "GAME.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lei-niao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9B%B7%E9%B8%9F.zip",
     page: "/dos-games/lei-niao/",
   },
   {
@@ -18844,7 +18833,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pi-li-jiao-wa.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9C%B9%E9%9B%B3%E5%A8%87%E5%A8%83.zip",
     page: "/dos-games/pi-li-jiao-wa/",
   },
   {
@@ -18855,7 +18844,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 712,
     entry: "PLAY.BAT",
     tag: "p",
-    url: "https://github.com/whereq/dos-games/releases/download/p/pi-li-you-ling-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9C%B9%E9%9B%B3%E5%B9%BD%E7%81%B5%E5%89%91.zip",
     page: "/dos-games/pi-li-you-ling-jian/",
   },
   {
@@ -18866,7 +18855,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 403,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qing-shao-bang-yang-wei-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9D%92%E5%B0%91%E6%A3%92%E6%89%AC%E5%A8%81%E8%AE%B0.zip",
     page: "/dos-games/qing-shao-bang-yang-wei-ji/",
   },
   {
@@ -18877,7 +18866,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 2,
     entry: "marry",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qing-se-de-guo-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9D%92%E6%B6%A9%E7%9A%84%E6%9E%9C%E5%AE%9E.zip",
     page: "/dos-games/qing-se-de-guo-shi/",
   },
   {
@@ -18888,7 +18877,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 38,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-zhou-tan-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9D%9E%E6%B4%B2%E6%8E%A2%E9%99%A9.zip",
     page: "/dos-games/fei-zhou-tan-xian/",
   },
   {
@@ -18899,7 +18888,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-zhou-tan-xian-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9D%9E%E6%B4%B2%E6%8E%A2%E9%99%A92.zip",
     page: "/dos-games/fei-zhou-tan-xian-2/",
   },
   {
@@ -18910,7 +18899,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 48,
     entry: "GAME.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/ge-ming-li-liang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9D%A9%E5%91%BD%E5%8A%9B%E9%87%8F.zip",
     page: "/dos-games/ge-ming-li-liang/",
   },
   {
@@ -18921,7 +18910,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "LOADER.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wei-en-de-yu-yan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%9F%A6%E6%81%A9%E7%9A%84%E9%A2%84%E8%A8%80.zip",
     page: "/dos-games/wei-en-de-yu-yan/",
   },
   {
@@ -18932,7 +18921,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 54,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiang-liu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A1%B9%E5%88%98%E8%AE%B0.zip",
     page: "/dos-games/xiang-liu-ji/",
   },
   {
@@ -18943,7 +18932,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "CLOCK.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shun-shi-zhen-mi-ti.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A1%BA%E6%97%B6%E9%92%88%E8%B0%9C%E9%A2%98.zip",
     page: "/dos-games/shun-shi-zhen-mi-ti/",
   },
   {
@@ -18954,7 +18943,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 23,
     entry: "GO.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wan-pi-xiao-jing-ling.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A1%BD%E7%9A%AE%E5%B0%8F%E7%B2%BE%E7%81%B5.zip",
     page: "/dos-games/wan-pi-xiao-jing-ling/",
   },
   {
@@ -18965,7 +18954,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 26,
     entry: "GO.BAT",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wan-pi-xiao-jing-ling-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A1%BD%E7%9A%AE%E5%B0%8F%E7%B2%BE%E7%81%B52.zip",
     page: "/dos-games/wan-pi-xiao-jing-ling-2/",
   },
   {
@@ -18976,7 +18965,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "GOB3.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wan-pi-xiao-jing-ling-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A1%BD%E7%9A%AE%E5%B0%8F%E7%B2%BE%E7%81%B53.zip",
     page: "/dos-games/wan-pi-xiao-jing-ling-3/",
   },
   {
@@ -18987,7 +18976,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1,
     entry: "CAT.EXE",
     tag: "w",
-    url: "https://github.com/whereq/dos-games/releases/download/w/wan-pi-mao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A1%BD%E7%9A%AE%E7%8C%AB.zip",
     page: "/dos-games/wan-pi-mao/",
   },
   {
@@ -18998,7 +18987,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "go.bat",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-yan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80.zip",
     page: "/dos-games/yu-yan-2/",
   },
   {
@@ -19009,7 +18998,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "VC.EXE",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/yu-yan-wei-jin-zhi-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80%E7%BB%B4%E9%87%91%E4%B9%8B%E5%AD%90.zip",
     page: "/dos-games/yu-yan-wei-jin-zhi-zi/",
   },
   {
@@ -19020,7 +19009,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "GAME.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-yun-tian-xia-san-guo-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E4%BA%91%E5%A4%A9%E4%B8%8B%E4%B8%89%E5%9B%BD%E7%AF%87.zip",
     page: "/dos-games/feng-yun-tian-xia-san-guo-pian/",
   },
   {
@@ -19031,7 +19020,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "PM.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-yun-ba-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E4%BA%91%E9%9C%B8%E4%B8%BB.zip",
     page: "/dos-games/feng-yun-ba-zhu/",
   },
   {
@@ -19042,7 +19031,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 189,
     entry: "FS.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-chen-san-xia-zhi-jin-jian-shi-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E5%B0%98%E4%B8%89%E4%BE%A0%E4%B9%8B%E9%87%91%E5%89%91%E4%BD%BF%E8%80%85.zip",
     page: "/dos-games/feng-chen-san-xia-zhi-jin-jian-shi-zhe/",
   },
   {
@@ -19053,7 +19042,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "EOS.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-bao-zhi-yan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E4%B9%8B%E7%9C%BC.zip",
     page: "/dos-games/feng-bao-zhi-yan/",
   },
   {
@@ -19064,7 +19053,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 46,
     entry: "STORM.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-bao-ling-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E9%A2%86%E4%B8%BB.zip",
     page: "/dos-games/feng-bao-ling-zhu/",
   },
   {
@@ -19075,7 +19064,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "STORMLRD.COM",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-shen-chuan-cheng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E7%A5%9E%E4%BC%A0%E6%89%BF.zip",
     page: "/dos-games/feng-shen-chuan-cheng/",
   },
   {
@@ -19086,7 +19075,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "WIND.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-xing-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E8%A1%8C%E8%80%85.zip",
     page: "/dos-games/feng-xing-zhe/",
   },
   {
@@ -19097,7 +19086,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 76,
     entry: "WILLOWS.COM",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-yu-he-an-liu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E8%AF%AD%E6%B2%B3%E5%B2%B8%E6%9F%B3.zip",
     page: "/dos-games/feng-yu-he-an-liu/",
   },
   {
@@ -19108,7 +19097,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 126,
     entry: "GPC.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-su-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%80%9F%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/feng-su-xiao-zi/",
   },
   {
@@ -19119,7 +19108,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 305,
     entry: "GAME.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-xue-jiang-shan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%9B%AA%E6%B1%9F%E5%B1%B1.zip",
     page: "/dos-games/feng-xue-jiang-shan/",
   },
   {
@@ -19130,7 +19119,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "ADLIB.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/feng-chi-dian-che.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%A9%B0%E7%94%B5%E6%8E%A3.zip",
     page: "/dos-games/feng-chi-dian-che/",
   },
   {
@@ -19141,7 +19130,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 245,
     entry: "CYCLONES.EXE",
     tag: "j",
-    url: "https://github.com/whereq/dos-games/releases/download/j/ju-feng-ji-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%93%E9%A3%8E%E6%9C%BA%E7%94%B2.zip",
     page: "/dos-games/ju-feng-ji-jia/",
   },
   {
@@ -19152,7 +19141,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "PLAY.BAT",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/biao-che-xiao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9A%E8%BD%A6%E5%B0%8F%E5%AD%90.zip",
     page: "/dos-games/biao-che-xiao-zi/",
   },
   {
@@ -19163,7 +19152,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "AA.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-lang-tu-ji-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%8B%BC%E7%AA%81%E5%87%BB%E9%98%9F.zip",
     page: "/dos-games/fei-lang-tu-ji-dui/",
   },
   {
@@ -19174,7 +19163,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 28,
     entry: "UFO.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-die-ren-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%A2%9F%E4%BB%BB%E5%8A%A1.zip",
     page: "/dos-games/fei-die-ren-wu/",
   },
   {
@@ -19185,7 +19174,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 372,
     entry: "ZEPPELIN.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-kong-ting.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%A9%BA%E8%89%87.zip",
     page: "/dos-games/fei-kong-ting/",
   },
   {
@@ -19196,7 +19185,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 107,
     entry: "TGR.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-hu-dui.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F.zip",
     page: "/dos-games/fei-hu-dui/",
   },
   {
@@ -19207,7 +19196,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 113,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-hu-dui-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F2.zip",
     page: "/dos-games/fei-hu-dui-2/",
   },
   {
@@ -19218,7 +19207,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 70,
     entry: "COUNT.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-yue-feng-ren-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%B7%83%E7%96%AF%E4%BA%BA%E9%99%A2.zip",
     page: "/dos-games/fei-yue-feng-ren-yuan/",
   },
   {
@@ -19229,7 +19218,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "AUTODUEL.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-lun-yong-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%BD%AE%E5%8B%87%E5%A3%AB.zip",
     page: "/dos-games/fei-lun-yong-shi/",
   },
   {
@@ -19240,7 +19229,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 193,
     entry: "ABC.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-ying-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%B9%B0%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/fei-ying-qi-shi/",
   },
   {
@@ -19251,7 +19240,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 90,
     entry: "PLAY.BAT",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-long-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/fei-long-chuan-qi/",
   },
   {
@@ -19262,7 +19251,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 89,
     entry: "DSTRIKE.EXE",
     tag: "f",
-    url: "https://github.com/whereq/dos-games/releases/download/f/fei-long-qi-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E9%AA%91%E5%A3%AB.zip",
     page: "/dos-games/fei-long-qi-shi/",
   },
   {
@@ -19273,7 +19262,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 566,
     entry: "a4.bat",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shou-xi-zhi-xing-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A6%96%E5%B8%AD%E6%89%A7%E8%A1%8C%E5%AE%98.zip",
     page: "/dos-games/shou-xi-zhi-xing-guan/",
   },
   {
@@ -19284,7 +19273,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 280,
     entry: "AA.BAT",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/shou-shi-he-kui-jia.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A6%96%E9%A5%B0%E5%92%8C%E7%9B%94%E7%94%B2.zip",
     page: "/dos-games/shou-shi-he-kui-jia/",
   },
   {
@@ -19295,7 +19284,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 53,
     entry: "PLAY.BAT",
     tag: "x",
-    url: "https://github.com/whereq/dos-games/releases/download/x/xiang-jiao-ju-le-bu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A6%99%E8%95%89%E4%BF%B1%E4%B9%90%E9%83%A8.zip",
     page: "/dos-games/xiang-jiao-ju-le-bu/",
   },
   {
@@ -19306,7 +19295,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 44,
     entry: "HORSE.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-chang-da-heng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A9%AC%E5%9C%BA%E5%A4%A7%E4%BA%A8.zip",
     page: "/dos-games/ma-chang-da-heng/",
   },
   {
@@ -19317,7 +19306,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 184,
     entry: "START.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-bo-de-liao-li.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A9%AC%E7%8E%BB%E7%9A%84%E6%96%99%E7%90%86.zip",
     page: "/dos-games/ma-bo-de-liao-li/",
   },
   {
@@ -19328,7 +19317,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 17,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-bu-jian-le.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E4%B8%8D%E8%A7%81%E4%BA%86.zip",
     page: "/dos-games/ma-li-ao-bu-jian-le/",
   },
   {
@@ -19339,7 +19328,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 173,
     entry: "MARIO.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-jiao-ni-da-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%95%99%E4%BD%A0%E6%89%93%E5%AD%97.zip",
     page: "/dos-games/ma-li-ao-jiao-ni-da-zi/",
   },
   {
@@ -19350,7 +19339,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 24,
     entry: "mario.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-you-xi-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B8%B8%E6%88%8F%E5%B1%95.zip",
     page: "/dos-games/ma-li-ao-you-xi-zhan/",
   },
   {
@@ -19361,7 +19350,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 163,
     entry: "LOAD.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ang-de-sai-che-tiao-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E6%98%82%E7%9A%84%E8%B5%9B%E8%BD%A6%E6%8C%91%E6%88%98.zip",
     page: "/dos-games/ma-li-ang-de-sai-che-tiao-zhan/",
   },
   {
@@ -19372,7 +19361,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "OBELIX.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-lu-ying-xiong-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E5%8D%A2%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
     page: "/dos-games/gao-lu-ying-xiong-zhuan/",
   },
   {
@@ -19383,7 +19372,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "LINKS.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-er-fu-xun-lian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E5%B0%94%E5%A4%AB%E8%AE%AD%E7%BB%83.zip",
     page: "/dos-games/gao-er-fu-xun-lian/",
   },
   {
@@ -19394,7 +19383,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "GOLF.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-er-fu-xun-lian-386.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E5%B0%94%E5%A4%AB%E8%AE%AD%E7%BB%83386.zip",
     page: "/dos-games/gao-er-fu-xun-lian-386/",
   },
   {
@@ -19405,7 +19394,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 148,
     entry: "MAIN.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-bao-chou-zhan-jiang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E6%8A%A5%E9%85%AC%E6%88%98%E5%B0%86.zip",
     page: "/dos-games/gao-bao-chou-zhan-jiang/",
   },
   {
@@ -19416,7 +19405,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 105,
     entry: "G_MAP.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-xiao-mo-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E6%A0%A1%E9%AD%94%E5%BD%B1.zip",
     page: "/dos-games/gao-xiao-mo-ying/",
   },
   {
@@ -19427,7 +19416,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "AC_MAIN.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-ji-wen-ming.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E6%96%87%E6%98%8E.zip",
     page: "/dos-games/gao-ji-wen-ming/",
   },
   {
@@ -19438,7 +19427,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "GO.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-ji-yin-he-di-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD.zip",
     page: "/dos-games/gao-ji-yin-he-di-guo/",
   },
   {
@@ -19449,7 +19438,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "START.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gao-su-lie-ren.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AB%98%E9%80%9F%E7%8C%8E%E4%BA%BA.zip",
     page: "/dos-games/gao-su-lie-ren/",
   },
   {
@@ -19460,7 +19449,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "BONES.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-wen-zi-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/gui-wu-wen-zi-mao-xian/",
   },
   {
@@ -19471,7 +19460,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 51,
     entry: "TATOU.COM",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1.zip",
     page: "/dos-games/gui-wu-mo-ying/",
   },
   {
@@ -19482,7 +19471,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 114,
     entry: "AITD2.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B12.zip",
     page: "/dos-games/gui-wu-mo-ying-2/",
   },
   {
@@ -19493,7 +19482,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 212,
     entry: "AITD3.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B13.zip",
     page: "/dos-games/gui-wu-mo-ying-3/",
   },
   {
@@ -19504,7 +19493,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 42,
     entry: "JACK.BAT",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying-wan-sheng-jie-te-bie-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1%E4%B8%87%E5%9C%A3%E8%8A%82%E7%89%B9%E5%88%AB%E7%AF%87.zip",
     page: "/dos-games/gui-wu-mo-ying-wan-sheng-jie-te-bie-pian/",
   },
   {
@@ -19515,7 +19504,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 82,
     entry: "MONK.EXE",
     tag: "g",
-    url: "https://github.com/whereq/dos-games/releases/download/g/gui-ma-xiao-ying-xiong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AC%BC%E9%A9%AC%E5%B0%8F%E8%8B%B1%E9%9B%84.zip",
     page: "/dos-games/gui-ma-xiao-ying-xiong/",
   },
   {
@@ -19526,7 +19515,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "GO.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mei-li-you-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%85%E5%8A%9B%E6%B8%B8%E6%88%8F.zip",
     page: "/dos-games/mei-li-you-xi/",
   },
   {
@@ -19537,7 +19526,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "WAR.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-zheng-ba-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B81.zip",
     page: "/dos-games/mo-shou-zheng-ba-1/",
   },
   {
@@ -19548,7 +19537,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 73,
     entry: "War.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-zheng-ba-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B82.zip",
     page: "/dos-games/mo-shou-zheng-ba-2/",
   },
   {
@@ -19559,7 +19548,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 80,
     entry: "WAR2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-zheng-ba-2-zhong-wen-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B82%E4%B8%AD%E6%96%87%E7%89%88.zip",
     page: "/dos-games/mo-shou-zheng-ba-2-zhong-wen-ban/",
   },
   {
@@ -19570,7 +19559,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 125,
     entry: "war2.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-zheng-ba-2-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B82%E8%B5%84%E6%96%99%E7%AF%87.zip",
     page: "/dos-games/mo-shou-zheng-ba-2-zi-liao-pian/",
   },
   {
@@ -19581,7 +19570,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 32,
     entry: "NEWSLG.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-da-zhan-lve.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E5%A4%A7%E6%88%98%E7%95%A5.zip",
     page: "/dos-games/mo-shou-da-zhan-lve/",
   },
   {
@@ -19592,7 +19581,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 9,
     entry: "BTHORNE.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-dong-wang-zi-hei-se-jing-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%8A%A8%E7%8E%8B%E5%AD%90%EF%BC%8F%E9%BB%91%E8%89%B2%E8%8D%86%E6%A3%98.zip",
     page: "/dos-games/mo-dong-wang-zi-hei-se-jing-ji/",
   },
   {
@@ -19603,7 +19592,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 120,
     entry: "SINSTALL.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-chuan-qi-shi-te-ka-de-cai-bao-1-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E5%8F%B2%E7%89%B9%E5%8D%A1%E7%9A%84%E8%B4%A2%E5%AE%9D1.2.zip",
     page: "/dos-games/mo-yu-chuan-qi-shi-te-ka-de-cai-bao-1-2/",
   },
   {
@@ -19614,7 +19603,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "PROPHET.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E7%9F%B3%E4%B9%8B%E9%A2%84%E8%A8%80%E8%80%851.1.zip",
     page: "/dos-games/mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1/",
   },
   {
@@ -19625,7 +19614,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 95,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-chuan-shuo-bo-si-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E8%AF%B44%E6%B3%A2%E6%96%AF%E6%88%98%E8%AE%B0.zip",
     page: "/dos-games/mo-yu-chuan-shuo-bo-si-zhan-ji/",
   },
   {
@@ -19636,7 +19625,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 254,
     entry: "ECSTATIC.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-mi-zong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E8%BF%B7%E8%B8%AA.zip",
     page: "/dos-games/mo-yu-mi-zong/",
   },
   {
@@ -19647,7 +19636,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 331,
     entry: "E2DOS.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-mi-zong-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E8%BF%B7%E8%B8%AA2.zip",
     page: "/dos-games/mo-yu-mi-zong-2/",
   },
   {
@@ -19658,7 +19647,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "RASTAN.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-jing-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%A2%83%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/mo-jing-chuan-shuo/",
   },
   {
@@ -19669,7 +19658,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 47,
     entry: "PLAY.COM",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-gong-jiu-mei-bao-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%AE%AB%E6%95%91%E7%BE%8E%E5%AE%9D%E7%9F%B3.zip",
     page: "/dos-games/mo-gong-jiu-mei-bao-shi/",
   },
   {
@@ -19680,7 +19669,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 81,
     entry: "MONEY.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-dao-da-fu-weng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B2%9B%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
     page: "/dos-games/mo-dao-da-fu-weng/",
   },
   {
@@ -19691,7 +19680,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1174,
     entry: "FG.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-huan-jiang-jun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B9%BB%E5%B0%86%E5%86%9B.zip",
     page: "/dos-games/mo-huan-jiang-jun/",
   },
   {
@@ -19702,7 +19691,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 447,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-huan-ba-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B9%BB%E9%9C%B8%E4%B8%BB.zip",
     page: "/dos-games/mo-huan-ba-zhu/",
   },
   {
@@ -19713,7 +19702,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 175,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yi-ru-qin.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%BC%82%E5%85%A5%E4%BE%B5.zip",
     page: "/dos-games/mo-yi-ru-qin/",
   },
   {
@@ -19724,7 +19713,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 459,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%97%A5%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/mo-ri-chuan-shuo/",
   },
   {
@@ -19735,7 +19724,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "VXROCK.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shu-cai-qiu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%9C%AF%E5%BD%A9%E7%90%83.zip",
     page: "/dos-games/mo-shu-cai-qiu/",
   },
   {
@@ -19746,7 +19735,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 4,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shu-fang-kuai.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%9C%AF%E6%96%B9%E5%9D%97.zip",
     page: "/dos-games/mo-shu-fang-kuai/",
   },
   {
@@ -19757,7 +19746,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 330,
     entry: "PLAY.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%A0%88.zip",
     page: "/dos-games/mo-zhan/",
   },
   {
@@ -19768,7 +19757,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 39,
     entry: "DKS.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-wu-wang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%AD%A6%E7%8E%8B.zip",
     page: "/dos-games/mo-wu-wang/",
   },
   {
@@ -19779,7 +19768,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 415,
     entry: "MAG1.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B8%96%E7%BA%AA.zip",
     page: "/dos-games/mo-fa-shi-ji/",
   },
   {
@@ -19790,7 +19779,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 65,
     entry: "MG2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B8%96%E7%BA%AA2.zip",
     page: "/dos-games/mo-fa-shi-ji-2/",
   },
   {
@@ -19801,7 +19790,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 256,
     entry: "mirror.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-zhi-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B9%8B%E9%95%9C.zip",
     page: "/dos-games/mo-fa-zhi-jing/",
   },
   {
@@ -19812,7 +19801,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 669,
     entry: "amb.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fu-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%BC%8F%E5%87%BB.zip",
     page: "/dos-games/mo-fa-fu-ji/",
   },
   {
@@ -19823,7 +19812,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 95,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-gong-zhu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%85%AC%E4%B8%BB.zip",
     page: "/dos-games/mo-fa-gong-zhu/",
   },
   {
@@ -19834,7 +19823,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 95,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-gong-zhu-da-mao-xian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%85%AC%E4%B8%BB%E5%A4%A7%E5%86%92%E9%99%A9.zip",
     page: "/dos-games/mo-fa-gong-zhu-da-mao-xian/",
   },
   {
@@ -19845,7 +19834,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "WARLOCKD.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-jun-tuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%86%9B%E5%9B%A2.zip",
     page: "/dos-games/mo-fa-jun-tuan/",
   },
   {
@@ -19856,7 +19845,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 122,
     entry: "MAGIC.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-da-di.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A7%E5%B8%9D.zip",
     page: "/dos-games/mo-fa-da-di/",
   },
   {
@@ -19867,7 +19856,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 123,
     entry: "WIZARDS.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-tian-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A9%E5%B8%88.zip",
     page: "/dos-games/mo-fa-tian-shi/",
   },
   {
@@ -19878,7 +19867,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shao-nian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B0%91%E5%B9%B4.zip",
     page: "/dos-games/mo-fa-shao-nian/",
   },
   {
@@ -19889,7 +19878,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 440,
     entry: "SIMON.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-xi-meng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B8%88%E8%A5%BF%E8%92%99.zip",
     page: "/dos-games/mo-fa-shi-xi-meng/",
   },
   {
@@ -19900,7 +19889,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 25,
     entry: "KOEI.COM",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-huang-guan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E7%9A%87%E5%86%A0.zip",
     page: "/dos-games/mo-fa-huang-guan/",
   },
   {
@@ -19911,7 +19900,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "INTRO.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-dai.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E8%A2%8B.zip",
     page: "/dos-games/mo-fa-dai/",
   },
   {
@@ -19922,7 +19911,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 8,
     entry: "run.bat",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-lian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E8%AF%95%E7%82%BC.zip",
     page: "/dos-games/mo-fa-shi-lian/",
   },
   {
@@ -19933,7 +19922,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 74,
     entry: "MM.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8.zip",
     page: "/dos-games/mo-fa-men/",
   },
   {
@@ -19944,7 +19933,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "play.bat",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A82.zip",
     page: "/dos-games/mo-fa-men-2/",
   },
   {
@@ -19955,7 +19944,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-3-huan-dao-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A83%E5%B9%BB%E5%B2%9B%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/mo-fa-men-3-huan-dao-li-xian-ji/",
   },
   {
@@ -19966,7 +19955,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "MM3.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-3-ying-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A83%E8%8B%B1%E7%89%88.zip",
     page: "/dos-games/mo-fa-men-3-ying-ban/",
   },
   {
@@ -19977,7 +19966,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "XEEN.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-4-5-ying-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%2B5%E8%8B%B1%E7%89%88.zip",
     page: "/dos-games/mo-fa-men-4-5-ying-ban/",
   },
   {
@@ -19988,7 +19977,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "XEEN.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-4-xing-yun-zhi-mi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%E6%98%9F%E4%BA%91%E4%B9%8B%E8%B0%9C.zip",
     page: "/dos-games/mo-fa-men-4-xing-yun-zhi-mi/",
   },
   {
@@ -19999,7 +19988,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 12,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-5-hei-an-mo-jun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A85%E9%BB%91%E6%9A%97%E9%AD%94%E5%90%9B.zip",
     page: "/dos-games/mo-fa-men-5-hei-an-mo-jun/",
   },
   {
@@ -20010,7 +19999,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 6,
     entry: "swords.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-xing-yun-zhi-jian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E6%98%9F%E4%BA%91%E4%B9%8B%E5%89%91.zip",
     page: "/dos-games/mo-fa-men-xing-yun-zhi-jian/",
   },
   {
@@ -20021,7 +20010,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 66,
     entry: "HEROES.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C.zip",
     page: "/dos-games/mo-fa-men-ying-xiong-wu-di/",
   },
   {
@@ -20032,7 +20021,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 208,
     entry: "HEROES2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C2.zip",
     page: "/dos-games/mo-fa-men-ying-xiong-wu-di-2/",
   },
   {
@@ -20043,7 +20032,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 216,
     entry: "HEROES2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di-2-zhong-wen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C2%E4%B8%AD%E6%96%87.zip",
     page: "/dos-games/mo-fa-men-ying-xiong-wu-di-2-zhong-wen/",
   },
   {
@@ -20054,7 +20043,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 206,
     entry: "HEROES.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di-zhong-wen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C%E4%B8%AD%E6%96%87.zip",
     page: "/dos-games/mo-fa-men-ying-xiong-wu-di-zhong-wen/",
   },
   {
@@ -20065,7 +20054,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 330,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fei-tan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AF.zip",
     page: "/dos-games/mo-fa-fei-tan/",
   },
   {
@@ -20076,7 +20065,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 157,
     entry: "netherw.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fei-tan-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AF2.zip",
     page: "/dos-games/mo-fa-fei-tan-2/",
   },
   {
@@ -20087,7 +20076,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 329,
     entry: "carpet.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fei-tan-plus.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AFPLUS.zip",
     page: "/dos-games/mo-fa-fei-tan-plus/",
   },
   {
@@ -20098,7 +20087,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1675,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhi-quan-dong-luan-mo-dou.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E5%8A%A8%E4%B9%B1%E9%AD%94%E9%83%BD.zip",
     page: "/dos-games/mo-jie-zhi-quan-dong-luan-mo-dou/",
   },
   {
@@ -20109,7 +20098,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 638,
     entry: "MAIN.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhi-quan-hui-shi-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E7%81%B0%E7%9F%B3%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/mo-jie-zhi-quan-hui-shi-chuan-qi/",
   },
   {
@@ -20120,7 +20109,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "SETUP.COM",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhao-huan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%8F%AC%E5%94%A4.zip",
     page: "/dos-games/mo-jie-zhao-huan/",
   },
   {
@@ -20131,7 +20120,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 371,
     entry: "ADV.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-sheng-nv-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%9C%A3%E5%A5%B3%E4%BC%A0.zip",
     page: "/dos-games/mo-jie-sheng-nv-chuan/",
   },
   {
@@ -20142,7 +20131,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 88,
     entry: "SEAL.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-feng-yin.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E5%B0%81%E5%8D%B0.zip",
     page: "/dos-games/mo-yan-feng-yin/",
   },
   {
@@ -20153,7 +20142,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "START.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA.zip",
     page: "/dos-games/mo-yan-sha-ji/",
   },
   {
@@ -20164,7 +20153,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 270,
     entry: "START.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji-2-yin-yue-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA2%E9%9A%90%E6%9C%88%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/mo-yan-sha-ji-2-yin-yue-chuan-qi/",
   },
   {
@@ -20175,7 +20164,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 85,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji-3-xue-zhan-zha-nuo-er.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA3%E8%A1%80%E6%88%98%E6%89%8E%E8%AF%BA%E5%B0%94.zip",
     page: "/dos-games/mo-yan-sha-ji-3-xue-zhan-zha-nuo-er/",
   },
   {
@@ -20186,7 +20175,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 116,
     entry: "LEGEND.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-shui-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%B0%B4%E6%99%B6.zip",
     page: "/dos-games/mo-yan-shui-jing/",
   },
   {
@@ -20197,7 +20186,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 219,
     entry: "KOEI.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-xie-shen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip",
     page: "/dos-games/mo-yan-xie-shen/",
   },
   {
@@ -20208,7 +20197,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 214,
     entry: "KOEI.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-xie-shen-ying-ban.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E%E8%8B%B1%E7%89%88.zip",
     page: "/dos-games/mo-yan-xie-shen-ying-ban/",
   },
   {
@@ -20219,7 +20208,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 537,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shi-ying-xiong-chuan-shuo-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9F%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42.zip",
     page: "/dos-games/mo-shi-ying-xiong-chuan-shuo-2/",
   },
   {
@@ -20230,7 +20219,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 31,
     entry: "Mg1.exe",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shen-zhan-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%A5%9E%E6%88%98%E8%AE%B0.zip",
     page: "/dos-games/mo-shen-zhan-ji/",
   },
   {
@@ -20241,7 +20230,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 431,
     entry: "MG2.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-shen-zhan-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%A5%9E%E6%88%98%E8%AE%B02.zip",
     page: "/dos-games/mo-shen-zhan-ji-2/",
   },
   {
@@ -20252,7 +20241,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 102,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-kong-ba-chuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%A9%BA%E9%9C%B8%E4%BC%A0.zip",
     page: "/dos-games/mo-kong-ba-chuan/",
   },
   {
@@ -20263,7 +20252,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 111,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-tai.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E8%83%8E.zip",
     page: "/dos-games/mo-tai/",
   },
   {
@@ -20274,7 +20263,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 98,
     entry: "PLAY.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-dao-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E9%81%93%E5%AD%90.zip",
     page: "/dos-games/mo-dao-zi/",
   },
   {
@@ -20285,7 +20274,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 101,
     entry: "KOS.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-gui-tui-xiao-yuan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E9%AC%BC%E6%8E%A8%E9%94%80%E5%91%98.zip",
     page: "/dos-games/mo-gui-tui-xiao-yuan/",
   },
   {
@@ -20296,7 +20285,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 197,
     entry: "CURSE.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-mei-da-lu-de-zu-zhou.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E9%AD%85%E5%A4%A7%E9%99%86%E7%9A%84%E8%AF%85%E5%92%92.zip",
     page: "/dos-games/mo-mei-da-lu-de-zu-zhou/",
   },
   {
@@ -20307,7 +20296,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 294,
     entry: "DRAGON.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mo-long-ji-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%AD%94%E9%BE%99%E7%BA%AA%E4%BA%8B.zip",
     page: "/dos-games/mo-long-ji-shi/",
   },
   {
@@ -20318,7 +20307,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 20,
     entry: "BOB.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-bo-tiao-yue-yin-zi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%B2%8D%E5%8B%83%E8%B7%B3%E8%B7%83%E5%9B%A0%E5%AD%90.zip",
     page: "/dos-games/bao-bo-tiao-yue-yin-zi/",
   },
   {
@@ -20329,7 +20318,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 29,
     entry: "BOBHELL.EXE",
     tag: "b",
-    url: "https://github.com/whereq/dos-games/releases/download/b/bao-bo-tao-li-di-yu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%B2%8D%E5%8B%83%E9%80%83%E7%A6%BB%E5%9C%B0%E7%8B%B1.zip",
     page: "/dos-games/bao-bo-tao-li-di-yu/",
   },
   {
@@ -20340,7 +20329,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 327,
     entry: "PLAY.BAT",
     tag: "y",
-    url: "https://github.com/whereq/dos-games/releases/download/y/ying-yan-chuan-shuo-lun-dun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%B9%B0%E7%9C%BC%E4%BC%A0%E8%AF%B4%EF%BC%9A%E4%BC%A6%E6%95%A6.zip",
     page: "/dos-games/ying-yan-chuan-shuo-lun-dun/",
   },
   {
@@ -20351,7 +20340,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1664,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/lu-ding-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%B9%BF%E9%BC%8E%E8%AE%B0.zip",
     page: "/dos-games/lu-ding-ji/",
   },
   {
@@ -20362,7 +20351,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 367,
     entry: "PLAY.EXE",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-lin-chuan-shuo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%92%E9%BA%9F%E4%BC%A0%E8%AF%B4.zip",
     page: "/dos-games/qi-lin-chuan-shuo/",
   },
   {
@@ -20373,7 +20362,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 7,
     entry: "MC.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mai-dang-lao-shi-jie.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%A6%E5%BD%93%E5%8A%B3%E4%B8%96%E7%95%8C.zip",
     page: "/dos-games/mai-dang-lao-shi-jie/",
   },
   {
@@ -20384,7 +20373,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-zheng-ba.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E4%BA%89%E9%9C%B8.zip",
     page: "/dos-games/ma-jiang-zheng-ba/",
   },
   {
@@ -20395,7 +20384,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 206,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-da-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E5%A4%A7%E5%B8%88.zip",
     page: "/dos-games/ma-jiang-da-shi/",
   },
   {
@@ -20406,7 +20395,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 117,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-qing-qu-wu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E6%83%85%E8%B6%A3%E5%B1%8B.zip",
     page: "/dos-games/ma-jiang-qing-qu-wu/",
   },
   {
@@ -20417,7 +20406,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 200,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-qing-qu-wu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E6%83%85%E8%B6%A3%E5%B1%8B2.zip",
     page: "/dos-games/ma-jiang-qing-qu-wu-2/",
   },
   {
@@ -20428,7 +20417,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 387,
     entry: "MAIN.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-que-huan-xiang-qu-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%BB%E9%9B%80%E5%B9%BB%E6%83%B3%E6%9B%B22.zip",
     page: "/dos-games/ma-que-huan-xiang-qu-2/",
   },
   {
@@ -20439,7 +20428,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 426,
     entry: "PLAY.BAT",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/ma-que-huan-xiang-qu-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BA%BB%E9%9B%80%E5%B9%BB%E6%83%B3%E6%9B%B23.zip",
     page: "/dos-games/ma-que-huan-xiang-qu-3/",
   },
   {
@@ -20450,7 +20439,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 79,
     entry: "play.bat",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huang-gua-zhan-zheng-san-bu-qu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%84%E7%93%9C%E6%88%98%E4%BA%89%E4%B8%89%E9%83%A8%E6%9B%B2.zip",
     page: "/dos-games/huang-gua-zhan-zheng-san-bu-qu/",
   },
   {
@@ -20461,7 +20450,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 762,
     entry: "LASTHERO.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/huang-fei-hong-tie-gong-ji-dou-wu-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%84%E9%A3%9E%E9%B8%BF%E9%93%81%E5%85%AC%E9%B8%A1%E6%96%97%E8%9C%88%E8%9A%A3.zip",
     page: "/dos-games/huang-fei-hong-tie-gong-ji-dou-wu-gong/",
   },
   {
@@ -20472,7 +20461,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 913,
     entry: "CONTROL.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-ming-te-jing.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E7%89%B9%E8%AD%A6.zip",
     page: "/dos-games/li-ming-te-jing/",
   },
   {
@@ -20483,7 +20472,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 34,
     entry: "anviloriginal.exe",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/li-ming-tie-zhen.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E9%93%81%E7%A0%A7.zip",
     page: "/dos-games/li-ming-tie-zhen/",
   },
   {
@@ -20494,7 +20483,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 33,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-zhi-duan-zhang.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E4%B9%8B%E6%96%AD%E7%AB%A0.zip",
     page: "/dos-games/hei-zhi-duan-zhang/",
   },
   {
@@ -20505,7 +20494,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "DARKSUN.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-ri-wei-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%97%A5%E5%8D%B1%E6%9C%BA.zip",
     page: "/dos-games/hei-ri-wei-ji/",
   },
   {
@@ -20516,7 +20505,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "DSUN.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-ri-wei-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%97%A5%E5%8D%B1%E6%9C%BA2.zip",
     page: "/dos-games/hei-ri-wei-ji-2/",
   },
   {
@@ -20527,7 +20516,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 35,
     entry: "run.bat",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-xing-zheng-yi-shi-zhe.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%98%9F%E6%AD%A3%E4%B9%89%E4%BD%BF%E8%80%85.zip",
     page: "/dos-games/hei-xing-zheng-yi-shi-zhe/",
   },
   {
@@ -20538,7 +20527,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 642,
     entry: "DARKLAND.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-di.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%9C%B0.zip",
     page: "/dos-games/hei-an-zhi-di/",
   },
   {
@@ -20549,7 +20538,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 80,
     entry: "UUKRUL.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-xin.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%BF%83.zip",
     page: "/dos-games/hei-an-zhi-xin/",
   },
   {
@@ -20560,7 +20549,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 646,
     entry: "DS.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-gu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E8%9B%8A.zip",
     page: "/dos-games/hei-an-zhi-gu/",
   },
   {
@@ -20571,7 +20560,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 136,
     entry: "OBITUS",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-yuan-su.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%85%83%E7%B4%A0.zip",
     page: "/dos-games/hei-an-yuan-su/",
   },
   {
@@ -20582,7 +20571,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1155,
     entry: "DL.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-jun-tuan-mo-fa-fu-ji-zhan.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%86%9B%E5%9B%A2%EF%BC%8F%E9%AD%94%E6%B3%95%E4%BC%8F%E5%87%BB%E6%88%98.zip",
     page: "/dos-games/hei-an-jun-tuan-mo-fa-fu-ji-zhan/",
   },
   {
@@ -20593,7 +20582,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 578,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-sheng-zhan-lu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%9C%A3%E6%88%98%E5%BD%95.zip",
     page: "/dos-games/hei-an-sheng-zhan-lu/",
   },
   {
@@ -20604,7 +20593,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 71,
     entry: "PLAY.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-tian-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%A4%A9%E4%BD%BF.zip",
     page: "/dos-games/hei-an-tian-shi/",
   },
   {
@@ -20615,7 +20604,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 72,
     entry: "play.bat",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-shi-dai-san-bu-qu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E4%B8%89%E9%83%A8%E6%9B%B2.zip",
     page: "/dos-games/hei-an-shi-dai-san-bu-qu/",
   },
   {
@@ -20626,7 +20615,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 381,
     entry: "JUSTICE.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-de-gong-zheng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%AC%E8%AF%81.zip",
     page: "/dos-games/hei-an-de-gong-zheng/",
   },
   {
@@ -20637,7 +20626,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 77,
     entry: "INSTALL.COM",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-mi-gong.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E8%BF%B7%E5%AE%AB.zip",
     page: "/dos-games/hei-an-mi-gong/",
   },
   {
@@ -20648,7 +20637,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "BJ.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-jie-ke.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9D%B0%E5%85%8B.zip",
     page: "/dos-games/hei-jie-ke/",
   },
   {
@@ -20659,7 +20648,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 145,
     entry: "BJ.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-jie-ke-s.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9D%B0%E5%85%8BS.zip",
     page: "/dos-games/hei-jie-ke-s/",
   },
   {
@@ -20670,7 +20659,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 62,
     entry: "BLADE.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-wu-shi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%AD%A6%E5%A3%AB.zip",
     page: "/dos-games/hei-wu-shi/",
   },
   {
@@ -20681,7 +20670,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 5,
     entry: "BH.EXE",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-dong-mi-ti.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%B4%9E%E8%B0%9C%E9%A2%98.zip",
     page: "/dos-games/hei-dong-mi-ti/",
   },
   {
@@ -20692,7 +20681,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 63,
     entry: "BS.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-se-jie-qu.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E8%89%B2%E8%A1%97%E5%8C%BA.zip",
     page: "/dos-games/hei-se-jie-qu/",
   },
   {
@@ -20703,7 +20692,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 11,
     entry: "RUNME.BAT",
     tag: "h",
-    url: "https://github.com/whereq/dos-games/releases/download/h/hei-jie-feng-yun.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BB%91%E8%A1%97%E9%A3%8E%E4%BA%91.zip",
     page: "/dos-games/hei-jie-feng-yun/",
   },
   {
@@ -20714,7 +20703,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 69,
     entry: "PLAY.BAT",
     tag: "q",
-    url: "https://github.com/whereq/dos-games/releases/download/q/qi-tian-da-sheng.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3.zip",
     page: "/dos-games/qi-tian-da-sheng/",
   },
   {
@@ -20725,7 +20714,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 119,
     entry: "GEAR.EXE",
     tag: "c",
-    url: "https://github.com/whereq/dos-games/releases/download/c/chi-lun-you-xi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BD%BF%E8%BD%AE%E6%B8%B8%E6%88%8F.zip",
     page: "/dos-games/chi-lun-you-xi/",
   },
   {
@@ -20736,7 +20725,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 206,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-chuan-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E4%BC%A0%E5%A5%87.zip",
     page: "/dos-games/long-zhi-chuan-qi/",
   },
   {
@@ -20747,7 +20736,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 14,
     entry: "DRAGON.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-jue-qi.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E5%B4%9B%E8%B5%B7.zip",
     page: "/dos-games/long-zhi-jue-qi/",
   },
   {
@@ -20758,7 +20747,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 54,
     entry: "DRAGON.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-wang-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E7%8E%8B%E5%9B%BD.zip",
     page: "/dos-games/long-zhi-wang-guo/",
   },
   {
@@ -20769,7 +20758,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 89,
     entry: "DRAKKHEN.COM",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-dao.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E9%81%93.zip",
     page: "/dos-games/long-zhi-dao/",
   },
   {
@@ -20780,7 +20769,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 137,
     entry: "XARGON.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-zhan-ji-x.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E6%88%98%E8%AE%B0X.zip",
     page: "/dos-games/long-zhan-ji-x/",
   },
   {
@@ -20791,7 +20780,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 52,
     entry: "GAME.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-xue-li-xian-ji.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E7%A9%B4%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
     page: "/dos-games/long-xue-li-xian-ji/",
   },
   {
@@ -20802,7 +20791,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 13,
     entry: "timewarp.exe",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-xue-li-xian-ji-2.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E7%A9%B4%E5%8E%86%E9%99%A9%E8%AE%B02.zip",
     page: "/dos-games/long-xue-li-xian-ji-2/",
   },
   {
@@ -20813,7 +20802,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 15,
     entry: "DL3.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-xue-li-xian-ji-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E7%A9%B4%E5%8E%86%E9%99%A9%E8%AE%B03.zip",
     page: "/dos-games/long-xue-li-xian-ji-3/",
   },
   {
@@ -20824,7 +20813,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1057,
     entry: "UVCONFIG.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-teng-san-guo.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E8%85%BE%E4%B8%89%E5%9B%BD.zip",
     page: "/dos-games/long-teng-san-guo/",
   },
   {
@@ -20835,7 +20824,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 40,
     entry: "ROTT.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-ba-san-he-hui.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A.zip",
     page: "/dos-games/long-ba-san-he-hui/",
   },
   {
@@ -20846,7 +20835,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 133,
     entry: "SETUP.EXE",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-ba-san-he-hui-zi-liao-pian.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A%E8%B5%84%E6%96%99%E7%89%87.zip",
     page: "/dos-games/long-ba-san-he-hui-zi-liao-pian/",
   },
   {
@@ -20857,7 +20846,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 3,
     entry: "boot",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-ba-tian-xia.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E5%A4%A9%E4%B8%8B.zip",
     page: "/dos-games/long-ba-tian-xia/",
   },
   {
@@ -20868,7 +20857,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 122,
     entry: "KX.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-qi-shi-3.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB3.zip",
     page: "/dos-games/long-qi-shi-3/",
   },
   {
@@ -20879,7 +20868,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 1381,
     entry: "PLAY.BAT",
     tag: "l",
-    url: "https://github.com/whereq/dos-games/releases/download/l/long-qi-shi-4.zip",
+    url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB4.zip",
     page: "/dos-games/long-qi-shi-4/",
   },
   {
@@ -20890,7 +20879,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 60,
     entry: "OPEN.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sanguo-yingjie-zhuan.zip",
+    url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%97%E8%8B%B1%E6%9D%B0%E4%BC%A0.zip",
     page: "/atlas/dos-games/sanguo-yingjie-zhuan/",
   },
   {
@@ -20901,8 +20890,19 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 136,
     entry: "DUNEPRG.EXE",
     tag: "s",
-    url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao.zip",
+    url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A1.zip",
     page: "/atlas/dos-games/sha-qiu-mo-bao/",
+  },
+  {
+    id: "yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi",
+    name: "炎龙骑士团II‧黄金城之谜",
+    year: "",
+    size: 8155666,
+    files: 47,
+    entry: "FD2.EXE",
+    tag: "y",
+    url: "https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A22%E9%BB%84%E9%87%91%E5%9F%8E%E4%B9%8B%E8%B0%9C.zip",
+    page: "/atlas/dos-games/yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi/",
   },
   {
     id: "mortal-kombat",
@@ -20912,7 +20912,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     files: 67,
     entry: "DOS4GW.EXE",
     tag: "m",
-    url: "https://github.com/whereq/dos-games/releases/download/m/mortal-kombat.zip",
+    url: "https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%93.zip",
     page: "/atlas/dos-games/mortal-kombat/",
   },
 ];

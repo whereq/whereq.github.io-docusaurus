@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "吃豆人初代 is a DOS game in the WhereQ archive — 2006, 2 files, 10 KB, and an entry point of PACMAN.EXE.",
   status: "2006",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren-chu-dai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%88%9D%E4%BB%A3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2006"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chi-dou-ren-chu-dai.zip"],
           ["Size", "10,617 bytes (10 KB)"],
           ["SHA-256", "6679ba77f4de462e4bc72d2970f8cc9a9fa522f3574854a5a69240b0b10b7494"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%88%9D%E4%BB%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吃豆人初代 (10 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren-chu-dai.zip", external: true},
+          {label: "Download 吃豆人初代 (10 KB)", href: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E5%88%9D%E4%BB%A3.zip", external: true},
         ]},
       ],
     },

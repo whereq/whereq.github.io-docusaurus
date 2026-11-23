@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天堂和人间 is a DOS game in the WhereQ archive — 1996, 17 files, 2.6 MB, and an entry point of HEAVEN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-tang-he-ren-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%A0%82%E5%92%8C%E4%BA%BA%E9%97%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-tang-he-ren-jian.zip"],
           ["Size", "2,740,464 bytes (2.6 MB)"],
           ["SHA-256", "8eeddba830e3628674a207466702dcaa398160be3df7a949cac85f965a33823a"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E5%A0%82%E5%92%8C%E4%BA%BA%E9%97%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天堂和人间 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-tang-he-ren-jian.zip", external: true},
+          {label: "Download 天堂和人间 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%A0%82%E5%92%8C%E4%BA%BA%E9%97%B4.zip", external: true},
         ]},
       ],
     },

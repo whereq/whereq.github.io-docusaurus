@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "指挥官基恩7民间版 is a DOS game in the WhereQ archive — 2009, 26 files, 754 KB, and an entry point of PLAY.BAT.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-7-min-jian-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A97%E6%B0%91%E9%97%B4%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-hui-guan-ji-en-7-min-jian-ban.zip"],
           ["Size", "771,590 bytes (754 KB)"],
           ["SHA-256", "3fb475449135fe24a9fdd0131439bb94021daa1e1b96b5b149ea8a1ef56894f7"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A97%E6%B0%91%E9%97%B4%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 指挥官基恩7民间版 (754 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-7-min-jian-ban.zip", external: true},
+          {label: "Download 指挥官基恩7民间版 (754 KB)", href: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A97%E6%B0%91%E9%97%B4%E7%89%88.zip", external: true},
         ]},
       ],
     },

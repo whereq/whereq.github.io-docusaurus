@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "足球帝国 is a DOS game in the WhereQ archive — 1995, 52 files, 338 KB, and an entry point of SOCCER.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-di-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E5%B8%9D%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zu-qiu-di-guo.zip"],
           ["Size", "345,943 bytes (338 KB)"],
           ["SHA-256", "580ce885d3ad47dd3ecd5a21d75d3353ceb1d1a0792f80d5983340fd96206811"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E5%B8%9D%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 足球帝国 (338 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-di-guo.zip", external: true},
+          {label: "Download 足球帝国 (338 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E5%B8%9D%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

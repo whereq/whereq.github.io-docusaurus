@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "罗宾汉大冒险 is a DOS game in the WhereQ archive — 1991, 39 files, 451 KB, and an entry point of ISOVGA.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luo-bin-han-da-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%97%E5%AE%BE%E6%B1%89%E5%A4%A7%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luo-bin-han-da-mao-xian.zip"],
           ["Size", "462,264 bytes (451 KB)"],
           ["SHA-256", "e2031da0b26d5bcd1466579742aeda69826c099b4b735174a9cb42c19aeb544b"],
           ["Files", "39"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%97%E5%AE%BE%E6%B1%89%E5%A4%A7%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罗宾汉大冒险 (451 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/luo-bin-han-da-mao-xian.zip", external: true},
+          {label: "Download 罗宾汉大冒险 (451 KB)", href: "https://dos-bin.zczc.cz/%E7%BD%97%E5%AE%BE%E6%B1%89%E5%A4%A7%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

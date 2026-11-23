@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "梦网 is a DOS game in the WhereQ archive — 1994, 106 files, 14.7 MB, and an entry point of dweb.exe.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/meng-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A2%A6%E7%BD%91.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "meng-wang.zip"],
           ["Size", "15,382,537 bytes (14.7 MB)"],
           ["SHA-256", "d901dcf27189db786f0623454bc273af9e989cc7628f519ea9ce18b98921b817"],
           ["Files", "106"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A2%A6%E7%BD%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 梦网 (14.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/meng-wang.zip", external: true},
+          {label: "Download 梦网 (14.7 MB)", href: "https://dos-bin.zczc.cz/%E6%A2%A6%E7%BD%91.zip", external: true},
         ]},
       ],
     },

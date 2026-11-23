@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "童话新编 is a DOS game in the WhereQ archive — 1991, 44 files, 3.8 MB, and an entry point of SCIDHUV.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tong-hua-xin-bian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AB%A5%E8%AF%9D%E6%96%B0%E7%BC%96.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tong-hua-xin-bian.zip"],
           ["Size", "3,962,556 bytes (3.8 MB)"],
           ["SHA-256", "48291aae16fb0df78c38b5ec9f87932ec21825ef6e17c6a14a64fe7f3b9fa029"],
           ["Files", "44"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AB%A5%E8%AF%9D%E6%96%B0%E7%BC%96.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 童话新编 (3.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tong-hua-xin-bian.zip", external: true},
+          {label: "Download 童话新编 (3.8 MB)", href: "https://dos-bin.zczc.cz/%E7%AB%A5%E8%AF%9D%E6%96%B0%E7%BC%96.zip", external: true},
         ]},
       ],
     },

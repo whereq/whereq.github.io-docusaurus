@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "征服：AD1086 is a DOS game in the WhereQ archive — an undated copy, 2,270 files, 196.4 MB, and an entry point of CONQUER.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zheng-fu-ad1086.zip",
+  url: "https://binary.dos.lol/fdcab2ffba10008272884e0f0fb0ee669df63e238979ac94073f7d7124e56e33.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zheng-fu-ad1086.zip"],
           ["Size", "205,927,052 bytes (196.4 MB)"],
           ["SHA-256", "fdcab2ffba10008272884e0f0fb0ee669df63e238979ac94073f7d7124e56e33"],
           ["Files", "2,270"],
-          ["Original", "dos-bin.zczc.cz — https://binary.dos.lol/fdcab2ffba10008272884e0f0fb0ee669df63e238979ac94073f7d7124e56e33.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 征服：AD1086 (196.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zheng-fu-ad1086.zip", external: true},
+          {label: "Download 征服：AD1086 (196.4 MB)", href: "https://binary.dos.lol/fdcab2ffba10008272884e0f0fb0ee669df63e238979ac94073f7d7124e56e33.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "旧金山警车大赛 is a DOS game in the WhereQ archive — 1996, 8 files, 260 KB, and an entry point of cisco.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jiu-jin-shan-jing-che-da-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A7%E9%87%91%E5%B1%B1%E8%AD%A6%E8%BD%A6%E5%A4%A7%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jiu-jin-shan-jing-che-da-sai.zip"],
           ["Size", "266,037 bytes (260 KB)"],
           ["SHA-256", "8a5af662fc4e3a7268af573cbbf06ec8c08bb5bbd26478e9a915e8d78b1ae2c1"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A7%E9%87%91%E5%B1%B1%E8%AD%A6%E8%BD%A6%E5%A4%A7%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 旧金山警车大赛 (260 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/jiu-jin-shan-jing-che-da-sai.zip", external: true},
+          {label: "Download 旧金山警车大赛 (260 KB)", href: "https://dos-bin.zczc.cz/%E6%97%A7%E9%87%91%E5%B1%B1%E8%AD%A6%E8%BD%A6%E5%A4%A7%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

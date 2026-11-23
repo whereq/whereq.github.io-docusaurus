@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "太平洋王牌飞行员 is a DOS game in the WhereQ archive — 1996, 56 files, 7.4 MB, and an entry point of 1946.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-wang-pai-fei-xing-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%8E%8B%E7%89%8C%E9%A3%9E%E8%A1%8C%E5%91%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-ping-yang-wang-pai-fei-xing-yuan.zip"],
           ["Size", "7,801,416 bytes (7.4 MB)"],
           ["SHA-256", "228c653847f06f492ac7fd49c810fa9f8b4e5882381ecadc5c895034b68bf7c4"],
           ["Files", "56"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%8E%8B%E7%89%8C%E9%A3%9E%E8%A1%8C%E5%91%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 太平洋王牌飞行员 (7.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-wang-pai-fei-xing-yuan.zip", external: true},
+          {label: "Download 太平洋王牌飞行员 (7.4 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%8E%8B%E7%89%8C%E9%A3%9E%E8%A1%8C%E5%91%98.zip", external: true},
         ]},
       ],
     },

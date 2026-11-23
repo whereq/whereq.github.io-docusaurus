@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "殖民帝国 is a DOS game in the WhereQ archive — 1994, 286 files, 3.4 MB, and an entry point of COLONIZE.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-di-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E5%B8%9D%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-min-di-guo.zip"],
           ["Size", "3,595,495 bytes (3.4 MB)"],
           ["SHA-256", "7d75a973b3c92700fbf03e0d594a7b92c8986c73aa5ad7d73f319353ba71277b"],
           ["Files", "286"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E5%B8%9D%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 殖民帝国 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-di-guo.zip", external: true},
+          {label: "Download 殖民帝国 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E5%B8%9D%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

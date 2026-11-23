@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "台湾模拟选战 is a DOS game in the WhereQ archive — 1994, 203 files, 4.3 MB, and an entry point of PLAY.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-wan-mo-ni-xuan-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%B0%E6%B9%BE%E6%A8%A1%E6%8B%9F%E9%80%89%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-wan-mo-ni-xuan-zhan.zip"],
           ["Size", "4,488,446 bytes (4.3 MB)"],
           ["SHA-256", "f210e05c97a050f7295f3bbb755995055a39f2b6b966f8432666a122b9627c27"],
           ["Files", "203"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%B0%E6%B9%BE%E6%A8%A1%E6%8B%9F%E9%80%89%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 台湾模拟选战 (4.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-wan-mo-ni-xuan-zhan.zip", external: true},
+          {label: "Download 台湾模拟选战 (4.3 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%B0%E6%B9%BE%E6%A8%A1%E6%8B%9F%E9%80%89%E6%88%98.zip", external: true},
         ]},
       ],
     },

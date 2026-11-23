@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻影英雄 is a DOS game in the WhereQ archive — 1994, 15 files, 5.1 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-ying-ying-xiong.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E5%BD%B1%E8%8B%B1%E9%9B%84.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-ying-ying-xiong.zip"],
           ["Size", "5,317,735 bytes (5.1 MB)"],
           ["SHA-256", "e0cce84fc1ca281279c1b50243ba1ea29a67e774e477e44b3a79a9b8a15eb54c"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E5%BD%B1%E8%8B%B1%E9%9B%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻影英雄 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-ying-ying-xiong.zip", external: true},
+          {label: "Download 幻影英雄 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E5%BD%B1%E8%8B%B1%E9%9B%84.zip", external: true},
         ]},
       ],
     },

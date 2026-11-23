@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "殖民世纪 is a DOS game in the WhereQ archive — 1991, 23 files, 293 KB, and an entry point of COLONY.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-shi-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E4%B8%96%E7%BA%AA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-min-shi-ji.zip"],
           ["Size", "299,770 bytes (293 KB)"],
           ["SHA-256", "92668177ad8ddacb6de390b3c6e9319ed29530aa926d0d75c592fc14e0ec36e4"],
           ["Files", "23"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E4%B8%96%E7%BA%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 殖民世纪 (293 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-shi-ji.zip", external: true},
+          {label: "Download 殖民世纪 (293 KB)", href: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E4%B8%96%E7%BA%AA.zip", external: true},
         ]},
       ],
     },

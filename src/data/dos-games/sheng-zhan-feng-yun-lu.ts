@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣战风云录 is a DOS game in the WhereQ archive — 1997, 31 files, 162.1 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-feng-yun-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E9%A3%8E%E4%BA%91%E5%BD%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-zhan-feng-yun-lu.zip"],
           ["Size", "169,967,185 bytes (162.1 MB)"],
           ["SHA-256", "060e223bcc1dc1ac4d548142e0a08707ff7599a6e441afe77c88b53012a8240e"],
           ["Files", "31"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E9%A3%8E%E4%BA%91%E5%BD%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣战风云录 (162.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-feng-yun-lu.zip", external: true},
+          {label: "Download 圣战风云录 (162.1 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E9%A3%8E%E4%BA%91%E5%BD%95.zip", external: true},
         ]},
       ],
     },

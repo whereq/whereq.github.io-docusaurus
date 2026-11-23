@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "恐龙棋 is a DOS game in the WhereQ archive — 1990, 127 files, 2.1 MB, and an entry point of DW.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-long-qi.zip"],
           ["Size", "2,251,672 bytes (2.1 MB)"],
           ["SHA-256", "d492059c8044dd6779ebf177e8b9e8d6cd52fb0923c9c0fbb57007746fadea4a"],
           ["Files", "127"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恐龙棋 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-long-qi.zip", external: true},
+          {label: "Download 恐龙棋 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

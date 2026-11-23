@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "火星人备忘录 is a DOS game in the WhereQ archive — 1992, 90 files, 6.5 MB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huo-xing-ren-bei-wang-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%AB%E6%98%9F%E4%BA%BA%E5%A4%87%E5%BF%98%E5%BD%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huo-xing-ren-bei-wang-lu.zip"],
           ["Size", "6,770,506 bytes (6.5 MB)"],
           ["SHA-256", "0a22819f7a33d59fa1975af115086984b1f517190a9c73889be77b420045e9de"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%AB%E6%98%9F%E4%BA%BA%E5%A4%87%E5%BF%98%E5%BD%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 火星人备忘录 (6.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huo-xing-ren-bei-wang-lu.zip", external: true},
+          {label: "Download 火星人备忘录 (6.5 MB)", href: "https://dos-bin.zczc.cz/%E7%81%AB%E6%98%9F%E4%BA%BA%E5%A4%87%E5%BF%98%E5%BD%95.zip", external: true},
         ]},
       ],
     },

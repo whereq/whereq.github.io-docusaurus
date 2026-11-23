@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "克莱德复仇 is a DOS game in the WhereQ archive — an undated copy, 6 files, 2.3 MB, and an entry point of REVENGE.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-de-fu-chou.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%A4%8D%E4%BB%87.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-lai-de-fu-chou.zip"],
           ["Size", "2,371,367 bytes (2.3 MB)"],
           ["SHA-256", "f572b9e75b60bc86e1ad567585b24e971f25a650045237ee1409e37b21d94017"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%A4%8D%E4%BB%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 克莱德复仇 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-de-fu-chou.zip", external: true},
+          {label: "Download 克莱德复仇 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%A4%8D%E4%BB%87.zip", external: true},
         ]},
       ],
     },

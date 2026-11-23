@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "恐龙公园大亨 is a DOS game in the WhereQ archive — 1996, 191 files, 1.4 MB, and an entry point of DINOPARK.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-gong-yuan-da-heng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%85%AC%E5%9B%AD%E5%A4%A7%E4%BA%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-long-gong-yuan-da-heng.zip"],
           ["Size", "1,493,508 bytes (1.4 MB)"],
           ["SHA-256", "100fd5108ae2bea0596e14f936050c2688306c9aeaf7e6179d08b5de3bd207b5"],
           ["Files", "191"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%85%AC%E5%9B%AD%E5%A4%A7%E4%BA%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恐龙公园大亨 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-long-gong-yuan-da-heng.zip", external: true},
+          {label: "Download 恐龙公园大亨 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%85%AC%E5%9B%AD%E5%A4%A7%E4%BA%A8.zip", external: true},
         ]},
       ],
     },

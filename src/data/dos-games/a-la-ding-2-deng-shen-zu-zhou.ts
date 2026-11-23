@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿拉丁2灯神诅咒 is a DOS game in the WhereQ archive — 1994, 294 files, 6.6 MB, and an entry point of GENIE.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-la-ding-2-deng-shen-zu-zhou.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%812%E7%81%AF%E7%A5%9E%E8%AF%85%E5%92%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-la-ding-2-deng-shen-zu-zhou.zip"],
           ["Size", "6,899,515 bytes (6.6 MB)"],
           ["SHA-256", "6bec2cd2abf863c8e36728f3d653a95e94ff25ecda83ec7cbb9daf6ff89adb3c"],
           ["Files", "294"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%812%E7%81%AF%E7%A5%9E%E8%AF%85%E5%92%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿拉丁2灯神诅咒 (6.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-la-ding-2-deng-shen-zu-zhou.zip", external: true},
+          {label: "Download 阿拉丁2灯神诅咒 (6.6 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%812%E7%81%AF%E7%A5%9E%E8%AF%85%E5%92%92.zip", external: true},
         ]},
       ],
     },

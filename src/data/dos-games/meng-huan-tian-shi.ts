@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "梦幻天使 is a DOS game in the WhereQ archive — 1994, 293 files, 9.0 MB, and an entry point of PRO2.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/meng-huan-tian-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%A4%A9%E4%BD%BF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "meng-huan-tian-shi.zip"],
           ["Size", "9,451,000 bytes (9.0 MB)"],
           ["SHA-256", "8da55a9f2a6e4854f1fe938450e9ea1039816d39640aa5209d1cc8fbccd2a0f0"],
           ["Files", "293"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%A4%A9%E4%BD%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 梦幻天使 (9.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/meng-huan-tian-shi.zip", external: true},
+          {label: "Download 梦幻天使 (9.0 MB)", href: "https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%A4%A9%E4%BD%BF.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "系统震荡 is a DOS game in the WhereQ archive — 2007, 157 files, 121.4 MB, and an entry point of CDSHOCK.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-tong-zhen-dang.zip",
+  url: "https://dos-bin.zczc.cz/%E7%B3%BB%E7%BB%9F%E9%9C%87%E8%8D%A1.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-tong-zhen-dang.zip"],
           ["Size", "127,307,113 bytes (121.4 MB)"],
           ["SHA-256", "c591034d494d55db178964777f57fb78576178d34d468093eb1dc9c4961acf2e"],
           ["Files", "157"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%B3%BB%E7%BB%9F%E9%9C%87%E8%8D%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 系统震荡 (121.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-tong-zhen-dang.zip", external: true},
+          {label: "Download 系统震荡 (121.4 MB)", href: "https://dos-bin.zczc.cz/%E7%B3%BB%E7%BB%9F%E9%9C%87%E8%8D%A1.zip", external: true},
         ]},
       ],
     },

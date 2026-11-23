@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "云国小精灵 is a DOS game in the WhereQ archive — 1990, 17 files, 56 KB, and an entry point of PLAY.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yun-guo-xiao-jing-ling.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%91%E5%9B%BD%E5%B0%8F%E7%B2%BE%E7%81%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yun-guo-xiao-jing-ling.zip"],
           ["Size", "57,657 bytes (56 KB)"],
           ["SHA-256", "72728886f725bcea0084aaefdd834778c15f90c276726b1d85ec07fe3554c849"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%91%E5%9B%BD%E5%B0%8F%E7%B2%BE%E7%81%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 云国小精灵 (56 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yun-guo-xiao-jing-ling.zip", external: true},
+          {label: "Download 云国小精灵 (56 KB)", href: "https://dos-bin.zczc.cz/%E4%BA%91%E5%9B%BD%E5%B0%8F%E7%B2%BE%E7%81%B5.zip", external: true},
         ]},
       ],
     },

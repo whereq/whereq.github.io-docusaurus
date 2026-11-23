@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无悔的十字军2 is a DOS game in the WhereQ archive — 2007, 88 files, 40.7 MB, and an entry point of REGRET.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-hui-de-shi-zi-jun-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B2.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-hui-de-shi-zi-jun-2.zip"],
           ["Size", "42,726,138 bytes (40.7 MB)"],
           ["SHA-256", "5df89ffca3f16b782f0eb9a3c3e47cf5d50ea0cd07686118d323c4e4c8d20474"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无悔的十字军2 (40.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-hui-de-shi-zi-jun-2.zip", external: true},
+          {label: "Download 无悔的十字军2 (40.7 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E6%82%94%E7%9A%84%E5%8D%81%E5%AD%97%E5%86%9B2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大地传说黑暗王座 is a DOS game in the WhereQ archive — 2007, 59 files, 15.3 MB, and an entry point of MAIN.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-di-chuan-shuo-hei-an-wang-zuo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%BC%A0%E8%AF%B4%E9%BB%91%E6%9A%97%E7%8E%8B%E5%BA%A7.zip",
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-di-chuan-shuo-hei-an-wang-zuo.zip"],
           ["Size", "16,045,155 bytes (15.3 MB)"],
           ["SHA-256", "1572cc449b47a64e6562d44816a2b121f08ad4cf8860d9ba488df1864f07da7e"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%BC%A0%E8%AF%B4%E9%BB%91%E6%9A%97%E7%8E%8B%E5%BA%A7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大地传说黑暗王座 (15.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-di-chuan-shuo-hei-an-wang-zuo.zip", external: true},
+          {label: "Download 大地传说黑暗王座 (15.3 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%BC%A0%E8%AF%B4%E9%BB%91%E6%9A%97%E7%8E%8B%E5%BA%A7.zip", external: true},
         ]},
       ],
     },

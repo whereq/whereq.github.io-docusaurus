@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "洞穴战争 is a DOS game in the WhereQ archive — 1995, 169 files, 11.7 MB, and an entry point of CAVE.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dong-xue-zhan-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B4%9E%E7%A9%B4%E6%88%98%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dong-xue-zhan-zheng.zip"],
           ["Size", "12,262,675 bytes (11.7 MB)"],
           ["SHA-256", "c173faaef1d09e225615ee2ab933c55a428f8cd2cd680eb7acc53b86b6501ae5"],
           ["Files", "169"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B4%9E%E7%A9%B4%E6%88%98%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 洞穴战争 (11.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/dong-xue-zhan-zheng.zip", external: true},
+          {label: "Download 洞穴战争 (11.7 MB)", href: "https://dos-bin.zczc.cz/%E6%B4%9E%E7%A9%B4%E6%88%98%E4%BA%89.zip", external: true},
         ]},
       ],
     },

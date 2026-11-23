@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "抓住他们 is a DOS game in the WhereQ archive — 1992, 90 files, 316 KB, and an entry point of RUNME.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhua-zhu-ta-men.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8A%93%E4%BD%8F%E4%BB%96%E4%BB%AC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhua-zhu-ta-men.zip"],
           ["Size", "323,209 bytes (316 KB)"],
           ["SHA-256", "2549cdcba7b45c4081a4f43324ed54e2a66e996d5995ee7eac4b445f8dea5cf0"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8A%93%E4%BD%8F%E4%BB%96%E4%BB%AC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 抓住他们 (316 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhua-zhu-ta-men.zip", external: true},
+          {label: "Download 抓住他们 (316 KB)", href: "https://dos-bin.zczc.cz/%E6%8A%93%E4%BD%8F%E4%BB%96%E4%BB%AC.zip", external: true},
         ]},
       ],
     },

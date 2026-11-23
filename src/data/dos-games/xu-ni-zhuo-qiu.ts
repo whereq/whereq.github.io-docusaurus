@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "虚拟桌球 is a DOS game in the WhereQ archive — 1995, 34 files, 147 KB, and an entry point of POOL.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xu-ni-zhuo-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E6%A1%8C%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xu-ni-zhuo-qiu.zip"],
           ["Size", "150,603 bytes (147 KB)"],
           ["SHA-256", "fca7e84694c3ca8c3885217163f2d379786877aa8bd0b1bb0672bce281c0f220"],
           ["Files", "34"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E6%A1%8C%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 虚拟桌球 (147 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xu-ni-zhuo-qiu.zip", external: true},
+          {label: "Download 虚拟桌球 (147 KB)", href: "https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E6%A1%8C%E7%90%83.zip", external: true},
         ]},
       ],
     },

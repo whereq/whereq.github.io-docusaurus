@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "贪欲诉求 is a DOS game in the WhereQ archive — 1996, 82 files, 37.6 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tan-yu-su-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B4%AA%E6%AC%B2%E8%AF%89%E6%B1%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tan-yu-su-qiu.zip"],
           ["Size", "39,449,894 bytes (37.6 MB)"],
           ["SHA-256", "d6e1753d47bf9d68732e4ad08f81dfdd131d08efb5b5a9b379b66b806527bf6c"],
           ["Files", "82"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B4%AA%E6%AC%B2%E8%AF%89%E6%B1%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 贪欲诉求 (37.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tan-yu-su-qiu.zip", external: true},
+          {label: "Download 贪欲诉求 (37.6 MB)", href: "https://dos-bin.zczc.cz/%E8%B4%AA%E6%AC%B2%E8%AF%89%E6%B1%82.zip", external: true},
         ]},
       ],
     },

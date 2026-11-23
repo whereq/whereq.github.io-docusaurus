@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "隔离区1 is a DOS game in the WhereQ archive — 1994, 542 files, 5.9 MB, and an entry point of Q.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/g/ge-li-qu-1.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA1.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ge-li-qu-1.zip"],
           ["Size", "6,220,891 bytes (5.9 MB)"],
           ["SHA-256", "3a37baf5f71dcbfb9d5e6d794da87c15d594ef4eaec565a5cd5ff01af5e89287"],
           ["Files", "542"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 隔离区1 (5.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/ge-li-qu-1.zip", external: true},
+          {label: "Download 隔离区1 (5.9 MB)", href: "https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA1.zip", external: true},
         ]},
       ],
     },

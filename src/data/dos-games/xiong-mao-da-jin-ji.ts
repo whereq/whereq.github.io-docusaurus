@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "熊猫大进击 is a DOS game in the WhereQ archive — 1996, 54 files, 4.2 MB, and an entry point of RUN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiong-mao-da-jin-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%86%8A%E7%8C%AB%E5%A4%A7%E8%BF%9B%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiong-mao-da-jin-ji.zip"],
           ["Size", "4,440,879 bytes (4.2 MB)"],
           ["SHA-256", "4be3be12d7a2c260f0eba8a1b1fe85478652a8c77f82b51b71a75d3a3b128ab4"],
           ["Files", "54"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%86%8A%E7%8C%AB%E5%A4%A7%E8%BF%9B%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 熊猫大进击 (4.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiong-mao-da-jin-ji.zip", external: true},
+          {label: "Download 熊猫大进击 (4.2 MB)", href: "https://dos-bin.zczc.cz/%E7%86%8A%E7%8C%AB%E5%A4%A7%E8%BF%9B%E5%87%BB.zip", external: true},
         ]},
       ],
     },

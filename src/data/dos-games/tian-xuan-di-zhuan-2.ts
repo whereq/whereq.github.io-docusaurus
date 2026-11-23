@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天旋地转2 is a DOS game in the WhereQ archive — 1996, 47 files, 27.3 MB, and an entry point of DESCENT2.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-xuan-di-zhuan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%AC2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-xuan-di-zhuan-2.zip"],
           ["Size", "28,645,435 bytes (27.3 MB)"],
           ["SHA-256", "59618b26d35efb6802b9f70c97c8f2252eb7af1bcd489fa71cb343628128f3f3"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%AC2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天旋地转2 (27.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-xuan-di-zhuan-2.zip", external: true},
+          {label: "Download 天旋地转2 (27.3 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%AC2.zip", external: true},
         ]},
       ],
     },

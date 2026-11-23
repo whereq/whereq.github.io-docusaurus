@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "英雄传说3 is a DOS game in the WhereQ archive — 1996, 129 files, 87.1 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-zhuan-shuo-3.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ying-xiong-zhuan-shuo-3.zip"],
           ["Size", "91,285,292 bytes (87.1 MB)"],
           ["SHA-256", "fecd28f7dde983911e4618827f095c2e3619ecf41d9405a007d1710280c258f5"],
           ["Files", "129"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 英雄传说3 (87.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-zhuan-shuo-3.zip", external: true},
+          {label: "Download 英雄传说3 (87.1 MB)", href: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B43.zip", external: true},
         ]},
       ],
     },

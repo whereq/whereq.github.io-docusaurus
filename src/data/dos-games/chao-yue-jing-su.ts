@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超越竞速 is a DOS game in the WhereQ archive — 1989, 109 files, 477 KB, and an entry point of PKARC.COM.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-yue-jing-su.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-yue-jing-su.zip"],
           ["Size", "488,369 bytes (477 KB)"],
           ["SHA-256", "8d0c15dc13590da7fd8cbff266f18190ae2d889070fae84c32251519169fe8d9"],
           ["Files", "109"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超越竞速 (477 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-yue-jing-su.zip", external: true},
+          {label: "Download 超越竞速 (477 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip", external: true},
         ]},
       ],
     },

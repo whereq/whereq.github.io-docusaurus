@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "伊甸风暴 is a DOS game in the WhereQ archive — 1998, 436 files, 21.3 MB, and an entry point of SETUP1.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-dian-feng-bao.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%8A%E7%94%B8%E9%A3%8E%E6%9A%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-dian-feng-bao.zip"],
           ["Size", "22,373,504 bytes (21.3 MB)"],
           ["SHA-256", "44deb7531efa17ac2e9e065485b5175c11e4dff91a01d2f63aeeb1c509dba55c"],
           ["Files", "436"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%8A%E7%94%B8%E9%A3%8E%E6%9A%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 伊甸风暴 (21.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-dian-feng-bao.zip", external: true},
+          {label: "Download 伊甸风暴 (21.3 MB)", href: "https://dos-bin.zczc.cz/%E4%BC%8A%E7%94%B8%E9%A3%8E%E6%9A%B4.zip", external: true},
         ]},
       ],
     },

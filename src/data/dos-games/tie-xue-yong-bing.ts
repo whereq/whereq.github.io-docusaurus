@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁血佣兵 is a DOS game in the WhereQ archive — 1998, 74 files, 679 KB, and an entry point of HARDNOVA.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-yong-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E4%BD%A3%E5%85%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-xue-yong-bing.zip"],
           ["Size", "695,726 bytes (679 KB)"],
           ["SHA-256", "d8746f9f27589eef31bece80cec4458f6259318b7642d83dc8104715b91e64a3"],
           ["Files", "74"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E4%BD%A3%E5%85%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁血佣兵 (679 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-yong-bing.zip", external: true},
+          {label: "Download 铁血佣兵 (679 KB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E4%BD%A3%E5%85%B5.zip", external: true},
         ]},
       ],
     },

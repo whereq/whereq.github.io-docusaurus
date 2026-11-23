@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "狂暴异形 is a DOS game in the WhereQ archive — 1997, 26 files, 20.4 MB, and an entry point of RAMPAGE.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kuang-bao-yi-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%82%E6%9A%B4%E5%BC%82%E5%BD%A2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kuang-bao-yi-xing.zip"],
           ["Size", "21,393,304 bytes (20.4 MB)"],
           ["SHA-256", "dcdba43caf3991c701767011f4a3e580a247fddc1eed732f33b1365f4cb71844"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%82%E6%9A%B4%E5%BC%82%E5%BD%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 狂暴异形 (20.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kuang-bao-yi-xing.zip", external: true},
+          {label: "Download 狂暴异形 (20.4 MB)", href: "https://dos-bin.zczc.cz/%E7%8B%82%E6%9A%B4%E5%BC%82%E5%BD%A2.zip", external: true},
         ]},
       ],
     },

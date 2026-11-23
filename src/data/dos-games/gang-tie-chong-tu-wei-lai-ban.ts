@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁冲突未来版 is a DOS game in the WhereQ archive — an undated copy, 100 files, 2.6 MB, and an entry point of COS2.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-chong-tu-wei-lai-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81%E6%9C%AA%E6%9D%A5%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-chong-tu-wei-lai-ban.zip"],
           ["Size", "2,679,391 bytes (2.6 MB)"],
           ["SHA-256", "0c2b8c142309ff7150f70e9e2695704525a2ab7e7e4bb8a5404ec5abe0a081c2"],
           ["Files", "100"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81%E6%9C%AA%E6%9D%A5%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁冲突未来版 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-chong-tu-wei-lai-ban.zip", external: true},
+          {label: "Download 钢铁冲突未来版 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81%E6%9C%AA%E6%9D%A5%E7%89%88.zip", external: true},
         ]},
       ],
     },

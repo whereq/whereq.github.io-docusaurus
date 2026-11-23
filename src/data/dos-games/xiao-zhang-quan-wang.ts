@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "嚣张拳王 is a DOS game in the WhereQ archive — 1991, 127 files, 878 KB, and an entry point of 4DBEGA.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-zhang-quan-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9A%A3%E5%BC%A0%E6%8B%B3%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-zhang-quan-wang.zip"],
           ["Size", "898,995 bytes (878 KB)"],
           ["SHA-256", "5d8a0791c4fbfcae3d976113daa142d7e47d3632a5ceb50148deb369d792b054"],
           ["Files", "127"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9A%A3%E5%BC%A0%E6%8B%B3%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 嚣张拳王 (878 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-zhang-quan-wang.zip", external: true},
+          {label: "Download 嚣张拳王 (878 KB)", href: "https://dos-bin.zczc.cz/%E5%9A%A3%E5%BC%A0%E6%8B%B3%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

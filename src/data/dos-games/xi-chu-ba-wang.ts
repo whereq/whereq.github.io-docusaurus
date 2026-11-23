@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "西楚霸王 is a DOS game in the WhereQ archive — 2010, 290 files, 368.1 MB, and an entry point of WKING.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-chu-ba-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%A5%9A%E9%9C%B8%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-chu-ba-wang.zip"],
           ["Size", "385,934,613 bytes (368.1 MB)"],
           ["SHA-256", "f98e36cc57549bc7136fac356ce3ae2e7895f69b729e497d2e40c48368d610cd"],
           ["Files", "290"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A5%BF%E6%A5%9A%E9%9C%B8%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 西楚霸王 (368.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-chu-ba-wang.zip", external: true},
+          {label: "Download 西楚霸王 (368.1 MB)", href: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%A5%9A%E9%9C%B8%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

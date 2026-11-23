@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "鬼屋魔影 is a DOS game in the WhereQ archive — 1992, 51 files, 5.1 MB, and an entry point of TATOU.COM.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gui-wu-mo-ying.zip"],
           ["Size", "5,347,324 bytes (5.1 MB)"],
           ["SHA-256", "08ab21e121aaa6cf5f1cae5fb65bddb317a4b74802cdb9bf64801f22f16d9370"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鬼屋魔影 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying.zip", external: true},
+          {label: "Download 鬼屋魔影 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1.zip", external: true},
         ]},
       ],
     },

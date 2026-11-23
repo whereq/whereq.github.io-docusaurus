@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "玛雅勇士的诅咒 is a DOS game in the WhereQ archive — 1996, 179 files, 2.2 MB, and an entry point of JONNY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-ya-yong-shi-de-zu-zhou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%9B%E9%9B%85%E5%8B%87%E5%A3%AB%E7%9A%84%E8%AF%85%E5%92%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-ya-yong-shi-de-zu-zhou.zip"],
           ["Size", "2,312,166 bytes (2.2 MB)"],
           ["SHA-256", "5c5d8476788064df6d30c704f57e5a1749db749f65fb9711fae6e3378b71f038"],
           ["Files", "179"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%9B%E9%9B%85%E5%8B%87%E5%A3%AB%E7%9A%84%E8%AF%85%E5%92%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 玛雅勇士的诅咒 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-ya-yong-shi-de-zu-zhou.zip", external: true},
+          {label: "Download 玛雅勇士的诅咒 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E7%8E%9B%E9%9B%85%E5%8B%87%E5%A3%AB%E7%9A%84%E8%AF%85%E5%92%92.zip", external: true},
         ]},
       ],
     },

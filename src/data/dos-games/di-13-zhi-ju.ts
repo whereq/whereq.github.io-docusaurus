@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "第13支局 is a DOS game in the WhereQ archive — 1995, 7 files, 7.0 MB, and an entry point of B13.COM.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-13-zhi-ju.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AC%AC13%E6%94%AF%E5%B1%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-13-zhi-ju.zip"],
           ["Size", "7,335,230 bytes (7.0 MB)"],
           ["SHA-256", "d5b1cd0c695318d8077ee9587a80a41569eee57b0762cbe019f62521665cf131"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AC%AC13%E6%94%AF%E5%B1%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 第13支局 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-13-zhi-ju.zip", external: true},
+          {label: "Download 第13支局 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E7%AC%AC13%E6%94%AF%E5%B1%80.zip", external: true},
         ]},
       ],
     },

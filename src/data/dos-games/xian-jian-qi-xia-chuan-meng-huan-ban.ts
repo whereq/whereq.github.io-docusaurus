@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "仙剑奇侠传梦幻版 is a DOS game in the WhereQ archive — 2005, 38 files, 17.2 MB, and an entry point of PAL!.EXE.",
   status: "2005",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan-meng-huan-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E6%A2%A6%E5%B9%BB%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2005"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xian-jian-qi-xia-chuan-meng-huan-ban.zip"],
           ["Size", "18,061,106 bytes (17.2 MB)"],
           ["SHA-256", "8485e33d33ece2d331aa53847affac0f1a3f02180e05414b5565eb64d3a17d12"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E6%A2%A6%E5%B9%BB%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 仙剑奇侠传梦幻版 (17.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan-meng-huan-ban.zip", external: true},
+          {label: "Download 仙剑奇侠传梦幻版 (17.2 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E6%A2%A6%E5%B9%BB%E7%89%88.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "欢乐城市 is a DOS game in the WhereQ archive — 1992, 236 files, 3.1 MB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-cheng-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%9F%8E%E5%B8%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-le-cheng-shi.zip"],
           ["Size", "3,289,841 bytes (3.1 MB)"],
           ["SHA-256", "25094ed3b0bafa83ba80c03b1f4dd9275e95a7178194d551096f05821df6cd99"],
           ["Files", "236"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%9F%8E%E5%B8%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 欢乐城市 (3.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-le-cheng-shi.zip", external: true},
+          {label: "Download 欢乐城市 (3.1 MB)", href: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E5%9F%8E%E5%B8%82.zip", external: true},
         ]},
       ],
     },

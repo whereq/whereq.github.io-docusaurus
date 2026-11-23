@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "七喜小子 is a DOS game in the WhereQ archive — 1994, 188 files, 654 KB, and an entry point of SLOAD.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-xi-xiao-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%96%9C%E5%B0%8F%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-xi-xiao-zi.zip"],
           ["Size", "670,086 bytes (654 KB)"],
           ["SHA-256", "e363c6ae5cd1ecea3d8294bc085bb32891e7e70cb7b318d4924a098b1642579e"],
           ["Files", "188"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%83%E5%96%9C%E5%B0%8F%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 七喜小子 (654 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-xi-xiao-zi.zip", external: true},
+          {label: "Download 七喜小子 (654 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%83%E5%96%9C%E5%B0%8F%E5%AD%90.zip", external: true},
         ]},
       ],
     },

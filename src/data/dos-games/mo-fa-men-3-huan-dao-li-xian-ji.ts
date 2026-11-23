@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法门3幻岛历险记 is a DOS game in the WhereQ archive — 1997, 14 files, 3.9 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-3-huan-dao-li-xian-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A83%E5%B9%BB%E5%B2%9B%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-men-3-huan-dao-li-xian-ji.zip"],
           ["Size", "4,046,997 bytes (3.9 MB)"],
           ["SHA-256", "04480a769da8676190027bc59567fc397b1ed7f520a1215a72314219bb7b33ea"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A83%E5%B9%BB%E5%B2%9B%E5%8E%86%E9%99%A9%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法门3幻岛历险记 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-3-huan-dao-li-xian-ji.zip", external: true},
+          {label: "Download 魔法门3幻岛历险记 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A83%E5%B9%BB%E5%B2%9B%E5%8E%86%E9%99%A9%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

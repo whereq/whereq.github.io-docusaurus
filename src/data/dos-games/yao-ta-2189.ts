@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "妖塔2189 is a DOS game in the WhereQ archive — 1996, 487 files, 3.0 MB, and an entry point of 2189.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yao-ta-2189.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A6%96%E5%A1%942189.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yao-ta-2189.zip"],
           ["Size", "3,117,184 bytes (3.0 MB)"],
           ["SHA-256", "8474df2dac250dcacda098843ccc9795b4634064289c131056e91386b6a252f2"],
           ["Files", "487"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A6%96%E5%A1%942189.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 妖塔2189 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yao-ta-2189.zip", external: true},
+          {label: "Download 妖塔2189 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A6%96%E5%A1%942189.zip", external: true},
         ]},
       ],
     },

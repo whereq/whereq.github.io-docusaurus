@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣战物语 is a DOS game in the WhereQ archive — 1997, 150 files, 4.3 MB, and an entry point of DS.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-wu-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E7%89%A9%E8%AF%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-zhan-wu-yu.zip"],
           ["Size", "4,522,774 bytes (4.3 MB)"],
           ["SHA-256", "73f3068dd8c6554ac5202967cb838f272123aba0fa6340cf5d10362e4ea4e2eb"],
           ["Files", "150"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E7%89%A9%E8%AF%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣战物语 (4.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-wu-yu.zip", external: true},
+          {label: "Download 圣战物语 (4.3 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E7%89%A9%E8%AF%AD.zip", external: true},
         ]},
       ],
     },

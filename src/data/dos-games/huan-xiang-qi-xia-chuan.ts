@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻想奇侠传 is a DOS game in the WhereQ archive — 1997, 255 files, 49.3 MB, and an entry point of JHL.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-qi-xia-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E5%A5%87%E4%BE%A0%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-xiang-qi-xia-chuan.zip"],
           ["Size", "51,698,207 bytes (49.3 MB)"],
           ["SHA-256", "e61f4c612e48acb723381f1d4fb1c123a9a537ddb381efbf28d827e9be821841"],
           ["Files", "255"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E5%A5%87%E4%BE%A0%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻想奇侠传 (49.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-qi-xia-chuan.zip", external: true},
+          {label: "Download 幻想奇侠传 (49.3 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E5%A5%87%E4%BE%A0%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "巨兽侵袭 is a DOS game in the WhereQ archive — 1988, 9 files, 416 KB, and an entry point of AARGH.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ju-shou-qin-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%A8%E5%85%BD%E4%BE%B5%E8%A2%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ju-shou-qin-xi.zip"],
           ["Size", "425,625 bytes (416 KB)"],
           ["SHA-256", "e2b9b45a117454f0e1cb93512fbca3c7ba48e471a42652a15dcf78278f99a87c"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%A8%E5%85%BD%E4%BE%B5%E8%A2%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巨兽侵袭 (416 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ju-shou-qin-xi.zip", external: true},
+          {label: "Download 巨兽侵袭 (416 KB)", href: "https://dos-bin.zczc.cz/%E5%B7%A8%E5%85%BD%E4%BE%B5%E8%A2%AD.zip", external: true},
         ]},
       ],
     },

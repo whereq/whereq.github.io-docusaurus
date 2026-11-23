@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "侠客游2 is a DOS game in the WhereQ archive — 1995, 585 files, 4.6 MB, and an entry point of LUNA2.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xia-ke-you-2.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E6%B8%B82.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xia-ke-you-2.zip"],
           ["Size", "4,776,419 bytes (4.6 MB)"],
           ["SHA-256", "9bbb8c0e19100954ab2e52da2c600041f35a1fdd5b3a4f79c3ce6b191aaca18d"],
           ["Files", "585"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E6%B8%B82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 侠客游2 (4.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xia-ke-you-2.zip", external: true},
+          {label: "Download 侠客游2 (4.6 MB)", href: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E6%B8%B82.zip", external: true},
         ]},
       ],
     },

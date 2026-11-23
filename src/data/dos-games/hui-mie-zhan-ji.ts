@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "毁灭战机 is a DOS game in the WhereQ archive — 1996, 73 files, 4.9 MB, and an entry point of RAVAGE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-mie-zhan-ji.zip"],
           ["Size", "5,152,509 bytes (4.9 MB)"],
           ["SHA-256", "a911b3bda12bf96dfdc3a7745a64d463988bcf4390c46e986eae494db308e3a6"],
           ["Files", "73"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 毁灭战机 (4.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-ji.zip", external: true},
+          {label: "Download 毁灭战机 (4.9 MB)", href: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

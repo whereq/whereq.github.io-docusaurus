@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "红楼梦之十二金钗 is a DOS game in the WhereQ archive — 2007, 174 files, 390.9 MB, and an entry point of PLAY.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hong-lou-meng-zhi-shi-er-jin-chai.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%B9%8B%E5%8D%81%E4%BA%8C%E9%87%91%E9%92%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hong-lou-meng-zhi-shi-er-jin-chai.zip"],
           ["Size", "409,866,498 bytes (390.9 MB)"],
           ["SHA-256", "fc56cfb5f4eddd6209b4e581b766eccc467e59bd843310bf3477590e06c300cb"],
           ["Files", "174"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%B9%8B%E5%8D%81%E4%BA%8C%E9%87%91%E9%92%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 红楼梦之十二金钗 (390.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hong-lou-meng-zhi-shi-er-jin-chai.zip", external: true},
+          {label: "Download 红楼梦之十二金钗 (390.9 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%B9%8B%E5%8D%81%E4%BA%8C%E9%87%91%E9%92%97.zip", external: true},
         ]},
       ],
     },

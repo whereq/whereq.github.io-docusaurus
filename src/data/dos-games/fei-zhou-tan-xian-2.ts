@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "非洲探险2 is a DOS game in the WhereQ archive — 1996, 51 files, 6.8 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-zhou-tan-xian-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9D%9E%E6%B4%B2%E6%8E%A2%E9%99%A92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-zhou-tan-xian-2.zip"],
           ["Size", "7,126,705 bytes (6.8 MB)"],
           ["SHA-256", "85abfeeea9a5fe18539d86f0193244f61067343a9f993b2583230d5938d89c7c"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9D%9E%E6%B4%B2%E6%8E%A2%E9%99%A92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 非洲探险2 (6.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-zhou-tan-xian-2.zip", external: true},
+          {label: "Download 非洲探险2 (6.8 MB)", href: "https://dos-bin.zczc.cz/%E9%9D%9E%E6%B4%B2%E6%8E%A2%E9%99%A92.zip", external: true},
         ]},
       ],
     },

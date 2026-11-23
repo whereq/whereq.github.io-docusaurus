@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "罗恩骑士 is a DOS game in the WhereQ archive — 1991, 21 files, 2.0 MB, and an entry point of ROHAN.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luo-en-qi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%97%E6%81%A9%E9%AA%91%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luo-en-qi-shi.zip"],
           ["Size", "2,115,253 bytes (2.0 MB)"],
           ["SHA-256", "491973e199f198e5edb5028197f3171e722a9df891aaa8ee748b13cc3d6e0278"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%97%E6%81%A9%E9%AA%91%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罗恩骑士 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/luo-en-qi-shi.zip", external: true},
+          {label: "Download 罗恩骑士 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E7%BD%97%E6%81%A9%E9%AA%91%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

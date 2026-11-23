@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑色街区 is a DOS game in the WhereQ archive — 1996, 63 files, 3.1 MB, and an entry point of BS.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-se-jie-qu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E8%89%B2%E8%A1%97%E5%8C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-se-jie-qu.zip"],
           ["Size", "3,292,015 bytes (3.1 MB)"],
           ["SHA-256", "4233f36d7a60afe861c4d04d1f7965638368a3e7a04eafba8785da7bf0740fcb"],
           ["Files", "63"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E8%89%B2%E8%A1%97%E5%8C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑色街区 (3.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-se-jie-qu.zip", external: true},
+          {label: "Download 黑色街区 (3.1 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E8%89%B2%E8%A1%97%E5%8C%BA.zip", external: true},
         ]},
       ],
     },

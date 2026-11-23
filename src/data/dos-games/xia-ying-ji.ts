@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "侠影记 is a DOS game in the WhereQ archive — 1992, 11 files, 2.4 MB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xia-ying-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%BD%B1%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xia-ying-ji.zip"],
           ["Size", "2,475,551 bytes (2.4 MB)"],
           ["SHA-256", "c287aeb2973bf1846a0960f32ffcc5e737fdcd3551bf2eeb8dd47b50bb294544"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BE%A0%E5%BD%B1%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 侠影记 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xia-ying-ji.zip", external: true},
+          {label: "Download 侠影记 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%BD%B1%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "宝里宝气骑士 is a DOS game in the WhereQ archive — 1992, 124 files, 5.6 MB, and an entry point of ERIC.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-li-bao-qi-qi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%9D%E9%87%8C%E5%AE%9D%E6%B0%94%E9%AA%91%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-li-bao-qi-qi-shi.zip"],
           ["Size", "5,844,473 bytes (5.6 MB)"],
           ["SHA-256", "218d127b5e9665470e1d581612bf5997494867ce4356fdc723da2665b7048836"],
           ["Files", "124"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%9D%E9%87%8C%E5%AE%9D%E6%B0%94%E9%AA%91%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宝里宝气骑士 (5.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-li-bao-qi-qi-shi.zip", external: true},
+          {label: "Download 宝里宝气骑士 (5.6 MB)", href: "https://dos-bin.zczc.cz/%E5%AE%9D%E9%87%8C%E5%AE%9D%E6%B0%94%E9%AA%91%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "鹰眼传说:伦敦 is a DOS game in the WhereQ archive — 1994, 327 files, 7.2 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ying-yan-chuan-shuo-lun-dun.zip",
+  url: "https://dos-bin.zczc.cz/%E9%B9%B0%E7%9C%BC%E4%BC%A0%E8%AF%B4%EF%BC%9A%E4%BC%A6%E6%95%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ying-yan-chuan-shuo-lun-dun.zip"],
           ["Size", "7,575,812 bytes (7.2 MB)"],
           ["SHA-256", "9a5f9f7a9bd00c7857ecd0391b826e0a2f236616d569652fe86664c0507a5756"],
           ["Files", "327"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%B9%B0%E7%9C%BC%E4%BC%A0%E8%AF%B4%EF%BC%9A%E4%BC%A6%E6%95%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鹰眼传说:伦敦 (7.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ying-yan-chuan-shuo-lun-dun.zip", external: true},
+          {label: "Download 鹰眼传说:伦敦 (7.2 MB)", href: "https://dos-bin.zczc.cz/%E9%B9%B0%E7%9C%BC%E4%BC%A0%E8%AF%B4%EF%BC%9A%E4%BC%A6%E6%95%A6.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "富甲天下 is a DOS game in the WhereQ archive — 1994, 58 files, 1.7 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fu-jia-tian-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fu-jia-tian-xia.zip"],
           ["Size", "1,771,484 bytes (1.7 MB)"],
           ["SHA-256", "4242cb0f7b55a192444474195efbedd5033feed57751d3bffb4cf55c106e0e1e"],
           ["Files", "58"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 富甲天下 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fu-jia-tian-xia.zip", external: true},
+          {label: "Download 富甲天下 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B.zip", external: true},
         ]},
       ],
     },

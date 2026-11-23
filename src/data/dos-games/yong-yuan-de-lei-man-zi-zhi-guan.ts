@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "永远的雷曼自制关 is a DOS game in the WhereQ archive — 2009, 238 files, 519.9 MB, and an entry point of Rayman.bat.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-lei-man-zi-zhi-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E9%9B%B7%E6%9B%BC%E8%87%AA%E5%88%B6%E5%85%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yong-yuan-de-lei-man-zi-zhi-guan.zip"],
           ["Size", "545,145,674 bytes (519.9 MB)"],
           ["SHA-256", "62a96efa92bcc0c251562d5fe207c7030436863d86be0d49e8ca535a5c472331"],
           ["Files", "238"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E9%9B%B7%E6%9B%BC%E8%87%AA%E5%88%B6%E5%85%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 永远的雷曼自制关 (519.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-lei-man-zi-zhi-guan.zip", external: true},
+          {label: "Download 永远的雷曼自制关 (519.9 MB)", href: "https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E9%9B%B7%E6%9B%BC%E8%87%AA%E5%88%B6%E5%85%B3.zip", external: true},
         ]},
       ],
     },

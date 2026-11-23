@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "鬼屋魔影3 is a DOS game in the WhereQ archive — an undated copy, 212 files, 63.5 MB, and an entry point of AITD3.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying-3.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B13.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gui-wu-mo-ying-3.zip"],
           ["Size", "66,628,445 bytes (63.5 MB)"],
           ["SHA-256", "d3da646e49065d6e1e3af906c7adb5dbcddeaa9b96d2d91119db95ef06681e5e"],
           ["Files", "212"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B13.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鬼屋魔影3 (63.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying-3.zip", external: true},
+          {label: "Download 鬼屋魔影3 (63.5 MB)", href: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B13.zip", external: true},
         ]},
       ],
     },

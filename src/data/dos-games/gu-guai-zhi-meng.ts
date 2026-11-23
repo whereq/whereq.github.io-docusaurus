@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "古怪之梦 is a DOS game in the WhereQ archive — an undated copy, 282 files, 3.2 MB, and an entry point of PNOCOMP.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-zhi-meng.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E4%B9%8B%E6%A2%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-guai-zhi-meng.zip"],
           ["Size", "3,372,301 bytes (3.2 MB)"],
           ["SHA-256", "0e1c3880f4041a94b558eae4a5dc7fadf223805e4042848ab9ea9cb6a580f42f"],
           ["Files", "282"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E4%B9%8B%E6%A2%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 古怪之梦 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-zhi-meng.zip", external: true},
+          {label: "Download 古怪之梦 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E4%B9%8B%E6%A2%A6.zip", external: true},
         ]},
       ],
     },

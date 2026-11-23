@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法之镜 is a DOS game in the WhereQ archive — 2000, 256 files, 1.4 MB, and an entry point of mirror.exe.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-zhi-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B9%8B%E9%95%9C.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-zhi-jing.zip"],
           ["Size", "1,428,111 bytes (1.4 MB)"],
           ["SHA-256", "b073f6a118e247c41d351f241e79333e8a26e9de37848a492a86ce5ce3d94512"],
           ["Files", "256"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B9%8B%E9%95%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法之镜 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-zhi-jing.zip", external: true},
+          {label: "Download 魔法之镜 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B9%8B%E9%95%9C.zip", external: true},
         ]},
       ],
     },

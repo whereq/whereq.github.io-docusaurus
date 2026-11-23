@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战甲:月鹰复仇 is a DOS game in the WhereQ archive — 1990, 154 files, 1.1 MB, and an entry point of REVENGE.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-jia-yue-ying-fu-chou.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E7%94%B2%EF%BC%9A%E6%9C%88%E9%B9%B0%E5%A4%8D%E4%BB%87.zip",
   facts: [
     {label: "Developer", value: "INFOCOM"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-jia-yue-ying-fu-chou.zip"],
           ["Size", "1,146,378 bytes (1.1 MB)"],
           ["SHA-256", "cf2e769e9fc85db228673a24e43bd984c8d2df21ed3d5049f831e0edc0847cf5"],
           ["Files", "154"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E7%94%B2%EF%BC%9A%E6%9C%88%E9%B9%B0%E5%A4%8D%E4%BB%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战甲:月鹰复仇 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-jia-yue-ying-fu-chou.zip", external: true},
+          {label: "Download 战甲:月鹰复仇 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E7%94%B2%EF%BC%9A%E6%9C%88%E9%B9%B0%E5%A4%8D%E4%BB%87.zip", external: true},
         ]},
       ],
     },

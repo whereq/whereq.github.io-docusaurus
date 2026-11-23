@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣战录 is a DOS game in the WhereQ archive — 1996, 11 files, 2.7 MB, and an entry point of ASH.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E5%BD%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-zhan-lu.zip"],
           ["Size", "2,805,043 bytes (2.7 MB)"],
           ["SHA-256", "bf5080d300a3a787196ac8cab65a8f80d6e3de3eea27f91b85f9b7a504df0e8f"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E5%BD%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣战录 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-zhan-lu.zip", external: true},
+          {label: "Download 圣战录 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E6%88%98%E5%BD%95.zip", external: true},
         ]},
       ],
     },

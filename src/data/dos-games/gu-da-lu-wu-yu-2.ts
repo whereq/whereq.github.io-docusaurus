@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "古大陆物语2 is a DOS game in the WhereQ archive — 1994, 761 files, 3.7 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-da-lu-wu-yu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A4%A7%E9%99%86%E7%89%A9%E8%AF%AD2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-da-lu-wu-yu-2.zip"],
           ["Size", "3,876,198 bytes (3.7 MB)"],
           ["SHA-256", "e0f2ef5fadb900b35cd9dc8d87bdf2e5c05507a8ca9cd7621cf46d331bda8a99"],
           ["Files", "761"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%A4%E5%A4%A7%E9%99%86%E7%89%A9%E8%AF%AD2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 古大陆物语2 (3.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-da-lu-wu-yu-2.zip", external: true},
+          {label: "Download 古大陆物语2 (3.7 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A4%A7%E9%99%86%E7%89%A9%E8%AF%AD2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "一角城市 is a DOS game in the WhereQ archive — 1996, 283 files, 22.9 MB, and an entry point of DIME.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-cheng-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%80%E8%A7%92%E5%9F%8E%E5%B8%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-jiao-cheng-shi.zip"],
           ["Size", "23,982,925 bytes (22.9 MB)"],
           ["SHA-256", "b8be8e59945321571adba6ebc2a07a64c7068118a7847bda3647642d73cc88bd"],
           ["Files", "283"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%80%E8%A7%92%E5%9F%8E%E5%B8%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 一角城市 (22.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-cheng-shi.zip", external: true},
+          {label: "Download 一角城市 (22.9 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%80%E8%A7%92%E5%9F%8E%E5%B8%82.zip", external: true},
         ]},
       ],
     },

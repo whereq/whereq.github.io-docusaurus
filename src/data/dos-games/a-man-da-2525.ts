@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿曼达2525 is a DOS game in the WhereQ archive — 1996, 22 files, 1.2 MB, and an entry point of 2525DE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-man-da-2525.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E8%BE%BE2525.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-man-da-2525.zip"],
           ["Size", "1,289,015 bytes (1.2 MB)"],
           ["SHA-256", "fae917272e410217b2c5ee4d449364c7d52658a85cf7b9dd4e1a42a2d750b6ed"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E8%BE%BE2525.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿曼达2525 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-man-da-2525.zip", external: true},
+          {label: "Download 阿曼达2525 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E8%BE%BE2525.zip", external: true},
         ]},
       ],
     },

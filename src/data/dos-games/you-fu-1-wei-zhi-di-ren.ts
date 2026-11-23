@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "幽浮1未知敌人 is a DOS game in the WhereQ archive — 1994, 1,032 files, 3.5 MB, and an entry point of FULL.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/you-fu-1-wei-zhi-di-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE1%E6%9C%AA%E7%9F%A5%E6%95%8C%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "you-fu-1-wei-zhi-di-ren.zip"],
           ["Size", "3,653,151 bytes (3.5 MB)"],
           ["SHA-256", "16cce7c3dcbfbc696a629196760adc63fd34278c705082f826e3a9813977d869"],
           ["Files", "1,032"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE1%E6%9C%AA%E7%9F%A5%E6%95%8C%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幽浮1未知敌人 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/you-fu-1-wei-zhi-di-ren.zip", external: true},
+          {label: "Download 幽浮1未知敌人 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE1%E6%9C%AA%E7%9F%A5%E6%95%8C%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

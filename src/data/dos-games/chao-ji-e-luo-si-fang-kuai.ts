@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级俄罗斯方块 is a DOS game in the WhereQ archive — 1991, 36 files, 559 KB, and an entry point of SUPERTET.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-e-luo-si-fang-kuai.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-e-luo-si-fang-kuai.zip"],
           ["Size", "572,852 bytes (559 KB)"],
           ["SHA-256", "8d4ccbe424e2f5162f2bff48121177a8b651fb1ce288f47e7d44af02f3d76392"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级俄罗斯方块 (559 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-e-luo-si-fang-kuai.zip", external: true},
+          {label: "Download 超级俄罗斯方块 (559 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip", external: true},
         ]},
       ],
     },

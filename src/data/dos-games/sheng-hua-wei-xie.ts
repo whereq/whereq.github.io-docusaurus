@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "生化威胁 is a DOS game in the WhereQ archive — 2001, 39 files, 1.6 MB, and an entry point of play.bat.",
   status: "2001",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-hua-wei-xie.zip",
+  url: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E5%A8%81%E8%83%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-hua-wei-xie.zip"],
           ["Size", "1,626,384 bytes (1.6 MB)"],
           ["SHA-256", "b204e36c4087f8e8ef3eb7281ee2caa343d0d1fe07773fd0fdf9cb129085ee84"],
           ["Files", "39"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E5%A8%81%E8%83%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 生化威胁 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-hua-wei-xie.zip", external: true},
+          {label: "Download 生化威胁 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E5%A8%81%E8%83%81.zip", external: true},
         ]},
       ],
     },

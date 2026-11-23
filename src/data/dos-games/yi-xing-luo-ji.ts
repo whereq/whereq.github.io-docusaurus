@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异星逻辑 is a DOS game in the WhereQ archive — 2007, 101 files, 196.2 MB, and an entry point of ALIEN.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-luo-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%80%BB%E8%BE%91.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-luo-ji.zip"],
           ["Size", "205,700,861 bytes (196.2 MB)"],
           ["SHA-256", "e18356ffb9b87f2ff734dee2646409ce519359eb5a28d77180c43c4c1ebe91ee"],
           ["Files", "101"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%80%BB%E8%BE%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异星逻辑 (196.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-luo-ji.zip", external: true},
+          {label: "Download 异星逻辑 (196.2 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%80%BB%E8%BE%91.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三国演义1加强版 is a DOS game in the WhereQ archive — 1991, 33 files, 1.8 MB, and an entry point of ASV.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-yan-yi-1-jia-qiang-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%891%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-guo-yan-yi-1-jia-qiang-ban.zip"],
           ["Size", "1,908,080 bytes (1.8 MB)"],
           ["SHA-256", "c0d4f0ee1f6975ab5dfde412af691bc9558f71df2862468b91dd3500e7fbee1d"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%891%E5%8A%A0%E5%BC%BA%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三国演义1加强版 (1.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-guo-yan-yi-1-jia-qiang-ban.zip", external: true},
+          {label: "Download 三国演义1加强版 (1.8 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%891%E5%8A%A0%E5%BC%BA%E7%89%88.zip", external: true},
         ]},
       ],
     },

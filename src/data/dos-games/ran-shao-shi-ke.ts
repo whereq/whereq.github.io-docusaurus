@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "燃烧时刻 is a DOS game in the WhereQ archive — 2000, 292 files, 2.1 MB, and an entry point of BT.BAT.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ran-shao-shi-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E7%87%83%E7%83%A7%E6%97%B6%E5%88%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ran-shao-shi-ke.zip"],
           ["Size", "2,192,795 bytes (2.1 MB)"],
           ["SHA-256", "1bcffb784c0c69d0cd018c24d85fbd6492115d22364bd6439fe7fe5a2af7b7c5"],
           ["Files", "292"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%87%83%E7%83%A7%E6%97%B6%E5%88%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 燃烧时刻 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/ran-shao-shi-ke.zip", external: true},
+          {label: "Download 燃烧时刻 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E7%87%83%E7%83%A7%E6%97%B6%E5%88%BB.zip", external: true},
         ]},
       ],
     },

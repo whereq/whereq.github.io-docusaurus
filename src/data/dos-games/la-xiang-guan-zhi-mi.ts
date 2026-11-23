@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蜡像馆之谜 is a DOS game in the WhereQ archive — 1992, 474 files, 4.5 MB, and an entry point of Play.bat.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/l/la-xiang-guan-zhi-mi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%9C%A1%E5%83%8F%E9%A6%86%E4%B9%8B%E8%B0%9C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "la-xiang-guan-zhi-mi.zip"],
           ["Size", "4,697,442 bytes (4.5 MB)"],
           ["SHA-256", "d115b36184564479d509fb0cb6cbbdc98a70e6880fcf48562d9196c8dcb257a3"],
           ["Files", "474"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%9C%A1%E5%83%8F%E9%A6%86%E4%B9%8B%E8%B0%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蜡像馆之谜 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/la-xiang-guan-zhi-mi.zip", external: true},
+          {label: "Download 蜡像馆之谜 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E8%9C%A1%E5%83%8F%E9%A6%86%E4%B9%8B%E8%B0%9C.zip", external: true},
         ]},
       ],
     },

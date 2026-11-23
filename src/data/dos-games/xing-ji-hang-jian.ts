@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星际航舰 is a DOS game in the WhereQ archive — 1986, 20 files, 282 KB, and an entry point of STARFLT.COM.",
   status: "1986",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-hang-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%88%AA%E8%88%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1986"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-ji-hang-jian.zip"],
           ["Size", "288,670 bytes (282 KB)"],
           ["SHA-256", "1a9f1292a79e35b14e59183ffb9608eeacb688feebd70b3490746f5288e88389"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%88%AA%E8%88%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星际航舰 (282 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-hang-jian.zip", external: true},
+          {label: "Download 星际航舰 (282 KB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%88%AA%E8%88%B0.zip", external: true},
         ]},
       ],
     },

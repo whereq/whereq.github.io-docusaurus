@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "e",
   summary: "俄罗斯方块 is a DOS game in the WhereQ archive — 1987, 15 files, 75 KB, and an entry point of CTETRIS.EXE.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/e/e-luo-si-fang-kuai.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "e-luo-si-fang-kuai.zip"],
           ["Size", "76,694 bytes (75 KB)"],
           ["SHA-256", "29c189b1965b9c4017e73807b8de4f2569e6f479a557718c40a43055e6193740"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 俄罗斯方块 (75 KB)", href: "https://github.com/whereq/dos-games/releases/download/e/e-luo-si-fang-kuai.zip", external: true},
+          {label: "Download 俄罗斯方块 (75 KB)", href: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip", external: true},
         ]},
       ],
     },

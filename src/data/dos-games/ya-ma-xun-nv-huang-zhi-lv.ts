@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "亚马逊女皇之旅 is a DOS game in the WhereQ archive — 1996, 13 files, 8.7 MB, and an entry point of aq.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ya-ma-xun-nv-huang-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A5%B3%E7%9A%87%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ya-ma-xun-nv-huang-zhi-lv.zip"],
           ["Size", "9,073,210 bytes (8.7 MB)"],
           ["SHA-256", "e8335cda409c12bc3673fafdf10b1eb825d91b911e04604d65db60a0372e09f5"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A5%B3%E7%9A%87%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 亚马逊女皇之旅 (8.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ya-ma-xun-nv-huang-zhi-lv.zip", external: true},
+          {label: "Download 亚马逊女皇之旅 (8.7 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A5%B3%E7%9A%87%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

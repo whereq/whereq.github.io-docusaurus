@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "危险丛林 is a DOS game in the WhereQ archive — 1992, 7 files, 616 KB, and an entry point of RISKY.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-cong-lin.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E4%B8%9B%E6%9E%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-xian-cong-lin.zip"],
           ["Size", "631,134 bytes (616 KB)"],
           ["SHA-256", "00cef574faf2f6f52237ce4a66679b1f0147964a7e32753744935c9c3be97a6d"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E4%B8%9B%E6%9E%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 危险丛林 (616 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-xian-cong-lin.zip", external: true},
+          {label: "Download 危险丛林 (616 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E4%B8%9B%E6%9E%97.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大海战 is a DOS game in the WhereQ archive — 1997, 12 files, 123 KB, and an entry point of BATTLESH.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hai-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hai-zhan.zip"],
           ["Size", "125,572 bytes (123 KB)"],
           ["SHA-256", "01fa0828e041b17f1e521911353c37000def66f87c32d11972cf2c9b016f2ba1"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大海战 (123 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hai-zhan.zip", external: true},
+          {label: "Download 大海战 (123 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%98.zip", external: true},
         ]},
       ],
     },

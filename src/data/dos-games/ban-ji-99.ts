@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "班级99 is a DOS game in the WhereQ archive — 1999, 17 files, 819 KB, and an entry point of PLAY.BAT.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/b/ban-ji-99.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8F%AD%E7%BA%A799.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ban-ji-99.zip"],
           ["Size", "838,310 bytes (819 KB)"],
           ["SHA-256", "0f797b2cbbd4246c786f11a87de040c30dacb1495266987cf01fad15c1ce3331"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8F%AD%E7%BA%A799.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 班级99 (819 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/ban-ji-99.zip", external: true},
+          {label: "Download 班级99 (819 KB)", href: "https://dos-bin.zczc.cz/%E7%8F%AD%E7%BA%A799.zip", external: true},
         ]},
       ],
     },

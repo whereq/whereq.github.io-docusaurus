@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "乌龙院 is a DOS game in the WhereQ archive — 1997, 314 files, 28.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-long-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B9%8C%E9%BE%99%E9%99%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-long-yuan.zip"],
           ["Size", "29,742,029 bytes (28.4 MB)"],
           ["SHA-256", "7b34fea471c32d81bb2c0e0ba028806bd80eba6b2679b59ea4b32fa3b7da6b1d"],
           ["Files", "314"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B9%8C%E9%BE%99%E9%99%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 乌龙院 (28.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-long-yuan.zip", external: true},
+          {label: "Download 乌龙院 (28.4 MB)", href: "https://dos-bin.zczc.cz/%E4%B9%8C%E9%BE%99%E9%99%A2.zip", external: true},
         ]},
       ],
     },

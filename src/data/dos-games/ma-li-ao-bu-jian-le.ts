@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "马里奥不见了 is a DOS game in the WhereQ archive — 2000, 17 files, 5.0 MB, and an entry point of PLAY.BAT.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-bu-jian-le.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E4%B8%8D%E8%A7%81%E4%BA%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-li-ao-bu-jian-le.zip"],
           ["Size", "5,240,067 bytes (5.0 MB)"],
           ["SHA-256", "f3c35200d0b2c7e09ee1afd1155f3c35852a9026dfd1773b2c50c4caf9082ecc"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E4%B8%8D%E8%A7%81%E4%BA%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 马里奥不见了 (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-bu-jian-le.zip", external: true},
+          {label: "Download 马里奥不见了 (5.0 MB)", href: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E4%B8%8D%E8%A7%81%E4%BA%86.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "突破2 is a DOS game in the WhereQ archive — 1990, 40 files, 497 KB, and an entry point of PLAY.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tu-po-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AA%81%E7%A0%B42.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tu-po-2.zip"],
           ["Size", "509,392 bytes (497 KB)"],
           ["SHA-256", "cedf590cf43bf2cbacbcad054cd20ef626fd56b37cfce89ee77fbd5b6b4b3f18"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AA%81%E7%A0%B42.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 突破2 (497 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tu-po-2.zip", external: true},
+          {label: "Download 突破2 (497 KB)", href: "https://dos-bin.zczc.cz/%E7%AA%81%E7%A0%B42.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "上帝 is a DOS game in the WhereQ archive — 1996, 186 files, 6.4 MB, and an entry point of GOD.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shang-di.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shang-di.zip"],
           ["Size", "6,663,324 bytes (6.4 MB)"],
           ["SHA-256", "332065f39247c41c21598f15cda6c8509d821bb449600ca56c015a2236117b52"],
           ["Files", "186"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 上帝 (6.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shang-di.zip", external: true},
+          {label: "Download 上帝 (6.4 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D.zip", external: true},
         ]},
       ],
     },

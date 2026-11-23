@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "装甲元帅 is a DOS game in the WhereQ archive — 1994, 894 files, 12.7 MB, and an entry point of PG.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-yuan-shuai.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%85%83%E5%B8%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuang-jia-yuan-shuai.zip"],
           ["Size", "13,319,849 bytes (12.7 MB)"],
           ["SHA-256", "d86e56e5d9ded270938bd129e9c2f8563b588c034e4d598b0c26abd230ba7b84"],
           ["Files", "894"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%85%83%E5%B8%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 装甲元帅 (12.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-yuan-shuai.zip", external: true},
+          {label: "Download 装甲元帅 (12.7 MB)", href: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%85%83%E5%B8%85.zip", external: true},
         ]},
       ],
     },

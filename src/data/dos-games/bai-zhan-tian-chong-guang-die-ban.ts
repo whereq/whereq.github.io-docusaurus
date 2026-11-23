@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "百战天虫光碟版 is a DOS game in the WhereQ archive — 1996, 272 files, 547.6 MB, and an entry point of WORMS.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-tian-chong-guang-die-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB%E5%85%89%E7%A2%9F%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bai-zhan-tian-chong-guang-die-ban.zip"],
           ["Size", "574,238,727 bytes (547.6 MB)"],
           ["SHA-256", "9be0a3cbbff3c303e658ea4100f8603f2fe2ff98ecd5fc324e9bf33c5446f330"],
           ["Files", "272"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB%E5%85%89%E7%A2%9F%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 百战天虫光碟版 (547.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-tian-chong-guang-die-ban.zip", external: true},
+          {label: "Download 百战天虫光碟版 (547.6 MB)", href: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB%E5%85%89%E7%A2%9F%E7%89%88.zip", external: true},
         ]},
       ],
     },

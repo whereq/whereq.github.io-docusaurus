@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙骑士4 is a DOS game in the WhereQ archive — 1995, 1,381 files, 12.0 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-qi-shi-4.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-qi-shi-4.zip"],
           ["Size", "12,592,209 bytes (12.0 MB)"],
           ["SHA-256", "7c8e1279938a255356306d60600fe692a09e23970cb8a83997c55422b8ffc3c8"],
           ["Files", "1,381"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙骑士4 (12.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-qi-shi-4.zip", external: true},
+          {label: "Download 龙骑士4 (12.0 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB4.zip", external: true},
         ]},
       ],
     },

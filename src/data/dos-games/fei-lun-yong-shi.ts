@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞轮勇士 is a DOS game in the WhereQ archive — 1988, 47 files, 221 KB, and an entry point of AUTODUEL.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-lun-yong-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%BD%AE%E5%8B%87%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-lun-yong-shi.zip"],
           ["Size", "226,412 bytes (221 KB)"],
           ["SHA-256", "b235e8bb1e87033c983a9c1dedd4b0bf0d25913d58959d9cce4583eb90ca667f"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E8%BD%AE%E5%8B%87%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞轮勇士 (221 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-lun-yong-shi.zip", external: true},
+          {label: "Download 飞轮勇士 (221 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%BD%AE%E5%8B%87%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

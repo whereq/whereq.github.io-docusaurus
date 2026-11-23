@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿曼尼斯传说3 is a DOS game in the WhereQ archive — 1995, 101 files, 4.5 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-man-ni-si-chuan-shuo-3.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E6%96%AF%E4%BC%A0%E8%AF%B43.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-man-ni-si-chuan-shuo-3.zip"],
           ["Size", "4,685,907 bytes (4.5 MB)"],
           ["SHA-256", "d71ce841c790f9697d46bdd95bd5c8695d27c949a872a8aa96c314013a8ef844"],
           ["Files", "101"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E6%96%AF%E4%BC%A0%E8%AF%B43.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿曼尼斯传说3 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-man-ni-si-chuan-shuo-3.zip", external: true},
+          {label: "Download 阿曼尼斯传说3 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E5%B0%BC%E6%96%AF%E4%BC%A0%E8%AF%B43.zip", external: true},
         ]},
       ],
     },

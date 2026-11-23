@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "水浒传少年英雄 is a DOS game in the WhereQ archive — 1997, 746 files, 69.5 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-zhuan-shao-nian-ying-xiong.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E4%BC%A0%E5%B0%91%E5%B9%B4%E8%8B%B1%E9%9B%84.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shui-hu-zhuan-shao-nian-ying-xiong.zip"],
           ["Size", "72,861,300 bytes (69.5 MB)"],
           ["SHA-256", "131207ca1e1970783588394d1eb17c90fbd2129d8fec8fac76a2b2114a2fcc48"],
           ["Files", "746"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E4%BC%A0%E5%B0%91%E5%B9%B4%E8%8B%B1%E9%9B%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 水浒传少年英雄 (69.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shui-hu-zhuan-shao-nian-ying-xiong.zip", external: true},
+          {label: "Download 水浒传少年英雄 (69.5 MB)", href: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E4%BC%A0%E5%B0%91%E5%B9%B4%E8%8B%B1%E9%9B%84.zip", external: true},
         ]},
       ],
     },

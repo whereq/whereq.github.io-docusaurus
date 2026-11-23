@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "轩辕剑1 is a DOS game in the WhereQ archive — 1990, 346 files, 1010 KB, and an entry point of Play.bat.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-1.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%911.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xuan-yuan-jian-1.zip"],
           ["Size", "1,033,798 bytes (1010 KB)"],
           ["SHA-256", "92b6f9f284e297f1342d0362fb5e583f1f9813cf79a6ccc33f32a801e26e94a7"],
           ["Files", "346"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%911.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 轩辕剑1 (1010 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-1.zip", external: true},
+          {label: "Download 轩辕剑1 (1010 KB)", href: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%911.zip", external: true},
         ]},
       ],
     },

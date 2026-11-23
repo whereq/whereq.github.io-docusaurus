@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河帝国传 is a DOS game in the WhereQ archive — 1990, 167 files, 590 KB, and an entry point of GLMM.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-di-guo-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-di-guo-chuan.zip"],
           ["Size", "604,664 bytes (590 KB)"],
           ["SHA-256", "5f085a81f92c0a9fbfaeafe0147bab3450d1d685ee63a745b04d2634b6ad2475"],
           ["Files", "167"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河帝国传 (590 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-di-guo-chuan.zip", external: true},
+          {label: "Download 银河帝国传 (590 KB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

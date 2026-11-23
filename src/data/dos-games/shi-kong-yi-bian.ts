@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "时空异变 is a DOS game in the WhereQ archive — 1993, 212 files, 3.0 MB, and an entry point of GAME.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-yi-bian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E5%BC%82%E5%8F%98.zip",
   facts: [
     {label: "Developer", value: "火鳥"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-kong-yi-bian.zip"],
           ["Size", "3,158,835 bytes (3.0 MB)"],
           ["SHA-256", "f7c78e863987aaa385f188806b3138e3c4d444129884ce7f45b9b1752a5fc83e"],
           ["Files", "212"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E5%BC%82%E5%8F%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 时空异变 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-yi-bian.zip", external: true},
+          {label: "Download 时空异变 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E5%BC%82%E5%8F%98.zip", external: true},
         ]},
       ],
     },

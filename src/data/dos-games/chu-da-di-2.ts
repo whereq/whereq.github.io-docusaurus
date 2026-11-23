@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "锄大地2 is a DOS game in the WhereQ archive — 1992, 51 files, 775 KB, and an entry point of BIG2.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chu-da-di-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%94%84%E5%A4%A7%E5%9C%B02.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chu-da-di-2.zip"],
           ["Size", "793,525 bytes (775 KB)"],
           ["SHA-256", "44db1d39a239b2952f59b821103bb512d83dea82b951947268c178a0a6c273ae"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%94%84%E5%A4%A7%E5%9C%B02.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 锄大地2 (775 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chu-da-di-2.zip", external: true},
+          {label: "Download 锄大地2 (775 KB)", href: "https://dos-bin.zczc.cz/%E9%94%84%E5%A4%A7%E5%9C%B02.zip", external: true},
         ]},
       ],
     },

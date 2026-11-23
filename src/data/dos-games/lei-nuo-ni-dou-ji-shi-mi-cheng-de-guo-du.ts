@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "雷诺尼都纪事(迷城的国度) is a DOS game in the WhereQ archive — 1995, 244 files, 3.0 MB, and an entry point of XANADU.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-nuo-ni-dou-ji-shi-mi-cheng-de-guo-du.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%B7%E8%AF%BA%E5%B0%BC%E9%83%BD%E7%BA%AA%E4%BA%8B%28%E8%BF%B7%E5%9F%8E%E7%9A%84%E5%9B%BD%E5%BA%A6%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-nuo-ni-dou-ji-shi-mi-cheng-de-guo-du.zip"],
           ["Size", "3,138,303 bytes (3.0 MB)"],
           ["SHA-256", "fb96ef2d7ce74f750a9d8ccff73b46f36aa9e3558b1bfa4c47158c74d78b7db5"],
           ["Files", "244"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%B7%E8%AF%BA%E5%B0%BC%E9%83%BD%E7%BA%AA%E4%BA%8B%28%E8%BF%B7%E5%9F%8E%E7%9A%84%E5%9B%BD%E5%BA%A6%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雷诺尼都纪事(迷城的国度) (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-nuo-ni-dou-ji-shi-mi-cheng-de-guo-du.zip", external: true},
+          {label: "Download 雷诺尼都纪事(迷城的国度) (3.0 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%B7%E8%AF%BA%E5%B0%BC%E9%83%BD%E7%BA%AA%E4%BA%8B%28%E8%BF%B7%E5%9F%8E%E7%9A%84%E5%9B%BD%E5%BA%A6%29.zip", external: true},
         ]},
       ],
     },

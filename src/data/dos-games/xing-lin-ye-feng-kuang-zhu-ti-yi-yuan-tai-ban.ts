@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "杏林也疯狂(主题医院台版) is a DOS game in the WhereQ archive — 1997, 468 files, 26.1 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9D%8F%E6%9E%97%E4%B9%9F%E7%96%AF%E7%8B%82%28%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2%E5%8F%B0%E7%89%88%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban.zip"],
           ["Size", "27,416,048 bytes (26.1 MB)"],
           ["SHA-256", "40f029d14b8fd368ae100877ea8389d3e66477b21ce4ef292a08f3b15e0155e0"],
           ["Files", "468"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9D%8F%E6%9E%97%E4%B9%9F%E7%96%AF%E7%8B%82%28%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2%E5%8F%B0%E7%89%88%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 杏林也疯狂(主题医院台版) (26.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban.zip", external: true},
+          {label: "Download 杏林也疯狂(主题医院台版) (26.1 MB)", href: "https://dos-bin.zczc.cz/%E6%9D%8F%E6%9E%97%E4%B9%9F%E7%96%AF%E7%8B%82%28%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2%E5%8F%B0%E7%89%88%29.zip", external: true},
         ]},
       ],
     },

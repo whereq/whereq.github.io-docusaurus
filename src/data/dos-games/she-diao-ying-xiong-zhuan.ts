@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "射雕英雄传 is a DOS game in the WhereQ archive — 1993, 169 files, 8.1 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/she-diao-ying-xiong-zhuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "she-diao-ying-xiong-zhuan.zip"],
           ["Size", "8,514,061 bytes (8.1 MB)"],
           ["SHA-256", "184a7493a648e6b1f2f598a7334c8ebc7f6e8823fc5860b109354aa7085120f6"],
           ["Files", "169"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 射雕英雄传 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/she-diao-ying-xiong-zhuan.zip", external: true},
+          {label: "Download 射雕英雄传 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

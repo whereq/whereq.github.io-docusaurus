@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗圣战录 is a DOS game in the WhereQ archive — 1997, 578 files, 128.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-sheng-zhan-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%9C%A3%E6%88%98%E5%BD%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-sheng-zhan-lu.zip"],
           ["Size", "134,643,385 bytes (128.4 MB)"],
           ["SHA-256", "9f08ec217809d2147781119b13b0e81f0b354fbc2f37829e696982543c77ac03"],
           ["Files", "578"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%9C%A3%E6%88%98%E5%BD%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗圣战录 (128.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-sheng-zhan-lu.zip", external: true},
+          {label: "Download 黑暗圣战录 (128.4 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%9C%A3%E6%88%98%E5%BD%95.zip", external: true},
         ]},
       ],
     },

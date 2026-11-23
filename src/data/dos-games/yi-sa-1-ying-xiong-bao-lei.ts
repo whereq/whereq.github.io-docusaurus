@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "以撒1英雄堡垒 is a DOS game in the WhereQ archive — 1996, 111 files, 4.4 MB, and an entry point of start.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-1-ying-xiong-bao-lei.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%921%E8%8B%B1%E9%9B%84%E5%A0%A1%E5%9E%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-sa-1-ying-xiong-bao-lei.zip"],
           ["Size", "4,617,388 bytes (4.4 MB)"],
           ["SHA-256", "e59105510b599ecf52af56545924dba1d11a1b2afcdf228f9161abcc24768c05"],
           ["Files", "111"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%921%E8%8B%B1%E9%9B%84%E5%A0%A1%E5%9E%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 以撒1英雄堡垒 (4.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-1-ying-xiong-bao-lei.zip", external: true},
+          {label: "Download 以撒1英雄堡垒 (4.4 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%921%E8%8B%B1%E9%9B%84%E5%A0%A1%E5%9E%92.zip", external: true},
         ]},
       ],
     },

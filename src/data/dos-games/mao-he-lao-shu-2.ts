@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "猫和老鼠2 is a DOS game in the WhereQ archive — 1993, 1 files, 290 KB, and an entry point of TJ2.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mao-he-lao-shu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A02.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mao-he-lao-shu-2.zip"],
           ["Size", "297,095 bytes (290 KB)"],
           ["SHA-256", "8c57a029338b1d42f462cb15697205a47c1d1c90f19d4ef28ff8b45162907344"],
           ["Files", "1"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A02.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 猫和老鼠2 (290 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mao-he-lao-shu-2.zip", external: true},
+          {label: "Download 猫和老鼠2 (290 KB)", href: "https://dos-bin.zczc.cz/%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A02.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小人物狂想曲 is a DOS game in the WhereQ archive — 1990, 13 files, 1.2 MB, and an entry point of KING.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-ren-wu-kuang-xiang-qu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%8B%82%E6%83%B3%E6%9B%B2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-ren-wu-kuang-xiang-qu.zip"],
           ["Size", "1,284,033 bytes (1.2 MB)"],
           ["SHA-256", "2532ade76e73050b87db80f5727bfa899abc1e00b72854e24d0584bf7e3dbf87"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%8B%82%E6%83%B3%E6%9B%B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小人物狂想曲 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-ren-wu-kuang-xiang-qu.zip", external: true},
+          {label: "Download 小人物狂想曲 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%8B%82%E6%83%B3%E6%9B%B2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "元素球 is a DOS game in the WhereQ archive — 1994, 49 files, 393 KB, and an entry point of ELEMENTS.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yuan-su-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%83%E7%B4%A0%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yuan-su-qiu.zip"],
           ["Size", "402,825 bytes (393 KB)"],
           ["SHA-256", "2721991088d89262e312eef34044d0ab63d64c50e430fc344e0eb02f44bc8703"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%83%E7%B4%A0%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 元素球 (393 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yuan-su-qiu.zip", external: true},
+          {label: "Download 元素球 (393 KB)", href: "https://dos-bin.zczc.cz/%E5%85%83%E7%B4%A0%E7%90%83.zip", external: true},
         ]},
       ],
     },

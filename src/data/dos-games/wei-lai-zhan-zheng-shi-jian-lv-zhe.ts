@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "未来战争时间旅者 is a DOS game in the WhereQ archive — 1990, 27 files, 2.7 MB, and an entry point of FW.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-lai-zhan-zheng-shi-jian-lv-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%AA%E6%9D%A5%E6%88%98%E4%BA%89%E6%97%B6%E9%97%B4%E6%97%85%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-lai-zhan-zheng-shi-jian-lv-zhe.zip"],
           ["Size", "2,846,243 bytes (2.7 MB)"],
           ["SHA-256", "2264653a28a4ce3a09c13bc8038fd801c6f8288237d7e82fb271e61d0d8efbf0"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%AA%E6%9D%A5%E6%88%98%E4%BA%89%E6%97%B6%E9%97%B4%E6%97%85%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 未来战争时间旅者 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-lai-zhan-zheng-shi-jian-lv-zhe.zip", external: true},
+          {label: "Download 未来战争时间旅者 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%AA%E6%9D%A5%E6%88%98%E4%BA%89%E6%97%B6%E9%97%B4%E6%97%85%E8%80%85.zip", external: true},
         ]},
       ],
     },

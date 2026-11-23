@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "致命挑战 is a DOS game in the WhereQ archive — 1996, 17 files, 194 KB, and an entry point of KAR.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-ming-tiao-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%8C%91%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-ming-tiao-zhan.zip"],
           ["Size", "199,162 bytes (194 KB)"],
           ["SHA-256", "41aeefc463f6319e8b7b412ea8bd83eb2cc9e427ea3370ae8b5f50a53e600475"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%8C%91%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 致命挑战 (194 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-ming-tiao-zhan.zip", external: true},
+          {label: "Download 致命挑战 (194 KB)", href: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%8C%91%E6%88%98.zip", external: true},
         ]},
       ],
     },

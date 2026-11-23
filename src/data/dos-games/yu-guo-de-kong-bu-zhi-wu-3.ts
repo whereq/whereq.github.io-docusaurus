@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "雨果的恐怖之屋3 is a DOS game in the WhereQ archive — 1992, 9 files, 472 KB, and an entry point of HUGO.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-guo-de-kong-bu-zhi-wu-3.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B3.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-guo-de-kong-bu-zhi-wu-3.zip"],
           ["Size", "483,644 bytes (472 KB)"],
           ["SHA-256", "d4d2834cc21ee6d059f820b4ef727a670e31ebf1633358147e8f1f20512330fa"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雨果的恐怖之屋3 (472 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-guo-de-kong-bu-zhi-wu-3.zip", external: true},
+          {label: "Download 雨果的恐怖之屋3 (472 KB)", href: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B3.zip", external: true},
         ]},
       ],
     },

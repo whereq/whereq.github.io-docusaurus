@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "X计划 is a DOS game in the WhereQ archive — 1995, 8 files, 1.9 MB, and an entry point of X.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/x-ji-hua.zip",
+  url: "https://dos-bin.zczc.cz/X%E8%AE%A1%E5%88%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "x-ji-hua.zip"],
           ["Size", "1,980,803 bytes (1.9 MB)"],
           ["SHA-256", "beafc4651719ab9fb8247f71aed5b13e446d2d44a8b44e92927feef019d098cc"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/X%E8%AE%A1%E5%88%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download X计划 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/x-ji-hua.zip", external: true},
+          {label: "Download X计划 (1.9 MB)", href: "https://dos-bin.zczc.cz/X%E8%AE%A1%E5%88%92.zip", external: true},
         ]},
       ],
     },

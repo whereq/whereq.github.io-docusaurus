@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美少女特勤组 is a DOS game in the WhereQ archive — 1995, 457 files, 3.5 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-te-qin-zu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E7%89%B9%E5%8B%A4%E7%BB%84.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-shao-nv-te-qin-zu.zip"],
           ["Size", "3,702,420 bytes (3.5 MB)"],
           ["SHA-256", "c51e26ed2ec73411717ff9ed224c5c321bcf7c25b2ac65e56d73232e45571f2f"],
           ["Files", "457"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E7%89%B9%E5%8B%A4%E7%BB%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美少女特勤组 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-te-qin-zu.zip", external: true},
+          {label: "Download 美少女特勤组 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E7%89%B9%E5%8B%A4%E7%BB%84.zip", external: true},
         ]},
       ],
     },

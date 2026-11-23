@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "血祭 is a DOS game in the WhereQ archive — 1998, 75 files, 37.7 MB, and an entry point of blood.exe.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xue-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A1%80%E7%A5%AD.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xue-ji.zip"],
           ["Size", "39,506,068 bytes (37.7 MB)"],
           ["SHA-256", "8392224c4bd5d9c80c20376e1cdf6141fffea5a1626c0b077cbef96f20bfaf63"],
           ["Files", "75"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A1%80%E7%A5%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 血祭 (37.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xue-ji.zip", external: true},
+          {label: "Download 血祭 (37.7 MB)", href: "https://dos-bin.zczc.cz/%E8%A1%80%E7%A5%AD.zip", external: true},
         ]},
       ],
     },

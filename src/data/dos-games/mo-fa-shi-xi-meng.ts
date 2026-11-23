@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法师西蒙 is a DOS game in the WhereQ archive — 1993, 440 files, 3.9 MB, and an entry point of SIMON.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-xi-meng.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B8%88%E8%A5%BF%E8%92%99.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-shi-xi-meng.zip"],
           ["Size", "4,083,781 bytes (3.9 MB)"],
           ["SHA-256", "7d1e004ba91db7ea7dfa83e702bfc3e211d5c21485d5973c1c7f1b789961a5d3"],
           ["Files", "440"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B8%88%E8%A5%BF%E8%92%99.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法师西蒙 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-xi-meng.zip", external: true},
+          {label: "Download 魔法师西蒙 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B8%88%E8%A5%BF%E8%92%99.zip", external: true},
         ]},
       ],
     },

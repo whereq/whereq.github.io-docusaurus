@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔域传奇:史特卡的财宝1.2 is a DOS game in the WhereQ archive — 1994, 120 files, 9.6 MB, and an entry point of SINSTALL.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-chuan-qi-shi-te-ka-de-cai-bao-1-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E5%8F%B2%E7%89%B9%E5%8D%A1%E7%9A%84%E8%B4%A2%E5%AE%9D1.2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yu-chuan-qi-shi-te-ka-de-cai-bao-1-2.zip"],
           ["Size", "10,114,023 bytes (9.6 MB)"],
           ["SHA-256", "671d2c542b1a1cdd1de940f8f1000c42b816e8d0ffd090880593711c51ec54bf"],
           ["Files", "120"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E5%8F%B2%E7%89%B9%E5%8D%A1%E7%9A%84%E8%B4%A2%E5%AE%9D1.2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔域传奇:史特卡的财宝1.2 (9.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-chuan-qi-shi-te-ka-de-cai-bao-1-2.zip", external: true},
+          {label: "Download 魔域传奇:史特卡的财宝1.2 (9.6 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E5%8F%B2%E7%89%B9%E5%8D%A1%E7%9A%84%E8%B4%A2%E5%AE%9D1.2.zip", external: true},
         ]},
       ],
     },

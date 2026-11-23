@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗之心 is a DOS game in the WhereQ archive — 1990, 80 files, 564 KB, and an entry point of UUKRUL.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-xin.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%BF%83.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-zhi-xin.zip"],
           ["Size", "577,117 bytes (564 KB)"],
           ["SHA-256", "76da63019ee70abcd96aa9291e1e3a078fee4f3a9ba557d86b0dd669ddf5f91b"],
           ["Files", "80"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%BF%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗之心 (564 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-xin.zip", external: true},
+          {label: "Download 黑暗之心 (564 KB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%BF%83.zip", external: true},
         ]},
       ],
     },

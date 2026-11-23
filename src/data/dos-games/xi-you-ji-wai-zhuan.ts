@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "西游记外传 is a DOS game in the WhereQ archive — 1993, 268 files, 3.8 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-you-ji-wai-zhuan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E5%A4%96%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-you-ji-wai-zhuan.zip"],
           ["Size", "3,949,041 bytes (3.8 MB)"],
           ["SHA-256", "54cc8df5d62ecf1dd3ce0dcbd7109fae185cbc2e0eea05ebb22dc373102c7584"],
           ["Files", "268"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E5%A4%96%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 西游记外传 (3.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-you-ji-wai-zhuan.zip", external: true},
+          {label: "Download 西游记外传 (3.8 MB)", href: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E5%A4%96%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

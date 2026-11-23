@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级五子棋 is a DOS game in the WhereQ archive — 1998, 79 files, 11.4 MB, and an entry point of PLAY.EXE.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-wu-zi-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BA%94%E5%AD%90%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-wu-zi-qi.zip"],
           ["Size", "12,004,100 bytes (11.4 MB)"],
           ["SHA-256", "2c569ee5378d7a59c2a70ed2fa6df6c3303ea8955016f88db2e587960c399da6"],
           ["Files", "79"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BA%94%E5%AD%90%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级五子棋 (11.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-wu-zi-qi.zip", external: true},
+          {label: "Download 超级五子棋 (11.4 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%BA%94%E5%AD%90%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三界论-邦沛之谜 is a DOS game in the WhereQ archive — 1996, 93 files, 3.2 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-jie-lun-bang-pei-zhi-mi.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%AE%BA-%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%B0%9C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-jie-lun-bang-pei-zhi-mi.zip"],
           ["Size", "3,373,847 bytes (3.2 MB)"],
           ["SHA-256", "3e7aea6e8c91535d775676f215142dfd8ff370147a98fc1ebd7b482f832e6810"],
           ["Files", "93"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%AE%BA-%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%B0%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三界论-邦沛之谜 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-jie-lun-bang-pei-zhi-mi.zip", external: true},
+          {label: "Download 三界论-邦沛之谜 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%AE%BA-%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%B0%9C.zip", external: true},
         ]},
       ],
     },

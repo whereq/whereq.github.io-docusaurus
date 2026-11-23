@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "摇滚少林之七侠五义 is a DOS game in the WhereQ archive — 1994, 19 files, 7.8 MB, and an entry point of play.bat.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yao-gun-shao-lin-zhi-qi-xia-wu-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%91%87%E6%BB%9A%E5%B0%91%E6%9E%97%E4%B9%8B%E4%B8%83%E4%BE%A0%E4%BA%94%E4%B9%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yao-gun-shao-lin-zhi-qi-xia-wu-yi.zip"],
           ["Size", "8,191,482 bytes (7.8 MB)"],
           ["SHA-256", "0d3bef08e149f09129ca3afe15a01b3772a9d5f107b7eedc48957ea0b120008b"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%91%87%E6%BB%9A%E5%B0%91%E6%9E%97%E4%B9%8B%E4%B8%83%E4%BE%A0%E4%BA%94%E4%B9%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 摇滚少林之七侠五义 (7.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yao-gun-shao-lin-zhi-qi-xia-wu-yi.zip", external: true},
+          {label: "Download 摇滚少林之七侠五义 (7.8 MB)", href: "https://dos-bin.zczc.cz/%E6%91%87%E6%BB%9A%E5%B0%91%E6%9E%97%E4%B9%8B%E4%B8%83%E4%BE%A0%E4%BA%94%E4%B9%89.zip", external: true},
         ]},
       ],
     },

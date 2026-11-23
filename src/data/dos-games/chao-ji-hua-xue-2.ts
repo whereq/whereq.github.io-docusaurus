@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级滑雪2 is a DOS game in the WhereQ archive — 1992, 109 files, 1.1 MB, and an entry point of SUPERSKI.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-hua-xue-2.zip"],
           ["Size", "1,136,035 bytes (1.1 MB)"],
           ["SHA-256", "776e4097ababa55e27e860e8a0603777d680d6c206a5b0675b7fcb4fb578d7f2"],
           ["Files", "109"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级滑雪2 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-2.zip", external: true},
+          {label: "Download 超级滑雪2 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA2.zip", external: true},
         ]},
       ],
     },

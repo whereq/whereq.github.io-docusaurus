@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "德军总部MOD-ROMAN is a DOS game in the WhereQ archive — an undated copy, 81 files, 5.0 MB, and an entry point of GO.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-roman.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-ROMAN.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "de-jun-zong-bu-mod-roman.zip"],
           ["Size", "5,212,934 bytes (5.0 MB)"],
           ["SHA-256", "bb3017646883efe4817240144a6696c437ff4a0c7db78ead057350c74d16778d"],
           ["Files", "81"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-ROMAN.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 德军总部MOD-ROMAN (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-roman.zip", external: true},
+          {label: "Download 德军总部MOD-ROMAN (5.0 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-ROMAN.zip", external: true},
         ]},
       ],
     },

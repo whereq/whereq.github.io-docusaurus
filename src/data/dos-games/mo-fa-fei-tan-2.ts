@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法飞毯2 is a DOS game in the WhereQ archive — 1996, 157 files, 40.4 MB, and an entry point of netherw.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fei-tan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AF2.zip",
   facts: [
     {label: "Developer", value: "ELECTRONIC ARTS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-fei-tan-2.zip"],
           ["Size", "42,371,584 bytes (40.4 MB)"],
           ["SHA-256", "a758813c0125fa09235cd9ac7bf8542ee18cc61339799deef72a219894bb2937"],
           ["Files", "157"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AF2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法飞毯2 (40.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fei-tan-2.zip", external: true},
+          {label: "Download 魔法飞毯2 (40.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AF2.zip", external: true},
         ]},
       ],
     },

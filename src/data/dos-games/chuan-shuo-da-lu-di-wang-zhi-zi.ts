@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "传说大陆帝王之子 is a DOS game in the WhereQ archive — 1985, 105 files, 1.9 MB, and an entry point of EMPIRE.BAT.",
   status: "1985",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-da-lu-di-wang-zhi-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E5%A4%A7%E9%99%86%E5%B8%9D%E7%8E%8B%E4%B9%8B%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1985"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuan-shuo-da-lu-di-wang-zhi-zi.zip"],
           ["Size", "1,952,086 bytes (1.9 MB)"],
           ["SHA-256", "1be9e1b0a45b57131355277dfeadf523fa56a68469424e68117d52b1f1581b8d"],
           ["Files", "105"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E5%A4%A7%E9%99%86%E5%B8%9D%E7%8E%8B%E4%B9%8B%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 传说大陆帝王之子 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-da-lu-di-wang-zhi-zi.zip", external: true},
+          {label: "Download 传说大陆帝王之子 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E5%A4%A7%E9%99%86%E5%B8%9D%E7%8E%8B%E4%B9%8B%E5%AD%90.zip", external: true},
         ]},
       ],
     },

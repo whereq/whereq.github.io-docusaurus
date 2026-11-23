@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三国志V 威力加强版 is a DOS game in the WhereQ archive — 1996, 86 files, 8.9 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-v-wei-li-jia-qiang-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975X.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-guo-zhi-v-wei-li-jia-qiang-ban.zip"],
           ["Size", "9,311,448 bytes (8.9 MB)"],
           ["SHA-256", "a4d9cc30c08fb995da70f9a46a06b76b3b77978f28f4b5c296cfb609a9a28314"],
           ["Files", "86"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975X.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三国志V 威力加强版 (8.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-v-wei-li-jia-qiang-ban.zip", external: true},
+          {label: "Download 三国志V 威力加强版 (8.9 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975X.zip", external: true},
         ]},
       ],
     },

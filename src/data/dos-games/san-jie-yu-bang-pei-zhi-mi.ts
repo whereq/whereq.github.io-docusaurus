@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三界谕：邦沛之迷 is a DOS game in the WhereQ archive — 1996, 92 files, 3.2 MB, and an entry point of 3K_CRK.COM.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-jie-yu-bang-pei-zhi-mi.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%B0%95%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%BF%B7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-jie-yu-bang-pei-zhi-mi.zip"],
           ["Size", "3,358,859 bytes (3.2 MB)"],
           ["SHA-256", "4f2688c95ce16a23dc1b5fda1b5664b91b676b2e0b9bfb9a12b22e391df280b8"],
           ["Files", "92"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%B0%95%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%BF%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三界谕：邦沛之迷 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-jie-yu-bang-pei-zhi-mi.zip", external: true},
+          {label: "Download 三界谕：邦沛之迷 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E7%95%8C%E8%B0%95%E9%82%A6%E6%B2%9B%E4%B9%8B%E8%BF%B7.zip", external: true},
         ]},
       ],
     },

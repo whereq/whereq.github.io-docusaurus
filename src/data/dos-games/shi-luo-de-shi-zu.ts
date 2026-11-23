@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "失落的氏族 is a DOS game in the WhereQ archive — 1992, 35 files, 7.1 MB, and an entry point of TRIBE.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-shi-zu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E6%B0%8F%E6%97%8F.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-luo-de-shi-zu.zip"],
           ["Size", "7,449,346 bytes (7.1 MB)"],
           ["SHA-256", "873cbcc4df90ba812cd756217a420c307a22ce99251ce0eb75aaa4ee72292afc"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E6%B0%8F%E6%97%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 失落的氏族 (7.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-shi-zu.zip", external: true},
+          {label: "Download 失落的氏族 (7.1 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E6%B0%8F%E6%97%8F.zip", external: true},
         ]},
       ],
     },

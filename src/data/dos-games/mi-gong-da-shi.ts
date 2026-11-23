@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "迷宫大师 is a DOS game in the WhereQ archive — 1992, 16 files, 875 KB, and an entry point of DM.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mi-gong-da-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E5%A4%A7%E5%B8%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mi-gong-da-shi.zip"],
           ["Size", "896,399 bytes (875 KB)"],
           ["SHA-256", "c430bb115502f438884b64736f641583ace4cf4e092f24d6e09155425bc21b84"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E5%A4%A7%E5%B8%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 迷宫大师 (875 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mi-gong-da-shi.zip", external: true},
+          {label: "Download 迷宫大师 (875 KB)", href: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E5%A4%A7%E5%B8%88.zip", external: true},
         ]},
       ],
     },

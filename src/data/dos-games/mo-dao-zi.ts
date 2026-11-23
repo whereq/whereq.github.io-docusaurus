@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔道子 is a DOS game in the WhereQ archive — 1993, 98 files, 4.7 MB, and an entry point of PLAY.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-dao-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E9%81%93%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-dao-zi.zip"],
           ["Size", "4,887,084 bytes (4.7 MB)"],
           ["SHA-256", "fcb676383cd6a37359e114e105cfecf63b1d0310becd03a3626c0063b95b6c67"],
           ["Files", "98"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E9%81%93%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔道子 (4.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-dao-zi.zip", external: true},
+          {label: "Download 魔道子 (4.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E9%81%93%E5%AD%90.zip", external: true},
         ]},
       ],
     },

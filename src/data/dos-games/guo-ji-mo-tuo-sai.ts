@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国际摩托赛 is a DOS game in the WhereQ archive — 1996, 397 files, 3.9 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-mo-tuo-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%91%A9%E6%89%98%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-ji-mo-tuo-sai.zip"],
           ["Size", "4,105,784 bytes (3.9 MB)"],
           ["SHA-256", "314b1c38c3427892ac0e54edcd6641cc4832ad4be80e6f8576899915fd76d823"],
           ["Files", "397"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%91%A9%E6%89%98%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国际摩托赛 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-mo-tuo-sai.zip", external: true},
+          {label: "Download 国际摩托赛 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%91%A9%E6%89%98%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

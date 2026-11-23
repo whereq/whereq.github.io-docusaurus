@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "地狱也疯狂 is a DOS game in the WhereQ archive — 1997, 1,257 files, 10.5 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-yu-ye-feng-kuang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%B9%9F%E7%96%AF%E7%8B%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-yu-ye-feng-kuang.zip"],
           ["Size", "11,050,130 bytes (10.5 MB)"],
           ["SHA-256", "db4fcd568c03856ab5d0239d03454da5bfbe5ff40ad8adc0460b947632c56f88"],
           ["Files", "1,257"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%B9%9F%E7%96%AF%E7%8B%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 地狱也疯狂 (10.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-yu-ye-feng-kuang.zip", external: true},
+          {label: "Download 地狱也疯狂 (10.5 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%B9%9F%E7%96%AF%E7%8B%82.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "楚留香传奇 is a DOS game in the WhereQ archive — 1995, 921 files, 5.0 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chu-liu-xiang-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A5%9A%E7%95%99%E9%A6%99%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chu-liu-xiang-chuan-qi.zip"],
           ["Size", "5,200,753 bytes (5.0 MB)"],
           ["SHA-256", "1a65e9d6bc0489c7bfeba14c6fbf28fba02b1e451422eef810376edb895ba63c"],
           ["Files", "921"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A5%9A%E7%95%99%E9%A6%99%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 楚留香传奇 (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chu-liu-xiang-chuan-qi.zip", external: true},
+          {label: "Download 楚留香传奇 (5.0 MB)", href: "https://dos-bin.zczc.cz/%E6%A5%9A%E7%95%99%E9%A6%99%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

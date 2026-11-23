@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "雷电 is a DOS game in the WhereQ archive — 1994, 81 files, 1.4 MB, and an entry point of RAIDEN.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-dian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-dian.zip"],
           ["Size", "1,489,799 bytes (1.4 MB)"],
           ["SHA-256", "66c2241c5c61089eea1e2f60b49187079db7602241774f5e0a0424c2731e55b6"],
           ["Files", "81"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雷电 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-dian.zip", external: true},
+          {label: "Download 雷电 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5.zip", external: true},
         ]},
       ],
     },

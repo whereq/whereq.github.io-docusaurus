@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世纪1(1987RM版) is a DOS game in the WhereQ archive — 1987, 27 files, 142 KB, and an entry point of ULTIMA.EXE.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-1-1987rm-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA1%281987RM%E7%89%88%29.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-ji-1-1987rm-ban.zip"],
           ["Size", "145,758 bytes (142 KB)"],
           ["SHA-256", "4584842bd1857ea884da2d97f090f4074a9b3d90fd51eb00ad156fc62abba5e5"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA1%281987RM%E7%89%88%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世纪1(1987RM版) (142 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-1-1987rm-ban.zip", external: true},
+          {label: "Download 创世纪1(1987RM版) (142 KB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA1%281987RM%E7%89%88%29.zip", external: true},
         ]},
       ],
     },

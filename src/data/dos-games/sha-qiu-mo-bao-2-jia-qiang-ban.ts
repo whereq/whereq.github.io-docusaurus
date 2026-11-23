@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "沙丘魔堡2加强版 is a DOS game in the WhereQ archive — 1994, 156 files, 4.5 MB, and an entry point of SD2.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-2-jia-qiang-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-qiu-mo-bao-2-jia-qiang-ban.zip"],
           ["Size", "4,675,313 bytes (4.5 MB)"],
           ["SHA-256", "3fc3d8aea0b5d0df8065ddfe40fe826c8cbb8129a2fadab3649327c5728f7198"],
           ["Files", "156"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%8A%A0%E5%BC%BA%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沙丘魔堡2加强版 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-2-jia-qiang-ban.zip", external: true},
+          {label: "Download 沙丘魔堡2加强版 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%8A%A0%E5%BC%BA%E7%89%88.zip", external: true},
         ]},
       ],
     },

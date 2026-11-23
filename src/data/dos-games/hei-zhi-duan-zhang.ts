@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑之断章 is a DOS game in the WhereQ archive — 2003, 33 files, 3.8 MB, and an entry point of PLAY.BAT.",
   status: "2003",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-zhi-duan-zhang.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E4%B9%8B%E6%96%AD%E7%AB%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2003"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-zhi-duan-zhang.zip"],
           ["Size", "3,985,783 bytes (3.8 MB)"],
           ["SHA-256", "dca66e3a80b063bf26559998cd3438c06e419ef27bdd58a3690836918e919720"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E4%B9%8B%E6%96%AD%E7%AB%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑之断章 (3.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-zhi-duan-zhang.zip", external: true},
+          {label: "Download 黑之断章 (3.8 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E4%B9%8B%E6%96%AD%E7%AB%A0.zip", external: true},
         ]},
       ],
     },

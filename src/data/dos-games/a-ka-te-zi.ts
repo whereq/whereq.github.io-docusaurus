@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿卡特兹 is a DOS game in the WhereQ archive — 1992, 84 files, 733 KB, and an entry point of alcatraz.exe.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-te-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E7%89%B9%E5%85%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-ka-te-zi.zip"],
           ["Size", "750,255 bytes (733 KB)"],
           ["SHA-256", "0b5b0220ff84bd30401f996bd6448777bb478f3cf000e0e94576040ea7e91489"],
           ["Files", "84"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E7%89%B9%E5%85%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿卡特兹 (733 KB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-ka-te-zi.zip", external: true},
+          {label: "Download 阿卡特兹 (733 KB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E7%89%B9%E5%85%B9.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔眼杀机3血战扎诺尔 is a DOS game in the WhereQ archive — 1993, 85 files, 4.7 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji-3-xue-zhan-zha-nuo-er.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA3%E8%A1%80%E6%88%98%E6%89%8E%E8%AF%BA%E5%B0%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yan-sha-ji-3-xue-zhan-zha-nuo-er.zip"],
           ["Size", "4,917,125 bytes (4.7 MB)"],
           ["SHA-256", "50eb335391e722bc67ac7ba79786073a8b92e60d594678076d1805fce3a7ac9e"],
           ["Files", "85"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA3%E8%A1%80%E6%88%98%E6%89%8E%E8%AF%BA%E5%B0%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔眼杀机3血战扎诺尔 (4.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji-3-xue-zhan-zha-nuo-er.zip", external: true},
+          {label: "Download 魔眼杀机3血战扎诺尔 (4.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA3%E8%A1%80%E6%88%98%E6%89%8E%E8%AF%BA%E5%B0%94.zip", external: true},
         ]},
       ],
     },

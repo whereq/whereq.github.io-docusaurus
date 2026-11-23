@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "象棋俄罗斯 is a DOS game in the WhereQ archive — 1995, 37 files, 1.1 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiang-qi-e-luo-si.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B1%A1%E6%A3%8B%E4%BF%84%E7%BD%97%E6%96%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiang-qi-e-luo-si.zip"],
           ["Size", "1,123,528 bytes (1.1 MB)"],
           ["SHA-256", "b00b99d94e47b832adc27e8013b15ca30006cb544340959e69206ad95a802879"],
           ["Files", "37"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B1%A1%E6%A3%8B%E4%BF%84%E7%BD%97%E6%96%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 象棋俄罗斯 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiang-qi-e-luo-si.zip", external: true},
+          {label: "Download 象棋俄罗斯 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E8%B1%A1%E6%A3%8B%E4%BF%84%E7%BD%97%E6%96%AF.zip", external: true},
         ]},
       ],
     },

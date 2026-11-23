@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "刘伯温传奇 is a DOS game in the WhereQ archive — 1996, 574 files, 15.2 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/liu-bo-wen-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%98%E4%BC%AF%E6%B8%A9%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "liu-bo-wen-chuan-qi.zip"],
           ["Size", "15,902,382 bytes (15.2 MB)"],
           ["SHA-256", "6d83e1efdd0f6fd01adfa256cb84d8f2f0014de563b47514113d7c5d6bd73403"],
           ["Files", "574"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%98%E4%BC%AF%E6%B8%A9%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 刘伯温传奇 (15.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/liu-bo-wen-chuan-qi.zip", external: true},
+          {label: "Download 刘伯温传奇 (15.2 MB)", href: "https://dos-bin.zczc.cz/%E5%88%98%E4%BC%AF%E6%B8%A9%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

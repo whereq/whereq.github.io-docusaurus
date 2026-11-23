@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "光头大战 is a DOS game in the WhereQ archive — 1996, 809 files, 35.7 MB, and an entry point of play.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guang-tou-da-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%89%E5%A4%B4%E5%A4%A7%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guang-tou-da-zhan.zip"],
           ["Size", "37,390,896 bytes (35.7 MB)"],
           ["SHA-256", "d64ac8d4b03c2ab6a025f39396b516bb6e3f84354814c044f894015cdab166a2"],
           ["Files", "809"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%89%E5%A4%B4%E5%A4%A7%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 光头大战 (35.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guang-tou-da-zhan.zip", external: true},
+          {label: "Download 光头大战 (35.7 MB)", href: "https://dos-bin.zczc.cz/%E5%85%89%E5%A4%B4%E5%A4%A7%E6%88%98.zip", external: true},
         ]},
       ],
     },

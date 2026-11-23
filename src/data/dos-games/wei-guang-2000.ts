@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "微光2000 is a DOS game in the WhereQ archive — 2010, 136 files, 2.9 MB, and an entry point of 2000.COM.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-guang-2000.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%85%892000.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-guang-2000.zip"],
           ["Size", "3,052,695 bytes (2.9 MB)"],
           ["SHA-256", "4fd2aee46b23a4570ad89cc722b2218e40a5951bdfd2b84fabc180e4fa530652"],
           ["Files", "136"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%AE%E5%85%892000.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 微光2000 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-guang-2000.zip", external: true},
+          {label: "Download 微光2000 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%85%892000.zip", external: true},
         ]},
       ],
     },

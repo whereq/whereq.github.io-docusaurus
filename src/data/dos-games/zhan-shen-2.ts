@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战神2 is a DOS game in the WhereQ archive — 1994, 463 files, 4.2 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-shen-2.zip"],
           ["Size", "4,449,396 bytes (4.2 MB)"],
           ["SHA-256", "c090f3223ee6c0ca7198817c34a281d0bf04957d2eedef95455f1208dacf47be"],
           ["Files", "463"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战神2 (4.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen-2.zip", external: true},
+          {label: "Download 战神2 (4.2 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2.zip", external: true},
         ]},
       ],
     },

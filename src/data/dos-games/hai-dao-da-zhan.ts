@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海盗大战 is a DOS game in the WhereQ archive — 1992, 13 files, 214 KB, and an entry point of PIRATES.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-dao-da-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E5%A4%A7%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-dao-da-zhan.zip"],
           ["Size", "219,507 bytes (214 KB)"],
           ["SHA-256", "45bcc186b87b3c41b6d8c73490ac5ea25cdbc4ba46c0ac5f457633b908f6c556"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E5%A4%A7%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海盗大战 (214 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-dao-da-zhan.zip", external: true},
+          {label: "Download 海盗大战 (214 KB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E5%A4%A7%E6%88%98.zip", external: true},
         ]},
       ],
     },

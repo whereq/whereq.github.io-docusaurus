@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战争游戏 is a DOS game in the WhereQ archive — 1996, 294 files, 6.9 MB, and an entry point of AIR.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-you-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E6%B8%B8%E6%88%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-zheng-you-xi.zip"],
           ["Size", "7,197,051 bytes (6.9 MB)"],
           ["SHA-256", "fd6a83f8e3c31a1f63d04c5b9d32ef9dce4f0d9033b5c92c6a5122083dce3506"],
           ["Files", "294"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E6%B8%B8%E6%88%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战争游戏 (6.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-you-xi.zip", external: true},
+          {label: "Download 战争游戏 (6.9 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E6%B8%B8%E6%88%8F.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大战略SP is a DOS game in the WhereQ archive — 1995, 715 files, 5.5 MB, and an entry point of WARSP.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-lve-sp.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E7%95%A5SP.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-zhan-lve-sp.zip"],
           ["Size", "5,816,334 bytes (5.5 MB)"],
           ["SHA-256", "6fdda7c72ad51edfac05e4b104c259d0a31c0580e177a4c80d522f3e669b7a6e"],
           ["Files", "715"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E7%95%A5SP.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大战略SP (5.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-zhan-lve-sp.zip", external: true},
+          {label: "Download 大战略SP (5.5 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E7%95%A5SP.zip", external: true},
         ]},
       ],
     },

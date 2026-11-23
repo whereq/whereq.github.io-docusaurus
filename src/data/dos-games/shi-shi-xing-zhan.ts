@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "史诗星战 is a DOS game in the WhereQ archive — 1993, 8 files, 5.9 MB, and an entry point of START.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-shi-xing-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%B2%E8%AF%97%E6%98%9F%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-shi-xing-zhan.zip"],
           ["Size", "6,135,165 bytes (5.9 MB)"],
           ["SHA-256", "002206b3a376068bc0aad771588fce04b1431278b94ae14ab4021241d0e9580e"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%B2%E8%AF%97%E6%98%9F%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 史诗星战 (5.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-shi-xing-zhan.zip", external: true},
+          {label: "Download 史诗星战 (5.9 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%B2%E8%AF%97%E6%98%9F%E6%88%98.zip", external: true},
         ]},
       ],
     },

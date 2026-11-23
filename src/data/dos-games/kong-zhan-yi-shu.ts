@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "空战艺术 is a DOS game in the WhereQ archive — 1992, 124 files, 4.5 MB, and an entry point of SKIES.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhan-yi-shu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A9%BA%E6%88%98%E8%89%BA%E6%9C%AF.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-zhan-yi-shu.zip"],
           ["Size", "4,752,643 bytes (4.5 MB)"],
           ["SHA-256", "5d4843afdd6ceb63bdd0a9496a4d1167a82a57c32dc3e4062288957bd47d3a4d"],
           ["Files", "124"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A9%BA%E6%88%98%E8%89%BA%E6%9C%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 空战艺术 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-zhan-yi-shu.zip", external: true},
+          {label: "Download 空战艺术 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E7%A9%BA%E6%88%98%E8%89%BA%E6%9C%AF.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "罗马权利之路 is a DOS game in the WhereQ archive — 1998, 336 files, 2.4 MB, and an entry point of ROME.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luo-ma-quan-li-zhi-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E6%9D%83%E5%88%A9%E4%B9%8B%E8%B7%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luo-ma-quan-li-zhi-lu.zip"],
           ["Size", "2,541,070 bytes (2.4 MB)"],
           ["SHA-256", "7689e040904825dc2058e4085f6510324c9e5394c2f44c161e32db433b1cc18a"],
           ["Files", "336"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E6%9D%83%E5%88%A9%E4%B9%8B%E8%B7%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罗马权利之路 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/luo-ma-quan-li-zhi-lu.zip", external: true},
+          {label: "Download 罗马权利之路 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E6%9D%83%E5%88%A9%E4%B9%8B%E8%B7%AF.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "巫师学校3春假 is a DOS game in the WhereQ archive — 1997, 103 files, 4.4 MB, and an entry point of S301MAIN.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-3-chun-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A13%E6%98%A5%E5%81%87.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-shi-xue-xiao-3-chun-jia.zip"],
           ["Size", "4,626,987 bytes (4.4 MB)"],
           ["SHA-256", "86519620b845f1dd63739b88ab4fa08159133a8417b3a21aaf2c050b01f1ec93"],
           ["Files", "103"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A13%E6%98%A5%E5%81%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巫师学校3春假 (4.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-3-chun-jia.zip", external: true},
+          {label: "Download 巫师学校3春假 (4.4 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A13%E6%98%A5%E5%81%87.zip", external: true},
         ]},
       ],
     },

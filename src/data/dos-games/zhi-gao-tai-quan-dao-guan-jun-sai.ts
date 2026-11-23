@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "至高跆拳道冠军赛 is a DOS game in the WhereQ archive — 1999, 90 files, 1.1 MB, and an entry point of KICK.EXE.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-gao-tai-quan-dao-guan-jun-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E8%87%B3%E9%AB%98%E8%B7%86%E6%8B%B3%E9%81%93%E5%86%A0%E5%86%9B%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-gao-tai-quan-dao-guan-jun-sai.zip"],
           ["Size", "1,136,357 bytes (1.1 MB)"],
           ["SHA-256", "73b987a47a5b08255334b550d0d89872e30ff48e936e654f6de89035d871cfc2"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%87%B3%E9%AB%98%E8%B7%86%E6%8B%B3%E9%81%93%E5%86%A0%E5%86%9B%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 至高跆拳道冠军赛 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-gao-tai-quan-dao-guan-jun-sai.zip", external: true},
+          {label: "Download 至高跆拳道冠军赛 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E8%87%B3%E9%AB%98%E8%B7%86%E6%8B%B3%E9%81%93%E5%86%A0%E5%86%9B%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

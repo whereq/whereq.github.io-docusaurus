@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "一步之遥 is a DOS game in the WhereQ archive — 1993, 88 files, 1.0 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-bu-zhi-yao.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%80%E6%AD%A5%E4%B9%8B%E9%81%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-bu-zhi-yao.zip"],
           ["Size", "1,050,404 bytes (1.0 MB)"],
           ["SHA-256", "c755815ae06f223f18a775cb2a1027053ae10d2f940a5379d871e2e1e66a4681"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%80%E6%AD%A5%E4%B9%8B%E9%81%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 一步之遥 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-bu-zhi-yao.zip", external: true},
+          {label: "Download 一步之遥 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%80%E6%AD%A5%E4%B9%8B%E9%81%A5.zip", external: true},
         ]},
       ],
     },

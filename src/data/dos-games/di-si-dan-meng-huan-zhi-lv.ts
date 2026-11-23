@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "蒂斯蛋梦幻之旅 is a DOS game in the WhereQ archive — 1994, 12 files, 815 KB, and an entry point of PCDIZZY.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-meng-huan-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-si-dan-meng-huan-zhi-lv.zip"],
           ["Size", "834,159 bytes (815 KB)"],
           ["SHA-256", "7c062bc9a6dc409a38bdc998429e4012df445dbabdbb30953e411c9b7cf587f4"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蒂斯蛋梦幻之旅 (815 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-meng-huan-zhi-lv.zip", external: true},
+          {label: "Download 蒂斯蛋梦幻之旅 (815 KB)", href: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

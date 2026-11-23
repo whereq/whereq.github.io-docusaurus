@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "冥界幻姬 is a DOS game in the WhereQ archive — 1994, 414 files, 9.8 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ming-jie-huan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%A5%E7%95%8C%E5%B9%BB%E5%A7%AC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ming-jie-huan-ji.zip"],
           ["Size", "10,312,770 bytes (9.8 MB)"],
           ["SHA-256", "eb7e82804541e43839a89f6455c1fd59671f10e0afe7cbe6d085cd0323a74d5e"],
           ["Files", "414"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%A5%E7%95%8C%E5%B9%BB%E5%A7%AC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 冥界幻姬 (9.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ming-jie-huan-ji.zip", external: true},
+          {label: "Download 冥界幻姬 (9.8 MB)", href: "https://dos-bin.zczc.cz/%E5%86%A5%E7%95%8C%E5%B9%BB%E5%A7%AC.zip", external: true},
         ]},
       ],
     },

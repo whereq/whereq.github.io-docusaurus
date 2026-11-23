@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "剪秋罗 is a DOS game in the WhereQ archive — 1995, 10 files, 1.3 MB, and an entry point of SB.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jian-qiu-luo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%89%AA%E7%A7%8B%E7%BD%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jian-qiu-luo.zip"],
           ["Size", "1,350,035 bytes (1.3 MB)"],
           ["SHA-256", "84f56f74e302f54e0e0a3b07ee83f2891e6113de1164003fbb1a4cd4ee11277f"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%89%AA%E7%A7%8B%E7%BD%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 剪秋罗 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jian-qiu-luo.zip", external: true},
+          {label: "Download 剪秋罗 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E5%89%AA%E7%A7%8B%E7%BD%97.zip", external: true},
         ]},
       ],
     },

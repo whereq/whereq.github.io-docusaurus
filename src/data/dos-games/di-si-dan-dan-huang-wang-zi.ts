@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "蒂斯蛋蛋黄王子 is a DOS game in the WhereQ archive — 2010, 7 files, 160 KB, and an entry point of YOLK.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-dan-huang-wang-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E8%9B%8B%E9%BB%84%E7%8E%8B%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-si-dan-dan-huang-wang-zi.zip"],
           ["Size", "164,111 bytes (160 KB)"],
           ["SHA-256", "ea063c9c350bcaa04cb3a83bae366f6d2a8d407607499474437a07f238ca9f69"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E8%9B%8B%E9%BB%84%E7%8E%8B%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蒂斯蛋蛋黄王子 (160 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-si-dan-dan-huang-wang-zi.zip", external: true},
+          {label: "Download 蒂斯蛋蛋黄王子 (160 KB)", href: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E8%9B%8B%E9%BB%84%E7%8E%8B%E5%AD%90.zip", external: true},
         ]},
       ],
     },

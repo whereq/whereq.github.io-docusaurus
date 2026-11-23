@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "皇冠 is a DOS game in the WhereQ archive — 1990, 88 files, 474 KB, and an entry point of CROWN.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huang-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9A%87%E5%86%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huang-guan.zip"],
           ["Size", "485,062 bytes (474 KB)"],
           ["SHA-256", "f28108e99d0a56b5d0e3376ed88bfe6359ec4f5e6c6eebd06c57dab6ff95fc31"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9A%87%E5%86%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 皇冠 (474 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/huang-guan.zip", external: true},
+          {label: "Download 皇冠 (474 KB)", href: "https://dos-bin.zczc.cz/%E7%9A%87%E5%86%A0.zip", external: true},
         ]},
       ],
     },

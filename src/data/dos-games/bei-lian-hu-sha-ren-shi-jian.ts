@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "悲恋湖杀人事件 is a DOS game in the WhereQ archive — 1994, 147 files, 2.1 MB, and an entry point of SADLAKE.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bei-lian-hu-sha-ren-shi-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%82%B2%E6%81%8B%E6%B9%96%E6%9D%80%E4%BA%BA%E4%BA%8B%E4%BB%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bei-lian-hu-sha-ren-shi-jian.zip"],
           ["Size", "2,224,593 bytes (2.1 MB)"],
           ["SHA-256", "af38378cbd9cc761e5551641c630f64f5fe41b5e35754070b3b3f500c24e5db8"],
           ["Files", "147"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%82%B2%E6%81%8B%E6%B9%96%E6%9D%80%E4%BA%BA%E4%BA%8B%E4%BB%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 悲恋湖杀人事件 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bei-lian-hu-sha-ren-shi-jian.zip", external: true},
+          {label: "Download 悲恋湖杀人事件 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E6%82%B2%E6%81%8B%E6%B9%96%E6%9D%80%E4%BA%BA%E4%BA%8B%E4%BB%B6.zip", external: true},
         ]},
       ],
     },

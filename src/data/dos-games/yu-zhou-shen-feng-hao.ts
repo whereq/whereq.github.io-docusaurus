@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "宇宙神风号 is a DOS game in the WhereQ archive — 1989, 60 files, 670 KB, and an entry point of SILPHEED.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-shen-feng-hao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%A5%9E%E9%A3%8E%E5%8F%B7.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-zhou-shen-feng-hao.zip"],
           ["Size", "686,399 bytes (670 KB)"],
           ["SHA-256", "f8225a9504990d04563fcab8af8deb68e87b1a726045f9e9d77e31ecd6f00df5"],
           ["Files", "60"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%A5%9E%E9%A3%8E%E5%8F%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宇宙神风号 (670 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-shen-feng-hao.zip", external: true},
+          {label: "Download 宇宙神风号 (670 KB)", href: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%A5%9E%E9%A3%8E%E5%8F%B7.zip", external: true},
         ]},
       ],
     },

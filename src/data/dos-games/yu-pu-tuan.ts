@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "玉蒲团 is a DOS game in the WhereQ archive — 1997, 513 files, 18.7 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-pu-tuan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%89%E8%92%B2%E5%9B%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-pu-tuan.zip"],
           ["Size", "19,612,917 bytes (18.7 MB)"],
           ["SHA-256", "56b95b34ade190042669c5f4e55bf25d6b59f0e822deb32e66e544c7804d6330"],
           ["Files", "513"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%89%E8%92%B2%E5%9B%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 玉蒲团 (18.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-pu-tuan.zip", external: true},
+          {label: "Download 玉蒲团 (18.7 MB)", href: "https://dos-bin.zczc.cz/%E7%8E%89%E8%92%B2%E5%9B%A2.zip", external: true},
         ]},
       ],
     },

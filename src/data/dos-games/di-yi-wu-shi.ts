@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "第一武士 is a DOS game in the WhereQ archive — 1992, 52 files, 515 KB, and an entry point of SAMURAI.COM.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-yi-wu-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AC%AC%E4%B8%80%E6%AD%A6%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-yi-wu-shi.zip"],
           ["Size", "527,373 bytes (515 KB)"],
           ["SHA-256", "a6107078bd61e4badf32a9795a08d6bec929803eef54662b467df546ad6b64de"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AC%AC%E4%B8%80%E6%AD%A6%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 第一武士 (515 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-yi-wu-shi.zip", external: true},
+          {label: "Download 第一武士 (515 KB)", href: "https://dos-bin.zczc.cz/%E7%AC%AC%E4%B8%80%E6%AD%A6%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

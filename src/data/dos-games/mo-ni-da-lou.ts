@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟大楼 is a DOS game in the WhereQ archive — an undated copy, 474 files, 2.0 MB, and an entry point of HR2.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-da-lou.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E6%A5%BC.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-da-lou.zip"],
           ["Size", "2,130,028 bytes (2.0 MB)"],
           ["SHA-256", "f8951061f7a729aac248af37abe43a128cfe311b7846ae2e884b5605b9210be9"],
           ["Files", "474"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E6%A5%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟大楼 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-da-lou.zip", external: true},
+          {label: "Download 模拟大楼 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E6%A5%BC.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蓝色石榴石 is a DOS game in the WhereQ archive — 1996, 17 files, 4.3 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-shi-liu-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E7%9F%B3%E6%A6%B4%E7%9F%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-se-shi-liu-shi.zip"],
           ["Size", "4,472,268 bytes (4.3 MB)"],
           ["SHA-256", "7e03aeada3131fa8bdfe3d8f721bf11cfd745f0d0c5433d4016b966c0e015b00"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E7%9F%B3%E6%A6%B4%E7%9F%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蓝色石榴石 (4.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-se-shi-liu-shi.zip", external: true},
+          {label: "Download 蓝色石榴石 (4.3 MB)", href: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E7%9F%B3%E6%A6%B4%E7%9F%B3.zip", external: true},
         ]},
       ],
     },

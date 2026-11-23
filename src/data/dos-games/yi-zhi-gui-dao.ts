@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "益智轨道 is a DOS game in the WhereQ archive — 1992, 17 files, 245 KB, and an entry point of SOUND.COM.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-zhi-gui-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E8%BD%A8%E9%81%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-zhi-gui-dao.zip"],
           ["Size", "250,982 bytes (245 KB)"],
           ["SHA-256", "6f1276d5609d9f8648313e72ce6e64e68a93ea20c7c7b38d85c1b79947ab8588"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E8%BD%A8%E9%81%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 益智轨道 (245 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-zhi-gui-dao.zip", external: true},
+          {label: "Download 益智轨道 (245 KB)", href: "https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E8%BD%A8%E9%81%93.zip", external: true},
         ]},
       ],
     },

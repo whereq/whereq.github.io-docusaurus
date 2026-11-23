@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣域传说 is a DOS game in the WhereQ archive — 2005, 302 files, 887 KB, and an entry point of PLAY.BAT.",
   status: "2005",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-yu-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%9F%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2005"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-yu-chuan-shuo.zip"],
           ["Size", "907,964 bytes (887 KB)"],
           ["SHA-256", "e8cdac76ac02d271acbb7ffbdf51de3d2744647768ab88c6b2d6c759343bb206"],
           ["Files", "302"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%9F%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣域传说 (887 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-yu-chuan-shuo.zip", external: true},
+          {label: "Download 圣域传说 (887 KB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%9F%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

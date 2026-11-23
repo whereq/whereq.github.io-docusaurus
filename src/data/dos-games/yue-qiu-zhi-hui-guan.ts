@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "月球指挥官 is a DOS game in the WhereQ archive — an undated copy, 29 files, 3.4 MB, and an entry point of LUNAR.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yue-qiu-zhi-hui-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%88%E7%90%83%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yue-qiu-zhi-hui-guan.zip"],
           ["Size", "3,568,526 bytes (3.4 MB)"],
           ["SHA-256", "9cc672a898dac8cb69971eaa37434cac4d92f83988f16acb613ae03ecf7cfb97"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%88%E7%90%83%E6%8C%87%E6%8C%A5%E5%AE%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 月球指挥官 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yue-qiu-zhi-hui-guan.zip", external: true},
+          {label: "Download 月球指挥官 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%88%E7%90%83%E6%8C%87%E6%8C%A5%E5%AE%98.zip", external: true},
         ]},
       ],
     },

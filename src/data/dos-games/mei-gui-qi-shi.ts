@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "玫瑰骑士 is a DOS game in the WhereQ archive — 1996, 1,223 files, 84.8 MB, and an entry point of ROSE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-gui-qi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%AB%E7%91%B0%E9%AA%91%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-gui-qi-shi.zip"],
           ["Size", "88,905,063 bytes (84.8 MB)"],
           ["SHA-256", "5129a7f0b2b23c57fd29e2f563efb2275a6fa6e70c49e9b39bb1939e13ce044f"],
           ["Files", "1,223"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%AB%E7%91%B0%E9%AA%91%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 玫瑰骑士 (84.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-gui-qi-shi.zip", external: true},
+          {label: "Download 玫瑰骑士 (84.8 MB)", href: "https://dos-bin.zczc.cz/%E7%8E%AB%E7%91%B0%E9%AA%91%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

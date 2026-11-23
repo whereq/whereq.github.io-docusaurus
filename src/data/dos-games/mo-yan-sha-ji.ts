@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔眼杀机 is a DOS game in the WhereQ archive — 2004, 34 files, 1.7 MB, and an entry point of START.EXE.",
   status: "2004",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2004"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yan-sha-ji.zip"],
           ["Size", "1,833,190 bytes (1.7 MB)"],
           ["SHA-256", "365e6d70ec926933c533075298fbc039779d9189c0a201d43a3ac7b8862119cf"],
           ["Files", "34"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔眼杀机 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji.zip", external: true},
+          {label: "Download 魔眼杀机 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

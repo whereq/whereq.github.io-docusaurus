@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "阴谋论 is a DOS game in the WhereQ archive — 1992, 103 files, 3.7 MB, and an entry point of KGB.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-mou-lun.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%B4%E8%B0%8B%E8%AE%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-mou-lun.zip"],
           ["Size", "3,856,117 bytes (3.7 MB)"],
           ["SHA-256", "67fd86d7fba1fb33b9d5b87782dcc0cc4064c92f6c9c26c881154a772cf07763"],
           ["Files", "103"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%B4%E8%B0%8B%E8%AE%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阴谋论 (3.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-mou-lun.zip", external: true},
+          {label: "Download 阴谋论 (3.7 MB)", href: "https://dos-bin.zczc.cz/%E9%98%B4%E8%B0%8B%E8%AE%BA.zip", external: true},
         ]},
       ],
     },

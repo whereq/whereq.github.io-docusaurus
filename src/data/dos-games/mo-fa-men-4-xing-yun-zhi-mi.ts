@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法门4星云之谜 is a DOS game in the WhereQ archive — 1993, 15 files, 9.2 MB, and an entry point of XEEN.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-4-xing-yun-zhi-mi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%E6%98%9F%E4%BA%91%E4%B9%8B%E8%B0%9C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-men-4-xing-yun-zhi-mi.zip"],
           ["Size", "9,694,527 bytes (9.2 MB)"],
           ["SHA-256", "e683d2e0f8639bc618c7031db6aa89b02bb22d435fd0cded2935beeaef3d5895"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%E6%98%9F%E4%BA%91%E4%B9%8B%E8%B0%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法门4星云之谜 (9.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-4-xing-yun-zhi-mi.zip", external: true},
+          {label: "Download 魔法门4星云之谜 (9.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%E6%98%9F%E4%BA%91%E4%B9%8B%E8%B0%9C.zip", external: true},
         ]},
       ],
     },

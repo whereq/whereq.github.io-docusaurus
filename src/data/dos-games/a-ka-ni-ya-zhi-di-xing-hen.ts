@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿卡尼亚之地星痕 is a DOS game in the WhereQ archive — 1996, 51 files, 11.5 MB, and an entry point of star.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-xing-hen.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E6%98%9F%E7%97%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-ka-ni-ya-zhi-di-xing-hen.zip"],
           ["Size", "12,045,649 bytes (11.5 MB)"],
           ["SHA-256", "9c9efc3ef70c3462f63159bc7ab1567fe5201d3f4454b74a7f212eb937b33a11"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E6%98%9F%E7%97%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿卡尼亚之地星痕 (11.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-xing-hen.zip", external: true},
+          {label: "Download 阿卡尼亚之地星痕 (11.5 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E6%98%9F%E7%97%95.zip", external: true},
         ]},
       ],
     },

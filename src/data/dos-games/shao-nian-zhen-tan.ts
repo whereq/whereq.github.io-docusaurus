@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "少年侦探 is a DOS game in the WhereQ archive — 1995, 17 files, 3.5 MB, and an entry point of TEENAGNT.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shao-nian-zhen-tan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%91%E5%B9%B4%E4%BE%A6%E6%8E%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shao-nian-zhen-tan.zip"],
           ["Size", "3,626,636 bytes (3.5 MB)"],
           ["SHA-256", "406df191572bb2ce784056d6d03b4f4e95b49feb41edc77120564a0c65763281"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%91%E5%B9%B4%E4%BE%A6%E6%8E%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 少年侦探 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shao-nian-zhen-tan.zip", external: true},
+          {label: "Download 少年侦探 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%91%E5%B9%B4%E4%BE%A6%E6%8E%A2.zip", external: true},
         ]},
       ],
     },

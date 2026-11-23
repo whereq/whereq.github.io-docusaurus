@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻想空间5 is a DOS game in the WhereQ archive — 1991, 52 files, 7.1 MB, and an entry point of SCIDHUV.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-5.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B45.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-xiang-kong-jian-5.zip"],
           ["Size", "7,476,713 bytes (7.1 MB)"],
           ["SHA-256", "e0e93c73e8c5fd2b4aef35dc0c5ffe699b8f3db7c792cd75a8e29b943038a928"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B45.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻想空间5 (7.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-5.zip", external: true},
+          {label: "Download 幻想空间5 (7.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B45.zip", external: true},
         ]},
       ],
     },

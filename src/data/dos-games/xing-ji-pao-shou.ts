@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星际炮手 is a DOS game in the WhereQ archive — 1996, 5 files, 37.8 MB, and an entry point of stargun.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-pao-shou.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%82%AE%E6%89%8B.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-ji-pao-shou.zip"],
           ["Size", "39,678,998 bytes (37.8 MB)"],
           ["SHA-256", "ae9c70e3aaafe1c0d6637fab48c6ca7bdcdb716a647cfe9608e8b23aa51099ec"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%82%AE%E6%89%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星际炮手 (37.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-pao-shou.zip", external: true},
+          {label: "Download 星际炮手 (37.8 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%82%AE%E6%89%8B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "罪恶克星 is a DOS game in the WhereQ archive — 1996, 205 files, 1.7 MB, and an entry point of CRIME.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zui-e-ke-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E5%85%8B%E6%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zui-e-ke-xing.zip"],
           ["Size", "1,751,186 bytes (1.7 MB)"],
           ["SHA-256", "02ab67ae0778cdfe7d866ae3ac8208546ec870e393cf2871ed98df80be9fdb4f"],
           ["Files", "205"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E5%85%8B%E6%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罪恶克星 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zui-e-ke-xing.zip", external: true},
+          {label: "Download 罪恶克星 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E5%85%8B%E6%98%9F.zip", external: true},
         ]},
       ],
     },

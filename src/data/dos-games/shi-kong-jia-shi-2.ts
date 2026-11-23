@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "失控驾驶2 is a DOS game in the WhereQ archive — 1989, 22 files, 258 KB, and an entry point of FF.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-jia-shi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%B1%E6%8E%A7%E9%A9%BE%E9%A9%B62.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-kong-jia-shi-2.zip"],
           ["Size", "264,638 bytes (258 KB)"],
           ["SHA-256", "3a9ba20bcba05abcc0f008a2a38f01a27531f5c6cb9f4ba392dac40507e4e5a5"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%B1%E6%8E%A7%E9%A9%BE%E9%A9%B62.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 失控驾驶2 (258 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-jia-shi-2.zip", external: true},
+          {label: "Download 失控驾驶2 (258 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%B1%E6%8E%A7%E9%A9%BE%E9%A9%B62.zip", external: true},
         ]},
       ],
     },

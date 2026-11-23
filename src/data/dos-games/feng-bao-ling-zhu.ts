@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风暴领主 is a DOS game in the WhereQ archive — 1996, 46 files, 569 KB, and an entry point of STORM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-bao-ling-zhu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E9%A2%86%E4%B8%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-bao-ling-zhu.zip"],
           ["Size", "582,267 bytes (569 KB)"],
           ["SHA-256", "2d7bf314d1a0e5ff25a081419eeb041cd1167d924e4850d784edcfe00836ef5f"],
           ["Files", "46"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E9%A2%86%E4%B8%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风暴领主 (569 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-bao-ling-zhu.zip", external: true},
+          {label: "Download 风暴领主 (569 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E9%A2%86%E4%B8%BB.zip", external: true},
         ]},
       ],
     },

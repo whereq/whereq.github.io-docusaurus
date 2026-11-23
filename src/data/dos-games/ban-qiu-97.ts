@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "板球97 is a DOS game in the WhereQ archive — 1997, 68 files, 12.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/b/ban-qiu-97.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9D%BF%E7%90%8397.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ban-qiu-97.zip"],
           ["Size", "12,999,289 bytes (12.4 MB)"],
           ["SHA-256", "038e7e47248ed461d69ea3a5d752a9eb4ff8778632a625112212b68bff84d8cb"],
           ["Files", "68"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9D%BF%E7%90%8397.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 板球97 (12.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/ban-qiu-97.zip", external: true},
+          {label: "Download 板球97 (12.4 MB)", href: "https://dos-bin.zczc.cz/%E6%9D%BF%E7%90%8397.zip", external: true},
         ]},
       ],
     },

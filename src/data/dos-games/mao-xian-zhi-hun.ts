@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "冒险之魂 is a DOS game in the WhereQ archive — 1991, 78 files, 1.4 MB, and an entry point of SOA.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mao-xian-zhi-hun.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%92%E9%99%A9%E4%B9%8B%E9%AD%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mao-xian-zhi-hun.zip"],
           ["Size", "1,448,376 bytes (1.4 MB)"],
           ["SHA-256", "2496d1d4f918f28a1f9c86336795246c744c34d3e5ca0d003bef6131ab46295d"],
           ["Files", "78"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%92%E9%99%A9%E4%B9%8B%E9%AD%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 冒险之魂 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mao-xian-zhi-hun.zip", external: true},
+          {label: "Download 冒险之魂 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E5%86%92%E9%99%A9%E4%B9%8B%E9%AD%82.zip", external: true},
         ]},
       ],
     },

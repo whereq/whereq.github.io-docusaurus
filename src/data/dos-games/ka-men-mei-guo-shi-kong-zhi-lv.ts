@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "卡门美国时空之旅 is a DOS game in the WhereQ archive — 1991, 12 files, 1.7 MB, and an entry point of RUNME.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-mei-guo-shi-kong-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ka-men-mei-guo-shi-kong-zhi-lv.zip"],
           ["Size", "1,747,245 bytes (1.7 MB)"],
           ["SHA-256", "6efd945bda9df11c5c6d7ebde9edaf7816953d6dae752238b092c1ce25b75986"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卡门美国时空之旅 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ka-men-mei-guo-shi-kong-zhi-lv.zip", external: true},
+          {label: "Download 卡门美国时空之旅 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

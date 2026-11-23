@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿卡尼亚之地莉娃阴影 is a DOS game in the WhereQ archive — 1997, 150 files, 42.9 MB, and an entry point of RIVA.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-li-wa-yin-ying.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E8%8E%89%E5%A8%83%E9%98%B4%E5%BD%B1.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-ka-ni-ya-zhi-di-li-wa-yin-ying.zip"],
           ["Size", "45,020,120 bytes (42.9 MB)"],
           ["SHA-256", "4c1623f4a04775e9ed5f2164f6c8af76c742eacf3b4accc419082b3d7b438cfe"],
           ["Files", "150"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E8%8E%89%E5%A8%83%E9%98%B4%E5%BD%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿卡尼亚之地莉娃阴影 (42.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-ka-ni-ya-zhi-di-li-wa-yin-ying.zip", external: true},
+          {label: "Download 阿卡尼亚之地莉娃阴影 (42.9 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E8%8E%89%E5%A8%83%E9%98%B4%E5%BD%B1.zip", external: true},
         ]},
       ],
     },

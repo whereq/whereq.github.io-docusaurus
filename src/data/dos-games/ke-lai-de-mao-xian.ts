@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "克莱德冒险 is a DOS game in the WhereQ archive — 2002, 14 files, 290 KB, and an entry point of CLYDE1.EXE.",
   status: "2002",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-de-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2002"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-lai-de-mao-xian.zip"],
           ["Size", "296,673 bytes (290 KB)"],
           ["SHA-256", "538b4cc416fcc64f5cf63ae889e3d1c54d8f4d0822d6f898a467496779747722"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 克莱德冒险 (290 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-de-mao-xian.zip", external: true},
+          {label: "Download 克莱德冒险 (290 KB)", href: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E5%BE%B7%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

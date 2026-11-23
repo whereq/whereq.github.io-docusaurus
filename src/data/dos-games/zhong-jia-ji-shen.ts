@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "重甲机神 is a DOS game in the WhereQ archive — 1996, 37 files, 20.8 MB, and an entry point of DOS4GW.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-jia-ji-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%8D%E7%94%B2%E6%9C%BA%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-jia-ji-shen.zip"],
           ["Size", "21,849,761 bytes (20.8 MB)"],
           ["SHA-256", "a850bab9a9475c2f58c8cd53e51bff392dda35b13ebd2e363f1d3b957bea22f6"],
           ["Files", "37"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%8D%E7%94%B2%E6%9C%BA%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 重甲机神 (20.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-jia-ji-shen.zip", external: true},
+          {label: "Download 重甲机神 (20.8 MB)", href: "https://dos-bin.zczc.cz/%E9%87%8D%E7%94%B2%E6%9C%BA%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "逃离脑博士的城堡 is a DOS game in the WhereQ archive — 1991, 68 files, 3.5 MB, and an entry point of BRAIN.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tao-li-nao-bo-shi-de-cheng-bao.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E8%84%91%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tao-li-nao-bo-shi-de-cheng-bao.zip"],
           ["Size", "3,676,112 bytes (3.5 MB)"],
           ["SHA-256", "e065cbdd02a1dc3309e828f93e27706176976c233bfb31b81f0120b797d0471e"],
           ["Files", "68"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E8%84%91%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 逃离脑博士的城堡 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tao-li-nao-bo-shi-de-cheng-bao.zip", external: true},
+          {label: "Download 逃离脑博士的城堡 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E8%84%91%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip", external: true},
         ]},
       ],
     },

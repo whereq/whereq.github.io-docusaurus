@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "巫魔天境 is a DOS game in the WhereQ archive — an undated copy, 75 files, 11.1 MB, and an entry point of WH.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-mo-tian-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%AB%E9%AD%94%E5%A4%A9%E5%A2%83.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-mo-tian-jing.zip"],
           ["Size", "11,593,539 bytes (11.1 MB)"],
           ["SHA-256", "013e8f42449619a15139b40aa5bd534c1865388cf447e07656658c2aeca11786"],
           ["Files", "75"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%AB%E9%AD%94%E5%A4%A9%E5%A2%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巫魔天境 (11.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-mo-tian-jing.zip", external: true},
+          {label: "Download 巫魔天境 (11.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%AB%E9%AD%94%E5%A4%A9%E5%A2%83.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "永远的雷曼 is a DOS game in the WhereQ archive — 2009, 4 files, 511.8 MB, and an entry point of rayman.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-lei-man.zip",
+  url: "https://binary.dos.lol/f8220e53422dc33749b01e5902e6dbaaaa12500d5929435cc7d31b7f91160990.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yong-yuan-de-lei-man.zip"],
           ["Size", "536,663,719 bytes (511.8 MB)"],
           ["SHA-256", "f8220e53422dc33749b01e5902e6dbaaaa12500d5929435cc7d31b7f91160990"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://binary.dos.lol/f8220e53422dc33749b01e5902e6dbaaaa12500d5929435cc7d31b7f91160990.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 永远的雷曼 (511.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-lei-man.zip", external: true},
+          {label: "Download 永远的雷曼 (511.8 MB)", href: "https://binary.dos.lol/f8220e53422dc33749b01e5902e6dbaaaa12500d5929435cc7d31b7f91160990.zip", external: true},
         ]},
       ],
     },

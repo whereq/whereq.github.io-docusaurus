@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "血石矮人传奇 is a DOS game in the WhereQ archive — 1996, 286 files, 5.0 MB, and an entry point of BLOOD.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xue-shi-ai-ren-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A1%80%E7%9F%B3%E7%9F%AE%E4%BA%BA%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xue-shi-ai-ren-chuan-qi.zip"],
           ["Size", "5,266,052 bytes (5.0 MB)"],
           ["SHA-256", "9bcf26a1c553d681a0fc557828f164c3886c7cb7b9e109a4ae2653d62e27c3cf"],
           ["Files", "286"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A1%80%E7%9F%B3%E7%9F%AE%E4%BA%BA%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 血石矮人传奇 (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xue-shi-ai-ren-chuan-qi.zip", external: true},
+          {label: "Download 血石矮人传奇 (5.0 MB)", href: "https://dos-bin.zczc.cz/%E8%A1%80%E7%9F%B3%E7%9F%AE%E4%BA%BA%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

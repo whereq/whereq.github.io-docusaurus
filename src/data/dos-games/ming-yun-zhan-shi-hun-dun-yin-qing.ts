@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "命运战士/混沌引擎 is a DOS game in the WhereQ archive — 1994, 7 files, 1.0 MB, and an entry point of CHAOS.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ming-yun-zhan-shi-hun-dun-yin-qing.zip",
+  url: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E6%88%98%E5%A3%AB%EF%BC%8F%E6%B7%B7%E6%B2%8C%E5%BC%95%E6%93%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ming-yun-zhan-shi-hun-dun-yin-qing.zip"],
           ["Size", "1,081,948 bytes (1.0 MB)"],
           ["SHA-256", "d27a65a6869c46e1ba2f246041f301c6f8c6c4c720956f264a123094630b8400"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E6%88%98%E5%A3%AB%EF%BC%8F%E6%B7%B7%E6%B2%8C%E5%BC%95%E6%93%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 命运战士/混沌引擎 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ming-yun-zhan-shi-hun-dun-yin-qing.zip", external: true},
+          {label: "Download 命运战士/混沌引擎 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E6%88%98%E5%A3%AB%EF%BC%8F%E6%B7%B7%E6%B2%8C%E5%BC%95%E6%93%8E.zip", external: true},
         ]},
       ],
     },

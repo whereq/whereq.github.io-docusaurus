@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小飞侠 is a DOS game in the WhereQ archive — 1994, 2 files, 6.5 MB, and an entry point of PAN.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-fei-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-fei-xia.zip"],
           ["Size", "6,831,437 bytes (6.5 MB)"],
           ["SHA-256", "2aaa57adfb6a0b71be9811e5b56affd986c5b969e7707dd780670bff0f4f66a1"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小飞侠 (6.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-fei-xia.zip", external: true},
+          {label: "Download 小飞侠 (6.5 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁之路1 is a DOS game in the WhereQ archive — 1995, 1,425 files, 14.0 MB, and an entry point of STEEL.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-lu-1.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%B7%AF1.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-zhi-lu-1.zip"],
           ["Size", "14,729,532 bytes (14.0 MB)"],
           ["SHA-256", "fe7c2b1ce194b41b94f084657b91ce3bf47bc01cab036299bc06a5b1aab621e2"],
           ["Files", "1,425"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%B7%AF1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁之路1 (14.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-lu-1.zip", external: true},
+          {label: "Download 钢铁之路1 (14.0 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%B7%AF1.zip", external: true},
         ]},
       ],
     },

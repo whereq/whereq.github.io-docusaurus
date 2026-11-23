@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "艾蒂丝魔法大冒险 is a DOS game in the WhereQ archive — 1999, 2,001 files, 81.9 MB, and an entry point of play.bat.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/a/ai-di-si-mo-fa-da-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E8%89%BE%E8%92%82%E4%B8%9D%E9%AD%94%E6%B3%95%E5%A4%A7%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ai-di-si-mo-fa-da-mao-xian.zip"],
           ["Size", "85,842,909 bytes (81.9 MB)"],
           ["SHA-256", "34b7da1a752e45e2ac8d7da66be854ffa95db2a429c84178ed75a7eea7dc86c0"],
           ["Files", "2,001"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%89%BE%E8%92%82%E4%B8%9D%E9%AD%94%E6%B3%95%E5%A4%A7%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 艾蒂丝魔法大冒险 (81.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/ai-di-si-mo-fa-da-mao-xian.zip", external: true},
+          {label: "Download 艾蒂丝魔法大冒险 (81.9 MB)", href: "https://dos-bin.zczc.cz/%E8%89%BE%E8%92%82%E4%B8%9D%E9%AD%94%E6%B3%95%E5%A4%A7%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

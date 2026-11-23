@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "荷兰人的失落之矿 is a DOS game in the WhereQ archive — 1989, 38 files, 502 KB, and an entry point of LDM.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/h/he-lan-ren-de-shi-luo-zhi-kuang.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8D%B7%E5%85%B0%E4%BA%BA%E7%9A%84%E5%A4%B1%E8%90%BD%E4%B9%8B%E7%9F%BF.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "he-lan-ren-de-shi-luo-zhi-kuang.zip"],
           ["Size", "513,591 bytes (502 KB)"],
           ["SHA-256", "122ef27dadc0ec149551ca3e3d685ef467b9c6c16affa44b6377c94d6d8cec1c"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8D%B7%E5%85%B0%E4%BA%BA%E7%9A%84%E5%A4%B1%E8%90%BD%E4%B9%8B%E7%9F%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 荷兰人的失落之矿 (502 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/he-lan-ren-de-shi-luo-zhi-kuang.zip", external: true},
+          {label: "Download 荷兰人的失落之矿 (502 KB)", href: "https://dos-bin.zczc.cz/%E8%8D%B7%E5%85%B0%E4%BA%BA%E7%9A%84%E5%A4%B1%E8%90%BD%E4%B9%8B%E7%9F%BF.zip", external: true},
         ]},
       ],
     },

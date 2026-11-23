@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "绯王传2 is a DOS game in the WhereQ archive — 1995, 344 files, 3.6 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-wang-chuan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%AF%E7%8E%8B%E4%BC%A02.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-wang-chuan-2.zip"],
           ["Size", "3,823,523 bytes (3.6 MB)"],
           ["SHA-256", "48e61ac36b0668fc1fc982e408ec4a92c94e4ae91d5848e745e32b44fd1c97db"],
           ["Files", "344"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%AF%E7%8E%8B%E4%BC%A02.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 绯王传2 (3.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-wang-chuan-2.zip", external: true},
+          {label: "Download 绯王传2 (3.6 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%AF%E7%8E%8B%E4%BC%A02.zip", external: true},
         ]},
       ],
     },

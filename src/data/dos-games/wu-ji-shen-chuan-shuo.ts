@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "武姬神传说 is a DOS game in the WhereQ archive — 1995, 644 files, 14.4 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-ji-shen-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%A6%E5%A7%AC%E7%A5%9E%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-ji-shen-chuan-shuo.zip"],
           ["Size", "15,123,027 bytes (14.4 MB)"],
           ["SHA-256", "51ebded9ba8b02504c6d4df6ae4b1aa08f1db98a2fb2900ead5e2f321cac086c"],
           ["Files", "644"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%A6%E5%A7%AC%E7%A5%9E%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 武姬神传说 (14.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-ji-shen-chuan-shuo.zip", external: true},
+          {label: "Download 武姬神传说 (14.4 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%A6%E5%A7%AC%E7%A5%9E%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

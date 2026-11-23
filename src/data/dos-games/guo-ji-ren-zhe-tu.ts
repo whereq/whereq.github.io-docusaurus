@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国际忍者兔 is a DOS game in the WhereQ archive — 1996, 39 files, 359 KB, and an entry point of vga.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-ren-zhe-tu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E5%BF%8D%E8%80%85%E5%85%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-ji-ren-zhe-tu.zip"],
           ["Size", "367,610 bytes (359 KB)"],
           ["SHA-256", "2515cdaabd6a39eb1c19181be6e586092e0267c1dea80e0cd23a15a181c50dac"],
           ["Files", "39"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E5%BF%8D%E8%80%85%E5%85%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国际忍者兔 (359 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-ren-zhe-tu.zip", external: true},
+          {label: "Download 国际忍者兔 (359 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E5%BF%8D%E8%80%85%E5%85%94.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世机神 is a DOS game in the WhereQ archive — 1996, 98 files, 8.6 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E6%9C%BA%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-ji-shen.zip"],
           ["Size", "9,000,555 bytes (8.6 MB)"],
           ["SHA-256", "359dc3dfde673cc3d9bec9295fbfe965d514496025594f1b45ec4e3d6deea7eb"],
           ["Files", "98"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E6%9C%BA%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世机神 (8.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-shen.zip", external: true},
+          {label: "Download 创世机神 (8.6 MB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E6%9C%BA%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

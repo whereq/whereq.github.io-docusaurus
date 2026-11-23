@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小蜜蜂 is a DOS game in the WhereQ archive — 1997, 19 files, 689 KB, and an entry point of galaxia.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mi-feng.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-mi-feng.zip"],
           ["Size", "705,486 bytes (689 KB)"],
           ["SHA-256", "6e53858d5880234272e90a26b697fdfc2cb9bed77c16a219559bfc343a9613de"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小蜜蜂 (689 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-mi-feng.zip", external: true},
+          {label: "Download 小蜜蜂 (689 KB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82.zip", external: true},
         ]},
       ],
     },

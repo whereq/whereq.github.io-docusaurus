@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔眼杀机2隐月传奇 is a DOS game in the WhereQ archive — 1991, 270 files, 3.1 MB, and an entry point of START.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji-2-yin-yue-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA2%E9%9A%90%E6%9C%88%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "智冠科技"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yan-sha-ji-2-yin-yue-chuan-qi.zip"],
           ["Size", "3,291,055 bytes (3.1 MB)"],
           ["SHA-256", "5c55a4ff2b80d358310786526b2b3d512d3ba4c31afc0e65e9b45ccefde60c30"],
           ["Files", "270"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA2%E9%9A%90%E6%9C%88%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔眼杀机2隐月传奇 (3.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-sha-ji-2-yin-yue-chuan-qi.zip", external: true},
+          {label: "Download 魔眼杀机2隐月传奇 (3.1 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA2%E9%9A%90%E6%9C%88%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

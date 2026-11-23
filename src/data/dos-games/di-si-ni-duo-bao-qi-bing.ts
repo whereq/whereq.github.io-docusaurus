@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "迪斯尼夺宝奇兵 is a DOS game in the WhereQ archive — 1990, 22 files, 660 KB, and an entry point of DUCKTALE.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-si-ni-duo-bao-qi-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%AA%E6%96%AF%E5%B0%BC%E5%A4%BA%E5%AE%9D%E5%A5%87%E5%85%B5.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-si-ni-duo-bao-qi-bing.zip"],
           ["Size", "675,587 bytes (660 KB)"],
           ["SHA-256", "5d507808d9d39d098dfee218e2087c764f2aa502d140462194f4af8875ceca11"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%AA%E6%96%AF%E5%B0%BC%E5%A4%BA%E5%AE%9D%E5%A5%87%E5%85%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 迪斯尼夺宝奇兵 (660 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-si-ni-duo-bao-qi-bing.zip", external: true},
+          {label: "Download 迪斯尼夺宝奇兵 (660 KB)", href: "https://dos-bin.zczc.cz/%E8%BF%AA%E6%96%AF%E5%B0%BC%E5%A4%BA%E5%AE%9D%E5%A5%87%E5%85%B5.zip", external: true},
         ]},
       ],
     },

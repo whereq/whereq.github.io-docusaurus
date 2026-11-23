@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "舰队守护神 is a DOS game in the WhereQ archive — 2003, 1,099 files, 63.2 MB, and an entry point of play.bat.",
   status: "2003",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jian-dui-shou-hu-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E8%88%B0%E9%98%9F%E5%AE%88%E6%8A%A4%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2003"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jian-dui-shou-hu-shen.zip"],
           ["Size", "66,319,421 bytes (63.2 MB)"],
           ["SHA-256", "e4c8e51b6e5037307be9892db8a4718fdf6814a7f578fb2ca5ae7ea68f7bd979"],
           ["Files", "1,099"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%88%B0%E9%98%9F%E5%AE%88%E6%8A%A4%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 舰队守护神 (63.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jian-dui-shou-hu-shen.zip", external: true},
+          {label: "Download 舰队守护神 (63.2 MB)", href: "https://dos-bin.zczc.cz/%E8%88%B0%E9%98%9F%E5%AE%88%E6%8A%A4%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

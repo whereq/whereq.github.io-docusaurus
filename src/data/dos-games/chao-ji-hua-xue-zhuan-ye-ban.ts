@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级滑雪专业版 is a DOS game in the WhereQ archive — 1996, 207 files, 11.4 MB, and an entry point of SKI.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-zhuan-ye-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA%E4%B8%93%E4%B8%9A%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-hua-xue-zhuan-ye-ban.zip"],
           ["Size", "11,960,265 bytes (11.4 MB)"],
           ["SHA-256", "8a111a057ea0706a71d7519d5d26c27c5a606df8d62dcdbb91b38e5677c01e50"],
           ["Files", "207"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA%E4%B8%93%E4%B8%9A%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级滑雪专业版 (11.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-zhuan-ye-ban.zip", external: true},
+          {label: "Download 超级滑雪专业版 (11.4 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA%E4%B8%93%E4%B8%9A%E7%89%88.zip", external: true},
         ]},
       ],
     },

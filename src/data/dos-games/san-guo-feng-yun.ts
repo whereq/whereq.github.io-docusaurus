@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三国风云 is a DOS game in the WhereQ archive — 1998, 412 files, 11.1 MB, and an entry point of PLAY.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-feng-yun.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E9%A3%8E%E4%BA%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-guo-feng-yun.zip"],
           ["Size", "11,678,709 bytes (11.1 MB)"],
           ["SHA-256", "a946be09629b50e9474b81befb900b120dadb521ed3353592b30a4be667946be"],
           ["Files", "412"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E9%A3%8E%E4%BA%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三国风云 (11.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-guo-feng-yun.zip", external: true},
+          {label: "Download 三国风云 (11.1 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E9%A3%8E%E4%BA%91.zip", external: true},
         ]},
       ],
     },

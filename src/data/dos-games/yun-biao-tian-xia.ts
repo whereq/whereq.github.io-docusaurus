@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "运镖天下 is a DOS game in the WhereQ archive — 1996, 90 files, 5.2 MB, and an entry point of DART.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yun-biao-tian-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%90%E9%95%96%E5%A4%A9%E4%B8%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yun-biao-tian-xia.zip"],
           ["Size", "5,486,643 bytes (5.2 MB)"],
           ["SHA-256", "c5ed9290cad7ccc9a9859a142da61633f5ec874e45866ce654849a75a89fd436"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%90%E9%95%96%E5%A4%A9%E4%B8%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 运镖天下 (5.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yun-biao-tian-xia.zip", external: true},
+          {label: "Download 运镖天下 (5.2 MB)", href: "https://dos-bin.zczc.cz/%E8%BF%90%E9%95%96%E5%A4%A9%E4%B8%8B.zip", external: true},
         ]},
       ],
     },

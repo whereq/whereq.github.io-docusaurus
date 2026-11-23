@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "势不两立 is a DOS game in the WhereQ archive — 1990, 122 files, 1.1 MB, and an entry point of GAME.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-bu-liang-li.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8A%BF%E4%B8%8D%E4%B8%A4%E7%AB%8B.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-bu-liang-li.zip"],
           ["Size", "1,127,661 bytes (1.1 MB)"],
           ["SHA-256", "81ddabab1e9b41f4ebe35e5ccce820d8b8f19152a74ebac8c41b1da2b7626bb8"],
           ["Files", "122"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8A%BF%E4%B8%8D%E4%B8%A4%E7%AB%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 势不两立 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-bu-liang-li.zip", external: true},
+          {label: "Download 势不两立 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E5%8A%BF%E4%B8%8D%E4%B8%A4%E7%AB%8B.zip", external: true},
         ]},
       ],
     },

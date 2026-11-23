@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "中央情报局 is a DOS game in the WhereQ archive — 1994, 700 files, 46.3 MB, and an entry point of CI.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-yang-qing-bao-ju.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%A4%AE%E6%83%85%E6%8A%A5%E5%B1%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-yang-qing-bao-ju.zip"],
           ["Size", "48,503,392 bytes (46.3 MB)"],
           ["SHA-256", "d393dfe5447e4a44ebd2b8a5c6a9daa049480ff65321337050edf2a031cb40aa"],
           ["Files", "700"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%AD%E5%A4%AE%E6%83%85%E6%8A%A5%E5%B1%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 中央情报局 (46.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-yang-qing-bao-ju.zip", external: true},
+          {label: "Download 中央情报局 (46.3 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%A4%AE%E6%83%85%E6%8A%A5%E5%B1%80.zip", external: true},
         ]},
       ],
     },

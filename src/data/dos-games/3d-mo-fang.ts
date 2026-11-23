@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "3",
   summary: "3D魔方 is a DOS game in the WhereQ archive — 2000, 3 files, 52 KB, and an entry point of 3DCUBE.EXE.",
   status: "2000",
-  url: "https://github.com/whereq/dos-games/releases/download/3/3d-mo-fang.zip",
+  url: "https://dos-bin.zczc.cz/3D%E9%AD%94%E6%96%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2000"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "3d-mo-fang.zip"],
           ["Size", "53,227 bytes (52 KB)"],
           ["SHA-256", "5f76bcbc45e64f9f791de721364e17f6e5e21b71b92cee80ee3013a199d63c6c"],
           ["Files", "3"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/3D%E9%AD%94%E6%96%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 3D魔方 (52 KB)", href: "https://github.com/whereq/dos-games/releases/download/3/3d-mo-fang.zip", external: true},
+          {label: "Download 3D魔方 (52 KB)", href: "https://dos-bin.zczc.cz/3D%E9%AD%94%E6%96%B9.zip", external: true},
         ]},
       ],
     },

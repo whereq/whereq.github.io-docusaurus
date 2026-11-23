@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "宝藏陷阱 is a DOS game in the WhereQ archive — 1990, 55 files, 633 KB, and an entry point of TT.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-zang-xian-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%9D%E8%97%8F%E9%99%B7%E9%98%B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-zang-xian-jing.zip"],
           ["Size", "648,162 bytes (633 KB)"],
           ["SHA-256", "1ab12d802d651d3e0a2346190044b5a4b6620bf0855a920c0cc8eb08a79b11c4"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%9D%E8%97%8F%E9%99%B7%E9%98%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宝藏陷阱 (633 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-zang-xian-jing.zip", external: true},
+          {label: "Download 宝藏陷阱 (633 KB)", href: "https://dos-bin.zczc.cz/%E5%AE%9D%E8%97%8F%E9%99%B7%E9%98%B1.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗迷宫 is a DOS game in the WhereQ archive — 1990, 77 files, 394 KB, and an entry point of INSTALL.COM.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-mi-gong.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E8%BF%B7%E5%AE%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-mi-gong.zip"],
           ["Size", "403,019 bytes (394 KB)"],
           ["SHA-256", "1e5e101c28fb0c1938e0ed635ce2fbc796ea8f9471d0dcd0a4953f028d810617"],
           ["Files", "77"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E8%BF%B7%E5%AE%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗迷宫 (394 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-mi-gong.zip", external: true},
+          {label: "Download 黑暗迷宫 (394 KB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E8%BF%B7%E5%AE%AB.zip", external: true},
         ]},
       ],
     },

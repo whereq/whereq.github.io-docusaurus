@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级大富翁 is a DOS game in the WhereQ archive — 1995, 470 files, 5.2 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-da-fu-weng.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-da-fu-weng.zip"],
           ["Size", "5,434,838 bytes (5.2 MB)"],
           ["SHA-256", "f7b6f09c418a257446a5436a292825988902dafeb1e4f9218f9e82cb06f16f7d"],
           ["Files", "470"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E5%AF%8C%E7%BF%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级大富翁 (5.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-da-fu-weng.zip", external: true},
+          {label: "Download 超级大富翁 (5.2 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E5%AF%8C%E7%BF%81.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "火狐冒险 is a DOS game in the WhereQ archive — 1991, 26 files, 659 KB, and an entry point of FFC.COM.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huo-hu-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%8B%90%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huo-hu-mao-xian.zip"],
           ["Size", "675,295 bytes (659 KB)"],
           ["SHA-256", "fa7eafb6699dcdf615df747062788aaf280be6883278f0c615f8e2db94b40520"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%AB%E7%8B%90%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 火狐冒险 (659 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/huo-hu-mao-xian.zip", external: true},
+          {label: "Download 火狐冒险 (659 KB)", href: "https://dos-bin.zczc.cz/%E7%81%AB%E7%8B%90%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

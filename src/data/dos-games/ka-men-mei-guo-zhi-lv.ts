@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "卡门美国之旅 is a DOS game in the WhereQ archive — 1992, 8 files, 579 KB, and an entry point of CARMEN.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-mei-guo-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ka-men-mei-guo-zhi-lv.zip"],
           ["Size", "593,365 bytes (579 KB)"],
           ["SHA-256", "5ac0a11690cbe5dd8ab0db844c04dd529982df173b34a5d77b0de25afe328225"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卡门美国之旅 (579 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/ka-men-mei-guo-zhi-lv.zip", external: true},
+          {label: "Download 卡门美国之旅 (579 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E7%BE%8E%E5%9B%BD%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

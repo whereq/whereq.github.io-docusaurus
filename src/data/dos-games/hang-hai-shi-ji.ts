@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "航海世纪 is a DOS game in the WhereQ archive — 1996, 1,062 files, 57.9 MB, and an entry point of ELLI.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hang-hai-shi-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%88%AA%E6%B5%B7%E4%B8%96%E7%BA%AA.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hang-hai-shi-ji.zip"],
           ["Size", "60,730,162 bytes (57.9 MB)"],
           ["SHA-256", "2f99fc7f1be6a8181c6081df4d251d7cb8e3b3a7008bc99a3e53fb62ad6ae461"],
           ["Files", "1,062"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%88%AA%E6%B5%B7%E4%B8%96%E7%BA%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 航海世纪 (57.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hang-hai-shi-ji.zip", external: true},
+          {label: "Download 航海世纪 (57.9 MB)", href: "https://dos-bin.zczc.cz/%E8%88%AA%E6%B5%B7%E4%B8%96%E7%BA%AA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异星突击 is a DOS game in the WhereQ archive — 1996, 54 files, 13.4 MB, and an entry point of GC.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-tu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-tu-ji.zip"],
           ["Size", "14,004,874 bytes (13.4 MB)"],
           ["SHA-256", "d32118e32d26ba1d67cb221cff71e2ee099cd98e038de7ded04775ea00493e19"],
           ["Files", "54"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异星突击 (13.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-tu-ji.zip", external: true},
+          {label: "Download 异星突击 (13.4 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip", external: true},
         ]},
       ],
     },

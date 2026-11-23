@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "明星志愿1 is a DOS game in the WhereQ archive — 1995, 27 files, 6.0 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ming-xing-zhi-yuan-1.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%8E%E6%98%9F%E5%BF%97%E6%84%BF1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ming-xing-zhi-yuan-1.zip"],
           ["Size", "6,256,250 bytes (6.0 MB)"],
           ["SHA-256", "a5225f10dbbcef85b032f1f4230d69326cbe3ec495cf7b410d6adff6c888a2e3"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%8E%E6%98%9F%E5%BF%97%E6%84%BF1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 明星志愿1 (6.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ming-xing-zhi-yuan-1.zip", external: true},
+          {label: "Download 明星志愿1 (6.0 MB)", href: "https://dos-bin.zczc.cz/%E6%98%8E%E6%98%9F%E5%BF%97%E6%84%BF1.zip", external: true},
         ]},
       ],
     },

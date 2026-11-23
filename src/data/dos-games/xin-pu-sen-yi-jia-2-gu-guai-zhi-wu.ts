@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "辛普森一家2古怪之屋 is a DOS game in the WhereQ archive — 1999, 342 files, 1.4 MB, and an entry point of S.BAT.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-yi-jia-2-gu-guai-zhi-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B62%E5%8F%A4%E6%80%AA%E4%B9%8B%E5%B1%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-pu-sen-yi-jia-2-gu-guai-zhi-wu.zip"],
           ["Size", "1,499,357 bytes (1.4 MB)"],
           ["SHA-256", "fe7c3744df42219bb6be989ea6f042b4e51d8f6983f9c7b4b409c113ad8c8ae3"],
           ["Files", "342"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B62%E5%8F%A4%E6%80%AA%E4%B9%8B%E5%B1%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 辛普森一家2古怪之屋 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-yi-jia-2-gu-guai-zhi-wu.zip", external: true},
+          {label: "Download 辛普森一家2古怪之屋 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B62%E5%8F%A4%E6%80%AA%E4%B9%8B%E5%B1%8B.zip", external: true},
         ]},
       ],
     },

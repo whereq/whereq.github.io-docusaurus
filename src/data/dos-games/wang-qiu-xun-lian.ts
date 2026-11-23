@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "网球训练 is a DOS game in the WhereQ archive — 1997, 207 files, 3.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wang-qiu-xun-lian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%91%E7%90%83%E8%AE%AD%E7%BB%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wang-qiu-xun-lian.zip"],
           ["Size", "3,537,010 bytes (3.4 MB)"],
           ["SHA-256", "df4f1b63d5a6878fa68430c2b7eb2cdbf84e81c44a3880fda129a12d89ab7ca8"],
           ["Files", "207"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%91%E7%90%83%E8%AE%AD%E7%BB%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 网球训练 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wang-qiu-xun-lian.zip", external: true},
+          {label: "Download 网球训练 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E7%BD%91%E7%90%83%E8%AE%AD%E7%BB%83.zip", external: true},
         ]},
       ],
     },

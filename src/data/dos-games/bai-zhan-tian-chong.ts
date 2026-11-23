@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "百战天虫 is a DOS game in the WhereQ archive — 1996, 103 files, 1.9 MB, and an entry point of WORMS2.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-tian-chong.zip",
+  url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bai-zhan-tian-chong.zip"],
           ["Size", "1,944,824 bytes (1.9 MB)"],
           ["SHA-256", "fa8ce2c63518667a5ff6a44fa36f9b3902b7fc1bc135d78acad0fc5f7b344439"],
           ["Files", "103"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 百战天虫 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-tian-chong.zip", external: true},
+          {label: "Download 百战天虫 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%A4%A9%E8%99%AB.zip", external: true},
         ]},
       ],
     },

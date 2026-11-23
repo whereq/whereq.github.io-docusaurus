@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王密使1皇冠探求 is a DOS game in the WhereQ archive — 1987, 24 files, 2.2 MB, and an entry point of KQ1.COM.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-1-huang-guan-tan-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF1%E7%9A%87%E5%86%A0%E6%8E%A2%E6%B1%82.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-mi-shi-1-huang-guan-tan-qiu.zip"],
           ["Size", "2,350,978 bytes (2.2 MB)"],
           ["SHA-256", "fa232259b52704f10592d45491f7284ac8d6d12e8788f2a1e7923ba6f24216d7"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF1%E7%9A%87%E5%86%A0%E6%8E%A2%E6%B1%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王密使1皇冠探求 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-1-huang-guan-tan-qiu.zip", external: true},
+          {label: "Download 国王密使1皇冠探求 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF1%E7%9A%87%E5%86%A0%E6%8E%A2%E6%B1%82.zip", external: true},
         ]},
       ],
     },

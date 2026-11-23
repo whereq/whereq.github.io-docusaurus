@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "螳螂战机 is a DOS game in the WhereQ archive — 1993, 333 files, 13.5 MB, and an entry point of SETUP.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tang-lang-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%9E%B3%E8%9E%82%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tang-lang-zhan-ji.zip"],
           ["Size", "14,127,251 bytes (13.5 MB)"],
           ["SHA-256", "b5e712760fc87c281e7b5be6fdaea2d64358e1851290ad19efb3c06c3cb51e2e"],
           ["Files", "333"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%9E%B3%E8%9E%82%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 螳螂战机 (13.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tang-lang-zhan-ji.zip", external: true},
+          {label: "Download 螳螂战机 (13.5 MB)", href: "https://dos-bin.zczc.cz/%E8%9E%B3%E8%9E%82%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

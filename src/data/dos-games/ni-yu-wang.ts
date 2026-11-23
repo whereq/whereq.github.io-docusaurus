@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "逆玉王 is a DOS game in the WhereQ archive — 1994, 566 files, 4.2 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/n/ni-yu-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%86%E7%8E%89%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ni-yu-wang.zip"],
           ["Size", "4,369,178 bytes (4.2 MB)"],
           ["SHA-256", "2394441793bbaf6d285f5709e8be3363b0852c82f4c2ea75467a61b86e946d6c"],
           ["Files", "566"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%86%E7%8E%89%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 逆玉王 (4.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/ni-yu-wang.zip", external: true},
+          {label: "Download 逆玉王 (4.2 MB)", href: "https://dos-bin.zczc.cz/%E9%80%86%E7%8E%89%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

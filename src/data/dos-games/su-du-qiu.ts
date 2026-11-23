@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "速度球 is a DOS game in the WhereQ archive — 1991, 57 files, 314 KB, and an entry point of EGA.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/s/su-du-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "su-du-qiu.zip"],
           ["Size", "321,299 bytes (314 KB)"],
           ["SHA-256", "8cd81d87f67904466c0f511e953c8494bcf11357d60d47a8a661f8d245c03c86"],
           ["Files", "57"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 速度球 (314 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/su-du-qiu.zip", external: true},
+          {label: "Download 速度球 (314 KB)", href: "https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%83.zip", external: true},
         ]},
       ],
     },

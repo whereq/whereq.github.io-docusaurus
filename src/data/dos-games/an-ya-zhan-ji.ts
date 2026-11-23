@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "安雅战机 is a DOS game in the WhereQ archive — 1996, 48 files, 409 KB, and an entry point of game.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/an-ya-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%89%E9%9B%85%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "an-ya-zhan-ji.zip"],
           ["Size", "418,326 bytes (409 KB)"],
           ["SHA-256", "2fcf120858db2b57552ecf6c561dbead81513167a1437f9662ae4b2956f7566a"],
           ["Files", "48"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%89%E9%9B%85%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 安雅战机 (409 KB)", href: "https://github.com/whereq/dos-games/releases/download/a/an-ya-zhan-ji.zip", external: true},
+          {label: "Download 安雅战机 (409 KB)", href: "https://dos-bin.zczc.cz/%E5%AE%89%E9%9B%85%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

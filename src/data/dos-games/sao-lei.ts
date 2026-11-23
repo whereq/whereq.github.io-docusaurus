@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "扫雷 is a DOS game in the WhereQ archive — 1997, 13 files, 219 KB, and an entry point of MINERVA.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sao-lei.zip",
+  url: "https://dos-bin.zczc.cz/%E6%89%AB%E9%9B%B7.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sao-lei.zip"],
           ["Size", "224,528 bytes (219 KB)"],
           ["SHA-256", "174803b27d0dadeb400e6ad4f9b4ffdb009590ee85004b36287a7620e24cede3"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%89%AB%E9%9B%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 扫雷 (219 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sao-lei.zip", external: true},
+          {label: "Download 扫雷 (219 KB)", href: "https://dos-bin.zczc.cz/%E6%89%AB%E9%9B%B7.zip", external: true},
         ]},
       ],
     },

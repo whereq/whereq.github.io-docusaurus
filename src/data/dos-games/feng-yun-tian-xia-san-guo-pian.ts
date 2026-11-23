@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风云天下三国篇 is a DOS game in the WhereQ archive — 1995, 5 files, 3.2 MB, and an entry point of GAME.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-yun-tian-xia-san-guo-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E4%BA%91%E5%A4%A9%E4%B8%8B%E4%B8%89%E5%9B%BD%E7%AF%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-yun-tian-xia-san-guo-pian.zip"],
           ["Size", "3,356,938 bytes (3.2 MB)"],
           ["SHA-256", "6705ac4f1fd7d0237f56fccee0a449fd4014a9617963959b7f3c9f52b919b9ad"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E4%BA%91%E5%A4%A9%E4%B8%8B%E4%B8%89%E5%9B%BD%E7%AF%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风云天下三国篇 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-yun-tian-xia-san-guo-pian.zip", external: true},
+          {label: "Download 风云天下三国篇 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E4%BA%91%E5%A4%A9%E4%B8%8B%E4%B8%89%E5%9B%BD%E7%AF%87.zip", external: true},
         ]},
       ],
     },

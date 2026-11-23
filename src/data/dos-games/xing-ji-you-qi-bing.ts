@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星际游骑兵 is a DOS game in the WhereQ archive — 1996, 52 files, 108.5 MB, and an entry point of SRANGERS.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-you-qi-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E6%B8%B8%E9%AA%91%E5%85%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-ji-you-qi-bing.zip"],
           ["Size", "113,768,751 bytes (108.5 MB)"],
           ["SHA-256", "23523aec665a18fcbbf010ff39340510089f344512c5e6d64fa25b5316625fca"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E6%B8%B8%E9%AA%91%E5%85%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星际游骑兵 (108.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-you-qi-bing.zip", external: true},
+          {label: "Download 星际游骑兵 (108.5 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E6%B8%B8%E9%AA%91%E5%85%B5.zip", external: true},
         ]},
       ],
     },

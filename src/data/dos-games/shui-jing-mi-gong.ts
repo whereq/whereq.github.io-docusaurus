@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "水晶迷宫 is a DOS game in the WhereQ archive — 1996, 17 files, 1.6 MB, and an entry point of CMAZE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shui-jing-mi-gong.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%99%B6%E8%BF%B7%E5%AE%AB.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shui-jing-mi-gong.zip"],
           ["Size", "1,639,164 bytes (1.6 MB)"],
           ["SHA-256", "ab6256d14c3ee67c9b9278bbaf4b273d69cc4389ddefb0a4a1cebf762e2134fc"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%B4%E6%99%B6%E8%BF%B7%E5%AE%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 水晶迷宫 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shui-jing-mi-gong.zip", external: true},
+          {label: "Download 水晶迷宫 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%99%B6%E8%BF%B7%E5%AE%AB.zip", external: true},
         ]},
       ],
     },

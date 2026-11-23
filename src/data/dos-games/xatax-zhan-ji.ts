@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "XATAX战机 is a DOS game in the WhereQ archive — 2005, 7 files, 810 KB, and an entry point of XATAX.EXE.",
   status: "2005",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xatax-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/XATAX%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2005"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xatax-zhan-ji.zip"],
           ["Size", "829,773 bytes (810 KB)"],
           ["SHA-256", "e42abc89b3993da2e1a515e00d35b814f563aca1f3c45134ed670caf8d064156"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/XATAX%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download XATAX战机 (810 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xatax-zhan-ji.zip", external: true},
+          {label: "Download XATAX战机 (810 KB)", href: "https://dos-bin.zczc.cz/XATAX%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

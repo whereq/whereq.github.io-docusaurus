@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "时空游侠 is a DOS game in the WhereQ archive — 1996, 88 files, 71.6 MB, and an entry point of TIMEDEB.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-you-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%B8%B8%E4%BE%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-kong-you-xia.zip"],
           ["Size", "75,109,839 bytes (71.6 MB)"],
           ["SHA-256", "3943a050887d6a44725ec1efed305f1215884426846e17205951e0dceae4b1f0"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%B8%B8%E4%BE%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 时空游侠 (71.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-you-xia.zip", external: true},
+          {label: "Download 时空游侠 (71.6 MB)", href: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%B8%B8%E4%BE%A0.zip", external: true},
         ]},
       ],
     },

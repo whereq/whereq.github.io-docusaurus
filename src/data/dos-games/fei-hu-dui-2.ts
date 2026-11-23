@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞虎队2 is a DOS game in the WhereQ archive — 1995, 113 files, 1.5 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-hu-dui-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-hu-dui-2.zip"],
           ["Size", "1,560,704 bytes (1.5 MB)"],
           ["SHA-256", "5bc3bf9a4952b0ae4c9a8163632c1e0bdb82b02cf1b5de42f3571cbc464d25f4"],
           ["Files", "113"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞虎队2 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-hu-dui-2.zip", external: true},
+          {label: "Download 飞虎队2 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F2.zip", external: true},
         ]},
       ],
     },

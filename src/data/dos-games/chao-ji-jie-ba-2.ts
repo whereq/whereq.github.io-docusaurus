@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级街霸2 is a DOS game in the WhereQ archive — 2010, 1,416 files, 9.4 MB, and an entry point of SSF2T.BAT.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-jie-ba-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-jie-ba-2.zip"],
           ["Size", "9,864,724 bytes (9.4 MB)"],
           ["SHA-256", "9ab32e2ff9920a2f70fbbea3fe524eec22b0461f762d524ca7552a6cb7a92254"],
           ["Files", "1,416"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级街霸2 (9.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-jie-ba-2.zip", external: true},
+          {label: "Download 超级街霸2 (9.4 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B82.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "疯子 is a DOS game in the WhereQ archive — 1995, 589 files, 1.2 MB, and an entry point of UU3.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%96%AF%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-zi.zip"],
           ["Size", "1,230,414 bytes (1.2 MB)"],
           ["SHA-256", "0077e7f900f507429f67b0a7534bb37529200eeed3facb4feb42942aa64f0f5d"],
           ["Files", "589"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%96%AF%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 疯子 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-zi.zip", external: true},
+          {label: "Download 疯子 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E7%96%AF%E5%AD%90.zip", external: true},
         ]},
       ],
     },

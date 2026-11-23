@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "信长之野望·天翔记 is a DOS game in the WhereQ archive — 1995, 59 files, 3.3 MB, and an entry point of TENSHOU.COM.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-tian-xiang-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E5%A4%A9%E7%BF%94%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-zhang-zhi-ye-wang-tian-xiang-ji.zip"],
           ["Size", "3,437,060 bytes (3.3 MB)"],
           ["SHA-256", "72e1758187de7120d8e392e667e3d2fa26ef7cb52ac3b0c4f49841b9dbf4c002"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E5%A4%A9%E7%BF%94%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 信长之野望·天翔记 (3.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-zhang-zhi-ye-wang-tian-xiang-ji.zip", external: true},
+          {label: "Download 信长之野望·天翔记 (3.3 MB)", href: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E5%A4%A9%E7%BF%94%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

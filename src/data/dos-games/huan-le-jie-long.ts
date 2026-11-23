@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "欢乐接龙 is a DOS game in the WhereQ archive — 1989, 109 files, 498 KB, and an entry point of POKER.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-le-jie-long.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E6%8E%A5%E9%BE%99.zip",
   facts: [
     {label: "Developer", value: "SOFTSTAR"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-le-jie-long.zip"],
           ["Size", "510,188 bytes (498 KB)"],
           ["SHA-256", "70aba8fea98adc6a44c916028ee1e0f3ecb1606b110ed985ab58e895c299d78a"],
           ["Files", "109"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E6%8E%A5%E9%BE%99.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 欢乐接龙 (498 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-le-jie-long.zip", external: true},
+          {label: "Download 欢乐接龙 (498 KB)", href: "https://dos-bin.zczc.cz/%E6%AC%A2%E4%B9%90%E6%8E%A5%E9%BE%99.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "地狱付费之旅 is a DOS game in the WhereQ archive — 1996, 31 files, 46.4 MB, and an entry point of HELL2PAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-yu-fu-fei-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%BB%98%E8%B4%B9%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-yu-fu-fei-zhi-lv.zip"],
           ["Size", "48,654,536 bytes (46.4 MB)"],
           ["SHA-256", "8023f686df1edbdbeee5ff72e8cbbd37c7fb47c44e1ff053c108e7a42bf49f47"],
           ["Files", "31"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%BB%98%E8%B4%B9%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 地狱付费之旅 (46.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-yu-fu-fei-zhi-lv.zip", external: true},
+          {label: "Download 地狱付费之旅 (46.4 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E4%BB%98%E8%B4%B9%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "狐战机 is a DOS game in the WhereQ archive — 1992, 18 files, 538 KB, and an entry point of FR.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hu-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%90%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hu-zhan-ji.zip"],
           ["Size", "550,671 bytes (538 KB)"],
           ["SHA-256", "78ecfd6250901b05f056a2e12daa6e67018f1e5518821afe1d328c51414bf8d9"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%90%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 狐战机 (538 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hu-zhan-ji.zip", external: true},
+          {label: "Download 狐战机 (538 KB)", href: "https://dos-bin.zczc.cz/%E7%8B%90%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "爆笑保龄球 is a DOS game in the WhereQ archive — 1995, 25 files, 1023 KB, and an entry point of BOWLING.COM.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-bao-ling-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%BF%9D%E9%BE%84%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-xiao-bao-ling-qiu.zip"],
           ["Size", "1,047,917 bytes (1023 KB)"],
           ["SHA-256", "7f251ac5620816de966a4591a0af581d1980c2caf86aff442447a1a12ca757e6"],
           ["Files", "25"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%BF%9D%E9%BE%84%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爆笑保龄球 (1023 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-bao-ling-qiu.zip", external: true},
+          {label: "Download 爆笑保龄球 (1023 KB)", href: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%BF%9D%E9%BE%84%E7%90%83.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔眼水晶 is a DOS game in the WhereQ archive — 1999, 116 files, 1009 KB, and an entry point of LEGEND.BAT.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-shui-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%B0%B4%E6%99%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yan-shui-jing.zip"],
           ["Size", "1,033,038 bytes (1009 KB)"],
           ["SHA-256", "94a9b8a7ecc030f4eafaec0fc99705a8e0092bd724eb1fffb289fa8b29c676a4"],
           ["Files", "116"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%B0%B4%E6%99%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔眼水晶 (1009 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yan-shui-jing.zip", external: true},
+          {label: "Download 魔眼水晶 (1009 KB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%B0%B4%E6%99%B6.zip", external: true},
         ]},
       ],
     },

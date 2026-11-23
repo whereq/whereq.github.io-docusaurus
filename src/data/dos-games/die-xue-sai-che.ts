@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "喋血赛车 is a DOS game in the WhereQ archive — 1997, 3,367 files, 44.3 MB, and an entry point of Splat.exe.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/d/die-xue-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E5%96%8B%E8%A1%80%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "die-xue-sai-che.zip"],
           ["Size", "46,440,453 bytes (44.3 MB)"],
           ["SHA-256", "259de2c973f233c2a089ac9f6dd37fdafd0967007c77cee3a2cafb3921ad28c0"],
           ["Files", "3,367"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%96%8B%E8%A1%80%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 喋血赛车 (44.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/die-xue-sai-che.zip", external: true},
+          {label: "Download 喋血赛车 (44.3 MB)", href: "https://dos-bin.zczc.cz/%E5%96%8B%E8%A1%80%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

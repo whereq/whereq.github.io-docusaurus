@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔神战记2 is a DOS game in the WhereQ archive — 1996, 431 files, 6.0 MB, and an entry point of MG2.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-shen-zhan-ji-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%A5%9E%E6%88%98%E8%AE%B02.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-shen-zhan-ji-2.zip"],
           ["Size", "6,245,766 bytes (6.0 MB)"],
           ["SHA-256", "163b04fe4421ab2722506a7419f1e96da556592a49c072bfc4f33a518fc25abd"],
           ["Files", "431"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%A5%9E%E6%88%98%E8%AE%B02.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔神战记2 (6.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-shen-zhan-ji-2.zip", external: true},
+          {label: "Download 魔神战记2 (6.0 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%A5%9E%E6%88%98%E8%AE%B02.zip", external: true},
         ]},
       ],
     },

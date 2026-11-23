@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "预言 is a DOS game in the WhereQ archive — 1996, 7 files, 6.1 MB, and an entry point of go.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-yan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-yan-2.zip"],
           ["Size", "6,448,036 bytes (6.1 MB)"],
           ["SHA-256", "a6d44b3ea230a09d47240ca3116bbbbd031d63768357437c6f63f770c6bb298c"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 预言 (6.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-yan-2.zip", external: true},
+          {label: "Download 预言 (6.1 MB)", href: "https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80.zip", external: true},
         ]},
       ],
     },

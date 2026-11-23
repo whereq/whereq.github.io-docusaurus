@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗的公证 is a DOS game in the WhereQ archive — 1995, 381 files, 6.5 MB, and an entry point of JUSTICE.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-de-gong-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%AC%E8%AF%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-de-gong-zheng.zip"],
           ["Size", "6,815,546 bytes (6.5 MB)"],
           ["SHA-256", "496b3ccb1069082a0c1e5eeace2f9d556e4c764be48c70a7e5f571cf7fae56cc"],
           ["Files", "381"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%AC%E8%AF%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗的公证 (6.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-de-gong-zheng.zip", external: true},
+          {label: "Download 黑暗的公证 (6.5 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%AC%E8%AF%81.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "校园大富翁 is a DOS game in the WhereQ archive — 1996, 429 files, 14.6 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-yuan-da-fu-weng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A0%A1%E5%9B%AD%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-yuan-da-fu-weng.zip"],
           ["Size", "15,269,740 bytes (14.6 MB)"],
           ["SHA-256", "5f51b5c9ba0db202895fa1ec4600a74645b10d410860de001cfb75479360691a"],
           ["Files", "429"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A0%A1%E5%9B%AD%E5%A4%A7%E5%AF%8C%E7%BF%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 校园大富翁 (14.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-yuan-da-fu-weng.zip", external: true},
+          {label: "Download 校园大富翁 (14.6 MB)", href: "https://dos-bin.zczc.cz/%E6%A0%A1%E5%9B%AD%E5%A4%A7%E5%AF%8C%E7%BF%81.zip", external: true},
         ]},
       ],
     },

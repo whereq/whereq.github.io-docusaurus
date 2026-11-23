@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "警察故事1重制版 is a DOS game in the WhereQ archive — 1996, 61 files, 6.2 MB, and an entry point of PQ.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi-1-zhong-zhi-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B1%E9%87%8D%E5%88%B6%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jing-cha-gu-shi-1-zhong-zhi-ban.zip"],
           ["Size", "6,541,142 bytes (6.2 MB)"],
           ["SHA-256", "8c7a47e8b89216d17401648d68d1ed67cc654762786b4fad9498138cf414a629"],
           ["Files", "61"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B1%E9%87%8D%E5%88%B6%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 警察故事1重制版 (6.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi-1-zhong-zhi-ban.zip", external: true},
+          {label: "Download 警察故事1重制版 (6.2 MB)", href: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B1%E9%87%8D%E5%88%B6%E7%89%88.zip", external: true},
         ]},
       ],
     },

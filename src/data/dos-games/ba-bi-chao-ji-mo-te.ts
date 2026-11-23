@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "芭比超级模特 is a DOS game in the WhereQ archive — 1993, 94 files, 1.6 MB, and an entry point of BARBIE.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/b/ba-bi-chao-ji-mo-te.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8A%AD%E6%AF%94%E8%B6%85%E7%BA%A7%E6%A8%A1%E7%89%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ba-bi-chao-ji-mo-te.zip"],
           ["Size", "1,711,440 bytes (1.6 MB)"],
           ["SHA-256", "2568efc008a3f9ae7712d4f401e8f93780d7bec6c3459e1dda0dfa6e7e4c296b"],
           ["Files", "94"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8A%AD%E6%AF%94%E8%B6%85%E7%BA%A7%E6%A8%A1%E7%89%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 芭比超级模特 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/ba-bi-chao-ji-mo-te.zip", external: true},
+          {label: "Download 芭比超级模特 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E8%8A%AD%E6%AF%94%E8%B6%85%E7%BA%A7%E6%A8%A1%E7%89%B9.zip", external: true},
         ]},
       ],
     },

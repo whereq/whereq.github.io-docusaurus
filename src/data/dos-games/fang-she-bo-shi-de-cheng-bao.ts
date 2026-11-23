@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "放射博士的城堡 is a DOS game in the WhereQ archive — 1996, 45 files, 40.6 MB, and an entry point of RADIAKI.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fang-she-bo-shi-de-cheng-bao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%94%BE%E5%B0%84%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fang-she-bo-shi-de-cheng-bao.zip"],
           ["Size", "42,541,556 bytes (40.6 MB)"],
           ["SHA-256", "82502ebfc4463249cb6f77890c686a2e462134143338fb7db59baa77672773fb"],
           ["Files", "45"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%94%BE%E5%B0%84%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 放射博士的城堡 (40.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fang-she-bo-shi-de-cheng-bao.zip", external: true},
+          {label: "Download 放射博士的城堡 (40.6 MB)", href: "https://dos-bin.zczc.cz/%E6%94%BE%E5%B0%84%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip", external: true},
         ]},
       ],
     },

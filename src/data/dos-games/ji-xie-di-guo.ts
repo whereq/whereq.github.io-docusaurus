@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机械帝国 is a DOS game in the WhereQ archive — 1992, 146 files, 994 KB, and an entry point of KEYINIT.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-di-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B8%9D%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-xie-di-guo.zip"],
           ["Size", "1,018,135 bytes (994 KB)"],
           ["SHA-256", "32f213137abe0549927610581853ada435d01ccd3e7ffc1013c60c4961d0b251"],
           ["Files", "146"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B8%9D%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机械帝国 (994 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-di-guo.zip", external: true},
+          {label: "Download 机械帝国 (994 KB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B8%9D%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

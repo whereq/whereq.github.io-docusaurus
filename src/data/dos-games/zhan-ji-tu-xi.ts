@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战机突袭 is a DOS game in the WhereQ archive — 1999, 366 files, 2.2 MB, and an entry point of JS.BAT.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-ji-tu-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E7%AA%81%E8%A2%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-ji-tu-xi.zip"],
           ["Size", "2,317,311 bytes (2.2 MB)"],
           ["SHA-256", "d7bf526d04dc44cc5aa3b9d5eef3183a9a1e8b6b8668f01df740df28bba8920c"],
           ["Files", "366"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E7%AA%81%E8%A2%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战机突袭 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-ji-tu-xi.zip", external: true},
+          {label: "Download 战机突袭 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E7%AA%81%E8%A2%AD.zip", external: true},
         ]},
       ],
     },

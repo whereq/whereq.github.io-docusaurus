@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "格斗拳王 is a DOS game in the WhereQ archive — 1994, 293 files, 1.7 MB, and an entry point of ACT.COM.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-quan-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%8B%B3%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ge-dou-quan-wang.zip"],
           ["Size", "1,814,084 bytes (1.7 MB)"],
           ["SHA-256", "d07197f44ae468f4a918723f2248e379a1101238583046d679577af2ba01fdb8"],
           ["Files", "293"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%8B%B3%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 格斗拳王 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-quan-wang.zip", external: true},
+          {label: "Download 格斗拳王 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%E6%8B%B3%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

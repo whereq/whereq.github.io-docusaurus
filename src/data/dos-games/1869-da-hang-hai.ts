@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "1",
   summary: "1869大航海 is a DOS game in the WhereQ archive — 1993, 143 files, 1.1 MB, and an entry point of 1869.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/1/1869-da-hang-hai.zip",
+  url: "https://dos-bin.zczc.cz/1869%E5%A4%A7%E8%88%AA%E6%B5%B7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "1869-da-hang-hai.zip"],
           ["Size", "1,136,330 bytes (1.1 MB)"],
           ["SHA-256", "bcc5e95c1e76a984531dc26020a11db55f1cf0923efa3b8678011d65b1e21d8f"],
           ["Files", "143"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/1869%E5%A4%A7%E8%88%AA%E6%B5%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 1869大航海 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/1/1869-da-hang-hai.zip", external: true},
+          {label: "Download 1869大航海 (1.1 MB)", href: "https://dos-bin.zczc.cz/1869%E5%A4%A7%E8%88%AA%E6%B5%B7.zip", external: true},
         ]},
       ],
     },

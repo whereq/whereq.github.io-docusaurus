@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战神 is a DOS game in the WhereQ archive — 1990, 42 files, 540 KB, and an entry point of WARLORDS.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-shen.zip"],
           ["Size", "552,575 bytes (540 KB)"],
           ["SHA-256", "fe4f96d31142050c91a96d9bc985a816d4aa7811c62bc84fc4e6a226646a5d2f"],
           ["Files", "42"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战神 (540 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen.zip", external: true},
+          {label: "Download 战神 (540 KB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

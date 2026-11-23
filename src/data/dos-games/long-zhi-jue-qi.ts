@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙之崛起 is a DOS game in the WhereQ archive — 1990, 14 files, 6.5 MB, and an entry point of DRAGON.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-jue-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E5%B4%9B%E8%B5%B7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-zhi-jue-qi.zip"],
           ["Size", "6,864,284 bytes (6.5 MB)"],
           ["SHA-256", "88ce8d6cf4a64e19e8e3cf4ff35da086607548690dd7a541610ba3b4f4cb76e1"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E5%B4%9B%E8%B5%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙之崛起 (6.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-jue-qi.zip", external: true},
+          {label: "Download 龙之崛起 (6.5 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E5%B4%9B%E8%B5%B7.zip", external: true},
         ]},
       ],
     },

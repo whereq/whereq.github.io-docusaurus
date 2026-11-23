@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "亿兆旅行者2 is a DOS game in the WhereQ archive — 1996, 99 files, 1.9 MB, and an entry point of MT2.COM.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-zhao-lv-xing-zhe-2.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%BF%E5%85%86%E6%97%85%E8%A1%8C%E8%80%852.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-zhao-lv-xing-zhe-2.zip"],
           ["Size", "1,992,047 bytes (1.9 MB)"],
           ["SHA-256", "62fb337b61832dd35cd0fe7543eed7657b9fa4de81bc93eab588d2be1bc6ec13"],
           ["Files", "99"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%BF%E5%85%86%E6%97%85%E8%A1%8C%E8%80%852.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 亿兆旅行者2 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-zhao-lv-xing-zhe-2.zip", external: true},
+          {label: "Download 亿兆旅行者2 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%BF%E5%85%86%E6%97%85%E8%A1%8C%E8%80%852.zip", external: true},
         ]},
       ],
     },

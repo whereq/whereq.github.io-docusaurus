@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑武士 is a DOS game in the WhereQ archive — 1990, 62 files, 441 KB, and an entry point of BLADE.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-wu-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%AD%A6%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-wu-shi.zip"],
           ["Size", "451,539 bytes (441 KB)"],
           ["SHA-256", "d36b54eac5599c66e2eec0bed7bdef3188cda988acafb7a11ff5377e2346410b"],
           ["Files", "62"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%AD%A6%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑武士 (441 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-wu-shi.zip", external: true},
+          {label: "Download 黑武士 (441 KB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%AD%A6%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

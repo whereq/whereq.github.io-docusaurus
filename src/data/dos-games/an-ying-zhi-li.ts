@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "暗影之力 is a DOS game in the WhereQ archive — 1996, 26 files, 2.1 MB, and an entry point of SFORCE.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/an-ying-zhi-li.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%8A%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "an-ying-zhi-li.zip"],
           ["Size", "2,177,715 bytes (2.1 MB)"],
           ["SHA-256", "1aed340cb622db9d02109b10b8084d1c9537da043007e6c2a921e2fd815c68e5"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%8A%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 暗影之力 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/an-ying-zhi-li.zip", external: true},
+          {label: "Download 暗影之力 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%8A%9B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻界霸者 is a DOS game in the WhereQ archive — 1997, 346 files, 21.2 MB, and an entry point of Play.com.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-jie-ba-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E7%95%8C%E9%9C%B8%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-jie-ba-zhe.zip"],
           ["Size", "22,228,078 bytes (21.2 MB)"],
           ["SHA-256", "7f03113ac0e579d18d368ad6c343f6b590a5868668deba9b07d4da7003517647"],
           ["Files", "346"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E7%95%8C%E9%9C%B8%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻界霸者 (21.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-jie-ba-zhe.zip", external: true},
+          {label: "Download 幻界霸者 (21.2 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E7%95%8C%E9%9C%B8%E8%80%85.zip", external: true},
         ]},
       ],
     },

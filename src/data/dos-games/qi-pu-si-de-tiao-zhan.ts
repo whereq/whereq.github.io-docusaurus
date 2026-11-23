@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "其普斯的挑战 is a DOS game in the WhereQ archive — 1991, 175 files, 177 KB, and an entry point of RUNME.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-pu-si-de-tiao-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%B6%E6%99%AE%E6%96%AF%E7%9A%84%E6%8C%91%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-pu-si-de-tiao-zhan.zip"],
           ["Size", "181,426 bytes (177 KB)"],
           ["SHA-256", "938d051e8a7da7ba958f5fadcb460a36b30f451ce6739c18c05ca4bf8bf142a3"],
           ["Files", "175"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%B6%E6%99%AE%E6%96%AF%E7%9A%84%E6%8C%91%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 其普斯的挑战 (177 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-pu-si-de-tiao-zhan.zip", external: true},
+          {label: "Download 其普斯的挑战 (177 KB)", href: "https://dos-bin.zczc.cz/%E5%85%B6%E6%99%AE%E6%96%AF%E7%9A%84%E6%8C%91%E6%88%98.zip", external: true},
         ]},
       ],
     },

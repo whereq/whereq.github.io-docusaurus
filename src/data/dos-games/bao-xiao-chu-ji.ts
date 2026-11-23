@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "爆笑出击 is a DOS game in the WhereQ archive — 1980, 201 files, 2.0 MB, and an entry point of AIR.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-chu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E5%87%BA%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-xiao-chu-ji.zip"],
           ["Size", "2,054,609 bytes (2.0 MB)"],
           ["SHA-256", "852efc066d6878ffdf5ac5723c7ab2652a40e002ea9dc1e26b213ad031a3db9d"],
           ["Files", "201"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E5%87%BA%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爆笑出击 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-chu-ji.zip", external: true},
+          {label: "Download 爆笑出击 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E5%87%BA%E5%87%BB.zip", external: true},
         ]},
       ],
     },

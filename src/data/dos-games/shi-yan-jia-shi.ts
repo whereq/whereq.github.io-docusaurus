@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "试验驾驶 is a DOS game in the WhereQ archive — 1987, 38 files, 162 KB, and an entry point of TDCGA.EXE.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-yan-jia-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B6.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-yan-jia-shi.zip"],
           ["Size", "166,353 bytes (162 KB)"],
           ["SHA-256", "0624e8845a5a4fda8ab857f95c908a5418bae7e48ce140a06b3c734e2e013642"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 试验驾驶 (162 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-yan-jia-shi.zip", external: true},
+          {label: "Download 试验驾驶 (162 KB)", href: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B6.zip", external: true},
         ]},
       ],
     },

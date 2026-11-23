@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "克莱恩的黑暗女皇 is a DOS game in the WhereQ archive — 1992, 54 files, 2.0 MB, and an entry point of DQK.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-en-de-hei-an-nv-huang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E6%81%A9%E7%9A%84%E9%BB%91%E6%9A%97%E5%A5%B3%E7%9A%87.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-lai-en-de-hei-an-nv-huang.zip"],
           ["Size", "2,133,480 bytes (2.0 MB)"],
           ["SHA-256", "3703ef2f186c910fb13604bd46c03cff0d59b773f2c4ff67c9c231edb11312bd"],
           ["Files", "54"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E6%81%A9%E7%9A%84%E9%BB%91%E6%9A%97%E5%A5%B3%E7%9A%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 克莱恩的黑暗女皇 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-lai-en-de-hei-an-nv-huang.zip", external: true},
+          {label: "Download 克莱恩的黑暗女皇 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E6%81%A9%E7%9A%84%E9%BB%91%E6%9A%97%E5%A5%B3%E7%9A%87.zip", external: true},
         ]},
       ],
     },

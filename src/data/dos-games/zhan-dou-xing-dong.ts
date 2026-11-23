@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战斗行动 is a DOS game in the WhereQ archive — 1991, 49 files, 420 KB, and an entry point of COMBAT.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-xing-dong.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%A1%8C%E5%8A%A8.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-dou-xing-dong.zip"],
           ["Size", "430,447 bytes (420 KB)"],
           ["SHA-256", "ea09396d30a34c57f542a3e4a856e8eb20f61374f443d87f9de273b4f50d8bf7"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%A1%8C%E5%8A%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战斗行动 (420 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-xing-dong.zip", external: true},
+          {label: "Download 战斗行动 (420 KB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E8%A1%8C%E5%8A%A8.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "桥牌 is a DOS game in the WhereQ archive — 1993, 21 files, 223 KB, and an entry point of DB.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qiao-pai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qiao-pai.zip"],
           ["Size", "228,578 bytes (223 KB)"],
           ["SHA-256", "ab92ba93d4d63fd52e19216f6bdc466b1259368be8439b0adb7645f73663b77e"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 桥牌 (223 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/qiao-pai.zip", external: true},
+          {label: "Download 桥牌 (223 KB)", href: "https://dos-bin.zczc.cz/%E6%A1%A5%E7%89%8C.zip", external: true},
         ]},
       ],
     },

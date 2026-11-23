@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁骑士团 is a DOS game in the WhereQ archive — 2005, 512 files, 8.3 MB, and an entry point of gtqs.exe.",
   status: "2005",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-qi-shi-tuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%AA%91%E5%A3%AB%E5%9B%A2.zip",
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "2005"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-qi-shi-tuan.zip"],
           ["Size", "8,658,786 bytes (8.3 MB)"],
           ["SHA-256", "b7e289a9214f01cf95b45f458fc46c8b9a99c35433a6801991d7f94e9f83795b"],
           ["Files", "512"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%AA%91%E5%A3%AB%E5%9B%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁骑士团 (8.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-qi-shi-tuan.zip", external: true},
+          {label: "Download 钢铁骑士团 (8.3 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%AA%91%E5%A3%AB%E5%9B%A2.zip", external: true},
         ]},
       ],
     },

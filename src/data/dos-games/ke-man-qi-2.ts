@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "科曼奇2 is a DOS game in the WhereQ archive — 1995, 657 files, 43.3 MB, and an entry point of C.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-man-qi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A7%91%E6%9B%BC%E5%A5%872.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-man-qi-2.zip"],
           ["Size", "45,356,032 bytes (43.3 MB)"],
           ["SHA-256", "00099a484d04cd36be7db36c4a6e7b650ece74951253e34eff9604078c45d84f"],
           ["Files", "657"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A7%91%E6%9B%BC%E5%A5%872.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 科曼奇2 (43.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-man-qi-2.zip", external: true},
+          {label: "Download 科曼奇2 (43.3 MB)", href: "https://dos-bin.zczc.cz/%E7%A7%91%E6%9B%BC%E5%A5%872.zip", external: true},
         ]},
       ],
     },

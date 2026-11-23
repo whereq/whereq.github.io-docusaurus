@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蓝莫吉尼巡回赛 is a DOS game in the WhereQ archive — 1994, 7 files, 620 KB, and an entry point of DRIVE.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-mo-ji-ni-xun-hui-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%8E%AB%E5%90%89%E5%B0%BC%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-mo-ji-ni-xun-hui-sai.zip"],
           ["Size", "634,966 bytes (620 KB)"],
           ["SHA-256", "54eb91c85c8f6250f872ab2b6b4fd5729ea520cf0ddf4b7da47c1b957838b1f8"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%93%9D%E8%8E%AB%E5%90%89%E5%B0%BC%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蓝莫吉尼巡回赛 (620 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-mo-ji-ni-xun-hui-sai.zip", external: true},
+          {label: "Download 蓝莫吉尼巡回赛 (620 KB)", href: "https://dos-bin.zczc.cz/%E8%93%9D%E8%8E%AB%E5%90%89%E5%B0%BC%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

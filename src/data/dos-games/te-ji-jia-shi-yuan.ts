@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "特技驾驶员 is a DOS game in the WhereQ archive — 1990, 183 files, 647 KB, and an entry point of STUNT.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/t/te-ji-jia-shi-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E9%A9%BE%E9%A9%B6%E5%91%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "te-ji-jia-shi-yuan.zip"],
           ["Size", "662,364 bytes (647 KB)"],
           ["SHA-256", "381aa7f720e17bb4c4a15e3034ec76495e93eb94a7a473793212d3f902918335"],
           ["Files", "183"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E9%A9%BE%E9%A9%B6%E5%91%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 特技驾驶员 (647 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/te-ji-jia-shi-yuan.zip", external: true},
+          {label: "Download 特技驾驶员 (647 KB)", href: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E9%A9%BE%E9%A9%B6%E5%91%98.zip", external: true},
         ]},
       ],
     },

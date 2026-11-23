@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "武装还击 is a DOS game in the WhereQ archive — 1996, 683 files, 29.4 MB, and an entry point of ______XS.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-zhuang-huan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%A6%E8%A3%85%E8%BF%98%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-zhuang-huan-ji.zip"],
           ["Size", "30,793,838 bytes (29.4 MB)"],
           ["SHA-256", "1836198628119b4dfd3fab71f5edbaa827b00695b37729838b78157e4aff15f7"],
           ["Files", "683"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%A6%E8%A3%85%E8%BF%98%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 武装还击 (29.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-zhuang-huan-ji.zip", external: true},
+          {label: "Download 武装还击 (29.4 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%A6%E8%A3%85%E8%BF%98%E5%87%BB.zip", external: true},
         ]},
       ],
     },

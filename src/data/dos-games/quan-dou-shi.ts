@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "拳斗士 is a DOS game in the WhereQ archive — 1995, 493 files, 7.0 MB, and an entry point of FIGHT.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/q/quan-dou-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8B%B3%E6%96%97%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "quan-dou-shi.zip"],
           ["Size", "7,310,443 bytes (7.0 MB)"],
           ["SHA-256", "3e4d605694c2969577384bcb92d045517edd7b624c247d66b9b220265f023a17"],
           ["Files", "493"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8B%B3%E6%96%97%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 拳斗士 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/quan-dou-shi.zip", external: true},
+          {label: "Download 拳斗士 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E6%8B%B3%E6%96%97%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

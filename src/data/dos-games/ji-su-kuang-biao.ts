@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "急速狂飙 is a DOS game in the WhereQ archive — 1980, 6 files, 2.8 MB, and an entry point of SPEED.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-su-kuang-biao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E7%8B%82%E9%A3%99.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-su-kuang-biao.zip"],
           ["Size", "2,903,445 bytes (2.8 MB)"],
           ["SHA-256", "9a3f79578594d57a6d1f3758b944c7a29549355794e86dd9a6c9b867712b1c89"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E7%8B%82%E9%A3%99.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 急速狂飙 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-su-kuang-biao.zip", external: true},
+          {label: "Download 急速狂飙 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E6%80%A5%E9%80%9F%E7%8B%82%E9%A3%99.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "妖击队 is a DOS game in the WhereQ archive — 1997, 579 files, 4.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yao-ji-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A6%96%E5%87%BB%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yao-ji-dui.zip"],
           ["Size", "4,622,107 bytes (4.4 MB)"],
           ["SHA-256", "1b6ba258e1bf638217678a1b783111317d56a839246e8c7bb6f1dba2d804ffb4"],
           ["Files", "579"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A6%96%E5%87%BB%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 妖击队 (4.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yao-ji-dui.zip", external: true},
+          {label: "Download 妖击队 (4.4 MB)", href: "https://dos-bin.zczc.cz/%E5%A6%96%E5%87%BB%E9%98%9F.zip", external: true},
         ]},
       ],
     },

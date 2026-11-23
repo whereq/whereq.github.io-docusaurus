@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无敌飞狼 is a DOS game in the WhereQ archive — 1999, 97 files, 1.7 MB, and an entry point of START.BAT.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-di-fei-lang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E6%95%8C%E9%A3%9E%E7%8B%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-di-fei-lang.zip"],
           ["Size", "1,781,216 bytes (1.7 MB)"],
           ["SHA-256", "e2c7d7ae1b348a6e8f79ca29e7f1cb94ce6202c2028fe8093b798902f83d2b0f"],
           ["Files", "97"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E6%95%8C%E9%A3%9E%E7%8B%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无敌飞狼 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-di-fei-lang.zip", external: true},
+          {label: "Download 无敌飞狼 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E6%95%8C%E9%A3%9E%E7%8B%BC.zip", external: true},
         ]},
       ],
     },

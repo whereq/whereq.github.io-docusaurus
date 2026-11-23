@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "尖刀部队 is a DOS game in the WhereQ archive — 1996, 278 files, 2.9 MB, and an entry point of SABRE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jian-dao-bu-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%96%E5%88%80%E9%83%A8%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jian-dao-bu-dui.zip"],
           ["Size", "3,007,634 bytes (2.9 MB)"],
           ["SHA-256", "f906f527a6588ada298d6cb223d5f592a03126fd938f1f8810ff98b4e432bff6"],
           ["Files", "278"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%96%E5%88%80%E9%83%A8%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 尖刀部队 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jian-dao-bu-dui.zip", external: true},
+          {label: "Download 尖刀部队 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%96%E5%88%80%E9%83%A8%E9%98%9F.zip", external: true},
         ]},
       ],
     },

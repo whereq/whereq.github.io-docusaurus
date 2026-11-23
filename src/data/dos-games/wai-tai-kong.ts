@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "外太空 is a DOS game in the WhereQ archive — 1996, 17 files, 2.9 MB, and an entry point of OUTRIDGE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wai-tai-kong.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%96%E5%A4%AA%E7%A9%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wai-tai-kong.zip"],
           ["Size", "3,084,266 bytes (2.9 MB)"],
           ["SHA-256", "490cd6455c2611eeb89e7bfb672a60960c584bbf8c1588db0c35911da974b8c6"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%96%E5%A4%AA%E7%A9%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 外太空 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wai-tai-kong.zip", external: true},
+          {label: "Download 外太空 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%96%E5%A4%AA%E7%A9%BA.zip", external: true},
         ]},
       ],
     },

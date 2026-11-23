@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "红色警戒 is a DOS game in the WhereQ archive — 1996, 65 files, 50.5 MB, and an entry point of RA.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-jing-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E8%AD%A6%E6%88%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hong-se-jing-jie.zip"],
           ["Size", "52,917,839 bytes (50.5 MB)"],
           ["SHA-256", "af1756e694fd320fd10fc1b430f206e81e8c33451efe5357b6677767a2780a1c"],
           ["Files", "65"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E8%AD%A6%E6%88%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 红色警戒 (50.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hong-se-jing-jie.zip", external: true},
+          {label: "Download 红色警戒 (50.5 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E8%AD%A6%E6%88%92.zip", external: true},
         ]},
       ],
     },

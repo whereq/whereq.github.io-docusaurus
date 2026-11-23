@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "洪荒格斗 is a DOS game in the WhereQ archive — 1995, 546 files, 94.6 MB, and an entry point of RAGE.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hong-huang-ge-dou.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B4%AA%E8%8D%92%E6%A0%BC%E6%96%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hong-huang-ge-dou.zip"],
           ["Size", "99,238,144 bytes (94.6 MB)"],
           ["SHA-256", "20e809e8dc095e7777360aa54b597c71e570a6088efd98bf92a3853f414f127b"],
           ["Files", "546"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B4%AA%E8%8D%92%E6%A0%BC%E6%96%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 洪荒格斗 (94.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hong-huang-ge-dou.zip", external: true},
+          {label: "Download 洪荒格斗 (94.6 MB)", href: "https://dos-bin.zczc.cz/%E6%B4%AA%E8%8D%92%E6%A0%BC%E6%96%97.zip", external: true},
         ]},
       ],
     },

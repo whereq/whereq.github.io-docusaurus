@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "寻找激流博士 is a DOS game in the WhereQ archive — 1994, 12 files, 898 KB, and an entry point of RIPTIDE.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xun-zhao-ji-liu-bo-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E6%BF%80%E6%B5%81%E5%8D%9A%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "PROBE"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xun-zhao-ji-liu-bo-shi.zip"],
           ["Size", "919,844 bytes (898 KB)"],
           ["SHA-256", "8340bb81c10f0d2c40fdb5ff9cfe6069a532492aaaaf4ab54429bf14e857e710"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E6%BF%80%E6%B5%81%E5%8D%9A%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 寻找激流博士 (898 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xun-zhao-ji-liu-bo-shi.zip", external: true},
+          {label: "Download 寻找激流博士 (898 KB)", href: "https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E6%BF%80%E6%B5%81%E5%8D%9A%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

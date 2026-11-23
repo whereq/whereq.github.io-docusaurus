@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "电脑魔域 is a DOS game in the WhereQ archive — 1991, 68 files, 1.2 MB, and an entry point of A_.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dian-nao-mo-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%94%B5%E8%84%91%E9%AD%94%E5%9F%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dian-nao-mo-yu.zip"],
           ["Size", "1,275,022 bytes (1.2 MB)"],
           ["SHA-256", "a9f94d084f369e3819dafea888218eb964930c0852149e6666a1ce6c33b5b49b"],
           ["Files", "68"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%94%B5%E8%84%91%E9%AD%94%E5%9F%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 电脑魔域 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/dian-nao-mo-yu.zip", external: true},
+          {label: "Download 电脑魔域 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E7%94%B5%E8%84%91%E9%AD%94%E5%9F%9F.zip", external: true},
         ]},
       ],
     },

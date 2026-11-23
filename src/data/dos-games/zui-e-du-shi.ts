@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "罪恶都市 is a DOS game in the WhereQ archive — 1996, 64 files, 3.7 MB, and an entry point of city.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zui-e-du-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E9%83%BD%E5%B8%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zui-e-du-shi.zip"],
           ["Size", "3,851,960 bytes (3.7 MB)"],
           ["SHA-256", "a213db2824b9b5492e45669f899e2004494f494db24cbb09cf2a01af025ea794"],
           ["Files", "64"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E9%83%BD%E5%B8%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罪恶都市 (3.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zui-e-du-shi.zip", external: true},
+          {label: "Download 罪恶都市 (3.7 MB)", href: "https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E9%83%BD%E5%B8%82.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "蜥蜴超人 is a DOS game in the WhereQ archive — 1996, 24 files, 17.6 MB, and an entry point of LM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-yi-chao-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E8%9C%A5%E8%9C%B4%E8%B6%85%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-yi-chao-ren.zip"],
           ["Size", "18,481,371 bytes (17.6 MB)"],
           ["SHA-256", "8474b2d853596bebdb5bdca3494ce7ed25db3af2750a0585693ea7b41e5d58bf"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%9C%A5%E8%9C%B4%E8%B6%85%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蜥蜴超人 (17.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-yi-chao-ren.zip", external: true},
+          {label: "Download 蜥蜴超人 (17.6 MB)", href: "https://dos-bin.zczc.cz/%E8%9C%A5%E8%9C%B4%E8%B6%85%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

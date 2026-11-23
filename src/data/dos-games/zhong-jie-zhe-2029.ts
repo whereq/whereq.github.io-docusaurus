@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "终结者2029 is a DOS game in the WhereQ archive — 1992, 283 files, 8.7 MB, and an entry point of TERM.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-jie-zhe-2029.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852029.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-jie-zhe-2029.zip"],
           ["Size", "9,133,687 bytes (8.7 MB)"],
           ["SHA-256", "dea93a618b656d655b20ffde19120116ad170d8620fd0b4a3d62172f96be6047"],
           ["Files", "283"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852029.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 终结者2029 (8.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-jie-zhe-2029.zip", external: true},
+          {label: "Download 终结者2029 (8.7 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%88%E7%BB%93%E8%80%852029.zip", external: true},
         ]},
       ],
     },

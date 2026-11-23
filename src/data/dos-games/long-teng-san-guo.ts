@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙腾三国 is a DOS game in the WhereQ archive — 1996, 1,057 files, 6.3 MB, and an entry point of UVCONFIG.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-teng-san-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E8%85%BE%E4%B8%89%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-teng-san-guo.zip"],
           ["Size", "6,626,358 bytes (6.3 MB)"],
           ["SHA-256", "8eeb9923fe1bd4eb578ad0735741f8b0a63dda08185df6897b09242362fba484"],
           ["Files", "1,057"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E8%85%BE%E4%B8%89%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙腾三国 (6.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-teng-san-guo.zip", external: true},
+          {label: "Download 龙腾三国 (6.3 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E8%85%BE%E4%B8%89%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

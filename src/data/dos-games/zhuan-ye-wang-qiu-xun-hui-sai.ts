@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "专业网球巡回赛 is a DOS game in the WhereQ archive — 1994, 47 files, 340 KB, and an entry point of PTT2.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuan-ye-wang-qiu-xun-hui-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%93%E4%B8%9A%E7%BD%91%E7%90%83%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuan-ye-wang-qiu-xun-hui-sai.zip"],
           ["Size", "347,997 bytes (340 KB)"],
           ["SHA-256", "4383902ad3550f98a762b6b0e29ad414863c964cc636e68928c89bf6d389150d"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%93%E4%B8%9A%E7%BD%91%E7%90%83%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 专业网球巡回赛 (340 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuan-ye-wang-qiu-xun-hui-sai.zip", external: true},
+          {label: "Download 专业网球巡回赛 (340 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%93%E4%B8%9A%E7%BD%91%E7%90%83%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

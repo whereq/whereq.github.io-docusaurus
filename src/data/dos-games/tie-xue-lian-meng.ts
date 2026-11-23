@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁血联盟 is a DOS game in the WhereQ archive — 1995, 227 files, 12.9 MB, and an entry point of JA.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-lian-meng.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F.zip",
   facts: [
     {label: "Developer", value: "SIR-TECH"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-xue-lian-meng.zip"],
           ["Size", "13,505,377 bytes (12.9 MB)"],
           ["SHA-256", "a915c52097f27a7ef49add57a39292b47cbd78b5e194361bb7e1af8b9f9b4230"],
           ["Files", "227"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁血联盟 (12.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-lian-meng.zip", external: true},
+          {label: "Download 铁血联盟 (12.9 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F.zip", external: true},
         ]},
       ],
     },

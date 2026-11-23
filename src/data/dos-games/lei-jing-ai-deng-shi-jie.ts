@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "雷景:艾登世界 is a DOS game in the WhereQ archive — 1995, 533 files, 42.2 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-jing-ai-deng-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%B7%E6%99%AF%EF%BC%9A%E8%89%BE%E7%99%BB%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-jing-ai-deng-shi-jie.zip"],
           ["Size", "44,239,585 bytes (42.2 MB)"],
           ["SHA-256", "e7a93e6492d2ae8d60e0f8fafe6f10a5db32c8bbbfc8ba09568a6ff84c480aa2"],
           ["Files", "533"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%B7%E6%99%AF%EF%BC%9A%E8%89%BE%E7%99%BB%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雷景:艾登世界 (42.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-jing-ai-deng-shi-jie.zip", external: true},
+          {label: "Download 雷景:艾登世界 (42.2 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%B7%E6%99%AF%EF%BC%9A%E8%89%BE%E7%99%BB%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

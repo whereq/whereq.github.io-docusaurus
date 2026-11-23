@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战机少女 is a DOS game in the WhereQ archive — 1993, 46 files, 11.1 MB, and an entry point of ML.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-ji-shao-nv.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E5%B0%91%E5%A5%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-ji-shao-nv.zip"],
           ["Size", "11,587,392 bytes (11.1 MB)"],
           ["SHA-256", "db4c8b251b1ff2a2315ccd921dccc0fda5b8ca02b4d9f5eba20478fc128d529f"],
           ["Files", "46"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E5%B0%91%E5%A5%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战机少女 (11.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-ji-shao-nv.zip", external: true},
+          {label: "Download 战机少女 (11.1 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E5%B0%91%E5%A5%B3.zip", external: true},
         ]},
       ],
     },

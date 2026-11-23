@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "德川家康 is a DOS game in the WhereQ archive — an undated copy, 10 files, 204.7 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/d/de-chuan-jia-kang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%B7%9D%E5%AE%B6%E5%BA%B7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "de-chuan-jia-kang.zip"],
           ["Size", "214,663,274 bytes (204.7 MB)"],
           ["SHA-256", "70a00d7b0e567e2cd80e5e8848162f703f69f2e90e25fd879e4ce955ccbf7b8d"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%B7%E5%B7%9D%E5%AE%B6%E5%BA%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 德川家康 (204.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/de-chuan-jia-kang.zip", external: true},
+          {label: "Download 德川家康 (204.7 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%B7%9D%E5%AE%B6%E5%BA%B7.zip", external: true},
         ]},
       ],
     },

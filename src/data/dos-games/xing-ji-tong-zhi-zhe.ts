@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星际统治者 is a DOS game in the WhereQ archive — 1996, 320 files, 28.3 MB, and an entry point of MAIN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-tong-zhi-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%BB%9F%E6%B2%BB%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-ji-tong-zhi-zhe.zip"],
           ["Size", "29,715,575 bytes (28.3 MB)"],
           ["SHA-256", "263e98501c53b92ca99d27ded7e40e63177acdf70e6e3e6765cad33e6c2311b6"],
           ["Files", "320"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%BB%9F%E6%B2%BB%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星际统治者 (28.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-ji-tong-zhi-zhe.zip", external: true},
+          {label: "Download 星际统治者 (28.3 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%BB%9F%E6%B2%BB%E8%80%85.zip", external: true},
         ]},
       ],
     },

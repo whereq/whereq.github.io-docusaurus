@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "百夫长罗马防御 is a DOS game in the WhereQ archive — 1990, 35 files, 914 KB, and an entry point of RUNME.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bai-fu-zhang-luo-ma-fang-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%99%BE%E5%A4%AB%E9%95%BF%E7%BD%97%E9%A9%AC%E9%98%B2%E5%BE%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bai-fu-zhang-luo-ma-fang-yu.zip"],
           ["Size", "935,645 bytes (914 KB)"],
           ["SHA-256", "cd0a52535192c3c6a517e373ddd82b5fde8c77d094d34ff7f9d7b5522d6d7d90"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%99%BE%E5%A4%AB%E9%95%BF%E7%BD%97%E9%A9%AC%E9%98%B2%E5%BE%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 百夫长罗马防御 (914 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bai-fu-zhang-luo-ma-fang-yu.zip", external: true},
+          {label: "Download 百夫长罗马防御 (914 KB)", href: "https://dos-bin.zczc.cz/%E7%99%BE%E5%A4%AB%E9%95%BF%E7%BD%97%E9%A9%AC%E9%98%B2%E5%BE%A1.zip", external: true},
         ]},
       ],
     },

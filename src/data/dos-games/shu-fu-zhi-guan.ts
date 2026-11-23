@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "束缚之馆 is a DOS game in the WhereQ archive — 1997, 149 files, 2.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shu-fu-zhi-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9D%9F%E7%BC%9A%E4%B9%8B%E9%A6%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shu-fu-zhi-guan.zip"],
           ["Size", "2,548,589 bytes (2.4 MB)"],
           ["SHA-256", "2f7c093cb6e3eb4f3037fea3e3cba0141e2198eb1f17e9915d89a888cf3af697"],
           ["Files", "149"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9D%9F%E7%BC%9A%E4%B9%8B%E9%A6%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 束缚之馆 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shu-fu-zhi-guan.zip", external: true},
+          {label: "Download 束缚之馆 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E6%9D%9F%E7%BC%9A%E4%B9%8B%E9%A6%86.zip", external: true},
         ]},
       ],
     },

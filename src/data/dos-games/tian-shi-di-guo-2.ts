@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天使帝国2 is a DOS game in the WhereQ archive — 1994, 28 files, 6.0 MB, and an entry point of SETUP.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-di-guo-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9B%BD2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-shi-di-guo-2.zip"],
           ["Size", "6,331,949 bytes (6.0 MB)"],
           ["SHA-256", "2267322752ae580e957b64620052c8460ab096041266ecb3d8d6a757e9832e1a"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9B%BD2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天使帝国2 (6.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-di-guo-2.zip", external: true},
+          {label: "Download 天使帝国2 (6.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9B%BD2.zip", external: true},
         ]},
       ],
     },

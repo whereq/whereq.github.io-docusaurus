@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国际拳击赛 is a DOS game in the WhereQ archive — 1993, 15 files, 874 KB, and an entry point of BOX.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-quan-ji-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%8B%B3%E5%87%BB%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-ji-quan-ji-sai.zip"],
           ["Size", "895,042 bytes (874 KB)"],
           ["SHA-256", "a9257b263e51805e0770fc915010eaba26c222a66d2dd09350e7abdcef48c915"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%8B%B3%E5%87%BB%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国际拳击赛 (874 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-quan-ji-sai.zip", external: true},
+          {label: "Download 国际拳击赛 (874 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E6%8B%B3%E5%87%BB%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

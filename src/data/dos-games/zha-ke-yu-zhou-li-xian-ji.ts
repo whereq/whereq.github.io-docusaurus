@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "扎克宇宙历险记 is a DOS game in the WhereQ archive — 1992, 11 files, 1.3 MB, and an entry point of play.bat.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zha-ke-yu-zhou-li-xian-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%89%8E%E5%85%8B%E5%AE%87%E5%AE%99%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zha-ke-yu-zhou-li-xian-ji.zip"],
           ["Size", "1,334,765 bytes (1.3 MB)"],
           ["SHA-256", "a6f19a18e0f4a97579064d9a256e215b0ed7d8633e90dda248b36ae19cacb3c9"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%89%8E%E5%85%8B%E5%AE%87%E5%AE%99%E5%8E%86%E9%99%A9%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 扎克宇宙历险记 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zha-ke-yu-zhou-li-xian-ji.zip", external: true},
+          {label: "Download 扎克宇宙历险记 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E6%89%8E%E5%85%8B%E5%AE%87%E5%AE%99%E5%8E%86%E9%99%A9%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

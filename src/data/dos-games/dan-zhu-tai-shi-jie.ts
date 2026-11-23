@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "弹珠台世界 is a DOS game in the WhereQ archive — 1995, 257 files, 6.2 MB, and an entry point of PWORLD.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dan-zhu-tai-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%B9%E7%8F%A0%E5%8F%B0%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dan-zhu-tai-shi-jie.zip"],
           ["Size", "6,452,876 bytes (6.2 MB)"],
           ["SHA-256", "1a7f3ebe1928793425f5dca9784c989e29b6b1251cf288372d25cfb97a924318"],
           ["Files", "257"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%B9%E7%8F%A0%E5%8F%B0%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 弹珠台世界 (6.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/dan-zhu-tai-shi-jie.zip", external: true},
+          {label: "Download 弹珠台世界 (6.2 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%B9%E7%8F%A0%E5%8F%B0%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

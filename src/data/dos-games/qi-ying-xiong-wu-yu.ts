@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "七英雄物语 is a DOS game in the WhereQ archive — 1995, 96 files, 82.8 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-ying-xiong-wu-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%83%E8%8B%B1%E9%9B%84%E7%89%A9%E8%AF%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-ying-xiong-wu-yu.zip"],
           ["Size", "86,872,813 bytes (82.8 MB)"],
           ["SHA-256", "b22f86d61eaa5b71905b0a16238521fe262acebe4d5cecea3fc7a3bf7cf17776"],
           ["Files", "96"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%83%E8%8B%B1%E9%9B%84%E7%89%A9%E8%AF%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 七英雄物语 (82.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-ying-xiong-wu-yu.zip", external: true},
+          {label: "Download 七英雄物语 (82.8 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%83%E8%8B%B1%E9%9B%84%E7%89%A9%E8%AF%AD.zip", external: true},
         ]},
       ],
     },

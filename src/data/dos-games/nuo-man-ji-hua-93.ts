@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "诺曼计划93 is a DOS game in the WhereQ archive — 1996, 11 files, 4.8 MB, and an entry point of NOMAD.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nuo-man-ji-hua-93.zip",
+  url: "https://dos-bin.zczc.cz/%E8%AF%BA%E6%9B%BC%E8%AE%A1%E5%88%9293.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nuo-man-ji-hua-93.zip"],
           ["Size", "5,056,853 bytes (4.8 MB)"],
           ["SHA-256", "fb63508bcb508dd03db927a51bca6088199d0ec132e11515072dcbc4742683d0"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%AF%BA%E6%9B%BC%E8%AE%A1%E5%88%9293.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 诺曼计划93 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nuo-man-ji-hua-93.zip", external: true},
+          {label: "Download 诺曼计划93 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E8%AF%BA%E6%9B%BC%E8%AE%A1%E5%88%9293.zip", external: true},
         ]},
       ],
     },

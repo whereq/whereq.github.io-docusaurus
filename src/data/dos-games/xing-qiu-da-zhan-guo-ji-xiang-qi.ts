@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星球大战国际象棋 is a DOS game in the WhereQ archive — 1995, 336 files, 17.3 MB, and an entry point of SWC.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-guo-ji-xiang-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-qiu-da-zhan-guo-ji-xiang-qi.zip"],
           ["Size", "18,188,368 bytes (17.3 MB)"],
           ["SHA-256", "b031d725a31e4dcd4611efba925acbf04512cd895e6514d332da95b895f7c6a5"],
           ["Files", "336"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星球大战国际象棋 (17.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-qiu-da-zhan-guo-ji-xiang-qi.zip", external: true},
+          {label: "Download 星球大战国际象棋 (17.3 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

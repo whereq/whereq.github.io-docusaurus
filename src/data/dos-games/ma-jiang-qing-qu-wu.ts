@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "麻将情趣屋 is a DOS game in the WhereQ archive — 1994, 117 files, 3.5 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-qing-qu-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E6%83%85%E8%B6%A3%E5%B1%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-jiang-qing-qu-wu.zip"],
           ["Size", "3,654,382 bytes (3.5 MB)"],
           ["SHA-256", "588b426a8053475a4142ce07b4087d85771c1499482142b9370cca93973bbebd"],
           ["Files", "117"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E6%83%85%E8%B6%A3%E5%B1%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 麻将情趣屋 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-jiang-qing-qu-wu.zip", external: true},
+          {label: "Download 麻将情趣屋 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E9%BA%BB%E5%B0%86%E6%83%85%E8%B6%A3%E5%B1%8B.zip", external: true},
         ]},
       ],
     },

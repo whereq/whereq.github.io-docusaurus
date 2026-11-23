@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法门4+5英版 is a DOS game in the WhereQ archive — 1996, 13 files, 19.3 MB, and an entry point of XEEN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-4-5-ying-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%2B5%E8%8B%B1%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-men-4-5-ying-ban.zip"],
           ["Size", "20,199,592 bytes (19.3 MB)"],
           ["SHA-256", "f2d2c2a3057c085506f91ae667d4181a06ee9225201c377ecf5c949c6e57a26e"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%2B5%E8%8B%B1%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法门4+5英版 (19.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-4-5-ying-ban.zip", external: true},
+          {label: "Download 魔法门4+5英版 (19.3 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A84%2B5%E8%8B%B1%E7%89%88.zip", external: true},
         ]},
       ],
     },

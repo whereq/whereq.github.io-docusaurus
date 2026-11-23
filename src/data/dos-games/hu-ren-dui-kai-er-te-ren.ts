@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "湖人对凯尔特人 is a DOS game in the WhereQ archive — 1989, 32 files, 193 KB, and an entry point of NBA.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hu-ren-dui-kai-er-te-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B9%96%E4%BA%BA%E5%AF%B9%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hu-ren-dui-kai-er-te-ren.zip"],
           ["Size", "197,468 bytes (193 KB)"],
           ["SHA-256", "e82b437ebc7bc1134ab650c5231c156153495ffddeb2acf7406910ab1c94243b"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B9%96%E4%BA%BA%E5%AF%B9%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 湖人对凯尔特人 (193 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hu-ren-dui-kai-er-te-ren.zip", external: true},
+          {label: "Download 湖人对凯尔特人 (193 KB)", href: "https://dos-bin.zczc.cz/%E6%B9%96%E4%BA%BA%E5%AF%B9%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

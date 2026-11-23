@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "炎龙骑士团 is a DOS game in the WhereQ archive — 1994, 278 files, 6.7 MB, and an entry point of FD.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yan-long-qi-shi-tuan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yan-long-qi-shi-tuan.zip"],
           ["Size", "6,985,714 bytes (6.7 MB)"],
           ["SHA-256", "a28ec4f46129ddb77ede8478b27d35d10be8059f735e137f3a73013e395a32ab"],
           ["Files", "278"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 炎龙骑士团 (6.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yan-long-qi-shi-tuan.zip", external: true},
+          {label: "Download 炎龙骑士团 (6.7 MB)", href: "https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A2.zip", external: true},
         ]},
       ],
     },

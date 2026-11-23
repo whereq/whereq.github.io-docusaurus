@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "月亮石骑士 is a DOS game in the WhereQ archive — 1993, 281 files, 1.7 MB, and an entry point of MS.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yue-liang-shi-qi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%88%E4%BA%AE%E7%9F%B3%E9%AA%91%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yue-liang-shi-qi-shi.zip"],
           ["Size", "1,827,063 bytes (1.7 MB)"],
           ["SHA-256", "a0b0f3389599165368ae1f1ec641630281282dec42487f995fa8cddce356f17d"],
           ["Files", "281"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%88%E4%BA%AE%E7%9F%B3%E9%AA%91%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 月亮石骑士 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yue-liang-shi-qi-shi.zip", external: true},
+          {label: "Download 月亮石骑士 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%88%E4%BA%AE%E7%9F%B3%E9%AA%91%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

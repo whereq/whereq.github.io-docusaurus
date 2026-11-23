@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "七宝奇谋 is a DOS game in the WhereQ archive — 2010, 6 files, 46 KB, and an entry point of Goonies.exe.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-bao-qi-mou.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-bao-qi-mou.zip"],
           ["Size", "47,388 bytes (46 KB)"],
           ["SHA-256", "9c84e8c0d9311351dbc375d2cb1829d802a73c20c345ecb5a48224e180bd5050"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 七宝奇谋 (46 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-bao-qi-mou.zip", external: true},
+          {label: "Download 七宝奇谋 (46 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B.zip", external: true},
         ]},
       ],
     },

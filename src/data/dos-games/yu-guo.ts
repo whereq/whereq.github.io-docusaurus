@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "雨果 is a DOS game in the WhereQ archive — 1992, 71 files, 2.8 MB, and an entry point of HUGO.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-guo.zip"],
           ["Size", "2,902,387 bytes (2.8 MB)"],
           ["SHA-256", "fa033a36d71e1dd3eae1929790167e1f074ab1205a1f99b3a1465f8f5ee4d160"],
           ["Files", "71"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雨果 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-guo.zip", external: true},
+          {label: "Download 雨果 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C.zip", external: true},
         ]},
       ],
     },

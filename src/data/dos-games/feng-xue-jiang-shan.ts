@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风雪江山 is a DOS game in the WhereQ archive — 1996, 305 files, 11.6 MB, and an entry point of GAME.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-xue-jiang-shan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%9B%AA%E6%B1%9F%E5%B1%B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-xue-jiang-shan.zip"],
           ["Size", "12,211,484 bytes (11.6 MB)"],
           ["SHA-256", "7df35ed42447dd04fab0cce3c061a9b35a9e9a002405842a0d0fbbee251c4456"],
           ["Files", "305"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E9%9B%AA%E6%B1%9F%E5%B1%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风雪江山 (11.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-xue-jiang-shan.zip", external: true},
+          {label: "Download 风雪江山 (11.6 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%9B%AA%E6%B1%9F%E5%B1%B1.zip", external: true},
         ]},
       ],
     },

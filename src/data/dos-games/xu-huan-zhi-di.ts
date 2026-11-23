@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "虚幻之地 is a DOS game in the WhereQ archive — 1996, 334 files, 9.9 MB, and an entry point of run.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xu-huan-zhi-di.zip",
+  url: "https://dos-bin.zczc.cz/%E8%99%9A%E5%B9%BB%E4%B9%8B%E5%9C%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xu-huan-zhi-di.zip"],
           ["Size", "10,397,227 bytes (9.9 MB)"],
           ["SHA-256", "eb0fe90c7a0bb471dc222bfb484ddba6d8e63cec850b8c4c0b480a56d15cd264"],
           ["Files", "334"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%99%9A%E5%B9%BB%E4%B9%8B%E5%9C%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 虚幻之地 (9.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xu-huan-zhi-di.zip", external: true},
+          {label: "Download 虚幻之地 (9.9 MB)", href: "https://dos-bin.zczc.cz/%E8%99%9A%E5%B9%BB%E4%B9%8B%E5%9C%B0.zip", external: true},
         ]},
       ],
     },

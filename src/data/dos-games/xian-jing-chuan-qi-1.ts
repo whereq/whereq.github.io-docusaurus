@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "仙境传奇1 is a DOS game in the WhereQ archive — 1989, 127 files, 667 KB, and an entry point of FTC.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xian-jing-chuan-qi-1.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%871.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xian-jing-chuan-qi-1.zip"],
           ["Size", "682,531 bytes (667 KB)"],
           ["SHA-256", "6e33981c5447c56fb330c27b2a580a8b83b3d13b152341c2c9fa701d64d25d06"],
           ["Files", "127"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%871.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 仙境传奇1 (667 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xian-jing-chuan-qi-1.zip", external: true},
+          {label: "Download 仙境传奇1 (667 KB)", href: "https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%871.zip", external: true},
         ]},
       ],
     },

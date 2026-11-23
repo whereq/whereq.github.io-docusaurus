@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "智慧弹珠 is a DOS game in the WhereQ archive — 1997, 12 files, 1.3 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-dan-zhu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%99%BA%E6%85%A7%E5%BC%B9%E7%8F%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-hui-dan-zhu.zip"],
           ["Size", "1,345,005 bytes (1.3 MB)"],
           ["SHA-256", "0d90c89f97281411f00efeb9d9171ccc7473263ff55e471879a978d494f76312"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%99%BA%E6%85%A7%E5%BC%B9%E7%8F%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 智慧弹珠 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-dan-zhu.zip", external: true},
+          {label: "Download 智慧弹珠 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E6%99%BA%E6%85%A7%E5%BC%B9%E7%8F%A0.zip", external: true},
         ]},
       ],
     },

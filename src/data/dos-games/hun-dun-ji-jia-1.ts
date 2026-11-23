@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "混沌机甲1 is a DOS game in the WhereQ archive — 1996, 1,005 files, 20.0 MB, and an entry point of BEDLAM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hun-dun-ji-jia-1.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hun-dun-ji-jia-1.zip"],
           ["Size", "21,001,244 bytes (20.0 MB)"],
           ["SHA-256", "4c0ed64956c94dbdc709734caac54b58b2744f95a22ed55bab193086214e7d67"],
           ["Files", "1,005"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 混沌机甲1 (20.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hun-dun-ji-jia-1.zip", external: true},
+          {label: "Download 混沌机甲1 (20.0 MB)", href: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip", external: true},
         ]},
       ],
     },

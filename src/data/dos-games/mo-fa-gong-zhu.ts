@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法公主 is a DOS game in the WhereQ archive — 1995, 95 files, 3.7 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-gong-zhu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%85%AC%E4%B8%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-gong-zhu.zip"],
           ["Size", "3,867,891 bytes (3.7 MB)"],
           ["SHA-256", "4674212b9ac1d4fcf362aabcf94f2935c62fff32a27853dc71f700ed1de0b09f"],
           ["Files", "95"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%85%AC%E4%B8%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法公主 (3.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-gong-zhu.zip", external: true},
+          {label: "Download 魔法公主 (3.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%85%AC%E4%B8%BB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "日本之战 is a DOS game in the WhereQ archive — 1992, 70 files, 453 KB, and an entry point of CONQUEST.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ri-ben-zhi-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A5%E6%9C%AC%E4%B9%8B%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ri-ben-zhi-zhan.zip"],
           ["Size", "463,815 bytes (453 KB)"],
           ["SHA-256", "66624e88a7a78e11a671af7d58eaf3a549bfb2fa31be62094d196a011ec310af"],
           ["Files", "70"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A5%E6%9C%AC%E4%B9%8B%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 日本之战 (453 KB)", href: "https://github.com/whereq/dos-games/releases/download/r/ri-ben-zhi-zhan.zip", external: true},
+          {label: "Download 日本之战 (453 KB)", href: "https://dos-bin.zczc.cz/%E6%97%A5%E6%9C%AC%E4%B9%8B%E6%88%98.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "支配力量 is a DOS game in the WhereQ archive — 1995, 22 files, 40.5 MB, and an entry point of ASCEND.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-pei-li-liang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%94%AF%E9%85%8D%E5%8A%9B%E9%87%8F.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-pei-li-liang.zip"],
           ["Size", "42,440,258 bytes (40.5 MB)"],
           ["SHA-256", "731936aaf44a865eb8edff8f4987f09764de870f8bb233b3b98b7ba630387f00"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%94%AF%E9%85%8D%E5%8A%9B%E9%87%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 支配力量 (40.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-pei-li-liang.zip", external: true},
+          {label: "Download 支配力量 (40.5 MB)", href: "https://dos-bin.zczc.cz/%E6%94%AF%E9%85%8D%E5%8A%9B%E9%87%8F.zip", external: true},
         ]},
       ],
     },

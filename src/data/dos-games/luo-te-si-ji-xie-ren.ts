@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "罗特斯机械人 is a DOS game in the WhereQ archive — 1980, 110 files, 710 KB, and an entry point of ROTOX.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luo-te-si-ji-xie-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%96%AF%E6%9C%BA%E6%A2%B0%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luo-te-si-ji-xie-ren.zip"],
           ["Size", "727,273 bytes (710 KB)"],
           ["SHA-256", "a5a5d3e941a152ac6d2eea3976c1bcad682cebaccac9ee1f6858c513fdfbf9dc"],
           ["Files", "110"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%96%AF%E6%9C%BA%E6%A2%B0%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罗特斯机械人 (710 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/luo-te-si-ji-xie-ren.zip", external: true},
+          {label: "Download 罗特斯机械人 (710 KB)", href: "https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%96%AF%E6%9C%BA%E6%A2%B0%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

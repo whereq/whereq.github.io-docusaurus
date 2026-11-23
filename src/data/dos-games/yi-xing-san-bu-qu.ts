@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异形三部曲 is a DOS game in the WhereQ archive — 1996, 751 files, 18.9 MB, and an entry point of TRILOGY.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-san-bu-qu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E4%B8%89%E9%83%A8%E6%9B%B2.zip",
   facts: [
     {label: "Developer", value: "ACCLAIM"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-san-bu-qu.zip"],
           ["Size", "19,799,502 bytes (18.9 MB)"],
           ["SHA-256", "1f313f1faa0067ee1883aeeb916c65b08b4ab58752b5c3332a7791e6197e343c"],
           ["Files", "751"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E4%B8%89%E9%83%A8%E6%9B%B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异形三部曲 (18.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-san-bu-qu.zip", external: true},
+          {label: "Download 异形三部曲 (18.9 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E4%B8%89%E9%83%A8%E6%9B%B2.zip", external: true},
         ]},
       ],
     },

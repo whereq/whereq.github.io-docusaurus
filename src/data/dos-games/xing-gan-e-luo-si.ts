@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "性感俄罗斯 is a DOS game in the WhereQ archive — 1996, 28 files, 370 KB, and an entry point of sext.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-gan-e-luo-si.zip",
+  url: "https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E4%BF%84%E7%BD%97%E6%96%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-gan-e-luo-si.zip"],
           ["Size", "379,326 bytes (370 KB)"],
           ["SHA-256", "5f8f5ce7c90aa7ea18fbb41ac299d7af6acb799bc2d3cd3f9775c885bcb4c319"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E4%BF%84%E7%BD%97%E6%96%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 性感俄罗斯 (370 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-gan-e-luo-si.zip", external: true},
+          {label: "Download 性感俄罗斯 (370 KB)", href: "https://dos-bin.zczc.cz/%E6%80%A7%E6%84%9F%E4%BF%84%E7%BD%97%E6%96%AF.zip", external: true},
         ]},
       ],
     },

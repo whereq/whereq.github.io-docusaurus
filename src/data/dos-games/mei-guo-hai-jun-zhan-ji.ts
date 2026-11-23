@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美国海军战机 is a DOS game in the WhereQ archive — 1996, 64 files, 20.9 MB, and an entry point of MF.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-guo-hai-jun-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-guo-hai-jun-zhan-ji.zip"],
           ["Size", "21,886,821 bytes (20.9 MB)"],
           ["SHA-256", "1f0bdf3b2c778cb4e308d5ea50c9f2336dcd5f8f0be78ca2a3d679f097a916e0"],
           ["Files", "64"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美国海军战机 (20.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-guo-hai-jun-zhan-ji.zip", external: true},
+          {label: "Download 美国海军战机 (20.9 MB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

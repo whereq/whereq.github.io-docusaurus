@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "辛普森大战外星人 is a DOS game in the WhereQ archive — 1997, 26 files, 1.0 MB, and an entry point of SIMPSONS.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-da-zhan-wai-xing-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-pu-sen-da-zhan-wai-xing-ren.zip"],
           ["Size", "1,054,742 bytes (1.0 MB)"],
           ["SHA-256", "27281c5b37fbb14a8fd438a67c392855433a384d5ce664abbbc992ac8aebe8aa"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 辛普森大战外星人 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-da-zhan-wai-xing-ren.zip", external: true},
+          {label: "Download 辛普森大战外星人 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

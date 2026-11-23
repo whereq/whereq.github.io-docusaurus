@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "詹姆斯庞德2 is a DOS game in the WhereQ archive — 1994, 17 files, 769 KB, and an entry point of robocod.bat.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-mu-si-pang-de-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A9%B9%E5%A7%86%E6%96%AF%E5%BA%9E%E5%BE%B72.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-mu-si-pang-de-2.zip"],
           ["Size", "786,963 bytes (769 KB)"],
           ["SHA-256", "a6fe0ba30b7ba9b8f24ca523d338397ef2c1c59e9ba918bbb25c17e55cc9d311"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A9%B9%E5%A7%86%E6%96%AF%E5%BA%9E%E5%BE%B72.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 詹姆斯庞德2 (769 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-mu-si-pang-de-2.zip", external: true},
+          {label: "Download 詹姆斯庞德2 (769 KB)", href: "https://dos-bin.zczc.cz/%E8%A9%B9%E5%A7%86%E6%96%AF%E5%BA%9E%E5%BE%B72.zip", external: true},
         ]},
       ],
     },

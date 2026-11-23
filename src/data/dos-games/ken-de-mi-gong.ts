@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "肯的迷宫 is a DOS game in the WhereQ archive — 1996, 20 files, 936 KB, and an entry point of KEN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ken-de-mi-gong.zip",
+  url: "https://dos-bin.zczc.cz/%E8%82%AF%E7%9A%84%E8%BF%B7%E5%AE%AB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ken-de-mi-gong.zip"],
           ["Size", "958,549 bytes (936 KB)"],
           ["SHA-256", "16186aa4b5e7c466ae492744fd1b96f38b7c5c2779a68c99ba6b8c238ea56e60"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%82%AF%E7%9A%84%E8%BF%B7%E5%AE%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 肯的迷宫 (936 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/ken-de-mi-gong.zip", external: true},
+          {label: "Download 肯的迷宫 (936 KB)", href: "https://dos-bin.zczc.cz/%E8%82%AF%E7%9A%84%E8%BF%B7%E5%AE%AB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "法兰克疯狂复仇 is a DOS game in the WhereQ archive — 1997, 229 files, 2.3 MB, and an entry point of FRANKO.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fa-lan-ke-feng-kuang-fu-chou.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B3%95%E5%85%B0%E5%85%8B%E7%96%AF%E7%8B%82%E5%A4%8D%E4%BB%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fa-lan-ke-feng-kuang-fu-chou.zip"],
           ["Size", "2,410,001 bytes (2.3 MB)"],
           ["SHA-256", "c8aaf3ade418ed4db7c789493883237773a37647eb2276fdaf3e787128b35db9"],
           ["Files", "229"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B3%95%E5%85%B0%E5%85%8B%E7%96%AF%E7%8B%82%E5%A4%8D%E4%BB%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 法兰克疯狂复仇 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fa-lan-ke-feng-kuang-fu-chou.zip", external: true},
+          {label: "Download 法兰克疯狂复仇 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E6%B3%95%E5%85%B0%E5%85%8B%E7%96%AF%E7%8B%82%E5%A4%8D%E4%BB%87.zip", external: true},
         ]},
       ],
     },

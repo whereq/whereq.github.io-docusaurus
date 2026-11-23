@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "1",
   summary: "1830铁路公爵 is a DOS game in the WhereQ archive — 1996, 41 files, 3.9 MB, and an entry point of 1830.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/1/1830-tie-lu-gong-jue.zip",
+  url: "https://dos-bin.zczc.cz/1830%E9%93%81%E8%B7%AF%E5%85%AC%E7%88%B5.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "1830-tie-lu-gong-jue.zip"],
           ["Size", "4,104,556 bytes (3.9 MB)"],
           ["SHA-256", "676c943a607ae514442fc2a86e2471e841124031155e9658e832a6f5f98e6945"],
           ["Files", "41"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/1830%E9%93%81%E8%B7%AF%E5%85%AC%E7%88%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 1830铁路公爵 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/1/1830-tie-lu-gong-jue.zip", external: true},
+          {label: "Download 1830铁路公爵 (3.9 MB)", href: "https://dos-bin.zczc.cz/1830%E9%93%81%E8%B7%AF%E5%85%AC%E7%88%B5.zip", external: true},
         ]},
       ],
     },

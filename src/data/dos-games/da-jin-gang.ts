@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大金刚 is a DOS game in the WhereQ archive — 2010, 14 files, 269 KB, and an entry point of KONG.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-jin-gang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%91%E5%88%9A.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-jin-gang.zip"],
           ["Size", "275,846 bytes (269 KB)"],
           ["SHA-256", "51dbac5f0af9ed93742527d93f0a3aafecd549d42a6b2e6566eb37b739026cde"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%91%E5%88%9A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大金刚 (269 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-jin-gang.zip", external: true},
+          {label: "Download 大金刚 (269 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%91%E5%88%9A.zip", external: true},
         ]},
       ],
     },

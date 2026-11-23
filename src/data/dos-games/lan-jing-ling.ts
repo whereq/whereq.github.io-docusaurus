@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蓝精灵 is a DOS game in the WhereQ archive — 2010, 90 files, 10.2 MB, and an entry point of SMURFS.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-jing-ling.zip",
+  url: "https://dos-bin.zczc.cz/%E8%93%9D%E7%B2%BE%E7%81%B5.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-jing-ling.zip"],
           ["Size", "10,690,662 bytes (10.2 MB)"],
           ["SHA-256", "3c63e1175eebbabfc6158bd2c042821153039c1dc64b5c46e480bf546ec2d4be"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%93%9D%E7%B2%BE%E7%81%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蓝精灵 (10.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-jing-ling.zip", external: true},
+          {label: "Download 蓝精灵 (10.2 MB)", href: "https://dos-bin.zczc.cz/%E8%93%9D%E7%B2%BE%E7%81%B5.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "摔角联盟1995 is a DOS game in the WhereQ archive — 1996, 116 files, 10.6 MB, and an entry point of WWF4.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shuai-jiao-lian-meng-1995.zip",
+  url: "https://dos-bin.zczc.cz/%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F1995.zip",
   facts: [
     {label: "Developer", value: "ACCLAIM"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shuai-jiao-lian-meng-1995.zip"],
           ["Size", "11,134,643 bytes (10.6 MB)"],
           ["SHA-256", "abeba92d39711eb7c889742eae4034b940fd72986fe9c5596dc05f8d2963570b"],
           ["Files", "116"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F1995.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 摔角联盟1995 (10.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shuai-jiao-lian-meng-1995.zip", external: true},
+          {label: "Download 摔角联盟1995 (10.6 MB)", href: "https://dos-bin.zczc.cz/%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F1995.zip", external: true},
         ]},
       ],
     },

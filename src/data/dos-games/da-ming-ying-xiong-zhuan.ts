@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大明英雄传 is a DOS game in the WhereQ archive — 1981, 124 files, 2.3 MB, and an entry point of play.bat.",
   status: "1981",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-ming-ying-xiong-zhuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%98%8E%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1981"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-ming-ying-xiong-zhuan.zip"],
           ["Size", "2,361,432 bytes (2.3 MB)"],
           ["SHA-256", "9b057bb737566e4fd689f8cb463882e96a359fd05efbee1074bcd45e16d8b5e4"],
           ["Files", "124"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E6%98%8E%E8%8B%B1%E9%9B%84%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大明英雄传 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-ming-ying-xiong-zhuan.zip", external: true},
+          {label: "Download 大明英雄传 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%98%8E%E8%8B%B1%E9%9B%84%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

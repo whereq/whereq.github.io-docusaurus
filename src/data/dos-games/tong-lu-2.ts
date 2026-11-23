@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "通路2 is a DOS game in the WhereQ archive — 1993, 80 files, 16.5 MB, and an entry point of HOME.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tong-lu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%9A%E8%B7%AF2.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tong-lu-2.zip"],
           ["Size", "17,329,113 bytes (16.5 MB)"],
           ["SHA-256", "0da34914439568d90a2d0e69ebe410fdaa4b7e6a9141cc4e968ebd75d3bcf2c0"],
           ["Files", "80"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%9A%E8%B7%AF2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 通路2 (16.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tong-lu-2.zip", external: true},
+          {label: "Download 通路2 (16.5 MB)", href: "https://dos-bin.zczc.cz/%E9%80%9A%E8%B7%AF2.zip", external: true},
         ]},
       ],
     },

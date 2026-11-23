@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "3",
   summary: "3x3只眼 is a DOS game in the WhereQ archive — 1993, 673 files, 10.9 MB, and an entry point of 3X3.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/3/3x3-zhi-yan.zip",
+  url: "https://dos-bin.zczc.cz/3x3%E5%8F%AA%E7%9C%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "3x3-zhi-yan.zip"],
           ["Size", "11,469,382 bytes (10.9 MB)"],
           ["SHA-256", "87f11d83f0f5b33f51b83e84c2aebccf34b5cd745d4ba2dd7bf3b58b066a3668"],
           ["Files", "673"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/3x3%E5%8F%AA%E7%9C%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 3x3只眼 (10.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/3/3x3-zhi-yan.zip", external: true},
+          {label: "Download 3x3只眼 (10.9 MB)", href: "https://dos-bin.zczc.cz/3x3%E5%8F%AA%E7%9C%BC.zip", external: true},
         ]},
       ],
     },

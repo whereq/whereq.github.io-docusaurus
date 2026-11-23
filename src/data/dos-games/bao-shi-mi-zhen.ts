@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "宝石迷阵 is a DOS game in the WhereQ archive — 1997, 4 files, 805 KB, and an entry point of XIXIT.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-shi-mi-zhen.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%9D%E7%9F%B3%E8%BF%B7%E9%98%B5.zip",
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-shi-mi-zhen.zip"],
           ["Size", "824,098 bytes (805 KB)"],
           ["SHA-256", "11b64f8cc085ac1bacd9340e3523e6e6419d038912be86ce8ecfef8c4800bf0a"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%9D%E7%9F%B3%E8%BF%B7%E9%98%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宝石迷阵 (805 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-shi-mi-zhen.zip", external: true},
+          {label: "Download 宝石迷阵 (805 KB)", href: "https://dos-bin.zczc.cz/%E5%AE%9D%E7%9F%B3%E8%BF%B7%E9%98%B5.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "琥珀之星 is a DOS game in the WhereQ archive — 1992, 36 files, 2.1 MB, and an entry point of AMBER.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hu-po-zhi-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%90%A5%E7%8F%80%E4%B9%8B%E6%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hu-po-zhi-xing.zip"],
           ["Size", "2,154,231 bytes (2.1 MB)"],
           ["SHA-256", "5ce653b3987e24daccc474345e72e6b0d417bf343c0d5095edd4c8de7a13af6d"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%90%A5%E7%8F%80%E4%B9%8B%E6%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 琥珀之星 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hu-po-zhi-xing.zip", external: true},
+          {label: "Download 琥珀之星 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E7%90%A5%E7%8F%80%E4%B9%8B%E6%98%9F.zip", external: true},
         ]},
       ],
     },

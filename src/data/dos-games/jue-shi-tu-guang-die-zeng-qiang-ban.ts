@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "爵士兔:光碟增强版 is a DOS game in the WhereQ archive — 1994, 310 files, 8.0 MB, and an entry point of JAZZ.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-guang-die-zeng-qiang-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%EF%BC%9A%E5%85%89%E7%A2%9F%E5%A2%9E%E5%BC%BA%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-shi-tu-guang-die-zeng-qiang-ban.zip"],
           ["Size", "8,411,889 bytes (8.0 MB)"],
           ["SHA-256", "c2e707d91acd50ffaab395e38c630435498247459869c0a9b642ce6defff2a2a"],
           ["Files", "310"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%EF%BC%9A%E5%85%89%E7%A2%9F%E5%A2%9E%E5%BC%BA%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爵士兔:光碟增强版 (8.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-guang-die-zeng-qiang-ban.zip", external: true},
+          {label: "Download 爵士兔:光碟增强版 (8.0 MB)", href: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%EF%BC%9A%E5%85%89%E7%A2%9F%E5%A2%9E%E5%BC%BA%E7%89%88.zip", external: true},
         ]},
       ],
     },

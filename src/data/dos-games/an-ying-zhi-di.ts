@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "暗影之地 is a DOS game in the WhereQ archive — 1992, 101 files, 314 KB, and an entry point of MAIN.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/a/an-ying-zhi-di.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%9C%B0.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "an-ying-zhi-di.zip"],
           ["Size", "321,365 bytes (314 KB)"],
           ["SHA-256", "252ec2c69bcde6f6b30d5c6a3e929c161f06847bf692efc620b64ab284b58655"],
           ["Files", "101"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%9C%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 暗影之地 (314 KB)", href: "https://github.com/whereq/dos-games/releases/download/a/an-ying-zhi-di.zip", external: true},
+          {label: "Download 暗影之地 (314 KB)", href: "https://dos-bin.zczc.cz/%E6%9A%97%E5%BD%B1%E4%B9%8B%E5%9C%B0.zip", external: true},
         ]},
       ],
     },

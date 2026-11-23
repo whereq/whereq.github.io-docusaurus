@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁领主 is a DOS game in the WhereQ archive — 1991, 93 files, 711 KB, and an entry point of IRONLORD.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-ling-zhu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%A2%86%E4%B8%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-ling-zhu.zip"],
           ["Size", "728,322 bytes (711 KB)"],
           ["SHA-256", "139d038f92d91a661567ee3d0f8c49e110c615449ece6028745dee5397c44b12"],
           ["Files", "93"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%A2%86%E4%B8%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁领主 (711 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-ling-zhu.zip", external: true},
+          {label: "Download 钢铁领主 (711 KB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E9%A2%86%E4%B8%BB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "勇者传说 is a DOS game in the WhereQ archive — 1994, 10 files, 3.4 MB, and an entry point of HERO.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yong-zhe-chuan-shuo.zip"],
           ["Size", "3,595,922 bytes (3.4 MB)"],
           ["SHA-256", "3bc7349834a1cb18db4fe4f56f8506789b26c307eb7bea7399b6d759bba73840"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 勇者传说 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-chuan-shuo.zip", external: true},
+          {label: "Download 勇者传说 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机甲战士2熊魂遗迹 is a DOS game in the WhereQ archive — 1995, 298 files, 30.6 MB, and an entry point of GBL.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-xiong-hun-yi-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%86%8A%E9%AD%82%E9%81%97%E8%BF%B9.zip",
   facts: [
     {label: "Developer", value: "ACTIVISION"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-jia-zhan-shi-2-xiong-hun-yi-ji.zip"],
           ["Size", "32,041,499 bytes (30.6 MB)"],
           ["SHA-256", "8dde2eaf1421606337e49d30a13bd367a6b27775cbb6402747ecbd0213a300e3"],
           ["Files", "298"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%86%8A%E9%AD%82%E9%81%97%E8%BF%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机甲战士2熊魂遗迹 (30.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-xiong-hun-yi-ji.zip", external: true},
+          {label: "Download 机甲战士2熊魂遗迹 (30.6 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%86%8A%E9%AD%82%E9%81%97%E8%BF%B9.zip", external: true},
         ]},
       ],
     },

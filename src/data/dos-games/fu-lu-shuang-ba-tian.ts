@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "福禄双霸天 is a DOS game in the WhereQ archive — 2006, 53 files, 460 KB, and an entry point of 1.EXE.",
   status: "2006",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fu-lu-shuang-ba-tian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A6%8F%E7%A6%84%E5%8F%8C%E9%9C%B8%E5%A4%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2006"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fu-lu-shuang-ba-tian.zip"],
           ["Size", "471,286 bytes (460 KB)"],
           ["SHA-256", "8d94f2a5b2284661d55cbd94edbc49c695d3cadc2d6752569f3ed5b2165bdebe"],
           ["Files", "53"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A6%8F%E7%A6%84%E5%8F%8C%E9%9C%B8%E5%A4%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 福禄双霸天 (460 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fu-lu-shuang-ba-tian.zip", external: true},
+          {label: "Download 福禄双霸天 (460 KB)", href: "https://dos-bin.zczc.cz/%E7%A6%8F%E7%A6%84%E5%8F%8C%E9%9C%B8%E5%A4%A9.zip", external: true},
         ]},
       ],
     },

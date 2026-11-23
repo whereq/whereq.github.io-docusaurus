@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "武林奇侠传 is a DOS game in the WhereQ archive — 1993, 282 files, 3.7 MB, and an entry point of V1.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-lin-qi-xia-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%A6%E6%9E%97%E5%A5%87%E4%BE%A0%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-lin-qi-xia-chuan.zip"],
           ["Size", "3,846,056 bytes (3.7 MB)"],
           ["SHA-256", "91a5408af6065c6cee6a5669f8affad1d40fd34076256b2d8f5d8ff919946ce6"],
           ["Files", "282"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%A6%E6%9E%97%E5%A5%87%E4%BE%A0%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 武林奇侠传 (3.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-lin-qi-xia-chuan.zip", external: true},
+          {label: "Download 武林奇侠传 (3.7 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%A6%E6%9E%97%E5%A5%87%E4%BE%A0%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

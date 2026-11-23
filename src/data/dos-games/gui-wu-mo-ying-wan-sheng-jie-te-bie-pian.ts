@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "鬼屋魔影万圣节特别篇 is a DOS game in the WhereQ archive — 1993, 42 files, 1.3 MB, and an entry point of JACK.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying-wan-sheng-jie-te-bie-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1%E4%B8%87%E5%9C%A3%E8%8A%82%E7%89%B9%E5%88%AB%E7%AF%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gui-wu-mo-ying-wan-sheng-jie-te-bie-pian.zip"],
           ["Size", "1,336,570 bytes (1.3 MB)"],
           ["SHA-256", "99f1cc9e032da1b88023bc4882c2bf107b6c0820580e12ffd7ec3eb907f94018"],
           ["Files", "42"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1%E4%B8%87%E5%9C%A3%E8%8A%82%E7%89%B9%E5%88%AB%E7%AF%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鬼屋魔影万圣节特别篇 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-mo-ying-wan-sheng-jie-te-bie-pian.zip", external: true},
+          {label: "Download 鬼屋魔影万圣节特别篇 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E9%AD%94%E5%BD%B1%E4%B8%87%E5%9C%A3%E8%8A%82%E7%89%B9%E5%88%AB%E7%AF%87.zip", external: true},
         ]},
       ],
     },

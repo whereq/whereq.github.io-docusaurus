@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "公元前车赛 is a DOS game in the WhereQ archive — 1995, 394 files, 2.1 MB, and an entry point of Go.bat.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gong-yuan-qian-che-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%AC%E5%85%83%E5%89%8D%E8%BD%A6%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gong-yuan-qian-che-sai.zip"],
           ["Size", "2,167,633 bytes (2.1 MB)"],
           ["SHA-256", "285d860c4016623d2c6aaaa329448a344c419d7f5009a0b4b89cc5a7c9db6c48"],
           ["Files", "394"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%AC%E5%85%83%E5%89%8D%E8%BD%A6%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 公元前车赛 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gong-yuan-qian-che-sai.zip", external: true},
+          {label: "Download 公元前车赛 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E5%85%AC%E5%85%83%E5%89%8D%E8%BD%A6%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

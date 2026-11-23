@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "农奴城市 is a DOS game in the WhereQ archive — 1994, 57 files, 1.2 MB, and an entry point of SERF.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nong-nu-cheng-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%9C%E5%A5%B4%E5%9F%8E%E5%B8%82.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nong-nu-cheng-shi.zip"],
           ["Size", "1,277,258 bytes (1.2 MB)"],
           ["SHA-256", "e8f4b51afc9b7fbc6e73436c919b036132a56eade15c06e6c1187072d3863ace"],
           ["Files", "57"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%9C%E5%A5%B4%E5%9F%8E%E5%B8%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 农奴城市 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nong-nu-cheng-shi.zip", external: true},
+          {label: "Download 农奴城市 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E5%86%9C%E5%A5%B4%E5%9F%8E%E5%B8%82.zip", external: true},
         ]},
       ],
     },

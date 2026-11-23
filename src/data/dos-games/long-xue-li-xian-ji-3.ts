@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙穴历险记3 is a DOS game in the WhereQ archive — 1992, 15 files, 3.0 MB, and an entry point of DL3.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-xue-li-xian-ji-3.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E7%A9%B4%E5%8E%86%E9%99%A9%E8%AE%B03.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-xue-li-xian-ji-3.zip"],
           ["Size", "3,119,648 bytes (3.0 MB)"],
           ["SHA-256", "fdc1768d42f95b9165c7afdea8d421b5108b1aa9b0929b8cec2aebd2e7269322"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E7%A9%B4%E5%8E%86%E9%99%A9%E8%AE%B03.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙穴历险记3 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-xue-li-xian-ji-3.zip", external: true},
+          {label: "Download 龙穴历险记3 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E7%A9%B4%E5%8E%86%E9%99%A9%E8%AE%B03.zip", external: true},
         ]},
       ],
     },

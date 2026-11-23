@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "金瓶梅之偷情宝鉴 is a DOS game in the WhereQ archive — 1997, 257 files, 52.0 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jin-ping-mei-zhi-tou-qing-bao-jian-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%91%E7%93%B6%E6%A2%85%E4%B9%8B%E5%81%B7%E6%83%85%E5%AE%9D%E9%89%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jin-ping-mei-zhi-tou-qing-bao-jian-2.zip"],
           ["Size", "54,554,349 bytes (52.0 MB)"],
           ["SHA-256", "2ab8e27251300aacb7ff09bc7dab57bfff0b8a0c4984a1f337686bd99d449f68"],
           ["Files", "257"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%91%E7%93%B6%E6%A2%85%E4%B9%8B%E5%81%B7%E6%83%85%E5%AE%9D%E9%89%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 金瓶梅之偷情宝鉴 (52.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jin-ping-mei-zhi-tou-qing-bao-jian-2.zip", external: true},
+          {label: "Download 金瓶梅之偷情宝鉴 (52.0 MB)", href: "https://dos-bin.zczc.cz/%E9%87%91%E7%93%B6%E6%A2%85%E4%B9%8B%E5%81%B7%E6%83%85%E5%AE%9D%E9%89%B4.zip", external: true},
         ]},
       ],
     },

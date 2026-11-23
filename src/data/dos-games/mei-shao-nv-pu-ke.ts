@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美少女扑克 is a DOS game in the WhereQ archive — 1987, 69 files, 593 KB, and an entry point of PK1.EXE.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-pu-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%89%91%E5%85%8B.zip",
   facts: [
     {label: "Developer", value: "DOMO"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-shao-nv-pu-ke.zip"],
           ["Size", "607,661 bytes (593 KB)"],
           ["SHA-256", "b036b7d1345cef712f90aa75e74410c0286bd2fb3334a6919c1c6b3d64790e2d"],
           ["Files", "69"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%89%91%E5%85%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美少女扑克 (593 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-pu-ke.zip", external: true},
+          {label: "Download 美少女扑克 (593 KB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%89%91%E5%85%8B.zip", external: true},
         ]},
       ],
     },

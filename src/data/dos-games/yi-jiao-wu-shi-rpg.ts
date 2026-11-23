@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异教巫师RPG is a DOS game in the WhereQ archive — 1994, 123 files, 2.2 MB, and an entry point of HEXX.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-wu-shi-rpg.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%B7%AB%E5%B8%88RPG.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-jiao-wu-shi-rpg.zip"],
           ["Size", "2,287,893 bytes (2.2 MB)"],
           ["SHA-256", "5b452ede37be056bc438f48fe0970ae47629d903ac4362c9a44033005f9802cb"],
           ["Files", "123"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%B7%AB%E5%B8%88RPG.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异教巫师RPG (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-jiao-wu-shi-rpg.zip", external: true},
+          {label: "Download 异教巫师RPG (2.2 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%B7%AB%E5%B8%88RPG.zip", external: true},
         ]},
       ],
     },

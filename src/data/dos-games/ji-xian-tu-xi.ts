@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "极限突袭 is a DOS game in the WhereQ archive — 1997, 2,817 files, 52.6 MB, and an entry point of START.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-xian-tu-xi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9E%81%E9%99%90%E7%AA%81%E8%A2%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-xian-tu-xi.zip"],
           ["Size", "55,154,227 bytes (52.6 MB)"],
           ["SHA-256", "cdd9a86a0b9d64433e0ca2484ee2e513987286d43aa64a52e4dfc4b53017c6ac"],
           ["Files", "2,817"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9E%81%E9%99%90%E7%AA%81%E8%A2%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 极限突袭 (52.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-xian-tu-xi.zip", external: true},
+          {label: "Download 极限突袭 (52.6 MB)", href: "https://dos-bin.zczc.cz/%E6%9E%81%E9%99%90%E7%AA%81%E8%A2%AD.zip", external: true},
         ]},
       ],
     },

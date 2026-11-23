@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "最后的忍者 is a DOS game in the WhereQ archive — 1988, 30 files, 349 KB, and an entry point of E.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-de-ren-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E7%9A%84%E5%BF%8D%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zui-hou-de-ren-zhe.zip"],
           ["Size", "357,292 bytes (349 KB)"],
           ["SHA-256", "b046dbf8450245feb9876771ba9f95a576c1a5378f352755c3ee1507656cfbff"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E7%9A%84%E5%BF%8D%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 最后的忍者 (349 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zui-hou-de-ren-zhe.zip", external: true},
+          {label: "Download 最后的忍者 (349 KB)", href: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E7%9A%84%E5%BF%8D%E8%80%85.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁锤男孩 is a DOS game in the WhereQ archive — 1991, 7 files, 200 KB, and an entry point of DINAMIC.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-chui-nan-hai.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E9%94%A4%E7%94%B7%E5%AD%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-chui-nan-hai.zip"],
           ["Size", "205,093 bytes (200 KB)"],
           ["SHA-256", "65c44f67861a2dd19ddf435f4bb1120567cf2a6fce5436aa482f3cebdd1c04f8"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E9%94%A4%E7%94%B7%E5%AD%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁锤男孩 (200 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-chui-nan-hai.zip", external: true},
+          {label: "Download 铁锤男孩 (200 KB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E9%94%A4%E7%94%B7%E5%AD%A9.zip", external: true},
         ]},
       ],
     },

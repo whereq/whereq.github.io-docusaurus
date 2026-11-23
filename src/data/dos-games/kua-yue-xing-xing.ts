@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "跨越行星 is a DOS game in the WhereQ archive — 1994, 323 files, 4.1 MB, and an entry point of STAR.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kua-yue-xing-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B7%A8%E8%B6%8A%E8%A1%8C%E6%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kua-yue-xing-xing.zip"],
           ["Size", "4,309,857 bytes (4.1 MB)"],
           ["SHA-256", "5b05c3f54e9ea116ef27113f8c9422222e8012cae4e6080c54b0d60710e3b315"],
           ["Files", "323"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B7%A8%E8%B6%8A%E8%A1%8C%E6%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 跨越行星 (4.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kua-yue-xing-xing.zip", external: true},
+          {label: "Download 跨越行星 (4.1 MB)", href: "https://dos-bin.zczc.cz/%E8%B7%A8%E8%B6%8A%E8%A1%8C%E6%98%9F.zip", external: true},
         ]},
       ],
     },

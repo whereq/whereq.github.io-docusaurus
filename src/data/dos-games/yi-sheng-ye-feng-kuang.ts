@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "医生也疯狂 is a DOS game in the WhereQ archive — 1991, 7 files, 448 KB, and an entry point of LND.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-sheng-ye-feng-kuang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8C%BB%E7%94%9F%E4%B9%9F%E7%96%AF%E7%8B%82.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-sheng-ye-feng-kuang.zip"],
           ["Size", "458,871 bytes (448 KB)"],
           ["SHA-256", "50649c0e4afed0e00b4f22150951b1f2c3de648caff1d16d1fe389ba4de9cf47"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8C%BB%E7%94%9F%E4%B9%9F%E7%96%AF%E7%8B%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 医生也疯狂 (448 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-sheng-ye-feng-kuang.zip", external: true},
+          {label: "Download 医生也疯狂 (448 KB)", href: "https://dos-bin.zczc.cz/%E5%8C%BB%E7%94%9F%E4%B9%9F%E7%96%AF%E7%8B%82.zip", external: true},
         ]},
       ],
     },

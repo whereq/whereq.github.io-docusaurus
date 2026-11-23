@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "泰克战争 is a DOS game in the WhereQ archive — 1996, 78 files, 13.5 MB, and an entry point of TEKWAR.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-ke-zhan-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B3%B0%E5%85%8B%E6%88%98%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-ke-zhan-zheng.zip"],
           ["Size", "14,178,286 bytes (13.5 MB)"],
           ["SHA-256", "1adcad7e0c7e78a410e809ae8fc9efd29f4e91fc92eeb9d077011f6168446bd3"],
           ["Files", "78"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B3%B0%E5%85%8B%E6%88%98%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 泰克战争 (13.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-ke-zhan-zheng.zip", external: true},
+          {label: "Download 泰克战争 (13.5 MB)", href: "https://dos-bin.zczc.cz/%E6%B3%B0%E5%85%8B%E6%88%98%E4%BA%89.zip", external: true},
         ]},
       ],
     },

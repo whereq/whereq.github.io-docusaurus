@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海洋多米诺 is a DOS game in the WhereQ archive — 1992, 196 files, 1.3 MB, and an entry point of ANTE.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-yang-duo-mi-nuo.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E6%B4%8B%E5%A4%9A%E7%B1%B3%E8%AF%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-yang-duo-mi-nuo.zip"],
           ["Size", "1,347,683 bytes (1.3 MB)"],
           ["SHA-256", "b0eb03ae0ef4af95260caa461092cf5a1d0e5c3d7d5bc7da0e26e769cbd8b033"],
           ["Files", "196"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E6%B4%8B%E5%A4%9A%E7%B1%B3%E8%AF%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海洋多米诺 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-yang-duo-mi-nuo.zip", external: true},
+          {label: "Download 海洋多米诺 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E6%B4%8B%E5%A4%9A%E7%B1%B3%E8%AF%BA.zip", external: true},
         ]},
       ],
     },

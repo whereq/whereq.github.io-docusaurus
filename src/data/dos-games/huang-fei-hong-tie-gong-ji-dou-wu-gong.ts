@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黄飞鸿铁公鸡斗蜈蚣 is a DOS game in the WhereQ archive — 1996, 762 files, 3.5 MB, and an entry point of LASTHERO.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huang-fei-hong-tie-gong-ji-dou-wu-gong.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%84%E9%A3%9E%E9%B8%BF%E9%93%81%E5%85%AC%E9%B8%A1%E6%96%97%E8%9C%88%E8%9A%A3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huang-fei-hong-tie-gong-ji-dou-wu-gong.zip"],
           ["Size", "3,690,769 bytes (3.5 MB)"],
           ["SHA-256", "b37eb2dbd77235cf27604d86e1051577b8f7b3760dc78bbecb20a346d85ed02f"],
           ["Files", "762"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%84%E9%A3%9E%E9%B8%BF%E9%93%81%E5%85%AC%E9%B8%A1%E6%96%97%E8%9C%88%E8%9A%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黄飞鸿铁公鸡斗蜈蚣 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huang-fei-hong-tie-gong-ji-dou-wu-gong.zip", external: true},
+          {label: "Download 黄飞鸿铁公鸡斗蜈蚣 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%84%E9%A3%9E%E9%B8%BF%E9%93%81%E5%85%AC%E9%B8%A1%E6%96%97%E8%9C%88%E8%9A%A3.zip", external: true},
         ]},
       ],
     },

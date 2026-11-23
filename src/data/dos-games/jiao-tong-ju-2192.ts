@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "交通局2192 is a DOS game in the WhereQ archive — an undated copy, 222 files, 2.4 MB, and an entry point of FILE0001.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jiao-tong-ju-2192.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%A4%E9%80%9A%E5%B1%802192.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jiao-tong-ju-2192.zip"],
           ["Size", "2,552,649 bytes (2.4 MB)"],
           ["SHA-256", "9fe265c8e87be403947b3f07a3bec78c3446f2cf1ab8fcfba47053845a1fb1fe"],
           ["Files", "222"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%A4%E9%80%9A%E5%B1%802192.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 交通局2192 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jiao-tong-ju-2192.zip", external: true},
+          {label: "Download 交通局2192 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%A4%E9%80%9A%E5%B1%802192.zip", external: true},
         ]},
       ],
     },

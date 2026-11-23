@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "迷宫罗格 is a DOS game in the WhereQ archive — 1994, 39 files, 4.3 MB, and an entry point of HACK.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mi-gong-luo-ge.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E7%BD%97%E6%A0%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mi-gong-luo-ge.zip"],
           ["Size", "4,529,946 bytes (4.3 MB)"],
           ["SHA-256", "d09fe65063ff017000f74f267dc2151afe01c56ba9823e85c956758a7bcf8bec"],
           ["Files", "39"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E7%BD%97%E6%A0%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 迷宫罗格 (4.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mi-gong-luo-ge.zip", external: true},
+          {label: "Download 迷宫罗格 (4.3 MB)", href: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E7%BD%97%E6%A0%BC.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无尽的野心 is a DOS game in the WhereQ archive — 1996, 215 files, 5.6 MB, and an entry point of ID.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-ye-xin.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%87%8E%E5%BF%83.zip",
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-jin-de-ye-xin.zip"],
           ["Size", "5,850,217 bytes (5.6 MB)"],
           ["SHA-256", "7da6a5ed173dee8a03298c1a8708a99e0e8cf9804117b47642f76745030beca5"],
           ["Files", "215"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%87%8E%E5%BF%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无尽的野心 (5.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-jin-de-ye-xin.zip", external: true},
+          {label: "Download 无尽的野心 (5.6 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%87%8E%E5%BF%83.zip", external: true},
         ]},
       ],
     },

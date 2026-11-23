@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "9",
   summary: "94美国世界杯 is a DOS game in the WhereQ archive — 1994, 86 files, 828 KB, and an entry point of FOOTBALL.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/9/94-mei-guo-shi-jie-bei.zip",
+  url: "https://dos-bin.zczc.cz/94%E7%BE%8E%E5%9B%BD%E4%B8%96%E7%95%8C%E6%9D%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "94-mei-guo-shi-jie-bei.zip"],
           ["Size", "848,365 bytes (828 KB)"],
           ["SHA-256", "ac24a108025cbe459d049877cc9b4f676ba521cad17161a51ffa96df1df1b218"],
           ["Files", "86"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/94%E7%BE%8E%E5%9B%BD%E4%B8%96%E7%95%8C%E6%9D%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 94美国世界杯 (828 KB)", href: "https://github.com/whereq/dos-games/releases/download/9/94-mei-guo-shi-jie-bei.zip", external: true},
+          {label: "Download 94美国世界杯 (828 KB)", href: "https://dos-bin.zczc.cz/94%E7%BE%8E%E5%9B%BD%E4%B8%96%E7%95%8C%E6%9D%AF.zip", external: true},
         ]},
       ],
     },

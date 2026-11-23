@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "恐龙益智问答 is a DOS game in the WhereQ archive — 1993, 74 files, 6.9 MB, and an entry point of DINO3D.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-yi-zhi-wen-da.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E7%9B%8A%E6%99%BA%E9%97%AE%E7%AD%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-long-yi-zhi-wen-da.zip"],
           ["Size", "7,239,408 bytes (6.9 MB)"],
           ["SHA-256", "ad2e203c7f3690d17ccfb2e2771dc6f0d6b7323be16c12ac91336229a3d9e8f2"],
           ["Files", "74"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E7%9B%8A%E6%99%BA%E9%97%AE%E7%AD%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恐龙益智问答 (6.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-long-yi-zhi-wen-da.zip", external: true},
+          {label: "Download 恐龙益智问答 (6.9 MB)", href: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E7%9B%8A%E6%99%BA%E9%97%AE%E7%AD%94.zip", external: true},
         ]},
       ],
     },

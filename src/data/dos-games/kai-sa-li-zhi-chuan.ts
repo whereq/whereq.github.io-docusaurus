@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "凯撒立志传 is a DOS game in the WhereQ archive — 1994, 121 files, 2.2 MB, and an entry point of KAISER.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-li-zhi-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E7%AB%8B%E5%BF%97%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kai-sa-li-zhi-chuan.zip"],
           ["Size", "2,283,922 bytes (2.2 MB)"],
           ["SHA-256", "beef608e66efc0ebb329986583a680fe23a11316756ab27696154a8b06238d08"],
           ["Files", "121"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E7%AB%8B%E5%BF%97%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 凯撒立志传 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-li-zhi-chuan.zip", external: true},
+          {label: "Download 凯撒立志传 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E7%AB%8B%E5%BF%97%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

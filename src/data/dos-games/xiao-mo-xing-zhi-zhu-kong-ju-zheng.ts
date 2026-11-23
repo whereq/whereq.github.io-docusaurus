@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小魔星/蜘蛛恐惧症 is a DOS game in the WhereQ archive — 2002, 163 files, 1.0 MB, and an entry point of SPIDER.EXE.",
   status: "2002",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mo-xing-zhi-zhu-kong-ju-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%98%9F%EF%BC%8F%E8%9C%98%E8%9B%9B%E6%81%90%E6%83%A7%E7%97%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2002"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-mo-xing-zhi-zhu-kong-ju-zheng.zip"],
           ["Size", "1,067,601 bytes (1.0 MB)"],
           ["SHA-256", "acd92cb4974f752f6f738437ed9d0d4c08dc52dfbcb74e069cf9ea5951c1f963"],
           ["Files", "163"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%98%9F%EF%BC%8F%E8%9C%98%E8%9B%9B%E6%81%90%E6%83%A7%E7%97%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小魔星/蜘蛛恐惧症 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-mo-xing-zhi-zhu-kong-ju-zheng.zip", external: true},
+          {label: "Download 小魔星/蜘蛛恐惧症 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%98%9F%EF%BC%8F%E8%9C%98%E8%9B%9B%E6%81%90%E6%83%A7%E7%97%87.zip", external: true},
         ]},
       ],
     },

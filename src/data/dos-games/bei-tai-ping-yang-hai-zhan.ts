@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "北太平洋海战 is a DOS game in the WhereQ archive — 1992, 103 files, 3.0 MB, and an entry point of GNBNA.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bei-tai-ping-yang-hai-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8C%97%E5%A4%AA%E5%B9%B3%E6%B4%8B%E6%B5%B7%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bei-tai-ping-yang-hai-zhan.zip"],
           ["Size", "3,163,909 bytes (3.0 MB)"],
           ["SHA-256", "4253ae3bb449c233d780c9db0238bddd40f7e626a68703f3c9d2a00417b574d6"],
           ["Files", "103"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8C%97%E5%A4%AA%E5%B9%B3%E6%B4%8B%E6%B5%B7%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 北太平洋海战 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bei-tai-ping-yang-hai-zhan.zip", external: true},
+          {label: "Download 北太平洋海战 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E5%8C%97%E5%A4%AA%E5%B9%B3%E6%B4%8B%E6%B5%B7%E6%88%98.zip", external: true},
         ]},
       ],
     },

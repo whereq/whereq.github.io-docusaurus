@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "特技之岛 is a DOS game in the WhereQ archive — 1992, 107 files, 7.1 MB, and an entry point of STUNT.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/t/te-ji-zhi-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E4%B9%8B%E5%B2%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "te-ji-zhi-dao.zip"],
           ["Size", "7,434,294 bytes (7.1 MB)"],
           ["SHA-256", "2b451812004672590a82ff992b0366da45a2501b3b2376618f7fdc7f0ab947d7"],
           ["Files", "107"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E4%B9%8B%E5%B2%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 特技之岛 (7.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/te-ji-zhi-dao.zip", external: true},
+          {label: "Download 特技之岛 (7.1 MB)", href: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E4%B9%8B%E5%B2%9B.zip", external: true},
         ]},
       ],
     },

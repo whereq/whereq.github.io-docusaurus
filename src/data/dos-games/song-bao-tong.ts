@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "送报童 is a DOS game in the WhereQ archive — 1992, 13 files, 274 KB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/s/song-bao-tong.zip",
+  url: "https://dos-bin.zczc.cz/%E9%80%81%E6%8A%A5%E7%AB%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "song-bao-tong.zip"],
           ["Size", "280,572 bytes (274 KB)"],
           ["SHA-256", "c4e4de406eba9433980b948e5a3979f84bdaa42aca23c65fe92ede5055b7ceea"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%80%81%E6%8A%A5%E7%AB%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 送报童 (274 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/song-bao-tong.zip", external: true},
+          {label: "Download 送报童 (274 KB)", href: "https://dos-bin.zczc.cz/%E9%80%81%E6%8A%A5%E7%AB%A5.zip", external: true},
         ]},
       ],
     },

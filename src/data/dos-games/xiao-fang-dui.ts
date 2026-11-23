@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "消防队 is a DOS game in the WhereQ archive — 1996, 53 files, 699 KB, and an entry point of MERC.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-fang-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B6%88%E9%98%B2%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "PROBE"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-fang-dui.zip"],
           ["Size", "715,469 bytes (699 KB)"],
           ["SHA-256", "14bb265ed2fa02d9b434985f3d9aa2537e8b3e3a98e5de399ae0935fe4f2a399"],
           ["Files", "53"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B6%88%E9%98%B2%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 消防队 (699 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-fang-dui.zip", external: true},
+          {label: "Download 消防队 (699 KB)", href: "https://dos-bin.zczc.cz/%E6%B6%88%E9%98%B2%E9%98%9F.zip", external: true},
         ]},
       ],
     },

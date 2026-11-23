@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异形繁殖 is a DOS game in the WhereQ archive — 1996, 130 files, 1.0 MB, and an entry point of alien.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-fan-zhi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%96.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-fan-zhi.zip"],
           ["Size", "1,074,888 bytes (1.0 MB)"],
           ["SHA-256", "30b14a1bad7ebfe28405b6a2596c635fad6fde927c2556ae6015708e5079541e"],
           ["Files", "130"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%96.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异形繁殖 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-fan-zhi.zip", external: true},
+          {label: "Download 异形繁殖 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%96.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻象弹珠台 is a DOS game in the WhereQ archive — 1996, 2 files, 3.5 MB, and an entry point of start.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-dan-zhu-tai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-xiang-dan-zhu-tai.zip"],
           ["Size", "3,703,064 bytes (3.5 MB)"],
           ["SHA-256", "07bba08594c661f4deb4e9c13b0b9719e96c79360ba2b0288d9be55268b9ec65"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻象弹珠台 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-dan-zhu-tai.zip", external: true},
+          {label: "Download 幻象弹珠台 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip", external: true},
         ]},
       ],
     },

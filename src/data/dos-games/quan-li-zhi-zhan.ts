@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "权利之战 is a DOS game in the WhereQ archive — 1992, 49 files, 388 KB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/q/quan-li-zhi-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "quan-li-zhi-zhan.zip"],
           ["Size", "397,545 bytes (388 KB)"],
           ["SHA-256", "281e9e630537afa8d843884921d603717a3e30b0d9bb9a208825ce1fcfb4fbb6"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 权利之战 (388 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/quan-li-zhi-zhan.zip", external: true},
+          {label: "Download 权利之战 (388 KB)", href: "https://dos-bin.zczc.cz/%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip", external: true},
         ]},
       ],
     },

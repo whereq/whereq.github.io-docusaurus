@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "不可思议的机器拓展包 is a DOS game in the WhereQ archive — 2005, 33 files, 681 KB, and an entry point of TIM.EXE.",
   status: "2005",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bu-ke-si-yi-de-ji-qi-tuo-zhan-bao.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A8%E6%8B%93%E5%B1%95%E5%8C%85.zip",
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "2005"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bu-ke-si-yi-de-ji-qi-tuo-zhan-bao.zip"],
           ["Size", "697,228 bytes (681 KB)"],
           ["SHA-256", "d6ae2ef8217d807da9f8275b287dc980bf3cee0f05bbf685a7b42f8fc04466af"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A8%E6%8B%93%E5%B1%95%E5%8C%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 不可思议的机器拓展包 (681 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bu-ke-si-yi-de-ji-qi-tuo-zhan-bao.zip", external: true},
+          {label: "Download 不可思议的机器拓展包 (681 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A8%E6%8B%93%E5%B1%95%E5%8C%85.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "末日宝典 is a DOS game in the WhereQ archive — 1994, 989 files, 7.8 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-bao-dian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E5%AE%9D%E5%85%B8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ri-bao-dian.zip"],
           ["Size", "8,192,895 bytes (7.8 MB)"],
           ["SHA-256", "0ccf33cc197f1e0200c1d819addc095f4cfb4bbe96bba48969a56351c4dcbe2d"],
           ["Files", "989"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E5%AE%9D%E5%85%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 末日宝典 (7.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-bao-dian.zip", external: true},
+          {label: "Download 末日宝典 (7.8 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E5%AE%9D%E5%85%B8.zip", external: true},
         ]},
       ],
     },

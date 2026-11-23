@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级滑雪3 is a DOS game in the WhereQ archive — 2001, 93 files, 4.0 MB, and an entry point of SKI.BAT.",
   status: "2001",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-3.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-hua-xue-3.zip"],
           ["Size", "4,234,785 bytes (4.0 MB)"],
           ["SHA-256", "96498c6bdcc74dce123f5493c21ccf443da31ba0fc9515e9dffcdb80337aa0de"],
           ["Files", "93"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级滑雪3 (4.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-hua-xue-3.zip", external: true},
+          {label: "Download 超级滑雪3 (4.0 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%BB%91%E9%9B%AA3.zip", external: true},
         ]},
       ],
     },

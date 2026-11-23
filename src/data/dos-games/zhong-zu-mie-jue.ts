@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "种族灭绝 is a DOS game in the WhereQ archive — 1996, 11 files, 708 KB, and an entry point of GENOCIDE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-zu-mie-jue.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A7%8D%E6%97%8F%E7%81%AD%E7%BB%9D.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-zu-mie-jue.zip"],
           ["Size", "724,846 bytes (708 KB)"],
           ["SHA-256", "38de30c620e72ca1f5a4caea3b17a96ab1964e2181e8d4dcedfb3f197d1ea75c"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A7%8D%E6%97%8F%E7%81%AD%E7%BB%9D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 种族灭绝 (708 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-zu-mie-jue.zip", external: true},
+          {label: "Download 种族灭绝 (708 KB)", href: "https://dos-bin.zczc.cz/%E7%A7%8D%E6%97%8F%E7%81%AD%E7%BB%9D.zip", external: true},
         ]},
       ],
     },

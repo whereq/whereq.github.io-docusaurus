@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "求婚365日 is a DOS game in the WhereQ archive — 1994, 112 files, 2.6 MB, and an entry point of 365.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qiu-hun-365-ri.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B1%82%E5%A9%9A365%E6%97%A5.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qiu-hun-365-ri.zip"],
           ["Size", "2,751,802 bytes (2.6 MB)"],
           ["SHA-256", "3a8f46116bf8ea8c4015ef712d709a95d1ca7fd7f3fee856a2b7cffe8ac1ed66"],
           ["Files", "112"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B1%82%E5%A9%9A365%E6%97%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 求婚365日 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qiu-hun-365-ri.zip", external: true},
+          {label: "Download 求婚365日 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E6%B1%82%E5%A9%9A365%E6%97%A5.zip", external: true},
         ]},
       ],
     },

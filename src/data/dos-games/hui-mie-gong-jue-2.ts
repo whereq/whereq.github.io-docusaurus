@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "毁灭公爵2 is a DOS game in the WhereQ archive — 1993, 17 files, 1.0 MB, and an entry point of NUKEM2.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-gong-jue-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B52.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-mie-gong-jue-2.zip"],
           ["Size", "1,076,420 bytes (1.0 MB)"],
           ["SHA-256", "74d9cde62ae61820c4b3684d6a024a60d0c5bae9fc9525f1315aa227480d5ec5"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B52.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 毁灭公爵2 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-gong-jue-2.zip", external: true},
+          {label: "Download 毁灭公爵2 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B52.zip", external: true},
         ]},
       ],
     },

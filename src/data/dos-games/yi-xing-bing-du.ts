@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异星病毒 is a DOS game in the WhereQ archive — 1996, 36 files, 41.1 MB, and an entry point of AV.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-bing-du.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%97%85%E6%AF%92.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-bing-du.zip"],
           ["Size", "43,113,648 bytes (41.1 MB)"],
           ["SHA-256", "8d9f640f56ebb95ded1330f442e6c69ea64f88720cdfce0434b2adf7a6ad441e"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%97%85%E6%AF%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异星病毒 (41.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-bing-du.zip", external: true},
+          {label: "Download 异星病毒 (41.1 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E7%97%85%E6%AF%92.zip", external: true},
         ]},
       ],
     },

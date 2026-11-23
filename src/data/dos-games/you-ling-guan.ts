@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "幽灵馆 is a DOS game in the WhereQ archive — 1989, 12 files, 284 KB, and an entry point of ALONE.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/y/you-ling-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BD%E7%81%B5%E9%A6%86.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "you-ling-guan.zip"],
           ["Size", "290,620 bytes (284 KB)"],
           ["SHA-256", "a9a309c30abdbe59d2d970b09d31269c284de918195533f147528dc58b987059"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BD%E7%81%B5%E9%A6%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幽灵馆 (284 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/you-ling-guan.zip", external: true},
+          {label: "Download 幽灵馆 (284 KB)", href: "https://dos-bin.zczc.cz/%E5%B9%BD%E7%81%B5%E9%A6%86.zip", external: true},
         ]},
       ],
     },

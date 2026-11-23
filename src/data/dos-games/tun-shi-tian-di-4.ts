@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "吞食天地4 is a DOS game in the WhereQ archive — an undated copy, 2,943 files, 282.5 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tun-shi-tian-di-4.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B04.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tun-shi-tian-di-4.zip"],
           ["Size", "296,178,498 bytes (282.5 MB)"],
           ["SHA-256", "55117357362737310f2bd5ef44269b7d88f8763023fb422e659746667b77df38"],
           ["Files", "2,943"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B04.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吞食天地4 (282.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tun-shi-tian-di-4.zip", external: true},
+          {label: "Download 吞食天地4 (282.5 MB)", href: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B04.zip", external: true},
         ]},
       ],
     },

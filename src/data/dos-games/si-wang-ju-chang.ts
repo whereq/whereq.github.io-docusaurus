@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死亡剧场 is a DOS game in the WhereQ archive — 1994, 198 files, 4.8 MB, and an entry point of TOD.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-ju-chang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E5%89%A7%E5%9C%BA.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-wang-ju-chang.zip"],
           ["Size", "5,062,446 bytes (4.8 MB)"],
           ["SHA-256", "7088e9ed04b7948b9852e80eef32910a277dc6c0d69fa28e5e787d56f5f72589"],
           ["Files", "198"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E5%89%A7%E5%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死亡剧场 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-wang-ju-chang.zip", external: true},
+          {label: "Download 死亡剧场 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E5%89%A7%E5%9C%BA.zip", external: true},
         ]},
       ],
     },

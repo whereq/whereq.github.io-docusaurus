@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "疯狗威廉的地下城之旅 is a DOS game in the WhereQ archive — an undated copy, 22 files, 2.3 MB, and an entry point of MDWVGA.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-gou-wei-lian-de-di-xia-cheng-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%97%E5%A8%81%E5%BB%89%E7%9A%84%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-gou-wei-lian-de-di-xia-cheng-zhi-lv.zip"],
           ["Size", "2,363,163 bytes (2.3 MB)"],
           ["SHA-256", "b0b9f64cf82eec03c0963b014c1f7de55e326ddb63c5ec58f43d1632d76f87d6"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%97%E5%A8%81%E5%BB%89%E7%9A%84%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 疯狗威廉的地下城之旅 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-gou-wei-lian-de-di-xia-cheng-zhi-lv.zip", external: true},
+          {label: "Download 疯狗威廉的地下城之旅 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%97%E5%A8%81%E5%BB%89%E7%9A%84%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

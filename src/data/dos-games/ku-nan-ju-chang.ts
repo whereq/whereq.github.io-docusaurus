@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "苦难剧场 is a DOS game in the WhereQ archive — 1997, 449 files, 44.9 MB, and an entry point of PAIN.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ku-nan-ju-chang.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8B%A6%E9%9A%BE%E5%89%A7%E5%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ku-nan-ju-chang.zip"],
           ["Size", "47,043,079 bytes (44.9 MB)"],
           ["SHA-256", "0c977ac32e9010676ae671f0758591a441b9744e83cba78162d242c7af0c63a5"],
           ["Files", "449"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8B%A6%E9%9A%BE%E5%89%A7%E5%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 苦难剧场 (44.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ku-nan-ju-chang.zip", external: true},
+          {label: "Download 苦难剧场 (44.9 MB)", href: "https://dos-bin.zczc.cz/%E8%8B%A6%E9%9A%BE%E5%89%A7%E5%9C%BA.zip", external: true},
         ]},
       ],
     },

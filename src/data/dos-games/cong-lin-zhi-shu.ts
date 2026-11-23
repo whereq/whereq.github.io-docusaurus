@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "丛林之书 is a DOS game in the WhereQ archive — 1994, 35 files, 5.3 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/c/cong-lin-zhi-shu.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E4%B9%8B%E4%B9%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "cong-lin-zhi-shu.zip"],
           ["Size", "5,509,952 bytes (5.3 MB)"],
           ["SHA-256", "f5dd4df1a52fb63c82c741c6e5da01c2532ba132373fcd8196d20b70fc16a6f8"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E4%B9%8B%E4%B9%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 丛林之书 (5.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/cong-lin-zhi-shu.zip", external: true},
+          {label: "Download 丛林之书 (5.3 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E4%B9%8B%E4%B9%A6.zip", external: true},
         ]},
       ],
     },

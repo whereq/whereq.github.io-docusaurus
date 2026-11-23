@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "呼啸拉力赛 is a DOS game in the WhereQ archive — 1999, 86 files, 75.5 MB, and an entry point of start65l.exe.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hu-xiao-la-li-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hu-xiao-la-li-sai.zip"],
           ["Size", "79,219,046 bytes (75.5 MB)"],
           ["SHA-256", "bafd3a14a5345ea80674ef79db0d01cbcc09d6c427e7f051a6066ca20cd0ef00"],
           ["Files", "86"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E6%8B%89%E5%8A%9B%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 呼啸拉力赛 (75.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hu-xiao-la-li-sai.zip", external: true},
+          {label: "Download 呼啸拉力赛 (75.5 MB)", href: "https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E6%8B%89%E5%8A%9B%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

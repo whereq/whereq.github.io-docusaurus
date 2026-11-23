@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞鹰骑士 is a DOS game in the WhereQ archive — 1995, 193 files, 3.3 MB, and an entry point of ABC.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-ying-qi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%B9%B0%E9%AA%91%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-ying-qi-shi.zip"],
           ["Size", "3,444,256 bytes (3.3 MB)"],
           ["SHA-256", "eb2c24d0ffa79baaf0e56ddded53de4bb59ca5db9f95a6dd932bc04730bd82f5"],
           ["Files", "193"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E9%B9%B0%E9%AA%91%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞鹰骑士 (3.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-ying-qi-shi.zip", external: true},
+          {label: "Download 飞鹰骑士 (3.3 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%B9%B0%E9%AA%91%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

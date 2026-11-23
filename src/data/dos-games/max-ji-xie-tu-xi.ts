@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "MAX机械突袭 is a DOS game in the WhereQ archive — 2007, 368 files, 520.4 MB, and an entry point of MAX.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/m/max-ji-xie-tu-xi.zip",
+  url: "https://dos-bin.zczc.cz/MAX%E6%9C%BA%E6%A2%B0%E7%AA%81%E8%A2%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "max-ji-xie-tu-xi.zip"],
           ["Size", "545,702,361 bytes (520.4 MB)"],
           ["SHA-256", "9f62feb985bac8fdfcabaa6e49089f7da301b201a82f3bdafa01bce21acd2487"],
           ["Files", "368"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/MAX%E6%9C%BA%E6%A2%B0%E7%AA%81%E8%A2%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download MAX机械突袭 (520.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/max-ji-xie-tu-xi.zip", external: true},
+          {label: "Download MAX机械突袭 (520.4 MB)", href: "https://dos-bin.zczc.cz/MAX%E6%9C%BA%E6%A2%B0%E7%AA%81%E8%A2%AD.zip", external: true},
         ]},
       ],
     },

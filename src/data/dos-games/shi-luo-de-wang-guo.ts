@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "失落的王国 is a DOS game in the WhereQ archive — 1996, 55 files, 15.2 MB, and an entry point of ARMAETH.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-wang-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%8E%8B%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-luo-de-wang-guo.zip"],
           ["Size", "15,907,336 bytes (15.2 MB)"],
           ["SHA-256", "3938a982d3bc62e095df65d2edbbb857f89f8245e289abb7ac9a0d4fd58481c6"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%8E%8B%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 失落的王国 (15.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-wang-guo.zip", external: true},
+          {label: "Download 失落的王国 (15.2 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%8E%8B%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风驰电掣 is a DOS game in the WhereQ archive — 1989, 11 files, 508 KB, and an entry point of ADLIB.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-chi-dian-che.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%A9%B0%E7%94%B5%E6%8E%A3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-chi-dian-che.zip"],
           ["Size", "519,988 bytes (508 KB)"],
           ["SHA-256", "c3447c1543112524bf2a2dba451cd1b4142cf360925263a46c5274387ce4d632"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E9%A9%B0%E7%94%B5%E6%8E%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风驰电掣 (508 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-chi-dian-che.zip", external: true},
+          {label: "Download 风驰电掣 (508 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%A9%B0%E7%94%B5%E6%8E%A3.zip", external: true},
         ]},
       ],
     },

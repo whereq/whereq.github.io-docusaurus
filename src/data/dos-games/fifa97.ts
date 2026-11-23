@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "FIFA97 is a DOS game in the WhereQ archive — 2004, 1,143 files, 67.9 MB, and an entry point of FIFADOS.EXE.",
   status: "2004",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fifa97.zip",
+  url: "https://dos-bin.zczc.cz/FIFA97.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2004"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fifa97.zip"],
           ["Size", "71,248,663 bytes (67.9 MB)"],
           ["SHA-256", "79cf6ff300ea0472d984cdf3337a0f308461f56a16a1b97fbe50cec2d7dd07cb"],
           ["Files", "1,143"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/FIFA97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download FIFA97 (67.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fifa97.zip", external: true},
+          {label: "Download FIFA97 (67.9 MB)", href: "https://dos-bin.zczc.cz/FIFA97.zip", external: true},
         ]},
       ],
     },

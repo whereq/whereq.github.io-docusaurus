@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超越深渊 is a DOS game in the WhereQ archive — 1996, 66 files, 290 KB, and an entry point of ABYSS.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-yue-shen-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E6%B7%B1%E6%B8%8A.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-yue-shen-yuan.zip"],
           ["Size", "296,817 bytes (290 KB)"],
           ["SHA-256", "75f97f287d3771e17767f4f25905bd95d38e24db95a689af79b123c720e09189"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E6%B7%B1%E6%B8%8A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超越深渊 (290 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-yue-shen-yuan.zip", external: true},
+          {label: "Download 超越深渊 (290 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E6%B7%B1%E6%B8%8A.zip", external: true},
         ]},
       ],
     },

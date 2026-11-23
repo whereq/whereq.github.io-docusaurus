@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世纪5 is a DOS game in the WhereQ archive — 1988, 124 files, 647 KB, and an entry point of ULTIMA.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-5.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA5.zip",
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-ji-5.zip"],
           ["Size", "662,373 bytes (647 KB)"],
           ["SHA-256", "e0e5cbc2d161c0bf395fa71ee9e98be03d05e6bc85e0cc4fcbd669715d7bccb1"],
           ["Files", "124"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世纪5 (647 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-5.zip", external: true},
+          {label: "Download 创世纪5 (647 KB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA5.zip", external: true},
         ]},
       ],
     },

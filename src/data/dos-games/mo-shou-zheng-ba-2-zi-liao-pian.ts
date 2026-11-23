@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔兽争霸2资料篇 is a DOS game in the WhereQ archive — 1996, 125 files, 18.5 MB, and an entry point of war2.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-zheng-ba-2-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B82%E8%B5%84%E6%96%99%E7%AF%87.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-shou-zheng-ba-2-zi-liao-pian.zip"],
           ["Size", "19,442,104 bytes (18.5 MB)"],
           ["SHA-256", "c1416b6fe392c578dea1b41f8d667656b37c622b247feaac5301551cd41b5b6f"],
           ["Files", "125"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B82%E8%B5%84%E6%96%99%E7%AF%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔兽争霸2资料篇 (18.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-shou-zheng-ba-2-zi-liao-pian.zip", external: true},
+          {label: "Download 魔兽争霸2资料篇 (18.5 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B82%E8%B5%84%E6%96%99%E7%AF%87.zip", external: true},
         ]},
       ],
     },

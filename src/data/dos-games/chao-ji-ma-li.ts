@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级玛丽 is a DOS game in the WhereQ archive — 2001, 4 files, 63 KB, and an entry point of MARIO.EXE.",
   status: "2001",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-ma-li.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-ma-li.zip"],
           ["Size", "64,867 bytes (63 KB)"],
           ["SHA-256", "59af4af2ffe17699c213cf41e13ab47276cdce3e534b7b9ef8a3e024e0cec38c"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级玛丽 (63 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-ma-li.zip", external: true},
+          {label: "Download 超级玛丽 (63 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD.zip", external: true},
         ]},
       ],
     },

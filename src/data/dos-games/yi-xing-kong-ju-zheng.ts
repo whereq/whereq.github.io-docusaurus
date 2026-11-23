@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异形恐惧症 is a DOS game in the WhereQ archive — 1996, 33 files, 152 KB, and an entry point of PHOBIA.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-kong-ju-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%81%90%E6%83%A7%E7%97%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-kong-ju-zheng.zip"],
           ["Size", "155,370 bytes (152 KB)"],
           ["SHA-256", "daf177461076c35cb10706f3bc09d3617b51a74ab0266cba0cde3dab9626912a"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%81%90%E6%83%A7%E7%97%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异形恐惧症 (152 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-kong-ju-zheng.zip", external: true},
+          {label: "Download 异形恐惧症 (152 KB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%81%90%E6%83%A7%E7%97%87.zip", external: true},
         ]},
       ],
     },

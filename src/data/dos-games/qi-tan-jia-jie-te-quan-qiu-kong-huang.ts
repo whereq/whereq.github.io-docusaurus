@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "奇探加杰特全球恐慌 is a DOS game in the WhereQ archive — 1992, 36 files, 4.9 MB, and an entry point of GADGET.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-tan-jia-jie-te-quan-qiu-kong-huang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A5%87%E6%8E%A2%E5%8A%A0%E6%9D%B0%E7%89%B9%E5%85%A8%E7%90%83%E6%81%90%E6%85%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-tan-jia-jie-te-quan-qiu-kong-huang.zip"],
           ["Size", "5,168,685 bytes (4.9 MB)"],
           ["SHA-256", "23e2c7c8f4f2dc6b56948e8846c85a97fccd8032415513ad313fae798c6566a0"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A5%87%E6%8E%A2%E5%8A%A0%E6%9D%B0%E7%89%B9%E5%85%A8%E7%90%83%E6%81%90%E6%85%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 奇探加杰特全球恐慌 (4.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-tan-jia-jie-te-quan-qiu-kong-huang.zip", external: true},
+          {label: "Download 奇探加杰特全球恐慌 (4.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A5%87%E6%8E%A2%E5%8A%A0%E6%9D%B0%E7%89%B9%E5%85%A8%E7%90%83%E6%81%90%E6%85%8C.zip", external: true},
         ]},
       ],
     },

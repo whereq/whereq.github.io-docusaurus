@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "对抗战争 is a DOS game in the WhereQ archive — 1996, 284 files, 1.9 MB, and an entry point of whenaria.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dui-kang-zhan-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AF%B9%E6%8A%97%E6%88%98%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dui-kang-zhan-zheng.zip"],
           ["Size", "1,966,171 bytes (1.9 MB)"],
           ["SHA-256", "8feb3b89a934ac0b8b1f20780bb707841e36620b8aa928092b52a5b231703ded"],
           ["Files", "284"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AF%B9%E6%8A%97%E6%88%98%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 对抗战争 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/dui-kang-zhan-zheng.zip", external: true},
+          {label: "Download 对抗战争 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E5%AF%B9%E6%8A%97%E6%88%98%E4%BA%89.zip", external: true},
         ]},
       ],
     },

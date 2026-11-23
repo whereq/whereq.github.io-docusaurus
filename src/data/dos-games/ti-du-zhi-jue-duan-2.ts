@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "提督之决断2 is a DOS game in the WhereQ archive — 1993, 100 files, 3.0 MB, and an entry point of TEK2.COM.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/t/ti-du-zhi-jue-duan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8F%90%E7%9D%A3%E4%B9%8B%E5%86%B3%E6%96%AD2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ti-du-zhi-jue-duan-2.zip"],
           ["Size", "3,127,198 bytes (3.0 MB)"],
           ["SHA-256", "49c75b0138d77e09517aca0b661bd1cc14dacfa667b2082f6dad4394672c5023"],
           ["Files", "100"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8F%90%E7%9D%A3%E4%B9%8B%E5%86%B3%E6%96%AD2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 提督之决断2 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/ti-du-zhi-jue-duan-2.zip", external: true},
+          {label: "Download 提督之决断2 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E6%8F%90%E7%9D%A3%E4%B9%8B%E5%86%B3%E6%96%AD2.zip", external: true},
         ]},
       ],
     },

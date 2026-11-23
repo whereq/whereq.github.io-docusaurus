@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "预言维金之子 is a DOS game in the WhereQ archive — 1991, 14 files, 1.4 MB, and an entry point of VC.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-yan-wei-jin-zhi-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80%E7%BB%B4%E9%87%91%E4%B9%8B%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-yan-wei-jin-zhi-zi.zip"],
           ["Size", "1,496,301 bytes (1.4 MB)"],
           ["SHA-256", "3701e8953c6e061dc3c15029e8ea0185b9285b993c77bb7e085a75bcf929ea17"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80%E7%BB%B4%E9%87%91%E4%B9%8B%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 预言维金之子 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-yan-wei-jin-zhi-zi.zip", external: true},
+          {label: "Download 预言维金之子 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E9%A2%84%E8%A8%80%E7%BB%B4%E9%87%91%E4%B9%8B%E5%AD%90.zip", external: true},
         ]},
       ],
     },

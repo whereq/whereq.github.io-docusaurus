@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "指环王 is a DOS game in the WhereQ archive — an undated copy, 41 files, 1.3 MB, and an entry point of LORD.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-huan-wang.zip",
+  url: "https://binary.dos.lol/88777ec4ea921f9b6826fbf00556b8fbd975dddc4de13a7e9ea9590abbfaab63.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-huan-wang.zip"],
           ["Size", "1,337,717 bytes (1.3 MB)"],
           ["SHA-256", "88777ec4ea921f9b6826fbf00556b8fbd975dddc4de13a7e9ea9590abbfaab63"],
           ["Files", "41"],
-          ["Original", "dos-bin.zczc.cz — https://binary.dos.lol/88777ec4ea921f9b6826fbf00556b8fbd975dddc4de13a7e9ea9590abbfaab63.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 指环王 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-huan-wang.zip", external: true},
+          {label: "Download 指环王 (1.3 MB)", href: "https://binary.dos.lol/88777ec4ea921f9b6826fbf00556b8fbd975dddc4de13a7e9ea9590abbfaab63.zip", external: true},
         ]},
       ],
     },

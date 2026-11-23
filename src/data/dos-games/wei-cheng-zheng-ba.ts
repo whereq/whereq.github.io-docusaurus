@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "微城争霸 is a DOS game in the WhereQ archive — 1992, 174 files, 1.7 MB, and an entry point of SIEGE.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-cheng-zheng-ba.zip"],
           ["Size", "1,823,814 bytes (1.7 MB)"],
           ["SHA-256", "321fc76ea0497db848d3459e3872bb316851c400797263b8896546923c8eb943"],
           ["Files", "174"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 微城争霸 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba.zip", external: true},
+          {label: "Download 微城争霸 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8.zip", external: true},
         ]},
       ],
     },

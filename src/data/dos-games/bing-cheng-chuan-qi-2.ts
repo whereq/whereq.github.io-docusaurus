@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "冰城传奇2 is a DOS game in the WhereQ archive — 1988, 38 files, 499 KB, and an entry point of DK.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bing-cheng-chuan-qi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%872.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bing-cheng-chuan-qi-2.zip"],
           ["Size", "510,534 bytes (499 KB)"],
           ["SHA-256", "ee88fa83e11ffe4584c9f933e6e059959e3cf302c810f3525bcd51515cad686c"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%872.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 冰城传奇2 (499 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bing-cheng-chuan-qi-2.zip", external: true},
+          {label: "Download 冰城传奇2 (499 KB)", href: "https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%872.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "无名指的教科书 is a DOS game in the WhereQ archive — 1996, 72 files, 3.1 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-ming-zhi-de-jiao-ke-shu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%90%8D%E6%8C%87%E7%9A%84%E6%95%99%E7%A7%91%E4%B9%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-ming-zhi-de-jiao-ke-shu.zip"],
           ["Size", "3,283,286 bytes (3.1 MB)"],
           ["SHA-256", "8125326d8626c8337f8c93875f296f84048a1ab4f43766742c25fbf763b46226"],
           ["Files", "72"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%A0%E5%90%8D%E6%8C%87%E7%9A%84%E6%95%99%E7%A7%91%E4%B9%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 无名指的教科书 (3.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-ming-zhi-de-jiao-ke-shu.zip", external: true},
+          {label: "Download 无名指的教科书 (3.1 MB)", href: "https://dos-bin.zczc.cz/%E6%97%A0%E5%90%8D%E6%8C%87%E7%9A%84%E6%95%99%E7%A7%91%E4%B9%A6.zip", external: true},
         ]},
       ],
     },

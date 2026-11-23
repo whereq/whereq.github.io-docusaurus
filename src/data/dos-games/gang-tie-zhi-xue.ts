@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁之血 is a DOS game in the WhereQ archive — 1996, 30 files, 44.1 MB, and an entry point of IRON.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-xue.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%A1%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-zhi-xue.zip"],
           ["Size", "46,276,520 bytes (44.1 MB)"],
           ["SHA-256", "57a27c645e8180b3ff77f2653d20527d7c1f52b5d5b3976907f596f8e639e92a"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%A1%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁之血 (44.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-xue.zip", external: true},
+          {label: "Download 钢铁之血 (44.1 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E8%A1%80.zip", external: true},
         ]},
       ],
     },

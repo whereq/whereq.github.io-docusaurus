@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "篮球经理 is a DOS game in the WhereQ archive — 1990, 29 files, 212 KB, and an entry point of RUNME.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-qiu-jing-li.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AF%AE%E7%90%83%E7%BB%8F%E7%90%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-qiu-jing-li.zip"],
           ["Size", "217,573 bytes (212 KB)"],
           ["SHA-256", "4a605c0ee227f2c06ae1c669dc3349d2364626d3a9800811ef31654af5073977"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AF%AE%E7%90%83%E7%BB%8F%E7%90%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 篮球经理 (212 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-qiu-jing-li.zip", external: true},
+          {label: "Download 篮球经理 (212 KB)", href: "https://dos-bin.zczc.cz/%E7%AF%AE%E7%90%83%E7%BB%8F%E7%90%86.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞跃疯人院 is a DOS game in the WhereQ archive — 1990, 70 files, 2.5 MB, and an entry point of COUNT.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-yue-feng-ren-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%B7%83%E7%96%AF%E4%BA%BA%E9%99%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-yue-feng-ren-yuan.zip"],
           ["Size", "2,653,171 bytes (2.5 MB)"],
           ["SHA-256", "81586fb3364865b00ab6aed83491b5b7ae515ddb37107b4076bc8e0f0867d829"],
           ["Files", "70"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E8%B7%83%E7%96%AF%E4%BA%BA%E9%99%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞跃疯人院 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-yue-feng-ren-yuan.zip", external: true},
+          {label: "Download 飞跃疯人院 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%B7%83%E7%96%AF%E4%BA%BA%E9%99%A2.zip", external: true},
         ]},
       ],
     },

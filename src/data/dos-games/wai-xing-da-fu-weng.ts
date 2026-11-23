@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "外星大富翁 is a DOS game in the WhereQ archive — 1992, 44 files, 545 KB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wai-xing-da-fu-weng.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wai-xing-da-fu-weng.zip"],
           ["Size", "558,544 bytes (545 KB)"],
           ["SHA-256", "2ae94227411c0ccb2b864251980f711bbe2daa564b6cab1bc0d6f71fca8ad04b"],
           ["Files", "44"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E5%A4%A7%E5%AF%8C%E7%BF%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 外星大富翁 (545 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wai-xing-da-fu-weng.zip", external: true},
+          {label: "Download 外星大富翁 (545 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E5%A4%A7%E5%AF%8C%E7%BF%81.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "恐龙世纪 is a DOS game in the WhereQ archive — 1996, 319 files, 3.7 MB, and an entry point of PLAY.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-shi-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E4%B8%96%E7%BA%AA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-long-shi-ji.zip"],
           ["Size", "3,925,318 bytes (3.7 MB)"],
           ["SHA-256", "3eada0396cf025bfeb8c34ed34d2adaec27be8245bca6e63ca797245eb7972f1"],
           ["Files", "319"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E4%B8%96%E7%BA%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恐龙世纪 (3.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-long-shi-ji.zip", external: true},
+          {label: "Download 恐龙世纪 (3.7 MB)", href: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E4%B8%96%E7%BA%AA.zip", external: true},
         ]},
       ],
     },

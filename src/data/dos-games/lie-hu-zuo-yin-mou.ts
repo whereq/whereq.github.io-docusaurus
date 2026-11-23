@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "猎户座阴谋 is a DOS game in the WhereQ archive — 2009, 82 files, 232.6 MB, and an entry point of ORION.BAT.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lie-hu-zuo-yin-mou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8C%8E%E6%88%B7%E5%BA%A7%E9%98%B4%E8%B0%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lie-hu-zuo-yin-mou.zip"],
           ["Size", "243,875,722 bytes (232.6 MB)"],
           ["SHA-256", "904d8267f4dd7c2a04211a7af694c06aab007265570f11b4177e0156f8265dc0"],
           ["Files", "82"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8C%8E%E6%88%B7%E5%BA%A7%E9%98%B4%E8%B0%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 猎户座阴谋 (232.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lie-hu-zuo-yin-mou.zip", external: true},
+          {label: "Download 猎户座阴谋 (232.6 MB)", href: "https://dos-bin.zczc.cz/%E7%8C%8E%E6%88%B7%E5%BA%A7%E9%98%B4%E8%B0%8B.zip", external: true},
         ]},
       ],
     },

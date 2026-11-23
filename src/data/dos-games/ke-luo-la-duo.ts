@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "科罗拉多 is a DOS game in the WhereQ archive — 1986, 49 files, 400 KB, and an entry point of COLORADO.EXE.",
   status: "1986",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-luo-la-duo.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1986"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-luo-la-duo.zip"],
           ["Size", "409,298 bytes (400 KB)"],
           ["SHA-256", "7f8850d7ec30edc5010f7b3ed61cb2958b6e224b2bb4dfcd73d5572bd98a44fc"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 科罗拉多 (400 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-luo-la-duo.zip", external: true},
+          {label: "Download 科罗拉多 (400 KB)", href: "https://dos-bin.zczc.cz/%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A.zip", external: true},
         ]},
       ],
     },

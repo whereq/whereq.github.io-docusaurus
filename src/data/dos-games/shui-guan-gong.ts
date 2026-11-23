@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "水管工 is a DOS game in the WhereQ archive — 1989, 57 files, 349 KB, and an entry point of PLAY.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shui-guan-gong.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shui-guan-gong.zip"],
           ["Size", "357,595 bytes (349 KB)"],
           ["SHA-256", "b6d0ba3757b1274ef1d912f775e9696443a6a21fca7c1d01edf018de00fb5d98"],
           ["Files", "57"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 水管工 (349 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shui-guan-gong.zip", external: true},
+          {label: "Download 水管工 (349 KB)", href: "https://dos-bin.zczc.cz/%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip", external: true},
         ]},
       ],
     },

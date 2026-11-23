@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁路A计划+资料篇 is a DOS game in the WhereQ archive — 2007, 32 files, 2.1 MB, and an entry point of PLAY.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-lu-a-ji-hua-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AFA%E8%AE%A1%E5%88%92%2B%E8%B5%84%E6%96%99%E7%AF%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-lu-a-ji-hua-zi-liao-pian.zip"],
           ["Size", "2,237,737 bytes (2.1 MB)"],
           ["SHA-256", "e2d25992e9c8abed9dad494b4c4b6d51e660e0c4c25911cecf9aef7ddbe8506e"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AFA%E8%AE%A1%E5%88%92%2B%E8%B5%84%E6%96%99%E7%AF%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁路A计划+资料篇 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-lu-a-ji-hua-zi-liao-pian.zip", external: true},
+          {label: "Download 铁路A计划+资料篇 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AFA%E8%AE%A1%E5%88%92%2B%E8%B5%84%E6%96%99%E7%AF%87.zip", external: true},
         ]},
       ],
     },

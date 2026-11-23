@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "横版俄罗斯方块 is a DOS game in the WhereQ archive — 1997, 7 files, 110 KB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/heng-ban-e-luo-si-fang-kuai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%AA%E7%89%88%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "heng-ban-e-luo-si-fang-kuai.zip"],
           ["Size", "112,206 bytes (110 KB)"],
           ["SHA-256", "597115d06e5e6b6b7de21ed827ed60f0f771a1105e6ce1985b202065055331f7"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%AA%E7%89%88%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 横版俄罗斯方块 (110 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/heng-ban-e-luo-si-fang-kuai.zip", external: true},
+          {label: "Download 横版俄罗斯方块 (110 KB)", href: "https://dos-bin.zczc.cz/%E6%A8%AA%E7%89%88%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip", external: true},
         ]},
       ],
     },

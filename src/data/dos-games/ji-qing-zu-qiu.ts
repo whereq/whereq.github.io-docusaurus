@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "激情足球 is a DOS game in the WhereQ archive — 1994, 136 files, 1.0 MB, and an entry point of GOAL.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-qing-zu-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%83%85%E8%B6%B3%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-qing-zu-qiu.zip"],
           ["Size", "1,059,760 bytes (1.0 MB)"],
           ["SHA-256", "ebc907c5b757c13e1f3fe24b997ece6b2009c836163696e6d22deb3a837ebe97"],
           ["Files", "136"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%BF%80%E6%83%85%E8%B6%B3%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 激情足球 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-qing-zu-qiu.zip", external: true},
+          {label: "Download 激情足球 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E6%BF%80%E6%83%85%E8%B6%B3%E7%90%83.zip", external: true},
         ]},
       ],
     },

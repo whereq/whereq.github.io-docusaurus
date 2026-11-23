@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔岛大富翁 is a DOS game in the WhereQ archive — 1996, 81 files, 12.4 MB, and an entry point of MONEY.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-dao-da-fu-weng.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B2%9B%E5%A4%A7%E5%AF%8C%E7%BF%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-dao-da-fu-weng.zip"],
           ["Size", "12,971,251 bytes (12.4 MB)"],
           ["SHA-256", "316a1734b1c288bfdd2910f903ca1f4c933933cd6d88743158c8cf823cfb7159"],
           ["Files", "81"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%B2%9B%E5%A4%A7%E5%AF%8C%E7%BF%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔岛大富翁 (12.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-dao-da-fu-weng.zip", external: true},
+          {label: "Download 魔岛大富翁 (12.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B2%9B%E5%A4%A7%E5%AF%8C%E7%BF%81.zip", external: true},
         ]},
       ],
     },

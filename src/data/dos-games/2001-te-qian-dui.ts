@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "2",
   summary: "2001特遣队 is a DOS game in the WhereQ archive — 1996, 210 files, 9.2 MB, and an entry point of MIS.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/2/2001-te-qian-dui.zip",
+  url: "https://dos-bin.zczc.cz/2001%E7%89%B9%E9%81%A3%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "2001-te-qian-dui.zip"],
           ["Size", "9,625,601 bytes (9.2 MB)"],
           ["SHA-256", "408a798312982311769ac3a58ae93224a923d5019df304bb81391eee66bba8b5"],
           ["Files", "210"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/2001%E7%89%B9%E9%81%A3%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 2001特遣队 (9.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/2/2001-te-qian-dui.zip", external: true},
+          {label: "Download 2001特遣队 (9.2 MB)", href: "https://dos-bin.zczc.cz/2001%E7%89%B9%E9%81%A3%E9%98%9F.zip", external: true},
         ]},
       ],
     },

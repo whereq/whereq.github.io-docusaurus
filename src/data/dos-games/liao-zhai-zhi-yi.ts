@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "聊斋志异 is a DOS game in the WhereQ archive — 1980, 36 files, 3.3 MB, and an entry point of PLAY.BAT.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/l/liao-zhai-zhi-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "liao-zhai-zhi-yi.zip"],
           ["Size", "3,408,575 bytes (3.3 MB)"],
           ["SHA-256", "54ee10ea5a019e7ea2d08758eddeb454a6b270910146744926dd206fe079b1ec"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 聊斋志异 (3.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/liao-zhai-zhi-yi.zip", external: true},
+          {label: "Download 聊斋志异 (3.3 MB)", href: "https://dos-bin.zczc.cz/%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82.zip", external: true},
         ]},
       ],
     },

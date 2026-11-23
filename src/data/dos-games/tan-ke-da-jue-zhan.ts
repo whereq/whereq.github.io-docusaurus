@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "坦克大决战 is a DOS game in the WhereQ archive — 1993, 49 files, 716 KB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tan-ke-da-jue-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9D%A6%E5%85%8B%E5%A4%A7%E5%86%B3%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tan-ke-da-jue-zhan.zip"],
           ["Size", "733,340 bytes (716 KB)"],
           ["SHA-256", "3c66ed89fe7af45e0289e72e29316e0c2bb8d67696056f13391b2e77e42d446f"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9D%A6%E5%85%8B%E5%A4%A7%E5%86%B3%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 坦克大决战 (716 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tan-ke-da-jue-zhan.zip", external: true},
+          {label: "Download 坦克大决战 (716 KB)", href: "https://dos-bin.zczc.cz/%E5%9D%A6%E5%85%8B%E5%A4%A7%E5%86%B3%E6%88%98.zip", external: true},
         ]},
       ],
     },

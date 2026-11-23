@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "特蕾莎 is a DOS game in the WhereQ archive — 1994, 22 files, 2.6 MB, and an entry point of TERESA.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/te-lei-sha.zip",
+  url: "https://dos-bin.zczc.cz/%E7%89%B9%E8%95%BE%E8%8E%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "te-lei-sha.zip"],
           ["Size", "2,720,846 bytes (2.6 MB)"],
           ["SHA-256", "bbae60c30050a6a42b106cc1fac3381701eebfc1aae8db9cce6ccd610010e778"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%89%B9%E8%95%BE%E8%8E%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 特蕾莎 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/te-lei-sha.zip", external: true},
+          {label: "Download 特蕾莎 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E7%89%B9%E8%95%BE%E8%8E%8E.zip", external: true},
         ]},
       ],
     },

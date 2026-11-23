@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "灌篮金刚 is a DOS game in the WhereQ archive — 1996, 168 files, 24.2 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guan-lan-jin-gang.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%8C%E7%AF%AE%E9%87%91%E5%88%9A.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guan-lan-jin-gang.zip"],
           ["Size", "25,338,847 bytes (24.2 MB)"],
           ["SHA-256", "6d666513c2ba144e21878cd2e3a49b39972ff237e843f6bcdc88c955a2566909"],
           ["Files", "168"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%8C%E7%AF%AE%E9%87%91%E5%88%9A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 灌篮金刚 (24.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guan-lan-jin-gang.zip", external: true},
+          {label: "Download 灌篮金刚 (24.2 MB)", href: "https://dos-bin.zczc.cz/%E7%81%8C%E7%AF%AE%E9%87%91%E5%88%9A.zip", external: true},
         ]},
       ],
     },

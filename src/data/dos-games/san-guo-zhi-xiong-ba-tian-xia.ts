@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三国志雄霸天下 is a DOS game in the WhereQ archive — 1995, 72 files, 2.7 MB, and an entry point of PLAY.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-xiong-ba-tian-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%97%E9%9B%84%E9%9C%B8%E5%A4%A9%E4%B8%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-guo-zhi-xiong-ba-tian-xia.zip"],
           ["Size", "2,868,635 bytes (2.7 MB)"],
           ["SHA-256", "990968885aa10f518c54a2d6d7731f3e8916c25df072dca84a88b5fed17f7697"],
           ["Files", "72"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%97%E9%9B%84%E9%9C%B8%E5%A4%A9%E4%B8%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三国志雄霸天下 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-xiong-ba-tian-xia.zip", external: true},
+          {label: "Download 三国志雄霸天下 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%97%E9%9B%84%E9%9C%B8%E5%A4%A9%E4%B8%8B.zip", external: true},
         ]},
       ],
     },

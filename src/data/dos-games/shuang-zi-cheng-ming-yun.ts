@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "双子城命运 is a DOS game in the WhereQ archive — 1996, 103 files, 1.4 MB, and an entry point of twinion.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-cheng-ming-yun.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E5%9F%8E%E5%91%BD%E8%BF%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shuang-zi-cheng-ming-yun.zip"],
           ["Size", "1,490,901 bytes (1.4 MB)"],
           ["SHA-256", "73109274d6cf93cc08679bda1e6047baf990f54d876bfa119b0c3b4639a174ca"],
           ["Files", "103"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E5%9F%8E%E5%91%BD%E8%BF%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 双子城命运 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-cheng-ming-yun.zip", external: true},
+          {label: "Download 双子城命运 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E5%9F%8E%E5%91%BD%E8%BF%90.zip", external: true},
         ]},
       ],
     },

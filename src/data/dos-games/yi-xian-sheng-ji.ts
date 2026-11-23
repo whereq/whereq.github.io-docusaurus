@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "一线生机 is a DOS game in the WhereQ archive — 1995, 320 files, 6.1 MB, and an entry point of DANGER.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xian-sheng-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%BF%E7%94%9F%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xian-sheng-ji.zip"],
           ["Size", "6,391,130 bytes (6.1 MB)"],
           ["SHA-256", "54e8748c4cf23c7b1af72d422535061ed72981d8c09503deaab488b6960373c4"],
           ["Files", "320"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%BF%E7%94%9F%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 一线生机 (6.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xian-sheng-ji.zip", external: true},
+          {label: "Download 一线生机 (6.1 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%BF%E7%94%9F%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

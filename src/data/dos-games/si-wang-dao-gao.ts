@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死亡祷告 is a DOS game in the WhereQ archive — 2005, 324 files, 42.8 MB, and an entry point of PRAY.EXE.",
   status: "2005",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-dao-gao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E7%A5%B7%E5%91%8A.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "2005"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-wang-dao-gao.zip"],
           ["Size", "44,881,563 bytes (42.8 MB)"],
           ["SHA-256", "ba845430ba6eb16d64313e97c8c0029fb370bd10482c2fa6b8d1591da221a997"],
           ["Files", "324"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E7%A5%B7%E5%91%8A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死亡祷告 (42.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-wang-dao-gao.zip", external: true},
+          {label: "Download 死亡祷告 (42.8 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E7%A5%B7%E5%91%8A.zip", external: true},
         ]},
       ],
     },

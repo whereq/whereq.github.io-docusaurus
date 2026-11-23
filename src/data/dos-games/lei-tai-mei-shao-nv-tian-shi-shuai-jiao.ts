@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "擂台美少女/天使摔角 is a DOS game in the WhereQ archive — 1993, 360 files, 1.6 MB, and an entry point of ANGEL.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-tai-mei-shao-nv-tian-shi-shuai-jiao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%93%82%E5%8F%B0%E7%BE%8E%E5%B0%91%E5%A5%B3%EF%BC%8F%E5%A4%A9%E4%BD%BF%E6%91%94%E8%A7%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-tai-mei-shao-nv-tian-shi-shuai-jiao.zip"],
           ["Size", "1,662,264 bytes (1.6 MB)"],
           ["SHA-256", "9d3ad58e2788ba57d447f2c1be17a715c6a1ad4e62306cd818fa35bcaa7f36b8"],
           ["Files", "360"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%93%82%E5%8F%B0%E7%BE%8E%E5%B0%91%E5%A5%B3%EF%BC%8F%E5%A4%A9%E4%BD%BF%E6%91%94%E8%A7%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 擂台美少女/天使摔角 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-tai-mei-shao-nv-tian-shi-shuai-jiao.zip", external: true},
+          {label: "Download 擂台美少女/天使摔角 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E6%93%82%E5%8F%B0%E7%BE%8E%E5%B0%91%E5%A5%B3%EF%BC%8F%E5%A4%A9%E4%BD%BF%E6%91%94%E8%A7%92.zip", external: true},
         ]},
       ],
     },

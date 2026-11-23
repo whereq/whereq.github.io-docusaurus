@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁血农夫1 is a DOS game in the WhereQ archive — 1997, 40 files, 68.0 MB, and an entry point of RR.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-nong-fu-1.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB1.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-xue-nong-fu-1.zip"],
           ["Size", "71,302,784 bytes (68.0 MB)"],
           ["SHA-256", "5ee6ab797a58b121fb211c31c000cd1540f3306ac2f1dc0cd18919821b1ba6f9"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁血农夫1 (68.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-nong-fu-1.zip", external: true},
+          {label: "Download 铁血农夫1 (68.0 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB1.zip", external: true},
         ]},
       ],
     },

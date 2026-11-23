@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "6",
   summary: "688攻击潜艇 is a DOS game in the WhereQ archive — 1989, 15 files, 573 KB, and an entry point of 688.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/6/688-gong-ji-qian-ting.zip",
+  url: "https://dos-bin.zczc.cz/688%E6%94%BB%E5%87%BB%E6%BD%9C%E8%89%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "688-gong-ji-qian-ting.zip"],
           ["Size", "586,310 bytes (573 KB)"],
           ["SHA-256", "0755ac3b53b5cb441d55c2dc0cf20a1d76e80e5cbe849011af6da74deacdbc9c"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/688%E6%94%BB%E5%87%BB%E6%BD%9C%E8%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 688攻击潜艇 (573 KB)", href: "https://github.com/whereq/dos-games/releases/download/6/688-gong-ji-qian-ting.zip", external: true},
+          {label: "Download 688攻击潜艇 (573 KB)", href: "https://dos-bin.zczc.cz/688%E6%94%BB%E5%87%BB%E6%BD%9C%E8%89%87.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "印第安那琼斯亚特兰蒂斯 is a DOS game in the WhereQ archive — 1997, 11 files, 6.2 MB, and an entry point of ATLANTIS.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-na-qiong-si-ya-te-lan-di-si.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AF%E4%BA%9A%E7%89%B9%E5%85%B0%E8%92%82%E6%96%AF.zip",
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-di-an-na-qiong-si-ya-te-lan-di-si.zip"],
           ["Size", "6,511,714 bytes (6.2 MB)"],
           ["SHA-256", "fa6a0b45e9de461079f3b4fce3329a8192cdb78ff223db89863603b1e39fdd72"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AF%E4%BA%9A%E7%89%B9%E5%85%B0%E8%92%82%E6%96%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 印第安那琼斯亚特兰蒂斯 (6.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-na-qiong-si-ya-te-lan-di-si.zip", external: true},
+          {label: "Download 印第安那琼斯亚特兰蒂斯 (6.2 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AF%E4%BA%9A%E7%89%B9%E5%85%B0%E8%92%82%E6%96%AF.zip", external: true},
         ]},
       ],
     },

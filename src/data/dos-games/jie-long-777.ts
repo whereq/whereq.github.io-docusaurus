@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "接龙777 is a DOS game in the WhereQ archive — 1995, 68 files, 1.1 MB, and an entry point of VESA_E.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jie-long-777.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8E%A5%E9%BE%99777.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jie-long-777.zip"],
           ["Size", "1,125,484 bytes (1.1 MB)"],
           ["SHA-256", "2eb9b63fe43ded79d7b0080b258774c5b51d76e3f44d3629a70b090b465f1617"],
           ["Files", "68"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8E%A5%E9%BE%99777.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 接龙777 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jie-long-777.zip", external: true},
+          {label: "Download 接龙777 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E6%8E%A5%E9%BE%99777.zip", external: true},
         ]},
       ],
     },

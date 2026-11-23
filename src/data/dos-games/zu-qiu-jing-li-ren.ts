@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "足球经理人 is a DOS game in the WhereQ archive — 1993, 62 files, 462 KB, and an entry point of E.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-jing-li-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%86%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zu-qiu-jing-li-ren.zip"],
           ["Size", "472,799 bytes (462 KB)"],
           ["SHA-256", "ce1a94fd940d66e8103aad2e4f04bc99927a2841ac0212619e860a1cddcf0a48"],
           ["Files", "62"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%86%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 足球经理人 (462 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-jing-li-ren.zip", external: true},
+          {label: "Download 足球经理人 (462 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%86%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

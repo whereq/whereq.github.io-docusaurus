@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "倚天屠龙记 is a DOS game in the WhereQ archive — 1994, 523 files, 9.8 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-tian-tu-long-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-tian-tu-long-ji.zip"],
           ["Size", "10,300,998 bytes (9.8 MB)"],
           ["SHA-256", "ba2bda2619f5b9a4d477397fb8d1a0f61c59bd6e7ad28e24668f0b55302ae275"],
           ["Files", "523"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 倚天屠龙记 (9.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-tian-tu-long-ji.zip", external: true},
+          {label: "Download 倚天屠龙记 (9.8 MB)", href: "https://dos-bin.zczc.cz/%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "滑溜小赛车 is a DOS game in the WhereQ archive — 1997, 28 files, 599 KB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hua-liu-xiao-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E6%BB%91%E6%BA%9C%E5%B0%8F%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hua-liu-xiao-sai-che.zip"],
           ["Size", "613,604 bytes (599 KB)"],
           ["SHA-256", "c404bbb94fc605b07e28e5ac6ad3340d18aca4d9f9b0b9679c42ad47bfa10590"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%BB%91%E6%BA%9C%E5%B0%8F%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 滑溜小赛车 (599 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hua-liu-xiao-sai-che.zip", external: true},
+          {label: "Download 滑溜小赛车 (599 KB)", href: "https://dos-bin.zczc.cz/%E6%BB%91%E6%BA%9C%E5%B0%8F%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

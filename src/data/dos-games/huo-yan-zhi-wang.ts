@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "火焰之王 is a DOS game in the WhereQ archive — 1990, 271 files, 480 KB, and an entry point of GAME.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huo-yan-zhi-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huo-yan-zhi-wang.zip"],
           ["Size", "491,125 bytes (480 KB)"],
           ["SHA-256", "7c0b7d9d538e4c9658cb66b0aede60af321fe3c4e40a282e1ef4757aabc47dbb"],
           ["Files", "271"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 火焰之王 (480 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/huo-yan-zhi-wang.zip", external: true},
+          {label: "Download 火焰之王 (480 KB)", href: "https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

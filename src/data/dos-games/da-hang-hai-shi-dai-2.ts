@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大航海时代2 is a DOS game in the WhereQ archive — 1994, 59 files, 2.9 MB, and an entry point of KOUKAI2.COM.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-shi-dai-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A32.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hang-hai-shi-dai-2.zip"],
           ["Size", "3,045,369 bytes (2.9 MB)"],
           ["SHA-256", "789a81ef8011f7765c3540e95e9dd71539182be8acc07dfb8b4fb511d4d9dd61"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A32.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大航海时代2 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-shi-dai-2.zip", external: true},
+          {label: "Download 大航海时代2 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A32.zip", external: true},
         ]},
       ],
     },

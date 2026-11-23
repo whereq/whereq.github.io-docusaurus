@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "橄榄球小联盟 is a DOS game in the WhereQ archive — 1992, 30 files, 1.2 MB, and an entry point of MLF2.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gan-lan-qiu-xiao-lian-meng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A9%84%E6%A6%84%E7%90%83%E5%B0%8F%E8%81%94%E7%9B%9F.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gan-lan-qiu-xiao-lian-meng.zip"],
           ["Size", "1,207,023 bytes (1.2 MB)"],
           ["SHA-256", "6515d540b5ab0140849dbd288cf8c5f153405a56aa600689a0390b5afdbbb014"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A9%84%E6%A6%84%E7%90%83%E5%B0%8F%E8%81%94%E7%9B%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 橄榄球小联盟 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gan-lan-qiu-xiao-lian-meng.zip", external: true},
+          {label: "Download 橄榄球小联盟 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E6%A9%84%E6%A6%84%E7%90%83%E5%B0%8F%E8%81%94%E7%9B%9F.zip", external: true},
         ]},
       ],
     },

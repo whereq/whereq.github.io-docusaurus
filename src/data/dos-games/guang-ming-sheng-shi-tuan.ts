@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "光明圣使团 is a DOS game in the WhereQ archive — 1995, 948 files, 5.4 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guang-ming-sheng-shi-tuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%89%E6%98%8E%E5%9C%A3%E4%BD%BF%E5%9B%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guang-ming-sheng-shi-tuan.zip"],
           ["Size", "5,641,018 bytes (5.4 MB)"],
           ["SHA-256", "fae08b7c74546b6e2c063688d24688a69f79e2a79c6eb507e71049b7a3e95d32"],
           ["Files", "948"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%89%E6%98%8E%E5%9C%A3%E4%BD%BF%E5%9B%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 光明圣使团 (5.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guang-ming-sheng-shi-tuan.zip", external: true},
+          {label: "Download 光明圣使团 (5.4 MB)", href: "https://dos-bin.zczc.cz/%E5%85%89%E6%98%8E%E5%9C%A3%E4%BD%BF%E5%9B%A2.zip", external: true},
         ]},
       ],
     },

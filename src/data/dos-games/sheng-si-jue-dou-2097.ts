@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "生死决斗2097 is a DOS game in the WhereQ archive — 1994, 84 files, 6.3 MB, and an entry point of DOS4GW.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-si-jue-dou-2097.zip",
+  url: "https://dos-bin.zczc.cz/%E7%94%9F%E6%AD%BB%E5%86%B3%E6%96%972097.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-si-jue-dou-2097.zip"],
           ["Size", "6,585,146 bytes (6.3 MB)"],
           ["SHA-256", "e20005090fe68a6000de30394331dab6570b5ccf2ccd69f473efba653d57f3b3"],
           ["Files", "84"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%94%9F%E6%AD%BB%E5%86%B3%E6%96%972097.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 生死决斗2097 (6.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-si-jue-dou-2097.zip", external: true},
+          {label: "Download 生死决斗2097 (6.3 MB)", href: "https://dos-bin.zczc.cz/%E7%94%9F%E6%AD%BB%E5%86%B3%E6%96%972097.zip", external: true},
         ]},
       ],
     },

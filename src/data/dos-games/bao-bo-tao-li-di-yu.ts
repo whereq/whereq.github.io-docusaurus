@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "鲍勃逃离地狱 is a DOS game in the WhereQ archive — 1996, 29 files, 1.7 MB, and an entry point of BOBHELL.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-bo-tao-li-di-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%B2%8D%E5%8B%83%E9%80%83%E7%A6%BB%E5%9C%B0%E7%8B%B1.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-bo-tao-li-di-yu.zip"],
           ["Size", "1,741,002 bytes (1.7 MB)"],
           ["SHA-256", "09b1aa474e43591b0f55061f8632b5b43bef71d32ce8d199753312b3a9273e16"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%B2%8D%E5%8B%83%E9%80%83%E7%A6%BB%E5%9C%B0%E7%8B%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鲍勃逃离地狱 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-bo-tao-li-di-yu.zip", external: true},
+          {label: "Download 鲍勃逃离地狱 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E9%B2%8D%E5%8B%83%E9%80%83%E7%A6%BB%E5%9C%B0%E7%8B%B1.zip", external: true},
         ]},
       ],
     },

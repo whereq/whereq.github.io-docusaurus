@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机战网络 is a DOS game in the WhereQ archive — 1994, 246 files, 2.3 MB, and an entry point of BD.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-wang-luo.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%88%98%E7%BD%91%E7%BB%9C.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-zhan-wang-luo.zip"],
           ["Size", "2,386,446 bytes (2.3 MB)"],
           ["SHA-256", "e0024770e3ef66641544f9683b6a2b81225b5b004f24f1369f7102344f0ed8b1"],
           ["Files", "246"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E6%88%98%E7%BD%91%E7%BB%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机战网络 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-wang-luo.zip", external: true},
+          {label: "Download 机战网络 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%88%98%E7%BD%91%E7%BB%9C.zip", external: true},
         ]},
       ],
     },

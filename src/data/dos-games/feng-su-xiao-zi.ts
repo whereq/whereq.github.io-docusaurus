@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风速小子 is a DOS game in the WhereQ archive — 1991, 126 files, 690 KB, and an entry point of GPC.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-su-xiao-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%80%9F%E5%B0%8F%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-su-xiao-zi.zip"],
           ["Size", "706,355 bytes (690 KB)"],
           ["SHA-256", "eda38e4716add0be1b123a827db34fda346ab770173c0f211799e28f66d60f66"],
           ["Files", "126"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E9%80%9F%E5%B0%8F%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风速小子 (690 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-su-xiao-zi.zip", external: true},
+          {label: "Download 风速小子 (690 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%80%9F%E5%B0%8F%E5%AD%90.zip", external: true},
         ]},
       ],
     },

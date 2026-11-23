@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "伊苏 is a DOS game in the WhereQ archive — 1989, 151 files, 360 KB, and an entry point of YS.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-su.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%8B%8F.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-su.zip"],
           ["Size", "368,904 bytes (360 KB)"],
           ["SHA-256", "bbee967f407c5a8bec3e10319e908ca8c1b3c3a1795b6d6f4f412a67237b797c"],
           ["Files", "151"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%8A%E8%8B%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 伊苏 (360 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-su.zip", external: true},
+          {label: "Download 伊苏 (360 KB)", href: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%8B%8F.zip", external: true},
         ]},
       ],
     },

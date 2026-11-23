@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "从前有片林 is a DOS game in the WhereQ archive — 1996, 28 files, 8.4 MB, and an entry point of OUAF.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/cong-qian-you-pian-lin.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%8E%E5%89%8D%E6%9C%89%E7%89%87%E6%9E%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "cong-qian-you-pian-lin.zip"],
           ["Size", "8,761,740 bytes (8.4 MB)"],
           ["SHA-256", "8140a5764c01326fa179ea5c392a30a27996df42fe25fe34cae27fb566b36ce8"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%8E%E5%89%8D%E6%9C%89%E7%89%87%E6%9E%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 从前有片林 (8.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/cong-qian-you-pian-lin.zip", external: true},
+          {label: "Download 从前有片林 (8.4 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%8E%E5%89%8D%E6%9C%89%E7%89%87%E6%9E%97.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "虚拟高尔夫 is a DOS game in the WhereQ archive — 1994, 352 files, 2.3 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xu-ni-gao-er-fu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E9%AB%98%E5%B0%94%E5%A4%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xu-ni-gao-er-fu.zip"],
           ["Size", "2,427,250 bytes (2.3 MB)"],
           ["SHA-256", "c0eadcfa11a742c16dc4f1d8fa326e8dd68c626d6c101259fe55b55bcf6c987a"],
           ["Files", "352"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E9%AB%98%E5%B0%94%E5%A4%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 虚拟高尔夫 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xu-ni-gao-er-fu.zip", external: true},
+          {label: "Download 虚拟高尔夫 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E9%AB%98%E5%B0%94%E5%A4%AB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "贝多芬二世犬 is a DOS game in the WhereQ archive — 1996, 65 files, 432 KB, and an entry point of BTVN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bei-duo-fen-er-shi-quan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B4%9D%E5%A4%9A%E8%8A%AC%E4%BA%8C%E4%B8%96%E7%8A%AC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bei-duo-fen-er-shi-quan.zip"],
           ["Size", "442,812 bytes (432 KB)"],
           ["SHA-256", "bb0308d200e1c66971ae937ccfa289f23c5b0ea2b2e2b9630c4c336ef836b50b"],
           ["Files", "65"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B4%9D%E5%A4%9A%E8%8A%AC%E4%BA%8C%E4%B8%96%E7%8A%AC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 贝多芬二世犬 (432 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bei-duo-fen-er-shi-quan.zip", external: true},
+          {label: "Download 贝多芬二世犬 (432 KB)", href: "https://dos-bin.zczc.cz/%E8%B4%9D%E5%A4%9A%E8%8A%AC%E4%BA%8C%E4%B8%96%E7%8A%AC.zip", external: true},
         ]},
       ],
     },

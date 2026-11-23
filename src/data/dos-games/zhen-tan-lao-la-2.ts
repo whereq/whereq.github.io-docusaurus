@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "侦探劳拉2 is a DOS game in the WhereQ archive — 1992, 83 files, 6.1 MB, and an entry point of SIERRA.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhen-tan-lao-la-2.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BE%A6%E6%8E%A2%E5%8A%B3%E6%8B%892.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhen-tan-lao-la-2.zip"],
           ["Size", "6,369,815 bytes (6.1 MB)"],
           ["SHA-256", "e5b8f4daee9194acae543fdbb407a5025375ed75617c003f5da0d77007c7552e"],
           ["Files", "83"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BE%A6%E6%8E%A2%E5%8A%B3%E6%8B%892.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 侦探劳拉2 (6.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhen-tan-lao-la-2.zip", external: true},
+          {label: "Download 侦探劳拉2 (6.1 MB)", href: "https://dos-bin.zczc.cz/%E4%BE%A6%E6%8E%A2%E5%8A%B3%E6%8B%892.zip", external: true},
         ]},
       ],
     },

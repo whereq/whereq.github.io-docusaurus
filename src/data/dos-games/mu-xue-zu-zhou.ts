@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "墓穴诅咒 is a DOS game in the WhereQ archive — 1996, 80 files, 1.3 MB, and an entry point of run.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mu-xue-zu-zhou.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A2%93%E7%A9%B4%E8%AF%85%E5%92%92.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mu-xue-zu-zhou.zip"],
           ["Size", "1,317,166 bytes (1.3 MB)"],
           ["SHA-256", "ce3d3b10d1eda61b94ecc64e75747e620a82061dc0a2d7658a5be7cb020665e8"],
           ["Files", "80"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A2%93%E7%A9%B4%E8%AF%85%E5%92%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 墓穴诅咒 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mu-xue-zu-zhou.zip", external: true},
+          {label: "Download 墓穴诅咒 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E5%A2%93%E7%A9%B4%E8%AF%85%E5%92%92.zip", external: true},
         ]},
       ],
     },

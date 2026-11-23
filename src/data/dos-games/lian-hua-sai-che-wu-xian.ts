@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "莲花赛车无限 is a DOS game in the WhereQ archive — 2003, 3 files, 1.1 MB, and an entry point of LOTUS.EXE.",
   status: "2003",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lian-hua-sai-che-wu-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8E%B2%E8%8A%B1%E8%B5%9B%E8%BD%A6%E6%97%A0%E9%99%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2003"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lian-hua-sai-che-wu-xian.zip"],
           ["Size", "1,119,434 bytes (1.1 MB)"],
           ["SHA-256", "2bad5567d3e88956f3f9a4fe4040fcb270c8ef265c933511ed3e58e78edb1f30"],
           ["Files", "3"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8E%B2%E8%8A%B1%E8%B5%9B%E8%BD%A6%E6%97%A0%E9%99%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 莲花赛车无限 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lian-hua-sai-che-wu-xian.zip", external: true},
+          {label: "Download 莲花赛车无限 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E8%8E%B2%E8%8A%B1%E8%B5%9B%E8%BD%A6%E6%97%A0%E9%99%90.zip", external: true},
         ]},
       ],
     },

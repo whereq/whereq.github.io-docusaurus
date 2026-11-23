@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "装甲雄狮 is a DOS game in the WhereQ archive — 1989, 34 files, 800 KB, and an entry point of INSTALL.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-xiong-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E9%9B%84%E7%8B%AE.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuang-jia-xiong-shi.zip"],
           ["Size", "819,673 bytes (800 KB)"],
           ["SHA-256", "605994549f554994c0dd5724b09424244ad6f3aa3d25cf14ba8faaa64a56d249"],
           ["Files", "34"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E9%9B%84%E7%8B%AE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 装甲雄狮 (800 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-xiong-shi.zip", external: true},
+          {label: "Download 装甲雄狮 (800 KB)", href: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E9%9B%84%E7%8B%AE.zip", external: true},
         ]},
       ],
     },

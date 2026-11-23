@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国际体育联赛 is a DOS game in the WhereQ archive — 1992, 242 files, 1.1 MB, and an entry point of SPORTS.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-ti-yu-lian-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E4%BD%93%E8%82%B2%E8%81%94%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-ji-ti-yu-lian-sai.zip"],
           ["Size", "1,127,023 bytes (1.1 MB)"],
           ["SHA-256", "6668eb41d246ef56786535a1db04c5c096f2b0c8bf134a731e04b2f7161e606f"],
           ["Files", "242"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E4%BD%93%E8%82%B2%E8%81%94%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国际体育联赛 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-ti-yu-lian-sai.zip", external: true},
+          {label: "Download 国际体育联赛 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E4%BD%93%E8%82%B2%E8%81%94%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "立体俄罗斯 is a DOS game in the WhereQ archive — 1995, 5 files, 107 KB, and an entry point of 3DPIT.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/l/li-ti-e-luo-si.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AB%8B%E4%BD%93%E4%BF%84%E7%BD%97%E6%96%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "li-ti-e-luo-si.zip"],
           ["Size", "109,555 bytes (107 KB)"],
           ["SHA-256", "b12fa0af2b931f0efe4bbec05376b81e81d4a2b7b66181ffd3be8498f254f293"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AB%8B%E4%BD%93%E4%BF%84%E7%BD%97%E6%96%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 立体俄罗斯 (107 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/li-ti-e-luo-si.zip", external: true},
+          {label: "Download 立体俄罗斯 (107 KB)", href: "https://dos-bin.zczc.cz/%E7%AB%8B%E4%BD%93%E4%BF%84%E7%BD%97%E6%96%AF.zip", external: true},
         ]},
       ],
     },

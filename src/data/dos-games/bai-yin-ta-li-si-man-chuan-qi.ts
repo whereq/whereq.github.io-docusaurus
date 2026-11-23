@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "白银塔里斯曼传奇 is a DOS game in the WhereQ archive — 1996, 18 files, 493 KB, and an entry point of GO.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bai-yin-ta-li-si-man-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%99%BD%E9%93%B6%E5%A1%94%E9%87%8C%E6%96%AF%E6%9B%BC%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bai-yin-ta-li-si-man-chuan-qi.zip"],
           ["Size", "505,247 bytes (493 KB)"],
           ["SHA-256", "6cda9466f15888971ab52189294c8c405042b1115c4de34af19e961e40ac6951"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%99%BD%E9%93%B6%E5%A1%94%E9%87%8C%E6%96%AF%E6%9B%BC%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 白银塔里斯曼传奇 (493 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bai-yin-ta-li-si-man-chuan-qi.zip", external: true},
+          {label: "Download 白银塔里斯曼传奇 (493 KB)", href: "https://dos-bin.zczc.cz/%E7%99%BD%E9%93%B6%E5%A1%94%E9%87%8C%E6%96%AF%E6%9B%BC%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

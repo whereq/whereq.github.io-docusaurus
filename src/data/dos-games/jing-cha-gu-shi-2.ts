@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "警察故事2 is a DOS game in the WhereQ archive — 1988, 28 files, 1.6 MB, and an entry point of SIERRA.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B2.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jing-cha-gu-shi-2.zip"],
           ["Size", "1,715,721 bytes (1.6 MB)"],
           ["SHA-256", "86e10e742ecb500a40487bcf2d725729ac3d09edef2595770e81c984278e64f9"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 警察故事2 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jing-cha-gu-shi-2.zip", external: true},
+          {label: "Download 警察故事2 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B2.zip", external: true},
         ]},
       ],
     },

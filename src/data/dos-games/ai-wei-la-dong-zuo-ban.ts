@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "艾薇拉动作版 is a DOS game in the WhereQ archive — an undated copy, 86 files, 2.3 MB, and an entry point of ELVIRA.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/a/ai-wei-la-dong-zuo-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E8%89%BE%E8%96%87%E6%8B%89%E5%8A%A8%E4%BD%9C%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ai-wei-la-dong-zuo-ban.zip"],
           ["Size", "2,379,653 bytes (2.3 MB)"],
           ["SHA-256", "f0c7d89e5d1d3d528931bde36b8a0409503b03662d3556e5fec9f12fe9e29caa"],
           ["Files", "86"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%89%BE%E8%96%87%E6%8B%89%E5%8A%A8%E4%BD%9C%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 艾薇拉动作版 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/ai-wei-la-dong-zuo-ban.zip", external: true},
+          {label: "Download 艾薇拉动作版 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E8%89%BE%E8%96%87%E6%8B%89%E5%8A%A8%E4%BD%9C%E7%89%88.zip", external: true},
         ]},
       ],
     },

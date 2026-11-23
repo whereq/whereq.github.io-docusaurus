@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异形方块 is a DOS game in the WhereQ archive — 1989, 111 files, 132 KB, and an entry point of 21TETRIS.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-fang-kuai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%96%B9%E5%9D%97.zip",
   facts: [
     {label: "Developer", value: "SOFTSTAR"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-fang-kuai.zip"],
           ["Size", "135,256 bytes (132 KB)"],
           ["SHA-256", "679831fd5cc3f9fd0c0e7f8db25cfc3267879f4dd55206d0e38d149a6bca1d1b"],
           ["Files", "111"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%96%B9%E5%9D%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异形方块 (132 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-fang-kuai.zip", external: true},
+          {label: "Download 异形方块 (132 KB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%96%B9%E5%9D%97.zip", external: true},
         ]},
       ],
     },

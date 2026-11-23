@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "主题公园光碟版 is a DOS game in the WhereQ archive — 2010, 36 files, 89.3 MB, and an entry point of THEME.BAT.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-gong-yuan-guang-die-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD%E5%85%89%E7%A2%9F%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhu-ti-gong-yuan-guang-die-ban.zip"],
           ["Size", "93,658,900 bytes (89.3 MB)"],
           ["SHA-256", "7f7beb081ee8816c1aa86a366f361eb849d469f07d0518546b9ad6c0093088b9"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD%E5%85%89%E7%A2%9F%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 主题公园光碟版 (89.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-gong-yuan-guang-die-ban.zip", external: true},
+          {label: "Download 主题公园光碟版 (89.3 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD%E5%85%89%E7%A2%9F%E7%89%88.zip", external: true},
         ]},
       ],
     },

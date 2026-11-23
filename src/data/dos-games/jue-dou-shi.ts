@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "角斗士 is a DOS game in the WhereQ archive — 1996, 45 files, 959 KB, and an entry point of GLAD.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-dou-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A7%92%E6%96%97%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-dou-shi.zip"],
           ["Size", "982,444 bytes (959 KB)"],
           ["SHA-256", "0af5fe955c7847de154caaaf11f0330b4438b0e97edc814e6837a27d64882df9"],
           ["Files", "45"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A7%92%E6%96%97%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 角斗士 (959 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-dou-shi.zip", external: true},
+          {label: "Download 角斗士 (959 KB)", href: "https://dos-bin.zczc.cz/%E8%A7%92%E6%96%97%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

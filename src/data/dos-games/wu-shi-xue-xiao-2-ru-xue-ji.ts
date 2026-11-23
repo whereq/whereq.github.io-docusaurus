@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "巫师学校2入学记 is a DOS game in the WhereQ archive — 1993, 71 files, 3.3 MB, and an entry point of S201MAIN.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-2-ru-xue-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A12%E5%85%A5%E5%AD%A6%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-shi-xue-xiao-2-ru-xue-ji.zip"],
           ["Size", "3,418,717 bytes (3.3 MB)"],
           ["SHA-256", "f68622f0bf8065da026b98ce06eff0721811fc8222fe7136b4b6576f9fa9c1e7"],
           ["Files", "71"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A12%E5%85%A5%E5%AD%A6%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巫师学校2入学记 (3.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-shi-xue-xiao-2-ru-xue-ji.zip", external: true},
+          {label: "Download 巫师学校2入学记 (3.3 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A12%E5%85%A5%E5%AD%A6%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

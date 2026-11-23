@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "埃及统治者 is a DOS game in the WhereQ archive — 1994, 61 files, 401 KB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/a/ai-ji-tong-zhi-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9F%83%E5%8F%8A%E7%BB%9F%E6%B2%BB%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ai-ji-tong-zhi-zhe.zip"],
           ["Size", "410,915 bytes (401 KB)"],
           ["SHA-256", "d194d17b8d63e4d94be92f486fbe8a4d3d93926f5e709aecd247084b79a99e41"],
           ["Files", "61"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9F%83%E5%8F%8A%E7%BB%9F%E6%B2%BB%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 埃及统治者 (401 KB)", href: "https://github.com/whereq/dos-games/releases/download/a/ai-ji-tong-zhi-zhe.zip", external: true},
+          {label: "Download 埃及统治者 (401 KB)", href: "https://dos-bin.zczc.cz/%E5%9F%83%E5%8F%8A%E7%BB%9F%E6%B2%BB%E8%80%85.zip", external: true},
         ]},
       ],
     },

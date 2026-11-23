@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "风神传承 is a DOS game in the WhereQ archive — 1999, 47 files, 182 KB, and an entry point of STORMLRD.COM.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-shen-chuan-cheng.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%8E%E7%A5%9E%E4%BC%A0%E6%89%BF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-shen-chuan-cheng.zip"],
           ["Size", "185,884 bytes (182 KB)"],
           ["SHA-256", "49ceb123c9e19654147d7156e73a33c33ca6e7fd5e078e1880d6c6f3e4bec584"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%8E%E7%A5%9E%E4%BC%A0%E6%89%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 风神传承 (182 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-shen-chuan-cheng.zip", external: true},
+          {label: "Download 风神传承 (182 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%8E%E7%A5%9E%E4%BC%A0%E6%89%BF.zip", external: true},
         ]},
       ],
     },

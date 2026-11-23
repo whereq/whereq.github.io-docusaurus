@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "街机桌球 is a DOS game in the WhereQ archive — 1996, 5 files, 469 KB, and an entry point of pool.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jie-ji-zhuo-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A1%97%E6%9C%BA%E6%A1%8C%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jie-ji-zhuo-qiu.zip"],
           ["Size", "480,141 bytes (469 KB)"],
           ["SHA-256", "f21cb508174421af3eb41ebaa4866faaa72985564428f1ca2d2ef65fcbc5f153"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A1%97%E6%9C%BA%E6%A1%8C%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 街机桌球 (469 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/jie-ji-zhuo-qiu.zip", external: true},
+          {label: "Download 街机桌球 (469 KB)", href: "https://dos-bin.zczc.cz/%E8%A1%97%E6%9C%BA%E6%A1%8C%E7%90%83.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "暴力辛迪加 is a DOS game in the WhereQ archive — 1994, 909 files, 14.1 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-li-xin-di-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9A%B4%E5%8A%9B%E8%BE%9B%E8%BF%AA%E5%8A%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-li-xin-di-jia.zip"],
           ["Size", "14,755,541 bytes (14.1 MB)"],
           ["SHA-256", "bd05c3a05c661b9d88b5283bd3de772e0ec62b9a37a7310e742519d7a8cdf654"],
           ["Files", "909"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9A%B4%E5%8A%9B%E8%BE%9B%E8%BF%AA%E5%8A%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 暴力辛迪加 (14.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-li-xin-di-jia.zip", external: true},
+          {label: "Download 暴力辛迪加 (14.1 MB)", href: "https://dos-bin.zczc.cz/%E6%9A%B4%E5%8A%9B%E8%BE%9B%E8%BF%AA%E5%8A%A0.zip", external: true},
         ]},
       ],
     },

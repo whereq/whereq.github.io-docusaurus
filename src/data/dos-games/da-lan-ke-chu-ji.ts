@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "达兰科出击 is a DOS game in the WhereQ archive — 1992, 22 files, 998 KB, and an entry point of DRWHO.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-lan-ke-chu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BE%BE%E5%85%B0%E7%A7%91%E5%87%BA%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-lan-ke-chu-ji.zip"],
           ["Size", "1,021,879 bytes (998 KB)"],
           ["SHA-256", "c54c17e28d11c6cee34804a56f36c3919b38710b2f15684e45d7dbad9a61edfe"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BE%BE%E5%85%B0%E7%A7%91%E5%87%BA%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 达兰科出击 (998 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-lan-ke-chu-ji.zip", external: true},
+          {label: "Download 达兰科出击 (998 KB)", href: "https://dos-bin.zczc.cz/%E8%BE%BE%E5%85%B0%E7%A7%91%E5%87%BA%E5%87%BB.zip", external: true},
         ]},
       ],
     },

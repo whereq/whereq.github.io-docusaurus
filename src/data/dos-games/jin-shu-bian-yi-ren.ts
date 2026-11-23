@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "金属变异人 is a DOS game in the WhereQ archive — 1986, 40 files, 406 KB, and an entry point of METAL.EXE.",
   status: "1986",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jin-shu-bian-yi-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%91%E5%B1%9E%E5%8F%98%E5%BC%82%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1986"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jin-shu-bian-yi-ren.zip"],
           ["Size", "415,373 bytes (406 KB)"],
           ["SHA-256", "e6fbe36f79efce2cedba66df98d36166dc64b95f379073b79d680d727ecd6bac"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%91%E5%B1%9E%E5%8F%98%E5%BC%82%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 金属变异人 (406 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/jin-shu-bian-yi-ren.zip", external: true},
+          {label: "Download 金属变异人 (406 KB)", href: "https://dos-bin.zczc.cz/%E9%87%91%E5%B1%9E%E5%8F%98%E5%BC%82%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

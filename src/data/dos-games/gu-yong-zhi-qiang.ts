@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "雇佣之枪 is a DOS game in the WhereQ archive — 1996, 318 files, 2.1 MB, and an entry point of hg.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-yong-zhi-qiang.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%87%E4%BD%A3%E4%B9%8B%E6%9E%AA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-yong-zhi-qiang.zip"],
           ["Size", "2,231,674 bytes (2.1 MB)"],
           ["SHA-256", "85301bfbe5fd8764dc282212f531f804fb264f3e72cd8b87d56d586d54a82c07"],
           ["Files", "318"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%87%E4%BD%A3%E4%B9%8B%E6%9E%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雇佣之枪 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-yong-zhi-qiang.zip", external: true},
+          {label: "Download 雇佣之枪 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%87%E4%BD%A3%E4%B9%8B%E6%9E%AA.zip", external: true},
         ]},
       ],
     },

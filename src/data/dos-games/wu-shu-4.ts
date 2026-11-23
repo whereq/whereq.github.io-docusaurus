@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "巫术4 is a DOS game in the WhereQ archive — 1996, 5 files, 200 KB, and an entry point of WIZ4.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-4.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-shu-4.zip"],
           ["Size", "204,486 bytes (200 KB)"],
           ["SHA-256", "af6e6b9cd4909bc31a8d5f4c7c8e89ea4cf9e29e611f87b2922d9e1bfd48fd34"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巫术4 (200 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-4.zip", external: true},
+          {label: "Download 巫术4 (200 KB)", href: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF4.zip", external: true},
         ]},
       ],
     },

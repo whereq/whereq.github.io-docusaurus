@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "炸弹超人 is a DOS game in the WhereQ archive — 1995, 25 files, 361 KB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zha-dan-chao-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E8%B6%85%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zha-dan-chao-ren.zip"],
           ["Size", "369,796 bytes (361 KB)"],
           ["SHA-256", "b459b726eddc8eafdefcdc155bb55d272d981224e952b654d11025656de7f042"],
           ["Files", "25"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E8%B6%85%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 炸弹超人 (361 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zha-dan-chao-ren.zip", external: true},
+          {label: "Download 炸弹超人 (361 KB)", href: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E8%B6%85%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "仙剑奇侠传光盘版 is a DOS game in the WhereQ archive — 1996, 90 files, 234.0 MB, and an entry point of NVC-0004.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan-guang-pan-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E5%85%89%E7%9B%98%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xian-jian-qi-xia-chuan-guang-pan-ban.zip"],
           ["Size", "245,368,414 bytes (234.0 MB)"],
           ["SHA-256", "46b1d04db83cc64019ef48c8576fbd7f9080079faad4c8510f6f19e299e5f724"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E5%85%89%E7%9B%98%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 仙剑奇侠传光盘版 (234.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xian-jian-qi-xia-chuan-guang-pan-ban.zip", external: true},
+          {label: "Download 仙剑奇侠传光盘版 (234.0 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E5%85%89%E7%9B%98%E7%89%88.zip", external: true},
         ]},
       ],
     },

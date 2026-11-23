@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "末日战神 is a DOS game in the WhereQ archive — 1996, 668 files, 7.7 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-zhan-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E6%88%98%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ri-zhan-shen.zip"],
           ["Size", "8,096,177 bytes (7.7 MB)"],
           ["SHA-256", "d88f4f567acf77ee0430396ec36433f2c0781df6a3ad4cc2343e31851f88d4ea"],
           ["Files", "668"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E6%88%98%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 末日战神 (7.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ri-zhan-shen.zip", external: true},
+          {label: "Download 末日战神 (7.7 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%AB%E6%97%A5%E6%88%98%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

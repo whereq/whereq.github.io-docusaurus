@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "第5日龙机突击 is a DOS game in the WhereQ archive — 1995, 148 files, 5.5 MB, and an entry point of DOS4GW.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-5-ri-long-ji-tu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AC%AC5%E6%97%A5%E9%BE%99%E6%9C%BA%E7%AA%81%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-5-ri-long-ji-tu-ji.zip"],
           ["Size", "5,751,585 bytes (5.5 MB)"],
           ["SHA-256", "6ba21e7d63e31956f6e720759449ac746cad2070656dd4c3f77c8bc20a0a2240"],
           ["Files", "148"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AC%AC5%E6%97%A5%E9%BE%99%E6%9C%BA%E7%AA%81%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 第5日龙机突击 (5.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-5-ri-long-ji-tu-ji.zip", external: true},
+          {label: "Download 第5日龙机突击 (5.5 MB)", href: "https://dos-bin.zczc.cz/%E7%AC%AC5%E6%97%A5%E9%BE%99%E6%9C%BA%E7%AA%81%E5%87%BB.zip", external: true},
         ]},
       ],
     },

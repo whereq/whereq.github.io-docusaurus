@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "德军总部MOD-CARVEN is a DOS game in the WhereQ archive — an undated copy, 72 files, 1.8 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-carven.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-CARVEN.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "de-jun-zong-bu-mod-carven.zip"],
           ["Size", "1,931,018 bytes (1.8 MB)"],
           ["SHA-256", "0742d5a66f210bae19f2c5314e42d0ee9711ef109b0f43b16d49d0e480f7571c"],
           ["Files", "72"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-CARVEN.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 德军总部MOD-CARVEN (1.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu-mod-carven.zip", external: true},
+          {label: "Download 德军总部MOD-CARVEN (1.8 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-CARVEN.zip", external: true},
         ]},
       ],
     },

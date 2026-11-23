@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "动作足球 is a DOS game in the WhereQ archive — 1994, 166 files, 8.1 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dong-zuo-zu-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8A%A8%E4%BD%9C%E8%B6%B3%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dong-zuo-zu-qiu.zip"],
           ["Size", "8,541,491 bytes (8.1 MB)"],
           ["SHA-256", "48460ec6b9d61161099d485a095e4d9f7d98392a25249e8a523d37fad3f548a2"],
           ["Files", "166"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8A%A8%E4%BD%9C%E8%B6%B3%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 动作足球 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/dong-zuo-zu-qiu.zip", external: true},
+          {label: "Download 动作足球 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E5%8A%A8%E4%BD%9C%E8%B6%B3%E7%90%83.zip", external: true},
         ]},
       ],
     },

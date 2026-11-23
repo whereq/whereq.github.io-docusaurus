@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟垂钓 is a DOS game in the WhereQ archive — 1991, 61 files, 1.2 MB, and an entry point of RUNME.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-chui-diao.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9E%82%E9%92%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-chui-diao.zip"],
           ["Size", "1,206,722 bytes (1.2 MB)"],
           ["SHA-256", "25b84870255a02f43da8bf8fa62ed1b5d9e4b4fde874fa5e0e11e93966701c3b"],
           ["Files", "61"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9E%82%E9%92%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟垂钓 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-chui-diao.zip", external: true},
+          {label: "Download 模拟垂钓 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9E%82%E9%92%93.zip", external: true},
         ]},
       ],
     },

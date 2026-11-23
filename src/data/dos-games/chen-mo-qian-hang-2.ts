@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "沉默潜航2 is a DOS game in the WhereQ archive — 1992, 64 files, 751 KB, and an entry point of SS2.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chen-mo-qian-hang-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E6%BD%9C%E8%88%AA2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chen-mo-qian-hang-2.zip"],
           ["Size", "768,919 bytes (751 KB)"],
           ["SHA-256", "3769519f34e25b885c412983076b1034680b5a65867ae0717a007a26f2d8a302"],
           ["Files", "64"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E6%BD%9C%E8%88%AA2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沉默潜航2 (751 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chen-mo-qian-hang-2.zip", external: true},
+          {label: "Download 沉默潜航2 (751 KB)", href: "https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E6%BD%9C%E8%88%AA2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河英雄 is a DOS game in the WhereQ archive — 2009, 33 files, 107.9 MB, and an entry point of PLAY.BAT.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-ying-xiong.zip"],
           ["Size", "113,096,080 bytes (107.9 MB)"],
           ["SHA-256", "27088cab29b44cf4f19ae8b0f9feb4867c01310e0cc4142bcf35aa191bc03338"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河英雄 (107.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-ying-xiong.zip", external: true},
+          {label: "Download 银河英雄 (107.9 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E8%8B%B1%E9%9B%84.zip", external: true},
         ]},
       ],
     },

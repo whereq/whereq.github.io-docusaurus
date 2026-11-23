@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河飞将先锋+资料片 is a DOS game in the WhereQ archive — 1993, 27 files, 13.5 MB, and an entry point of prso.exe.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-xian-feng-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E5%85%88%E9%94%8B%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-fei-jiang-xian-feng-zi-liao-pian.zip"],
           ["Size", "14,165,625 bytes (13.5 MB)"],
           ["SHA-256", "9169747c9b5d0ec1be6490317f60ab9745c032e94660b825fd1b5db7a6217547"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E5%85%88%E9%94%8B%2B%E8%B5%84%E6%96%99%E7%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河飞将先锋+资料片 (13.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-xian-feng-zi-liao-pian.zip", external: true},
+          {label: "Download 银河飞将先锋+资料片 (13.5 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E5%85%88%E9%94%8B%2B%E8%B5%84%E6%96%99%E7%89%87.zip", external: true},
         ]},
       ],
     },

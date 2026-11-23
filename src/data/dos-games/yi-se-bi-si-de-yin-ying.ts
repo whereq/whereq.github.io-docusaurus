@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "伊瑟比斯的阴影 is a DOS game in the WhereQ archive — 1996, 137 files, 3.5 MB, and an entry point of YSERBIUS.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-se-bi-si-de-yin-ying.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%8A%E7%91%9F%E6%AF%94%E6%96%AF%E7%9A%84%E9%98%B4%E5%BD%B1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-se-bi-si-de-yin-ying.zip"],
           ["Size", "3,652,036 bytes (3.5 MB)"],
           ["SHA-256", "c5a127789126fd4b9b41cc6e21fb01ac1839684f3ab78384b6567a7960cf3e90"],
           ["Files", "137"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%8A%E7%91%9F%E6%AF%94%E6%96%AF%E7%9A%84%E9%98%B4%E5%BD%B1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 伊瑟比斯的阴影 (3.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-se-bi-si-de-yin-ying.zip", external: true},
+          {label: "Download 伊瑟比斯的阴影 (3.5 MB)", href: "https://dos-bin.zczc.cz/%E4%BC%8A%E7%91%9F%E6%AF%94%E6%96%AF%E7%9A%84%E9%98%B4%E5%BD%B1.zip", external: true},
         ]},
       ],
     },

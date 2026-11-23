@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "指挥官基恩1 is a DOS game in the WhereQ archive — an undated copy, 44 files, 234 KB, and an entry point of CATALOG.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-1.zip",
+  url: "https://binary.dos.lol/e41b1770449eec608dde9aa7ddc7672e3bcceea29244e063a1108a4f238a512d.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-hui-guan-ji-en-1.zip"],
           ["Size", "239,562 bytes (234 KB)"],
           ["SHA-256", "e41b1770449eec608dde9aa7ddc7672e3bcceea29244e063a1108a4f238a512d"],
           ["Files", "44"],
-          ["Original", "dos-bin.zczc.cz — https://binary.dos.lol/e41b1770449eec608dde9aa7ddc7672e3bcceea29244e063a1108a4f238a512d.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 指挥官基恩1 (234 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-hui-guan-ji-en-1.zip", external: true},
+          {label: "Download 指挥官基恩1 (234 KB)", href: "https://binary.dos.lol/e41b1770449eec608dde9aa7ddc7672e3bcceea29244e063a1108a4f238a512d.zip", external: true},
         ]},
       ],
     },

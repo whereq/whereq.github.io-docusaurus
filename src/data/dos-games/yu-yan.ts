@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "寓言 is a DOS game in the WhereQ archive — 1996, 17 files, 60.0 MB, and an entry point of FABLE.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-yan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AF%93%E8%A8%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-yan.zip"],
           ["Size", "62,961,994 bytes (60.0 MB)"],
           ["SHA-256", "47f649cb1f5040933dc06cfa8cd3ad2ee360f36ebe46b6a4fcd94affc920537d"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AF%93%E8%A8%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 寓言 (60.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-yan.zip", external: true},
+          {label: "Download 寓言 (60.0 MB)", href: "https://dos-bin.zczc.cz/%E5%AF%93%E8%A8%80.zip", external: true},
         ]},
       ],
     },

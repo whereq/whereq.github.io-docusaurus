@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "激斗战士 is a DOS game in the WhereQ archive — 1992, 410 files, 2.5 MB, and an entry point of FIGHTER.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-dou-zhan-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%96%97%E6%88%98%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-dou-zhan-shi.zip"],
           ["Size", "2,635,299 bytes (2.5 MB)"],
           ["SHA-256", "b7f3e9934b073bf86728a71e84962455ce26462317bf0f655b7dfcd56af34a23"],
           ["Files", "410"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%BF%80%E6%96%97%E6%88%98%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 激斗战士 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-dou-zhan-shi.zip", external: true},
+          {label: "Download 激斗战士 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E6%BF%80%E6%96%97%E6%88%98%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

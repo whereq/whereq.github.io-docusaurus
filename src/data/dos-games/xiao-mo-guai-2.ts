@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小魔怪2 is a DOS game in the WhereQ archive — 1980, 20 files, 226 KB, and an entry point of GREMLINS.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-mo-guai-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%80%AA2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-mo-guai-2.zip"],
           ["Size", "230,992 bytes (226 KB)"],
           ["SHA-256", "40d43c743261dba154872ebb68ef38768cc6b1e958ebbd73a3729ac02a7764cf"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%80%AA2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小魔怪2 (226 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-mo-guai-2.zip", external: true},
+          {label: "Download 小魔怪2 (226 KB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AD%94%E6%80%AA2.zip", external: true},
         ]},
       ],
     },

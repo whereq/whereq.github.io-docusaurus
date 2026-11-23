@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "隔离区2马路英雄 is a DOS game in the WhereQ archive — 1995, 1,591 files, 23.1 MB, and an entry point of RW.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/g/ge-li-qu-2-ma-lu-ying-xiong.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA2%E9%A9%AC%E8%B7%AF%E8%8B%B1%E9%9B%84.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ge-li-qu-2-ma-lu-ying-xiong.zip"],
           ["Size", "24,188,020 bytes (23.1 MB)"],
           ["SHA-256", "9e77adb087470427ce4f51f8ed24b94f0c801518c22dd82d3822e71d6ae6fa86"],
           ["Files", "1,591"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA2%E9%A9%AC%E8%B7%AF%E8%8B%B1%E9%9B%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 隔离区2马路英雄 (23.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/ge-li-qu-2-ma-lu-ying-xiong.zip", external: true},
+          {label: "Download 隔离区2马路英雄 (23.1 MB)", href: "https://dos-bin.zczc.cz/%E9%9A%94%E7%A6%BB%E5%8C%BA2%E9%A9%AC%E8%B7%AF%E8%8B%B1%E9%9B%84.zip", external: true},
         ]},
       ],
     },

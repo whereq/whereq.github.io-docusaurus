@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蓝色怪魔 is a DOS game in the WhereQ archive — 1987, 22 files, 254 KB, and an entry point of DEMON.EXE.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-guai-mo.zip",
+  url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E6%80%AA%E9%AD%94.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-se-guai-mo.zip"],
           ["Size", "260,098 bytes (254 KB)"],
           ["SHA-256", "07e23d9f7b0fb851e4e9c06d3cee118fd3f4db7dc054356df6c1dffabd13e5bc"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E6%80%AA%E9%AD%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蓝色怪魔 (254 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-se-guai-mo.zip", external: true},
+          {label: "Download 蓝色怪魔 (254 KB)", href: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E6%80%AA%E9%AD%94.zip", external: true},
         ]},
       ],
     },

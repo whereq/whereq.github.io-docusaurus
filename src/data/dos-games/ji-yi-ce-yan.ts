@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "记忆测验 is a DOS game in the WhereQ archive — 1995, 7 files, 83 KB, and an entry point of FLASHER2.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-yi-ce-yan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%AE%B0%E5%BF%86%E6%B5%8B%E9%AA%8C.zip",
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-yi-ce-yan.zip"],
           ["Size", "85,013 bytes (83 KB)"],
           ["SHA-256", "778d37b02362397f3eadcc459d305599a7e9b2faaecae82fc405d25a23620024"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%AE%B0%E5%BF%86%E6%B5%8B%E9%AA%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 记忆测验 (83 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-yi-ce-yan.zip", external: true},
+          {label: "Download 记忆测验 (83 KB)", href: "https://dos-bin.zczc.cz/%E8%AE%B0%E5%BF%86%E6%B5%8B%E9%AA%8C.zip", external: true},
         ]},
       ],
     },

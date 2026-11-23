@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "人间道少年燕赤霞 is a DOS game in the WhereQ archive — 1998, 214 files, 16.0 MB, and an entry point of PLAY.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ren-jian-dao-shao-nian-yan-chi-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%BA%E9%97%B4%E9%81%93%E5%B0%91%E5%B9%B4%E7%87%95%E8%B5%A4%E9%9C%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ren-jian-dao-shao-nian-yan-chi-xia.zip"],
           ["Size", "16,786,755 bytes (16.0 MB)"],
           ["SHA-256", "c5b0b4c2557571e37b490744b74a14b396d86cb9f4ab3b0bf08448abbcc499b6"],
           ["Files", "214"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%BA%E9%97%B4%E9%81%93%E5%B0%91%E5%B9%B4%E7%87%95%E8%B5%A4%E9%9C%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 人间道少年燕赤霞 (16.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/ren-jian-dao-shao-nian-yan-chi-xia.zip", external: true},
+          {label: "Download 人间道少年燕赤霞 (16.0 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%BA%E9%97%B4%E9%81%93%E5%B0%91%E5%B9%B4%E7%87%95%E8%B5%A4%E9%9C%9E.zip", external: true},
         ]},
       ],
     },

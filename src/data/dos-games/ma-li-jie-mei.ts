@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "玛丽姐妹 is a DOS game in the WhereQ archive — 2007, 46 files, 595 KB, and an entry point of PLAY.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-jie-mei.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%9B%E4%B8%BD%E5%A7%90%E5%A6%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-li-jie-mei.zip"],
           ["Size", "609,238 bytes (595 KB)"],
           ["SHA-256", "b226cf1fb4ae8e4c89589d838dae82c881e3e9b5aaac6be32a17c7f866b804ad"],
           ["Files", "46"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%9B%E4%B8%BD%E5%A7%90%E5%A6%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 玛丽姐妹 (595 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-li-jie-mei.zip", external: true},
+          {label: "Download 玛丽姐妹 (595 KB)", href: "https://dos-bin.zczc.cz/%E7%8E%9B%E4%B8%BD%E5%A7%90%E5%A6%B9.zip", external: true},
         ]},
       ],
     },

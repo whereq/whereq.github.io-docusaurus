@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "石中剑的复仇 is a DOS game in the WhereQ archive — 1996, 48 files, 1.6 MB, and an entry point of vex.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-zhong-jian-de-fu-chou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%AD%E5%89%91%E7%9A%84%E5%A4%8D%E4%BB%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-zhong-jian-de-fu-chou.zip"],
           ["Size", "1,728,959 bytes (1.6 MB)"],
           ["SHA-256", "3e3abc9d961436c788d910d3d927568d9b3c84f44d9a666b44535e4cbe52b1e2"],
           ["Files", "48"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%AD%E5%89%91%E7%9A%84%E5%A4%8D%E4%BB%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 石中剑的复仇 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-zhong-jian-de-fu-chou.zip", external: true},
+          {label: "Download 石中剑的复仇 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%AD%E5%89%91%E7%9A%84%E5%A4%8D%E4%BB%87.zip", external: true},
         ]},
       ],
     },

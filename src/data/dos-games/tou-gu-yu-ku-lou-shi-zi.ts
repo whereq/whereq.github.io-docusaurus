@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "头骨与骷髅十字 is a DOS game in the WhereQ archive — 1991, 104 files, 191 KB, and an entry point of SKULL.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tou-gu-yu-ku-lou-shi-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%B4%E9%AA%A8%E4%B8%8E%E9%AA%B7%E9%AB%85%E5%8D%81%E5%AD%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tou-gu-yu-ku-lou-shi-zi.zip"],
           ["Size", "195,095 bytes (191 KB)"],
           ["SHA-256", "b11bb825245aa17048a87a9cbb9ee2fd283d8473564f50286e173406f1a9bf76"],
           ["Files", "104"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%B4%E9%AA%A8%E4%B8%8E%E9%AA%B7%E9%AB%85%E5%8D%81%E5%AD%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 头骨与骷髅十字 (191 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tou-gu-yu-ku-lou-shi-zi.zip", external: true},
+          {label: "Download 头骨与骷髅十字 (191 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%B4%E9%AA%A8%E4%B8%8E%E9%AA%B7%E9%AB%85%E5%8D%81%E5%AD%97.zip", external: true},
         ]},
       ],
     },

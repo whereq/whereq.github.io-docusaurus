@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世纪7上黑月之门 is a DOS game in the WhereQ archive — 1992, 219 files, 29.0 MB, and an entry point of U7.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-7-shang-hei-yue-zhi-men.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8A%E9%BB%91%E6%9C%88%E4%B9%8B%E9%97%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-ji-7-shang-hei-yue-zhi-men.zip"],
           ["Size", "30,403,289 bytes (29.0 MB)"],
           ["SHA-256", "000408c770a002b2a3aefa41549baec8e73db4058dd3c5177ec0cb029cae4877"],
           ["Files", "219"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8A%E9%BB%91%E6%9C%88%E4%B9%8B%E9%97%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世纪7上黑月之门 (29.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-7-shang-hei-yue-zhi-men.zip", external: true},
+          {label: "Download 创世纪7上黑月之门 (29.0 MB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8A%E9%BB%91%E6%9C%88%E4%B9%8B%E9%97%A8.zip", external: true},
         ]},
       ],
     },

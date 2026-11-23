@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "幽浮3天启 is a DOS game in the WhereQ archive — 2004, 4,244 files, 83.9 MB, and an entry point of Tacp.exe.",
   status: "2004",
-  url: "https://github.com/whereq/dos-games/releases/download/y/you-fu-3-tian-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE3%E5%A4%A9%E5%90%AF.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2004"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "you-fu-3-tian-qi.zip"],
           ["Size", "87,957,244 bytes (83.9 MB)"],
           ["SHA-256", "19f6ef992136f703d03a8971318aad94305acdd202997a2c62a7572f7b1af67a"],
           ["Files", "4,244"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE3%E5%A4%A9%E5%90%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幽浮3天启 (83.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/you-fu-3-tian-qi.zip", external: true},
+          {label: "Download 幽浮3天启 (83.9 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE3%E5%A4%A9%E5%90%AF.zip", external: true},
         ]},
       ],
     },

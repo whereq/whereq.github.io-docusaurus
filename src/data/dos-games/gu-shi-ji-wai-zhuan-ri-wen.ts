@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "古事记外传(日文) is a DOS game in the WhereQ archive — 1993, 55 files, 2.3 MB, and an entry point of play.bat.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-shi-ji-wai-zhuan-ri-wen.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%A4%E4%BA%8B%E8%AE%B0%E5%A4%96%E4%BC%A0%28%E6%97%A5%E6%96%87%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-shi-ji-wai-zhuan-ri-wen.zip"],
           ["Size", "2,457,542 bytes (2.3 MB)"],
           ["SHA-256", "15e927717873d7a292219eafe8d4fd1d7ff6e640f72333de89f866009f1c8f2b"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%A4%E4%BA%8B%E8%AE%B0%E5%A4%96%E4%BC%A0%28%E6%97%A5%E6%96%87%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 古事记外传(日文) (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-shi-ji-wai-zhuan-ri-wen.zip", external: true},
+          {label: "Download 古事记外传(日文) (2.3 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%A4%E4%BA%8B%E8%AE%B0%E5%A4%96%E4%BC%A0%28%E6%97%A5%E6%96%87%29.zip", external: true},
         ]},
       ],
     },

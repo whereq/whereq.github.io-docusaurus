@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "碰美龙战士 is a DOS game in the WhereQ archive — 1995, 122 files, 2.6 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/p/peng-mei-long-zhan-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A2%B0%E7%BE%8E%E9%BE%99%E6%88%98%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "peng-mei-long-zhan-shi.zip"],
           ["Size", "2,704,082 bytes (2.6 MB)"],
           ["SHA-256", "e4813bb9204965dcf6dfec615a4031cc41e0305d6c7e3533583a77163e2b65a3"],
           ["Files", "122"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A2%B0%E7%BE%8E%E9%BE%99%E6%88%98%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 碰美龙战士 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/peng-mei-long-zhan-shi.zip", external: true},
+          {label: "Download 碰美龙战士 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E7%A2%B0%E7%BE%8E%E9%BE%99%E6%88%98%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

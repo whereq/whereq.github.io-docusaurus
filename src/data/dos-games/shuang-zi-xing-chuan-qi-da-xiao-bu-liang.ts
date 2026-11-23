@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "双子星传奇/大小不良 is a DOS game in the WhereQ archive — 1994, 64 files, 7.8 MB, and an entry point of RELENT.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-xing-chuan-qi-da-xiao-bu-liang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%87%EF%BC%8F%E5%A4%A7%E5%B0%8F%E4%B8%8D%E8%89%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shuang-zi-xing-chuan-qi-da-xiao-bu-liang.zip"],
           ["Size", "8,160,505 bytes (7.8 MB)"],
           ["SHA-256", "ab81fcb113e778288c2ab2602c65809136a758854fbdaef77a1716f61c6af3a0"],
           ["Files", "64"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%87%EF%BC%8F%E5%A4%A7%E5%B0%8F%E4%B8%8D%E8%89%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 双子星传奇/大小不良 (7.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shuang-zi-xing-chuan-qi-da-xiao-bu-liang.zip", external: true},
+          {label: "Download 双子星传奇/大小不良 (7.8 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%8C%E5%AD%90%E6%98%9F%E4%BC%A0%E5%A5%87%EF%BC%8F%E5%A4%A7%E5%B0%8F%E4%B8%8D%E8%89%AF.zip", external: true},
         ]},
       ],
     },

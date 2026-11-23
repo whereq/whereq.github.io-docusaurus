@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "世纪末商业革命 is a DOS game in the WhereQ archive — 1995, 265 files, 4.8 MB, and an entry point of TSC.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-ji-mo-shang-ye-ge-ming.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%BA%AA%E6%9C%AB%E5%95%86%E4%B8%9A%E9%9D%A9%E5%91%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-ji-mo-shang-ye-ge-ming.zip"],
           ["Size", "5,013,472 bytes (4.8 MB)"],
           ["SHA-256", "4cb0b4ebe58c4a0f913a755263b1210925305515761f6e41c3674377a7eb3a90"],
           ["Files", "265"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%96%E7%BA%AA%E6%9C%AB%E5%95%86%E4%B8%9A%E9%9D%A9%E5%91%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 世纪末商业革命 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-ji-mo-shang-ye-ge-ming.zip", external: true},
+          {label: "Download 世纪末商业革命 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%96%E7%BA%AA%E6%9C%AB%E5%95%86%E4%B8%9A%E9%9D%A9%E5%91%BD.zip", external: true},
         ]},
       ],
     },

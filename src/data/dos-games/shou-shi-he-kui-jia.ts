@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "首饰和盔甲 is a DOS game in the WhereQ archive — 1996, 280 files, 54.9 MB, and an entry point of AA.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shou-shi-he-kui-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A6%96%E9%A5%B0%E5%92%8C%E7%9B%94%E7%94%B2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shou-shi-he-kui-jia.zip"],
           ["Size", "57,524,190 bytes (54.9 MB)"],
           ["SHA-256", "b983f8c91d6e0d277dcfb6eb82f2d6c36d133f349f8009f990af14ff8ef0a213"],
           ["Files", "280"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A6%96%E9%A5%B0%E5%92%8C%E7%9B%94%E7%94%B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 首饰和盔甲 (54.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shou-shi-he-kui-jia.zip", external: true},
+          {label: "Download 首饰和盔甲 (54.9 MB)", href: "https://dos-bin.zczc.cz/%E9%A6%96%E9%A5%B0%E5%92%8C%E7%9B%94%E7%94%B2.zip", external: true},
         ]},
       ],
     },

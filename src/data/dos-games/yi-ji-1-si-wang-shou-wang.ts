@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "遗迹1死亡守望 is a DOS game in the WhereQ archive — 1996, 86 files, 336 KB, and an entry point of GO.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-1-si-wang-shou-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B91%E6%AD%BB%E4%BA%A1%E5%AE%88%E6%9C%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-ji-1-si-wang-shou-wang.zip"],
           ["Size", "343,663 bytes (336 KB)"],
           ["SHA-256", "e35b67c63fec654a00a76c57ea8dad69bd3634bf53f0c25e9e5b0bb6be030e6e"],
           ["Files", "86"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B91%E6%AD%BB%E4%BA%A1%E5%AE%88%E6%9C%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 遗迹1死亡守望 (336 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-1-si-wang-shou-wang.zip", external: true},
+          {label: "Download 遗迹1死亡守望 (336 KB)", href: "https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B91%E6%AD%BB%E4%BA%A1%E5%AE%88%E6%9C%9B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "穿越之战 is a DOS game in the WhereQ archive — 1996, 326 files, 15.9 MB, and an entry point of BIT.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuan-yue-zhi-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A9%BF%E8%B6%8A%E4%B9%8B%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuan-yue-zhi-zhan.zip"],
           ["Size", "16,684,229 bytes (15.9 MB)"],
           ["SHA-256", "6266050b6a8372916d7cd90b9270f1b8e14c302a7eab4aa8891c0ea2db670b4a"],
           ["Files", "326"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A9%BF%E8%B6%8A%E4%B9%8B%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 穿越之战 (15.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuan-yue-zhi-zhan.zip", external: true},
+          {label: "Download 穿越之战 (15.9 MB)", href: "https://dos-bin.zczc.cz/%E7%A9%BF%E8%B6%8A%E4%B9%8B%E6%88%98.zip", external: true},
         ]},
       ],
     },

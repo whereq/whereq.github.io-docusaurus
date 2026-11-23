@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "雷电兔 is a DOS game in the WhereQ archive — 2009, 316 files, 1.9 MB, and an entry point of QUIK.COM.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-dian-tu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5%E5%85%94.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-dian-tu.zip"],
           ["Size", "1,989,307 bytes (1.9 MB)"],
           ["SHA-256", "c1d55e3b090eb60baffffa92b19276decfef2bb6c3b5510185ee87d7ee3ae76d"],
           ["Files", "316"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5%E5%85%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雷电兔 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-dian-tu.zip", external: true},
+          {label: "Download 雷电兔 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%94%B5%E5%85%94.zip", external: true},
         ]},
       ],
     },

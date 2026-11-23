@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大唐英雄传 is a DOS game in the WhereQ archive — 1997, 1,002 files, 9.0 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-tang-ying-xiong-zhuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-tang-ying-xiong-zhuan.zip"],
           ["Size", "9,429,597 bytes (9.0 MB)"],
           ["SHA-256", "4e3fd381f8257ae30738df2ec8db1ec5a5a462a57d7188247fff254045850bfb"],
           ["Files", "1,002"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大唐英雄传 (9.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-tang-ying-xiong-zhuan.zip", external: true},
+          {label: "Download 大唐英雄传 (9.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

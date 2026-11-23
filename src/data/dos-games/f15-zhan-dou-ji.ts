@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "F15战斗机 is a DOS game in the WhereQ archive — 1992, 174 files, 6.2 MB, and an entry point of F15.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/f/f15-zhan-dou-ji.zip",
+  url: "https://dos-bin.zczc.cz/F15%E6%88%98%E6%96%97%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "f15-zhan-dou-ji.zip"],
           ["Size", "6,482,925 bytes (6.2 MB)"],
           ["SHA-256", "e356372f3238f3b7a6f974d44fc6aeaef13669b15ef44cd4b0a38b4e8ca48399"],
           ["Files", "174"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/F15%E6%88%98%E6%96%97%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download F15战斗机 (6.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/f15-zhan-dou-ji.zip", external: true},
+          {label: "Download F15战斗机 (6.2 MB)", href: "https://dos-bin.zczc.cz/F15%E6%88%98%E6%96%97%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

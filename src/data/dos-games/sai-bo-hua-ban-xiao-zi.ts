@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "赛博滑板小子 is a DOS game in the WhereQ archive — 1996, 16 files, 23.9 MB, and an entry point of _CYRIL.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sai-bo-hua-ban-xiao-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B5%9B%E5%8D%9A%E6%BB%91%E6%9D%BF%E5%B0%8F%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sai-bo-hua-ban-xiao-zi.zip"],
           ["Size", "25,062,009 bytes (23.9 MB)"],
           ["SHA-256", "f18c49a4ec9bcd07e2ff65c47cefbf6ef2d5b25f559539af586e0abca7a27e8d"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B5%9B%E5%8D%9A%E6%BB%91%E6%9D%BF%E5%B0%8F%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 赛博滑板小子 (23.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sai-bo-hua-ban-xiao-zi.zip", external: true},
+          {label: "Download 赛博滑板小子 (23.9 MB)", href: "https://dos-bin.zczc.cz/%E8%B5%9B%E5%8D%9A%E6%BB%91%E6%9D%BF%E5%B0%8F%E5%AD%90.zip", external: true},
         ]},
       ],
     },

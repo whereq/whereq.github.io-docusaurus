@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "帝国的光荣 is a DOS game in the WhereQ archive — 1992, 29 files, 946 KB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-guo-de-guang-rong.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B8%9D%E5%9B%BD%E7%9A%84%E5%85%89%E8%8D%A3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-guo-de-guang-rong.zip"],
           ["Size", "969,152 bytes (946 KB)"],
           ["SHA-256", "004890b652dee94e3a042ec31c86eb6945875394d033cf85e3cb7358aecdfe57"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B8%9D%E5%9B%BD%E7%9A%84%E5%85%89%E8%8D%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 帝国的光荣 (946 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-guo-de-guang-rong.zip", external: true},
+          {label: "Download 帝国的光荣 (946 KB)", href: "https://dos-bin.zczc.cz/%E5%B8%9D%E5%9B%BD%E7%9A%84%E5%85%89%E8%8D%A3.zip", external: true},
         ]},
       ],
     },

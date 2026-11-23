@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔宫救美宝石 is a DOS game in the WhereQ archive — 1994, 47 files, 5.0 MB, and an entry point of PLAY.COM.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-gong-jiu-mei-bao-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%AE%AB%E6%95%91%E7%BE%8E%E5%AE%9D%E7%9F%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-gong-jiu-mei-bao-shi.zip"],
           ["Size", "5,285,407 bytes (5.0 MB)"],
           ["SHA-256", "f0281c9e1db23c8698755c7af67d94408628b875b81ecbdaedeb0b74e7ad9eae"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%AE%AB%E6%95%91%E7%BE%8E%E5%AE%9D%E7%9F%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔宫救美宝石 (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-gong-jiu-mei-bao-shi.zip", external: true},
+          {label: "Download 魔宫救美宝石 (5.0 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%AE%AB%E6%95%91%E7%BE%8E%E5%AE%9D%E7%9F%B3.zip", external: true},
         ]},
       ],
     },

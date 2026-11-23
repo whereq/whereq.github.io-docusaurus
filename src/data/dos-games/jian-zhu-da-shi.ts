@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "建筑大师 is a DOS game in the WhereQ archive — 1997, 28 files, 35.0 MB, and an entry point of GAME.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jian-zhu-da-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BB%BA%E7%AD%91%E5%A4%A7%E5%B8%88.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jian-zhu-da-shi.zip"],
           ["Size", "36,736,774 bytes (35.0 MB)"],
           ["SHA-256", "443207b86960c8de82962a694575ecc0b7a8529f3a61188462f61c25abe6b1b7"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BB%BA%E7%AD%91%E5%A4%A7%E5%B8%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 建筑大师 (35.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jian-zhu-da-shi.zip", external: true},
+          {label: "Download 建筑大师 (35.0 MB)", href: "https://dos-bin.zczc.cz/%E5%BB%BA%E7%AD%91%E5%A4%A7%E5%B8%88.zip", external: true},
         ]},
       ],
     },

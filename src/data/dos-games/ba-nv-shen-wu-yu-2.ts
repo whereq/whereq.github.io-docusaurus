@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "八女神物语2 is a DOS game in the WhereQ archive — 1996, 458 files, 9.2 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/ba-nv-shen-wu-yu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%AB%E5%A5%B3%E7%A5%9E%E7%89%A9%E8%AF%AD2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ba-nv-shen-wu-yu-2.zip"],
           ["Size", "9,597,550 bytes (9.2 MB)"],
           ["SHA-256", "5b19b21f79762514aac2dee48032b217cdb9cb06bdc170aa694c7eb4df8b9513"],
           ["Files", "458"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%AB%E5%A5%B3%E7%A5%9E%E7%89%A9%E8%AF%AD2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 八女神物语2 (9.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/ba-nv-shen-wu-yu-2.zip", external: true},
+          {label: "Download 八女神物语2 (9.2 MB)", href: "https://dos-bin.zczc.cz/%E5%85%AB%E5%A5%B3%E7%A5%9E%E7%89%A9%E8%AF%AD2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "关键任务 is a DOS game in the WhereQ archive — 1995, 169 files, 337.0 MB, and an entry point of MISSION.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guan-jian-ren-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%B3%E9%94%AE%E4%BB%BB%E5%8A%A1.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guan-jian-ren-wu.zip"],
           ["Size", "353,362,510 bytes (337.0 MB)"],
           ["SHA-256", "3d6cb5f53c49ef86b1299d2ed1c8fea1b5f1eada1b6119ca03e57257682705a4"],
           ["Files", "169"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%B3%E9%94%AE%E4%BB%BB%E5%8A%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 关键任务 (337.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guan-jian-ren-wu.zip", external: true},
+          {label: "Download 关键任务 (337.0 MB)", href: "https://dos-bin.zczc.cz/%E5%85%B3%E9%94%AE%E4%BB%BB%E5%8A%A1.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙霸三合会资料片 is a DOS game in the WhereQ archive — 1995, 133 files, 12.7 MB, and an entry point of SETUP.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-ba-san-he-hui-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A%E8%B5%84%E6%96%99%E7%89%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-ba-san-he-hui-zi-liao-pian.zip"],
           ["Size", "13,312,239 bytes (12.7 MB)"],
           ["SHA-256", "14fa261542ef4c7a33d833c0e05c9ed77f6b5869d7706a8e0e3ca766ec6c1443"],
           ["Files", "133"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A%E8%B5%84%E6%96%99%E7%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙霸三合会资料片 (12.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-ba-san-he-hui-zi-liao-pian.zip", external: true},
+          {label: "Download 龙霸三合会资料片 (12.7 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A%E8%B5%84%E6%96%99%E7%89%87.zip", external: true},
         ]},
       ],
     },

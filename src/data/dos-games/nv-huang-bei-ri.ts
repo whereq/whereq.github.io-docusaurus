@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "女皇杯(日) is a DOS game in the WhereQ archive — 1994, 187 files, 2.6 MB, and an entry point of START.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nv-huang-bei-ri.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%9A%87%E6%9D%AF%28%E6%97%A5%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nv-huang-bei-ri.zip"],
           ["Size", "2,680,196 bytes (2.6 MB)"],
           ["SHA-256", "5e4baedc06b5e0526aa0d327deac493e502769d96ea7d661fad335caa8d5eeaa"],
           ["Files", "187"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A5%B3%E7%9A%87%E6%9D%AF%28%E6%97%A5%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 女皇杯(日) (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nv-huang-bei-ri.zip", external: true},
+          {label: "Download 女皇杯(日) (2.6 MB)", href: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%9A%87%E6%9D%AF%28%E6%97%A5%29.zip", external: true},
         ]},
       ],
     },

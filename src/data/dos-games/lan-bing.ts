@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蓝冰 is a DOS game in the WhereQ archive — 1996, 481 files, 46.1 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E8%93%9D%E5%86%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-bing.zip"],
           ["Size", "48,360,156 bytes (46.1 MB)"],
           ["SHA-256", "7324ce7ed97b5aa0ed3212b0a64bd7aa7c7772bd5708acb31b39351d75c00b13"],
           ["Files", "481"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%93%9D%E5%86%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蓝冰 (46.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-bing.zip", external: true},
+          {label: "Download 蓝冰 (46.1 MB)", href: "https://dos-bin.zczc.cz/%E8%93%9D%E5%86%B0.zip", external: true},
         ]},
       ],
     },

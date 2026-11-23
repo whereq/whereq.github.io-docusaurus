@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银色弹球95 is a DOS game in the WhereQ archive — 1996, 49 files, 1.8 MB, and an entry point of silver.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-se-dan-qiu-95.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E8%89%B2%E5%BC%B9%E7%90%8395.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-se-dan-qiu-95.zip"],
           ["Size", "1,903,798 bytes (1.8 MB)"],
           ["SHA-256", "c3df6148bc5342ea7ab01d789c435decb56ce89452740809e4f4b0d575d989a3"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E8%89%B2%E5%BC%B9%E7%90%8395.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银色弹球95 (1.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-se-dan-qiu-95.zip", external: true},
+          {label: "Download 银色弹球95 (1.8 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E8%89%B2%E5%BC%B9%E7%90%8395.zip", external: true},
         ]},
       ],
     },

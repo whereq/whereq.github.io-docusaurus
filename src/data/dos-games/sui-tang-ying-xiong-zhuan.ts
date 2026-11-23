@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "隋唐英雄传 is a DOS game in the WhereQ archive — 1992, 50 files, 1.1 MB, and an entry point of TMARK.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sui-tang-ying-xiong-zhuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9A%8B%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sui-tang-ying-xiong-zhuan.zip"],
           ["Size", "1,117,626 bytes (1.1 MB)"],
           ["SHA-256", "3d81de06eebaea25ac040365bab7cc2865a823de351911100449327fe0a50fa0"],
           ["Files", "50"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9A%8B%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 隋唐英雄传 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sui-tang-ying-xiong-zhuan.zip", external: true},
+          {label: "Download 隋唐英雄传 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E9%9A%8B%E5%94%90%E8%8B%B1%E9%9B%84%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

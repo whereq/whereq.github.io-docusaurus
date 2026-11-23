@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔域迷踪2 is a DOS game in the WhereQ archive — an undated copy, 331 files, 809.4 MB, and an entry point of E2DOS.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-mi-zong-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E8%BF%B7%E8%B8%AA2.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yu-mi-zong-2.zip"],
           ["Size", "848,739,686 bytes (809.4 MB)"],
           ["SHA-256", "c504f989e8bc30e949bdf7cd0eb06c74a8ede3a3d27079abb266150965ea9de9"],
           ["Files", "331"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E8%BF%B7%E8%B8%AA2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔域迷踪2 (809.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-mi-zong-2.zip", external: true},
+          {label: "Download 魔域迷踪2 (809.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E8%BF%B7%E8%B8%AA2.zip", external: true},
         ]},
       ],
     },

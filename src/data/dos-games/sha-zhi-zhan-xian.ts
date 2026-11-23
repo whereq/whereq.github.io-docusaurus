@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "沙之战线 is a DOS game in the WhereQ archive — 1996, 43 files, 598 KB, and an entry point of LSAND.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-zhi-zhan-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B9%8B%E6%88%98%E7%BA%BF.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-zhi-zhan-xian.zip"],
           ["Size", "611,885 bytes (598 KB)"],
           ["SHA-256", "20ae78f4e6391ab652b14df7647a7059191432a51e926079b293a78f330a4eef"],
           ["Files", "43"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%99%E4%B9%8B%E6%88%98%E7%BA%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沙之战线 (598 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-zhi-zhan-xian.zip", external: true},
+          {label: "Download 沙之战线 (598 KB)", href: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B9%8B%E6%88%98%E7%BA%BF.zip", external: true},
         ]},
       ],
     },

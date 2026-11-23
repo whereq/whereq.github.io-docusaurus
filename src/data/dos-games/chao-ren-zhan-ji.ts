@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超人战记 is a DOS game in the WhereQ archive — 2008, 635 files, 1.4 MB, and an entry point of PLAY.BAT.",
   status: "2008",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ren-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E4%BA%BA%E6%88%98%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2008"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ren-zhan-ji.zip"],
           ["Size", "1,455,366 bytes (1.4 MB)"],
           ["SHA-256", "2e27334b117920680bfb615303ffe2dfac42d9784fff1577418d0c8871293ecf"],
           ["Files", "635"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E4%BA%BA%E6%88%98%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超人战记 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ren-zhan-ji.zip", external: true},
+          {label: "Download 超人战记 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E4%BA%BA%E6%88%98%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

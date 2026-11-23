@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "南极冰怪 is a DOS game in the WhereQ archive — 1995, 53 files, 184.8 MB, and an entry point of ICE640.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nan-ji-bing-guai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%86%B0%E6%80%AA.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nan-ji-bing-guai.zip"],
           ["Size", "193,812,389 bytes (184.8 MB)"],
           ["SHA-256", "9b45beaf944f5ce958d966dd4cbf565f4d24eca3637348cb5372694ff9a0edce"],
           ["Files", "53"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%86%B0%E6%80%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 南极冰怪 (184.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nan-ji-bing-guai.zip", external: true},
+          {label: "Download 南极冰怪 (184.8 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%86%B0%E6%80%AA.zip", external: true},
         ]},
       ],
     },

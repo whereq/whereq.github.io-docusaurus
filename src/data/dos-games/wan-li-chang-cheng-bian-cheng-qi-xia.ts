@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "万里长城边城奇侠 is a DOS game in the WhereQ archive — 1994, 610 files, 3.6 MB, and an entry point of PLAY.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wan-li-chang-cheng-bian-cheng-qi-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E8%BE%B9%E5%9F%8E%E5%A5%87%E4%BE%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wan-li-chang-cheng-bian-cheng-qi-xia.zip"],
           ["Size", "3,769,207 bytes (3.6 MB)"],
           ["SHA-256", "39b6177d2bc8f1a3908b3a5dfdfe81e51b70ba530ead599c4235edeb2e22c274"],
           ["Files", "610"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E8%BE%B9%E5%9F%8E%E5%A5%87%E4%BE%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 万里长城边城奇侠 (3.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wan-li-chang-cheng-bian-cheng-qi-xia.zip", external: true},
+          {label: "Download 万里长城边城奇侠 (3.6 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E8%BE%B9%E5%9F%8E%E5%A5%87%E4%BE%A0.zip", external: true},
         ]},
       ],
     },

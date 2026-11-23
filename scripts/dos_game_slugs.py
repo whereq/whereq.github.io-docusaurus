@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """Slug rules for the DOS games wiki — shared by the generator and the uploader.
 
-A game's slug is its pinyin, lowercased and dash-joined. GitHub strips
-non-ASCII characters out of release asset names, so the slug is also the
-asset name on the release host: one name, used by the page URL, the
-download URL and the file on disk.
+A game's slug is its pinyin, lowercased and dash-joined — the name the
+page lives under, and the name the catalogue lists it by.
 
-The initial is the first letter of the slug: it is both the shelf group
-the game sits in and the tag of the release that carries its bundle.
+The initial is the first letter of the slug: it is the shelf group the game
+sits in, and the letter its release sat under while the bundles were
+mirrored on GitHub.
 """
 
 import re

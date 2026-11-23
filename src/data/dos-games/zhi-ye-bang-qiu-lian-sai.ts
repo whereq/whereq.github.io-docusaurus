@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "职业棒球联赛 is a DOS game in the WhereQ archive — 1993, 289 files, 1.9 MB, and an entry point of GM.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-ye-bang-qiu-lian-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E8%81%8C%E4%B8%9A%E6%A3%92%E7%90%83%E8%81%94%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-ye-bang-qiu-lian-sai.zip"],
           ["Size", "2,044,342 bytes (1.9 MB)"],
           ["SHA-256", "bc06c91312d7bf655843056b44f061c133cb40162b8a1e425c6802384f7acf2e"],
           ["Files", "289"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%81%8C%E4%B8%9A%E6%A3%92%E7%90%83%E8%81%94%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 职业棒球联赛 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-ye-bang-qiu-lian-sai.zip", external: true},
+          {label: "Download 职业棒球联赛 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E8%81%8C%E4%B8%9A%E6%A3%92%E7%90%83%E8%81%94%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

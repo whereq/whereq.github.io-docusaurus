@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国际象棋末日审判版 is a DOS game in the WhereQ archive — an undated copy, 195 files, 4.9 MB, and an entry point of T2.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-xiang-qi-mo-ri-shen-pan-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E6%9C%AB%E6%97%A5%E5%AE%A1%E5%88%A4%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-ji-xiang-qi-mo-ri-shen-pan-ban.zip"],
           ["Size", "5,153,137 bytes (4.9 MB)"],
           ["SHA-256", "9de16f6a1a3ae91bc11d12b206caa63d9e088bfe654edfff9dc5de254aab14d5"],
           ["Files", "195"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E6%9C%AB%E6%97%A5%E5%AE%A1%E5%88%A4%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国际象棋末日审判版 (4.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-ji-xiang-qi-mo-ri-shen-pan-ban.zip", external: true},
+          {label: "Download 国际象棋末日审判版 (4.9 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E6%9C%AB%E6%97%A5%E5%AE%A1%E5%88%A4%E7%89%88.zip", external: true},
         ]},
       ],
     },

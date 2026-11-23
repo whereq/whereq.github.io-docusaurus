@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "时空迷航 is a DOS game in the WhereQ archive — 1997, 24 files, 14.8 MB, and an entry point of LOST.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-mi-hang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E8%BF%B7%E8%88%AA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-kong-mi-hang.zip"],
           ["Size", "15,488,860 bytes (14.8 MB)"],
           ["SHA-256", "70416913952d918f7b021c7f9aa2c3ac7deddbcba83bbe0867303f7eff952672"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E8%BF%B7%E8%88%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 时空迷航 (14.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-mi-hang.zip", external: true},
+          {label: "Download 时空迷航 (14.8 MB)", href: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E8%BF%B7%E8%88%AA.zip", external: true},
         ]},
       ],
     },

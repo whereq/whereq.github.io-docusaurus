@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "圣城劫 is a DOS game in the WhereQ archive — 1993, 12 files, 510 KB, and an entry point of DRAGO.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-cheng-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%8E%E5%8A%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-cheng-jie.zip"],
           ["Size", "522,094 bytes (510 KB)"],
           ["SHA-256", "8529e39b211a117f6f9a1bb76a24a405ec4c2c16bbefc997825612833a07ba81"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%8E%E5%8A%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 圣城劫 (510 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-cheng-jie.zip", external: true},
+          {label: "Download 圣城劫 (510 KB)", href: "https://dos-bin.zczc.cz/%E5%9C%A3%E5%9F%8E%E5%8A%AB.zip", external: true},
         ]},
       ],
     },

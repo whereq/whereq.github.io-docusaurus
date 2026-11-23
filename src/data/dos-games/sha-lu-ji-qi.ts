@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "杀戮机器 is a DOS game in the WhereQ archive — 1996, 163 files, 6.9 MB, and an entry point of AMOK.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-lu-ji-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9D%80%E6%88%AE%E6%9C%BA%E5%99%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-lu-ji-qi.zip"],
           ["Size", "7,278,080 bytes (6.9 MB)"],
           ["SHA-256", "5799e27a85dda6d0802db0dc666e41dcc5da6432e197f206b9c57d38d0dfe341"],
           ["Files", "163"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9D%80%E6%88%AE%E6%9C%BA%E5%99%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 杀戮机器 (6.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-lu-ji-qi.zip", external: true},
+          {label: "Download 杀戮机器 (6.9 MB)", href: "https://dos-bin.zczc.cz/%E6%9D%80%E6%88%AE%E6%9C%BA%E5%99%A8.zip", external: true},
         ]},
       ],
     },

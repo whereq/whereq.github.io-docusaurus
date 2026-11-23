@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "懒虫大战 is a DOS game in the WhereQ archive — 1994, 189 files, 11.3 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-chong-da-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%87%92%E8%99%AB%E5%A4%A7%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-chong-da-zhan.zip"],
           ["Size", "11,858,669 bytes (11.3 MB)"],
           ["SHA-256", "dfb85a96f970df04b445046379093b02794dc9c6f31d625cc15174e05f1d5ea9"],
           ["Files", "189"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%87%92%E8%99%AB%E5%A4%A7%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 懒虫大战 (11.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-chong-da-zhan.zip", external: true},
+          {label: "Download 懒虫大战 (11.3 MB)", href: "https://dos-bin.zczc.cz/%E6%87%92%E8%99%AB%E5%A4%A7%E6%88%98.zip", external: true},
         ]},
       ],
     },

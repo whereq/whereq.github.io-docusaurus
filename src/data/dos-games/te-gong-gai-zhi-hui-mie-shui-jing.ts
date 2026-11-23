@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "特工盖之毁灭水晶 is a DOS game in the WhereQ archive — 1996, 19 files, 2.5 MB, and an entry point of guyspy.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/te-gong-gai-zhi-hui-mie-shui-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%89%B9%E5%B7%A5%E7%9B%96%E4%B9%8B%E6%AF%81%E7%81%AD%E6%B0%B4%E6%99%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "te-gong-gai-zhi-hui-mie-shui-jing.zip"],
           ["Size", "2,570,569 bytes (2.5 MB)"],
           ["SHA-256", "3f4e8c6258767f19c6d9a76bd32c072db872b59a16274a4d06fe20e8bb681684"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%89%B9%E5%B7%A5%E7%9B%96%E4%B9%8B%E6%AF%81%E7%81%AD%E6%B0%B4%E6%99%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 特工盖之毁灭水晶 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/te-gong-gai-zhi-hui-mie-shui-jing.zip", external: true},
+          {label: "Download 特工盖之毁灭水晶 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E7%89%B9%E5%B7%A5%E7%9B%96%E4%B9%8B%E6%AF%81%E7%81%AD%E6%B0%B4%E6%99%B6.zip", external: true},
         ]},
       ],
     },

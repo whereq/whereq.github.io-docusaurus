@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银多瑞传奇3 is a DOS game in the WhereQ archive — 1996, 16 files, 8.2 MB, and an entry point of Yendor3-full.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-duo-rui-chuan-qi-3.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E5%A4%9A%E7%91%9E%E4%BC%A0%E5%A5%873.zip",
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-duo-rui-chuan-qi-3.zip"],
           ["Size", "8,598,679 bytes (8.2 MB)"],
           ["SHA-256", "697f9c825adc049f980cf425b90ce8e75211d83d1b29cb22748f5ca8a681c850"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E5%A4%9A%E7%91%9E%E4%BC%A0%E5%A5%873.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银多瑞传奇3 (8.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-duo-rui-chuan-qi-3.zip", external: true},
+          {label: "Download 银多瑞传奇3 (8.2 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E5%A4%9A%E7%91%9E%E4%BC%A0%E5%A5%873.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机动战士 is a DOS game in the WhereQ archive — an undated copy, 98 files, 215 KB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-dong-zhan-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-dong-zhan-shi.zip"],
           ["Size", "219,760 bytes (215 KB)"],
           ["SHA-256", "458537507d5d518cd2a97adc8ec8f2a552c869417e27a49adcf9852131a1443e"],
           ["Files", "98"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机动战士 (215 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-dong-zhan-shi.zip", external: true},
+          {label: "Download 机动战士 (215 KB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

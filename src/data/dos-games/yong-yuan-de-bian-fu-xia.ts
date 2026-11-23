@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "永远的蝙蝠侠 is a DOS game in the WhereQ archive — 1996, 660 files, 8.1 MB, and an entry point of BATMAN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-bian-fu-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%9D%99%E8%9D%A0%E4%BE%A0.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yong-yuan-de-bian-fu-xia.zip"],
           ["Size", "8,521,266 bytes (8.1 MB)"],
           ["SHA-256", "8789d8779f726c26161d057a82db92c5d3da97a3f78d86d01b642449b587954b"],
           ["Files", "660"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%9D%99%E8%9D%A0%E4%BE%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 永远的蝙蝠侠 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yong-yuan-de-bian-fu-xia.zip", external: true},
+          {label: "Download 永远的蝙蝠侠 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%9D%99%E8%9D%A0%E4%BE%A0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "热带雨林的秘密 is a DOS game in the WhereQ archive — 1993, 66 files, 7.1 MB, and an entry point of SIERRA.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/r/re-dai-yu-lin-de-mi-mi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%83%AD%E5%B8%A6%E9%9B%A8%E6%9E%97%E7%9A%84%E7%A7%98%E5%AF%86.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "re-dai-yu-lin-de-mi-mi.zip"],
           ["Size", "7,404,912 bytes (7.1 MB)"],
           ["SHA-256", "37769396ebb1bff5c05ca88822547645b62ffe04bde5a0e4efe6b45c0ae4120b"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%83%AD%E5%B8%A6%E9%9B%A8%E6%9E%97%E7%9A%84%E7%A7%98%E5%AF%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 热带雨林的秘密 (7.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/re-dai-yu-lin-de-mi-mi.zip", external: true},
+          {label: "Download 热带雨林的秘密 (7.1 MB)", href: "https://dos-bin.zczc.cz/%E7%83%AD%E5%B8%A6%E9%9B%A8%E6%9E%97%E7%9A%84%E7%A7%98%E5%AF%86.zip", external: true},
         ]},
       ],
     },

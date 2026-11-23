@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "YES！HG is a DOS game in the WhereQ archive — 1996, 63 files, 6.0 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yes-hg.zip",
+  url: "https://dos-bin.zczc.cz/YES%EF%BC%81HG.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yes-hg.zip"],
           ["Size", "6,272,953 bytes (6.0 MB)"],
           ["SHA-256", "278d7f2e5be7abde13698ab8d3580a4b6251ce09cddb6a2072fcabf92deb2f9b"],
           ["Files", "63"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/YES%EF%BC%81HG.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download YES！HG (6.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yes-hg.zip", external: true},
+          {label: "Download YES！HG (6.0 MB)", href: "https://dos-bin.zczc.cz/YES%EF%BC%81HG.zip", external: true},
         ]},
       ],
     },

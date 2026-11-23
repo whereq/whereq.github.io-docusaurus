@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法飞毯PLUS is a DOS game in the WhereQ archive — 1996, 329 files, 13.3 MB, and an entry point of carpet.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fei-tan-plus.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AFPLUS.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-fei-tan-plus.zip"],
           ["Size", "13,994,584 bytes (13.3 MB)"],
           ["SHA-256", "a8e4838e40556b9d1ada3e5c973d86e61ec26f47c54dc12a9ae5219a11a688ba"],
           ["Files", "329"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AFPLUS.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法飞毯PLUS (13.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-fei-tan-plus.zip", external: true},
+          {label: "Download 魔法飞毯PLUS (13.3 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AFPLUS.zip", external: true},
         ]},
       ],
     },

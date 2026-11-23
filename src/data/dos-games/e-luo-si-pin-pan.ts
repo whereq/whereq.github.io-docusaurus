@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "e",
   summary: "俄罗斯拼盘 is a DOS game in the WhereQ archive — an undated copy, 28 files, 1.5 MB, and an entry point of MENU.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/e/e-luo-si-pin-pan.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%8B%BC%E7%9B%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "e-luo-si-pin-pan.zip"],
           ["Size", "1,581,308 bytes (1.5 MB)"],
           ["SHA-256", "61bc274c8f265fbdd4ee55420eabff04c857ccead50326c9426a65b501a1a132"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%8B%BC%E7%9B%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 俄罗斯拼盘 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/e/e-luo-si-pin-pan.zip", external: true},
+          {label: "Download 俄罗斯拼盘 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%8B%BC%E7%9B%98.zip", external: true},
         ]},
       ],
     },

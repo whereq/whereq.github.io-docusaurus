@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "以撒3永恒之门 is a DOS game in the WhereQ archive — 1994, 152 files, 10.7 MB, and an entry point of START.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-3-yong-heng-zhi-men.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%923%E6%B0%B8%E6%81%92%E4%B9%8B%E9%97%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-sa-3-yong-heng-zhi-men.zip"],
           ["Size", "11,236,687 bytes (10.7 MB)"],
           ["SHA-256", "41aa42c49e26b6a7f6a065340df488f1cfec957af2010f63d4226b16d67aa969"],
           ["Files", "152"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%923%E6%B0%B8%E6%81%92%E4%B9%8B%E9%97%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 以撒3永恒之门 (10.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-3-yong-heng-zhi-men.zip", external: true},
+          {label: "Download 以撒3永恒之门 (10.7 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%923%E6%B0%B8%E6%81%92%E4%B9%8B%E9%97%A8.zip", external: true},
         ]},
       ],
     },

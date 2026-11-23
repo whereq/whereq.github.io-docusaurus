@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "PCE合集(执行PCE+文件名) is a DOS game in the WhereQ archive — 1993, 301 files, 68.4 MB, and an entry point of PCE.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pce-he-ji-zhi-xing-pce-wen-jian-ming.zip",
+  url: "https://dos-bin.zczc.cz/PCE%E5%90%88%E9%9B%86%28%E6%89%A7%E8%A1%8CPCE%2B%E6%96%87%E4%BB%B6%E5%90%8D%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pce-he-ji-zhi-xing-pce-wen-jian-ming.zip"],
           ["Size", "71,732,115 bytes (68.4 MB)"],
           ["SHA-256", "d5e4dab97bc5e843fa243acd14e5a52470520e98902b91b7de6b2702a8e5fb51"],
           ["Files", "301"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/PCE%E5%90%88%E9%9B%86%28%E6%89%A7%E8%A1%8CPCE%2B%E6%96%87%E4%BB%B6%E5%90%8D%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download PCE合集(执行PCE+文件名) (68.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/pce-he-ji-zhi-xing-pce-wen-jian-ming.zip", external: true},
+          {label: "Download PCE合集(执行PCE+文件名) (68.4 MB)", href: "https://dos-bin.zczc.cz/PCE%E5%90%88%E9%9B%86%28%E6%89%A7%E8%A1%8CPCE%2B%E6%96%87%E4%BB%B6%E5%90%8D%29.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "力之奴仆 is a DOS game in the WhereQ archive — 2009, 23 files, 10.0 MB, and an entry point of PS.EXE.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/l/li-zhi-nu-pu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8A%9B%E4%B9%8B%E5%A5%B4%E4%BB%86.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "li-zhi-nu-pu.zip"],
           ["Size", "10,507,488 bytes (10.0 MB)"],
           ["SHA-256", "8defdcec0c2df74c2b0f69519fbd0cdb1921787b72cfe455793e374f117cb4d9"],
           ["Files", "23"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8A%9B%E4%B9%8B%E5%A5%B4%E4%BB%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 力之奴仆 (10.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/li-zhi-nu-pu.zip", external: true},
+          {label: "Download 力之奴仆 (10.0 MB)", href: "https://dos-bin.zczc.cz/%E5%8A%9B%E4%B9%8B%E5%A5%B4%E4%BB%86.zip", external: true},
         ]},
       ],
     },

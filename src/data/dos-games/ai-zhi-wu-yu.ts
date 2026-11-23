@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "爱之物语 is a DOS game in the WhereQ archive — 1993, 317 files, 4.6 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/a/ai-zhi-wu-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%B1%E4%B9%8B%E7%89%A9%E8%AF%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ai-zhi-wu-yu.zip"],
           ["Size", "4,815,741 bytes (4.6 MB)"],
           ["SHA-256", "256b01f88d86b8bf171f1dd0f15a2d08df0b10383a28ca76ba00188cc69ec564"],
           ["Files", "317"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%B1%E4%B9%8B%E7%89%A9%E8%AF%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爱之物语 (4.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/ai-zhi-wu-yu.zip", external: true},
+          {label: "Download 爱之物语 (4.6 MB)", href: "https://dos-bin.zczc.cz/%E7%88%B1%E4%B9%8B%E7%89%A9%E8%AF%AD.zip", external: true},
         ]},
       ],
     },

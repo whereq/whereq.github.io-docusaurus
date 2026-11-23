@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "西游记 is a DOS game in the WhereQ archive — 1994, 36 files, 2.6 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xi-you-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xi-you-ji.zip"],
           ["Size", "2,764,726 bytes (2.6 MB)"],
           ["SHA-256", "e75640b69237852889578fe9e72eed187c650bab84ab975d61c20e39e557394d"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 西游记 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xi-you-ji.zip", external: true},
+          {label: "Download 西游记 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E8%A5%BF%E6%B8%B8%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

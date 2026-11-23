@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "顺时针谜题 is a DOS game in the WhereQ archive — 1994, 6 files, 1003 KB, and an entry point of CLOCK.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shun-shi-zhen-mi-ti.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A1%BA%E6%97%B6%E9%92%88%E8%B0%9C%E9%A2%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shun-shi-zhen-mi-ti.zip"],
           ["Size", "1,027,098 bytes (1003 KB)"],
           ["SHA-256", "497151e6f76c118b372fe0b4c4b9638f5df196fccfecfdf2a78b99e42f364d21"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A1%BA%E6%97%B6%E9%92%88%E8%B0%9C%E9%A2%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 顺时针谜题 (1003 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shun-shi-zhen-mi-ti.zip", external: true},
+          {label: "Download 顺时针谜题 (1003 KB)", href: "https://dos-bin.zczc.cz/%E9%A1%BA%E6%97%B6%E9%92%88%E8%B0%9C%E9%A2%98.zip", external: true},
         ]},
       ],
     },

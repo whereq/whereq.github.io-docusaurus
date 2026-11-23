@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "殖民计划 is a DOS game in the WhereQ archive — 1996, 190 files, 5.5 MB, and an entry point of APS.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-ji-hua.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E8%AE%A1%E5%88%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-min-ji-hua.zip"],
           ["Size", "5,725,156 bytes (5.5 MB)"],
           ["SHA-256", "0e7531fc0649405231f849fd165b31633bb7beddfa42c36db257f0eea5599e13"],
           ["Files", "190"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E8%AE%A1%E5%88%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 殖民计划 (5.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-min-ji-hua.zip", external: true},
+          {label: "Download 殖民计划 (5.5 MB)", href: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E8%AE%A1%E5%88%92.zip", external: true},
         ]},
       ],
     },

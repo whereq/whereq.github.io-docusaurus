@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "同级生1 is a DOS game in the WhereQ archive — 1995, 40 files, 11.2 MB, and an entry point of NANPA.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tong-ji-sheng-1.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%8C%E7%BA%A7%E7%94%9F1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tong-ji-sheng-1.zip"],
           ["Size", "11,719,310 bytes (11.2 MB)"],
           ["SHA-256", "545d98cdbe4535a84a053e2c875428e18a523626166a5b2ab870e55ee8528521"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%8C%E7%BA%A7%E7%94%9F1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 同级生1 (11.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tong-ji-sheng-1.zip", external: true},
+          {label: "Download 同级生1 (11.2 MB)", href: "https://dos-bin.zczc.cz/%E5%90%8C%E7%BA%A7%E7%94%9F1.zip", external: true},
         ]},
       ],
     },

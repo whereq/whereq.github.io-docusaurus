@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法皇冠 is a DOS game in the WhereQ archive — 1993, 25 files, 601 KB, and an entry point of KOEI.COM.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-huang-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E7%9A%87%E5%86%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-huang-guan.zip"],
           ["Size", "614,999 bytes (601 KB)"],
           ["SHA-256", "27b025cecdb90228e858c605c300fc4d168a07a878f7776331d2d2f9b6189684"],
           ["Files", "25"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E7%9A%87%E5%86%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法皇冠 (601 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-huang-guan.zip", external: true},
+          {label: "Download 魔法皇冠 (601 KB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E7%9A%87%E5%86%A0.zip", external: true},
         ]},
       ],
     },

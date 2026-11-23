@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "核战狂人梦 is a DOS game in the WhereQ archive — 1990, 52 files, 556 KB, and an entry point of NUKEWAR.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/h/he-zhan-kuang-ren-meng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A0%B8%E6%88%98%E7%8B%82%E4%BA%BA%E6%A2%A6.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "he-zhan-kuang-ren-meng.zip"],
           ["Size", "569,777 bytes (556 KB)"],
           ["SHA-256", "53c5f5fea9c4baa37894c04ae80757297669e1b0d06f9ace7af79dca185c0269"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A0%B8%E6%88%98%E7%8B%82%E4%BA%BA%E6%A2%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 核战狂人梦 (556 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/he-zhan-kuang-ren-meng.zip", external: true},
+          {label: "Download 核战狂人梦 (556 KB)", href: "https://dos-bin.zczc.cz/%E6%A0%B8%E6%88%98%E7%8B%82%E4%BA%BA%E6%A2%A6.zip", external: true},
         ]},
       ],
     },

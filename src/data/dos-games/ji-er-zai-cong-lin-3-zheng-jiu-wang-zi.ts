@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "吉尔在丛林3拯救王子 is a DOS game in the WhereQ archive — 1992, 41 files, 238 KB, and an entry point of JILL3.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin-3-zheng-jiu-wang-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%973%E6%8B%AF%E6%95%91%E7%8E%8B%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-er-zai-cong-lin-3-zheng-jiu-wang-zi.zip"],
           ["Size", "243,257 bytes (238 KB)"],
           ["SHA-256", "473884a8c9614f606e53a7e4eb69e21dd630d64c4131de51f0ed1e6d60bca775"],
           ["Files", "41"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%973%E6%8B%AF%E6%95%91%E7%8E%8B%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吉尔在丛林3拯救王子 (238 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin-3-zheng-jiu-wang-zi.zip", external: true},
+          {label: "Download 吉尔在丛林3拯救王子 (238 KB)", href: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%973%E6%8B%AF%E6%95%91%E7%8E%8B%E5%AD%90.zip", external: true},
         ]},
       ],
     },

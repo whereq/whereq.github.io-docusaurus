@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "微软飞行模拟+3个资料片 is a DOS game in the WhereQ archive — 1996, 734 files, 10.3 MB, and an entry point of fs.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%AE%E8%BD%AF%E9%A3%9E%E8%A1%8C%E6%A8%A1%E6%8B%9F%2B3%E4%B8%AA%E8%B5%84%E6%96%99%E7%89%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian.zip"],
           ["Size", "10,827,652 bytes (10.3 MB)"],
           ["SHA-256", "24cfe49dc581980a4870d1743b5cd63805d6ddbf9a009a3f2140044cb29d39c0"],
           ["Files", "734"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%AE%E8%BD%AF%E9%A3%9E%E8%A1%8C%E6%A8%A1%E6%8B%9F%2B3%E4%B8%AA%E8%B5%84%E6%96%99%E7%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 微软飞行模拟+3个资料片 (10.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian.zip", external: true},
+          {label: "Download 微软飞行模拟+3个资料片 (10.3 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%AE%E8%BD%AF%E9%A3%9E%E8%A1%8C%E6%A8%A1%E6%8B%9F%2B3%E4%B8%AA%E8%B5%84%E6%96%99%E7%89%87.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "扑克俱乐部 is a DOS game in the WhereQ archive — 1994, 127 files, 1.3 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pu-ke-ju-le-bu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%89%91%E5%85%8B%E4%BF%B1%E4%B9%90%E9%83%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pu-ke-ju-le-bu.zip"],
           ["Size", "1,365,934 bytes (1.3 MB)"],
           ["SHA-256", "ad3219467be783360234be4ec669b62031f276d81b936a07a77a9d1580251012"],
           ["Files", "127"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%89%91%E5%85%8B%E4%BF%B1%E4%B9%90%E9%83%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 扑克俱乐部 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/pu-ke-ju-le-bu.zip", external: true},
+          {label: "Download 扑克俱乐部 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E6%89%91%E5%85%8B%E4%BF%B1%E4%B9%90%E9%83%A8.zip", external: true},
         ]},
       ],
     },

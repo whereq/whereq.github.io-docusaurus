@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "撼天神塔2 is a DOS game in the WhereQ archive — 1997, 171 files, 103.3 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/han-tian-shen-ta-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%942.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "han-tian-shen-ta-2.zip"],
           ["Size", "108,281,708 bytes (103.3 MB)"],
           ["SHA-256", "9a4036de143225158dfe959071b91dc5d64f07d9ee62ecf65563090324193649"],
           ["Files", "171"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%942.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 撼天神塔2 (103.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/han-tian-shen-ta-2.zip", external: true},
+          {label: "Download 撼天神塔2 (103.3 MB)", href: "https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%942.zip", external: true},
         ]},
       ],
     },

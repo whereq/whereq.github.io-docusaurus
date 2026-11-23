@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海盗黄金版 is a DOS game in the WhereQ archive — an undated copy, 249 files, 12.0 MB, and an entry point of PIRATESG.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-dao-huang-jin-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E9%BB%84%E9%87%91%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-dao-huang-jin-ban.zip"],
           ["Size", "12,541,257 bytes (12.0 MB)"],
           ["SHA-256", "9053805afe1335beb3b9789de47e69554f6291bba8f196ec01c1e40e474f4816"],
           ["Files", "249"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E9%BB%84%E9%87%91%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海盗黄金版 (12.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-dao-huang-jin-ban.zip", external: true},
+          {label: "Download 海盗黄金版 (12.0 MB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E9%BB%84%E9%87%91%E7%89%88.zip", external: true},
         ]},
       ],
     },

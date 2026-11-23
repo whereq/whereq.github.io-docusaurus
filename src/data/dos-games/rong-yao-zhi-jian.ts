@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "荣耀之剑 is a DOS game in the WhereQ archive — 1996, 136 files, 705 KB, and an entry point of soh.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E5%89%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "rong-yao-zhi-jian.zip"],
           ["Size", "721,557 bytes (705 KB)"],
           ["SHA-256", "243478bc0833bd51a8d19ac8cc53defe9a54b6b576fb5b1676f4883cda878d0f"],
           ["Files", "136"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E5%89%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 荣耀之剑 (705 KB)", href: "https://github.com/whereq/dos-games/releases/download/r/rong-yao-zhi-jian.zip", external: true},
+          {label: "Download 荣耀之剑 (705 KB)", href: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E5%89%91.zip", external: true},
         ]},
       ],
     },

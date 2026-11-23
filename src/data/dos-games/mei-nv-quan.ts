@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美女拳 is a DOS game in the WhereQ archive — 1991, 59 files, 5.7 MB, and an entry point of PLAY.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-nv-quan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%A5%B3%E6%8B%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-nv-quan.zip"],
           ["Size", "5,928,655 bytes (5.7 MB)"],
           ["SHA-256", "91f45c537bf8add83680d23142a6d9a606e54289a6de23c39cbae7a74a3266ea"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E5%A5%B3%E6%8B%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美女拳 (5.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-nv-quan.zip", external: true},
+          {label: "Download 美女拳 (5.7 MB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%A5%B3%E6%8B%B3.zip", external: true},
         ]},
       ],
     },

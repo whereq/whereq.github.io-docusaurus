@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "炽天之翼 is a DOS game in the WhereQ archive — 1997, 2,074 files, 16.7 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chi-tian-zhi-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%82%BD%E5%A4%A9%E4%B9%8B%E7%BF%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chi-tian-zhi-yi.zip"],
           ["Size", "17,513,842 bytes (16.7 MB)"],
           ["SHA-256", "c9ac1c3b60b370f975877ee99dea998c5682f3d7fb5f3af4a737154fa7636731"],
           ["Files", "2,074"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%82%BD%E5%A4%A9%E4%B9%8B%E7%BF%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 炽天之翼 (16.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chi-tian-zhi-yi.zip", external: true},
+          {label: "Download 炽天之翼 (16.7 MB)", href: "https://dos-bin.zczc.cz/%E7%82%BD%E5%A4%A9%E4%B9%8B%E7%BF%BC.zip", external: true},
         ]},
       ],
     },

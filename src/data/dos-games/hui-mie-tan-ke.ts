@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "毁灭坦克 is a DOS game in the WhereQ archive — 1997, 70 files, 13.4 MB, and an entry point of MASSD.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-tan-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%9D%A6%E5%85%8B.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-mie-tan-ke.zip"],
           ["Size", "14,074,999 bytes (13.4 MB)"],
           ["SHA-256", "57836db4dbc17dd5f4c9632022c1be691ae595ad54ed1e439c2986712196c8df"],
           ["Files", "70"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%9D%A6%E5%85%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 毁灭坦克 (13.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-tan-ke.zip", external: true},
+          {label: "Download 毁灭坦克 (13.4 MB)", href: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%9D%A6%E5%85%8B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "德鲁伊恶魔之心 is a DOS game in the WhereQ archive — 1995, 1,150 files, 39.8 MB, and an entry point of DRUID.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/de-lu-yi-e-mo-zhi-xin.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%B7%E9%B2%81%E4%BC%8A%E6%81%B6%E9%AD%94%E4%B9%8B%E5%BF%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "de-lu-yi-e-mo-zhi-xin.zip"],
           ["Size", "41,686,122 bytes (39.8 MB)"],
           ["SHA-256", "1a6798c41c15753509947e8164df1711dbd3b41ead197830f92a1e3f9e1e8d31"],
           ["Files", "1,150"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%B7%E9%B2%81%E4%BC%8A%E6%81%B6%E9%AD%94%E4%B9%8B%E5%BF%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 德鲁伊恶魔之心 (39.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/de-lu-yi-e-mo-zhi-xin.zip", external: true},
+          {label: "Download 德鲁伊恶魔之心 (39.8 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%B7%E9%B2%81%E4%BC%8A%E6%81%B6%E9%AD%94%E4%B9%8B%E5%BF%83.zip", external: true},
         ]},
       ],
     },

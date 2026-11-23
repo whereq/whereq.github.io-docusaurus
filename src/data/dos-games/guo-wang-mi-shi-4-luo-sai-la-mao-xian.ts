@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王密使4罗塞拉冒险 is a DOS game in the WhereQ archive — 1988, 32 files, 2.7 MB, and an entry point of SIERRA.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-4-luo-sai-la-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF4%E7%BD%97%E5%A1%9E%E6%8B%89%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-mi-shi-4-luo-sai-la-mao-xian.zip"],
           ["Size", "2,869,669 bytes (2.7 MB)"],
           ["SHA-256", "4445ed4a75822db917434e10277a6921659d6376909cd1198899964520f4182c"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF4%E7%BD%97%E5%A1%9E%E6%8B%89%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王密使4罗塞拉冒险 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-4-luo-sai-la-mao-xian.zip", external: true},
+          {label: "Download 国王密使4罗塞拉冒险 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF4%E7%BD%97%E5%A1%9E%E6%8B%89%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "忍者山洞人 is a DOS game in the WhereQ archive — 2009, 8 files, 2.1 MB, and an entry point of caveman.exe.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-shan-dong-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%B1%B1%E6%B4%9E%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ren-zhe-shan-dong-ren.zip"],
           ["Size", "2,159,516 bytes (2.1 MB)"],
           ["SHA-256", "7597cddc2b60106bd9f4b0792846ea41631866775709b852766bc74ab5d5edff"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%B1%B1%E6%B4%9E%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 忍者山洞人 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/ren-zhe-shan-dong-ren.zip", external: true},
+          {label: "Download 忍者山洞人 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%B1%B1%E6%B4%9E%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

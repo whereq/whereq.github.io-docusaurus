@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "冠军足球经理2 is a DOS game in the WhereQ archive — 1996, 165 files, 13.0 MB, and an entry point of GO.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guan-jun-zu-qiu-jing-li-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%862.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guan-jun-zu-qiu-jing-li-2.zip"],
           ["Size", "13,677,287 bytes (13.0 MB)"],
           ["SHA-256", "154a5d67771e081cd03efcd61cc6d61aa9bd2279405740ab487377c70aa8506f"],
           ["Files", "165"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%862.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 冠军足球经理2 (13.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guan-jun-zu-qiu-jing-li-2.zip", external: true},
+          {label: "Download 冠军足球经理2 (13.0 MB)", href: "https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%862.zip", external: true},
         ]},
       ],
     },

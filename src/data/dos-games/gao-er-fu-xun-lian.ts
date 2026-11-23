@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "高尔夫训练 is a DOS game in the WhereQ archive — 1993, 31 files, 1.3 MB, and an entry point of LINKS.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gao-er-fu-xun-lian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AB%98%E5%B0%94%E5%A4%AB%E8%AE%AD%E7%BB%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gao-er-fu-xun-lian.zip"],
           ["Size", "1,402,678 bytes (1.3 MB)"],
           ["SHA-256", "9b4574b4227f9fb1248c2a42420fd70144d0f1975b2d3e4b7fc2f6d950949ed0"],
           ["Files", "31"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AB%98%E5%B0%94%E5%A4%AB%E8%AE%AD%E7%BB%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 高尔夫训练 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gao-er-fu-xun-lian.zip", external: true},
+          {label: "Download 高尔夫训练 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E9%AB%98%E5%B0%94%E5%A4%AB%E8%AE%AD%E7%BB%83.zip", external: true},
         ]},
       ],
     },

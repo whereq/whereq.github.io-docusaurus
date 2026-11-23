@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔幻霸主 is a DOS game in the WhereQ archive — 1994, 447 files, 10.1 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-huan-ba-zhu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B9%BB%E9%9C%B8%E4%B8%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-huan-ba-zhu.zip"],
           ["Size", "10,571,867 bytes (10.1 MB)"],
           ["SHA-256", "48f7ce398e6e5a8f55c2bb6c39c85a99798534c48ed0085dd13d3d07ce8eb04e"],
           ["Files", "447"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%B9%BB%E9%9C%B8%E4%B8%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔幻霸主 (10.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-huan-ba-zhu.zip", external: true},
+          {label: "Download 魔幻霸主 (10.1 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B9%BB%E9%9C%B8%E4%B8%BB.zip", external: true},
         ]},
       ],
     },

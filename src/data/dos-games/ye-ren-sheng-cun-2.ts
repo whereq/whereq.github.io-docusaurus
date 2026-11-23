@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "野人生存2 is a DOS game in the WhereQ archive — 1996, 15 files, 201 KB, and an entry point of CLONK.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ye-ren-sheng-cun-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%8E%E4%BA%BA%E7%94%9F%E5%AD%982.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ye-ren-sheng-cun-2.zip"],
           ["Size", "206,328 bytes (201 KB)"],
           ["SHA-256", "676a642521c2aae20c1fb8ebec77c51cbaaaa92865c34c481842eed754a914bc"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%8E%E4%BA%BA%E7%94%9F%E5%AD%982.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 野人生存2 (201 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/ye-ren-sheng-cun-2.zip", external: true},
+          {label: "Download 野人生存2 (201 KB)", href: "https://dos-bin.zczc.cz/%E9%87%8E%E4%BA%BA%E7%94%9F%E5%AD%982.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "太空第9计划 is a DOS game in the WhereQ archive — 1992, 22 files, 2.2 MB, and an entry point of PLAN9.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-di-9-ji-hua.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E7%AC%AC9%E8%AE%A1%E5%88%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-kong-di-9-ji-hua.zip"],
           ["Size", "2,257,653 bytes (2.2 MB)"],
           ["SHA-256", "1712080e5afb01783596d5ce1f9c70a559ad496c035bee7c7a88bfeb96a88f02"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E7%AC%AC9%E8%AE%A1%E5%88%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 太空第9计划 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-di-9-ji-hua.zip", external: true},
+          {label: "Download 太空第9计划 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E7%AC%AC9%E8%AE%A1%E5%88%92.zip", external: true},
         ]},
       ],
     },

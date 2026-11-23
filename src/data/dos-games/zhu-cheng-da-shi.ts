@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "筑城大师 is a DOS game in the WhereQ archive — 1991, 64 files, 822 KB, and an entry point of CASTLES1.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhu-cheng-da-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AD%91%E5%9F%8E%E5%A4%A7%E5%B8%88.zip",
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhu-cheng-da-shi.zip"],
           ["Size", "841,349 bytes (822 KB)"],
           ["SHA-256", "0d4a0480d5a1d761454112a03149e3928d440e5bbdfe3291332bc4d9157e6eee"],
           ["Files", "64"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AD%91%E5%9F%8E%E5%A4%A7%E5%B8%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 筑城大师 (822 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhu-cheng-da-shi.zip", external: true},
+          {label: "Download 筑城大师 (822 KB)", href: "https://dos-bin.zczc.cz/%E7%AD%91%E5%9F%8E%E5%A4%A7%E5%B8%88.zip", external: true},
         ]},
       ],
     },

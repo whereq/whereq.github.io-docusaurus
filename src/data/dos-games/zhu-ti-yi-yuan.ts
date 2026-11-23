@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "主题医院 is a DOS game in the WhereQ archive — 1997, 470 files, 151.1 MB, and an entry point of HOSPITAL.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-yi-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2S.zip",
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhu-ti-yi-yuan.zip"],
           ["Size", "158,407,209 bytes (151.1 MB)"],
           ["SHA-256", "53b3e39ab6d57937301fdffe0c6a663d5c4eeb738794778360617e6b0e3ea92b"],
           ["Files", "470"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2S.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 主题医院 (151.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhu-ti-yi-yuan.zip", external: true},
+          {label: "Download 主题医院 (151.1 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2S.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级三剑客 is a DOS game in the WhereQ archive — 1980, 71 files, 1.1 MB, and an entry point of ST.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-san-jian-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%B8%89%E5%89%91%E5%AE%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-san-jian-ke.zip"],
           ["Size", "1,145,194 bytes (1.1 MB)"],
           ["SHA-256", "597e800d1cad57567b91b2be98731cfa9e8f90d4de536ac760aa8af736bfaed9"],
           ["Files", "71"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%B8%89%E5%89%91%E5%AE%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级三剑客 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-san-jian-ke.zip", external: true},
+          {label: "Download 超级三剑客 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E4%B8%89%E5%89%91%E5%AE%A2.zip", external: true},
         ]},
       ],
     },

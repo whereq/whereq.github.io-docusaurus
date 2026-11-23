@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "吞豆人 is a DOS game in the WhereQ archive — 1994, 2 files, 71 KB, and an entry point of GOBMAN.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tun-dou-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%9E%E8%B1%86%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tun-dou-ren.zip"],
           ["Size", "72,390 bytes (71 KB)"],
           ["SHA-256", "7fc306364b6fed7602d2d83e662bdd24381b1c49f52c60b25d4fba4abca7a6c8"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%9E%E8%B1%86%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吞豆人 (71 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tun-dou-ren.zip", external: true},
+          {label: "Download 吞豆人 (71 KB)", href: "https://dos-bin.zczc.cz/%E5%90%9E%E8%B1%86%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

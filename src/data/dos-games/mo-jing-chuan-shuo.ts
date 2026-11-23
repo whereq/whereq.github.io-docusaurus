@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔境传说 is a DOS game in the WhereQ archive — 1990, 102 files, 1.2 MB, and an entry point of RASTAN.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-jing-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%A2%83%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-jing-chuan-shuo.zip"],
           ["Size", "1,259,519 bytes (1.2 MB)"],
           ["SHA-256", "631e0992fb3d2c06c07a052934473f19fdb657b13e61bfecd822a5696738ae06"],
           ["Files", "102"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%A2%83%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔境传说 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-jing-chuan-shuo.zip", external: true},
+          {label: "Download 魔境传说 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%A2%83%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

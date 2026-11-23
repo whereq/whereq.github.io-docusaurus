@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "王位继承者 is a DOS game in the WhereQ archive — 1994, 17 files, 2.5 MB, and an entry point of START.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wang-wei-ji-cheng-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%8B%E4%BD%8D%E7%BB%A7%E6%89%BF%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wang-wei-ji-cheng-zhe.zip"],
           ["Size", "2,641,046 bytes (2.5 MB)"],
           ["SHA-256", "aae210f056ff80066ed8049b44fdd411792dc0e9b254dbcf4abea4448ea757e8"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%8B%E4%BD%8D%E7%BB%A7%E6%89%BF%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 王位继承者 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wang-wei-ji-cheng-zhe.zip", external: true},
+          {label: "Download 王位继承者 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E7%8E%8B%E4%BD%8D%E7%BB%A7%E6%89%BF%E8%80%85.zip", external: true},
         ]},
       ],
     },

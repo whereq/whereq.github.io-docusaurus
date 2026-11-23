@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "碟形世界 is a DOS game in the WhereQ archive — 1980, 197 files, 19.8 MB, and an entry point of START.bat.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/d/die-xing-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A2%9F%E5%BD%A2%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "die-xing-shi-jie.zip"],
           ["Size", "20,804,230 bytes (19.8 MB)"],
           ["SHA-256", "42b74906e1ea700cfe60d5251340ab9e68b42034a22c3be8c7b28f5b3ef37f29"],
           ["Files", "197"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A2%9F%E5%BD%A2%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 碟形世界 (19.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/die-xing-shi-jie.zip", external: true},
+          {label: "Download 碟形世界 (19.8 MB)", href: "https://dos-bin.zczc.cz/%E7%A2%9F%E5%BD%A2%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "毁灭公爵3D is a DOS game in the WhereQ archive — 1996, 47 files, 21.2 MB, and an entry point of DUKE3D.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-gong-jue-3d.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B53D.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-mie-gong-jue-3d.zip"],
           ["Size", "22,231,998 bytes (21.2 MB)"],
           ["SHA-256", "42c1fad2c98cec83e789d1405d16d8d68d3a9acd9b4847e7000f9f750743fa8c"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B53D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 毁灭公爵3D (21.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-gong-jue-3d.zip", external: true},
+          {label: "Download 毁灭公爵3D (21.2 MB)", href: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B53D.zip", external: true},
         ]},
       ],
     },

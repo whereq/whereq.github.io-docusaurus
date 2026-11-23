@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "蓝色马克思 is a DOS game in the WhereQ archive — 1991, 7 files, 772 KB, and an entry point of BLUEMAX.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lan-se-ma-ke-si.zip",
+  url: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E9%A9%AC%E5%85%8B%E6%80%9D.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lan-se-ma-ke-si.zip"],
           ["Size", "790,195 bytes (772 KB)"],
           ["SHA-256", "fd520bffb6dfac4280732368c4fe7e4f2deddb65ce00a1120a6ed61b2ee22c4f"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E9%A9%AC%E5%85%8B%E6%80%9D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蓝色马克思 (772 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/lan-se-ma-ke-si.zip", external: true},
+          {label: "Download 蓝色马克思 (772 KB)", href: "https://dos-bin.zczc.cz/%E8%93%9D%E8%89%B2%E9%A9%AC%E5%85%8B%E6%80%9D.zip", external: true},
         ]},
       ],
     },

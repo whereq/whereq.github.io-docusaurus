@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "上帝之锤 is a DOS game in the WhereQ archive — 1994, 331 files, 26.0 MB, and an entry point of HAMMER.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shang-di-zhi-chui.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%8B%E9%94%A4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shang-di-zhi-chui.zip"],
           ["Size", "27,269,220 bytes (26.0 MB)"],
           ["SHA-256", "05c61f6363b88ac5650c175b9046daa43d6bc1c0c8d9c48c22508c02dc81e3cb"],
           ["Files", "331"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%8B%E9%94%A4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 上帝之锤 (26.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shang-di-zhi-chui.zip", external: true},
+          {label: "Download 上帝之锤 (26.0 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%8B%E9%94%A4.zip", external: true},
         ]},
       ],
     },

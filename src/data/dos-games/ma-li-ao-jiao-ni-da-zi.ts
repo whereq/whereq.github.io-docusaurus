@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "马里奥教你打字 is a DOS game in the WhereQ archive — 1992, 173 files, 2.0 MB, and an entry point of MARIO.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-jiao-ni-da-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%95%99%E4%BD%A0%E6%89%93%E5%AD%97.zip",
   facts: [
     {label: "Developer", value: "INTERPLAY"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-li-ao-jiao-ni-da-zi.zip"],
           ["Size", "2,109,591 bytes (2.0 MB)"],
           ["SHA-256", "cd3364d02f24a6c9d431557b1f2c0e864b6bdf24be3ae3a9d7f30da5d38adcd6"],
           ["Files", "173"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%95%99%E4%BD%A0%E6%89%93%E5%AD%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 马里奥教你打字 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-jiao-ni-da-zi.zip", external: true},
+          {label: "Download 马里奥教你打字 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%95%99%E4%BD%A0%E6%89%93%E5%AD%97.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻象雷电 is a DOS game in the WhereQ archive — 1996, 285 files, 5.3 MB, and an entry point of dif2.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-lei-dian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E9%9B%B7%E7%94%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-xiang-lei-dian.zip"],
           ["Size", "5,546,312 bytes (5.3 MB)"],
           ["SHA-256", "3f286fbe946d332c91ffff3b950b252c96207e7a817267f0dbdb105a15f5a081"],
           ["Files", "285"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E9%9B%B7%E7%94%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻象雷电 (5.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-lei-dian.zip", external: true},
+          {label: "Download 幻象雷电 (5.3 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E9%9B%B7%E7%94%B5.zip", external: true},
         ]},
       ],
     },

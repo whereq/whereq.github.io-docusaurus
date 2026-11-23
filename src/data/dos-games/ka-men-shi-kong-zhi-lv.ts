@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "卡门时空之旅 is a DOS game in the WhereQ archive — 1996, 12 files, 551 KB, and an entry point of carmen.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ka-men-shi-kong-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ka-men-shi-kong-zhi-lv.zip"],
           ["Size", "564,697 bytes (551 KB)"],
           ["SHA-256", "cfe7a2acb83b1d588b62fb5d34f53f1cba7d514aae71a9ced4661f0cc31cf1ab"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卡门时空之旅 (551 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/ka-men-shi-kong-zhi-lv.zip", external: true},
+          {label: "Download 卡门时空之旅 (551 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%97%A8%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

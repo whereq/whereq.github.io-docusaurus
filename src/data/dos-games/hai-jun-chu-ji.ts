@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海军出击 is a DOS game in the WhereQ archive — 1996, 950 files, 24.5 MB, and an entry point of DOS4GW.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-jun-chu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%86%9B%E5%87%BA%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-jun-chu-ji.zip"],
           ["Size", "25,710,074 bytes (24.5 MB)"],
           ["SHA-256", "6fd33be7596032cb8c7eec08dc9c717d702ac5f168f2bf693ec62b79a6284a6c"],
           ["Files", "950"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E5%86%9B%E5%87%BA%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海军出击 (24.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-jun-chu-ji.zip", external: true},
+          {label: "Download 海军出击 (24.5 MB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%86%9B%E5%87%BA%E5%87%BB.zip", external: true},
         ]},
       ],
     },

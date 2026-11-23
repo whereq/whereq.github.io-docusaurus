@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "古文明霸王传 is a DOS game in the WhereQ archive — an undated copy, 89 files, 354.1 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-wen-ming-ba-wang-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-wen-ming-ba-wang-chuan.zip"],
           ["Size", "371,279,888 bytes (354.1 MB)"],
           ["SHA-256", "f1e1909e199661664649021ca12f4c7b096a23fab5505258d1f034b043feb4bb"],
           ["Files", "89"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 古文明霸王传 (354.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-wen-ming-ba-wang-chuan.zip", external: true},
+          {label: "Download 古文明霸王传 (354.1 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "银河飞将训练营 is a DOS game in the WhereQ archive — 1996, 115 files, 4.0 MB, and an entry point of wca.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-xun-lian-ying.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E8%AE%AD%E7%BB%83%E8%90%A5.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-he-fei-jiang-xun-lian-ying.zip"],
           ["Size", "4,171,464 bytes (4.0 MB)"],
           ["SHA-256", "9c5661f336358394f44cae7c8e4e10db95094b15ff60e3e03304f49ffb65cfa0"],
           ["Files", "115"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E8%AE%AD%E7%BB%83%E8%90%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 银河飞将训练营 (4.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-he-fei-jiang-xun-lian-ying.zip", external: true},
+          {label: "Download 银河飞将训练营 (4.0 MB)", href: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E8%AE%AD%E7%BB%83%E8%90%A5.zip", external: true},
         ]},
       ],
     },

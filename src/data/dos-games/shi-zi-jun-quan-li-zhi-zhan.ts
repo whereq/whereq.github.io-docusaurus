@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "十字军权利之战 is a DOS game in the WhereQ archive — 1996, 39 files, 13.2 MB, and an entry point of CRUSADE.COM.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-zi-jun-quan-li-zhi-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%81%E5%AD%97%E5%86%9B%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-zi-jun-quan-li-zhi-zhan.zip"],
           ["Size", "13,860,970 bytes (13.2 MB)"],
           ["SHA-256", "af1540dfcb404493563b3c01d711a0d1e8a8bf026c2544e9da9233232b6962d8"],
           ["Files", "39"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%81%E5%AD%97%E5%86%9B%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 十字军权利之战 (13.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-zi-jun-quan-li-zhi-zhan.zip", external: true},
+          {label: "Download 十字军权利之战 (13.2 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%81%E5%AD%97%E5%86%9B%E6%9D%83%E5%88%A9%E4%B9%8B%E6%88%98.zip", external: true},
         ]},
       ],
     },

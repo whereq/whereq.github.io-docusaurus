@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔域传奇:石之预言者1.1 is a DOS game in the WhereQ archive — 1995, 81 files, 40.0 MB, and an entry point of PROPHET.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E7%9F%B3%E4%B9%8B%E9%A2%84%E8%A8%80%E8%80%851.1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1.zip"],
           ["Size", "41,945,759 bytes (40.0 MB)"],
           ["SHA-256", "d7a416934da38245f9a1573c6eb0374e874336ad240191ccfa70a1897398eca7"],
           ["Files", "81"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E7%9F%B3%E4%B9%8B%E9%A2%84%E8%A8%80%E8%80%851.1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔域传奇:石之预言者1.1 (40.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1.zip", external: true},
+          {label: "Download 魔域传奇:石之预言者1.1 (40.0 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E7%9F%B3%E4%B9%8B%E9%A2%84%E8%A8%80%E8%80%851.1.zip", external: true},
         ]},
       ],
     },

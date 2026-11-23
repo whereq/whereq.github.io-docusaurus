@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "极超豪拳 is a DOS game in the WhereQ archive — 2008, 357 files, 73.9 MB, and an entry point of 32RTM.EXE.",
   status: "2008",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-chao-hao-quan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9E%81%E8%B6%85%E8%B1%AA%E6%8B%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2008"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-chao-hao-quan.zip"],
           ["Size", "77,482,561 bytes (73.9 MB)"],
           ["SHA-256", "908a6d2628a9a66aa552af6882062379a23721352e1e20778dcf1f4e2511dd39"],
           ["Files", "357"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9E%81%E8%B6%85%E8%B1%AA%E6%8B%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 极超豪拳 (73.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-chao-hao-quan.zip", external: true},
+          {label: "Download 极超豪拳 (73.9 MB)", href: "https://dos-bin.zczc.cz/%E6%9E%81%E8%B6%85%E8%B1%AA%E6%8B%B3.zip", external: true},
         ]},
       ],
     },

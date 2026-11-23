@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "里世界/狼女 is a DOS game in the WhereQ archive — an undated copy, 9 files, 19.4 MB, and an entry point of IW.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/l/li-shi-jie-lang-nv.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%8C%E4%B8%96%E7%95%8C%EF%BC%8F%E7%8B%BC%E5%A5%B3.zip",
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "li-shi-jie-lang-nv.zip"],
           ["Size", "20,323,715 bytes (19.4 MB)"],
           ["SHA-256", "71776b259112b817d2d257d059638e2533b32da59a59468733bfb294923d12a6"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%8C%E4%B8%96%E7%95%8C%EF%BC%8F%E7%8B%BC%E5%A5%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 里世界/狼女 (19.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/li-shi-jie-lang-nv.zip", external: true},
+          {label: "Download 里世界/狼女 (19.4 MB)", href: "https://dos-bin.zczc.cz/%E9%87%8C%E4%B8%96%E7%95%8C%EF%BC%8F%E7%8B%BC%E5%A5%B3.zip", external: true},
         ]},
       ],
     },

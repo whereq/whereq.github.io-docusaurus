@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "青少棒扬威记 is a DOS game in the WhereQ archive — 2007, 403 files, 233.1 MB, and an entry point of PLAY.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qing-shao-bang-yang-wei-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9D%92%E5%B0%91%E6%A3%92%E6%89%AC%E5%A8%81%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qing-shao-bang-yang-wei-ji.zip"],
           ["Size", "244,418,243 bytes (233.1 MB)"],
           ["SHA-256", "bdf4e84c907a73d6ef4a776e925cb5ec603250f9a1a17cad1e7b67de235bd565"],
           ["Files", "403"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9D%92%E5%B0%91%E6%A3%92%E6%89%AC%E5%A8%81%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 青少棒扬威记 (233.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qing-shao-bang-yang-wei-ji.zip", external: true},
+          {label: "Download 青少棒扬威记 (233.1 MB)", href: "https://dos-bin.zczc.cz/%E9%9D%92%E5%B0%91%E6%A3%92%E6%89%AC%E5%A8%81%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小恶魔 is a DOS game in the WhereQ archive — 1996, 92 files, 16.3 MB, and an entry point of DIVIL.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-e-mo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%81%B6%E9%AD%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-e-mo.zip"],
           ["Size", "17,045,737 bytes (16.3 MB)"],
           ["SHA-256", "69f347f3faf57afaffbed8a2fccc71840c3a25de5b9c2894ba223519e15e35f0"],
           ["Files", "92"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E6%81%B6%E9%AD%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小恶魔 (16.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-e-mo.zip", external: true},
+          {label: "Download 小恶魔 (16.3 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%81%B6%E9%AD%94.zip", external: true},
         ]},
       ],
     },

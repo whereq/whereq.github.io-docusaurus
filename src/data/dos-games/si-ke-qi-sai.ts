@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "斯科奇赛 is a DOS game in the WhereQ archive — 1994, 26 files, 9.0 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-ke-qi-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%AF%E7%A7%91%E5%A5%87%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-ke-qi-sai.zip"],
           ["Size", "9,390,751 bytes (9.0 MB)"],
           ["SHA-256", "960e109d4b0862664b34f4854fad4516ecf4156ac5d18194aa1ffd84a329eb77"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%AF%E7%A7%91%E5%A5%87%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 斯科奇赛 (9.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-ke-qi-sai.zip", external: true},
+          {label: "Download 斯科奇赛 (9.0 MB)", href: "https://dos-bin.zczc.cz/%E6%96%AF%E7%A7%91%E5%A5%87%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "爵士兔完整版 is a DOS game in the WhereQ archive — 1994, 522 files, 38.6 MB, and an entry point of JAZZ.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-wan-zheng-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%E5%AE%8C%E6%95%B4%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-shi-tu-wan-zheng-ban.zip"],
           ["Size", "40,514,303 bytes (38.6 MB)"],
           ["SHA-256", "79402b272699c8c5193932c38ea45eb30f6d58c90754d756b241c7865c8750be"],
           ["Files", "522"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%E5%AE%8C%E6%95%B4%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爵士兔完整版 (38.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-shi-tu-wan-zheng-ban.zip", external: true},
+          {label: "Download 爵士兔完整版 (38.6 MB)", href: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%E5%AE%8C%E6%95%B4%E7%89%88.zip", external: true},
         ]},
       ],
     },

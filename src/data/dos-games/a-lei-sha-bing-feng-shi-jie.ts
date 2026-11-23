@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿蕾莎冰封世界 is a DOS game in the WhereQ archive — 1996, 223 files, 2.5 MB, and an entry point of ALESHAR.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-lei-sha-bing-feng-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E8%95%BE%E8%8E%8E%E5%86%B0%E5%B0%81%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-lei-sha-bing-feng-shi-jie.zip"],
           ["Size", "2,662,805 bytes (2.5 MB)"],
           ["SHA-256", "857ca7f473968836d03b9f56126e6d728eb7a94f9760d7db3dcbadbc9beb7b36"],
           ["Files", "223"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E8%95%BE%E8%8E%8E%E5%86%B0%E5%B0%81%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿蕾莎冰封世界 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-lei-sha-bing-feng-shi-jie.zip", external: true},
+          {label: "Download 阿蕾莎冰封世界 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E8%95%BE%E8%8E%8E%E5%86%B0%E5%B0%81%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑星正义使者 is a DOS game in the WhereQ archive — 1996, 35 files, 1.6 MB, and an entry point of run.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-xing-zheng-yi-shi-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%98%9F%E6%AD%A3%E4%B9%89%E4%BD%BF%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-xing-zheng-yi-shi-zhe.zip"],
           ["Size", "1,633,032 bytes (1.6 MB)"],
           ["SHA-256", "8d394e11c2cb5799524d0bb085e387bce16e3a0f0d2e3f5232cd6535cba78693"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%98%9F%E6%AD%A3%E4%B9%89%E4%BD%BF%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑星正义使者 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-xing-zheng-yi-shi-zhe.zip", external: true},
+          {label: "Download 黑星正义使者 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%98%9F%E6%AD%A3%E4%B9%89%E4%BD%BF%E8%80%85.zip", external: true},
         ]},
       ],
     },

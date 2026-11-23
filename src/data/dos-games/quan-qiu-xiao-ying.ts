@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "全球效应 is a DOS game in the WhereQ archive — 1992, 121 files, 555 KB, and an entry point of GLOBV.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/q/quan-qiu-xiao-ying.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%A8%E7%90%83%E6%95%88%E5%BA%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "quan-qiu-xiao-ying.zip"],
           ["Size", "568,179 bytes (555 KB)"],
           ["SHA-256", "13c533d86ffde51007043c246de8e6fa505c0829fae4d7d406cb9abb5b7ece37"],
           ["Files", "121"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%A8%E7%90%83%E6%95%88%E5%BA%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 全球效应 (555 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/quan-qiu-xiao-ying.zip", external: true},
+          {label: "Download 全球效应 (555 KB)", href: "https://dos-bin.zczc.cz/%E5%85%A8%E7%90%83%E6%95%88%E5%BA%94.zip", external: true},
         ]},
       ],
     },

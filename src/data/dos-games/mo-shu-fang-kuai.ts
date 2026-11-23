@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔术方块 is a DOS game in the WhereQ archive — 1980, 4 files, 21 KB, and an entry point of PLAY.BAT.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-shu-fang-kuai.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%9C%AF%E6%96%B9%E5%9D%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-shu-fang-kuai.zip"],
           ["Size", "21,934 bytes (21 KB)"],
           ["SHA-256", "6b0b6309acafb6110863eaceb775988a0e8e2b312e13bfa784735cb31a7ee8a4"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%9C%AF%E6%96%B9%E5%9D%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔术方块 (21 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-shu-fang-kuai.zip", external: true},
+          {label: "Download 魔术方块 (21 KB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%9C%AF%E6%96%B9%E5%9D%97.zip", external: true},
         ]},
       ],
     },

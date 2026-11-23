@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法世纪2 is a DOS game in the WhereQ archive — 1994, 65 files, 2.8 MB, and an entry point of MG2.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-ji-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B8%96%E7%BA%AA2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-shi-ji-2.zip"],
           ["Size", "2,940,092 bytes (2.8 MB)"],
           ["SHA-256", "0f885151f702723cf91f4d997dee8a33cce236e3a3a0ddc88e2f2a35e1699820"],
           ["Files", "65"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B8%96%E7%BA%AA2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法世纪2 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shi-ji-2.zip", external: true},
+          {label: "Download 魔法世纪2 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%B8%96%E7%BA%AA2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天路赛车 is a DOS game in the WhereQ archive — 1996, 29 files, 578 KB, and an entry point of skyroads.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-lu-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-lu-sai-che.zip"],
           ["Size", "591,962 bytes (578 KB)"],
           ["SHA-256", "c425bcabe484cd2c67f2798a2a0e50d42a39a802051bb2db22d6b295e342e0a7"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天路赛车 (578 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-lu-sai-che.zip", external: true},
+          {label: "Download 天路赛车 (578 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E8%B7%AF%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

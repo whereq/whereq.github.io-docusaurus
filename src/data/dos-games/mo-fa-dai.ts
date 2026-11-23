@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法袋 is a DOS game in the WhereQ archive — 1992, 77 files, 669 KB, and an entry point of INTRO.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-dai.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E8%A2%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-dai.zip"],
           ["Size", "684,596 bytes (669 KB)"],
           ["SHA-256", "6c3ba4d8e2b91f001dda28d4f4cca90e7704ddf1f481636925bb7f927c90333b"],
           ["Files", "77"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E8%A2%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法袋 (669 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-dai.zip", external: true},
+          {label: "Download 魔法袋 (669 KB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E8%A2%8B.zip", external: true},
         ]},
       ],
     },

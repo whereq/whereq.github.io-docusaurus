@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "工人物语2 is a DOS game in the WhereQ archive — 1997, 356 files, 13.3 MB, and an entry point of S2.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gong-ren-wu-yu-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD2.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gong-ren-wu-yu-2.zip"],
           ["Size", "13,973,573 bytes (13.3 MB)"],
           ["SHA-256", "b60ede17c2f4786fce321e926d04b9cc678882291b09774e88740e3026e0a2b4"],
           ["Files", "356"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 工人物语2 (13.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gong-ren-wu-yu-2.zip", external: true},
+          {label: "Download 工人物语2 (13.3 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死亡骑士 is a DOS game in the WhereQ archive — 1996, 59 files, 7.6 MB, and an entry point of START.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-qi-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%AA%91%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-wang-qi-shi.zip"],
           ["Size", "7,929,335 bytes (7.6 MB)"],
           ["SHA-256", "8ff652f1d7320ee8f7ce50eac36d3cc5da7c012a0d5b36c48319baa5d21f23d9"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%AA%91%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死亡骑士 (7.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-wang-qi-shi.zip", external: true},
+          {label: "Download 死亡骑士 (7.6 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%AA%91%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "我是米恩 is a DOS game in the WhereQ archive — 1996, 125 files, 40.2 MB, and an entry point of IMMEEN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wo-shi-mi-en.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%91%E6%98%AF%E7%B1%B3%E6%81%A9.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wo-shi-mi-en.zip"],
           ["Size", "42,127,999 bytes (40.2 MB)"],
           ["SHA-256", "8fae1c087ada3e4dc2d55b9ab2a2606e390d790c97bf394e940f6f752d227773"],
           ["Files", "125"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%91%E6%98%AF%E7%B1%B3%E6%81%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 我是米恩 (40.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wo-shi-mi-en.zip", external: true},
+          {label: "Download 我是米恩 (40.2 MB)", href: "https://dos-bin.zczc.cz/%E6%88%91%E6%98%AF%E7%B1%B3%E6%81%A9.zip", external: true},
         ]},
       ],
     },

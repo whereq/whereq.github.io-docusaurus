@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "不可思议的机器2 is a DOS game in the WhereQ archive — 1995, 30 files, 2.4 MB, and an entry point of TIM2.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bu-ke-si-yi-de-ji-qi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A82.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bu-ke-si-yi-de-ji-qi-2.zip"],
           ["Size", "2,561,921 bytes (2.4 MB)"],
           ["SHA-256", "f49ef07487786fcf94723d7a644c7ee08de4f4045be6dc7d2aa43ea2573f8375"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 不可思议的机器2 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bu-ke-si-yi-de-ji-qi-2.zip", external: true},
+          {label: "Download 不可思议的机器2 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A82.zip", external: true},
         ]},
       ],
     },

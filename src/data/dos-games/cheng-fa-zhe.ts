@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "惩罚者 is a DOS game in the WhereQ archive — 1990, 66 files, 7.0 MB, and an entry point of PUNISHER.COM.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/c/cheng-fa-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E6%83%A9%E7%BD%9A%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "cheng-fa-zhe.zip"],
           ["Size", "7,314,185 bytes (7.0 MB)"],
           ["SHA-256", "392028c50746197744821f3bcf041f9677bd38f17b21d5746eb4fb298bbfb03c"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%83%A9%E7%BD%9A%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 惩罚者 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/cheng-fa-zhe.zip", external: true},
+          {label: "Download 惩罚者 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E6%83%A9%E7%BD%9A%E8%80%85.zip", external: true},
         ]},
       ],
     },

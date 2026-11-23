@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "堡垒防卫战/领国战役 is a DOS game in the WhereQ archive — 1992, 20 files, 876 KB, and an entry point of RAMPART.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-lei-fang-wei-zhan-ling-guo-zhan-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A0%A1%E5%9E%92%E9%98%B2%E5%8D%AB%E6%88%98%EF%BC%8F%E9%A2%86%E5%9B%BD%E6%88%98%E5%BD%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-lei-fang-wei-zhan-ling-guo-zhan-yi.zip"],
           ["Size", "897,356 bytes (876 KB)"],
           ["SHA-256", "df5cf1b6fbdc45e4c555853cce0d1cedfa46bae6a2cc12d428da46a2565c9718"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A0%A1%E5%9E%92%E9%98%B2%E5%8D%AB%E6%88%98%EF%BC%8F%E9%A2%86%E5%9B%BD%E6%88%98%E5%BD%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 堡垒防卫战/领国战役 (876 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-lei-fang-wei-zhan-ling-guo-zhan-yi.zip", external: true},
+          {label: "Download 堡垒防卫战/领国战役 (876 KB)", href: "https://dos-bin.zczc.cz/%E5%A0%A1%E5%9E%92%E9%98%B2%E5%8D%AB%E6%88%98%EF%BC%8F%E9%A2%86%E5%9B%BD%E6%88%98%E5%BD%B9.zip", external: true},
         ]},
       ],
     },

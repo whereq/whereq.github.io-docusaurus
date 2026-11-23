@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "华丽人生2 is a DOS game in the WhereQ archive — 1994, 436 files, 2.6 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hua-li-ren-sheng-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%8E%E4%B8%BD%E4%BA%BA%E7%94%9F2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hua-li-ren-sheng-2.zip"],
           ["Size", "2,758,146 bytes (2.6 MB)"],
           ["SHA-256", "acc987fd09d2145d559024c326af2189495c8fd23d425e875f5c37e1b601e0f8"],
           ["Files", "436"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%8E%E4%B8%BD%E4%BA%BA%E7%94%9F2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 华丽人生2 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hua-li-ren-sheng-2.zip", external: true},
+          {label: "Download 华丽人生2 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%8E%E4%B8%BD%E4%BA%BA%E7%94%9F2.zip", external: true},
         ]},
       ],
     },

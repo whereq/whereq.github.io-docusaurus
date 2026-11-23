@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "精灵幻界 is a DOS game in the WhereQ archive — 1995, 636 files, 7.6 MB, and an entry point of TOCO.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jing-ling-huan-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E5%B9%BB%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jing-ling-huan-jie.zip"],
           ["Size", "7,953,676 bytes (7.6 MB)"],
           ["SHA-256", "bea82e672ecc83a197116d2e39e8b56a584077b56481e504189b7fbf6eaa5de7"],
           ["Files", "636"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E5%B9%BB%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 精灵幻界 (7.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jing-ling-huan-jie.zip", external: true},
+          {label: "Download 精灵幻界 (7.6 MB)", href: "https://dos-bin.zczc.cz/%E7%B2%BE%E7%81%B5%E5%B9%BB%E7%95%8C.zip", external: true},
         ]},
       ],
     },

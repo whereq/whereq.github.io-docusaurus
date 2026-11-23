@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "巴士帝国 is a DOS game in the WhereQ archive — 1994, 85 files, 1.1 MB, and an entry point of BUS.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/ba-shi-di-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%A3%AB%E5%B8%9D%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ba-shi-di-guo.zip"],
           ["Size", "1,177,377 bytes (1.1 MB)"],
           ["SHA-256", "03839acab4ad1e65c9a6e2c37cb78d497ab276cdd90d6c7b2b65acf35dbcde35"],
           ["Files", "85"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%B4%E5%A3%AB%E5%B8%9D%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巴士帝国 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/ba-shi-di-guo.zip", external: true},
+          {label: "Download 巴士帝国 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%A3%AB%E5%B8%9D%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

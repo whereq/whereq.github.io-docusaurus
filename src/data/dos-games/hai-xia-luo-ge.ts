@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海下罗格 is a DOS game in the WhereQ archive — 1996, 378 files, 2.9 MB, and an entry point of ROGUE.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-xia-luo-ge.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E4%B8%8B%E7%BD%97%E6%A0%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-xia-luo-ge.zip"],
           ["Size", "3,000,649 bytes (2.9 MB)"],
           ["SHA-256", "62898ec08ad5870458c79ba2609273a1ced95a897071a8fbdac55ad98138cd7a"],
           ["Files", "378"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E4%B8%8B%E7%BD%97%E6%A0%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海下罗格 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-xia-luo-ge.zip", external: true},
+          {label: "Download 海下罗格 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E4%B8%8B%E7%BD%97%E6%A0%BC.zip", external: true},
         ]},
       ],
     },

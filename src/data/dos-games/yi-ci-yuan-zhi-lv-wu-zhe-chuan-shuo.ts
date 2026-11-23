@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异次元之旅武者传说 is a DOS game in the WhereQ archive — 1993, 1,851 files, 7.5 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-ci-yuan-zhi-lv-wu-zhe-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%AC%A1%E5%85%83%E4%B9%8B%E6%97%85%E6%AD%A6%E8%80%85%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-ci-yuan-zhi-lv-wu-zhe-chuan-shuo.zip"],
           ["Size", "7,849,087 bytes (7.5 MB)"],
           ["SHA-256", "5cfaabd99efd04b295ebe6586d816456eed189eca9bab03a3d63d0cbbf03db62"],
           ["Files", "1,851"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E6%AC%A1%E5%85%83%E4%B9%8B%E6%97%85%E6%AD%A6%E8%80%85%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异次元之旅武者传说 (7.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-ci-yuan-zhi-lv-wu-zhe-chuan-shuo.zip", external: true},
+          {label: "Download 异次元之旅武者传说 (7.5 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E6%AC%A1%E5%85%83%E4%B9%8B%E6%97%85%E6%AD%A6%E8%80%85%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

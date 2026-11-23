@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "激战M星云 is a DOS game in the WhereQ archive — 1990, 30 files, 602 KB, and an entry point of STARCON.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-m-xing-yun.zip",
+  url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-zhan-m-xing-yun.zip"],
           ["Size", "616,268 bytes (602 KB)"],
           ["SHA-256", "a8bc2ae959239d22dc888603602857f6920d160ace86422221a4eed4a6fc334b"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 激战M星云 (602 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-zhan-m-xing-yun.zip", external: true},
+          {label: "Download 激战M星云 (602 KB)", href: "https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%91.zip", external: true},
         ]},
       ],
     },

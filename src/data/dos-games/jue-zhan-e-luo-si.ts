@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "决战俄罗斯 is a DOS game in the WhereQ archive — 1990, 11 files, 360 KB, and an entry point of PLAY.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-zhan-e-luo-si.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E4%BF%84%E7%BD%97%E6%96%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-zhan-e-luo-si.zip"],
           ["Size", "368,285 bytes (360 KB)"],
           ["SHA-256", "bab7ffd64d6563688b65f79b8b7737024aac980bbfbe3716c13ada08656adf36"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E4%BF%84%E7%BD%97%E6%96%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 决战俄罗斯 (360 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-zhan-e-luo-si.zip", external: true},
+          {label: "Download 决战俄罗斯 (360 KB)", href: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E4%BF%84%E7%BD%97%E6%96%AF.zip", external: true},
         ]},
       ],
     },

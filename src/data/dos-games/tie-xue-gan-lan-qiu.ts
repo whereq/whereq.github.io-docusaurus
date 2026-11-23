@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁血橄榄球 is a DOS game in the WhereQ archive — an undated copy, 52 files, 5.9 MB, and an entry point of BB.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-gan-lan-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E6%A9%84%E6%A6%84%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-xue-gan-lan-qiu.zip"],
           ["Size", "6,208,230 bytes (5.9 MB)"],
           ["SHA-256", "261ae6a708f175dcd1e70d20b09b583d894c97831fd5971a1bb80a260286cf4e"],
           ["Files", "52"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E6%A9%84%E6%A6%84%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁血橄榄球 (5.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-xue-gan-lan-qiu.zip", external: true},
+          {label: "Download 铁血橄榄球 (5.9 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E6%A9%84%E6%A6%84%E7%90%83.zip", external: true},
         ]},
       ],
     },

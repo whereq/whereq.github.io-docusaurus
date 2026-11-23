@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机械法师 is a DOS game in the WhereQ archive — an undated copy, 45 files, 69.9 MB, and an entry point of CM.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-fa-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E6%B3%95%E5%B8%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-xie-fa-shi.zip"],
           ["Size", "73,292,435 bytes (69.9 MB)"],
           ["SHA-256", "4aeeea699eaae73124f5c309eb5e738ce1ab7fcf53c397cbd403ce10353b38d2"],
           ["Files", "45"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E6%B3%95%E5%B8%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机械法师 (69.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-fa-shi.zip", external: true},
+          {label: "Download 机械法师 (69.9 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E6%B3%95%E5%B8%88.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战斧 is a DOS game in the WhereQ archive — 1995, 89 files, 578 KB, and an entry point of GOLDAXE.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-fu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%A7.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-fu.zip"],
           ["Size", "591,918 bytes (578 KB)"],
           ["SHA-256", "870a454804808b436b3a4b878fe109551eca97a4bc1ad7f1997b51640cb05f97"],
           ["Files", "89"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%96%A7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战斧 (578 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-fu.zip", external: true},
+          {label: "Download 战斧 (578 KB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%A7.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "神雕侠侣 is a DOS game in the WhereQ archive — 2009, 85 files, 88.3 MB, and an entry point of EAGLE.EXE.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shen-diao-xia-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A5%9E%E9%9B%95%E4%BE%A0%E4%BE%A3.zip",
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shen-diao-xia-lv.zip"],
           ["Size", "92,608,250 bytes (88.3 MB)"],
           ["SHA-256", "f2df6cdae7c70dc3ab7dc88b60c98b53c3aa7878b20499cfe375dcc5bf911aa3"],
           ["Files", "85"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A5%9E%E9%9B%95%E4%BE%A0%E4%BE%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 神雕侠侣 (88.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shen-diao-xia-lv.zip", external: true},
+          {label: "Download 神雕侠侣 (88.3 MB)", href: "https://dos-bin.zczc.cz/%E7%A5%9E%E9%9B%95%E4%BE%A0%E4%BE%A3.zip", external: true},
         ]},
       ],
     },

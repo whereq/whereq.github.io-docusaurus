@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "夏日物语 is a DOS game in the WhereQ archive — 1992, 541 files, 1.8 MB, and an entry point of SUMMER.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xia-ri-wu-yu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%8F%E6%97%A5%E7%89%A9%E8%AF%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xia-ri-wu-yu.zip"],
           ["Size", "1,837,048 bytes (1.8 MB)"],
           ["SHA-256", "d752e8db93d5365bccda3c2e2b40027879e59f18b8de229becca551f44087c7c"],
           ["Files", "541"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%8F%E6%97%A5%E7%89%A9%E8%AF%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 夏日物语 (1.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xia-ri-wu-yu.zip", external: true},
+          {label: "Download 夏日物语 (1.8 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%8F%E6%97%A5%E7%89%A9%E8%AF%AD.zip", external: true},
         ]},
       ],
     },

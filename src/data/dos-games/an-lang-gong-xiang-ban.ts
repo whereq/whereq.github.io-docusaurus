@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "暗狼(共享版) is a DOS game in the WhereQ archive — 1995, 8 files, 707 KB, and an entry point of darkwolf.exe.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/a/an-lang-gong-xiang-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9A%97%E7%8B%BC%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip",
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "an-lang-gong-xiang-ban.zip"],
           ["Size", "723,597 bytes (707 KB)"],
           ["SHA-256", "3d88c290e187e943bf960f770ca6474b2a2a8df202cf9e95933183e6df044252"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9A%97%E7%8B%BC%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 暗狼(共享版) (707 KB)", href: "https://github.com/whereq/dos-games/releases/download/a/an-lang-gong-xiang-ban.zip", external: true},
+          {label: "Download 暗狼(共享版) (707 KB)", href: "https://dos-bin.zczc.cz/%E6%9A%97%E7%8B%BC%28%E5%85%B1%E4%BA%AB%E7%89%88%29.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "叛变克朗多 is a DOS game in the WhereQ archive — 1997, 33 files, 10.1 MB, and an entry point of KRONDOR.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pan-bian-ke-lang-duo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%9B%E5%8F%98%E5%85%8B%E6%9C%97%E5%A4%9A.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pan-bian-ke-lang-duo.zip"],
           ["Size", "10,584,702 bytes (10.1 MB)"],
           ["SHA-256", "7f7b3d915cbb0e286b23dcd2e53e3fc86ddbe322d50dadff05e34b66c1220f51"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%9B%E5%8F%98%E5%85%8B%E6%9C%97%E5%A4%9A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 叛变克朗多 (10.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/pan-bian-ke-lang-duo.zip", external: true},
+          {label: "Download 叛变克朗多 (10.1 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%9B%E5%8F%98%E5%85%8B%E6%9C%97%E5%A4%9A.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "七星魔法使 is a DOS game in the WhereQ archive — 1990, 504 files, 1.3 MB, and an entry point of SIERRA.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-xing-mo-fa-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%83%E6%98%9F%E9%AD%94%E6%B3%95%E4%BD%BF.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-xing-mo-fa-shi.zip"],
           ["Size", "1,325,018 bytes (1.3 MB)"],
           ["SHA-256", "a33972bfa23513f146f69c52e13dd44564c811968ec1dc0d123d334cbd74c6df"],
           ["Files", "504"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%83%E6%98%9F%E9%AD%94%E6%B3%95%E4%BD%BF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 七星魔法使 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-xing-mo-fa-shi.zip", external: true},
+          {label: "Download 七星魔法使 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%83%E6%98%9F%E9%AD%94%E6%B3%95%E4%BD%BF.zip", external: true},
         ]},
       ],
     },

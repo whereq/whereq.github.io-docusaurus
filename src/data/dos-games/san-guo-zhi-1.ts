@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三国志1 is a DOS game in the WhereQ archive — 1996, 13 files, 271 KB, and an entry point of MAIN.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-1.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%971.zip",
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-guo-zhi-1.zip"],
           ["Size", "277,247 bytes (271 KB)"],
           ["SHA-256", "1fa96e8ecfd0b5a89ff464f27df254f7aff534c6f0fc9bff60c756757ec0ee14"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%971.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三国志1 (271 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-guo-zhi-1.zip", external: true},
+          {label: "Download 三国志1 (271 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%971.zip", external: true},
         ]},
       ],
     },

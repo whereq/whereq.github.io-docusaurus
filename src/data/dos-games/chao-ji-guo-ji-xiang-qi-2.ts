@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级国际象棋2 is a DOS game in the WhereQ archive — 1997, 26 files, 4.0 MB, and an entry point of _CHESS2.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-guo-ji-xiang-qi-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B2.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-guo-ji-xiang-qi-2.zip"],
           ["Size", "4,171,879 bytes (4.0 MB)"],
           ["SHA-256", "ce660f75e1a79e31fcf45941980618f1aad8931b767602d7f0302bd038b26b19"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级国际象棋2 (4.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-guo-ji-xiang-qi-2.zip", external: true},
+          {label: "Download 超级国际象棋2 (4.0 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B2.zip", external: true},
         ]},
       ],
     },

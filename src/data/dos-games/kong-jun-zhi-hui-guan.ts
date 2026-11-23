@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "空军指挥官 is a DOS game in the WhereQ archive — 1992, 70 files, 400 KB, and an entry point of START.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-jun-zhi-hui-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A9%BA%E5%86%9B%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-jun-zhi-hui-guan.zip"],
           ["Size", "409,599 bytes (400 KB)"],
           ["SHA-256", "fa0dddb138b5e8fd3cf0da85e59b9924e7861d3e41df0a1fbdafdc44446eea3b"],
           ["Files", "70"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A9%BA%E5%86%9B%E6%8C%87%E6%8C%A5%E5%AE%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 空军指挥官 (400 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-jun-zhi-hui-guan.zip", external: true},
+          {label: "Download 空军指挥官 (400 KB)", href: "https://dos-bin.zczc.cz/%E7%A9%BA%E5%86%9B%E6%8C%87%E6%8C%A5%E5%AE%98.zip", external: true},
         ]},
       ],
     },

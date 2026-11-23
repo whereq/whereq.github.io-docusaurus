@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "疯狂赛车2 is a DOS game in the WhereQ archive — 1989, 13 files, 151 KB, and an entry point of cc2ega.exe.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-sai-che-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E8%B5%9B%E8%BD%A62.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-kuang-sai-che-2.zip"],
           ["Size", "154,454 bytes (151 KB)"],
           ["SHA-256", "59bdfa23c0ee9cb0f7acb72a947ca8dc2891eb98b6a6e9cc09081bc471c1dae5"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E8%B5%9B%E8%BD%A62.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 疯狂赛车2 (151 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-sai-che-2.zip", external: true},
+          {label: "Download 疯狂赛车2 (151 KB)", href: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E8%B5%9B%E8%BD%A62.zip", external: true},
         ]},
       ],
     },

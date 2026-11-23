@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "邪神大地 is a DOS game in the WhereQ archive — 2006, 210 files, 3.4 MB, and an entry point of PLAY.EXE.",
   status: "2006",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xie-shen-da-di.zip",
+  url: "https://dos-bin.zczc.cz/%E9%82%AA%E7%A5%9E%E5%A4%A7%E5%9C%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2006"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xie-shen-da-di.zip"],
           ["Size", "3,537,011 bytes (3.4 MB)"],
           ["SHA-256", "232b3b555621b3bde28b9b7e4105c86a4e5cd90b7e7bc48fed6f73034aa72f2c"],
           ["Files", "210"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%82%AA%E7%A5%9E%E5%A4%A7%E5%9C%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 邪神大地 (3.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xie-shen-da-di.zip", external: true},
+          {label: "Download 邪神大地 (3.4 MB)", href: "https://dos-bin.zczc.cz/%E9%82%AA%E7%A5%9E%E5%A4%A7%E5%9C%B0.zip", external: true},
         ]},
       ],
     },

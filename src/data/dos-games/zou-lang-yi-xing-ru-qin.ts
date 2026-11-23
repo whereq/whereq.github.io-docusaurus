@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "走廊:异形入侵 is a DOS game in the WhereQ archive — 1994, 22 files, 2.4 MB, and an entry point of CORR7.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zou-lang-yi-xing-ru-qin.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B5%B0%E5%BB%8A%EF%BC%9A%E5%BC%82%E5%BD%A2%E5%85%A5%E4%BE%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zou-lang-yi-xing-ru-qin.zip"],
           ["Size", "2,515,517 bytes (2.4 MB)"],
           ["SHA-256", "4da8115df568bcbb563959d88d4fed8fb95ed4fa38169c6dc3f46d9722294ecd"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B5%B0%E5%BB%8A%EF%BC%9A%E5%BC%82%E5%BD%A2%E5%85%A5%E4%BE%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 走廊:异形入侵 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zou-lang-yi-xing-ru-qin.zip", external: true},
+          {label: "Download 走廊:异形入侵 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E8%B5%B0%E5%BB%8A%EF%BC%9A%E5%BC%82%E5%BD%A2%E5%85%A5%E4%BE%B5.zip", external: true},
         ]},
       ],
     },

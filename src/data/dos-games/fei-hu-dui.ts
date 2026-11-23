@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞虎队 is a DOS game in the WhereQ archive — 1995, 107 files, 1.4 MB, and an entry point of TGR.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-hu-dui.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-hu-dui.zip"],
           ["Size", "1,441,478 bytes (1.4 MB)"],
           ["SHA-256", "a553281ff63410f5bdb6aeb8c6874c44dd0b8c1f399382ae41a974f2f5cc6b72"],
           ["Files", "107"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞虎队 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-hu-dui.zip", external: true},
+          {label: "Download 飞虎队 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%99%8E%E9%98%9F.zip", external: true},
         ]},
       ],
     },

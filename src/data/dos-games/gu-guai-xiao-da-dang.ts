@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "古怪小搭档 is a DOS game in the WhereQ archive — 1996, 3 files, 688 KB, and an entry point of doofus.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-xiao-da-dang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E5%B0%8F%E6%90%AD%E6%A1%A3.zip",
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gu-guai-xiao-da-dang.zip"],
           ["Size", "704,382 bytes (688 KB)"],
           ["SHA-256", "bafd1982d26a3199e2cc798bcee15d7ffb113f1cc13a1b8e8bfc7637a47f3d09"],
           ["Files", "3"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E5%B0%8F%E6%90%AD%E6%A1%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 古怪小搭档 (688 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/gu-guai-xiao-da-dang.zip", external: true},
+          {label: "Download 古怪小搭档 (688 KB)", href: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%80%AA%E5%B0%8F%E6%90%AD%E6%A1%A3.zip", external: true},
         ]},
       ],
     },

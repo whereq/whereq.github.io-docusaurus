@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "胖子之怒 is a DOS game in the WhereQ archive — 1989, 110 files, 584 KB, and an entry point of FATMAN.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pang-zi-zhi-nu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%83%96%E5%AD%90%E4%B9%8B%E6%80%92.zip",
   facts: [
     {label: "Developer", value: "ACTIVISION"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pang-zi-zhi-nu.zip"],
           ["Size", "597,840 bytes (584 KB)"],
           ["SHA-256", "1a9dc13d64e2bde129145dd72328f52cbfe4fa00b6f1793338ff171d5238bd6b"],
           ["Files", "110"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%83%96%E5%AD%90%E4%B9%8B%E6%80%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 胖子之怒 (584 KB)", href: "https://github.com/whereq/dos-games/releases/download/p/pang-zi-zhi-nu.zip", external: true},
+          {label: "Download 胖子之怒 (584 KB)", href: "https://dos-bin.zczc.cz/%E8%83%96%E5%AD%90%E4%B9%8B%E6%80%92.zip", external: true},
         ]},
       ],
     },

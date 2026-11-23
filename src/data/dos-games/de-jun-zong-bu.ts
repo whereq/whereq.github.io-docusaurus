@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "德军总部 is a DOS game in the WhereQ archive — 1984, 21 files, 69 KB, and an entry point of CW.EXE.",
   status: "1984",
-  url: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1984"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "de-jun-zong-bu.zip"],
           ["Size", "70,945 bytes (69 KB)"],
           ["SHA-256", "3e0159bc415d0ffab44568b63a8ee02c3a0d7579fb99dc05e6185e28e4737fbd"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 德军总部 (69 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/de-jun-zong-bu.zip", external: true},
+          {label: "Download 德军总部 (69 KB)", href: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8.zip", external: true},
         ]},
       ],
     },

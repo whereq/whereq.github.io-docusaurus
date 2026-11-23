@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "丁丁历险记太阳之罪 is a DOS game in the WhereQ archive — 1999, 49 files, 4.8 MB, and an entry point of TINTIN.EXE.",
   status: "1999",
-  url: "https://github.com/whereq/dos-games/releases/download/d/ding-ding-li-xian-ji-tai-yang-zhi-zui.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%81%E4%B8%81%E5%8E%86%E9%99%A9%E8%AE%B0%E5%A4%AA%E9%98%B3%E4%B9%8B%E7%BD%AA.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1999"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ding-ding-li-xian-ji-tai-yang-zhi-zui.zip"],
           ["Size", "5,061,914 bytes (4.8 MB)"],
           ["SHA-256", "883bd4839e63122b8ac69b6e5db68ea53cb25f74109af0237214e50fb6a82918"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%81%E4%B8%81%E5%8E%86%E9%99%A9%E8%AE%B0%E5%A4%AA%E9%98%B3%E4%B9%8B%E7%BD%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 丁丁历险记太阳之罪 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/ding-ding-li-xian-ji-tai-yang-zhi-zui.zip", external: true},
+          {label: "Download 丁丁历险记太阳之罪 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%81%E4%B8%81%E5%8E%86%E9%99%A9%E8%AE%B0%E5%A4%AA%E9%98%B3%E4%B9%8B%E7%BD%AA.zip", external: true},
         ]},
       ],
     },

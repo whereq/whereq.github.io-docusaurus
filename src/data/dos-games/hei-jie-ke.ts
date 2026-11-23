@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑杰克 is a DOS game in the WhereQ archive — 1993, 3 files, 88 KB, and an entry point of BJ.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-jie-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9D%B0%E5%85%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-jie-ke.zip"],
           ["Size", "90,379 bytes (88 KB)"],
           ["SHA-256", "c00413164f8217a13906682fe0258cce82fbe33697e8513d653fe71b126e785a"],
           ["Files", "3"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9D%B0%E5%85%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑杰克 (88 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-jie-ke.zip", external: true},
+          {label: "Download 黑杰克 (88 KB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9D%B0%E5%85%8B.zip", external: true},
         ]},
       ],
     },

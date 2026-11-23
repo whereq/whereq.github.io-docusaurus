@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "双陆棋 is a DOS game in the WhereQ archive — 1994, 45 files, 2.4 MB, and an entry point of UGAM.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shuang-lu-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%8C%E9%99%86%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shuang-lu-qi.zip"],
           ["Size", "2,475,275 bytes (2.4 MB)"],
           ["SHA-256", "b65fece943b2d76260d1da0373df28cc517b80e2d5290bf90d49090893a92c4d"],
           ["Files", "45"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%8C%E9%99%86%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 双陆棋 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shuang-lu-qi.zip", external: true},
+          {label: "Download 双陆棋 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E5%8F%8C%E9%99%86%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

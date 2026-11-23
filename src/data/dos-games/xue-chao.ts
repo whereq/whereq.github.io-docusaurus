@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "血巢 is a DOS game in the WhereQ archive — 1996, 40 files, 9.8 MB, and an entry point of setup.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xue-chao.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A1%80%E5%B7%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xue-chao.zip"],
           ["Size", "10,272,498 bytes (9.8 MB)"],
           ["SHA-256", "b88931eb7313004957702ab07f561cef5e4441613bdcfbdb4c4c725c2f378c87"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A1%80%E5%B7%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 血巢 (9.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xue-chao.zip", external: true},
+          {label: "Download 血巢 (9.8 MB)", href: "https://dos-bin.zczc.cz/%E8%A1%80%E5%B7%A2.zip", external: true},
         ]},
       ],
     },

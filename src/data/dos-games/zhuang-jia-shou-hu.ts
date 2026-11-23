@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "装甲守护 is a DOS game in the WhereQ archive — 1993, 7 files, 1.4 MB, and an entry point of RUN.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-shou-hu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%AE%88%E6%8A%A4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuang-jia-shou-hu.zip"],
           ["Size", "1,462,926 bytes (1.4 MB)"],
           ["SHA-256", "807e674f01bacd3c0ef950061c5744fb8664f9d5901694ff7e2ff83d7d99b172"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%AE%88%E6%8A%A4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 装甲守护 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuang-jia-shou-hu.zip", external: true},
+          {label: "Download 装甲守护 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%AE%88%E6%8A%A4.zip", external: true},
         ]},
       ],
     },

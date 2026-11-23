@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战神2豪华版 is a DOS game in the WhereQ archive — 1996, 2,584 files, 35.6 MB, and an entry point of WAR2.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen-2-hao-hua-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-shen-2-hao-hua-ban.zip"],
           ["Size", "37,327,547 bytes (35.6 MB)"],
           ["SHA-256", "85260db1170a77dede7760d6f63cdd4cb19330184ac25ff09782b2ebc1a8c153"],
           ["Files", "2,584"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2%E8%B1%AA%E5%8D%8E%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战神2豪华版 (35.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-shen-2-hao-hua-ban.zip", external: true},
+          {label: "Download 战神2豪华版 (35.6 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2%E8%B1%AA%E5%8D%8E%E7%89%88.zip", external: true},
         ]},
       ],
     },

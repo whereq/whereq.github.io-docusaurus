@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "百战爬虫 is a DOS game in the WhereQ archive — 1993, 18 files, 911 KB, and an entry point of CREEPERS.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-pa-chong.zip",
+  url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E7%88%AC%E8%99%AB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bai-zhan-pa-chong.zip"],
           ["Size", "933,236 bytes (911 KB)"],
           ["SHA-256", "a251209519a93499ddc8e8a5cfe2c18d6222aaefd04693fc7efac7b3ed8c9f9b"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E7%88%AC%E8%99%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 百战爬虫 (911 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-pa-chong.zip", external: true},
+          {label: "Download 百战爬虫 (911 KB)", href: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E7%88%AC%E8%99%AB.zip", external: true},
         ]},
       ],
     },

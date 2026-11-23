@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "刘备传 is a DOS game in the WhereQ archive — 2007, 1,312 files, 539.3 MB, and an entry point of LIUMAIN.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/l/liu-bei-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%98%E5%A4%87%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "liu-bei-chuan.zip"],
           ["Size", "565,491,099 bytes (539.3 MB)"],
           ["SHA-256", "c4ceca37bc65ee2577d64b197614d0556a2b66e44f74dd98a4e9a00069eea6f4"],
           ["Files", "1,312"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%98%E5%A4%87%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 刘备传 (539.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/liu-bei-chuan.zip", external: true},
+          {label: "Download 刘备传 (539.3 MB)", href: "https://dos-bin.zczc.cz/%E5%88%98%E5%A4%87%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

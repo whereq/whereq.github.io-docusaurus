@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "原子推箱子 is a DOS game in the WhereQ archive — 1990, 10 files, 67 KB, and an entry point of GAME.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yuan-zi-tui-xiang-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8E%9F%E5%AD%90%E6%8E%A8%E7%AE%B1%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yuan-zi-tui-xiang-zi.zip"],
           ["Size", "68,448 bytes (67 KB)"],
           ["SHA-256", "2b1547dee7a1349de9e188f6907c0dc9ecee1dd36a2bcb462d6e2cf3734f2d6c"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8E%9F%E5%AD%90%E6%8E%A8%E7%AE%B1%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 原子推箱子 (67 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yuan-zi-tui-xiang-zi.zip", external: true},
+          {label: "Download 原子推箱子 (67 KB)", href: "https://dos-bin.zczc.cz/%E5%8E%9F%E5%AD%90%E6%8E%A8%E7%AE%B1%E5%AD%90.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁信条 is a DOS game in the WhereQ archive — 1996, 40 files, 4.8 MB, and an entry point of START.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-xin-tiao.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%BF%A1%E6%9D%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-xin-tiao.zip"],
           ["Size", "5,081,514 bytes (4.8 MB)"],
           ["SHA-256", "1ee8681765927115d4ff622954b9cf840aff865e1662b4ac9465c6889fba729c"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%BF%A1%E6%9D%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁信条 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-xin-tiao.zip", external: true},
+          {label: "Download 钢铁信条 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%BF%A1%E6%9D%A1.zip", external: true},
         ]},
       ],
     },

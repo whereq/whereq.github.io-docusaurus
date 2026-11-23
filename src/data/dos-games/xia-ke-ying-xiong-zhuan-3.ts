@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "侠客英雄传3 is a DOS game in the WhereQ archive — 1997, 43 files, 251.0 MB, and an entry point of play.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xia-ke-ying-xiong-zhuan-3.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E4%BC%A03.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xia-ke-ying-xiong-zhuan-3.zip"],
           ["Size", "263,202,944 bytes (251.0 MB)"],
           ["SHA-256", "31859911daf08159c12528f91cdbba0c461bedf2e03dd254f8f35ffe4a4f7354"],
           ["Files", "43"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E4%BC%A03.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 侠客英雄传3 (251.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xia-ke-ying-xiong-zhuan-3.zip", external: true},
+          {label: "Download 侠客英雄传3 (251.0 MB)", href: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E4%BC%A03.zip", external: true},
         ]},
       ],
     },

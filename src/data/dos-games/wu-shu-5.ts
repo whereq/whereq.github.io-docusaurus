@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "巫术5 is a DOS game in the WhereQ archive — 1996, 5 files, 238 KB, and an entry point of WIZ5.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-5.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-shu-5.zip"],
           ["Size", "243,487 bytes (238 KB)"],
           ["SHA-256", "1faccebfddd0127a4ee8f35a5eabc1d151f324ad245cc7f6d95b9e7c6de638c5"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巫术5 (238 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-shu-5.zip", external: true},
+          {label: "Download 巫术5 (238 KB)", href: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF5.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "七大黄金之城 is a DOS game in the WhereQ archive — 1993, 157 files, 1.1 MB, and an entry point of 7cities.exe.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-da-huang-jin-zhi-cheng.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%A4%A7%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E.zip",
   facts: [
     {label: "Developer", value: "ELECTRONIC ARTS"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-da-huang-jin-zhi-cheng.zip"],
           ["Size", "1,151,842 bytes (1.1 MB)"],
           ["SHA-256", "bb1e80c5d8879ceef2a85d8e97c0c3e5d0d757d5864274beab53d820506846c0"],
           ["Files", "157"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%83%E5%A4%A7%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 七大黄金之城 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-da-huang-jin-zhi-cheng.zip", external: true},
+          {label: "Download 七大黄金之城 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%83%E5%A4%A7%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E.zip", external: true},
         ]},
       ],
     },

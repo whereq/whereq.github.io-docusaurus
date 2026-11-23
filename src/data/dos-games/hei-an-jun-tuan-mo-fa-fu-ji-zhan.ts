@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗军团/魔法伏击战 is a DOS game in the WhereQ archive — 1994, 1,155 files, 16.7 MB, and an entry point of DL.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-jun-tuan-mo-fa-fu-ji-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%86%9B%E5%9B%A2%EF%BC%8F%E9%AD%94%E6%B3%95%E4%BC%8F%E5%87%BB%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-jun-tuan-mo-fa-fu-ji-zhan.zip"],
           ["Size", "17,538,212 bytes (16.7 MB)"],
           ["SHA-256", "1cb2fbfe916887f870ed1fc17930326a457efa1e882d7b86b76386aedc623267"],
           ["Files", "1,155"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%86%9B%E5%9B%A2%EF%BC%8F%E9%AD%94%E6%B3%95%E4%BC%8F%E5%87%BB%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗军团/魔法伏击战 (16.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-jun-tuan-mo-fa-fu-ji-zhan.zip", external: true},
+          {label: "Download 黑暗军团/魔法伏击战 (16.7 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%86%9B%E5%9B%A2%EF%BC%8F%E9%AD%94%E6%B3%95%E4%BC%8F%E5%87%BB%E6%88%98.zip", external: true},
         ]},
       ],
     },

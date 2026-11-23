@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "失落的维京人 is a DOS game in the WhereQ archive — 1993, 6 files, 3.3 MB, and an entry point of VIKINGS.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-wei-jing-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-luo-de-wei-jing-ren.zip"],
           ["Size", "3,442,878 bytes (3.3 MB)"],
           ["SHA-256", "d25473d1a84370da652c32ba7a1ecf48a64b3d01c842cb983c3679d385123908"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 失落的维京人 (3.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-de-wei-jing-ren.zip", external: true},
+          {label: "Download 失落的维京人 (3.3 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

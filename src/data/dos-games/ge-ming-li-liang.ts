@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "革命力量 is a DOS game in the WhereQ archive — 1996, 48 files, 9.5 MB, and an entry point of GAME.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/ge-ming-li-liang.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9D%A9%E5%91%BD%E5%8A%9B%E9%87%8F.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ge-ming-li-liang.zip"],
           ["Size", "9,956,919 bytes (9.5 MB)"],
           ["SHA-256", "ad5f71a259ce802b0adbb6b420ac151779852976072958c2ae1bb35aa1a24646"],
           ["Files", "48"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9D%A9%E5%91%BD%E5%8A%9B%E9%87%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 革命力量 (9.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/ge-ming-li-liang.zip", external: true},
+          {label: "Download 革命力量 (9.5 MB)", href: "https://dos-bin.zczc.cz/%E9%9D%A9%E5%91%BD%E5%8A%9B%E9%87%8F.zip", external: true},
         ]},
       ],
     },

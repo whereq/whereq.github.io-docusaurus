@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞龙传奇 is a DOS game in the WhereQ archive — 1990, 90 files, 585 KB, and an entry point of PLAY.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-long-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-long-chuan-qi.zip"],
           ["Size", "599,127 bytes (585 KB)"],
           ["SHA-256", "ef2c964ce108a0e45a722a3ad56918c58fafd112b9b248724de8ede7d2118347"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞龙传奇 (585 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-long-chuan-qi.zip", external: true},
+          {label: "Download 飞龙传奇 (585 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E9%BE%99%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

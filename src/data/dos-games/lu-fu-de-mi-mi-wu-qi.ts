@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "卢夫的秘密武器 is a DOS game in the WhereQ archive — 1996, 544 files, 1.9 MB, and an entry point of sw.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lu-fu-de-mi-mi-wu-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A2%E5%A4%AB%E7%9A%84%E7%A7%98%E5%AF%86%E6%AD%A6%E5%99%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lu-fu-de-mi-mi-wu-qi.zip"],
           ["Size", "2,002,062 bytes (1.9 MB)"],
           ["SHA-256", "890443946f5da54b9e31f92e0ebedda6aa6bc27215ac2d3fc50d7ca59fb06018"],
           ["Files", "544"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A2%E5%A4%AB%E7%9A%84%E7%A7%98%E5%AF%86%E6%AD%A6%E5%99%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卢夫的秘密武器 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lu-fu-de-mi-mi-wu-qi.zip", external: true},
+          {label: "Download 卢夫的秘密武器 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%A2%E5%A4%AB%E7%9A%84%E7%A7%98%E5%AF%86%E6%AD%A6%E5%99%A8.zip", external: true},
         ]},
       ],
     },

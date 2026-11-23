@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁冲突 is a DOS game in the WhereQ archive — 1993, 99 files, 998 KB, and an entry point of COS.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-chong-tu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-chong-tu.zip"],
           ["Size", "1,021,446 bytes (998 KB)"],
           ["SHA-256", "3d656120821a0b17ce37beac93a1a576b050ec6d61b5f5bb8c795060ad986a1d"],
           ["Files", "99"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁冲突 (998 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-chong-tu.zip", external: true},
+          {label: "Download 钢铁冲突 (998 KB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81.zip", external: true},
         ]},
       ],
     },

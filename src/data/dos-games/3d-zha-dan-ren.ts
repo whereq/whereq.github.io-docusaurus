@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "3",
   summary: "3D炸弹人 is a DOS game in the WhereQ archive — 1996, 23 files, 208 KB, and an entry point of BOMB.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/3/3d-zha-dan-ren.zip",
+  url: "https://dos-bin.zczc.cz/3D%E7%82%B8%E5%BC%B9%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "3d-zha-dan-ren.zip"],
           ["Size", "212,696 bytes (208 KB)"],
           ["SHA-256", "bdc88205f91a26df9c59010f926b709293b1ed2eec602b337424d6dc2f94e4b3"],
           ["Files", "23"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/3D%E7%82%B8%E5%BC%B9%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 3D炸弹人 (208 KB)", href: "https://github.com/whereq/dos-games/releases/download/3/3d-zha-dan-ren.zip", external: true},
+          {label: "Download 3D炸弹人 (208 KB)", href: "https://dos-bin.zczc.cz/3D%E7%82%B8%E5%BC%B9%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

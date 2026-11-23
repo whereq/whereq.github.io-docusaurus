@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗之蛊 is a DOS game in the WhereQ archive — 1993, 646 files, 5.6 MB, and an entry point of DS.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-gu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E8%9B%8A.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-zhi-gu.zip"],
           ["Size", "5,870,710 bytes (5.6 MB)"],
           ["SHA-256", "5328c8e1154dbbedd032dcec2445dd707ab99ab3d27d967e64d69a8d19a2c58a"],
           ["Files", "646"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E8%9B%8A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗之蛊 (5.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-zhi-gu.zip", external: true},
+          {label: "Download 黑暗之蛊 (5.6 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E8%9B%8A.zip", external: true},
         ]},
       ],
     },

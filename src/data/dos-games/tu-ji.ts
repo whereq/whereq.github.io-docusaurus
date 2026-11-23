@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "突击 is a DOS game in the WhereQ archive — 1995, 630 files, 26.1 MB, and an entry point of OFF.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tu-ji.zip"],
           ["Size", "27,325,424 bytes (26.1 MB)"],
           ["SHA-256", "c54024203235a43093174517cf4408683bb2930f952d570b93fd59c4c7a5b094"],
           ["Files", "630"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 突击 (26.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tu-ji.zip", external: true},
+          {label: "Download 突击 (26.1 MB)", href: "https://dos-bin.zczc.cz/%E7%AA%81%E5%87%BB.zip", external: true},
         ]},
       ],
     },

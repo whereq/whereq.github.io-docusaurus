@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "NBA直播 is a DOS game in the WhereQ archive — 1997, 16 files, 419 KB, and an entry point of BBV.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nba-zhi-bo.zip",
+  url: "https://dos-bin.zczc.cz/NBA%E7%9B%B4%E6%92%AD.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nba-zhi-bo.zip"],
           ["Size", "429,534 bytes (419 KB)"],
           ["SHA-256", "5597f32cca053633a6629c71ed682cfee7ce575f12ae29d8378f0e622540f001"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/NBA%E7%9B%B4%E6%92%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download NBA直播 (419 KB)", href: "https://github.com/whereq/dos-games/releases/download/n/nba-zhi-bo.zip", external: true},
+          {label: "Download NBA直播 (419 KB)", href: "https://dos-bin.zczc.cz/NBA%E7%9B%B4%E6%92%AD.zip", external: true},
         ]},
       ],
     },

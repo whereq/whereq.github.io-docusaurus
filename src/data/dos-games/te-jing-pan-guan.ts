@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "特警判官 is a DOS game in the WhereQ archive — 2009, 579 files, 6.5 MB, and an entry point of JD.EXE.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/t/te-jing-pan-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%89%B9%E8%AD%A6%E5%88%A4%E5%AE%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "te-jing-pan-guan.zip"],
           ["Size", "6,861,022 bytes (6.5 MB)"],
           ["SHA-256", "95ac1e6aaf1092b5c5c31ba9d6753b03b0c85d190109d5cda4fec0f938023991"],
           ["Files", "579"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%89%B9%E8%AD%A6%E5%88%A4%E5%AE%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 特警判官 (6.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/te-jing-pan-guan.zip", external: true},
+          {label: "Download 特警判官 (6.5 MB)", href: "https://dos-bin.zczc.cz/%E7%89%B9%E8%AD%A6%E5%88%A4%E5%AE%98.zip", external: true},
         ]},
       ],
     },

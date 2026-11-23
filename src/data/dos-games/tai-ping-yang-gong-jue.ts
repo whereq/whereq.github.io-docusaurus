@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "太平洋公爵 is a DOS game in the WhereQ archive — 1996, 112 files, 3.6 MB, and an entry point of START.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-gong-jue.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%85%AC%E7%88%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-ping-yang-gong-jue.zip"],
           ["Size", "3,825,325 bytes (3.6 MB)"],
           ["SHA-256", "f8773063446358c66cf23b176a744bfc228ccbad257e42c9052da9f1a8a33faf"],
           ["Files", "112"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%85%AC%E7%88%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 太平洋公爵 (3.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-gong-jue.zip", external: true},
+          {label: "Download 太平洋公爵 (3.6 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%85%AC%E7%88%B5.zip", external: true},
         ]},
       ],
     },

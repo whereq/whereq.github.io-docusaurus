@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "荡寇雄狮 is a DOS game in the WhereQ archive — 1994, 224 files, 4.8 MB, and an entry point of FLINES.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dang-kou-xiong-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8D%A1%E5%AF%87%E9%9B%84%E7%8B%AE.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dang-kou-xiong-shi.zip"],
           ["Size", "5,058,920 bytes (4.8 MB)"],
           ["SHA-256", "ea37653d7453ed93d1fb2c2a8c245bd2cbd8796cad3a3c71f398ea0117ee0fab"],
           ["Files", "224"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8D%A1%E5%AF%87%E9%9B%84%E7%8B%AE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 荡寇雄狮 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/dang-kou-xiong-shi.zip", external: true},
+          {label: "Download 荡寇雄狮 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E8%8D%A1%E5%AF%87%E9%9B%84%E7%8B%AE.zip", external: true},
         ]},
       ],
     },

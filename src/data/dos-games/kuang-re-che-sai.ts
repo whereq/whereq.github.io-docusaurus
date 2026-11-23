@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "狂热车赛 is a DOS game in the WhereQ archive — 1996, 181 files, 14.1 MB, and an entry point of DOS4GW.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kuang-re-che-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%82%E7%83%AD%E8%BD%A6%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kuang-re-che-sai.zip"],
           ["Size", "14,772,791 bytes (14.1 MB)"],
           ["SHA-256", "d3903bed8510738e248dbf6784c0cef2981da5ba9bff746fd15ee43475990c50"],
           ["Files", "181"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%82%E7%83%AD%E8%BD%A6%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 狂热车赛 (14.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kuang-re-che-sai.zip", external: true},
+          {label: "Download 狂热车赛 (14.1 MB)", href: "https://dos-bin.zczc.cz/%E7%8B%82%E7%83%AD%E8%BD%A6%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

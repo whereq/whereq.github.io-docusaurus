@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔石英雄传说2 is a DOS game in the WhereQ archive — 1994, 537 files, 4.5 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-shi-ying-xiong-chuan-shuo-2.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9F%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-shi-ying-xiong-chuan-shuo-2.zip"],
           ["Size", "4,768,082 bytes (4.5 MB)"],
           ["SHA-256", "ff2703bb1be6394f6e0827c1142d8fd12319738f27d10fbddc47e7e41102835b"],
           ["Files", "537"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%9F%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔石英雄传说2 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-shi-ying-xiong-chuan-shuo-2.zip", external: true},
+          {label: "Download 魔石英雄传说2 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9F%B3%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42.zip", external: true},
         ]},
       ],
     },

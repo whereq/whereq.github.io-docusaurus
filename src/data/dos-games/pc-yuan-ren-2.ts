@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "PC原人2 is a DOS game in the WhereQ archive — 1993, 54 files, 1.0 MB, and an entry point of pre2.exe.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pc-yuan-ren-2.zip",
+  url: "https://dos-bin.zczc.cz/PC%E5%8E%9F%E4%BA%BA2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pc-yuan-ren-2.zip"],
           ["Size", "1,077,790 bytes (1.0 MB)"],
           ["SHA-256", "55b19a17b34be5b6f216d782923cdea5ef18877800b8a6eb8562eb9316b883e0"],
           ["Files", "54"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/PC%E5%8E%9F%E4%BA%BA2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download PC原人2 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/pc-yuan-ren-2.zip", external: true},
+          {label: "Download PC原人2 (1.0 MB)", href: "https://dos-bin.zczc.cz/PC%E5%8E%9F%E4%BA%BA2.zip", external: true},
         ]},
       ],
     },

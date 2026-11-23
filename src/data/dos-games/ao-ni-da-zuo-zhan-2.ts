@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "奥尼大作战2 is a DOS game in the WhereQ archive — 1996, 55 files, 359 KB, and an entry point of ARNIE2.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/ao-ni-da-zuo-zhan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A5%A5%E5%B0%BC%E5%A4%A7%E4%BD%9C%E6%88%982.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ao-ni-da-zuo-zhan-2.zip"],
           ["Size", "367,627 bytes (359 KB)"],
           ["SHA-256", "32279682de06a8bb17e61d63965a7abf29c322dad65015b62f93737b65d936cd"],
           ["Files", "55"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A5%A5%E5%B0%BC%E5%A4%A7%E4%BD%9C%E6%88%982.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 奥尼大作战2 (359 KB)", href: "https://github.com/whereq/dos-games/releases/download/a/ao-ni-da-zuo-zhan-2.zip", external: true},
+          {label: "Download 奥尼大作战2 (359 KB)", href: "https://dos-bin.zczc.cz/%E5%A5%A5%E5%B0%BC%E5%A4%A7%E4%BD%9C%E6%88%982.zip", external: true},
         ]},
       ],
     },

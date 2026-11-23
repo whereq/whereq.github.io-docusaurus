@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "商业王子 is a DOS game in the WhereQ archive — 1993, 379 files, 6.3 MB, and an entry point of MERCHANT.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shang-ye-wang-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%95%86%E4%B8%9A%E7%8E%8B%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shang-ye-wang-zi.zip"],
           ["Size", "6,569,551 bytes (6.3 MB)"],
           ["SHA-256", "ed6a8a78622f291ebde30163beb4fa96e27e17ceee8b9808734a3a2de978b348"],
           ["Files", "379"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%95%86%E4%B8%9A%E7%8E%8B%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 商业王子 (6.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shang-ye-wang-zi.zip", external: true},
+          {label: "Download 商业王子 (6.3 MB)", href: "https://dos-bin.zczc.cz/%E5%95%86%E4%B8%9A%E7%8E%8B%E5%AD%90.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "童梦失魂夜/迷儿城 is a DOS game in the WhereQ archive — 1997, 313 files, 22.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tong-meng-shi-hun-ye-mi-er-cheng.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AB%A5%E6%A2%A6%E5%A4%B1%E9%AD%82%E5%A4%9C%EF%BC%8F%E8%BF%B7%E5%84%BF%E5%9F%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tong-meng-shi-hun-ye-mi-er-cheng.zip"],
           ["Size", "23,481,390 bytes (22.4 MB)"],
           ["SHA-256", "7c4f67550fbb5afebf6fe46fc36563a38eff785e9b3fff63d456a2bb9e663e7d"],
           ["Files", "313"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AB%A5%E6%A2%A6%E5%A4%B1%E9%AD%82%E5%A4%9C%EF%BC%8F%E8%BF%B7%E5%84%BF%E5%9F%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 童梦失魂夜/迷儿城 (22.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tong-meng-shi-hun-ye-mi-er-cheng.zip", external: true},
+          {label: "Download 童梦失魂夜/迷儿城 (22.4 MB)", href: "https://dos-bin.zczc.cz/%E7%AB%A5%E6%A2%A6%E5%A4%B1%E9%AD%82%E5%A4%9C%EF%BC%8F%E8%BF%B7%E5%84%BF%E5%9F%8E.zip", external: true},
         ]},
       ],
     },

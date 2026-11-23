@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "地狱赛博朋克 is a DOS game in the WhereQ archive — an undated copy, 21 files, 372.6 MB, and an entry point of HECK.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-yu-sai-bo-peng-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-yu-sai-bo-peng-ke.zip"],
           ["Size", "390,748,242 bytes (372.6 MB)"],
           ["SHA-256", "4b4e527482c195ef6cfdea9691b3622c0bddd31ce647f87098663a711dfcf84c"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 地狱赛博朋克 (372.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-yu-sai-bo-peng-ke.zip", external: true},
+          {label: "Download 地狱赛博朋克 (372.6 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B.zip", external: true},
         ]},
       ],
     },

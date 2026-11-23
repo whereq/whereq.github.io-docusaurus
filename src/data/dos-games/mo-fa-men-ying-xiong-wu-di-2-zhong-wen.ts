@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法门英雄无敌2中文 is a DOS game in the WhereQ archive — an undated copy, 216 files, 230.4 MB, and an entry point of HEROES2.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di-2-zhong-wen.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C2%E4%B8%AD%E6%96%87.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-men-ying-xiong-wu-di-2-zhong-wen.zip"],
           ["Size", "241,597,650 bytes (230.4 MB)"],
           ["SHA-256", "0a6dd4ba24c54a6442b730f7eb747b2707b6b7980c43471135eb16f5a6325e5a"],
           ["Files", "216"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C2%E4%B8%AD%E6%96%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法门英雄无敌2中文 (230.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di-2-zhong-wen.zip", external: true},
+          {label: "Download 魔法门英雄无敌2中文 (230.4 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C2%E4%B8%AD%E6%96%87.zip", external: true},
         ]},
       ],
     },

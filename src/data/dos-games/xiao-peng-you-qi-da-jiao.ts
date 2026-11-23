@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小朋友齐打交 is a DOS game in the WhereQ archive — 1997, 88 files, 458 KB, and an entry point of LF1.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-peng-you-qi-da-jiao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%90%E6%89%93%E4%BA%A4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-peng-you-qi-da-jiao.zip"],
           ["Size", "468,509 bytes (458 KB)"],
           ["SHA-256", "ef1f3108086b853db524d0394a2d9ee2e6a3800c90efd2e75cc086e40c77b850"],
           ["Files", "88"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%90%E6%89%93%E4%BA%A4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小朋友齐打交 (458 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-peng-you-qi-da-jiao.zip", external: true},
+          {label: "Download 小朋友齐打交 (458 KB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%90%E6%89%93%E4%BA%A4.zip", external: true},
         ]},
       ],
     },

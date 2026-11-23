@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "楚汉之争 is a DOS game in the WhereQ archive — 1990, 15 files, 191 KB, and an entry point of PLAY.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chu-han-zhi-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A5%9A%E6%B1%89%E4%B9%8B%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chu-han-zhi-zheng.zip"],
           ["Size", "195,654 bytes (191 KB)"],
           ["SHA-256", "b1eec9909fab59bd2d5e86855e6e7f3c60a8536ec292902021daf16d474d943f"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A5%9A%E6%B1%89%E4%B9%8B%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 楚汉之争 (191 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chu-han-zhi-zheng.zip", external: true},
+          {label: "Download 楚汉之争 (191 KB)", href: "https://dos-bin.zczc.cz/%E6%A5%9A%E6%B1%89%E4%B9%8B%E4%BA%89.zip", external: true},
         ]},
       ],
     },

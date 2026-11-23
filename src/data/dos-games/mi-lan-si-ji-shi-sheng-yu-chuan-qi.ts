@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "米兰斯纪事-圣域传奇 is a DOS game in the WhereQ archive — 1995, 703 files, 6.1 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mi-lan-si-ji-shi-sheng-yu-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%B1%B3%E5%85%B0%E6%96%AF%E7%BA%AA%E4%BA%8B-%E5%9C%A3%E5%9F%9F%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mi-lan-si-ji-shi-sheng-yu-chuan-qi.zip"],
           ["Size", "6,427,756 bytes (6.1 MB)"],
           ["SHA-256", "75b374b180e601d37de89f1e6ccd52ba1712e0bb6b107ce1a63cd9d70e4dd385"],
           ["Files", "703"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%B1%B3%E5%85%B0%E6%96%AF%E7%BA%AA%E4%BA%8B-%E5%9C%A3%E5%9F%9F%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 米兰斯纪事-圣域传奇 (6.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mi-lan-si-ji-shi-sheng-yu-chuan-qi.zip", external: true},
+          {label: "Download 米兰斯纪事-圣域传奇 (6.1 MB)", href: "https://dos-bin.zczc.cz/%E7%B1%B3%E5%85%B0%E6%96%AF%E7%BA%AA%E4%BA%8B-%E5%9C%A3%E5%9F%9F%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

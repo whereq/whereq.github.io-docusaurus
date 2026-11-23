@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "明日之星 is a DOS game in the WhereQ archive — 1995, 136 files, 5.1 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ming-ri-zhi-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%8E%E6%97%A5%E4%B9%8B%E6%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ming-ri-zhi-xing.zip"],
           ["Size", "5,310,239 bytes (5.1 MB)"],
           ["SHA-256", "c84a60e0f1684aafdf59d10c7e7d452653090729b241ab18033b2e49f080730b"],
           ["Files", "136"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%8E%E6%97%A5%E4%B9%8B%E6%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 明日之星 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ming-ri-zhi-xing.zip", external: true},
+          {label: "Download 明日之星 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E6%98%8E%E6%97%A5%E4%B9%8B%E6%98%9F.zip", external: true},
         ]},
       ],
     },

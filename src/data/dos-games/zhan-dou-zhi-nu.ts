@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战斗之怒 is a DOS game in the WhereQ archive — 1996, 3,475 files, 13.0 MB, and an entry point of WRATH.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-zhi-nu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E4%B9%8B%E6%80%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-dou-zhi-nu.zip"],
           ["Size", "13,656,502 bytes (13.0 MB)"],
           ["SHA-256", "73e82c6a6d2f0bfbb483b9cdb6f5bdfb561cb1cdc77a13bd9a74f3d17c5231e0"],
           ["Files", "3,475"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E4%B9%8B%E6%80%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战斗之怒 (13.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-dou-zhi-nu.zip", external: true},
+          {label: "Download 战斗之怒 (13.0 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%97%E4%B9%8B%E6%80%92.zip", external: true},
         ]},
       ],
     },

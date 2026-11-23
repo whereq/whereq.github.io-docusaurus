@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "时空战士 is a DOS game in the WhereQ archive — 1988, 93 files, 223 KB, and an entry point of HARRIER.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-zhan-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%88%98%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-kong-zhan-shi.zip"],
           ["Size", "228,794 bytes (223 KB)"],
           ["SHA-256", "060856303383cacb15990fc126d032c6711825ca4813a07928c8d1e86b0ac144"],
           ["Files", "93"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%88%98%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 时空战士 (223 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-kong-zhan-shi.zip", external: true},
+          {label: "Download 时空战士 (223 KB)", href: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%88%98%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

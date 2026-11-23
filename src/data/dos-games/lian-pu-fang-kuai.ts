@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "脸谱方块 is a DOS game in the WhereQ archive — 1990, 104 files, 537 KB, and an entry point of FACESVGA.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lian-pu-fang-kuai.zip",
+  url: "https://dos-bin.zczc.cz/%E8%84%B8%E8%B0%B1%E6%96%B9%E5%9D%97.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lian-pu-fang-kuai.zip"],
           ["Size", "550,049 bytes (537 KB)"],
           ["SHA-256", "af8a58aeafc054cfcaa3a491d3905beb6c7ce0a9d0cdb5741ad2a0eb0f27f668"],
           ["Files", "104"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%84%B8%E8%B0%B1%E6%96%B9%E5%9D%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 脸谱方块 (537 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/lian-pu-fang-kuai.zip", external: true},
+          {label: "Download 脸谱方块 (537 KB)", href: "https://dos-bin.zczc.cz/%E8%84%B8%E8%B0%B1%E6%96%B9%E5%9D%97.zip", external: true},
         ]},
       ],
     },

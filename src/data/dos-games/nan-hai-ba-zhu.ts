@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "南海霸主 is a DOS game in the WhereQ archive — 2007, 100 files, 1.8 MB, and an entry point of PLAY.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nan-hai-ba-zhu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%97%E6%B5%B7%E9%9C%B8%E4%B8%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nan-hai-ba-zhu.zip"],
           ["Size", "1,888,619 bytes (1.8 MB)"],
           ["SHA-256", "28fe290c2d9a7cb5c3f8d5e70ce7fd3fa791f43046271bbd7079e533ca1acb23"],
           ["Files", "100"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%97%E6%B5%B7%E9%9C%B8%E4%B8%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 南海霸主 (1.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nan-hai-ba-zhu.zip", external: true},
+          {label: "Download 南海霸主 (1.8 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%97%E6%B5%B7%E9%9C%B8%E4%B8%BB.zip", external: true},
         ]},
       ],
     },

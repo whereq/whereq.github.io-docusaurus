@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "绝地风暴 is a DOS game in the WhereQ archive — 1997, 87 files, 377.6 MB, and an entry point of KKND.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-di-feng-bao.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0%E9%A3%8E%E6%9A%B4.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-di-feng-bao.zip"],
           ["Size", "395,941,826 bytes (377.6 MB)"],
           ["SHA-256", "65f45918327c237363ed04291d15134f195f766e36eef2d5f4312e5bc0c7d983"],
           ["Files", "87"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0%E9%A3%8E%E6%9A%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 绝地风暴 (377.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-di-feng-bao.zip", external: true},
+          {label: "Download 绝地风暴 (377.6 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0%E9%A3%8E%E6%9A%B4.zip", external: true},
         ]},
       ],
     },

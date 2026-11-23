@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "红猫2 is a DOS game in the WhereQ archive — 2010, 40 files, 1.2 MB, and an entry point of RC2.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hong-mao-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%A2%E7%8C%AB2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hong-mao-2.zip"],
           ["Size", "1,265,718 bytes (1.2 MB)"],
           ["SHA-256", "af75bc96f039c4ec59c320632f6b27f423ba98eb538dccebc9d8713fa9aab1bf"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%A2%E7%8C%AB2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 红猫2 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hong-mao-2.zip", external: true},
+          {label: "Download 红猫2 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%A2%E7%8C%AB2.zip", external: true},
         ]},
       ],
     },

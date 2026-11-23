@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔异入侵 is a DOS game in the WhereQ archive — 1992, 175 files, 4.5 MB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-yi-ru-qin.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%BC%82%E5%85%A5%E4%BE%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-yi-ru-qin.zip"],
           ["Size", "4,748,483 bytes (4.5 MB)"],
           ["SHA-256", "10945a78b4a12ee010e68ea9091747bbb63176d1104281d9720a83934e8589e2"],
           ["Files", "175"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E5%BC%82%E5%85%A5%E4%BE%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔异入侵 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-yi-ru-qin.zip", external: true},
+          {label: "Download 魔异入侵 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E5%BC%82%E5%85%A5%E4%BE%B5.zip", external: true},
         ]},
       ],
     },

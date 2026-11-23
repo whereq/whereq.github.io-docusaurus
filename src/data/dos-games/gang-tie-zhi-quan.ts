@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "钢铁之拳 is a DOS game in the WhereQ archive — 1994, 407 files, 5.7 MB, and an entry point of F.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-quan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E6%8B%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gang-tie-zhi-quan.zip"],
           ["Size", "6,008,574 bytes (5.7 MB)"],
           ["SHA-256", "6eed0f162d4c52c0c9eed5c4162ea6ef3cdd3070aeddfa6ed8821d2939039427"],
           ["Files", "407"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E6%8B%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 钢铁之拳 (5.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gang-tie-zhi-quan.zip", external: true},
+          {label: "Download 钢铁之拳 (5.7 MB)", href: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E6%8B%B3.zip", external: true},
         ]},
       ],
     },

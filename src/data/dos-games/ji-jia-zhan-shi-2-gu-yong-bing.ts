@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机甲战士2雇佣兵 is a DOS game in the WhereQ archive — 1996, 580 files, 56.0 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-gu-yong-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E9%9B%87%E4%BD%A3%E5%85%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-jia-zhan-shi-2-gu-yong-bing.zip"],
           ["Size", "58,736,323 bytes (56.0 MB)"],
           ["SHA-256", "ac9236059a3082ef06eba35dee9c56d81cabf30eacc88a43e4b6e89a2f84d79c"],
           ["Files", "580"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E9%9B%87%E4%BD%A3%E5%85%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机甲战士2雇佣兵 (56.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-jia-zhan-shi-2-gu-yong-bing.zip", external: true},
+          {label: "Download 机甲战士2雇佣兵 (56.0 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E9%9B%87%E4%BD%A3%E5%85%B5.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "突袭指挥官 is a DOS game in the WhereQ archive — 2009, 58 files, 20.7 MB, and an entry point of OPTTEST.EXE.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tu-xi-zhi-hui-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E6%8C%87%E6%8C%A5%E5%AE%98.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tu-xi-zhi-hui-guan.zip"],
           ["Size", "21,665,721 bytes (20.7 MB)"],
           ["SHA-256", "c14fc37278555732d04c92dd229d2870acb199be2489b374657a86d10607d401"],
           ["Files", "58"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E6%8C%87%E6%8C%A5%E5%AE%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 突袭指挥官 (20.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tu-xi-zhi-hui-guan.zip", external: true},
+          {label: "Download 突袭指挥官 (20.7 MB)", href: "https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E6%8C%87%E6%8C%A5%E5%AE%98.zip", external: true},
         ]},
       ],
     },

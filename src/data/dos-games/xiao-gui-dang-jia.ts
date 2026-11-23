@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小鬼当家 is a DOS game in the WhereQ archive — 1991, 43 files, 471 KB, and an entry point of HA.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-gui-dang-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AC%BC%E5%BD%93%E5%AE%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-gui-dang-jia.zip"],
           ["Size", "482,440 bytes (471 KB)"],
           ["SHA-256", "b2897b3ab23e043b8c6f73a37b10be238b7d537657d9acc8a57d552941aac98d"],
           ["Files", "43"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E9%AC%BC%E5%BD%93%E5%AE%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小鬼当家 (471 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-gui-dang-jia.zip", external: true},
+          {label: "Download 小鬼当家 (471 KB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AC%BC%E5%BD%93%E5%AE%B6.zip", external: true},
         ]},
       ],
     },

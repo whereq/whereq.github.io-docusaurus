@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "凯撒大帝 is a DOS game in the WhereQ archive — 1990, 33 files, 911 KB, and an entry point of CENTURIO.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-da-di.zip",
+  url: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kai-sa-da-di.zip"],
           ["Size", "932,903 bytes (911 KB)"],
           ["SHA-256", "99f7fc02c5e0292561b8850dacabdbfd6819d5c1770dcdd0f59f24d14f25d8af"],
           ["Files", "33"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 凯撒大帝 (911 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/kai-sa-da-di.zip", external: true},
+          {label: "Download 凯撒大帝 (911 KB)", href: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D.zip", external: true},
         ]},
       ],
     },

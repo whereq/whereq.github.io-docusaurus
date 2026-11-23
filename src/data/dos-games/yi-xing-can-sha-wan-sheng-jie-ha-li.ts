@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异形残杀:万圣节哈利 is a DOS game in the WhereQ archive — 1993, 45 files, 4.7 MB, and an entry point of HARRY.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-can-sha-wan-sheng-jie-ha-li.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%AE%8B%E6%9D%80%EF%BC%9A%E4%B8%87%E5%9C%A3%E8%8A%82%E5%93%88%E5%88%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-can-sha-wan-sheng-jie-ha-li.zip"],
           ["Size", "4,972,663 bytes (4.7 MB)"],
           ["SHA-256", "063f5da9fa6697e85e7f900ac949d51cb7e2bafe9bfefa41df908cde3dfea3bd"],
           ["Files", "45"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%AE%8B%E6%9D%80%EF%BC%9A%E4%B8%87%E5%9C%A3%E8%8A%82%E5%93%88%E5%88%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异形残杀:万圣节哈利 (4.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-can-sha-wan-sheng-jie-ha-li.zip", external: true},
+          {label: "Download 异形残杀:万圣节哈利 (4.7 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E6%AE%8B%E6%9D%80%EF%BC%9A%E4%B8%87%E5%9C%A3%E8%8A%82%E5%93%88%E5%88%A9.zip", external: true},
         ]},
       ],
     },

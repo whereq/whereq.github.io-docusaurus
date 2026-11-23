@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "棒球大联盟3 is a DOS game in the WhereQ archive — 1992, 21 files, 1.1 MB, and an entry point of HB.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bang-qiu-da-lian-meng-3.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bang-qiu-da-lian-meng-3.zip"],
           ["Size", "1,133,452 bytes (1.1 MB)"],
           ["SHA-256", "45f664e8954fb14bf62f8973a8cc87805470dd50c5c14b1ad2541f6060a35e1e"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 棒球大联盟3 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bang-qiu-da-lian-meng-3.zip", external: true},
+          {label: "Download 棒球大联盟3 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F3.zip", external: true},
         ]},
       ],
     },

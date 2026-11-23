@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "恐龙归来 is a DOS game in the WhereQ archive — 1993, 111 files, 865 KB, and an entry point of WRBK.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-gui-lai.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BD%92%E6%9D%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-long-gui-lai.zip"],
           ["Size", "885,923 bytes (865 KB)"],
           ["SHA-256", "afbcaebe607c6e9a23fdfb66c22aacf4e7e3b7daffa5c1b67790cab6ac45731e"],
           ["Files", "111"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BD%92%E6%9D%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恐龙归来 (865 KB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-long-gui-lai.zip", external: true},
+          {label: "Download 恐龙归来 (865 KB)", href: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BD%92%E6%9D%A5.zip", external: true},
         ]},
       ],
     },

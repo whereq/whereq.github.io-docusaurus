@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "以撒2末日使者 is a DOS game in the WhereQ archive — 1996, 157 files, 2.6 MB, and an entry point of start.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-2-mo-ri-shi-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%922%E6%9C%AB%E6%97%A5%E4%BD%BF%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-sa-2-mo-ri-shi-zhe.zip"],
           ["Size", "2,674,997 bytes (2.6 MB)"],
           ["SHA-256", "1709c03d5c126c07409020c34609bdb4e3727cdde1a0f8a10db54ace9bf6db63"],
           ["Files", "157"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%922%E6%9C%AB%E6%97%A5%E4%BD%BF%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 以撒2末日使者 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-sa-2-mo-ri-shi-zhe.zip", external: true},
+          {label: "Download 以撒2末日使者 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%922%E6%9C%AB%E6%97%A5%E4%BD%BF%E8%80%85.zip", external: true},
         ]},
       ],
     },

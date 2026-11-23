@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "迷走都市 is a DOS game in the WhereQ archive — 1995, 494 files, 3.7 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mi-zou-du-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%B7%E8%B5%B0%E9%83%BD%E5%B8%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mi-zou-du-shi.zip"],
           ["Size", "3,894,097 bytes (3.7 MB)"],
           ["SHA-256", "904f86022eca2118ee6f864af234522256cd4ad583e0e542850869b956ac71f2"],
           ["Files", "494"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%B7%E8%B5%B0%E9%83%BD%E5%B8%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 迷走都市 (3.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mi-zou-du-shi.zip", external: true},
+          {label: "Download 迷走都市 (3.7 MB)", href: "https://dos-bin.zczc.cz/%E8%BF%B7%E8%B5%B0%E9%83%BD%E5%B8%82.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "终极任务 is a DOS game in the WhereQ archive — 1996, 14 files, 4.3 MB, and an entry point of UM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-ren-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E4%BB%BB%E5%8A%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-ji-ren-wu.zip"],
           ["Size", "4,527,403 bytes (4.3 MB)"],
           ["SHA-256", "6b381bdcf7cf48700e5c8021087401e636735fa6b609134ca48e3eb85f5ae46e"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E4%BB%BB%E5%8A%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 终极任务 (4.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-ren-wu.zip", external: true},
+          {label: "Download 终极任务 (4.3 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E4%BB%BB%E5%8A%A1.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "英雄圣战 is a DOS game in the WhereQ archive — 1996, 1,526 files, 11.3 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-sheng-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E5%9C%A3%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ying-xiong-sheng-zhan.zip"],
           ["Size", "11,885,598 bytes (11.3 MB)"],
           ["SHA-256", "fc1c691e73e5eb7a1d4a133a21a7978924fa7b828ad620fe9e13c08f8e13bff5"],
           ["Files", "1,526"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E5%9C%A3%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 英雄圣战 (11.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ying-xiong-sheng-zhan.zip", external: true},
+          {label: "Download 英雄圣战 (11.3 MB)", href: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E5%9C%A3%E6%88%98.zip", external: true},
         ]},
       ],
     },

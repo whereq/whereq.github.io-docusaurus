@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "真实足球 is a DOS game in the WhereQ archive — 1995, 39 files, 10.5 MB, and an entry point of PLAY.bat.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhen-shi-zu-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9C%9F%E5%AE%9E%E8%B6%B3%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhen-shi-zu-qiu.zip"],
           ["Size", "11,043,679 bytes (10.5 MB)"],
           ["SHA-256", "c2e6dca34f17f5a3717416ed45bfc48a962e10bdec803b26329425a955b73e31"],
           ["Files", "39"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9C%9F%E5%AE%9E%E8%B6%B3%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 真实足球 (10.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhen-shi-zu-qiu.zip", external: true},
+          {label: "Download 真实足球 (10.5 MB)", href: "https://dos-bin.zczc.cz/%E7%9C%9F%E5%AE%9E%E8%B6%B3%E7%90%83.zip", external: true},
         ]},
       ],
     },

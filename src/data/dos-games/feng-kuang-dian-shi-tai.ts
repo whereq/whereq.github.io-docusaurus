@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "疯狂电视台 is a DOS game in the WhereQ archive — 1991, 244 files, 795 KB, and an entry point of MTV.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-dian-shi-tai.zip",
+  url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E7%94%B5%E8%A7%86%E5%8F%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-kuang-dian-shi-tai.zip"],
           ["Size", "813,629 bytes (795 KB)"],
           ["SHA-256", "7b3d0a6e8f4cdd25ea064ead71a53a4e6d574b3b740f6b6203756f7127fed392"],
           ["Files", "244"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E7%94%B5%E8%A7%86%E5%8F%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 疯狂电视台 (795 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-dian-shi-tai.zip", external: true},
+          {label: "Download 疯狂电视台 (795 KB)", href: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E7%94%B5%E8%A7%86%E5%8F%B0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "一级方程式赛车 is a DOS game in the WhereQ archive — 1992, 62 files, 881 KB, and an entry point of GPU.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-fang-cheng-shi-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%A7%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-ji-fang-cheng-shi-sai-che.zip"],
           ["Size", "901,700 bytes (881 KB)"],
           ["SHA-256", "48e65babb89b8563128e436d0765159268c4ede6fdf1a49da4db4d923c975b6f"],
           ["Files", "62"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%A7%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 一级方程式赛车 (881 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-fang-cheng-shi-sai-che.zip", external: true},
+          {label: "Download 一级方程式赛车 (881 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%A7%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

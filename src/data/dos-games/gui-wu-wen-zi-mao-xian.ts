@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "鬼屋文字冒险 is a DOS game in the WhereQ archive — 1996, 11 files, 97 KB, and an entry point of BONES.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-wen-zi-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gui-wu-wen-zi-mao-xian.zip"],
           ["Size", "99,321 bytes (97 KB)"],
           ["SHA-256", "783d7a7f4fa29a67a544ccca3e8d4018964bbafc6db13ab60becaba51e111a49"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 鬼屋文字冒险 (97 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/gui-wu-wen-zi-mao-xian.zip", external: true},
+          {label: "Download 鬼屋文字冒险 (97 KB)", href: "https://dos-bin.zczc.cz/%E9%AC%BC%E5%B1%8B%E6%96%87%E5%AD%97%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "王子传奇 is a DOS game in the WhereQ archive — 1995, 9 files, 3.9 MB, and an entry point of PRINCE.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wang-zi-chuan-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%8B%E5%AD%90%E4%BC%A0%E5%A5%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wang-zi-chuan-qi.zip"],
           ["Size", "4,061,512 bytes (3.9 MB)"],
           ["SHA-256", "bdfa2a10184b0bbb127eb428b9e3208987adcfae6b0f9699cfd5111d0d57e928"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%8B%E5%AD%90%E4%BC%A0%E5%A5%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 王子传奇 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wang-zi-chuan-qi.zip", external: true},
+          {label: "Download 王子传奇 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E7%8E%8B%E5%AD%90%E4%BC%A0%E5%A5%87.zip", external: true},
         ]},
       ],
     },

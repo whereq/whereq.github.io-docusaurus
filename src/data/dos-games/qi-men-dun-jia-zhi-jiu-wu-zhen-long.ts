@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "奇门遁甲之九五真龙 is a DOS game in the WhereQ archive — 1993, 568 files, 3.9 MB, and an entry point of MAIN.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-men-dun-jia-zhi-jiu-wu-zhen-long.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E4%B9%8B%E4%B9%9D%E4%BA%94%E7%9C%9F%E9%BE%99.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-men-dun-jia-zhi-jiu-wu-zhen-long.zip"],
           ["Size", "4,086,699 bytes (3.9 MB)"],
           ["SHA-256", "0e17d64470ce35da21dffacfc4361818a860b79c4ceba87ca94230b36d3faeee"],
           ["Files", "568"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E4%B9%8B%E4%B9%9D%E4%BA%94%E7%9C%9F%E9%BE%99.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 奇门遁甲之九五真龙 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-men-dun-jia-zhi-jiu-wu-zhen-long.zip", external: true},
+          {label: "Download 奇门遁甲之九五真龙 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A5%87%E9%97%A8%E9%81%81%E7%94%B2%E4%B9%8B%E4%B9%9D%E4%BA%94%E7%9C%9F%E9%BE%99.zip", external: true},
         ]},
       ],
     },

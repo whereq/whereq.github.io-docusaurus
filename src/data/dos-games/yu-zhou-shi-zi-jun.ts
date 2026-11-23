@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "宇宙十字军 is a DOS game in the WhereQ archive — 1996, 30 files, 1007 KB, and an entry point of intro.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-shi-zi-jun.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%8D%81%E5%AD%97%E5%86%9B.zip",
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-zhou-shi-zi-jun.zip"],
           ["Size", "1,030,841 bytes (1007 KB)"],
           ["SHA-256", "35a5df182f92f35881a1c9c6cbae8d894ac31f59f91e171ead062010164e56ca"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%8D%81%E5%AD%97%E5%86%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宇宙十字军 (1007 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-shi-zi-jun.zip", external: true},
+          {label: "Download 宇宙十字军 (1007 KB)", href: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E5%8D%81%E5%AD%97%E5%86%9B.zip", external: true},
         ]},
       ],
     },

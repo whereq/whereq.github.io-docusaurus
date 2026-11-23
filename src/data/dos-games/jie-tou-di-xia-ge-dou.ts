@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "街头地下格斗 is a DOS game in the WhereQ archive — 1991, 96 files, 632 KB, and an entry point of PIT.COM.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jie-tou-di-xia-ge-dou.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A1%97%E5%A4%B4%E5%9C%B0%E4%B8%8B%E6%A0%BC%E6%96%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jie-tou-di-xia-ge-dou.zip"],
           ["Size", "647,018 bytes (632 KB)"],
           ["SHA-256", "93d0d4d53434e254905bf20de65dee303bb7e13d9a2ff4605c5930355a3f595b"],
           ["Files", "96"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A1%97%E5%A4%B4%E5%9C%B0%E4%B8%8B%E6%A0%BC%E6%96%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 街头地下格斗 (632 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/jie-tou-di-xia-ge-dou.zip", external: true},
+          {label: "Download 街头地下格斗 (632 KB)", href: "https://dos-bin.zczc.cz/%E8%A1%97%E5%A4%B4%E5%9C%B0%E4%B8%8B%E6%A0%BC%E6%96%97.zip", external: true},
         ]},
       ],
     },

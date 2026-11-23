@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "墓地丧尸 is a DOS game in the WhereQ archive — 1991, 67 files, 630 KB, and an entry point of HZEGA.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mu-di-sang-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A2%93%E5%9C%B0%E4%B8%A7%E5%B0%B8.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mu-di-sang-shi.zip"],
           ["Size", "644,867 bytes (630 KB)"],
           ["SHA-256", "759a680ad038492ef685fe4b690b2a19a0d2fc75ba71f7c7f27494627075cb58"],
           ["Files", "67"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A2%93%E5%9C%B0%E4%B8%A7%E5%B0%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 墓地丧尸 (630 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mu-di-sang-shi.zip", external: true},
+          {label: "Download 墓地丧尸 (630 KB)", href: "https://dos-bin.zczc.cz/%E5%A2%93%E5%9C%B0%E4%B8%A7%E5%B0%B8.zip", external: true},
         ]},
       ],
     },

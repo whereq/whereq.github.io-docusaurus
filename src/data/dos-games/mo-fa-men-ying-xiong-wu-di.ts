@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法门英雄无敌 is a DOS game in the WhereQ archive — 1995, 66 files, 21.1 MB, and an entry point of HEROES.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-men-ying-xiong-wu-di.zip"],
           ["Size", "22,073,486 bytes (21.1 MB)"],
           ["SHA-256", "ac4e5f410508b2e56c2e761365e7e715e402a4e72095c068e0afec1620e538d5"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法门英雄无敌 (21.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-men-ying-xiong-wu-di.zip", external: true},
+          {label: "Download 魔法门英雄无敌 (21.1 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C.zip", external: true},
         ]},
       ],
     },

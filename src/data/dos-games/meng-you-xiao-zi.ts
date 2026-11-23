@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "梦游小子 is a DOS game in the WhereQ archive — 1996, 7 files, 6.4 MB, and an entry point of SLEEP.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/meng-you-xiao-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A2%A6%E6%B8%B8%E5%B0%8F%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "meng-you-xiao-zi.zip"],
           ["Size", "6,730,277 bytes (6.4 MB)"],
           ["SHA-256", "e8c630b27de2cd26b4997321fc237af101b2b3dc5f014d7f01ca1c233f7938f3"],
           ["Files", "7"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A2%A6%E6%B8%B8%E5%B0%8F%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 梦游小子 (6.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/meng-you-xiao-zi.zip", external: true},
+          {label: "Download 梦游小子 (6.4 MB)", href: "https://dos-bin.zczc.cz/%E6%A2%A6%E6%B8%B8%E5%B0%8F%E5%AD%90.zip", external: true},
         ]},
       ],
     },

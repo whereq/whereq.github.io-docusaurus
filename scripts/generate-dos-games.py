@@ -45,8 +45,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dos_game_slugs import initial_for, unique_slug  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REPO = 'whereq/dos-games'
-RELEASE_HOST = f'https://github.com/{REPO}/releases/download'
+# The bundles are served by the archive the pages came from. There is no
+# mirror here: the download link on a game page is the original copy, so
+# the file the reader gets is the file the page describes.
 
 # Games whose pages are written by hand — see src/data/atlas-dos-games.ts.
 # The slug is the one their page already lives at.
@@ -54,6 +55,7 @@ MANUAL_SLUGS = {
     '三国志英杰传': 'sanguo-yingjie-zhuan',
     '真人快打': 'mortal-kombat',
     '沙丘魔堡': 'sha-qiu-mo-bao',
+    '炎龙骑士团2黄金城之谜': 'yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi',
 }
 MANUAL = set(MANUAL_SLUGS)
 
@@ -255,17 +257,17 @@ def build_entry(game, meta, slug, tag, accent):
         {
             'title': 'Download the bundle',
             'blocks': [
-                {'kind': 'paragraph', 'text': 'The bundle is served from the WhereQ release host, byte for byte as it is in the archive.'},
+                {'kind': 'paragraph', 'text': 'The bundle is the original copy from the archive this page was generated from — the same file, byte for byte.'},
                 {'kind': 'table', 'head': ['Field', 'Value'], 'rows': [
                     ['File', f'{slug}.zip'],
                     ['Size', f'{human_files(size)} bytes ({megabytes(size)})'],
                     ['SHA-256', game['sha256']],
                     ['Files', human_files(files)],
-                    ['Original', f'dos-bin.zczc.cz — {game["source_url"]}'],
+                    ['Archive', 'dos-bin.zczc.cz — the archive this page was generated from'],
                 ]},
                 {'kind': 'links', 'items': [
                     {'label': f'Download {name} ({megabytes(size)})',
-                     'href': f'{RELEASE_HOST}/{tag}/{slug}.zip',
+                     'href': game['source_url'],
                      'external': True},
                 ]},
             ],
@@ -315,7 +317,7 @@ def build_entry(game, meta, slug, tag, accent):
         'group': tag,
         'summary': summary,
         'status': str(year) if year else 'Archive',
-        'url': f'{RELEASE_HOST}/{tag}/{slug}.zip',
+        'url': game['source_url'],
         'facts': facts,
         'sections': sections,
     }
@@ -537,8 +539,7 @@ def main():
 
     # The hand-written pages are skipped above, but they still belong in the
     # catalogue: the reader should find 三国志英杰传 in the list, and be sent
-    # to its page on the Atlas shelf. Their bundles also need a home on the
-    # release host — the whole archive goes there.
+    # to its page on the Atlas shelf.
     with open(args.index, newline='', encoding='utf-8') as handle:
         all_rows = {row['identifier']: row for row in csv.DictReader(handle)}
     for identifier, slug in sorted(MANUAL_SLUGS.items()):
@@ -575,7 +576,7 @@ def main():
             'files': files,
             'entry': entry_point,
             'tag': tag,
-            'url': f'{RELEASE_HOST}/{tag}/{slug}.zip',
+            'url': row['source_url'],
             'page': f'/atlas/dos-games/{slug}/',
         })
 
@@ -615,7 +616,7 @@ export type DosGameIndexEntry = {
   entry: string;
   /** The first letter of the name — the letter its release sits under. */
   tag: string;
-  /** The download, on the release host. */
+  /** The download — the original copy, on the archive the page came from. */
   url: string;
   /** Where the game's own page lives on this site. */
   page: string;

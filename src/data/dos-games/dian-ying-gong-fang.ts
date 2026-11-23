@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "电影工坊 is a DOS game in the WhereQ archive — 1994, 26 files, 609 KB, and an entry point of CAMMAN.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dian-ying-gong-fang.zip",
+  url: "https://dos-bin.zczc.cz/%E7%94%B5%E5%BD%B1%E5%B7%A5%E5%9D%8A.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dian-ying-gong-fang.zip"],
           ["Size", "623,803 bytes (609 KB)"],
           ["SHA-256", "8fab77b4f1819cca7a9bddc040d9c7ef21321f7c60e2938c1fbf9512606ab863"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%94%B5%E5%BD%B1%E5%B7%A5%E5%9D%8A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 电影工坊 (609 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/dian-ying-gong-fang.zip", external: true},
+          {label: "Download 电影工坊 (609 KB)", href: "https://dos-bin.zczc.cz/%E7%94%B5%E5%BD%B1%E5%B7%A5%E5%9D%8A.zip", external: true},
         ]},
       ],
     },

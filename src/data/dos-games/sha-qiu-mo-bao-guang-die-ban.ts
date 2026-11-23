@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "沙丘魔堡光碟版 is a DOS game in the WhereQ archive — an undated copy, 3 files, 227.0 MB, and an entry point of DUNE.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-guang-die-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A1%E5%85%89%E7%A2%9F%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-qiu-mo-bao-guang-die-ban.zip"],
           ["Size", "237,981,408 bytes (227.0 MB)"],
           ["SHA-256", "143cca4c3ba1f0e7b332e2cd852c901afb5b6572d98e5eca5a4ca3873ceeadd8"],
           ["Files", "3"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A1%E5%85%89%E7%A2%9F%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沙丘魔堡光碟版 (227.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-guang-die-ban.zip", external: true},
+          {label: "Download 沙丘魔堡光碟版 (227.0 MB)", href: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A1%E5%85%89%E7%A2%9F%E7%89%88.zip", external: true},
         ]},
       ],
     },

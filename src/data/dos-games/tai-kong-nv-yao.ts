@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "太空女妖 is a DOS game in the WhereQ archive — 1989, 43 files, 221 KB, and an entry point of SEXVIXEN.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-nv-yao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E5%A5%B3%E5%A6%96.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-kong-nv-yao.zip"],
           ["Size", "225,991 bytes (221 KB)"],
           ["SHA-256", "f434132d0e4d463a002583f0ba3c6a87663e9e38878004d6eeb2414d0163a0b5"],
           ["Files", "43"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E5%A5%B3%E5%A6%96.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 太空女妖 (221 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-kong-nv-yao.zip", external: true},
+          {label: "Download 太空女妖 (221 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E5%A5%B3%E5%A6%96.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "纳粹飞行秘史+资料片 is a DOS game in the WhereQ archive — 1991, 547 files, 1.8 MB, and an entry point of SW.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/n/na-cui-fei-xing-mi-shi-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%B3%E7%B2%B9%E9%A3%9E%E8%A1%8C%E7%A7%98%E5%8F%B2%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "na-cui-fei-xing-mi-shi-zi-liao-pian.zip"],
           ["Size", "1,903,964 bytes (1.8 MB)"],
           ["SHA-256", "2a411164ecfddf590807aca1b9013202ddbbc764588e9a10414b05ee3ca1c0c0"],
           ["Files", "547"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%B3%E7%B2%B9%E9%A3%9E%E8%A1%8C%E7%A7%98%E5%8F%B2%2B%E8%B5%84%E6%96%99%E7%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 纳粹飞行秘史+资料片 (1.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/na-cui-fei-xing-mi-shi-zi-liao-pian.zip", external: true},
+          {label: "Download 纳粹飞行秘史+资料片 (1.8 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%B3%E7%B2%B9%E9%A3%9E%E8%A1%8C%E7%A7%98%E5%8F%B2%2B%E8%B5%84%E6%96%99%E7%89%87.zip", external: true},
         ]},
       ],
     },

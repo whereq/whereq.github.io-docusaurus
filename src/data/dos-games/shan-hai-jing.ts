@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "山海经 is a DOS game in the WhereQ archive — an undated copy, 644 files, 22.9 MB, and an entry point of DOSBOX.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shan-hai-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B1%B1%E6%B5%B7%E7%BB%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shan-hai-jing.zip"],
           ["Size", "23,962,468 bytes (22.9 MB)"],
           ["SHA-256", "a6533b77f2126affae4bc1162d0395801f3b925c28c96296ad7b15b9a93ac19e"],
           ["Files", "644"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B1%B1%E6%B5%B7%E7%BB%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 山海经 (22.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shan-hai-jing.zip", external: true},
+          {label: "Download 山海经 (22.9 MB)", href: "https://dos-bin.zczc.cz/%E5%B1%B1%E6%B5%B7%E7%BB%8F.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "德库拉传说 is a DOS game in the WhereQ archive — 1993, 65 files, 772 KB, and an entry point of DRAC.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/d/de-ku-la-chuan-shuo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%BA%93%E6%8B%89%E4%BC%A0%E8%AF%B4.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "de-ku-la-chuan-shuo.zip"],
           ["Size", "790,335 bytes (772 KB)"],
           ["SHA-256", "693725f358b1d1b5c3caa2a8f276eaefa52bbc80f94ab49e390cc5136539f2e8"],
           ["Files", "65"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%B7%E5%BA%93%E6%8B%89%E4%BC%A0%E8%AF%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 德库拉传说 (772 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/de-ku-la-chuan-shuo.zip", external: true},
+          {label: "Download 德库拉传说 (772 KB)", href: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%BA%93%E6%8B%89%E4%BC%A0%E8%AF%B4.zip", external: true},
         ]},
       ],
     },

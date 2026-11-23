@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "尼旁事务所 is a DOS game in the WhereQ archive — 1996, 51 files, 1.9 MB, and an entry point of ADV.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/n/ni-pang-shi-wu-suo.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%BC%E6%97%81%E4%BA%8B%E5%8A%A1%E6%89%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ni-pang-shi-wu-suo.zip"],
           ["Size", "1,999,376 bytes (1.9 MB)"],
           ["SHA-256", "1421d89156e953978696a9b7f7abea0c89eaecbafeea6d8f6fde1872fcbf3684"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%BC%E6%97%81%E4%BA%8B%E5%8A%A1%E6%89%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 尼旁事务所 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/ni-pang-shi-wu-suo.zip", external: true},
+          {label: "Download 尼旁事务所 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%BC%E6%97%81%E4%BA%8B%E5%8A%A1%E6%89%80.zip", external: true},
         ]},
       ],
     },

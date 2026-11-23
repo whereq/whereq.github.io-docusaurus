@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海狼 is a DOS game in the WhereQ archive — 1993, 114 files, 8.1 MB, and an entry point of SEAWOLF.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-lang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%8B%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-lang.zip"],
           ["Size", "8,477,018 bytes (8.1 MB)"],
           ["SHA-256", "7d5cf75c426f133b48d2418ecb426a206e2658df4620c1af565ce9b8950ffdad"],
           ["Files", "114"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E7%8B%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海狼 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-lang.zip", external: true},
+          {label: "Download 海狼 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%8B%BC.zip", external: true},
         ]},
       ],
     },

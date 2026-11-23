@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻想空间3 is a DOS game in the WhereQ archive — 1989, 69 files, 2.6 MB, and an entry point of SIERRA.COM.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-3.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B43.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-xiang-kong-jian-3.zip"],
           ["Size", "2,718,919 bytes (2.6 MB)"],
           ["SHA-256", "af38c5495a4ec656762206bcda0967919c4d6fd6089d8f911d53942ac9f3c7ee"],
           ["Files", "69"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B43.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻想空间3 (2.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-3.zip", external: true},
+          {label: "Download 幻想空间3 (2.6 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B43.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "黎明铁砧 is a DOS game in the WhereQ archive — 1996, 34 files, 71.5 MB, and an entry point of anviloriginal.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/li-ming-tie-zhen.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E9%93%81%E7%A0%A7.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "li-ming-tie-zhen.zip"],
           ["Size", "75,004,322 bytes (71.5 MB)"],
           ["SHA-256", "2beac7e253dd97201bc56a61e7cbf9fffd32f779567c7dfab6edd01fd9abca92"],
           ["Files", "34"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E9%93%81%E7%A0%A7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黎明铁砧 (71.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/li-ming-tie-zhen.zip", external: true},
+          {label: "Download 黎明铁砧 (71.5 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E9%93%81%E7%A0%A7.zip", external: true},
         ]},
       ],
     },

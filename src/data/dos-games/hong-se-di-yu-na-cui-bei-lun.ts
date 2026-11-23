@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "红色地狱纳粹悖论 is a DOS game in the WhereQ archive — 1996, 930 files, 23.3 MB, and an entry point of REDHELL.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hong-se-di-yu-na-cui-bei-lun.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E5%9C%B0%E7%8B%B1%E7%BA%B3%E7%B2%B9%E6%82%96%E8%AE%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hong-se-di-yu-na-cui-bei-lun.zip"],
           ["Size", "24,415,688 bytes (23.3 MB)"],
           ["SHA-256", "b196a69a428655bb575d308ef6982cdb93ede7aa8fb6c677f3b3a3fb5077e157"],
           ["Files", "930"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E5%9C%B0%E7%8B%B1%E7%BA%B3%E7%B2%B9%E6%82%96%E8%AE%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 红色地狱纳粹悖论 (23.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hong-se-di-yu-na-cui-bei-lun.zip", external: true},
+          {label: "Download 红色地狱纳粹悖论 (23.3 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E5%9C%B0%E7%8B%B1%E7%BA%B3%E7%B2%B9%E6%82%96%E8%AE%BA.zip", external: true},
         ]},
       ],
     },

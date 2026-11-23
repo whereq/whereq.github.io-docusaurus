@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "巴克罗杰矩阵立方 is a DOS game in the WhereQ archive — 1992, 51 files, 1.0 MB, and an entry point of START.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/b/ba-ke-luo-jie-ju-zhen-li-fang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E7%9F%A9%E9%98%B5%E7%AB%8B%E6%96%B9.zip",
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ba-ke-luo-jie-ju-zhen-li-fang.zip"],
           ["Size", "1,062,423 bytes (1.0 MB)"],
           ["SHA-256", "32824c0d1261c937f4ecb48f7f1bb90464a0431c879ac1ca70825161beaff203"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E7%9F%A9%E9%98%B5%E7%AB%8B%E6%96%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巴克罗杰矩阵立方 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/ba-ke-luo-jie-ju-zhen-li-fang.zip", external: true},
+          {label: "Download 巴克罗杰矩阵立方 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E7%9F%A9%E9%98%B5%E7%AB%8B%E6%96%B9.zip", external: true},
         ]},
       ],
     },

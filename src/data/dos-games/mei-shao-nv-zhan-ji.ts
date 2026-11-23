@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美少女战记 is a DOS game in the WhereQ archive — 1996, 175 files, 7.2 MB, and an entry point of INSTT.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%88%98%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-shao-nv-zhan-ji.zip"],
           ["Size", "7,585,192 bytes (7.2 MB)"],
           ["SHA-256", "21d5e79cfae2a4de4d1d2e659c18ab897d2fa0b5419c7af70791ec05226f9345"],
           ["Files", "175"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%88%98%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美少女战记 (7.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-shao-nv-zhan-ji.zip", external: true},
+          {label: "Download 美少女战记 (7.2 MB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%88%98%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

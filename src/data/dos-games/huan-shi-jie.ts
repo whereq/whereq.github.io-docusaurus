@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "环世界 is a DOS game in the WhereQ archive — an undated copy, 13 files, 15.7 MB, and an entry point of RING.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8E%AF%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "PROBE"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-shi-jie.zip"],
           ["Size", "16,439,196 bytes (15.7 MB)"],
           ["SHA-256", "aa75dfdff145bdb127ea19911352132e4aea0555a02a4ec8a72603d29b69ac74"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8E%AF%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 环世界 (15.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-shi-jie.zip", external: true},
+          {label: "Download 环世界 (15.7 MB)", href: "https://dos-bin.zczc.cz/%E7%8E%AF%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世封魔传 is a DOS game in the WhereQ archive — 1997, 399 files, 13.6 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-feng-mo-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E5%B0%81%E9%AD%94%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-feng-mo-chuan.zip"],
           ["Size", "14,295,313 bytes (13.6 MB)"],
           ["SHA-256", "406ca4721f6b65130d554dc269a119d9b4a82630b12c58c7aa22ea03af449815"],
           ["Files", "399"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E5%B0%81%E9%AD%94%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世封魔传 (13.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-feng-mo-chuan.zip", external: true},
+          {label: "Download 创世封魔传 (13.6 MB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E5%B0%81%E9%AD%94%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

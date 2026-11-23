@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "千兆轰炸 is a DOS game in the WhereQ archive — 1996, 110 files, 1.4 MB, and an entry point of kilo.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qian-zhao-hong-zha.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%83%E5%85%86%E8%BD%B0%E7%82%B8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qian-zhao-hong-zha.zip"],
           ["Size", "1,486,487 bytes (1.4 MB)"],
           ["SHA-256", "fa2847c5d32cc3bd0ee510e1f54dcd92e12b8b655397ee0a53fe38ca117874af"],
           ["Files", "110"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%83%E5%85%86%E8%BD%B0%E7%82%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 千兆轰炸 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qian-zhao-hong-zha.zip", external: true},
+          {label: "Download 千兆轰炸 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%83%E5%85%86%E8%BD%B0%E7%82%B8.zip", external: true},
         ]},
       ],
     },

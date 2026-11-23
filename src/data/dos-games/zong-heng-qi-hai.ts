@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "纵横七海 is a DOS game in the WhereQ archive — 1992, 153 files, 5.1 MB, and an entry point of SEA.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zong-heng-qi-hai.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BA%B5%E6%A8%AA%E4%B8%83%E6%B5%B7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zong-heng-qi-hai.zip"],
           ["Size", "5,363,019 bytes (5.1 MB)"],
           ["SHA-256", "7117d87292bab4f35c6d9285b0f44c33921b627042ddcca2a4aee0277f3218ed"],
           ["Files", "153"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BA%B5%E6%A8%AA%E4%B8%83%E6%B5%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 纵横七海 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zong-heng-qi-hai.zip", external: true},
+          {label: "Download 纵横七海 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%B5%E6%A8%AA%E4%B8%83%E6%B5%B7.zip", external: true},
         ]},
       ],
     },

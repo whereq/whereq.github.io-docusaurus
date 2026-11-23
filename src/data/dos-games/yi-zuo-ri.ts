@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "遗作(日） is a DOS game in the WhereQ archive — 1995, 27 files, 7.7 MB, and an entry point of ISAKU.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-zuo-ri.zip",
+  url: "https://dos-bin.zczc.cz/%E9%81%97%E4%BD%9C%28%E6%97%A5%EF%BC%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-zuo-ri.zip"],
           ["Size", "8,038,001 bytes (7.7 MB)"],
           ["SHA-256", "09995ab3ea72398e8f5a4459a659983f1740407ebcb03e3660f0664ae36ac29e"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%81%97%E4%BD%9C%28%E6%97%A5%EF%BC%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 遗作(日） (7.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-zuo-ri.zip", external: true},
+          {label: "Download 遗作(日） (7.7 MB)", href: "https://dos-bin.zczc.cz/%E9%81%97%E4%BD%9C%28%E6%97%A5%EF%BC%89.zip", external: true},
         ]},
       ],
     },

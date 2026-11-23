@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "B17飞行堡垒 is a DOS game in the WhereQ archive — 1993, 38 files, 3.2 MB, and an entry point of B17.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/b/b17-fei-xing-bao-lei.zip",
+  url: "https://dos-bin.zczc.cz/B17%E9%A3%9E%E8%A1%8C%E5%A0%A1%E5%9E%92.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "b17-fei-xing-bao-lei.zip"],
           ["Size", "3,342,532 bytes (3.2 MB)"],
           ["SHA-256", "abebb585a73fafa72b1f58a30e229cddff387f9680d745373b12ed793e41ced0"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/B17%E9%A3%9E%E8%A1%8C%E5%A0%A1%E5%9E%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download B17飞行堡垒 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/b17-fei-xing-bao-lei.zip", external: true},
+          {label: "Download B17飞行堡垒 (3.2 MB)", href: "https://dos-bin.zczc.cz/B17%E9%A3%9E%E8%A1%8C%E5%A0%A1%E5%9E%92.zip", external: true},
         ]},
       ],
     },

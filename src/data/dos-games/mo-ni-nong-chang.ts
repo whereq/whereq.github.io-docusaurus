@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟农场 is a DOS game in the WhereQ archive — 1994, 64 files, 1.4 MB, and an entry point of SIMFARM.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-nong-chang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%86%9C%E5%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-nong-chang.zip"],
           ["Size", "1,462,446 bytes (1.4 MB)"],
           ["SHA-256", "276364888046942e7b5039358ba51d68aec747fa3112c26465c167169c55e3a7"],
           ["Files", "64"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%86%9C%E5%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟农场 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-nong-chang.zip", external: true},
+          {label: "Download 模拟农场 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%86%9C%E5%9C%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "塔罗斯的警觉 is a DOS game in the WhereQ archive — 1988, 215 files, 7.1 MB, and an entry point of VIG1.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/t/ta-luo-si-de-jing-jue.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A1%94%E7%BD%97%E6%96%AF%E7%9A%84%E8%AD%A6%E8%A7%89.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ta-luo-si-de-jing-jue.zip"],
           ["Size", "7,439,307 bytes (7.1 MB)"],
           ["SHA-256", "d7da18554f332fdc06acbb070c7f81ddb8a6d00e132baefc6cbd8ef5188d4181"],
           ["Files", "215"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A1%94%E7%BD%97%E6%96%AF%E7%9A%84%E8%AD%A6%E8%A7%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 塔罗斯的警觉 (7.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/ta-luo-si-de-jing-jue.zip", external: true},
+          {label: "Download 塔罗斯的警觉 (7.1 MB)", href: "https://dos-bin.zczc.cz/%E5%A1%94%E7%BD%97%E6%96%AF%E7%9A%84%E8%AD%A6%E8%A7%89.zip", external: true},
         ]},
       ],
     },

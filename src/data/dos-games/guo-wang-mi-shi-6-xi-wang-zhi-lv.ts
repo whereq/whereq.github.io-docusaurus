@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "国王密使6希望之旅 is a DOS game in the WhereQ archive — 1992, 141 files, 11.6 MB, and an entry point of SIERRA.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-6-xi-wang-zhi-lv.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E6%97%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "guo-wang-mi-shi-6-xi-wang-zhi-lv.zip"],
           ["Size", "12,118,061 bytes (11.6 MB)"],
           ["SHA-256", "eec4646ff8260ca82203ae26b1ee765717f7da14569cd29b7ebc66c987f6268b"],
           ["Files", "141"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E6%97%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 国王密使6希望之旅 (11.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/guo-wang-mi-shi-6-xi-wang-zhi-lv.zip", external: true},
+          {label: "Download 国王密使6希望之旅 (11.6 MB)", href: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E6%97%85.zip", external: true},
         ]},
       ],
     },

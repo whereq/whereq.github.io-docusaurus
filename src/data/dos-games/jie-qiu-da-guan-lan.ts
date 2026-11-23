@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "街球大灌篮 is a DOS game in the WhereQ archive — 2010, 6 files, 2.2 MB, and an entry point of MIDPAK.COM.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jie-qiu-da-guan-lan.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A1%97%E7%90%83%E5%A4%A7%E7%81%8C%E7%AF%AE.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jie-qiu-da-guan-lan.zip"],
           ["Size", "2,282,055 bytes (2.2 MB)"],
           ["SHA-256", "53d24204f43c047ac7a7b118e001848f06f0ea4d71b3ae4ab78ef9d06be4aff7"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A1%97%E7%90%83%E5%A4%A7%E7%81%8C%E7%AF%AE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 街球大灌篮 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jie-qiu-da-guan-lan.zip", external: true},
+          {label: "Download 街球大灌篮 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E8%A1%97%E7%90%83%E5%A4%A7%E7%81%8C%E7%AF%AE.zip", external: true},
         ]},
       ],
     },

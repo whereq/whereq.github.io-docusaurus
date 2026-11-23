@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小丑荷米 is a DOS game in the WhereQ archive — 2010, 80 files, 1.1 MB, and an entry point of HOMEY.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-chou-he-mi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E4%B8%91%E8%8D%B7%E7%B1%B3.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-chou-he-mi.zip"],
           ["Size", "1,160,961 bytes (1.1 MB)"],
           ["SHA-256", "8496935bc712d3cfe485053275dc0b32391b83f1dbda76b886f411167b70555e"],
           ["Files", "80"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E4%B8%91%E8%8D%B7%E7%B1%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小丑荷米 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-chou-he-mi.zip", external: true},
+          {label: "Download 小丑荷米 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E4%B8%91%E8%8D%B7%E7%B1%B3.zip", external: true},
         ]},
       ],
     },

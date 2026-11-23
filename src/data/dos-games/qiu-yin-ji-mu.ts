@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "蚯蚓吉姆 is a DOS game in the WhereQ archive — 1996, 8 files, 7.0 MB, and an entry point of ewj.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qiu-yin-ji-mu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%9A%AF%E8%9A%93%E5%90%89%E5%A7%86.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qiu-yin-ji-mu.zip"],
           ["Size", "7,335,936 bytes (7.0 MB)"],
           ["SHA-256", "110458bbd67ec1741e757605daf280d0e07c4e4f4478c564fb6f2c12320efffa"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%9A%AF%E8%9A%93%E5%90%89%E5%A7%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蚯蚓吉姆 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qiu-yin-ji-mu.zip", external: true},
+          {label: "Download 蚯蚓吉姆 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E8%9A%AF%E8%9A%93%E5%90%89%E5%A7%86.zip", external: true},
         ]},
       ],
     },

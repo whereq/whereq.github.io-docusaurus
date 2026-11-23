@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "禁断之血族 is a DOS game in the WhereQ archive — 1998, 381 files, 6.1 MB, and an entry point of PLAY.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jin-duan-zhi-xue-zu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A6%81%E6%96%AD%E4%B9%8B%E8%A1%80%E6%97%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jin-duan-zhi-xue-zu.zip"],
           ["Size", "6,421,734 bytes (6.1 MB)"],
           ["SHA-256", "81a2bab12c962003913f88b9bbbfaa0ff71189b39a3128c28d561170678e322d"],
           ["Files", "381"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A6%81%E6%96%AD%E4%B9%8B%E8%A1%80%E6%97%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 禁断之血族 (6.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jin-duan-zhi-xue-zu.zip", external: true},
+          {label: "Download 禁断之血族 (6.1 MB)", href: "https://dos-bin.zczc.cz/%E7%A6%81%E6%96%AD%E4%B9%8B%E8%A1%80%E6%97%8F.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔魅大陆的诅咒 is a DOS game in the WhereQ archive — 1993, 197 files, 7.1 MB, and an entry point of CURSE.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-mei-da-lu-de-zu-zhou.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E9%AD%85%E5%A4%A7%E9%99%86%E7%9A%84%E8%AF%85%E5%92%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-mei-da-lu-de-zu-zhou.zip"],
           ["Size", "7,456,511 bytes (7.1 MB)"],
           ["SHA-256", "0611bc019aa2bcb5e04eb25e35330817770fccadefa3df255008567f02d537d5"],
           ["Files", "197"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E9%AD%85%E5%A4%A7%E9%99%86%E7%9A%84%E8%AF%85%E5%92%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔魅大陆的诅咒 (7.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-mei-da-lu-de-zu-zhou.zip", external: true},
+          {label: "Download 魔魅大陆的诅咒 (7.1 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E9%AD%85%E5%A4%A7%E9%99%86%E7%9A%84%E8%AF%85%E5%92%92.zip", external: true},
         ]},
       ],
     },

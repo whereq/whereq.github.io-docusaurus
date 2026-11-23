@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "新世纪兴亡史 is a DOS game in the WhereQ archive — 1995, 73 files, 3.2 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-shi-ji-xing-wang-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%BA%AA%E5%85%B4%E4%BA%A1%E5%8F%B2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-shi-ji-xing-wang-shi.zip"],
           ["Size", "3,375,284 bytes (3.2 MB)"],
           ["SHA-256", "0e786b2f917f2de840a020924ac92c42760338a65b146ac0938288a70ee76444"],
           ["Files", "73"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%BA%AA%E5%85%B4%E4%BA%A1%E5%8F%B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 新世纪兴亡史 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-shi-ji-xing-wang-shi.zip", external: true},
+          {label: "Download 新世纪兴亡史 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%BA%AA%E5%85%B4%E4%BA%A1%E5%8F%B2.zip", external: true},
         ]},
       ],
     },

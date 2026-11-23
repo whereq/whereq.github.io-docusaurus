@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "宇宙传奇7 is a DOS game in the WhereQ archive — 1998, 46 files, 7.5 MB, and an entry point of SQ4.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-chuan-qi-7.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E4%BC%A0%E5%A5%877.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-zhou-chuan-qi-7.zip"],
           ["Size", "7,866,926 bytes (7.5 MB)"],
           ["SHA-256", "cf06317f212c0736a3a9d17dbc96cdc1d91bd241b5e88d47572367aed793431c"],
           ["Files", "46"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E4%BC%A0%E5%A5%877.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宇宙传奇7 (7.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-chuan-qi-7.zip", external: true},
+          {label: "Download 宇宙传奇7 (7.5 MB)", href: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E4%BC%A0%E5%A5%877.zip", external: true},
         ]},
       ],
     },

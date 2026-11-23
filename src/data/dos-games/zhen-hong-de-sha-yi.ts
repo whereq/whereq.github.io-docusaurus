@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "真红的杀意 is a DOS game in the WhereQ archive — 1993, 390 files, 1.3 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhen-hong-de-sha-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9C%9F%E7%BA%A2%E7%9A%84%E6%9D%80%E6%84%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhen-hong-de-sha-yi.zip"],
           ["Size", "1,379,841 bytes (1.3 MB)"],
           ["SHA-256", "4802f775a03ea69e127b672da354a2f03c16d709fe38a621e05029a657fb1d9c"],
           ["Files", "390"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9C%9F%E7%BA%A2%E7%9A%84%E6%9D%80%E6%84%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 真红的杀意 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhen-hong-de-sha-yi.zip", external: true},
+          {label: "Download 真红的杀意 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E7%9C%9F%E7%BA%A2%E7%9A%84%E6%9D%80%E6%84%8F.zip", external: true},
         ]},
       ],
     },

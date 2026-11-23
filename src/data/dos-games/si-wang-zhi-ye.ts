@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死亡之夜 is a DOS game in the WhereQ archive — 1993, 156 files, 1.5 MB, and an entry point of DON.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-wang-zhi-ye.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E5%A4%9C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-wang-zhi-ye.zip"],
           ["Size", "1,584,133 bytes (1.5 MB)"],
           ["SHA-256", "578c19bce2159cf879693da333f4780869e694cf32bb2938708c5dce92fe80d2"],
           ["Files", "156"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E5%A4%9C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死亡之夜 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-wang-zhi-ye.zip", external: true},
+          {label: "Download 死亡之夜 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E4%B9%8B%E5%A4%9C.zip", external: true},
         ]},
       ],
     },

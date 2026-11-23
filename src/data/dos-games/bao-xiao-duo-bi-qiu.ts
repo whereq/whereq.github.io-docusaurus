@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "爆笑躲避球 is a DOS game in the WhereQ archive — 1994, 23 files, 2.0 MB, and an entry point of CDODGE.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-duo-bi-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E8%BA%B2%E9%81%BF%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-xiao-duo-bi-qiu.zip"],
           ["Size", "2,085,541 bytes (2.0 MB)"],
           ["SHA-256", "c72293e595d07236a3fe2a6d5b23bc8ce0878ebeddca34b893eaef8d40e1942f"],
           ["Files", "23"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E8%BA%B2%E9%81%BF%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爆笑躲避球 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-duo-bi-qiu.zip", external: true},
+          {label: "Download 爆笑躲避球 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E8%BA%B2%E9%81%BF%E7%90%83.zip", external: true},
         ]},
       ],
     },

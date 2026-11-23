@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "春秋争霸传 is a DOS game in the WhereQ archive — 1992, 259 files, 2.2 MB, and an entry point of PLAY.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chun-qiu-zheng-ba-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%A5%E7%A7%8B%E4%BA%89%E9%9C%B8%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chun-qiu-zheng-ba-chuan.zip"],
           ["Size", "2,332,007 bytes (2.2 MB)"],
           ["SHA-256", "cbc7e54a223bf12356d1e722d5f73926d85bec2a723dcb78015f69a4f34badcc"],
           ["Files", "259"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%A5%E7%A7%8B%E4%BA%89%E9%9C%B8%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 春秋争霸传 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chun-qiu-zheng-ba-chuan.zip", external: true},
+          {label: "Download 春秋争霸传 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E6%98%A5%E7%A7%8B%E4%BA%89%E9%9C%B8%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

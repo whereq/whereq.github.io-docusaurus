@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻想空间2 is a DOS game in the WhereQ archive — 1988, 28 files, 1.6 MB, and an entry point of LSL2.BAT.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B42.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-xiang-kong-jian-2.zip"],
           ["Size", "1,723,145 bytes (1.6 MB)"],
           ["SHA-256", "0bd50195f47bdce2c4911c440d147a54af7da7b24b50689a31b59383d80b0977"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B42.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻想空间2 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-kong-jian-2.zip", external: true},
+          {label: "Download 幻想空间2 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B42.zip", external: true},
         ]},
       ],
     },

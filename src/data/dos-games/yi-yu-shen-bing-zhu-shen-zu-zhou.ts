@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异域神兵诸神诅咒 is a DOS game in the WhereQ archive — 1993, 167 files, 1.6 MB, and an entry point of GAME.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-yu-shen-bing-zhu-shen-zu-zhou.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%9F%9F%E7%A5%9E%E5%85%B5%E8%AF%B8%E7%A5%9E%E8%AF%85%E5%92%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-yu-shen-bing-zhu-shen-zu-zhou.zip"],
           ["Size", "1,688,741 bytes (1.6 MB)"],
           ["SHA-256", "6789e5a61000a481612c58bf89963e06a5842b2cc3e6dbe0b374a86df4b3814e"],
           ["Files", "167"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E5%9F%9F%E7%A5%9E%E5%85%B5%E8%AF%B8%E7%A5%9E%E8%AF%85%E5%92%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异域神兵诸神诅咒 (1.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-yu-shen-bing-zhu-shen-zu-zhou.zip", external: true},
+          {label: "Download 异域神兵诸神诅咒 (1.6 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E5%9F%9F%E7%A5%9E%E5%85%B5%E8%AF%B8%E7%A5%9E%E8%AF%85%E5%92%92.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天下一统 is a DOS game in the WhereQ archive — 1989, 68 files, 628 KB, and an entry point of TG.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-xia-yi-tong.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%B8%8B%E4%B8%80%E7%BB%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-xia-yi-tong.zip"],
           ["Size", "642,950 bytes (628 KB)"],
           ["SHA-256", "76446984c14f5d2c633c14e099a63c4ea2f27a625a2f2acbc9543b796e379ae1"],
           ["Files", "68"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E4%B8%8B%E4%B8%80%E7%BB%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天下一统 (628 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-xia-yi-tong.zip", external: true},
+          {label: "Download 天下一统 (628 KB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%B8%8B%E4%B8%80%E7%BB%9F.zip", external: true},
         ]},
       ],
     },

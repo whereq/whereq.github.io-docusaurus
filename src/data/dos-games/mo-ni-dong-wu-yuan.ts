@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟动物园 is a DOS game in the WhereQ archive — 1994, 77 files, 2.9 MB, and an entry point of ZOO.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-dong-wu-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8A%A8%E7%89%A9%E5%9B%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-dong-wu-yuan.zip"],
           ["Size", "3,013,505 bytes (2.9 MB)"],
           ["SHA-256", "4ce09da16110161b6c8c3757097e3db381e7dcd591d5493f4a203250ecc84a93"],
           ["Files", "77"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8A%A8%E7%89%A9%E5%9B%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟动物园 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-dong-wu-yuan.zip", external: true},
+          {label: "Download 模拟动物园 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%8A%A8%E7%89%A9%E5%9B%AD.zip", external: true},
         ]},
       ],
     },

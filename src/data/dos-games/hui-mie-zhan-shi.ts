@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "毁灭战士 is a DOS game in the WhereQ archive — 1995, 8 files, 5.0 MB, and an entry point of DOOM.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-mie-zhan-shi.zip"],
           ["Size", "5,237,699 bytes (5.0 MB)"],
           ["SHA-256", "0611f09bcfc60dcead92cb9fa010a29523b5cddce03402f7cc4b73affaf39e77"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 毁灭战士 (5.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-shi.zip", external: true},
+          {label: "Download 毁灭战士 (5.0 MB)", href: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

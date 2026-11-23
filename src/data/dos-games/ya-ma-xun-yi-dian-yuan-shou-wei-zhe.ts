@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "亚马逊伊甸园守卫者 is a DOS game in the WhereQ archive — 1992, 111 files, 8.0 MB, and an entry point of AMAZON.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/y/ya-ma-xun-yi-dian-yuan-shou-wei-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BC%8A%E7%94%B8%E5%9B%AD%E5%AE%88%E5%8D%AB%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ya-ma-xun-yi-dian-yuan-shou-wei-zhe.zip"],
           ["Size", "8,336,987 bytes (8.0 MB)"],
           ["SHA-256", "c24346bfb386413af09a2d3001bc0971209613175983c4f1b2bbf0c52f9065e3"],
           ["Files", "111"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BC%8A%E7%94%B8%E5%9B%AD%E5%AE%88%E5%8D%AB%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 亚马逊伊甸园守卫者 (8.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/ya-ma-xun-yi-dian-yuan-shou-wei-zhe.zip", external: true},
+          {label: "Download 亚马逊伊甸园守卫者 (8.0 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BC%8A%E7%94%B8%E5%9B%AD%E5%AE%88%E5%8D%AB%E8%80%85.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "盖世龙王 is a DOS game in the WhereQ archive — 1990, 117 files, 1000 KB, and an entry point of DLORD.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gai-shi-long-wang.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9B%96%E4%B8%96%E9%BE%99%E7%8E%8B.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gai-shi-long-wang.zip"],
           ["Size", "1,023,531 bytes (1000 KB)"],
           ["SHA-256", "b3ba4d24b2c5e3572bf4528681f9cd4b6c6e741d08a3d34786117f1c2818fe46"],
           ["Files", "117"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9B%96%E4%B8%96%E9%BE%99%E7%8E%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 盖世龙王 (1000 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/gai-shi-long-wang.zip", external: true},
+          {label: "Download 盖世龙王 (1000 KB)", href: "https://dos-bin.zczc.cz/%E7%9B%96%E4%B8%96%E9%BE%99%E7%8E%8B.zip", external: true},
         ]},
       ],
     },

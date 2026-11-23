@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "创世纪7下巨蛇之岛 is a DOS game in the WhereQ archive — 1993, 418 files, 20.6 MB, and an entry point of SI.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-7-xia-ju-she-zhi-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8B%E5%B7%A8%E8%9B%87%E4%B9%8B%E5%B2%9B.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuang-shi-ji-7-xia-ju-she-zhi-dao.zip"],
           ["Size", "21,571,370 bytes (20.6 MB)"],
           ["SHA-256", "dda92cc04f8db91dee62f00bd83253e54477c3ce9f261ca42ee0777415c513bb"],
           ["Files", "418"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8B%E5%B7%A8%E8%9B%87%E4%B9%8B%E5%B2%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 创世纪7下巨蛇之岛 (20.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuang-shi-ji-7-xia-ju-she-zhi-dao.zip", external: true},
+          {label: "Download 创世纪7下巨蛇之岛 (20.6 MB)", href: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8B%E5%B7%A8%E8%9B%87%E4%B9%8B%E5%B2%9B.zip", external: true},
         ]},
       ],
     },

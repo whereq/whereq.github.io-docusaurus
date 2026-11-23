@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "黑暗时代三部曲 is a DOS game in the WhereQ archive — 2001, 72 files, 380 KB, and an entry point of play.bat.",
   status: "2001",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hei-an-shi-dai-san-bu-qu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E4%B8%89%E9%83%A8%E6%9B%B2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hei-an-shi-dai-san-bu-qu.zip"],
           ["Size", "389,612 bytes (380 KB)"],
           ["SHA-256", "6d38cc9d0c4a58a57fd59d66c036230b34dc6e4573dc6dfcf997ca993aa01d46"],
           ["Files", "72"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E4%B8%89%E9%83%A8%E6%9B%B2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黑暗时代三部曲 (380 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hei-an-shi-dai-san-bu-qu.zip", external: true},
+          {label: "Download 黑暗时代三部曲 (380 KB)", href: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E4%B8%89%E9%83%A8%E6%9B%B2.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "重返德军总部3D is a DOS game in the WhereQ archive — 1992, 10 files, 1.1 MB, and an entry point of WOLF3D.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chong-fan-de-jun-zong-bu-3d.zip",
+  url: "https://dos-bin.zczc.cz/%E9%87%8D%E8%BF%94%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A83D.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chong-fan-de-jun-zong-bu-3d.zip"],
           ["Size", "1,130,009 bytes (1.1 MB)"],
           ["SHA-256", "5a1539c936fc64d36a0207eb50e8cb5f960493fdc79d5ebbc9f95c857b2ddfa0"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%87%8D%E8%BF%94%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A83D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 重返德军总部3D (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chong-fan-de-jun-zong-bu-3d.zip", external: true},
+          {label: "Download 重返德军总部3D (1.1 MB)", href: "https://dos-bin.zczc.cz/%E9%87%8D%E8%BF%94%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A83D.zip", external: true},
         ]},
       ],
     },

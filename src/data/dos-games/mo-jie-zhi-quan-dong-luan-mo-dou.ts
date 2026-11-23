@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔界之泉动乱魔都 is a DOS game in the WhereQ archive — 1996, 1,675 files, 7.0 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhi-quan-dong-luan-mo-dou.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E5%8A%A8%E4%B9%B1%E9%AD%94%E9%83%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-jie-zhi-quan-dong-luan-mo-dou.zip"],
           ["Size", "7,332,916 bytes (7.0 MB)"],
           ["SHA-256", "d46e386719d02c44fc1b2e48406b0de1c827c875b1e20177556735597e020ba2"],
           ["Files", "1,675"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E5%8A%A8%E4%B9%B1%E9%AD%94%E9%83%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔界之泉动乱魔都 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-zhi-quan-dong-luan-mo-dou.zip", external: true},
+          {label: "Download 魔界之泉动乱魔都 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E4%B9%8B%E6%B3%89%E5%8A%A8%E4%B9%B1%E9%AD%94%E9%83%BD.zip", external: true},
         ]},
       ],
     },

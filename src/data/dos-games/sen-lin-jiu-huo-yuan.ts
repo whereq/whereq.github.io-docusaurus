@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "森林救火员 is a DOS game in the WhereQ archive — 1996, 31 files, 635 KB, and an entry point of FSSW2K.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sen-lin-jiu-huo-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E6%95%91%E7%81%AB%E5%91%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sen-lin-jiu-huo-yuan.zip"],
           ["Size", "650,715 bytes (635 KB)"],
           ["SHA-256", "81a2dc8dc9603c5bdce70cf89ce43dd28338cd1bc279034b3501ea94e9d60492"],
           ["Files", "31"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E6%95%91%E7%81%AB%E5%91%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 森林救火员 (635 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/sen-lin-jiu-huo-yuan.zip", external: true},
+          {label: "Download 森林救火员 (635 KB)", href: "https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E6%95%91%E7%81%AB%E5%91%98.zip", external: true},
         ]},
       ],
     },

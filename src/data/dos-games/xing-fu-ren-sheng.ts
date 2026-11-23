@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "幸福人生 is a DOS game in the WhereQ archive — 1992, 5 files, 446 KB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-fu-ren-sheng.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%B8%E7%A6%8F%E4%BA%BA%E7%94%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-fu-ren-sheng.zip"],
           ["Size", "457,070 bytes (446 KB)"],
           ["SHA-256", "a8e2066a34e341efbec3ea9f5a54ae2e577beae52552b593ffea113afcc95fde"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%B8%E7%A6%8F%E4%BA%BA%E7%94%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幸福人生 (446 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-fu-ren-sheng.zip", external: true},
+          {label: "Download 幸福人生 (446 KB)", href: "https://dos-bin.zczc.cz/%E5%B9%B8%E7%A6%8F%E4%BA%BA%E7%94%9F.zip", external: true},
         ]},
       ],
     },

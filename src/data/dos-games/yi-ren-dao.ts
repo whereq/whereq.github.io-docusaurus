@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "伊忍道 is a DOS game in the WhereQ archive — 1991, 48 files, 1.0 MB, and an entry point of KOEI.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-ren-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%8A%E5%BF%8D%E9%81%93.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-ren-dao.zip"],
           ["Size", "1,093,614 bytes (1.0 MB)"],
           ["SHA-256", "e15681584661b79cd0fa0cfde7135a2aedbba70619243629081acb6b6983f808"],
           ["Files", "48"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%8A%E5%BF%8D%E9%81%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 伊忍道 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-ren-dao.zip", external: true},
+          {label: "Download 伊忍道 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E4%BC%8A%E5%BF%8D%E9%81%93.zip", external: true},
         ]},
       ],
     },

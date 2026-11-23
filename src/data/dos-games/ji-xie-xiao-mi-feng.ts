@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机械小蜜蜂 is a DOS game in the WhereQ archive — 1992, 20 files, 1.2 MB, and an entry point of GX1.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-xiao-mi-feng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B0%8F%E8%9C%9C%E8%9C%82.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-xie-xiao-mi-feng.zip"],
           ["Size", "1,206,805 bytes (1.2 MB)"],
           ["SHA-256", "17917658238afe0183b706c62a2e71d471c66cd9e574ce73c1ae7ad2695f4685"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B0%8F%E8%9C%9C%E8%9C%82.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机械小蜜蜂 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-xie-xiao-mi-feng.zip", external: true},
+          {label: "Download 机械小蜜蜂 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B0%8F%E8%9C%9C%E8%9C%82.zip", external: true},
         ]},
       ],
     },

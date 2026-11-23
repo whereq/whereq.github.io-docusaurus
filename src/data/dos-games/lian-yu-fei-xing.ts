@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "炼狱飞行 is a DOS game in the WhereQ archive — 1996, 41 files, 10.4 MB, and an entry point of INFERNO.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lian-yu-fei-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%82%BC%E7%8B%B1%E9%A3%9E%E8%A1%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lian-yu-fei-xing.zip"],
           ["Size", "10,867,993 bytes (10.4 MB)"],
           ["SHA-256", "4e8c5013f52a1786c966cd23ee2d019b70cf29b04c3a8cdaf7f095936b12f430"],
           ["Files", "41"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%82%BC%E7%8B%B1%E9%A3%9E%E8%A1%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 炼狱飞行 (10.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lian-yu-fei-xing.zip", external: true},
+          {label: "Download 炼狱飞行 (10.4 MB)", href: "https://dos-bin.zczc.cz/%E7%82%BC%E7%8B%B1%E9%A3%9E%E8%A1%8C.zip", external: true},
         ]},
       ],
     },

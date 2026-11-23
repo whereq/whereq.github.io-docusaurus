@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "小妖精 is a DOS game in the WhereQ archive — 1980, 99 files, 6.9 MB, and an entry point of ELF2V.EXE.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiao-yao-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%8F%E5%A6%96%E7%B2%BE.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiao-yao-jing.zip"],
           ["Size", "7,241,928 bytes (6.9 MB)"],
           ["SHA-256", "b88a32ab3e917742bb15c9c6755749d4135a626c50892249e17cd741a854a95f"],
           ["Files", "99"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%8F%E5%A6%96%E7%B2%BE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 小妖精 (6.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiao-yao-jing.zip", external: true},
+          {label: "Download 小妖精 (6.9 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%8F%E5%A6%96%E7%B2%BE.zip", external: true},
         ]},
       ],
     },

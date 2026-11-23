@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天才宝宝大进击 is a DOS game in the WhereQ archive — 1995, 83 files, 4.5 MB, and an entry point of GENIUS.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-cai-bao-bao-da-jin-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%89%8D%E5%AE%9D%E5%AE%9D%E5%A4%A7%E8%BF%9B%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-cai-bao-bao-da-jin-ji.zip"],
           ["Size", "4,696,880 bytes (4.5 MB)"],
           ["SHA-256", "9615b7ef985c1363c60a357cf01cebbf7f97cf9978aaeb8ea8668e7869fa828c"],
           ["Files", "83"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E6%89%8D%E5%AE%9D%E5%AE%9D%E5%A4%A7%E8%BF%9B%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天才宝宝大进击 (4.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-cai-bao-bao-da-jin-ji.zip", external: true},
+          {label: "Download 天才宝宝大进击 (4.5 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%89%8D%E5%AE%9D%E5%AE%9D%E5%A4%A7%E8%BF%9B%E5%87%BB.zip", external: true},
         ]},
       ],
     },

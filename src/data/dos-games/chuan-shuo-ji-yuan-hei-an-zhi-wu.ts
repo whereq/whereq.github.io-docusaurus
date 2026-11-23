@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "传说纪元黑暗之屋 is a DOS game in the WhereQ archive — 1996, 79 files, 3.9 MB, and an entry point of DARK.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-ji-yuan-hei-an-zhi-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E7%BA%AA%E5%85%83%E9%BB%91%E6%9A%97%E4%B9%8B%E5%B1%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chuan-shuo-ji-yuan-hei-an-zhi-wu.zip"],
           ["Size", "4,073,617 bytes (3.9 MB)"],
           ["SHA-256", "3dd4c37cd99904f1255e0c80b2945a40bdf4f32d5ec2cb0b534f375a37005968"],
           ["Files", "79"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E7%BA%AA%E5%85%83%E9%BB%91%E6%9A%97%E4%B9%8B%E5%B1%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 传说纪元黑暗之屋 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chuan-shuo-ji-yuan-hei-an-zhi-wu.zip", external: true},
+          {label: "Download 传说纪元黑暗之屋 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E7%BA%AA%E5%85%83%E9%BB%91%E6%9A%97%E4%B9%8B%E5%B1%8B.zip", external: true},
         ]},
       ],
     },

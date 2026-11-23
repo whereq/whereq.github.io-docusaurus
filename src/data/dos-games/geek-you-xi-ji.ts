@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "GEEK游戏集 is a DOS game in the WhereQ archive — 1993, 8 files, 1.9 MB, and an entry point of GEEKWAD.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/g/geek-you-xi-ji.zip",
+  url: "https://dos-bin.zczc.cz/GEEK%E6%B8%B8%E6%88%8F%E9%9B%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "geek-you-xi-ji.zip"],
           ["Size", "1,979,545 bytes (1.9 MB)"],
           ["SHA-256", "fcccd4ea927e78bbae093235b77f672f36717e40d9c8bb8cb52f6d44ac45494d"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/GEEK%E6%B8%B8%E6%88%8F%E9%9B%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download GEEK游戏集 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/geek-you-xi-ji.zip", external: true},
+          {label: "Download GEEK游戏集 (1.9 MB)", href: "https://dos-bin.zczc.cz/GEEK%E6%B8%B8%E6%88%8F%E9%9B%86.zip", external: true},
         ]},
       ],
     },

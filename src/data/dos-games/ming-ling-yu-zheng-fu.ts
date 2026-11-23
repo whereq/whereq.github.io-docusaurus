@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "命令与征服 is a DOS game in the WhereQ archive — 1995, 44 files, 16.9 MB, and an entry point of _SETUP.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ming-ling-yu-zheng-fu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ming-ling-yu-zheng-fu.zip"],
           ["Size", "17,763,914 bytes (16.9 MB)"],
           ["SHA-256", "f0e499141ba41703e6a521ac8e9cbc2319490f503fd5188a61ea75e20f356c72"],
           ["Files", "44"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 命令与征服 (16.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ming-ling-yu-zheng-fu.zip", external: true},
+          {label: "Download 命令与征服 (16.9 MB)", href: "https://dos-bin.zczc.cz/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D.zip", external: true},
         ]},
       ],
     },

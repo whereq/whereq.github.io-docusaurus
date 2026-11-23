@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "卡拉汉时空沙龙 is a DOS game in the WhereQ archive — 1996, 134 files, 94.8 MB, and an entry point of ccs.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ka-la-han-shi-kong-sha-long.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A1%E6%8B%89%E6%B1%89%E6%97%B6%E7%A9%BA%E6%B2%99%E9%BE%99.zip",
   facts: [
     {label: "Developer", value: "VIRGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ka-la-han-shi-kong-sha-long.zip"],
           ["Size", "99,390,846 bytes (94.8 MB)"],
           ["SHA-256", "4ec1a20eabf549fcdb8ae9e00c525ccd9a6503605f19807e805cb57aaa05b388"],
           ["Files", "134"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A1%E6%8B%89%E6%B1%89%E6%97%B6%E7%A9%BA%E6%B2%99%E9%BE%99.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卡拉汉时空沙龙 (94.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ka-la-han-shi-kong-sha-long.zip", external: true},
+          {label: "Download 卡拉汉时空沙龙 (94.8 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%A1%E6%8B%89%E6%B1%89%E6%97%B6%E7%A9%BA%E6%B2%99%E9%BE%99.zip", external: true},
         ]},
       ],
     },

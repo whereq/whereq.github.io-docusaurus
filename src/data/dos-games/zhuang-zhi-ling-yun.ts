@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "壮志凌云 is a DOS game in the WhereQ archive — 1996, 51 files, 13.8 MB, and an entry point of UVCONFIG.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-zhi-ling-yun.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A3%AE%E5%BF%97%E5%87%8C%E4%BA%91.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuang-zhi-ling-yun.zip"],
           ["Size", "14,478,437 bytes (13.8 MB)"],
           ["SHA-256", "5886876765dc90b8e4cc34c07298131282b0c6da47530c21754fefbb3090b390"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A3%AE%E5%BF%97%E5%87%8C%E4%BA%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 壮志凌云 (13.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuang-zhi-ling-yun.zip", external: true},
+          {label: "Download 壮志凌云 (13.8 MB)", href: "https://dos-bin.zczc.cz/%E5%A3%AE%E5%BF%97%E5%87%8C%E4%BA%91.zip", external: true},
         ]},
       ],
     },

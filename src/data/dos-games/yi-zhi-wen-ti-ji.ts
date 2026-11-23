@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "益智问题集 is a DOS game in the WhereQ archive — 1994, 21 files, 819 KB, and an entry point of FUN.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-zhi-wen-ti-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E9%97%AE%E9%A2%98%E9%9B%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-zhi-wen-ti-ji.zip"],
           ["Size", "838,834 bytes (819 KB)"],
           ["SHA-256", "da2d0fba3e51bad550a6a9fc5780a82ef56ffa14fa84be6c5ac35e7f4467d7ea"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E9%97%AE%E9%A2%98%E9%9B%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 益智问题集 (819 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-zhi-wen-ti-ji.zip", external: true},
+          {label: "Download 益智问题集 (819 KB)", href: "https://dos-bin.zczc.cz/%E7%9B%8A%E6%99%BA%E9%97%AE%E9%A2%98%E9%9B%86.zip", external: true},
         ]},
       ],
     },

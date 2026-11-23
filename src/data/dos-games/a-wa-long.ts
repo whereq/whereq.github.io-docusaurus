@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "a",
   summary: "阿瓦隆 is a DOS game in the WhereQ archive — 1996, 267 files, 1.4 MB, and an entry point of AVALON.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/a/a-wa-long.zip",
+  url: "https://dos-bin.zczc.cz/%E9%98%BF%E7%93%A6%E9%9A%86.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "a-wa-long.zip"],
           ["Size", "1,457,855 bytes (1.4 MB)"],
           ["SHA-256", "765c3b9ca03658610715d6ababec16015dbf5f8c6f45c625c1721f824a39cba1"],
           ["Files", "267"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%98%BF%E7%93%A6%E9%9A%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 阿瓦隆 (1.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/a/a-wa-long.zip", external: true},
+          {label: "Download 阿瓦隆 (1.4 MB)", href: "https://dos-bin.zczc.cz/%E9%98%BF%E7%93%A6%E9%9A%86.zip", external: true},
         ]},
       ],
     },

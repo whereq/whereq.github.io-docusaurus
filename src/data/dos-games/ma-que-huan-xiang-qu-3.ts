@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "麻雀幻想曲3 is a DOS game in the WhereQ archive — 1995, 426 files, 4.8 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-que-huan-xiang-qu-3.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BA%BB%E9%9B%80%E5%B9%BB%E6%83%B3%E6%9B%B23.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-que-huan-xiang-qu-3.zip"],
           ["Size", "5,081,960 bytes (4.8 MB)"],
           ["SHA-256", "53a8937ea10096e25fb87b23d62a07894ef9f14096503532638e188719611976"],
           ["Files", "426"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BA%BB%E9%9B%80%E5%B9%BB%E6%83%B3%E6%9B%B23.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 麻雀幻想曲3 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-que-huan-xiang-qu-3.zip", external: true},
+          {label: "Download 麻雀幻想曲3 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E9%BA%BB%E9%9B%80%E5%B9%BB%E6%83%B3%E6%9B%B23.zip", external: true},
         ]},
       ],
     },

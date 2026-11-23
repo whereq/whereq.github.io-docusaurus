@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大航海2 is a DOS game in the WhereQ archive — 1994, 61 files, 2.9 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B72.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-hang-hai-2.zip"],
           ["Size", "3,045,719 bytes (2.9 MB)"],
           ["SHA-256", "4939a3e69df22e3564c919b421b6d05c56329b3371e1157287b97025fc1b03b8"],
           ["Files", "61"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B72.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大航海2 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-hang-hai-2.zip", external: true},
+          {label: "Download 大航海2 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B72.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "世界拳击经理 is a DOS game in the WhereQ archive — 1996, 59 files, 529 KB, and an entry point of boxing.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-quan-ji-jing-li.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E6%8B%B3%E5%87%BB%E7%BB%8F%E7%90%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-jie-quan-ji-jing-li.zip"],
           ["Size", "541,756 bytes (529 KB)"],
           ["SHA-256", "1833f02fec6353f34209bdb0750233ac5b58b31603b160b0219bb46d811f1226"],
           ["Files", "59"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E6%8B%B3%E5%87%BB%E7%BB%8F%E7%90%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 世界拳击经理 (529 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-quan-ji-jing-li.zip", external: true},
+          {label: "Download 世界拳击经理 (529 KB)", href: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E6%8B%B3%E5%87%BB%E7%BB%8F%E7%90%86.zip", external: true},
         ]},
       ],
     },

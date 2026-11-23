@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "武将争霸 is a DOS game in the WhereQ archive — 1993, 79 files, 3.3 MB, and an entry point of play.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wu-jiang-zheng-ba.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%A6%E5%B0%86%E4%BA%89%E9%9C%B8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wu-jiang-zheng-ba.zip"],
           ["Size", "3,497,080 bytes (3.3 MB)"],
           ["SHA-256", "be3b5c69213a39b501659a3720846dc545e793c23566d68736a7d781475d4613"],
           ["Files", "79"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%A6%E5%B0%86%E4%BA%89%E9%9C%B8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 武将争霸 (3.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wu-jiang-zheng-ba.zip", external: true},
+          {label: "Download 武将争霸 (3.3 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%A6%E5%B0%86%E4%BA%89%E9%9C%B8.zip", external: true},
         ]},
       ],
     },

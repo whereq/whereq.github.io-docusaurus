@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "冰球联赛97 is a DOS game in the WhereQ archive — 1996, 143 files, 56.6 MB, and an entry point of HOCKEY.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bing-qiu-lian-sai-97.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%B0%E7%90%83%E8%81%94%E8%B5%9B97.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bing-qiu-lian-sai-97.zip"],
           ["Size", "59,371,134 bytes (56.6 MB)"],
           ["SHA-256", "718fa3113555d3cf5588c1c0dcb5c74d2f1572f07bfedebf26a5245df4b6159c"],
           ["Files", "143"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%B0%E7%90%83%E8%81%94%E8%B5%9B97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 冰球联赛97 (56.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bing-qiu-lian-sai-97.zip", external: true},
+          {label: "Download 冰球联赛97 (56.6 MB)", href: "https://dos-bin.zczc.cz/%E5%86%B0%E7%90%83%E8%81%94%E8%B5%9B97.zip", external: true},
         ]},
       ],
     },

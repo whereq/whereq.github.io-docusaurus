@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "宇宙王牌 is a DOS game in the WhereQ archive — 1996, 17 files, 2.5 MB, and an entry point of runme.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-wang-pai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%8E%8B%E7%89%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yu-zhou-wang-pai.zip"],
           ["Size", "2,646,468 bytes (2.5 MB)"],
           ["SHA-256", "978cfd901588ff40af0dba45db0bb5418139bd95fceb42ca7d1a93242e5758e2"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%8E%8B%E7%89%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 宇宙王牌 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yu-zhou-wang-pai.zip", external: true},
+          {label: "Download 宇宙王牌 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E5%AE%87%E5%AE%99%E7%8E%8B%E7%89%8C.zip", external: true},
         ]},
       ],
     },

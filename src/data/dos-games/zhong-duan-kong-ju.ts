@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "终端恐惧 is a DOS game in the WhereQ archive — 1994, 311 files, 3.0 MB, and an entry point of PNOCOMP.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-duan-kong-ju.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%88%E7%AB%AF%E6%81%90%E6%83%A7.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-duan-kong-ju.zip"],
           ["Size", "3,186,180 bytes (3.0 MB)"],
           ["SHA-256", "d2b2803b564f8b32f9d0af1d9efd3597d3ba41bee129e2e82c1e1627977c1676"],
           ["Files", "311"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%88%E7%AB%AF%E6%81%90%E6%83%A7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 终端恐惧 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-duan-kong-ju.zip", external: true},
+          {label: "Download 终端恐惧 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%88%E7%AB%AF%E6%81%90%E6%83%A7.zip", external: true},
         ]},
       ],
     },

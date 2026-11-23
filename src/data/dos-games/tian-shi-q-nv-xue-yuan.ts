@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天使Q女学院 is a DOS game in the WhereQ archive — 1997, 993 files, 12.0 MB, and an entry point of PLAY.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-q-nv-xue-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BFQ%E5%A5%B3%E5%AD%A6%E9%99%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-shi-q-nv-xue-yuan.zip"],
           ["Size", "12,598,806 bytes (12.0 MB)"],
           ["SHA-256", "7357aebab7be68fb3a85a37f01bd2c0afec2db9dfa205f5c3369f886d34be8a6"],
           ["Files", "993"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BFQ%E5%A5%B3%E5%AD%A6%E9%99%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天使Q女学院 (12.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-q-nv-xue-yuan.zip", external: true},
+          {label: "Download 天使Q女学院 (12.0 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BFQ%E5%A5%B3%E5%AD%A6%E9%99%A2.zip", external: true},
         ]},
       ],
     },

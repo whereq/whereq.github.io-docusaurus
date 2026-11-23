@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "遗迹2邪恶临近 is a DOS game in the WhereQ archive — 1996, 130 files, 1008 KB, and an entry point of FANTGAME.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-2-xie-e-lin-jin.zip",
+  url: "https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B92%E9%82%AA%E6%81%B6%E4%B8%B4%E8%BF%91.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-ji-2-xie-e-lin-jin.zip"],
           ["Size", "1,032,349 bytes (1008 KB)"],
           ["SHA-256", "e912d046e9161ddda752bf7a0d75162ef130af6ed945c7cef96e7963dbc4ea2f"],
           ["Files", "130"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B92%E9%82%AA%E6%81%B6%E4%B8%B4%E8%BF%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 遗迹2邪恶临近 (1008 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-ji-2-xie-e-lin-jin.zip", external: true},
+          {label: "Download 遗迹2邪恶临近 (1008 KB)", href: "https://dos-bin.zczc.cz/%E9%81%97%E8%BF%B92%E9%82%AA%E6%81%B6%E4%B8%B4%E8%BF%91.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "致命毒药 is a DOS game in the WhereQ archive — 1997, 23 files, 5.4 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-ming-du-yao.zip",
+  url: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%AF%92%E8%8D%AF.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-ming-du-yao.zip"],
           ["Size", "5,610,778 bytes (5.4 MB)"],
           ["SHA-256", "43324a5cfc78ea7d698b9fa882bec4c886589f10e37584e8a42c70bf34e13ef9"],
           ["Files", "23"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%AF%92%E8%8D%AF.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 致命毒药 (5.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-ming-du-yao.zip", external: true},
+          {label: "Download 致命毒药 (5.4 MB)", href: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E6%AF%92%E8%8D%AF.zip", external: true},
         ]},
       ],
     },

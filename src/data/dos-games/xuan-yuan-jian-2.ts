@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "轩辕剑2 is a DOS game in the WhereQ archive — 1994, 2,315 files, 11.3 MB, and an entry point of SWD2.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%912.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xuan-yuan-jian-2.zip"],
           ["Size", "11,825,823 bytes (11.3 MB)"],
           ["SHA-256", "ebb2716058a3fba999666365d5237161f9dfcfe42b66c645ba222508cfeeae2c"],
           ["Files", "2,315"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%912.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 轩辕剑2 (11.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xuan-yuan-jian-2.zip", external: true},
+          {label: "Download 轩辕剑2 (11.3 MB)", href: "https://dos-bin.zczc.cz/%E8%BD%A9%E8%BE%95%E5%89%912.zip", external: true},
         ]},
       ],
     },

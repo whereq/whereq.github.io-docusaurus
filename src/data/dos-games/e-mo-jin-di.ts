@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "e",
   summary: "恶魔禁地 is a DOS game in the WhereQ archive — 1998, 29 files, 4.2 MB, and an entry point of SETUP.COM.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/e/e-mo-jin-di.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "e-mo-jin-di.zip"],
           ["Size", "4,354,950 bytes (4.2 MB)"],
           ["SHA-256", "17f88ee3f6a0b1c26cfdd165dc5dd9cbd335b20a1c3eb1433750b6fd3c8800a4"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恶魔禁地 (4.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/e/e-mo-jin-di.zip", external: true},
+          {label: "Download 恶魔禁地 (4.2 MB)", href: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "爆笑三国志 is a DOS game in the WhereQ archive — 1994, 484 files, 5.1 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-san-guo-zhi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%B8%89%E5%9B%BD%E5%BF%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bao-xiao-san-guo-zhi.zip"],
           ["Size", "5,378,668 bytes (5.1 MB)"],
           ["SHA-256", "3aa5715d51e93a4b9958b96784233badbafa584f218e56ad4c653ee36667ed39"],
           ["Files", "484"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%B8%89%E5%9B%BD%E5%BF%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 爆笑三国志 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bao-xiao-san-guo-zhi.zip", external: true},
+          {label: "Download 爆笑三国志 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E7%88%86%E7%AC%91%E4%B8%89%E5%9B%BD%E5%BF%97.zip", external: true},
         ]},
       ],
     },

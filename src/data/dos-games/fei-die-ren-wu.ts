@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "飞碟任务 is a DOS game in the WhereQ archive — 1992, 28 files, 843 KB, and an entry point of UFO.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fei-die-ren-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%A2%9F%E4%BB%BB%E5%8A%A1.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fei-die-ren-wu.zip"],
           ["Size", "863,377 bytes (843 KB)"],
           ["SHA-256", "076c9b812ad211473243b72744ee035cfd497cff01a805df6b443527cc99d990"],
           ["Files", "28"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A3%9E%E7%A2%9F%E4%BB%BB%E5%8A%A1.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 飞碟任务 (843 KB)", href: "https://github.com/whereq/dos-games/releases/download/f/fei-die-ren-wu.zip", external: true},
+          {label: "Download 飞碟任务 (843 KB)", href: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%A2%9F%E4%BB%BB%E5%8A%A1.zip", external: true},
         ]},
       ],
     },

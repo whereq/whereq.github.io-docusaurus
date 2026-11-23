@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "马里奥游戏展 is a DOS game in the WhereQ archive — 1996, 24 files, 3.8 MB, and an entry point of mario.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-you-xi-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B8%B8%E6%88%8F%E5%B1%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-li-ao-you-xi-zhan.zip"],
           ["Size", "4,030,544 bytes (3.8 MB)"],
           ["SHA-256", "6226fb477dbeff9e9e7aa7076f59bc58bf6b3e86a34ab25d8b68db0f10dc51eb"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B8%B8%E6%88%8F%E5%B1%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 马里奥游戏展 (3.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ao-you-xi-zhan.zip", external: true},
+          {label: "Download 马里奥游戏展 (3.8 MB)", href: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B8%B8%E6%88%8F%E5%B1%95.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "撞球补习班 is a DOS game in the WhereQ archive — 1992, 26 files, 186 KB, and an entry point of PLAY_AD.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuang-qiu-bu-xi-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%92%9E%E7%90%83%E8%A1%A5%E4%B9%A0%E7%8F%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuang-qiu-bu-xi-ban.zip"],
           ["Size", "190,546 bytes (186 KB)"],
           ["SHA-256", "14d3e3ae6438bf06103f3332b7b286760a27f390f09a601e28a5cbeff60a37e7"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%92%9E%E7%90%83%E8%A1%A5%E4%B9%A0%E7%8F%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 撞球补习班 (186 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuang-qiu-bu-xi-ban.zip", external: true},
+          {label: "Download 撞球补习班 (186 KB)", href: "https://dos-bin.zczc.cz/%E6%92%9E%E7%90%83%E8%A1%A5%E4%B9%A0%E7%8F%AD.zip", external: true},
         ]},
       ],
     },

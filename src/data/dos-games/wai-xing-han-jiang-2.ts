@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "外星悍将2 is a DOS game in the WhereQ archive — 2006, 30 files, 2.1 MB, and an entry point of TURRICAN.BAT.",
   status: "2006",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wai-xing-han-jiang-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E6%82%8D%E5%B0%862.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2006"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wai-xing-han-jiang-2.zip"],
           ["Size", "2,220,554 bytes (2.1 MB)"],
           ["SHA-256", "1fc87f5b78f809d97ef81ffe51eccd96de5a9b774e5ac52709f26ed1270d4280"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E6%82%8D%E5%B0%862.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 外星悍将2 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wai-xing-han-jiang-2.zip", external: true},
+          {label: "Download 外星悍将2 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E6%82%8D%E5%B0%862.zip", external: true},
         ]},
       ],
     },

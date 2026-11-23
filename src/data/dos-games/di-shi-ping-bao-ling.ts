@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "第十瓶-保龄 is a DOS game in the WhereQ archive — 1996, 1 files, 27 KB, and an entry point of bowl.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-shi-ping-bao-ling.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AC%AC%E5%8D%81%E7%93%B6-%E4%BF%9D%E9%BE%84.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-shi-ping-bao-ling.zip"],
           ["Size", "27,901 bytes (27 KB)"],
           ["SHA-256", "c758ee4f12d6e9f2883bab7cd54ef3de5a55e3c7c6632ee15aab7123760e95ff"],
           ["Files", "1"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AC%AC%E5%8D%81%E7%93%B6-%E4%BF%9D%E9%BE%84.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 第十瓶-保龄 (27 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-shi-ping-bao-ling.zip", external: true},
+          {label: "Download 第十瓶-保龄 (27 KB)", href: "https://dos-bin.zczc.cz/%E7%AC%AC%E5%8D%81%E7%93%B6-%E4%BF%9D%E9%BE%84.zip", external: true},
         ]},
       ],
     },

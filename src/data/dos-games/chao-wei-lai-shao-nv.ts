@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超未来少女 is a DOS game in the WhereQ archive — 1995, 83 files, 4.8 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-wei-lai-shao-nv.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%9C%AA%E6%9D%A5%E5%B0%91%E5%A5%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-wei-lai-shao-nv.zip"],
           ["Size", "5,032,638 bytes (4.8 MB)"],
           ["SHA-256", "e732565818d51566b1753a2d4f2b18f29f768e1a13dfb4525587c5f639196c6a"],
           ["Files", "83"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E6%9C%AA%E6%9D%A5%E5%B0%91%E5%A5%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超未来少女 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-wei-lai-shao-nv.zip", external: true},
+          {label: "Download 超未来少女 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E6%9C%AA%E6%9D%A5%E5%B0%91%E5%A5%B3.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "卡通快打SP is a DOS game in the WhereQ archive — 1997, 49 files, 2.7 MB, and an entry point of PEE.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ka-tong-kuai-da-sp.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%80%9A%E5%BF%AB%E6%89%93SP.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ka-tong-kuai-da-sp.zip"],
           ["Size", "2,821,014 bytes (2.7 MB)"],
           ["SHA-256", "c33d148e7cb7582ac8beb5c4c4d9fd8821a2fbe2c6a74d9f5e56ebcc90ad68e3"],
           ["Files", "49"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%A1%E9%80%9A%E5%BF%AB%E6%89%93SP.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 卡通快打SP (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ka-tong-kuai-da-sp.zip", external: true},
+          {label: "Download 卡通快打SP (2.7 MB)", href: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%80%9A%E5%BF%AB%E6%89%93SP.zip", external: true},
         ]},
       ],
     },

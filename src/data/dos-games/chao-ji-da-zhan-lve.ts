@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级大战略 is a DOS game in the WhereQ archive — 1992, 35 files, 329 KB, and an entry point of SUPER.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-da-zhan-lve.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E6%88%98%E7%95%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-da-zhan-lve.zip"],
           ["Size", "336,904 bytes (329 KB)"],
           ["SHA-256", "bbe44b236a49925b54809c238fc86dcf919eb0a3d58cf860b824624da23610c5"],
           ["Files", "35"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E6%88%98%E7%95%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级大战略 (329 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-da-zhan-lve.zip", external: true},
+          {label: "Download 超级大战略 (329 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%A4%A7%E6%88%98%E7%95%A5.zip", external: true},
         ]},
       ],
     },

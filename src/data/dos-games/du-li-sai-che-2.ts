@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "独立赛车2 is a DOS game in the WhereQ archive — 1995, 333 files, 17.2 MB, and an entry point of INDYCAR.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/du-li-sai-che-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E8%B5%9B%E8%BD%A62.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "du-li-sai-che-2.zip"],
           ["Size", "17,989,882 bytes (17.2 MB)"],
           ["SHA-256", "b9ab1efac337b0e39bff09c6d59eeb508f4ac8d318d9e7c45f05d94a57be6af5"],
           ["Files", "333"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E8%B5%9B%E8%BD%A62.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 独立赛车2 (17.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/du-li-sai-che-2.zip", external: true},
+          {label: "Download 独立赛车2 (17.2 MB)", href: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E8%B5%9B%E8%BD%A62.zip", external: true},
         ]},
       ],
     },

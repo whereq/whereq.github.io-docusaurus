@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "偷金子 is a DOS game in the WhereQ archive — 1998, 2 files, 49 KB, and an entry point of LR.COM.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tou-jin-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%81%B7%E9%87%91%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tou-jin-zi.zip"],
           ["Size", "49,883 bytes (49 KB)"],
           ["SHA-256", "15d9001b3c0dc95102d594bd4ce8ed4b08494626dd081b53e8b4c390525848aa"],
           ["Files", "2"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%81%B7%E9%87%91%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 偷金子 (49 KB)", href: "https://github.com/whereq/dos-games/releases/download/t/tou-jin-zi.zip", external: true},
+          {label: "Download 偷金子 (49 KB)", href: "https://dos-bin.zczc.cz/%E5%81%B7%E9%87%91%E5%AD%90.zip", external: true},
         ]},
       ],
     },

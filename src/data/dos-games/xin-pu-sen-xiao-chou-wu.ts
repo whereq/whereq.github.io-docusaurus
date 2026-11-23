@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "辛普森小丑屋 is a DOS game in the WhereQ archive — 1980, 216 files, 516 KB, and an entry point of krusty.bat.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-xiao-chou-wu.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%B0%8F%E4%B8%91%E5%B1%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-pu-sen-xiao-chou-wu.zip"],
           ["Size", "528,413 bytes (516 KB)"],
           ["SHA-256", "419a46a7c2c66296be13346c1fb9c469eb1992acdbce20a2645922dcedcabea1"],
           ["Files", "216"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%B0%8F%E4%B8%91%E5%B1%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 辛普森小丑屋 (516 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-xiao-chou-wu.zip", external: true},
+          {label: "Download 辛普森小丑屋 (516 KB)", href: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%B0%8F%E4%B8%91%E5%B1%8B.zip", external: true},
         ]},
       ],
     },

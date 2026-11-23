@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "FIFA1996 is a DOS game in the WhereQ archive — 1995, 233 files, 28.2 MB, and an entry point of FIFA.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fifa1996.zip",
+  url: "https://dos-bin.zczc.cz/FIFA1996.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fifa1996.zip"],
           ["Size", "29,544,364 bytes (28.2 MB)"],
           ["SHA-256", "f9002d3e4cde820e0bda6636e45b564bda7c708e1691b808802cc95339d317f2"],
           ["Files", "233"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/FIFA1996.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download FIFA1996 (28.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fifa1996.zip", external: true},
+          {label: "Download FIFA1996 (28.2 MB)", href: "https://dos-bin.zczc.cz/FIFA1996.zip", external: true},
         ]},
       ],
     },

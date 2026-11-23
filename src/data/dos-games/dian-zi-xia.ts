@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "电子侠 is a DOS game in the WhereQ archive — 1996, 6 files, 935 KB, and an entry point of EM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dian-zi-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E7%94%B5%E5%AD%90%E4%BE%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dian-zi-xia.zip"],
           ["Size", "956,943 bytes (935 KB)"],
           ["SHA-256", "10e8a74d74dbd4d74b9d1a309edfd0ff3780ae5f83071811a4a81668dba03e73"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%94%B5%E5%AD%90%E4%BE%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 电子侠 (935 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/dian-zi-xia.zip", external: true},
+          {label: "Download 电子侠 (935 KB)", href: "https://dos-bin.zczc.cz/%E7%94%B5%E5%AD%90%E4%BE%A0.zip", external: true},
         ]},
       ],
     },

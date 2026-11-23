@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "印第安那琼斯AtlantisAct is a DOS game in the WhereQ archive — 1997, 12 files, 778 KB, and an entry point of INDY4A.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-na-qiong-si-atlantisact.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AFAtlantisAct.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yin-di-an-na-qiong-si-atlantisact.zip"],
           ["Size", "796,284 bytes (778 KB)"],
           ["SHA-256", "13f63b914640469d5032b15a3b1de179c4c0accadafc2320e61aa14a91bd4844"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AFAtlantisAct.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 印第安那琼斯AtlantisAct (778 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yin-di-an-na-qiong-si-atlantisact.zip", external: true},
+          {label: "Download 印第安那琼斯AtlantisAct (778 KB)", href: "https://dos-bin.zczc.cz/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%82%A3%E7%90%BC%E6%96%AFAtlantisAct.zip", external: true},
         ]},
       ],
     },

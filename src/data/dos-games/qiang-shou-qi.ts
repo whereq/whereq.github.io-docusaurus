@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "强手棋 is a DOS game in the WhereQ archive — 1992, 40 files, 1.9 MB, and an entry point of MONOPOLY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qiang-shou-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%BA%E6%89%8B%E6%A3%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qiang-shou-qi.zip"],
           ["Size", "2,017,261 bytes (1.9 MB)"],
           ["SHA-256", "5db5fca670345abe294e3344fe389e6b0259ff0155833c22b9b2c399f509831f"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%BA%E6%89%8B%E6%A3%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 强手棋 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qiang-shou-qi.zip", external: true},
+          {label: "Download 强手棋 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%BA%E6%89%8B%E6%A3%8B.zip", external: true},
         ]},
       ],
     },

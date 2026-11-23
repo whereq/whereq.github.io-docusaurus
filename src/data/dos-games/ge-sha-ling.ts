@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "格杀令 is a DOS game in the WhereQ archive — 1997, 21 files, 36.8 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/g/ge-sha-ling.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%9D%80%E4%BB%A4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ge-sha-ling.zip"],
           ["Size", "38,544,713 bytes (36.8 MB)"],
           ["SHA-256", "973104160afa85af0f3bfc1103441806d445ee1e0b01e965d2e5e18c5a441b5b"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A0%BC%E6%9D%80%E4%BB%A4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 格杀令 (36.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/ge-sha-ling.zip", external: true},
+          {label: "Download 格杀令 (36.8 MB)", href: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%9D%80%E4%BB%A4.zip", external: true},
         ]},
       ],
     },

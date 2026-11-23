@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "亡魂复仇 is a DOS game in the WhereQ archive — 1992, 85 files, 1.3 MB, and an entry point of SETUP.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wang-hun-fu-chou.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%A1%E9%AD%82%E5%A4%8D%E4%BB%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wang-hun-fu-chou.zip"],
           ["Size", "1,313,962 bytes (1.3 MB)"],
           ["SHA-256", "46910a4e182f37b689e260dd9a93cfd884f0af71b06bf9ba31f2397683145f41"],
           ["Files", "85"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%A1%E9%AD%82%E5%A4%8D%E4%BB%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 亡魂复仇 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wang-hun-fu-chou.zip", external: true},
+          {label: "Download 亡魂复仇 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%A1%E9%AD%82%E5%A4%8D%E4%BB%87.zip", external: true},
         ]},
       ],
     },

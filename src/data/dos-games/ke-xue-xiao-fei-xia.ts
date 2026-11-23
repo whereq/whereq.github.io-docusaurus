@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "科学小飞侠 is a DOS game in the WhereQ archive — 2007, 496 files, 1.9 MB, and an entry point of PLAY.BAT.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/k/ke-xue-xiao-fei-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A7%91%E5%AD%A6%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ke-xue-xiao-fei-xia.zip"],
           ["Size", "1,950,364 bytes (1.9 MB)"],
           ["SHA-256", "31b0de32cfb8a158e2b62e605c4037f84ad3e8acd0355f28b8baea32683d9063"],
           ["Files", "496"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A7%91%E5%AD%A6%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 科学小飞侠 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/ke-xue-xiao-fei-xia.zip", external: true},
+          {label: "Download 科学小飞侠 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E7%A7%91%E5%AD%A6%E5%B0%8F%E9%A3%9E%E4%BE%A0.zip", external: true},
         ]},
       ],
     },

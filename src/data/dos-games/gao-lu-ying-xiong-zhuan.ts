@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "高卢英雄传 is a DOS game in the WhereQ archive — 1997, 40 files, 3.6 MB, and an entry point of OBELIX.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gao-lu-ying-xiong-zhuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AB%98%E5%8D%A2%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gao-lu-ying-xiong-zhuan.zip"],
           ["Size", "3,786,046 bytes (3.6 MB)"],
           ["SHA-256", "2e29c88bb6fdfc09231906adac9f8b0906ad563dee19c261d2b093144744458b"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AB%98%E5%8D%A2%E8%8B%B1%E9%9B%84%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 高卢英雄传 (3.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gao-lu-ying-xiong-zhuan.zip", external: true},
+          {label: "Download 高卢英雄传 (3.6 MB)", href: "https://dos-bin.zczc.cz/%E9%AB%98%E5%8D%A2%E8%8B%B1%E9%9B%84%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

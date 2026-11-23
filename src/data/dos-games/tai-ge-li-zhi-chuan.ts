@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "太阁立志传 is a DOS game in the WhereQ archive — 1995, 72 files, 2.4 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-ge-li-zhi-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "KOEI"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-ge-li-zhi-chuan.zip"],
           ["Size", "2,519,176 bytes (2.4 MB)"],
           ["SHA-256", "1c08aae4105c56500b79e13dad7df8bc9512aa3023cbde1429b1e689a506eb59"],
           ["Files", "72"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 太阁立志传 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-ge-li-zhi-chuan.zip", external: true},
+          {label: "Download 太阁立志传 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

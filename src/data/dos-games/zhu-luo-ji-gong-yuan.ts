@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "侏罗纪公园 is a DOS game in the WhereQ archive — 1993, 18 files, 4.1 MB, and an entry point of JP.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhu-luo-ji-gong-yuan.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%85%AC%E5%9B%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhu-luo-ji-gong-yuan.zip"],
           ["Size", "4,340,950 bytes (4.1 MB)"],
           ["SHA-256", "5d319bdce56d0e5d2fb35851d195a679866965e0d7b9f31c528d487ee5e17751"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%85%AC%E5%9B%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 侏罗纪公园 (4.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhu-luo-ji-gong-yuan.zip", external: true},
+          {label: "Download 侏罗纪公园 (4.1 MB)", href: "https://dos-bin.zczc.cz/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%85%AC%E5%9B%AD.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "中原镖局 is a DOS game in the WhereQ archive — 1996, 175 files, 5.5 MB, and an entry point of UVCONFIG.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-yuan-biao-ju.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%8E%9F%E9%95%96%E5%B1%80.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-yuan-biao-ju.zip"],
           ["Size", "5,755,486 bytes (5.5 MB)"],
           ["SHA-256", "b9d798b01818656b53fab24cbe45892acf0787e146f4ed92fd2333171fb415ba"],
           ["Files", "175"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%AD%E5%8E%9F%E9%95%96%E5%B1%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 中原镖局 (5.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-yuan-biao-ju.zip", external: true},
+          {label: "Download 中原镖局 (5.5 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%8E%9F%E9%95%96%E5%B1%80.zip", external: true},
         ]},
       ],
     },

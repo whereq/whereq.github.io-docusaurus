@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "洪流剑客 is a DOS game in the WhereQ archive — 1996, 12 files, 2.5 MB, and an entry point of GO.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hong-liu-jian-ke.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B4%AA%E6%B5%81%E5%89%91%E5%AE%A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hong-liu-jian-ke.zip"],
           ["Size", "2,650,649 bytes (2.5 MB)"],
           ["SHA-256", "872e4ee67cec37722d639b9f4aa34a3fa217a350257aa5935d53164f0e6752cc"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B4%AA%E6%B5%81%E5%89%91%E5%AE%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 洪流剑客 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hong-liu-jian-ke.zip", external: true},
+          {label: "Download 洪流剑客 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E6%B4%AA%E6%B5%81%E5%89%91%E5%AE%A2.zip", external: true},
         ]},
       ],
     },

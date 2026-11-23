@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "格斗:过度杀戮 is a DOS game in the WhereQ archive — 1997, 176 files, 17.9 MB, and an entry point of OVERKILL.EXE.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-guo-du-sha-lu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%EF%BC%9A%E8%BF%87%E5%BA%A6%E6%9D%80%E6%88%AE.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ge-dou-guo-du-sha-lu.zip"],
           ["Size", "18,760,689 bytes (17.9 MB)"],
           ["SHA-256", "2b4a257e757677dd36eba7594cb2ef3e47c6f2935a59845e4d9242f6e73c0d8d"],
           ["Files", "176"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%EF%BC%9A%E8%BF%87%E5%BA%A6%E6%9D%80%E6%88%AE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 格斗:过度杀戮 (17.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/ge-dou-guo-du-sha-lu.zip", external: true},
+          {label: "Download 格斗:过度杀戮 (17.9 MB)", href: "https://dos-bin.zczc.cz/%E6%A0%BC%E6%96%97%EF%BC%9A%E8%BF%87%E5%BA%A6%E6%9D%80%E6%88%AE.zip", external: true},
         ]},
       ],
     },

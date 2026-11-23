@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法大帝 is a DOS game in the WhereQ archive — 1994, 122 files, 9.8 MB, and an entry point of MAGIC.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-da-di.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A7%E5%B8%9D.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-da-di.zip"],
           ["Size", "10,305,351 bytes (9.8 MB)"],
           ["SHA-256", "20a5c7bef95393b5577d4d35f4ed61c7c486e611e4e9fa988edbfc31c4c3f0d1"],
           ["Files", "122"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A7%E5%B8%9D.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法大帝 (9.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-da-di.zip", external: true},
+          {label: "Download 魔法大帝 (9.8 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A7%E5%B8%9D.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大宋英豪岳飞传 is a DOS game in the WhereQ archive — 2010, 457 files, 467.8 MB, and an entry point of YFZ.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-song-ying-hao-yue-fei-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AE%8B%E8%8B%B1%E8%B1%AA%E5%B2%B3%E9%A3%9E%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-song-ying-hao-yue-fei-chuan.zip"],
           ["Size", "490,512,036 bytes (467.8 MB)"],
           ["SHA-256", "78c978741ad03f7b81e561dacbd007fd62197360a546dde1c4f3c38dc2a216e8"],
           ["Files", "457"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E5%AE%8B%E8%8B%B1%E8%B1%AA%E5%B2%B3%E9%A3%9E%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大宋英豪岳飞传 (467.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-song-ying-hao-yue-fei-chuan.zip", external: true},
+          {label: "Download 大宋英豪岳飞传 (467.8 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AE%8B%E8%8B%B1%E8%B1%AA%E5%B2%B3%E9%A3%9E%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

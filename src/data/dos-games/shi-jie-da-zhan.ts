@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "世界大战 is a DOS game in the WhereQ archive — 1994, 638 files, 2.9 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-da-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-jie-da-zhan.zip"],
           ["Size", "3,047,839 bytes (2.9 MB)"],
           ["SHA-256", "19b50371558d4b400ea0e857acda661427ce7ca507aac1087a8d0e8f083fdeb8"],
           ["Files", "638"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 世界大战 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-jie-da-zhan.zip", external: true},
+          {label: "Download 世界大战 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98.zip", external: true},
         ]},
       ],
     },

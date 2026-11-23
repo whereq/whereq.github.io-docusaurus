@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "分歧:裂痕 is a DOS game in the WhereQ archive — 1997, 15 files, 18.8 MB, and an entry point of chasm.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fen-qi-lie-hen.zip",
+  url: "https://dos-bin.zczc.cz/%E5%88%86%E6%AD%A7%EF%BC%9A%E8%A3%82%E7%97%95.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fen-qi-lie-hen.zip"],
           ["Size", "19,692,660 bytes (18.8 MB)"],
           ["SHA-256", "edc8a1ab9d8406c993c97325370aacde45432ee5b7d0a37025cf4be9d1a6fbeb"],
           ["Files", "15"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%88%86%E6%AD%A7%EF%BC%9A%E8%A3%82%E7%97%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 分歧:裂痕 (18.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fen-qi-lie-hen.zip", external: true},
+          {label: "Download 分歧:裂痕 (18.8 MB)", href: "https://dos-bin.zczc.cz/%E5%88%86%E6%AD%A7%EF%BC%9A%E8%A3%82%E7%97%95.zip", external: true},
         ]},
       ],
     },

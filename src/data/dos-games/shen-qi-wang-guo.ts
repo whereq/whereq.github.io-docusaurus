@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "神奇王国 is a DOS game in the WhereQ archive — 1987, 24 files, 292 KB, and an entry point of PLAY.BAT.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shen-qi-wang-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%A5%87%E7%8E%8B%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shen-qi-wang-guo.zip"],
           ["Size", "298,568 bytes (292 KB)"],
           ["SHA-256", "52583799170f8b085a3dc4bd29d28b487ef1dfa10ddf8604cf64f88a859b499e"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A5%9E%E5%A5%87%E7%8E%8B%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 神奇王国 (292 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shen-qi-wang-guo.zip", external: true},
+          {label: "Download 神奇王国 (292 KB)", href: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%A5%87%E7%8E%8B%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

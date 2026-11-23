@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔界圣女传 is a DOS game in the WhereQ archive — 1991, 371 files, 1.7 MB, and an entry point of ADV.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-sheng-nv-chuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%9C%A3%E5%A5%B3%E4%BC%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-jie-sheng-nv-chuan.zip"],
           ["Size", "1,738,384 bytes (1.7 MB)"],
           ["SHA-256", "a482993e2450db3e2e305403dbb5ab536f237a142bdd5c7dfefbf4f0ce7524ce"],
           ["Files", "371"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%9C%A3%E5%A5%B3%E4%BC%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔界圣女传 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-jie-sheng-nv-chuan.zip", external: true},
+          {label: "Download 魔界圣女传 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%95%8C%E5%9C%A3%E5%A5%B3%E4%BC%A0.zip", external: true},
         ]},
       ],
     },

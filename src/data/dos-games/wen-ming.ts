@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "文明 is a DOS game in the WhereQ archive — 1991, 182 files, 1.8 MB, and an entry point of CIV.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wen-ming.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%87%E6%98%8E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wen-ming.zip"],
           ["Size", "1,840,030 bytes (1.8 MB)"],
           ["SHA-256", "b48aeeaa15984b9130f9c0e915fc846093684eb478ce479fe6ccf5009da62b00"],
           ["Files", "182"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%87%E6%98%8E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 文明 (1.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wen-ming.zip", external: true},
+          {label: "Download 文明 (1.8 MB)", href: "https://dos-bin.zczc.cz/%E6%96%87%E6%98%8E.zip", external: true},
         ]},
       ],
     },

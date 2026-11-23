@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "公路狂飙 is a DOS game in the WhereQ archive — 1993, 30 files, 248 KB, and an entry point of CARNAGE.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gong-lu-kuang-biao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%85%AC%E8%B7%AF%E7%8B%82%E9%A3%99.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gong-lu-kuang-biao.zip"],
           ["Size", "254,039 bytes (248 KB)"],
           ["SHA-256", "39e047446005f39de5398da381fd915ed58c5403bc700fa17a98e2e73f8ffa68"],
           ["Files", "30"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%85%AC%E8%B7%AF%E7%8B%82%E9%A3%99.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 公路狂飙 (248 KB)", href: "https://github.com/whereq/dos-games/releases/download/g/gong-lu-kuang-biao.zip", external: true},
+          {label: "Download 公路狂飙 (248 KB)", href: "https://dos-bin.zczc.cz/%E5%85%AC%E8%B7%AF%E7%8B%82%E9%A3%99.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "星城绿洲计划 is a DOS game in the WhereQ archive — an undated copy, 83 files, 4.7 MB, and an entry point of SP.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xing-cheng-lv-zhou-ji-hua.zip",
+  url: "https://dos-bin.zczc.cz/%E6%98%9F%E5%9F%8E%E7%BB%BF%E6%B4%B2%E8%AE%A1%E5%88%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xing-cheng-lv-zhou-ji-hua.zip"],
           ["Size", "4,916,389 bytes (4.7 MB)"],
           ["SHA-256", "a08af5dcabeb20fa222b1b5de4b6e31ed21dcf358ba72ba57146c2e983a5c145"],
           ["Files", "83"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%98%9F%E5%9F%8E%E7%BB%BF%E6%B4%B2%E8%AE%A1%E5%88%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 星城绿洲计划 (4.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xing-cheng-lv-zhou-ji-hua.zip", external: true},
+          {label: "Download 星城绿洲计划 (4.7 MB)", href: "https://dos-bin.zczc.cz/%E6%98%9F%E5%9F%8E%E7%BB%BF%E6%B4%B2%E8%AE%A1%E5%88%92.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "雪中出击 is a DOS game in the WhereQ archive — 1989, 6 files, 243 KB, and an entry point of STRIKE.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xue-zhong-chu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%AA%E4%B8%AD%E5%87%BA%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xue-zhong-chu-ji.zip"],
           ["Size", "249,101 bytes (243 KB)"],
           ["SHA-256", "da4d29165fc02a5b90dc02befd55d455af35cc52a695deb7393d6fe74dfce263"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%AA%E4%B8%AD%E5%87%BA%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雪中出击 (243 KB)", href: "https://github.com/whereq/dos-games/releases/download/x/xue-zhong-chu-ji.zip", external: true},
+          {label: "Download 雪中出击 (243 KB)", href: "https://dos-bin.zczc.cz/%E9%9B%AA%E4%B8%AD%E5%87%BA%E5%87%BB.zip", external: true},
         ]},
       ],
     },

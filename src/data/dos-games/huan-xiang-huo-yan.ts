@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "幻想火焰 is a DOS game in the WhereQ archive — 1996, 139 files, 8.1 MB, and an entry point of STAGE_1.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-huo-yan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%81%AB%E7%84%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huan-xiang-huo-yan.zip"],
           ["Size", "8,498,800 bytes (8.1 MB)"],
           ["SHA-256", "3628d617fc06fe44fd58e58a25ebf9bdcbf0c9ef9dba605092fcd90791493027"],
           ["Files", "139"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%81%AB%E7%84%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幻想火焰 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huan-xiang-huo-yan.zip", external: true},
+          {label: "Download 幻想火焰 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%81%AB%E7%84%B0.zip", external: true},
         ]},
       ],
     },

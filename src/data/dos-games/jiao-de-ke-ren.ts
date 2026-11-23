@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "娇的客人 is a DOS game in the WhereQ archive — 1996, 37 files, 3.2 MB, and an entry point of JO.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jiao-de-ke-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A8%87%E7%9A%84%E5%AE%A2%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jiao-de-ke-ren.zip"],
           ["Size", "3,396,218 bytes (3.2 MB)"],
           ["SHA-256", "719612f5ee5bc956af9053a6e3eb81d74b43a96199764e097a7c447eecc9ca12"],
           ["Files", "37"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A8%87%E7%9A%84%E5%AE%A2%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 娇的客人 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jiao-de-ke-ren.zip", external: true},
+          {label: "Download 娇的客人 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E5%A8%87%E7%9A%84%E5%AE%A2%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

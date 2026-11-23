@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "美杜莎归来 is a DOS game in the WhereQ archive — 1996, 11 files, 613 KB, and an entry point of ROM.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mei-du-sha-gui-lai.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BE%8E%E6%9D%9C%E8%8E%8E%E5%BD%92%E6%9D%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mei-du-sha-gui-lai.zip"],
           ["Size", "627,719 bytes (613 KB)"],
           ["SHA-256", "d36a726e9bc58a9b9c4fc6aaa3a3da2edc1939e45880950e7708ee019e105125"],
           ["Files", "11"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BE%8E%E6%9D%9C%E8%8E%8E%E5%BD%92%E6%9D%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 美杜莎归来 (613 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mei-du-sha-gui-lai.zip", external: true},
+          {label: "Download 美杜莎归来 (613 KB)", href: "https://dos-bin.zczc.cz/%E7%BE%8E%E6%9D%9C%E8%8E%8E%E5%BD%92%E6%9D%A5.zip", external: true},
         ]},
       ],
     },

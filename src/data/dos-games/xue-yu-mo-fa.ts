@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "血与魔法 is a DOS game in the WhereQ archive — 1996, 128 files, 43.2 MB, and an entry point of BAM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xue-yu-mo-fa.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A1%80%E4%B8%8E%E9%AD%94%E6%B3%95.zip",
   facts: [
     {label: "Developer", value: "INTERPLAY"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xue-yu-mo-fa.zip"],
           ["Size", "45,344,225 bytes (43.2 MB)"],
           ["SHA-256", "3a751f6ccf43bdf18064189ccc78e85b28761909a5eb9f71c5404d72d090aaca"],
           ["Files", "128"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A1%80%E4%B8%8E%E9%AD%94%E6%B3%95.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 血与魔法 (43.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xue-yu-mo-fa.zip", external: true},
+          {label: "Download 血与魔法 (43.2 MB)", href: "https://dos-bin.zczc.cz/%E8%A1%80%E4%B8%8E%E9%AD%94%E6%B3%95.zip", external: true},
         ]},
       ],
     },

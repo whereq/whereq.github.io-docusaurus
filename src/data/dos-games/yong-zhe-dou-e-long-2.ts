@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "勇者斗恶龙2 is a DOS game in the WhereQ archive — 1990, 68 files, 207 KB, and an entry point of PLAY.BAT.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-dou-e-long-2.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%992.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yong-zhe-dou-e-long-2.zip"],
           ["Size", "212,110 bytes (207 KB)"],
           ["SHA-256", "74388f930a85baf26aaa2293ccce909682776d6081a1357f3abfd68f5a1a31ee"],
           ["Files", "68"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%992.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 勇者斗恶龙2 (207 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/yong-zhe-dou-e-long-2.zip", external: true},
+          {label: "Download 勇者斗恶龙2 (207 KB)", href: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%992.zip", external: true},
         ]},
       ],
     },

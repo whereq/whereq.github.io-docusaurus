@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "森林小精灵 is a DOS game in the WhereQ archive — 1996, 240 files, 2.3 MB, and an entry point of pick.bat.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sen-lin-xiao-jing-ling.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E5%B0%8F%E7%B2%BE%E7%81%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sen-lin-xiao-jing-ling.zip"],
           ["Size", "2,359,662 bytes (2.3 MB)"],
           ["SHA-256", "075a44d8b7560d77c245f9cd24f3101ea705ef8d4b2ee18310e450c56348baf5"],
           ["Files", "240"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E5%B0%8F%E7%B2%BE%E7%81%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 森林小精灵 (2.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sen-lin-xiao-jing-ling.zip", external: true},
+          {label: "Download 森林小精灵 (2.3 MB)", href: "https://dos-bin.zczc.cz/%E6%A3%AE%E6%9E%97%E5%B0%8F%E7%B2%BE%E7%81%B5.zip", external: true},
         ]},
       ],
     },

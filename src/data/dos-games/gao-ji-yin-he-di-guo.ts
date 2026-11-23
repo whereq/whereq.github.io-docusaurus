@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "g",
   summary: "高级银河帝国 is a DOS game in the WhereQ archive — 1992, 25 files, 8.2 MB, and an entry point of GO.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/g/gao-ji-yin-he-di-guo.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "gao-ji-yin-he-di-guo.zip"],
           ["Size", "8,584,704 bytes (8.2 MB)"],
           ["SHA-256", "f707305d4f2f11c796c81474f7ded1e3c0cf0637abd0c9bbfb1d61bb983def22"],
           ["Files", "25"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 高级银河帝国 (8.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/g/gao-ji-yin-he-di-guo.zip", external: true},
+          {label: "Download 高级银河帝国 (8.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AB%98%E7%BA%A7%E9%93%B6%E6%B2%B3%E5%B8%9D%E5%9B%BD.zip", external: true},
         ]},
       ],
     },

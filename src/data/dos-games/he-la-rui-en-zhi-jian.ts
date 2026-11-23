@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "赫拉瑞恩之剑 is a DOS game in the WhereQ archive — 1996, 47 files, 222 KB, and an entry point of HERA.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/he-la-rui-en-zhi-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B5%AB%E6%8B%89%E7%91%9E%E6%81%A9%E4%B9%8B%E5%89%91.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "he-la-rui-en-zhi-jian.zip"],
           ["Size", "227,604 bytes (222 KB)"],
           ["SHA-256", "07adb0269b058a8a2715ea63327c582a0ad6453e619cf74ef3b034610e0a3c95"],
           ["Files", "47"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B5%AB%E6%8B%89%E7%91%9E%E6%81%A9%E4%B9%8B%E5%89%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 赫拉瑞恩之剑 (222 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/he-la-rui-en-zhi-jian.zip", external: true},
+          {label: "Download 赫拉瑞恩之剑 (222 KB)", href: "https://dos-bin.zczc.cz/%E8%B5%AB%E6%8B%89%E7%91%9E%E6%81%A9%E4%B9%8B%E5%89%91.zip", external: true},
         ]},
       ],
     },

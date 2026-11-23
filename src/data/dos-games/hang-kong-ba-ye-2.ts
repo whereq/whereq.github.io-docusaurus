@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "航空霸业2 is a DOS game in the WhereQ archive — 1996, 95 files, 1.7 MB, and an entry point of AM2.COM.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hang-kong-ba-ye-2.zip",
+  url: "https://dos-bin.zczc.cz/%E8%88%AA%E7%A9%BA%E9%9C%B8%E4%B8%9A2.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hang-kong-ba-ye-2.zip"],
           ["Size", "1,769,326 bytes (1.7 MB)"],
           ["SHA-256", "c42078c96256441cec6b59c50db0348021d2d82da1382803d38741b6e3cf8606"],
           ["Files", "95"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%88%AA%E7%A9%BA%E9%9C%B8%E4%B8%9A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 航空霸业2 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hang-kong-ba-ye-2.zip", external: true},
+          {label: "Download 航空霸业2 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E8%88%AA%E7%A9%BA%E9%9C%B8%E4%B8%9A2.zip", external: true},
         ]},
       ],
     },

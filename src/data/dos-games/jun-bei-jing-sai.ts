@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "军备竞赛 is a DOS game in the WhereQ archive — 2008, 26 files, 23.4 MB, and an entry point of ARSENAL.EXE.",
   status: "2008",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jun-bei-jing-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%86%9B%E5%A4%87%E7%AB%9E%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2008"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jun-bei-jing-sai.zip"],
           ["Size", "24,587,122 bytes (23.4 MB)"],
           ["SHA-256", "cefbdf6104e07a4ce4d723dea038a55ec1b594eb742ddd989ac8050ba03affd9"],
           ["Files", "26"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%86%9B%E5%A4%87%E7%AB%9E%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 军备竞赛 (23.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jun-bei-jing-sai.zip", external: true},
+          {label: "Download 军备竞赛 (23.4 MB)", href: "https://dos-bin.zczc.cz/%E5%86%9B%E5%A4%87%E7%AB%9E%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

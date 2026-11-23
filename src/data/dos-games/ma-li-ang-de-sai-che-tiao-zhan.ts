@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "马里昂的赛车挑战 is a DOS game in the WhereQ archive — 1991, 163 files, 1.2 MB, and an entry point of LOAD.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ang-de-sai-che-tiao-zhan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E6%98%82%E7%9A%84%E8%B5%9B%E8%BD%A6%E6%8C%91%E6%88%98.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-li-ang-de-sai-che-tiao-zhan.zip"],
           ["Size", "1,284,998 bytes (1.2 MB)"],
           ["SHA-256", "89122a7103f5869b5aa8808bb669012f59813daa1cf113625e66be5e4d5c38c6"],
           ["Files", "163"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E6%98%82%E7%9A%84%E8%B5%9B%E8%BD%A6%E6%8C%91%E6%88%98.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 马里昂的赛车挑战 (1.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-li-ang-de-sai-che-tiao-zhan.zip", external: true},
+          {label: "Download 马里昂的赛车挑战 (1.2 MB)", href: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E6%98%82%E7%9A%84%E8%B5%9B%E8%BD%A6%E6%8C%91%E6%88%98.zip", external: true},
         ]},
       ],
     },

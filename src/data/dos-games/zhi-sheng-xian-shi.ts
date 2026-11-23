@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "智圣鲜师 is a DOS game in the WhereQ archive — 1994, 171 files, 7.8 MB, and an entry point of SCHOOL.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhi-sheng-xian-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%99%BA%E5%9C%A3%E9%B2%9C%E5%B8%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhi-sheng-xian-shi.zip"],
           ["Size", "8,214,972 bytes (7.8 MB)"],
           ["SHA-256", "2e4c27520b7b26caaeb2db549f6e85059c24c79b2b4fbd52f02c7626ed7a2d23"],
           ["Files", "171"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%99%BA%E5%9C%A3%E9%B2%9C%E5%B8%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 智圣鲜师 (7.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhi-sheng-xian-shi.zip", external: true},
+          {label: "Download 智圣鲜师 (7.8 MB)", href: "https://dos-bin.zczc.cz/%E6%99%BA%E5%9C%A3%E9%B2%9C%E5%B8%88.zip", external: true},
         ]},
       ],
     },

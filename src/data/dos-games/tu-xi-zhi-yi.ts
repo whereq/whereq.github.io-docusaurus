@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "突袭之翼 is a DOS game in the WhereQ archive — 1996, 168 files, 2.9 MB, and an entry point of AWING.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tu-xi-zhi-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E4%B9%8B%E7%BF%BC.zip",
   facts: [
     {label: "Developer", value: "DOMO"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tu-xi-zhi-yi.zip"],
           ["Size", "3,060,678 bytes (2.9 MB)"],
           ["SHA-256", "1d800f3009da656b6b724b9ce52b760c1aeb90cedbdbc0365d48b25b3f7d4209"],
           ["Files", "168"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E4%B9%8B%E7%BF%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 突袭之翼 (2.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tu-xi-zhi-yi.zip", external: true},
+          {label: "Download 突袭之翼 (2.9 MB)", href: "https://dos-bin.zczc.cz/%E7%AA%81%E8%A2%AD%E4%B9%8B%E7%BF%BC.zip", external: true},
         ]},
       ],
     },

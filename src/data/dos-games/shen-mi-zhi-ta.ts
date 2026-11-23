@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "神秘之塔 is a DOS game in the WhereQ archive — 1994, 6 files, 1.3 MB, and an entry point of TOWERS.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shen-mi-zhi-ta.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A7%98%E4%B9%8B%E5%A1%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shen-mi-zhi-ta.zip"],
           ["Size", "1,337,216 bytes (1.3 MB)"],
           ["SHA-256", "f94b566befbb64c2073f082bfe3a9d03f2de59c27d92222f7cc2abb6fa2c638d"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A5%9E%E7%A7%98%E4%B9%8B%E5%A1%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 神秘之塔 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shen-mi-zhi-ta.zip", external: true},
+          {label: "Download 神秘之塔 (1.3 MB)", href: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A7%98%E4%B9%8B%E5%A1%94.zip", external: true},
         ]},
       ],
     },

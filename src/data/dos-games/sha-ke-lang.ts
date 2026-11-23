@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "沙克狼 is a DOS game in the WhereQ archive — 1996, 19 files, 91.7 MB, and an entry point of HIGH.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-ke-lang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%99%E5%85%8B%E7%8B%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-ke-lang.zip"],
           ["Size", "96,163,345 bytes (91.7 MB)"],
           ["SHA-256", "6e339a043fb4e249cdcf6d31ed4ad330fc9000256d7d5ca9b1aca55fb1f5d51c"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%99%E5%85%8B%E7%8B%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沙克狼 (91.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-ke-lang.zip", external: true},
+          {label: "Download 沙克狼 (91.7 MB)", href: "https://dos-bin.zczc.cz/%E6%B2%99%E5%85%8B%E7%8B%BC.zip", external: true},
         ]},
       ],
     },

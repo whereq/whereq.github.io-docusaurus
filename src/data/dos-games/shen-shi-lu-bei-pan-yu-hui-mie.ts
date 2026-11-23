@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "神示录背叛与毁灭 is a DOS game in the WhereQ archive — 1995, 51 files, 4.8 MB, and an entry point of GAME.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shen-shi-lu-bei-pan-yu-hui-mie.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A4%BA%E5%BD%95%E8%83%8C%E5%8F%9B%E4%B8%8E%E6%AF%81%E7%81%AD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shen-shi-lu-bei-pan-yu-hui-mie.zip"],
           ["Size", "5,077,132 bytes (4.8 MB)"],
           ["SHA-256", "dd16df4a5f96d1dedff8097f782f88736fa62c51e3516181b5e2135394f2d189"],
           ["Files", "51"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A5%9E%E7%A4%BA%E5%BD%95%E8%83%8C%E5%8F%9B%E4%B8%8E%E6%AF%81%E7%81%AD.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 神示录背叛与毁灭 (4.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shen-shi-lu-bei-pan-yu-hui-mie.zip", external: true},
+          {label: "Download 神示录背叛与毁灭 (4.8 MB)", href: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A4%BA%E5%BD%95%E8%83%8C%E5%8F%9B%E4%B8%8E%E6%AF%81%E7%81%AD.zip", external: true},
         ]},
       ],
     },

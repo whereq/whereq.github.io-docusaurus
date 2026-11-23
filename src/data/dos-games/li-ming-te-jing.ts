@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "黎明特警 is a DOS game in the WhereQ archive — 1994, 913 files, 5.5 MB, and an entry point of CONTROL.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/l/li-ming-te-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E7%89%B9%E8%AD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "li-ming-te-jing.zip"],
           ["Size", "5,781,579 bytes (5.5 MB)"],
           ["SHA-256", "858d146f61bc365539c7029b4d8770110cb9b51e1e44d57a603b50d049383649"],
           ["Files", "913"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E7%89%B9%E8%AD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 黎明特警 (5.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/li-ming-te-jing.zip", external: true},
+          {label: "Download 黎明特警 (5.5 MB)", href: "https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E7%89%B9%E8%AD%A6.zip", external: true},
         ]},
       ],
     },

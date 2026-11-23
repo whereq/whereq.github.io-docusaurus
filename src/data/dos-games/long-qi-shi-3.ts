@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙骑士3 is a DOS game in the WhereQ archive — 1994, 122 files, 5.1 MB, and an entry point of KX.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-qi-shi-3.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-qi-shi-3.zip"],
           ["Size", "5,322,759 bytes (5.1 MB)"],
           ["SHA-256", "ddc444a0e7aace209ebc03900cf3dc95678bdb3e1c0c9eb86608c3e81a50bfd4"],
           ["Files", "122"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙骑士3 (5.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-qi-shi-3.zip", external: true},
+          {label: "Download 龙骑士3 (5.1 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB3.zip", external: true},
         ]},
       ],
     },

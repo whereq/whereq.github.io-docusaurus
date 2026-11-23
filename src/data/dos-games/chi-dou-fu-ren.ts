@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "吃豆夫人 is a DOS game in the WhereQ archive — 1997, 20 files, 693 KB, and an entry point of mspacem.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-fu-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E5%A4%AB%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chi-dou-fu-ren.zip"],
           ["Size", "709,483 bytes (693 KB)"],
           ["SHA-256", "bfbfe541ca956d69a68c916fbd5ab8addb0d05108b4aa6b357b19b9db485d5b5"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E5%A4%AB%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吃豆夫人 (693 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-fu-ren.zip", external: true},
+          {label: "Download 吃豆夫人 (693 KB)", href: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E5%A4%AB%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

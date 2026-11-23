@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "运输大亨 is a DOS game in the WhereQ archive — 1994, 27 files, 2.4 MB, and an entry point of TYCOON.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yun-shu-da-heng.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BF%90%E8%BE%93%E5%A4%A7%E4%BA%A8.zip",
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yun-shu-da-heng.zip"],
           ["Size", "2,481,152 bytes (2.4 MB)"],
           ["SHA-256", "a0203392fca95a042c3114cdd4e011d68bdc2cbb5e19967e46626a33e9f32df4"],
           ["Files", "27"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BF%90%E8%BE%93%E5%A4%A7%E4%BA%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 运输大亨 (2.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yun-shu-da-heng.zip", external: true},
+          {label: "Download 运输大亨 (2.4 MB)", href: "https://dos-bin.zczc.cz/%E8%BF%90%E8%BE%93%E5%A4%A7%E4%BA%A8.zip", external: true},
         ]},
       ],
     },

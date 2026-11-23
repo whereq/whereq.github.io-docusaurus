@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "捉鬼敢死队2 is a DOS game in the WhereQ archive — 1989, 36 files, 1.0 MB, and an entry point of GB.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhuo-gui-gan-si-dui-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8D%89%E9%AC%BC%E6%95%A2%E6%AD%BB%E9%98%9F2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhuo-gui-gan-si-dui-2.zip"],
           ["Size", "1,082,753 bytes (1.0 MB)"],
           ["SHA-256", "fa0fb85798805f590bbd46c10327010e8658a2ac0ee32835de27e81ce5e60816"],
           ["Files", "36"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8D%89%E9%AC%BC%E6%95%A2%E6%AD%BB%E9%98%9F2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 捉鬼敢死队2 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhuo-gui-gan-si-dui-2.zip", external: true},
+          {label: "Download 捉鬼敢死队2 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E6%8D%89%E9%AC%BC%E6%95%A2%E6%AD%BB%E9%98%9F2.zip", external: true},
         ]},
       ],
     },

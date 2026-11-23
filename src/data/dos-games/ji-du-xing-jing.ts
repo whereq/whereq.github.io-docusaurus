@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "缉毒刑警 is a DOS game in the WhereQ archive — 1993, 16 files, 289 KB, and an entry point of Npolice.exe.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-du-xing-jing.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BC%89%E6%AF%92%E5%88%91%E8%AD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-du-xing-jing.zip"],
           ["Size", "296,343 bytes (289 KB)"],
           ["SHA-256", "51d76097f420b5327d8f2b38a162715c7772314e09aef39009573536dba17537"],
           ["Files", "16"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BC%89%E6%AF%92%E5%88%91%E8%AD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 缉毒刑警 (289 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-du-xing-jing.zip", external: true},
+          {label: "Download 缉毒刑警 (289 KB)", href: "https://dos-bin.zczc.cz/%E7%BC%89%E6%AF%92%E5%88%91%E8%AD%A6.zip", external: true},
         ]},
       ],
     },

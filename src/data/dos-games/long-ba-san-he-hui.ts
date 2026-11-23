@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙霸三合会 is a DOS game in the WhereQ archive — 1995, 40 files, 7.2 MB, and an entry point of ROTT.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-ba-san-he-hui.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-ba-san-he-hui.zip"],
           ["Size", "7,597,087 bytes (7.2 MB)"],
           ["SHA-256", "7178bb51b1b8c69c26f73523d25ca01401d9d729af6364c8b6c835d74d17ee43"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙霸三合会 (7.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-ba-san-he-hui.zip", external: true},
+          {label: "Download 龙霸三合会 (7.2 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A.zip", external: true},
         ]},
       ],
     },

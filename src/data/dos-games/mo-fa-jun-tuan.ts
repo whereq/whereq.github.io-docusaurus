@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法军团 is a DOS game in the WhereQ archive — an undated copy, 40 files, 208.7 MB, and an entry point of WARLOCKD.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-jun-tuan.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%86%9B%E5%9B%A2.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-jun-tuan.zip"],
           ["Size", "218,809,110 bytes (208.7 MB)"],
           ["SHA-256", "c8669059530b1718b7f097cf8f1dacf607bb9738e5f0f310ffdb3bd5be7189be"],
           ["Files", "40"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%86%9B%E5%9B%A2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法军团 (208.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-jun-tuan.zip", external: true},
+          {label: "Download 魔法军团 (208.7 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%86%9B%E5%9B%A2.zip", external: true},
         ]},
       ],
     },

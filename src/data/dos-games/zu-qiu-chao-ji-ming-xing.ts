@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "足球超级明星 is a DOS game in the WhereQ archive — 1994, 306 files, 3.2 MB, and an entry point of GO.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-chao-ji-ming-xing.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E8%B6%85%E7%BA%A7%E6%98%8E%E6%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zu-qiu-chao-ji-ming-xing.zip"],
           ["Size", "3,397,186 bytes (3.2 MB)"],
           ["SHA-256", "674b3e67376952fa91f67b0d9e820efc8abdbcc7c8b03ef4eb2284a3fc696e45"],
           ["Files", "306"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E8%B6%85%E7%BA%A7%E6%98%8E%E6%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 足球超级明星 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zu-qiu-chao-ji-ming-xing.zip", external: true},
+          {label: "Download 足球超级明星 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E8%B6%85%E7%BA%A7%E6%98%8E%E6%98%9F.zip", external: true},
         ]},
       ],
     },

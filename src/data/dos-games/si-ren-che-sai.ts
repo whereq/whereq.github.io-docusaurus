@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "四人车赛 is a DOS game in the WhereQ archive — 1995, 12 files, 448 KB, and an entry point of SUPER.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-ren-che-sai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9B%9B%E4%BA%BA%E8%BD%A6%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-ren-che-sai.zip"],
           ["Size", "458,288 bytes (448 KB)"],
           ["SHA-256", "c2a9b9aca1ef48fce3c84f9bea121589a990867cc92c5548b8bc0a54de13a580"],
           ["Files", "12"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9B%9B%E4%BA%BA%E8%BD%A6%E8%B5%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 四人车赛 (448 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-ren-che-sai.zip", external: true},
+          {label: "Download 四人车赛 (448 KB)", href: "https://dos-bin.zczc.cz/%E5%9B%9B%E4%BA%BA%E8%BD%A6%E8%B5%9B.zip", external: true},
         ]},
       ],
     },

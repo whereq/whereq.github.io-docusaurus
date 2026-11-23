@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "荒蛮勇士格斗 is a DOS game in the WhereQ archive — 1996, 528 files, 13.9 MB, and an entry point of WAR.COM.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huang-man-yong-shi-ge-dou.zip",
+  url: "https://dos-bin.zczc.cz/%E8%8D%92%E8%9B%AE%E5%8B%87%E5%A3%AB%E6%A0%BC%E6%96%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huang-man-yong-shi-ge-dou.zip"],
           ["Size", "14,529,632 bytes (13.9 MB)"],
           ["SHA-256", "8a208742e2cfbcc9b64efdf2bc4865b1998c4ae3fd5d660d45cdb5550db374b3"],
           ["Files", "528"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%8D%92%E8%9B%AE%E5%8B%87%E5%A3%AB%E6%A0%BC%E6%96%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 荒蛮勇士格斗 (13.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/huang-man-yong-shi-ge-dou.zip", external: true},
+          {label: "Download 荒蛮勇士格斗 (13.9 MB)", href: "https://dos-bin.zczc.cz/%E8%8D%92%E8%9B%AE%E5%8B%87%E5%A3%AB%E6%A0%BC%E6%96%97.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "雀之塔 is a DOS game in the WhereQ archive — 1993, 29 files, 382 KB, and an entry point of TOMJ.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/q/que-zhi-ta.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%80%E4%B9%8B%E5%A1%94.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "que-zhi-ta.zip"],
           ["Size", "391,182 bytes (382 KB)"],
           ["SHA-256", "eedc3281da49a595fbcbd59a7331c5a39b842472b8c636f5b81c4622dcb6a3c7"],
           ["Files", "29"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%80%E4%B9%8B%E5%A1%94.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雀之塔 (382 KB)", href: "https://github.com/whereq/dos-games/releases/download/q/que-zhi-ta.zip", external: true},
+          {label: "Download 雀之塔 (382 KB)", href: "https://dos-bin.zczc.cz/%E9%9B%80%E4%B9%8B%E5%A1%94.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "吃豆人 is a DOS game in the WhereQ archive — 1997, 19 files, 654 KB, and an entry point of pacem.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chi-dou-ren.zip"],
           ["Size", "669,622 bytes (654 KB)"],
           ["SHA-256", "bf5726fc174dc4989b9377288ceedd6e43331a5dbf957b7bdf05ae746bab8d96"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吃豆人 (654 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chi-dou-ren.zip", external: true},
+          {label: "Download 吃豆人 (654 KB)", href: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

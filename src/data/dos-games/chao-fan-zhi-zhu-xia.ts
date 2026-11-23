@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超凡蜘蛛侠 is a DOS game in the WhereQ archive — 1990, 38 files, 183 KB, and an entry point of SPIDEY.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-fan-zhi-zhu-xia.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E5%87%A1%E8%9C%98%E8%9B%9B%E4%BE%A0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-fan-zhi-zhu-xia.zip"],
           ["Size", "186,929 bytes (183 KB)"],
           ["SHA-256", "d89a2acd525b2041f84eb74988bf2a2a5d857bf707ba5d9f5325afef7cc02201"],
           ["Files", "38"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E5%87%A1%E8%9C%98%E8%9B%9B%E4%BE%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超凡蜘蛛侠 (183 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-fan-zhi-zhu-xia.zip", external: true},
+          {label: "Download 超凡蜘蛛侠 (183 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E5%87%A1%E8%9C%98%E8%9B%9B%E4%BE%A0.zip", external: true},
         ]},
       ],
     },

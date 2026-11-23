@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "打砖块2 is a DOS game in the WhereQ archive — 1980, 18 files, 181 KB, and an entry point of ARK.COM.",
   status: "1980",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-zhuan-kuai-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%89%93%E7%A0%96%E5%9D%972.zip",
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1980"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-zhuan-kuai-2.zip"],
           ["Size", "184,920 bytes (181 KB)"],
           ["SHA-256", "014e69d01c6e56ac5ab1b7f4031bf8d5259445c475685b47f27dc3fbcd0d284a"],
           ["Files", "18"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%89%93%E7%A0%96%E5%9D%972.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 打砖块2 (181 KB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-zhuan-kuai-2.zip", external: true},
+          {label: "Download 打砖块2 (181 KB)", href: "https://dos-bin.zczc.cz/%E6%89%93%E7%A0%96%E5%9D%972.zip", external: true},
         ]},
       ],
     },

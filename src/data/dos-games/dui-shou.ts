@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "对手 is a DOS game in the WhereQ archive — 1996, 112 files, 11.1 MB, and an entry point of ANTAGONY.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/d/dui-shou.zip",
+  url: "https://dos-bin.zczc.cz/%E5%AF%B9%E6%89%8B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "dui-shou.zip"],
           ["Size", "11,628,196 bytes (11.1 MB)"],
           ["SHA-256", "bef8db5bd4b4a5b79e4c50406fffd40212f06503ec9a2dbf46eda8e807afd526"],
           ["Files", "112"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%AF%B9%E6%89%8B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 对手 (11.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/dui-shou.zip", external: true},
+          {label: "Download 对手 (11.1 MB)", href: "https://dos-bin.zczc.cz/%E5%AF%B9%E6%89%8B.zip", external: true},
         ]},
       ],
     },

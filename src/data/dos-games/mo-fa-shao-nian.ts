@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "魔法少年 is a DOS game in the WhereQ archive — 1993, 20 files, 189 KB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shao-nian.zip",
+  url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B0%91%E5%B9%B4.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-fa-shao-nian.zip"],
           ["Size", "193,750 bytes (189 KB)"],
           ["SHA-256", "2853f63c8b140f1c874c47907984ad579e0f791d879b2eab55c5ed907051f406"],
           ["Files", "20"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B0%91%E5%B9%B4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 魔法少年 (189 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-fa-shao-nian.zip", external: true},
+          {label: "Download 魔法少年 (189 KB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B0%91%E5%B9%B4.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "斩3(日文) is a DOS game in the WhereQ archive — 1993, 192 files, 2.8 MB, and an entry point of zan.bat.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-3-ri-wen.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%A93%28%E6%97%A5%E6%96%87%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-3-ri-wen.zip"],
           ["Size", "2,916,803 bytes (2.8 MB)"],
           ["SHA-256", "8c87ae9885e934423278a063eddb1ed1c13233c880c912966f21424853698127"],
           ["Files", "192"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%A93%28%E6%97%A5%E6%96%87%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 斩3(日文) (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-3-ri-wen.zip", external: true},
+          {label: "Download 斩3(日文) (2.8 MB)", href: "https://dos-bin.zczc.cz/%E6%96%A93%28%E6%97%A5%E6%96%87%29.zip", external: true},
         ]},
       ],
     },

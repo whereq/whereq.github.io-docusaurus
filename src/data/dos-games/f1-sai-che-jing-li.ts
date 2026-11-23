@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "F1赛车经理 is a DOS game in the WhereQ archive — 1996, 552 files, 19.8 MB, and an entry point of F1.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/f1-sai-che-jing-li.zip",
+  url: "https://dos-bin.zczc.cz/F1%E8%B5%9B%E8%BD%A6%E7%BB%8F%E7%90%86.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "f1-sai-che-jing-li.zip"],
           ["Size", "20,787,492 bytes (19.8 MB)"],
           ["SHA-256", "1de15dd2fbd915857eaeacd0ed46f615d13ddadb21f928b6d1871297909845f1"],
           ["Files", "552"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/F1%E8%B5%9B%E8%BD%A6%E7%BB%8F%E7%90%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download F1赛车经理 (19.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/f1-sai-che-jing-li.zip", external: true},
+          {label: "Download F1赛车经理 (19.8 MB)", href: "https://dos-bin.zczc.cz/F1%E8%B5%9B%E8%BD%A6%E7%BB%8F%E7%90%86.zip", external: true},
         ]},
       ],
     },

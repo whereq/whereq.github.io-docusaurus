@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "毁灭战士横版 is a DOS game in the WhereQ archive — 2009, 6 files, 2.5 MB, and an entry point of DOOM2D.EXE.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-shi-heng-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB%E6%A8%AA%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-mie-zhan-shi-heng-ban.zip"],
           ["Size", "2,665,491 bytes (2.5 MB)"],
           ["SHA-256", "2a8adc0deae0fdaf1139c635db6a60b45f4a7a170897e6b30ef02a5ac40ac29a"],
           ["Files", "6"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB%E6%A8%AA%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 毁灭战士横版 (2.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-mie-zhan-shi-heng-ban.zip", external: true},
+          {label: "Download 毁灭战士横版 (2.5 MB)", href: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB%E6%A8%AA%E7%89%88.zip", external: true},
         ]},
       ],
     },

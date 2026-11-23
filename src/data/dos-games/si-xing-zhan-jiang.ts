@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死星战将 is a DOS game in the WhereQ archive — 1996, 22 files, 9.6 MB, and an entry point of DARK.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-xing-zhan-jiang.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E6%98%9F%E6%88%98%E5%B0%86.zip",
   facts: [
     {label: "Developer", value: "PROBE"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-xing-zhan-jiang.zip"],
           ["Size", "10,030,346 bytes (9.6 MB)"],
           ["SHA-256", "d6e13a392bea8502f6e216ff91bd12587854062e3e5abb1df5c1632e9ccc2975"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E6%98%9F%E6%88%98%E5%B0%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死星战将 (9.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-xing-zhan-jiang.zip", external: true},
+          {label: "Download 死星战将 (9.6 MB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E6%98%9F%E6%88%98%E5%B0%86.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "r",
   summary: "人面蛾 is a DOS game in the WhereQ archive — 2010, 84 files, 57.5 MB, and an entry point of MOTHCD.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/r/ren-mian-e.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BA%BA%E9%9D%A2%E8%9B%BE.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ren-mian-e.zip"],
           ["Size", "60,262,747 bytes (57.5 MB)"],
           ["SHA-256", "c22dcd98403bc78f94fa982e5624976bb6ffda30b4c30773e624caafbc613cd3"],
           ["Files", "84"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BA%BA%E9%9D%A2%E8%9B%BE.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 人面蛾 (57.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/r/ren-mian-e.zip", external: true},
+          {label: "Download 人面蛾 (57.5 MB)", href: "https://dos-bin.zczc.cz/%E4%BA%BA%E9%9D%A2%E8%9B%BE.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "机器人崛起 is a DOS game in the WhereQ archive — 1994, 13 files, 12.9 MB, and an entry point of LRISE.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-qi-ren-jue-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B4%9B%E8%B5%B7.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-qi-ren-jue-qi.zip"],
           ["Size", "13,575,102 bytes (12.9 MB)"],
           ["SHA-256", "cc01401214aa32b3906f25632febfeee00afc3b20825d2f1589ed74ad206ca0b"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B4%9B%E8%B5%B7.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 机器人崛起 (12.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-qi-ren-jue-qi.zip", external: true},
+          {label: "Download 机器人崛起 (12.9 MB)", href: "https://dos-bin.zczc.cz/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B4%9B%E8%B5%B7.zip", external: true},
         ]},
       ],
     },

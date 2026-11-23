@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "火焰之力 is a DOS game in the WhereQ archive — 1988, 75 files, 338 KB, and an entry point of FP.EXE.",
   status: "1988",
-  url: "https://github.com/whereq/dos-games/releases/download/h/huo-yan-zhi-li.zip",
+  url: "https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%8A%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "huo-yan-zhi-li.zip"],
           ["Size", "346,572 bytes (338 KB)"],
           ["SHA-256", "16356364c8dcd826e1f9b6b17ecb5575caa0504ec8ab1f779e5fce194cb9a941"],
           ["Files", "75"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%8A%9B.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 火焰之力 (338 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/huo-yan-zhi-li.zip", external: true},
+          {label: "Download 火焰之力 (338 KB)", href: "https://dos-bin.zczc.cz/%E7%81%AB%E7%84%B0%E4%B9%8B%E5%8A%9B.zip", external: true},
         ]},
       ],
     },

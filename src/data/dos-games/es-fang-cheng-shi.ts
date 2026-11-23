@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "e",
   summary: "ES方程式 is a DOS game in the WhereQ archive — 1996, 25 files, 5.9 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/e/es-fang-cheng-shi.zip",
+  url: "https://dos-bin.zczc.cz/ES%E6%96%B9%E7%A8%8B%E5%BC%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "es-fang-cheng-shi.zip"],
           ["Size", "6,146,009 bytes (5.9 MB)"],
           ["SHA-256", "6aea922ff62e13e84949f0c8d164dc1864254a866642616f36ac7c9e3feca955"],
           ["Files", "25"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/ES%E6%96%B9%E7%A8%8B%E5%BC%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download ES方程式 (5.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/e/es-fang-cheng-shi.zip", external: true},
+          {label: "Download ES方程式 (5.9 MB)", href: "https://dos-bin.zczc.cz/ES%E6%96%B9%E7%A8%8B%E5%BC%8F.zip", external: true},
         ]},
       ],
     },

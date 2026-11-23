@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "天师钟馗 is a DOS game in the WhereQ archive — 1997, 748 files, 70.5 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-zhong-kui.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%B8%88%E9%92%9F%E9%A6%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tian-shi-zhong-kui.zip"],
           ["Size", "73,905,793 bytes (70.5 MB)"],
           ["SHA-256", "a9b038f120cb6499f303ed05bb0d50700fab3e09eddf15e052bcec4ca16e0af1"],
           ["Files", "748"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A9%E5%B8%88%E9%92%9F%E9%A6%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 天师钟馗 (70.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tian-shi-zhong-kui.zip", external: true},
+          {label: "Download 天师钟馗 (70.5 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A9%E5%B8%88%E9%92%9F%E9%A6%97.zip", external: true},
         ]},
       ],
     },

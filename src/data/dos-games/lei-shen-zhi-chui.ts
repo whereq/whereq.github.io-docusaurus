@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "雷神之锤 is a DOS game in the WhereQ archive — 1996, 24 files, 67.6 MB, and an entry point of quake.exe.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-shen-zhi-chui.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%94%A4.zip",
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-shen-zhi-chui.zip"],
           ["Size", "70,876,674 bytes (67.6 MB)"],
           ["SHA-256", "3acfe19898d33eeb8c1b454a67cd3eee82b2d40dfdfe6efca9540c74104b6f08"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%94%A4.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雷神之锤 (67.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-shen-zhi-chui.zip", external: true},
+          {label: "Download 雷神之锤 (67.6 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%94%A4.zip", external: true},
         ]},
       ],
     },

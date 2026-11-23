@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "捕猎行动 is a DOS game in the WhereQ archive — 2010, 324 files, 9.8 MB, and an entry point of SHUNT.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bu-lie-xing-dong.zip",
+  url: "https://dos-bin.zczc.cz/%E6%8D%95%E7%8C%8E%E8%A1%8C%E5%8A%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bu-lie-xing-dong.zip"],
           ["Size", "10,310,935 bytes (9.8 MB)"],
           ["SHA-256", "1596a37a7052dbb78cc4b33681efd6df5a62295aef4e50af5d53a0786f76e34c"],
           ["Files", "324"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%8D%95%E7%8C%8E%E8%A1%8C%E5%8A%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 捕猎行动 (9.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bu-lie-xing-dong.zip", external: true},
+          {label: "Download 捕猎行动 (9.8 MB)", href: "https://dos-bin.zczc.cz/%E6%8D%95%E7%8C%8E%E8%A1%8C%E5%8A%A8.zip", external: true},
         ]},
       ],
     },

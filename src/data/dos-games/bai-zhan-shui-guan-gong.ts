@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "百战水管工 is a DOS game in the WhereQ archive — 1994, 14 files, 537 KB, and an entry point of PIPE.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-shui-guan-gong.zip",
+  url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bai-zhan-shui-guan-gong.zip"],
           ["Size", "550,052 bytes (537 KB)"],
           ["SHA-256", "8aacfa6acfd9a603952d1e11b76370a9a00da722dc73eb84ca2cd401c14e6864"],
           ["Files", "14"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 百战水管工 (537 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bai-zhan-shui-guan-gong.zip", external: true},
+          {label: "Download 百战水管工 (537 KB)", href: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E6%B0%B4%E7%AE%A1%E5%B7%A5.zip", external: true},
         ]},
       ],
     },

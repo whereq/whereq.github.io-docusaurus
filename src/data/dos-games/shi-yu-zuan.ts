@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "石与钻 is a DOS game in the WhereQ archive — 2004, 712 files, 3.2 MB, and an entry point of rocks.exe.",
   status: "2004",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-yu-zuan.zip",
+  url: "https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%8E%E9%92%BB.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2004"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-yu-zuan.zip"],
           ["Size", "3,371,361 bytes (3.2 MB)"],
           ["SHA-256", "87d97057954ec77a0cd16eab348d9533f83efc8ec8803c3d652c3b253fc9e75e"],
           ["Files", "712"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%8E%E9%92%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 石与钻 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-yu-zuan.zip", external: true},
+          {label: "Download 石与钻 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%8E%E9%92%BB.zip", external: true},
         ]},
       ],
     },

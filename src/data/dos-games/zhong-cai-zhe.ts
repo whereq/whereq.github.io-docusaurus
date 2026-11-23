@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "仲裁者 is a DOS game in the WhereQ archive — 2001, 8 files, 13.0 MB, and an entry point of INTERPOS.EXE.",
   status: "2001",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-cai-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E4%BB%B2%E8%A3%81%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-cai-zhe.zip"],
           ["Size", "13,617,069 bytes (13.0 MB)"],
           ["SHA-256", "671abefa2e5415979146b03696c3c47c6b52ddcbde4b61d967aa756387e5c561"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%BB%B2%E8%A3%81%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 仲裁者 (13.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-cai-zhe.zip", external: true},
+          {label: "Download 仲裁者 (13.0 MB)", href: "https://dos-bin.zczc.cz/%E4%BB%B2%E8%A3%81%E8%80%85.zip", external: true},
         ]},
       ],
     },

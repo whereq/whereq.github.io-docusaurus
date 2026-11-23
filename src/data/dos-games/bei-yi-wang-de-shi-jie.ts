@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "被遗忘的世界 is a DOS game in the WhereQ archive — 1991, 13 files, 403 KB, and an entry point of RUNME.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bei-yi-wang-de-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E8%A2%AB%E9%81%97%E5%BF%98%E7%9A%84%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bei-yi-wang-de-shi-jie.zip"],
           ["Size", "412,742 bytes (403 KB)"],
           ["SHA-256", "a6426fab3ed888dbe1bff54f7ab5e1554f7b308b0a3c8cc9201efbe85d94af1b"],
           ["Files", "13"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%A2%AB%E9%81%97%E5%BF%98%E7%9A%84%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 被遗忘的世界 (403 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bei-yi-wang-de-shi-jie.zip", external: true},
+          {label: "Download 被遗忘的世界 (403 KB)", href: "https://dos-bin.zczc.cz/%E8%A2%AB%E9%81%97%E5%BF%98%E7%9A%84%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

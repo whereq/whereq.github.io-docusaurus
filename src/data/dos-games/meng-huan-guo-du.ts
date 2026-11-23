@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "梦幻国度 is a DOS game in the WhereQ archive — 1993, 479 files, 5.7 MB, and an entry point of FANTASY.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/m/meng-huan-guo-du.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%9B%BD%E5%BA%A6.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "meng-huan-guo-du.zip"],
           ["Size", "5,935,380 bytes (5.7 MB)"],
           ["SHA-256", "8c27d32b2bd8d34beea4606ec279f9209bec9bb6e4657edf568937e2fd0873d4"],
           ["Files", "479"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%9B%BD%E5%BA%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 梦幻国度 (5.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/meng-huan-guo-du.zip", external: true},
+          {label: "Download 梦幻国度 (5.7 MB)", href: "https://dos-bin.zczc.cz/%E6%A2%A6%E5%B9%BB%E5%9B%BD%E5%BA%A6.zip", external: true},
         ]},
       ],
     },

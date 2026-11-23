@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "失落之地英雄时代 is a DOS game in the WhereQ archive — 1992, 66 files, 2.2 MB, and an entry point of PLAY.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-zhi-di-ying-xiong-shi-dai.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E4%B9%8B%E5%9C%B0%E8%8B%B1%E9%9B%84%E6%97%B6%E4%BB%A3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shi-luo-zhi-di-ying-xiong-shi-dai.zip"],
           ["Size", "2,333,171 bytes (2.2 MB)"],
           ["SHA-256", "f3533d888d8089ef1ca76702c6f903381785b92facd2b07fd2590f6e0f959b31"],
           ["Files", "66"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E4%B9%8B%E5%9C%B0%E8%8B%B1%E9%9B%84%E6%97%B6%E4%BB%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 失落之地英雄时代 (2.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/shi-luo-zhi-di-ying-xiong-shi-dai.zip", external: true},
+          {label: "Download 失落之地英雄时代 (2.2 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E4%B9%8B%E5%9C%B0%E8%8B%B1%E9%9B%84%E6%97%B6%E4%BB%A3.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "疯狂医院2 is a DOS game in the WhereQ archive — 1995, 242 files, 7.0 MB, and an entry point of DR2.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-yi-yuan-2.zip",
+  url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%8C%BB%E9%99%A22.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-kuang-yi-yuan-2.zip"],
           ["Size", "7,288,173 bytes (7.0 MB)"],
           ["SHA-256", "3fa64e0fc1a21dc85e18f951ee038725ff977272e71e2de312b0c5beb5949d75"],
           ["Files", "242"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%8C%BB%E9%99%A22.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 疯狂医院2 (7.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-kuang-yi-yuan-2.zip", external: true},
+          {label: "Download 疯狂医院2 (7.0 MB)", href: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%8C%BB%E9%99%A22.zip", external: true},
         ]},
       ],
     },

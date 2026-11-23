@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "汉堡战争 is a DOS game in the WhereQ archive — 1996, 44 files, 10.2 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/han-bao-zhan-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B1%89%E5%A0%A1%E6%88%98%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "han-bao-zhan-zheng.zip"],
           ["Size", "10,712,292 bytes (10.2 MB)"],
           ["SHA-256", "fdb7423011a8ac46464e16089a7a96c5f33abaf83ab6d402cd9ac13736b2328e"],
           ["Files", "44"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B1%89%E5%A0%A1%E6%88%98%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 汉堡战争 (10.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/han-bao-zhan-zheng.zip", external: true},
+          {label: "Download 汉堡战争 (10.2 MB)", href: "https://dos-bin.zczc.cz/%E6%B1%89%E5%A0%A1%E6%88%98%E4%BA%89.zip", external: true},
         ]},
       ],
     },

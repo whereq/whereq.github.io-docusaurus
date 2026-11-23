@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁甲神兵 is a DOS game in the WhereQ archive — 1996, 103 files, 6.8 MB, and an entry point of FMJ.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-jia-shen-bing.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E7%94%B2%E7%A5%9E%E5%85%B5.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-jia-shen-bing.zip"],
           ["Size", "7,145,779 bytes (6.8 MB)"],
           ["SHA-256", "c2ed2603e3900f1c8206d250cebe3257f0516c15dcb860f14cd05ec9f79f52b6"],
           ["Files", "103"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E7%94%B2%E7%A5%9E%E5%85%B5.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁甲神兵 (6.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-jia-shen-bing.zip", external: true},
+          {label: "Download 铁甲神兵 (6.8 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E7%94%B2%E7%A5%9E%E5%85%B5.zip", external: true},
         ]},
       ],
     },

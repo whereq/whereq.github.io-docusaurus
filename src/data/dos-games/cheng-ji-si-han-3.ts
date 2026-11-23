@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "成吉思汗3 is a DOS game in the WhereQ archive — 1993, 34 files, 2.0 MB, and an entry point of PLAY.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/c/cheng-ji-si-han-3.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%973.zip",
   facts: [
     {label: "Developer", value: "KOEI"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "cheng-ji-si-han-3.zip"],
           ["Size", "2,146,019 bytes (2.0 MB)"],
           ["SHA-256", "9ba611cddea2149c98b7bc95fd5a7cf471fb5761c20bb16c22e74b9fed860bf1"],
           ["Files", "34"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%973.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 成吉思汗3 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/cheng-ji-si-han-3.zip", external: true},
+          {label: "Download 成吉思汗3 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%973.zip", external: true},
         ]},
       ],
     },

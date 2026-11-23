@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "9",
   summary: "97超少女 is a DOS game in the WhereQ archive — 1993, 132 files, 1.3 MB, and an entry point of SUPER97.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/9/97-chao-shao-nv.zip",
+  url: "https://dos-bin.zczc.cz/97%E8%B6%85%E5%B0%91%E5%A5%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "97-chao-shao-nv.zip"],
           ["Size", "1,357,194 bytes (1.3 MB)"],
           ["SHA-256", "19826d70bb144f503a3c518a18061f5af219d1a3ebc0b0610b072b7e522f2e19"],
           ["Files", "132"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/97%E8%B6%85%E5%B0%91%E5%A5%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 97超少女 (1.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/9/97-chao-shao-nv.zip", external: true},
+          {label: "Download 97超少女 (1.3 MB)", href: "https://dos-bin.zczc.cz/97%E8%B6%85%E5%B0%91%E5%A5%B3.zip", external: true},
         ]},
       ],
     },

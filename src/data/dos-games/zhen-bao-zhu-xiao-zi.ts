@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "珍宝珠小子 is a DOS game in the WhereQ archive — 1993, 10 files, 974 KB, and an entry point of ZOOL.EXE.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhen-bao-zhu-xiao-zi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8F%8D%E5%AE%9D%E7%8F%A0%E5%B0%8F%E5%AD%90.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhen-bao-zhu-xiao-zi.zip"],
           ["Size", "997,879 bytes (974 KB)"],
           ["SHA-256", "d2786ad124cc8e4ed230b242c6bab798e7cde60a6e9df16fb69025c283d4242c"],
           ["Files", "10"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8F%8D%E5%AE%9D%E7%8F%A0%E5%B0%8F%E5%AD%90.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 珍宝珠小子 (974 KB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhen-bao-zhu-xiao-zi.zip", external: true},
+          {label: "Download 珍宝珠小子 (974 KB)", href: "https://dos-bin.zczc.cz/%E7%8F%8D%E5%AE%9D%E7%8F%A0%E5%B0%8F%E5%AD%90.zip", external: true},
         ]},
       ],
     },

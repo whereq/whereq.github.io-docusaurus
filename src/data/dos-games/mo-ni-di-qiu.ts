@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟地球 is a DOS game in the WhereQ archive — 1991, 22 files, 939 KB, and an entry point of SIMEARTH.COM.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-di-qiu.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9C%B0%E7%90%83.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-di-qiu.zip"],
           ["Size", "961,670 bytes (939 KB)"],
           ["SHA-256", "ba29cd9c778229e5a6aadb9825f1fbaee52873895e2c7938ac8feb80894c5a55"],
           ["Files", "22"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9C%B0%E7%90%83.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟地球 (939 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-di-qiu.zip", external: true},
+          {label: "Download 模拟地球 (939 KB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9C%B0%E7%90%83.zip", external: true},
         ]},
       ],
     },

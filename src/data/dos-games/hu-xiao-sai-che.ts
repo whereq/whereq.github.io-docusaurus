@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "呼啸赛车 is a DOS game in the WhereQ archive — 1998, 56 files, 22.3 MB, and an entry point of PLAY.BAT.",
   status: "1998",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hu-xiao-sai-che.zip",
+  url: "https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E8%B5%9B%E8%BD%A6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hu-xiao-sai-che.zip"],
           ["Size", "23,418,381 bytes (22.3 MB)"],
           ["SHA-256", "6862f8fb2828003f1db5063ccd3b96ac003ad5e77f86231deb29594dcf1f7b2c"],
           ["Files", "56"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E8%B5%9B%E8%BD%A6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 呼啸赛车 (22.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hu-xiao-sai-che.zip", external: true},
+          {label: "Download 呼啸赛车 (22.3 MB)", href: "https://dos-bin.zczc.cz/%E5%91%BC%E5%95%B8%E8%B5%9B%E8%BD%A6.zip", external: true},
         ]},
       ],
     },

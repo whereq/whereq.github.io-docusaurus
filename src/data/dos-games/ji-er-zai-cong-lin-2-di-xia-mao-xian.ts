@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "吉尔在丛林2地下冒险 is a DOS game in the WhereQ archive — 1992, 32 files, 224 KB, and an entry point of JILL2.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin-2-di-xia-mao-xian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%972%E5%9C%B0%E4%B8%8B%E5%86%92%E9%99%A9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-er-zai-cong-lin-2-di-xia-mao-xian.zip"],
           ["Size", "229,435 bytes (224 KB)"],
           ["SHA-256", "6a9f5b1c44b51a9b42e0b91d9e3cf3a09ae82ba213b7f073b6db1f6df16eb00b"],
           ["Files", "32"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%972%E5%9C%B0%E4%B8%8B%E5%86%92%E9%99%A9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 吉尔在丛林2地下冒险 (224 KB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-er-zai-cong-lin-2-di-xia-mao-xian.zip", external: true},
+          {label: "Download 吉尔在丛林2地下冒险 (224 KB)", href: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%972%E5%9C%B0%E4%B8%8B%E5%86%92%E9%99%A9.zip", external: true},
         ]},
       ],
     },

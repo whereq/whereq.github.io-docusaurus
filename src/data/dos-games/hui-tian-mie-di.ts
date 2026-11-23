@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "毁天灭地 is a DOS game in the WhereQ archive — 1986, 63 files, 393 KB, and an entry point of TARGHAN.COM.",
   status: "1986",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hui-tian-mie-di.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AF%81%E5%A4%A9%E7%81%AD%E5%9C%B0.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1986"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hui-tian-mie-di.zip"],
           ["Size", "402,035 bytes (393 KB)"],
           ["SHA-256", "07fa32a2e652248f52b8b27fd62c2e41c37542d17f7ec0448f526a22d462bbe6"],
           ["Files", "63"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AF%81%E5%A4%A9%E7%81%AD%E5%9C%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 毁天灭地 (393 KB)", href: "https://github.com/whereq/dos-games/releases/download/h/hui-tian-mie-di.zip", external: true},
+          {label: "Download 毁天灭地 (393 KB)", href: "https://dos-bin.zczc.cz/%E6%AF%81%E5%A4%A9%E7%81%AD%E5%9C%B0.zip", external: true},
         ]},
       ],
     },

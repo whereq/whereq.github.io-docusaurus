@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "FX战士 is a DOS game in the WhereQ archive — 1996, 392 files, 9.6 MB, and an entry point of FIGHT.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/f/fx-zhan-shi.zip",
+  url: "https://dos-bin.zczc.cz/FX%E6%88%98%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "fx-zhan-shi.zip"],
           ["Size", "10,091,970 bytes (9.6 MB)"],
           ["SHA-256", "842511d3bcd735d7e7d2e86e8c6015d6a583beeead5409ba999ef45a9b9e4946"],
           ["Files", "392"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/FX%E6%88%98%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download FX战士 (9.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/fx-zhan-shi.zip", external: true},
+          {label: "Download FX战士 (9.6 MB)", href: "https://dos-bin.zczc.cz/FX%E6%88%98%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "巴克罗杰末日倒数 is a DOS game in the WhereQ archive — 1990, 95 files, 924 KB, and an entry point of START.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/b/ba-ke-luo-jie-mo-ri-dao-shu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E6%9C%AB%E6%97%A5%E5%80%92%E6%95%B0.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ba-ke-luo-jie-mo-ri-dao-shu.zip"],
           ["Size", "946,168 bytes (924 KB)"],
           ["SHA-256", "c20cc63b9a3090df920b2a5d091f316eb96a81c833620d8a0ad5b7c0b77c7a1a"],
           ["Files", "95"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E6%9C%AB%E6%97%A5%E5%80%92%E6%95%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 巴克罗杰末日倒数 (924 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/ba-ke-luo-jie-mo-ri-dao-shu.zip", external: true},
+          {label: "Download 巴克罗杰末日倒数 (924 KB)", href: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E6%9C%AB%E6%97%A5%E5%80%92%E6%95%B0.zip", external: true},
         ]},
       ],
     },

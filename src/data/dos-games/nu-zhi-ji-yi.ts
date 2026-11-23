@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "怒之机翼 is a DOS game in the WhereQ archive — 1990, 60 files, 361 KB, and an entry point of WOFE.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nu-zhi-ji-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E6%80%92%E4%B9%8B%E6%9C%BA%E7%BF%BC.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nu-zhi-ji-yi.zip"],
           ["Size", "369,827 bytes (361 KB)"],
           ["SHA-256", "a079a87df6cdbfc9ea4a3f6880484849a5ffab94eda19111c2b5b62774fe17ed"],
           ["Files", "60"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%80%92%E4%B9%8B%E6%9C%BA%E7%BF%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 怒之机翼 (361 KB)", href: "https://github.com/whereq/dos-games/releases/download/n/nu-zhi-ji-yi.zip", external: true},
+          {label: "Download 怒之机翼 (361 KB)", href: "https://dos-bin.zczc.cz/%E6%80%92%E4%B9%8B%E6%9C%BA%E7%BF%BC.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "第13楼 is a DOS game in the WhereQ archive — 1991, 156 files, 1.7 MB, and an entry point of FLOOR13.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-13-lou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%AC%AC13%E6%A5%BC.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-13-lou.zip"],
           ["Size", "1,767,727 bytes (1.7 MB)"],
           ["SHA-256", "c7fb10ff3bb903dc421f7ea5d34b8cdbbdfc7124f7680e2ecad1c662fc6ac16e"],
           ["Files", "156"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%AC%AC13%E6%A5%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 第13楼 (1.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-13-lou.zip", external: true},
+          {label: "Download 第13楼 (1.7 MB)", href: "https://dos-bin.zczc.cz/%E7%AC%AC13%E6%A5%BC.zip", external: true},
         ]},
       ],
     },

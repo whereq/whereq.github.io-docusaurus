@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "成吉思汗 is a DOS game in the WhereQ archive — 1987, 21 files, 419 KB, and an entry point of PLAY.BAT.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/c/cheng-ji-si-han.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "cheng-ji-si-han.zip"],
           ["Size", "429,336 bytes (419 KB)"],
           ["SHA-256", "891c020a0eaecc922b197d3cb2e47e8db3d682cf9b9fab30cf548f53b7c6660b"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 成吉思汗 (419 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/cheng-ji-si-han.zip", external: true},
+          {label: "Download 成吉思汗 (419 KB)", href: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "新狼人摩天楼 is a DOS game in the WhereQ archive — 1996, 148 files, 4.0 MB, and an entry point of DOS4GW.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-lang-ren-mo-tian-lou.zip",
+  url: "https://dos-bin.zczc.cz/%E6%96%B0%E7%8B%BC%E4%BA%BA%E6%91%A9%E5%A4%A9%E6%A5%BC.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-lang-ren-mo-tian-lou.zip"],
           ["Size", "4,210,020 bytes (4.0 MB)"],
           ["SHA-256", "f4ab4f8f800e18da3d671bf5e7819a1c529a2e9a9f2b96fb604370a41f9ab709"],
           ["Files", "148"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%96%B0%E7%8B%BC%E4%BA%BA%E6%91%A9%E5%A4%A9%E6%A5%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 新狼人摩天楼 (4.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-lang-ren-mo-tian-lou.zip", external: true},
+          {label: "Download 新狼人摩天楼 (4.0 MB)", href: "https://dos-bin.zczc.cz/%E6%96%B0%E7%8B%BC%E4%BA%BA%E6%91%A9%E5%A4%A9%E6%A5%BC.zip", external: true},
         ]},
       ],
     },

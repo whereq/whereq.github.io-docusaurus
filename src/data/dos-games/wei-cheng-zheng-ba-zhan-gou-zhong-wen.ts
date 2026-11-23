@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "微城争霸战狗(中文) is a DOS game in the WhereQ archive — 1992, 302 files, 2.8 MB, and an entry point of PLAYC.BAT.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba-zhan-gou-zhong-wen.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E6%88%98%E7%8B%97%28%E4%B8%AD%E6%96%87%29.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-cheng-zheng-ba-zhan-gou-zhong-wen.zip"],
           ["Size", "2,968,890 bytes (2.8 MB)"],
           ["SHA-256", "15add3a937566d072c0d7ee45ee28c8c048863db55736d639189c7692a212ff3"],
           ["Files", "302"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E6%88%98%E7%8B%97%28%E4%B8%AD%E6%96%87%29.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 微城争霸战狗(中文) (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba-zhan-gou-zhong-wen.zip", external: true},
+          {label: "Download 微城争霸战狗(中文) (2.8 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E6%88%98%E7%8B%97%28%E4%B8%AD%E6%96%87%29.zip", external: true},
         ]},
       ],
     },

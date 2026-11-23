@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "残酷世界 is a DOS game in the WhereQ archive — 1996, 133 files, 998 KB, and an entry point of CRUEL.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/c/can-ku-shi-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AE%8B%E9%85%B7%E4%B8%96%E7%95%8C.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "can-ku-shi-jie.zip"],
           ["Size", "1,022,088 bytes (998 KB)"],
           ["SHA-256", "d69d60c82be9c10db337b7ab2450edadb1f75ec4328e3c116216c50ba4d6781b"],
           ["Files", "133"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AE%8B%E9%85%B7%E4%B8%96%E7%95%8C.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 残酷世界 (998 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/can-ku-shi-jie.zip", external: true},
+          {label: "Download 残酷世界 (998 KB)", href: "https://dos-bin.zczc.cz/%E6%AE%8B%E9%85%B7%E4%B8%96%E7%95%8C.zip", external: true},
         ]},
       ],
     },

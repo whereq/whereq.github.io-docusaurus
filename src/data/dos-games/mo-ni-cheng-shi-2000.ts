@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "模拟城市 2000 is a DOS game in the WhereQ archive — 1995, 132 files, 2.8 MB, and an entry point of SC2000.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-cheng-shi-2000.zip",
+  url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%822000.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "mo-ni-cheng-shi-2000.zip"],
           ["Size", "2,912,768 bytes (2.8 MB)"],
           ["SHA-256", "4be8560fdbc4663e6715d2d9358f2e1ca61eae73a8704ad315d4dcc818642d8a"],
           ["Files", "132"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%822000.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 模拟城市 2000 (2.8 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/mo-ni-cheng-shi-2000.zip", external: true},
+          {label: "Download 模拟城市 2000 (2.8 MB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%822000.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "布莱克之石异星黄金 is a DOS game in the WhereQ archive — 1997, 24 files, 5.3 MB, and an entry point of BSTONE.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bu-lai-ke-zhi-shi-yi-xing-huang-jin.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E9%BB%84%E9%87%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bu-lai-ke-zhi-shi-yi-xing-huang-jin.zip"],
           ["Size", "5,580,473 bytes (5.3 MB)"],
           ["SHA-256", "60d55f003164fe5712a9041fb93c2471e43d50ac7fb726eae3410624174e6fc1"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E9%BB%84%E9%87%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 布莱克之石异星黄金 (5.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/b/bu-lai-ke-zhi-shi-yi-xing-huang-jin.zip", external: true},
+          {label: "Download 布莱克之石异星黄金 (5.3 MB)", href: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E9%BB%84%E9%87%91.zip", external: true},
         ]},
       ],
     },

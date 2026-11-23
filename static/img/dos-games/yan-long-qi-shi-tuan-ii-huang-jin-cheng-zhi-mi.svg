@@ -1,12 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="炎龙骑士团II‧黄金城之谜">
-  <title>炎龙骑士团II‧黄金城之谜</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="炎龙骑士团2：黄金城之谜 — title plate">
+  <title>炎龍騎士團2 — 黃金城之謎</title>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#626567"/>
-      <stop offset="1" stop-color="#626567" stop-opacity="0.72"/>
+    <radialGradient id="yl-moon" cx="0.5" cy="0.46" r="0.52">
+      <stop offset="0" stop-color="#EAF2FF"/>
+      <stop offset="0.55" stop-color="#B8CDEA"/>
+      <stop offset="1" stop-color="#5C74A8"/>
+    </radialGradient>
+    <linearGradient id="yl-red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF4A3D"/>
+      <stop offset="0.6" stop-color="#C41A18"/>
+      <stop offset="1" stop-color="#6E0B0C"/>
+    </linearGradient>
+    <linearGradient id="yl-steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2F7FF"/>
+      <stop offset="0.5" stop-color="#A8BEDD"/>
+      <stop offset="1" stop-color="#4A5E8C"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" fill="url(#g)"/>
-  <rect x="1" y="1" width="62" height="62" fill="none" stroke="#000" stroke-opacity="0.18" stroke-width="2"/>
-  <text x="32" y="44" text-anchor="middle" font-family="'Noto Serif CJK TC','Noto Serif TC','Songti TC','PMingLiU',serif" font-size="38" font-weight="700" fill="#FFF8E7">炎</text>
+
+  <rect width="256" height="256" fill="#07070C"/>
+
+  <!-- The moon the intro animation puts behind the castle -->
+  <circle cx="128" cy="106" r="74" fill="url(#yl-moon)"/>
+
+  <!-- The castle on the hill, in silhouette -->
+  <path d="M74 138 L84 138 L84 120 L90 120 L90 132 L96 132 L96 104 L102 104 L102 118 L109 118 L109 92 L114 92 L114 112 L121 112 L121 100 L128 100 L128 114 L135 114 L135 94 L141 94 L141 118 L148 118 L148 106 L154 106 L154 132 L160 132 L160 120 L166 120 L166 138 L176 138 L176 146 L74 146 Z" fill="#07070C"/>
+
+  <!-- The red brush strokes of the wordmark -->
+  <g opacity="0.95">
+    <path d="M8 150 L44 168 L36 186 L4 172 Z" fill="url(#yl-red)"/>
+    <path d="M50 144 L84 160 L74 180 L44 164 Z" fill="url(#yl-red)"/>
+    <path d="M92 142 L128 158 L118 180 L86 164 Z" fill="url(#yl-red)"/>
+    <path d="M136 140 L172 156 L162 178 L130 162 Z" fill="url(#yl-red)"/>
+    <path d="M180 138 L216 154 L206 176 L174 160 Z" fill="url(#yl-red)"/>
+    <path d="M222 136 L252 150 L244 172 L216 158 Z" fill="url(#yl-red)"/>
+  </g>
+
+  <!-- The silver "2" -->
+  <g transform="translate(96 96) scale(1.55)">
+    <path d="M-26 -22 C-26 -40 -12 -50 2 -50 C18 -50 30 -40 30 -25 C30 -14 24 -8 14 2 L2 14 L30 14 L30 26 L-26 26 L-26 14 L-8 -2 C-2 -7 1 -12 1 -18 C1 -24 -2 -28 -6 -28 C-10 -28 -13 -25 -14 -20 Z" fill="url(#yl-steel)"/>
+  </g>
+
+  <!-- The subtitle band -->
+  <rect x="0" y="200" width="256" height="56" fill="#07070C" opacity="0.92"/>
+  <rect x="0" y="200" width="256" height="1.4" fill="#C41A18" opacity="0.8"/>
+  <text x="128" y="228" text-anchor="middle" font-family="'Noto Serif CJK TC','Noto Serif TC','Songti TC','PMingLiU',serif" font-size="26" font-weight="700" fill="#F0D8A8" letter-spacing="5">黃金城之謎</text>
+  <text x="128" y="247" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="11" font-weight="700" fill="#8A93A8" letter-spacing="4">DYNASTY INTERNATIONAL</text>
+
+  <rect x="4" y="4" width="248" height="248" fill="none" stroke="#C41A18" stroke-opacity="0.35" stroke-width="2"/>
 </svg>

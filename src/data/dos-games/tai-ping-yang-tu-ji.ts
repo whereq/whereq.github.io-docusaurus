@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "太平洋突击 is a DOS game in the WhereQ archive — 1994, 24 files, 17.9 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-tu-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%AA%81%E5%87%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tai-ping-yang-tu-ji.zip"],
           ["Size", "18,762,450 bytes (17.9 MB)"],
           ["SHA-256", "9fe976f2c565e29f59c62bb7ebaad15b9503753ea9cadaf1bbfed1014ae996b2"],
           ["Files", "24"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%AA%81%E5%87%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 太平洋突击 (17.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tai-ping-yang-tu-ji.zip", external: true},
+          {label: "Download 太平洋突击 (17.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%AA%81%E5%87%BB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "地动山摇 is a DOS game in the WhereQ archive — 1997, 21 files, 2.0 MB, and an entry point of Quiver.bat.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/d/di-dong-shan-yao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9C%B0%E5%8A%A8%E5%B1%B1%E6%91%87.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "di-dong-shan-yao.zip"],
           ["Size", "2,143,160 bytes (2.0 MB)"],
           ["SHA-256", "4aba848d413b41f6b925452225b54342bdcc07180b063185215772e620b0324f"],
           ["Files", "21"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9C%B0%E5%8A%A8%E5%B1%B1%E6%91%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 地动山摇 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/di-dong-shan-yao.zip", external: true},
+          {label: "Download 地动山摇 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E5%9C%B0%E5%8A%A8%E5%B1%B1%E6%91%87.zip", external: true},
         ]},
       ],
     },

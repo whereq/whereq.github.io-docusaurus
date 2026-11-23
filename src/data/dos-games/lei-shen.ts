@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "雷神 is a DOS game in the WhereQ archive — 1994, 17 files, 1.0 MB, and an entry point of GOT.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/l/lei-shen.zip",
+  url: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "lei-shen.zip"],
           ["Size", "1,097,447 bytes (1.0 MB)"],
           ["SHA-256", "a02173917a9a6376955eeb1d0e9d9f6d0ece8f6ca77b3f8ed1cbace5aff091d3"],
           ["Files", "17"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 雷神 (1.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/lei-shen.zip", external: true},
+          {label: "Download 雷神 (1.0 MB)", href: "https://dos-bin.zczc.cz/%E9%9B%B7%E7%A5%9E.zip", external: true},
         ]},
       ],
     },

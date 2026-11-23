@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "罗特战机 is a DOS game in the WhereQ archive — 1987, 37 files, 149 KB, and an entry point of ROTOR.BAT.",
   status: "1987",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luo-te-zhan-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%88%98%E6%9C%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1987"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luo-te-zhan-ji.zip"],
           ["Size", "153,043 bytes (149 KB)"],
           ["SHA-256", "a167a201efacbf36790b0f467a40212f6e12cea940e315f759eff32590600a42"],
           ["Files", "37"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%88%98%E6%9C%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罗特战机 (149 KB)", href: "https://github.com/whereq/dos-games/releases/download/l/luo-te-zhan-ji.zip", external: true},
+          {label: "Download 罗特战机 (149 KB)", href: "https://dos-bin.zczc.cz/%E7%BD%97%E7%89%B9%E6%88%98%E6%9C%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "终极战士 is a DOS game in the WhereQ archive — 2010, 132 files, 131.0 MB, and an entry point of MARS.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-zhan-shi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E6%88%98%E5%A3%AB.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhong-ji-zhan-shi.zip"],
           ["Size", "137,330,932 bytes (131.0 MB)"],
           ["SHA-256", "e7c0d5c0b43bb0414bf59129e66a5c39fd9219ddcb086d2717c1ce2ffc6cf756"],
           ["Files", "132"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E6%88%98%E5%A3%AB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 终极战士 (131.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhong-ji-zhan-shi.zip", external: true},
+          {label: "Download 终极战士 (131.0 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E6%88%98%E5%A3%AB.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "沙丘魔堡2光碟版1.07 is a DOS game in the WhereQ archive — 1993, 83 files, 26.2 MB, and an entry point of play.bat.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-2-guang-die-ban-1-07.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%85%89%E7%A2%9F%E7%89%881.07.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sha-qiu-mo-bao-2-guang-die-ban-1-07.zip"],
           ["Size", "27,496,316 bytes (26.2 MB)"],
           ["SHA-256", "a90d687c8dbc2b145b7d2a726ed5d22db6a4420591a1ee48bc7fb58e3fbf1b85"],
           ["Files", "83"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%85%89%E7%A2%9F%E7%89%881.07.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 沙丘魔堡2光碟版1.07 (26.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao-2-guang-die-ban-1-07.zip", external: true},
+          {label: "Download 沙丘魔堡2光碟版1.07 (26.2 MB)", href: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%85%89%E7%A2%9F%E7%89%881.07.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "海姆达2 is a DOS game in the WhereQ archive — 2004, 358 files, 2.7 MB, and an entry point of H2PC.EXE.",
   status: "2004",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hai-mu-da-2.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE2.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2004"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hai-mu-da-2.zip"],
           ["Size", "2,796,776 bytes (2.7 MB)"],
           ["SHA-256", "fac78edb3da3ba136933f0169c376ee6a6665221293446d5d0d4dd69131a5b8d"],
           ["Files", "358"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE2.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 海姆达2 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hai-mu-da-2.zip", external: true},
+          {label: "Download 海姆达2 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E6%B5%B7%E5%A7%86%E8%BE%BE2.zip", external: true},
         ]},
       ],
     },

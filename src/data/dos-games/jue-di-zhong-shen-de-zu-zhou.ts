@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "绝地-众神的诅咒 is a DOS game in the WhereQ archive — 2007, 233 files, 57.3 MB, and an entry point of AVG.EXE.",
   status: "2007",
-  url: "https://github.com/whereq/dos-games/releases/download/j/jue-di-zhong-shen-de-zu-zhou.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0-%E4%BC%97%E7%A5%9E%E7%9A%84%E8%AF%85%E5%92%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "jue-di-zhong-shen-de-zu-zhou.zip"],
           ["Size", "60,109,020 bytes (57.3 MB)"],
           ["SHA-256", "7536524106973be1ab732750582c8f6b87568f454c58422f190b813bec69b9b3"],
           ["Files", "233"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0-%E4%BC%97%E7%A5%9E%E7%9A%84%E8%AF%85%E5%92%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 绝地-众神的诅咒 (57.3 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/jue-di-zhong-shen-de-zu-zhou.zip", external: true},
+          {label: "Download 绝地-众神的诅咒 (57.3 MB)", href: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0-%E4%BC%97%E7%A5%9E%E7%9A%84%E8%AF%85%E5%92%92.zip", external: true},
         ]},
       ],
     },

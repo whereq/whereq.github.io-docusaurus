@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "生化情人 is a DOS game in the WhereQ archive — 1994, 223 files, 3.9 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/s/sheng-hua-qing-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E6%83%85%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "sheng-hua-qing-ren.zip"],
           ["Size", "4,039,701 bytes (3.9 MB)"],
           ["SHA-256", "aaa6d31dc76fb2ffdbe07324fe645f8ac681458801c6f81fc4390a458ad05917"],
           ["Files", "223"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E6%83%85%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 生化情人 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/sheng-hua-qing-ren.zip", external: true},
+          {label: "Download 生化情人 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E6%83%85%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

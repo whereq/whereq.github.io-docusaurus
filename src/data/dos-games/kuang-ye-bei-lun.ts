@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "狂野悖论 is a DOS game in the WhereQ archive — 1996, 390 files, 3.0 MB, and an entry point of START.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kuang-ye-bei-lun.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8B%82%E9%87%8E%E6%82%96%E8%AE%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kuang-ye-bei-lun.zip"],
           ["Size", "3,097,397 bytes (3.0 MB)"],
           ["SHA-256", "26fe742453d54780892e6d5305994986a2ce715b89f14a47fbcc4f6eb6ca2cd0"],
           ["Files", "390"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8B%82%E9%87%8E%E6%82%96%E8%AE%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 狂野悖论 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kuang-ye-bei-lun.zip", external: true},
+          {label: "Download 狂野悖论 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E7%8B%82%E9%87%8E%E6%82%96%E8%AE%BA.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "猛鬼街 is a DOS game in the WhereQ archive — 1989, 44 files, 318 KB, and an entry point of DREAM.EXE.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/m/meng-gui-jie.zip",
+  url: "https://dos-bin.zczc.cz/%E7%8C%9B%E9%AC%BC%E8%A1%97.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "meng-gui-jie.zip"],
           ["Size", "325,209 bytes (318 KB)"],
           ["SHA-256", "e922fbe591cdce53e878153d49bbac4d146767f1ed1890f3fcd53fd98b30a286"],
           ["Files", "44"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%8C%9B%E9%AC%BC%E8%A1%97.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 猛鬼街 (318 KB)", href: "https://github.com/whereq/dos-games/releases/download/m/meng-gui-jie.zip", external: true},
+          {label: "Download 猛鬼街 (318 KB)", href: "https://dos-bin.zczc.cz/%E7%8C%9B%E9%AC%BC%E8%A1%97.zip", external: true},
         ]},
       ],
     },

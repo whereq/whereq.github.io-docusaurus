@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "三姐妹 is a DOS game in the WhereQ archive — 1996, 504 files, 2.7 MB, and an entry point of 3SIS.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/s/san-jie-mei.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%A7%90%E5%A6%B9.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "san-jie-mei.zip"],
           ["Size", "2,875,944 bytes (2.7 MB)"],
           ["SHA-256", "2e03dc86ca832f629a9c82b43162a20bf352afd4c5a77a3225ad44136497df04"],
           ["Files", "504"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%89%E5%A7%90%E5%A6%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 三姐妹 (2.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/s/san-jie-mei.zip", external: true},
+          {label: "Download 三姐妹 (2.7 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%A7%90%E5%A6%B9.zip", external: true},
         ]},
       ],
     },

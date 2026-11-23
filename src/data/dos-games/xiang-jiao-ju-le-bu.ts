@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "香蕉俱乐部 is a DOS game in the WhereQ archive — 1997, 53 files, 2.1 MB, and an entry point of PLAY.BAT.",
   status: "1997",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xiang-jiao-ju-le-bu.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A6%99%E8%95%89%E4%BF%B1%E4%B9%90%E9%83%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xiang-jiao-ju-le-bu.zip"],
           ["Size", "2,236,478 bytes (2.1 MB)"],
           ["SHA-256", "59620a6d7bd4ca39a62cb322cc1f7bfb08c09a37130e27e4158de473a287572f"],
           ["Files", "53"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A6%99%E8%95%89%E4%BF%B1%E4%B9%90%E9%83%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 香蕉俱乐部 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xiang-jiao-ju-le-bu.zip", external: true},
+          {label: "Download 香蕉俱乐部 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E9%A6%99%E8%95%89%E4%BF%B1%E4%B9%90%E9%83%A8.zip", external: true},
         ]},
       ],
     },

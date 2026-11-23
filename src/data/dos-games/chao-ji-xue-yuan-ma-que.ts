@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级学院麻雀 is a DOS game in the WhereQ archive — 1992, 8 files, 724 KB, and an entry point of SCMC.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-xue-yuan-ma-que.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E9%99%A2%E9%BA%BB%E9%9B%80.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-xue-yuan-ma-que.zip"],
           ["Size", "741,799 bytes (724 KB)"],
           ["SHA-256", "515b6babc88391935711a63ee8cd4d684d7326b08f7107f0181c23964002279f"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E9%99%A2%E9%BA%BB%E9%9B%80.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级学院麻雀 (724 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-xue-yuan-ma-que.zip", external: true},
+          {label: "Download 超级学院麻雀 (724 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E5%AD%A6%E9%99%A2%E9%BA%BB%E9%9B%80.zip", external: true},
         ]},
       ],
     },

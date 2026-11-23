@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "维京战争 is a DOS game in the WhereQ archive — 1992, 19 files, 298 KB, and an entry point of VIKINGS.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-jing-zhan-zheng.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BB%B4%E4%BA%AC%E6%88%98%E4%BA%89.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-jing-zhan-zheng.zip"],
           ["Size", "305,566 bytes (298 KB)"],
           ["SHA-256", "a425572becabbb4550ac947e22b3692517b83a32a5a63411d2601cec519e964e"],
           ["Files", "19"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BB%B4%E4%BA%AC%E6%88%98%E4%BA%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 维京战争 (298 KB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-jing-zhan-zheng.zip", external: true},
+          {label: "Download 维京战争 (298 KB)", href: "https://dos-bin.zczc.cz/%E7%BB%B4%E4%BA%AC%E6%88%98%E4%BA%89.zip", external: true},
         ]},
       ],
     },

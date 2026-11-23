@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "幽城宝藏 is a DOS game in the WhereQ archive — 1989, 57 files, 414 KB, and an entry point of HILLSFAR.BAT.",
   status: "1989",
-  url: "https://github.com/whereq/dos-games/releases/download/y/you-cheng-bao-zang.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B9%BD%E5%9F%8E%E5%AE%9D%E8%97%8F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "you-cheng-bao-zang.zip"],
           ["Size", "423,906 bytes (414 KB)"],
           ["SHA-256", "4289eb1a08beb381e69c75f284d9af50e114909a9127bd22eda7d644a3c0cad1"],
           ["Files", "57"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B9%BD%E5%9F%8E%E5%AE%9D%E8%97%8F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 幽城宝藏 (414 KB)", href: "https://github.com/whereq/dos-games/releases/download/y/you-cheng-bao-zang.zip", external: true},
+          {label: "Download 幽城宝藏 (414 KB)", href: "https://dos-bin.zczc.cz/%E5%B9%BD%E5%9F%8E%E5%AE%9D%E8%97%8F.zip", external: true},
         ]},
       ],
     },

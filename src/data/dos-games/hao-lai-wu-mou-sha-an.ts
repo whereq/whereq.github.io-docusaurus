@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "h",
   summary: "好莱坞谋杀案 is a DOS game in the WhereQ archive — 1996, 25 files, 1.1 MB, and an entry point of HM.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/h/hao-lai-wu-mou-sha-an.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A5%BD%E8%8E%B1%E5%9D%9E%E8%B0%8B%E6%9D%80%E6%A1%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "hao-lai-wu-mou-sha-an.zip"],
           ["Size", "1,199,858 bytes (1.1 MB)"],
           ["SHA-256", "e14e48d31f5ac33eeb0c059e9461624de063454a1f64a6ac95dcb3af27a78435"],
           ["Files", "25"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A5%BD%E8%8E%B1%E5%9D%9E%E8%B0%8B%E6%9D%80%E6%A1%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 好莱坞谋杀案 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/h/hao-lai-wu-mou-sha-an.zip", external: true},
+          {label: "Download 好莱坞谋杀案 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E5%A5%BD%E8%8E%B1%E5%9D%9E%E8%B0%8B%E6%9D%80%E6%A1%88.zip", external: true},
         ]},
       ],
     },

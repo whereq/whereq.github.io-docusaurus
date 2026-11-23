@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "n",
   summary: "女神之翼 is a DOS game in the WhereQ archive — 1992, 8 files, 11.4 MB, and an entry point of MADE.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/n/nv-shen-zhi-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%A5%9E%E4%B9%8B%E7%BF%BC.zip",
   facts: [
     {label: "Developer", value: "ACTIVISION"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "nv-shen-zhi-yi.zip"],
           ["Size", "11,917,525 bytes (11.4 MB)"],
           ["SHA-256", "381585255b81023b88fd59b29c405b5e0faa1cbad208061290e566c799c6b0ac"],
           ["Files", "8"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A5%B3%E7%A5%9E%E4%B9%8B%E7%BF%BC.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 女神之翼 (11.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/n/nv-shen-zhi-yi.zip", external: true},
+          {label: "Download 女神之翼 (11.4 MB)", href: "https://dos-bin.zczc.cz/%E5%A5%B3%E7%A5%9E%E4%B9%8B%E7%BF%BC.zip", external: true},
         ]},
       ],
     },

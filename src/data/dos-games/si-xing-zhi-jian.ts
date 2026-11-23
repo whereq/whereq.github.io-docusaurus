@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "死刑之剑 is a DOS game in the WhereQ archive — 1991, 113 files, 527 KB, and an entry point of DB.EXE.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/s/si-xing-zhi-jian.zip",
+  url: "https://dos-bin.zczc.cz/%E6%AD%BB%E5%88%91%E4%B9%8B%E5%89%91.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "si-xing-zhi-jian.zip"],
           ["Size", "539,264 bytes (527 KB)"],
           ["SHA-256", "31e59dd5bd78ac6f1e6ff577d4f1831111c8559d8073cd8b76c8fe7a95762ce6"],
           ["Files", "113"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%AD%BB%E5%88%91%E4%B9%8B%E5%89%91.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 死刑之剑 (527 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/si-xing-zhi-jian.zip", external: true},
+          {label: "Download 死刑之剑 (527 KB)", href: "https://dos-bin.zczc.cz/%E6%AD%BB%E5%88%91%E4%B9%8B%E5%89%91.zip", external: true},
         ]},
       ],
     },

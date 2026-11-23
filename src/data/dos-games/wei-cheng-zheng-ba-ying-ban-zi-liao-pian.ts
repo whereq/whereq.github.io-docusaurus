@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "w",
   summary: "微城争霸英版+资料片 is a DOS game in the WhereQ archive — 1992, 242 files, 1.9 MB, and an entry point of play.bat.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba-ying-ban-zi-liao-pian.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E8%8B%B1%E7%89%88%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "wei-cheng-zheng-ba-ying-ban-zi-liao-pian.zip"],
           ["Size", "1,994,882 bytes (1.9 MB)"],
           ["SHA-256", "da332b2e70e27af02fc7881834c1acd9a4b699503dd1250b66a3615287e1c2c9"],
           ["Files", "242"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E8%8B%B1%E7%89%88%2B%E8%B5%84%E6%96%99%E7%89%87.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 微城争霸英版+资料片 (1.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/w/wei-cheng-zheng-ba-ying-ban-zi-liao-pian.zip", external: true},
+          {label: "Download 微城争霸英版+资料片 (1.9 MB)", href: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9F%8E%E4%BA%89%E9%9C%B8%E8%8B%B1%E7%89%88%2B%E8%B5%84%E6%96%99%E7%89%87.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "d",
   summary: "大地之怒 is a DOS game in the WhereQ archive — 1995, 5 files, 10.9 MB, and an entry point of WOE.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/d/da-di-zhi-nu.zip",
+  url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%B9%8B%E6%80%92.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "da-di-zhi-nu.zip"],
           ["Size", "11,383,586 bytes (10.9 MB)"],
           ["SHA-256", "69a7c896f0d66d80dab30a5a6152b4aa2de7c73449bd160849094191b44af281"],
           ["Files", "5"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%B9%8B%E6%80%92.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 大地之怒 (10.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/d/da-di-zhi-nu.zip", external: true},
+          {label: "Download 大地之怒 (10.9 MB)", href: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%9C%B0%E4%B9%8B%E6%80%92.zip", external: true},
         ]},
       ],
     },

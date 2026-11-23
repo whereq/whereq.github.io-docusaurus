@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "恐龙快打 is a DOS game in the WhereQ archive — 1996, 94 files, 17.6 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-long-kuai-da.zip",
+  url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-long-kuai-da.zip"],
           ["Size", "18,461,332 bytes (17.6 MB)"],
           ["SHA-256", "3fc2575f6b84ff7fa9e7a749e3266f804f0406d8c6d155e177b7e90931caa976"],
           ["Files", "94"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 恐龙快打 (17.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-long-kuai-da.zip", external: true},
+          {label: "Download 恐龙快打 (17.6 MB)", href: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93.zip", external: true},
         ]},
       ],
     },

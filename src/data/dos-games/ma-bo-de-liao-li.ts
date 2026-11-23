@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "m",
   summary: "马玻的料理 is a DOS game in the WhereQ archive — 1995, 184 files, 1.5 MB, and an entry point of START.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/m/ma-bo-de-liao-li.zip",
+  url: "https://dos-bin.zczc.cz/%E9%A9%AC%E7%8E%BB%E7%9A%84%E6%96%99%E7%90%86.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ma-bo-de-liao-li.zip"],
           ["Size", "1,619,243 bytes (1.5 MB)"],
           ["SHA-256", "685f3cb6ecc8b8dc3cd821b8809a809615a57874f044564ac8cf47692f1e7c40"],
           ["Files", "184"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%A9%AC%E7%8E%BB%E7%9A%84%E6%96%99%E7%90%86.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 马玻的料理 (1.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/m/ma-bo-de-liao-li.zip", external: true},
+          {label: "Download 马玻的料理 (1.5 MB)", href: "https://dos-bin.zczc.cz/%E9%A9%AC%E7%8E%BB%E7%9A%84%E6%96%99%E7%90%86.zip", external: true},
         ]},
       ],
     },

@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "Z字特工队 is a DOS game in the WhereQ archive — 1996, 535 files, 11.5 MB, and an entry point of PLAY.BAT.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/z/z-zi-te-gong-dui.zip",
+  url: "https://dos-bin.zczc.cz/Z%E5%AD%97%E7%89%B9%E5%B7%A5%E9%98%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "z-zi-te-gong-dui.zip"],
           ["Size", "12,053,130 bytes (11.5 MB)"],
           ["SHA-256", "71126081619cb4036b933c18f26e0d2ca77a854b8cf17bdac45ff09d877383be"],
           ["Files", "535"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/Z%E5%AD%97%E7%89%B9%E5%B7%A5%E9%98%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download Z字特工队 (11.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/z-zi-te-gong-dui.zip", external: true},
+          {label: "Download Z字特工队 (11.5 MB)", href: "https://dos-bin.zczc.cz/Z%E5%AD%97%E7%89%B9%E5%B7%A5%E9%98%9F.zip", external: true},
         ]},
       ],
     },

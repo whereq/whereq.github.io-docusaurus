@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "x",
   summary: "辛普森一家 is a DOS game in the WhereQ archive — 1991, 90 files, 1.1 MB, and an entry point of SIMPSONS.BAT.",
   status: "1991",
-  url: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-yi-jia.zip",
+  url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B6.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "xin-pu-sen-yi-jia.zip"],
           ["Size", "1,169,245 bytes (1.1 MB)"],
           ["SHA-256", "5240bf8cff9fafc20379ff36d4699cdc289913d229ae11cdf2a93330f46fc62f"],
           ["Files", "90"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B6.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 辛普森一家 (1.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/x/xin-pu-sen-yi-jia.zip", external: true},
+          {label: "Download 辛普森一家 (1.1 MB)", href: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B6.zip", external: true},
         ]},
       ],
     },

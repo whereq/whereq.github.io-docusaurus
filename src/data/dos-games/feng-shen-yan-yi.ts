@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "f",
   summary: "封神演义 is a DOS game in the WhereQ archive — 1994, 41 files, 2.0 MB, and an entry point of GS.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/f/feng-shen-yan-yi.zip",
+  url: "https://dos-bin.zczc.cz/%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "feng-shen-yan-yi.zip"],
           ["Size", "2,130,794 bytes (2.0 MB)"],
           ["SHA-256", "a7f483f31c8233efe7d4b8e53dfdeac2f21148122ea75d2058ddde450709b40f"],
           ["Files", "41"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 封神演义 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/f/feng-shen-yan-yi.zip", external: true},
+          {label: "Download 封神演义 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89.zip", external: true},
         ]},
       ],
     },

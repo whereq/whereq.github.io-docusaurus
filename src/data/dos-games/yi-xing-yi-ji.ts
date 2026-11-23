@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "y",
   summary: "异星遗迹 is a DOS game in the WhereQ archive — 1994, 340 files, 9.5 MB, and an entry point of AL.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-yi-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%81%97%E8%BF%B9.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "yi-xing-yi-ji.zip"],
           ["Size", "9,998,260 bytes (9.5 MB)"],
           ["SHA-256", "cf57a55535f4adb62868d31c205ba33750ac882736006acfa340e0f2ce2c8c20"],
           ["Files", "340"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%81%97%E8%BF%B9.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 异星遗迹 (9.5 MB)", href: "https://github.com/whereq/dos-games/releases/download/y/yi-xing-yi-ji.zip", external: true},
+          {label: "Download 异星遗迹 (9.5 MB)", href: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%81%97%E8%BF%B9.zip", external: true},
         ]},
       ],
     },

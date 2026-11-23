@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级街霸新挑战者 is a DOS game in the WhereQ archive — 1995, 357 files, 3.6 MB, and an entry point of SF2.COM.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-jie-ba-xin-tiao-zhan-zhe.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B8%E6%96%B0%E6%8C%91%E6%88%98%E8%80%85.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-jie-ba-xin-tiao-zhan-zhe.zip"],
           ["Size", "3,808,621 bytes (3.6 MB)"],
           ["SHA-256", "53cace7f6bc61f65e817dd02aa5a2aecbd9be17c6b5c5810c1d0f96df04a7ddf"],
           ["Files", "357"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B8%E6%96%B0%E6%8C%91%E6%88%98%E8%80%85.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级街霸新挑战者 (3.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-jie-ba-xin-tiao-zhan-zhe.zip", external: true},
+          {label: "Download 超级街霸新挑战者 (3.6 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B8%E6%96%B0%E6%8C%91%E6%88%98%E8%80%85.zip", external: true},
         ]},
       ],
     },

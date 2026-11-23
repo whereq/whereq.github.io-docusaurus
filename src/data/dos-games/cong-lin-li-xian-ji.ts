@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "丛林历险记 is a DOS game in the WhereQ archive — 1995, 316 files, 3.9 MB, and an entry point of HUGO.EXE.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/c/cong-lin-li-xian-ji.zip",
+  url: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "cong-lin-li-xian-ji.zip"],
           ["Size", "4,055,681 bytes (3.9 MB)"],
           ["SHA-256", "7975052722980239239f2f2ba87a19fc8a7b12a3935f98d010fdcf144670c704"],
           ["Files", "316"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E5%8E%86%E9%99%A9%E8%AE%B0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 丛林历险记 (3.9 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/cong-lin-li-xian-ji.zip", external: true},
+          {label: "Download 丛林历险记 (3.9 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E5%8E%86%E9%99%A9%E8%AE%B0.zip", external: true},
         ]},
       ],
     },

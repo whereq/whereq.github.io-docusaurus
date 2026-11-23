@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "p",
   summary: "噗噗闯通关 is a DOS game in the WhereQ archive — 1995, 205 files, 2.0 MB, and an entry point of PLAY.BAT.",
   status: "1995",
-  url: "https://github.com/whereq/dos-games/releases/download/p/pu-pu-chuang-tong-guan.zip",
+  url: "https://dos-bin.zczc.cz/%E5%99%97%E5%99%97%E9%97%AF%E9%80%9A%E5%85%B3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "pu-pu-chuang-tong-guan.zip"],
           ["Size", "2,127,578 bytes (2.0 MB)"],
           ["SHA-256", "52185f66414800a3574157b0dd8f337b6ada1d346f8e6873c19609072f10fe1d"],
           ["Files", "205"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%99%97%E5%99%97%E9%97%AF%E9%80%9A%E5%85%B3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 噗噗闯通关 (2.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/p/pu-pu-chuang-tong-guan.zip", external: true},
+          {label: "Download 噗噗闯通关 (2.0 MB)", href: "https://dos-bin.zczc.cz/%E5%99%97%E5%99%97%E9%97%AF%E9%80%9A%E5%85%B3.zip", external: true},
         ]},
       ],
     },

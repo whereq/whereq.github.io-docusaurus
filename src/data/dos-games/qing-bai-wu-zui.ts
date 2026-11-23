@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "清白无罪 is a DOS game in the WhereQ archive — 1994, 61 files, 8.1 MB, and an entry point of INNOCENT.EXE.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qing-bai-wu-zui.zip",
+  url: "https://dos-bin.zczc.cz/%E6%B8%85%E7%99%BD%E6%97%A0%E7%BD%AA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qing-bai-wu-zui.zip"],
           ["Size", "8,517,497 bytes (8.1 MB)"],
           ["SHA-256", "cab7328451c597fa06b04a8f4c0feac9c0d5af91d6e794089538633a93c6faa1"],
           ["Files", "61"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%B8%85%E7%99%BD%E6%97%A0%E7%BD%AA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 清白无罪 (8.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qing-bai-wu-zui.zip", external: true},
+          {label: "Download 清白无罪 (8.1 MB)", href: "https://dos-bin.zczc.cz/%E6%B8%85%E7%99%BD%E6%97%A0%E7%BD%AA.zip", external: true},
         ]},
       ],
     },

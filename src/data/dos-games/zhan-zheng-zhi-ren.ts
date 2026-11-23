@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "z",
   summary: "战争之人 is a DOS game in the WhereQ archive — 2009, 118 files, 15.7 MB, and an entry point of MOW.EXE.",
   status: "2009",
-  url: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-ren.zip",
+  url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "zhan-zheng-zhi-ren.zip"],
           ["Size", "16,496,196 bytes (15.7 MB)"],
           ["SHA-256", "fbc162ce17589bc690a421324dee9682140885f13d7571ab12495392d42b0208"],
           ["Files", "118"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 战争之人 (15.7 MB)", href: "https://github.com/whereq/dos-games/releases/download/z/zhan-zheng-zhi-ren.zip", external: true},
+          {label: "Download 战争之人 (15.7 MB)", href: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA.zip", external: true},
         ]},
       ],
     },

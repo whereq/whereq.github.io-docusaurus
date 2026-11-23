@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "罗马之墙+编辑器 is a DOS game in the WhereQ archive — 1993, 173 files, 3.0 MB, and an entry point of WALLS.BAT.",
   status: "1993",
-  url: "https://github.com/whereq/dos-games/releases/download/l/luo-ma-zhi-qiang-bian-ji-qi.zip",
+  url: "https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E4%B9%8B%E5%A2%99%2B%E7%BC%96%E8%BE%91%E5%99%A8.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "luo-ma-zhi-qiang-bian-ji-qi.zip"],
           ["Size", "3,187,983 bytes (3.0 MB)"],
           ["SHA-256", "aeb22aae426183ec0df23c9f41eff87f0b45595809a3f258c11a59bcd29df811"],
           ["Files", "173"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E4%B9%8B%E5%A2%99%2B%E7%BC%96%E8%BE%91%E5%99%A8.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 罗马之墙+编辑器 (3.0 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/luo-ma-zhi-qiang-bian-ji-qi.zip", external: true},
+          {label: "Download 罗马之墙+编辑器 (3.0 MB)", href: "https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E4%B9%8B%E5%A2%99%2B%E7%BC%96%E8%BE%91%E5%99%A8.zip", external: true},
         ]},
       ],
     },

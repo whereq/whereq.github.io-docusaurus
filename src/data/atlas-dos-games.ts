@@ -104,6 +104,11 @@ export const DOS_GAMES_GROUPS: AtlasGroup[] = [
     title: 'S — names that start with “S”',
     blurb: 'The games on this shelf whose name begins with S.',
   },
+  {
+    id: 'y',
+    title: 'Y — names that start with “Y”',
+    blurb: 'The games on this shelf whose name begins with Y.',
+  },
 ];
 
 export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
@@ -120,7 +125,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     summary:
       'The 1995 KOEI strategy RPG in its Traditional Chinese DOS release. You play Liu Bei, gathering officers and holding the line against Dong Zhuo and the Cao Wei campaign that follows. It is the one game on this shelf that refuses to start when you press Play — it needs a different launcher, and the page says which one.',
     status: '1995',
-    url: 'https://github.com/whereq/dos-games/releases/download/s/sanguo-yingjie-zhuan.zip',
+    url: 'https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%97%E8%8B%B1%E6%9D%B0%E4%BC%A0.zip',
     facts: [
       {label: 'Developer', value: 'KOEI CO., LTD'},
       {label: 'Publisher', value: 'KOEI CO., LTD — Taiwan release by 第三波 (Soft-World)'},
@@ -174,7 +179,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
               ['Size', '3,461,749 bytes'],
               ['SHA-256', '07bad92d786dbcd90bf27eed6e8473e09374608e21767c68d11cf293b3982999'],
               ['Contents', '60 files — the game, its drivers and its data'],
-              ['Source', 'dos-bin.zczc.cz archive, mirrored unchanged'],
+              ['Source', 'dos-bin.zczc.cz — the archive this page was generated from'],
             ],
           },
           {
@@ -182,7 +187,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
             items: [
               {
                 label: 'Download 三国志英杰传.zip (3.4 MB)',
-                href: 'https://github.com/whereq/dos-games/releases/download/s/sanguo-yingjie-zhuan.zip',
+                href: 'https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%97%E8%8B%B1%E6%9D%B0%E4%BC%A0.zip',
                 external: false,
               },
             ],
@@ -295,7 +300,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     summary:
       'The 1993 DOS conversion of Midway\'s arcade fighter, published by Acclaim and converted by Probe. It imports, Play starts it, and then it sits there looking dead — because the copy-protection screen wants a word and the title screen wants F1. Both are written down.',
     status: '1993',
-    url: 'https://github.com/whereq/dos-games/releases/download/m/mortal-kombat.zip',
+    url: 'https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%93.zip',
     facts: [
       {label: 'Developer', value: 'Probe Software — the DOS conversion team'},
       {label: 'Published', value: 'Acclaim Entertainment, 1993'},
@@ -349,7 +354,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
               ['Size', '3,128,439 bytes'],
               ['SHA-256', '79d860d2acf89533be69bfe93f298b58309dedae14c721f2b24b12d4ab50aa75'],
               ['Contents', '67 files — the game, its graphics and its sound drivers'],
-              ['Source', 'dos-bin.zczc.cz archive, mirrored unchanged'],
+              ['Source', 'dos-bin.zczc.cz — the archive this page was generated from'],
             ],
           },
           {
@@ -357,7 +362,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
             items: [
               {
                 label: 'Download 真人快打.zip (3.0 MB)',
-                href: 'https://github.com/whereq/dos-games/releases/download/m/mortal-kombat.zip',
+                href: 'https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%93.zip',
                 external: false,
               },
             ],
@@ -468,7 +473,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     summary:
       'The 1992 Cryo and Virgin Games real-time strategy game, in the Chinese release published by 第三波. Import the zip, press Play, and the batch file runs the intro and the game for you. The one thing the page has to explain is the house-selection screen: it is mouse-driven, and a quick tap moves the cursor without clicking.',
     status: '1992',
-    url: 'https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao.zip',
+    url: 'https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A1.zip',
     facts: [
       {label: 'Developer', value: 'Cryo Interactive — with Virgin Games'},
       {label: 'Publisher', value: 'Virgin Games; the Chinese release by 第三波 (Soft-World)'},
@@ -522,7 +527,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
               ['Size', '1,743,136 bytes'],
               ['SHA-256', '982268c362a646be6454e8fce29c036a8ce1a1a38710f09c260806c621d5d641'],
               ['Contents', '136 files — the game, its data and its original installer'],
-              ['Source', 'dos-bin.zczc.cz archive, mirrored unchanged'],
+              ['Source', 'dos-bin.zczc.cz — the archive this page was generated from'],
             ],
           },
           {
@@ -530,7 +535,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
             items: [
               {
                 label: 'Download 沙丘魔堡.zip (1.7 MB)',
-                href: 'https://github.com/whereq/dos-games/releases/download/s/sha-qiu-mo-bao.zip',
+                href: 'https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A1.zip',
                 external: false,
               },
             ],
@@ -623,6 +628,170 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
               'The game itself — the intro card, the narrated introduction, the house-selection screen and the world map, all read on the emulator.',
               'DUNE.BAT, read out of the archive: @echo off, logo, duneprg CHIVGA SDB22227 EMS 386.',
               'INSTALL.EXE\'s own strings: "(c) 1992 Cryo & Virgin Games", "INSERT DUNE DISK 1 IN DRIVE A:", "Free disk space= 2500 Kb", and the files it writes.',
+              'The archive listing and checksum of the upstream file.',
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi',
+    collection: 'dos-games',
+    name: '炎龙骑士团II‧黄金城之谜',
+    role: 'The Fantasy Strategy',
+    tagline:
+      "Dynasty's fantasy strategy game — it starts on its own, and the first chapter plays as a film.",
+    logo: '/img/dos-games/yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi.svg',
+    accent: '#9B1B30',
+    group: 'y',
+    related: ['whereq-dosbox'],
+    summary:
+      'The 1995 sequel to 炎龙骑士团, in its Traditional Chinese DOS release. Import the zip and press Play: the app picks FD2.EXE and the game runs, intro animation and all. The page writes down the route in — which key skips the film, how the story dialogue advances, and how you move on the field map.',
+    status: '1995',
+    url: 'https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A22%E9%BB%84%E9%87%91%E5%9F%8E%E4%B9%8B%E8%B0%9C.zip',
+    facts: [
+      {label: 'Developer', value: '漢堂國際資訊 — Dynasty International Information Co., Ltd'},
+      {label: 'Published', value: '1995 — the newest date inside the bundle is 18 January 1995'},
+      {label: 'Platform', value: 'MS-DOS — 32-bit protected mode (DOS/4GW)'},
+      {label: 'Genre', value: 'Strategy RPG (戰棋) with tactical battles'},
+      {label: 'Language', value: 'Traditional Chinese (Big5)'},
+      {label: 'Entry point', value: 'FD2.EXE — picked automatically'},
+      {label: 'Sound', value: 'Miles Design Audio Interface Library V3.02, of 18 January 1995'},
+      {label: 'Bundle', value: '47 files · 8,155,666 bytes'},
+    ],
+    capabilities: [
+      'An opening chapter that plays as a film: a castle under the moon, the two kings on their thrones, and Saul before his father.',
+      'A field map you walk around a tile at a time, with characters who talk when you walk into them.',
+      'A full sound system in the bundle — the Miles Design library, with drivers for the Ad Lib, the Roland, the Sound Blaster, the Tandy and the Yamaha, and SETSOUND.EXE to pick one.',
+      'The game data in plain files: the animations in ANI.DAT, the character shapes in FDSHAP.DAT, the fields in FDFIELD.DAT, the text in FDTXT.DAT and the icons in FDICON.B24.',
+    ],
+    notice: {
+      title: 'About this download',
+      text: 'The archive on this page is published for study, communication and preservation only. 炎龙骑士团II‧黄金城之谜 is the work of 漢堂國際資訊股份有限公司 (Dynasty International Information Co., Ltd) and of the people who made it; publishing it here claims none of their rights and waives none of them. If you believe this download breaks a licence, a copyright or any other right, tell us and we will take it down.',
+    },
+    sections: [
+      {
+        title: 'What it is',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: '炎龙骑士团II‧黄金城之谜 — Fantasy War 2, in its Traditional Chinese DOS release. The title screen names the company that made it: 漢堂, under the English line DYNASTY INTERNATIONAL INFORMATION CO., LTD.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'It is a 32-bit program. FD2.EXE is a DOS/4GW executable — Rational Systems\' protected-mode run-time, copyright 1987 to 1993 — carrying a WATCOM C/C++ 32-bit run-time of its own. The bundle\'s own newest date is the audio library, Miles Design Audio Interface Library V3.02 of 18 January 1995, which is where the 1995 comes from.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The sound is set up already. DIG.INI and MDI.INI both point at a Creative Labs Sound Blaster 16 on port 220h — SB16.DIG and SBPRO2.MDI — so the game has sound without any setup of your own.',
+          },
+        ],
+      },
+      {
+        title: 'Download the bundle',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'This is the original copy from the archive the page was generated from. The checksum below is what you should get.',
+          },
+          {
+            kind: 'table',
+            head: ['Field', 'Value'],
+            rows: [
+              ['File', '炎龙骑士团II‧黄金城之谜.zip'],
+              ['Size', '8,155,666 bytes'],
+              ['SHA-256', 'bd241b639ad5e122faf6996e4dd000fdd3b2a5d7bd55709df17db517e9962ed1'],
+              ['Contents', '47 files — the game, its data and its sound drivers'],
+              ['Source', 'dos-bin.zczc.cz — the archive this page was generated from'],
+            ],
+          },
+          {
+            kind: 'links',
+            items: [
+              {
+                label: 'Download 炎龙骑士团II‧黄金城之谜.zip (7.8 MB)',
+                href: 'https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A22%E9%BB%84%E9%87%91%E5%9F%8E%E4%B9%8B%E8%B0%9C.zip',
+                external: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Set it up in WhereQ-DOSBox',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'There is nothing to set up. The bundle has one executable that matters, FD2.EXE, and the app finds it on its own — so import the zip and press Play.',
+          },
+          {
+            kind: 'list',
+            items: [
+              'Import the zip into WhereQ-DOSBox — open it from the Files app on your phone and choose WhereQ-DOSBox, or use the app\'s own import.',
+              'Open the game\'s row and tap Play. The app writes a RUN.BAT in the game folder and runs FD2 from it.',
+              'Wait. The first thing on the screen is the DOSBox banner, and then the game\'s own title animation.',
+            ],
+          },
+          {
+            kind: 'paragraph',
+            text: 'Do not run SETSOUND.EXE unless the sound is wrong. It is the Miles configuration tool, and it writes DIG.INI and MDI.INI — which are already in the archive, already pointing at a Sound Blaster 16 on port 220h. The game reads them as they are.',
+          },
+        ],
+      },
+      {
+        title: 'How to play',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'The opening is a film, and it is a long one: a castle under the moon, a face made of red brush strokes, the 漢堂 card, and the silver 2 over the red wordmark. Press Space on the on-screen keyboard to skip through it.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Then the story plays as a dialogue, with a portrait on the right and the text on the left. The first line is 『兒臣索爾，晉見父王陛下』 — Saul before his father the king. Space, Enter and Escape all move the dialogue along.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'After the story you are on the field: a map of grass and paths, with your character standing on it and other people around. The arrow keys move. Walk into someone and the game starts talking to them — the first character you meet says 『……唉！』 and the game goes on from there.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Verified on the emulator: the game starts from Play with nothing else to do, the intro and the story play, the Chinese text is all there, the character walks on the map and the conversations start. The title menu and the battles were not played through — that is the next thing to work out, and the comments on this page are where it should go.',
+          },
+        ],
+      },
+      {
+        title: 'What is in the bundle',
+        blocks: [
+          {
+            kind: 'table',
+            head: ['File', 'What it is'],
+            rows: [
+              ['FD2.EXE', 'The game. This is what Play starts.'],
+              ['ANI.DAT', 'The animations — the intro, the portraits, the map figures.'],
+              ['FDSHAP.DAT, FDFIELD.DAT, FDOTHER.DAT', 'The character shapes, the fields and everything else the game draws with.'],
+              ['FDTXT.DAT, TITLE.DAT', 'The text, and the title-screen data.'],
+              ['FDICON.B24', 'The icons.'],
+              ['FDMUS.DAT, TAI.DAT', 'The music.'],
+              ['FD2.SAV, FD2.TMP', 'The save file and its working copy.'],
+              ['DIG.INI, MDI.INI', 'The Miles sound configuration, already set for a Sound Blaster 16 on 220h.'],
+              ['SETSOUND.EXE', 'The Miles configuration tool. You do not need it.'],
+              ['SB16.DIG, SBPRO2.MDI, ADLIB.MDI, ROLAND.MDI, TANDY.MDI, YAMAHA.MDI, …', 'The sound drivers — one for each kind of card the library knows.'],
+              ['SAMPLE.AD, SAMPLE.OPL, SAMPLE.BNK', 'The instruments and the sound banks.'],
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Where the facts come from',
+        blocks: [
+          {
+            kind: 'list',
+            items: [
+              'The game itself — the DOSBox banner, the title animation, the 漢堂 card, the opening dialogue and the field map, all read on the emulator.',
+              'The title screen\'s own line: DYNASTY INTERNATIONAL INFORMATION CO., LTD.',
+              'FD2.EXE\'s own strings: "DOS/4G Copyright (C) Rational Systems, Inc. 1987 - 1993" and the WATCOM C/C++ 32-bit run-time.',
+              'DIG.INI and MDI.INI out of the archive: "Miles Design Audio Interface Library V3.02 of 18-Jan-95", SB16.DIG and SBPRO2.MDI at 220h.',
               'The archive listing and checksum of the upstream file.',
             ],
           },

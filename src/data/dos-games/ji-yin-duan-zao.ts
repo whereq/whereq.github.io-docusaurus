@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "j",
   summary: "基因锻造 is a DOS game in the WhereQ archive — an undated copy, 368 files, 117.4 MB, and an entry point of BIOFORGE.EXE.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/j/ji-yin-duan-zao.zip",
+  url: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E9%94%BB%E9%80%A0.zip",
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "ji-yin-duan-zao.zip"],
           ["Size", "123,108,761 bytes (117.4 MB)"],
           ["SHA-256", "71fa1d00e4f4bba97abf0c85b8784c4ea3fad2472e2df03618eb45a9d8c0ee61"],
           ["Files", "368"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E9%94%BB%E9%80%A0.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 基因锻造 (117.4 MB)", href: "https://github.com/whereq/dos-games/releases/download/j/ji-yin-duan-zao.zip", external: true},
+          {label: "Download 基因锻造 (117.4 MB)", href: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E9%94%BB%E9%80%A0.zip", external: true},
         ]},
       ],
     },

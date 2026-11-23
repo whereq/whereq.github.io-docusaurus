@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "b",
   summary: "蝙蝠侠电影版 is a DOS game in the WhereQ archive — 1990, 79 files, 381 KB, and an entry point of BATMAN.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/b/bian-fu-xia-dian-ying-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E7%94%B5%E5%BD%B1%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "bian-fu-xia-dian-ying-ban.zip"],
           ["Size", "389,979 bytes (381 KB)"],
           ["SHA-256", "5432144a7cce96709055d04958a04ea5d07dfdd459a3ea92b2f6c28e2b6dde3c"],
           ["Files", "79"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E7%94%B5%E5%BD%B1%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 蝙蝠侠电影版 (381 KB)", href: "https://github.com/whereq/dos-games/releases/download/b/bian-fu-xia-dian-ying-ban.zip", external: true},
+          {label: "Download 蝙蝠侠电影版 (381 KB)", href: "https://dos-bin.zczc.cz/%E8%9D%99%E8%9D%A0%E4%BE%A0%E7%94%B5%E5%BD%B1%E7%89%88.zip", external: true},
         ]},
       ],
     },

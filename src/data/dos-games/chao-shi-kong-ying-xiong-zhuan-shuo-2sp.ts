@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超时空英雄传说2SP is a DOS game in the WhereQ archive — an undated copy, 95 files, 280.2 MB, and an entry point of PLAY.BAT.",
   status: "Archive",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-ying-xiong-zhuan-shuo-2sp.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42SP.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-shi-kong-ying-xiong-zhuan-shuo-2sp.zip"],
           ["Size", "293,818,348 bytes (280.2 MB)"],
           ["SHA-256", "7b7ec97986d3862b31d713c914f33c45325edfda84a8d4b88b1f3944e4a73b5e"],
           ["Files", "95"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42SP.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超时空英雄传说2SP (280.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-shi-kong-ying-xiong-zhuan-shuo-2sp.zip", external: true},
+          {label: "Download 超时空英雄传说2SP (280.2 MB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E6%97%B6%E7%A9%BA%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B42SP.zip", external: true},
         ]},
       ],
     },

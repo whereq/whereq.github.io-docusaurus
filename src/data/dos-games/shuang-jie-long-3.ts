@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "s",
   summary: "双截龙3 is a DOS game in the WhereQ archive — 1992, 4 files, 537 KB, and an entry point of DD3.EXE.",
   status: "1992",
-  url: "https://github.com/whereq/dos-games/releases/download/s/shuang-jie-long-3.zip",
+  url: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%993.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "shuang-jie-long-3.zip"],
           ["Size", "549,567 bytes (537 KB)"],
           ["SHA-256", "d8009908c02d65332729683de71a1f785ac1a9b66858a6848ba856f7343573a0"],
           ["Files", "4"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%993.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 双截龙3 (537 KB)", href: "https://github.com/whereq/dos-games/releases/download/s/shuang-jie-long-3.zip", external: true},
+          {label: "Download 双截龙3 (537 KB)", href: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%993.zip", external: true},
         ]},
       ],
     },

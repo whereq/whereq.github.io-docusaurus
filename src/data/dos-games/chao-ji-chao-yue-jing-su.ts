@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "c",
   summary: "超级超越竞速 is a DOS game in the WhereQ archive — 1990, 9 files, 865 KB, and an entry point of SEGA.EXE.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-chao-yue-jing-su.zip",
+  url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "chao-ji-chao-yue-jing-su.zip"],
           ["Size", "885,465 bytes (865 KB)"],
           ["SHA-256", "e56819960039261c7f4893193d0a8b38077fcb12f0d73d39c7b11a9a35192e14"],
           ["Files", "9"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 超级超越竞速 (865 KB)", href: "https://github.com/whereq/dos-games/releases/download/c/chao-ji-chao-yue-jing-su.zip", external: true},
+          {label: "Download 超级超越竞速 (865 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip", external: true},
         ]},
       ],
     },

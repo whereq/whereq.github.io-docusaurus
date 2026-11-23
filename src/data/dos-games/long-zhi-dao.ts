@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "l",
   summary: "龙之道 is a DOS game in the WhereQ archive — 1990, 89 files, 2.1 MB, and an entry point of DRAKKHEN.COM.",
   status: "1990",
-  url: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-dao.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E9%81%93.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "long-zhi-dao.zip"],
           ["Size", "2,189,222 bytes (2.1 MB)"],
           ["SHA-256", "c2105afd7825dc9451b60b79e43836bdc46c0665d527ef27d6c9e9cccdc88c2b"],
           ["Files", "89"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E9%81%93.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 龙之道 (2.1 MB)", href: "https://github.com/whereq/dos-games/releases/download/l/long-zhi-dao.zip", external: true},
+          {label: "Download 龙之道 (2.1 MB)", href: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E9%81%93.zip", external: true},
         ]},
       ],
     },

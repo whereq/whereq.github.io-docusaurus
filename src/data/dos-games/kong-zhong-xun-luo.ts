@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "k",
   summary: "空中巡逻 is a DOS game in the WhereQ archive — 2010, 647 files, 8.6 MB, and an entry point of CAP.EXE.",
   status: "2010",
-  url: "https://github.com/whereq/dos-games/releases/download/k/kong-zhong-xun-luo.zip",
+  url: "https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%B7%A1%E9%80%BB.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "kong-zhong-xun-luo.zip"],
           ["Size", "9,018,702 bytes (8.6 MB)"],
           ["SHA-256", "ce9c923edf4eb69aec19e5526692e4e032dd16b12e97fae8ce7841fcd57b5a29"],
           ["Files", "647"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%B7%A1%E9%80%BB.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 空中巡逻 (8.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/k/kong-zhong-xun-luo.zip", external: true},
+          {label: "Download 空中巡逻 (8.6 MB)", href: "https://dos-bin.zczc.cz/%E7%A9%BA%E4%B8%AD%E5%B7%A1%E9%80%BB.zip", external: true},
         ]},
       ],
     },

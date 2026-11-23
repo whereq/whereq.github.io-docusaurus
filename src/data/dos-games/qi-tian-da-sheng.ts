@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "q",
   summary: "齐天大圣 is a DOS game in the WhereQ archive — 1994, 69 files, 3.2 MB, and an entry point of PLAY.BAT.",
   status: "1994",
-  url: "https://github.com/whereq/dos-games/releases/download/q/qi-tian-da-sheng.zip",
+  url: "https://dos-bin.zczc.cz/%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "qi-tian-da-sheng.zip"],
           ["Size", "3,308,556 bytes (3.2 MB)"],
           ["SHA-256", "01080c971a255ee7bf70bbf77889730887de173690308de861ee648acf403fd4"],
           ["Files", "69"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 齐天大圣 (3.2 MB)", href: "https://github.com/whereq/dos-games/releases/download/q/qi-tian-da-sheng.zip", external: true},
+          {label: "Download 齐天大圣 (3.2 MB)", href: "https://dos-bin.zczc.cz/%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3.zip", external: true},
         ]},
       ],
     },

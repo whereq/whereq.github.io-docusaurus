@@ -16,7 +16,7 @@ const entry: AtlasEntry = {
   group: "t",
   summary: "铁路大亨豪华版 is a DOS game in the WhereQ archive — 1996, 245 files, 3.6 MB, and an entry point of REX.EXE.",
   status: "1996",
-  url: "https://github.com/whereq/dos-games/releases/download/t/tie-lu-da-heng-hao-hua-ban.zip",
+  url: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AF%E5%A4%A7%E4%BA%A8%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
@@ -35,16 +35,16 @@ const entry: AtlasEntry = {
     {
       title: "Download the bundle",
       blocks: [
-        {kind: "paragraph", text: "The bundle is served from the WhereQ release host, byte for byte as it is in the archive."},
+        {kind: "paragraph", text: "The bundle is the original copy from the archive this page was generated from — the same file, byte for byte."},
         {kind: "table", head: ["Field", "Value"], rows: [
           ["File", "tie-lu-da-heng-hao-hua-ban.zip"],
           ["Size", "3,825,710 bytes (3.6 MB)"],
           ["SHA-256", "c19c2de65e60e0b3b6e2ffb863da614ef449540a74ff352cedb7556b1ea851cb"],
           ["Files", "245"],
-          ["Original", "dos-bin.zczc.cz — https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AF%E5%A4%A7%E4%BA%A8%E8%B1%AA%E5%8D%8E%E7%89%88.zip"],
+          ["Archive", "dos-bin.zczc.cz — the archive this page was generated from"],
         ]},
         {kind: "links", items: [
-          {label: "Download 铁路大亨豪华版 (3.6 MB)", href: "https://github.com/whereq/dos-games/releases/download/t/tie-lu-da-heng-hao-hua-ban.zip", external: true},
+          {label: "Download 铁路大亨豪华版 (3.6 MB)", href: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AF%E5%A4%A7%E4%BA%A8%E8%B1%AA%E5%8D%8E%E7%89%88.zip", external: true},
         ]},
       ],
     },
