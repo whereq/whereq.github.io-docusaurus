@@ -1,11 +1,12 @@
 /**
  * WhereQ Atlas — the wiki of the WhereQ Universe and the craft behind it.
  *
- * The Atlas is not a directory of applications. It is a wiki with three
+ * The Atlas is not a directory of applications. It is a wiki with four
  * collections:
  *
  *   · The WhereQ Universe — every application, one page each
  *   · The References shelf — the standards and tools the work is built on
+ *   · The DOS Games — the games that run on WhereQ-DOSBox, one page each
  *   · The Glossary — the vocabulary, defined once
  *
  * and threads that cross between them, because a reference in the shelf and
@@ -26,11 +27,13 @@ import {
 import {UNIVERSE_ENTRIES, UNIVERSE_GROUPS, UNIVERSE_INTRO, UNIVERSE_QUESTIONS} from './atlas-universe';
 import {RESOURCE_ENTRIES, RESOURCE_GROUPS} from './atlas-resources';
 import {GLOSSARY_TERMS} from './atlas-glossary';
+import {DOS_GAMES_ENTRIES, DOS_GAMES_GROUPS, DOS_GAMES_INTRO} from './atlas-dos-games';
 
 export * from './atlas-types';
 export {UNIVERSE_ENTRIES, UNIVERSE_GROUPS, UNIVERSE_INTRO, UNIVERSE_QUESTIONS} from './atlas-universe';
 export {RESOURCE_ENTRIES, RESOURCE_GROUPS} from './atlas-resources';
 export {GLOSSARY_TERMS} from './atlas-glossary';
+export {DOS_GAMES_ENTRIES, DOS_GAMES_GROUPS, DOS_GAMES_INTRO} from './atlas-dos-games';
 
 /** The introduction to the References shelf. */
 const RESOURCES_INTRO: AtlasSection[] = [
@@ -100,6 +103,18 @@ export const ATLAS_COLLECTIONS: AtlasCollection[] = [
     groups: RESOURCE_GROUPS,
   },
   {
+    id: 'dos-games',
+    title: 'The DOS Games',
+    short: 'DOS Games',
+    blurb:
+      'The DOS games that run on WhereQ-DOSBox — each one tested on the emulator, with the exact setup it needs and the key that starts it.',
+    kind: 'entries',
+    primaryAction: 'Download the bundle',
+    intro: DOS_GAMES_INTRO,
+    groups: DOS_GAMES_GROUPS,
+    comments: true,
+  },
+  {
     id: 'glossary',
     title: 'The Glossary',
     short: 'Glossary',
@@ -112,7 +127,11 @@ export const ATLAS_COLLECTIONS: AtlasCollection[] = [
 ];
 
 /** Every page in the Atlas, from every collection. */
-export const ATLAS_ENTRIES: AtlasEntry[] = [...UNIVERSE_ENTRIES, ...RESOURCE_ENTRIES];
+export const ATLAS_ENTRIES: AtlasEntry[] = [
+  ...UNIVERSE_ENTRIES,
+  ...RESOURCE_ENTRIES,
+  ...DOS_GAMES_ENTRIES,
+];
 
 /** The six questions the universe asks, and the page that owns each one. */
 export const ATLAS_QUESTIONS: AtlasQuestion[] = UNIVERSE_QUESTIONS;

@@ -647,6 +647,43 @@
   margin-top: 1rem;
 }
 
+/* ── The notice a page carries ──────────────────────────────── */
+/*
+ * The licence notice. It sits under the header on every page that has
+ * one — the DOS games carry one each — so it is read before the body
+ * rather than buried at the end.
+ */
+.notice {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, transparent);
+  padding: 0.85rem 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.noticeTitle {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.4rem;
+}
+
+.noticeText {
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--ifm-font-color-base);
+  margin: 0;
+}
+
+/* ── The comment thread ─────────────────────────────────────── */
+.comments {
+  margin-top: 3rem;
+  scroll-margin-top: 76px;
+}
+
 /* ── Infobox ───────────────────────────────────────────────── */
 .infobox {
   border: 1px solid var(--ifm-hr-border-color);

@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import {AtlasEntry} from '../../data/atlas';
 import AtlasBlocks from './AtlasBlocks';
 import AtlasShell from './AtlasShell';
+import GiscusComments from '../GiscusComments';
 import {
   collectionById,
   entriesInCollection,
@@ -101,6 +102,14 @@ export default function AtlasEntryPage({
         </div>
       </header>
 
+      {/* ── The notice a page has to carry ───────────────────── */}
+      {entry.notice && (
+        <aside className={styles.notice}>
+          <p className={styles.noticeTitle}>{entry.notice.title}</p>
+          <p className={styles.noticeText}>{entry.notice.text}</p>
+        </aside>
+      )}
+
       {/* ── The summary card ──────────────────────────────────── */}
       <div className={styles.infobox}>
         <p className={styles.infoboxTitle}>{entry.name} at a glance</p>
@@ -121,6 +130,12 @@ export default function AtlasEntryPage({
               <div className={styles.infoboxDesc}>{group.title}</div>
             </div>
           )}
+          {(entry.facts ?? []).map((fact) => (
+            <div className={styles.infoboxRow} key={fact.label}>
+              <div className={styles.infoboxTerm}>{fact.label}</div>
+              <div className={styles.infoboxDesc}>{fact.value}</div>
+            </div>
+          ))}
           {entry.status && (
             <div className={styles.infoboxRow}>
               <div className={styles.infoboxTerm}>Status</div>
@@ -204,6 +219,18 @@ export default function AtlasEntryPage({
           )}
         </p>
       </footer>
+
+      {/* ── The comment thread ────────────────────────────────── */}
+      {collection.comments && (
+        <section className={styles.comments} id="comments">
+          <h2 className={styles.sectionTitle}>Comments</h2>
+          <p className={styles.para}>
+            Got a step that does not work on your device, or a shorter way in?
+            Say so here — the next reader will thank you.
+          </p>
+          <GiscusComments />
+        </section>
+      )}
     </AtlasShell>
   );
 }

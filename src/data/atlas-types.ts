@@ -37,6 +37,12 @@ export type AtlasGroup = {
   blurb: string;
 };
 
+/** One row of a page's "at a glance" infobox — author, published, platform. */
+export type AtlasFact = {
+  label: string;
+  value: string;
+};
+
 /** One page in the Atlas. */
 export type AtlasEntry = {
   /** The page's id — unique across the whole Atlas. */
@@ -69,6 +75,20 @@ export type AtlasEntry = {
   capabilities?: string[];
   /** The body of the page. */
   sections: AtlasSection[];
+  /**
+   * Extra rows for the "at a glance" infobox. The fixed rows — role,
+   * collection, domain — are always there; a game page adds its own.
+   */
+  facts?: AtlasFact[];
+  /**
+   * A notice band, shown under the header. The DOS games carry their
+   * licence notice here: what the download is for, and that it comes
+   * down if the rightsholder asks.
+   */
+  notice?: {
+    title: string;
+    text: string;
+  };
   /** Extra links, beyond the headline ones. */
   links?: AtlasLink[];
   /**
@@ -101,6 +121,12 @@ export type AtlasCollection = {
   groups: AtlasGroup[];
   /** Highlighted blocks shown between the introduction and the directory. */
   highlights?: AtlasHighlight[];
+  /**
+   * Whether the pages in this collection carry a comment thread. Off by
+   * default — a wiki opens its pages for discussion where it is wanted,
+   * not everywhere.
+   */
+  comments?: boolean;
   /** The terms, for `kind: 'glossary'` collections. */
   terms?: AtlasGlossaryTerm[];
 };

@@ -42,28 +42,31 @@ This is a **source repo** (`whereq.github.io-docusaurus`). The built static site
 
 ## The WhereQ Atlas
 
-`/atlas/` is a **wiki**, and it is deliberately wider than the WhereQ Universe. It holds three collections, and a page in one has no obligation to know about the others:
+`/atlas/` is a **wiki**, and it is deliberately wider than the WhereQ Universe. It holds four collections, and a page in one has no obligation to know about the others:
 
 | Collection | Route | What it holds |
 |---|---|---|
 | **Universe** | `/atlas/universe/` | The 13 applications, one page each |
 | **References** | `/atlas/resources/` | The standards and tools the work is built on, each written to stand alone |
+| **DOS Games** | `/atlas/dos-games/` | The DOS games that run on WhereQ-DOSBox — the bundle to download, the setup, how to play, the licence notice and a comment thread |
 | **Glossary** | `/atlas/glossary/` | The vocabulary, defined once, with its own page shape |
 
 Architecture:
 
-- **Content** lives in `src/data/atlas*.ts`. `atlas-types.ts` holds the shared types; `atlas-universe.ts`, `atlas-resources.ts` and `atlas-glossary.ts` hold the content; `atlas.ts` is the barrel that assembles the collections, the questions and the threads. A new collection is a new module plus a line in the barrel — the layout does not change.
+- **Content** lives in `src/data/atlas*.ts`. `atlas-types.ts` holds the shared types; `atlas-universe.ts`, `atlas-resources.ts`, `atlas-dos-games.ts` and `atlas-glossary.ts` hold the content; `atlas.ts` is the barrel that assembles the collections, the questions and the threads. A new collection is a new module plus a line in the barrel — the layout does not change.
 - **Layout** lives in `src/components/Atlas/`. `AtlasShell` draws the two-level tree (collection → group → page) and the "On this page" rail; `AtlasEntryPage` serves *every* page whether it is an application or a reference; `AtlasCollectionPage` serves *every* collection; `AtlasHomePage` and `AtlasGlossaryPage` are the two special shapes.
 - **Routes** are `src/pages/atlas/<collection>/<entry>.tsx`. Docusaurus has no dynamic route segments, so each page is a thin file that names its collection and entry id.
 - The flat URLs the Atlas used to have (`/atlas/<app>/`) redirect to `/atlas/universe/<app>/` through `@docusaurus/plugin-client-redirects`. Add a redirect there when a page moves.
-- Pages link to each other with `related` — the wiki's "See also". `ATLAS_THREADS` are the paths that cross between collections; they are the reason the Atlas is one wiki rather than three lists.
+- Pages link to each other with `related` — the wiki's "See also". `ATLAS_THREADS` are the paths that cross between collections; they are the reason the Atlas is one wiki rather than four lists.
 - **Reference pages must state their source.** Version numbers and dates are checked against the project's own documentation, and a claim that cannot be traced to a primary source is not made. The "Where to read more" block links to that source.
 - Application ids match `src/data/news.ts` wherever the app appears there, so the two cannot drift.
+- **A DOS game page carries four things the other pages do not**: the `facts` rows (author, publisher, published, platform, genre, entry point, bundle), the `notice` band (the licence — study and communication only, taken down on request), the download link to `/downloads/dos-games/<slug>.zip`, and the `comments` thread the collection switches on. The bundles are copied unchanged from `~/git/dos/games/`; the SHA-256 on the page is the upstream one, so a copy can be checked.
+- **The setup on a game page is tested, not remembered.** The launch script a game needs (`REKO3` for 三国志英杰传, the default `MK` for 真人快打), the keys that start it (`F1` for 真人快打) and the screens behind them were all read off an emulator running WhereQ-DOSBox. If a step is not known to work, it does not go on the page.
 
 ## Architecture notes
 
 - **Config is async** (`docusaurus.config.ts` exports `createConfig()` as a promise) specifically so `remark-math` and `rehype-katex` can be dynamically imported. Math rendering (KaTeX) is wired into docs, blog, AND pages via `remarkPlugins`/`rehypePlugins`. The KaTeX CSS is loaded from a CDN `<link>` in `stylesheets`.
-- **Giscus comments** are injected by swizzling `src/theme/BlogPostItem/index.tsx`, which wraps the original component and renders `src/components/GiscusComments` only on full blog-post pages (`isBlogPostPage`). Repo/category IDs are hardcoded there and point at the `whereq/whereq.github.io` GitHub Discussions.
+- **Giscus comments** are injected by swizzling `src/theme/BlogPostItem/index.tsx`, which wraps the original component and renders `src/components/GiscusComments` only on full blog-post pages (`isBlogPostPage`). An Atlas collection can switch the same component on for its own pages with `comments: true` on the collection — the DOS Games shelf does, so every game page carries a thread. Repo/category IDs are hardcoded in `src/components/GiscusComments` and point at the `whereq/whereq.github.io` GitHub Discussions.
 - **Search** is client-side/offline via `@easyops-cn/docusaurus-search-local` (indexes blog, docs, and pages in both `en` and `zh`) — there is no Algolia.
 - **i18n**: `en` (default) + `zh-CN`.
 - **Theme**: dark-first (dark navy `#0d1117` bg, amber `#f5a623` accent). Color mode switch is enabled but `respectPrefersColorScheme` is off. Global styles in `src/css/custom.css`.

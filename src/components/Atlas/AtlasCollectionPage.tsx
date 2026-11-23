@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import {ATLAS_COLLECTIONS, ATLAS_QUESTIONS, AtlasCollection} from '../../data/atlas';
 import AtlasBlocks from './AtlasBlocks';
 import AtlasShell from './AtlasShell';
+import GiscusComments from '../GiscusComments';
 import {entriesInGroup, entryById, entryPath, monogram, slugify} from './atlas-utils';
 import styles from './atlas.module.css';
 
@@ -177,6 +178,18 @@ export default function AtlasCollectionPage({
           </div>
         </section>
       ))}
+
+      {/* ── The comment thread ────────────────────────────────── */}
+      {collection.comments && (
+        <section className={styles.comments} id="comments">
+          <h2 className={styles.sectionTitle}>Comments</h2>
+          <p className={styles.para}>
+            Missing a game, or a step that does not work on your device? Say so
+            here — the next reader will thank you.
+          </p>
+          <GiscusComments />
+        </section>
+      )}
     </AtlasShell>
   );
 }
