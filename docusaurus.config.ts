@@ -65,8 +65,8 @@ async function createConfig(): Promise<Config> {
           },
           blog: {
             showReadingTime: true,
-            readingTime: ({ content, frontMatter, defaultReadingTime }) =>
-              defaultReadingTime({ content, options: { wordsPerMinute: 200 } }),
+            readingTime: ({ content, locale, frontMatter, defaultReadingTime }) =>
+              defaultReadingTime({ content, locale, options: { wordsPerMinute: 200 } }),
             feedOptions: {
               type: ['rss', 'atom'],
               xslt: true,
@@ -170,6 +170,7 @@ async function createConfig(): Promise<Config> {
             label: 'Docs',
           },
           { to: '/atlas', label: 'Atlas', position: 'left' },
+          { to: '/dos-games', label: 'DOS Games', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/blog/tags', label: 'Tags', position: 'left' },
           { to: '/blog/archive', label: 'Archive', position: 'left' },

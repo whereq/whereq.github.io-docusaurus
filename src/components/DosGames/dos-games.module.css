@@ -1,0 +1,466 @@
+/*
+ * The DOS games catalogue.
+ *
+ * House rules, the same as the Atlas: MetroUI, radius xs = 2px, and every
+ * colour from a --ifm-* token, so light and dark both work.
+ */
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  min-width: 0;
+}
+
+/* ── Hero ──────────────────────────────────────────────────── */
+.hero {
+  margin-bottom: 2rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.5rem;
+}
+
+.title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.6rem;
+  line-height: 1.15;
+}
+
+.lead {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--ifm-font-color-base);
+  max-width: 74ch;
+  margin: 0;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.25rem;
+  margin: 1.75rem 0 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.stat dt {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.stat dd {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.statMeta {
+  font-size: 0.76rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ── The filter ─────────────────────────────────────────────── */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.search {
+  flex: 1 1 260px;
+  min-width: 0;
+  font-size: 0.88rem;
+  font-family: inherit;
+  padding: 7px 11px;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+
+.search:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.letters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.letter {
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 4px 8px;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.letter:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.letterOn {
+  border-color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+  color: var(--ifm-color-primary);
+}
+
+.letterCount {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* ── The table ──────────────────────────────────────────────── */
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid var(--ifm-table-border-color);
+  border-radius: 2px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.table thead th {
+  text-align: left;
+  font-size: 0.64rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-primary);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--ifm-table-border-color);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+  white-space: nowrap;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
+
+.table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.table tbody tr:nth-child(2n) {
+  background: var(--ifm-table-stripe-background);
+}
+
+.table tbody td {
+  padding: 0.45rem 0.75rem;
+  vertical-align: middle;
+  color: var(--ifm-font-color-base);
+  white-space: nowrap;
+}
+
+.name {
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.name:hover {
+  color: var(--ifm-color-primary);
+}
+
+.year,
+.number {
+  font-variant-numeric: tabular-nums;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.entry {
+  font-size: 0.78rem;
+  background: color-mix(in srgb, var(--ifm-color-emphasis-700) 8%, transparent);
+  border: 1px solid var(--ifm-hr-border-color);
+  border-radius: 2px;
+  padding: 1px 5px;
+}
+
+.download {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+  border-radius: 2px;
+  padding: 2px 8px;
+}
+
+.download:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
+}
+
+.empty {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  padding: 1.5rem 0;
+}
+
+/* ── A game's own page ──────────────────────────────────────── */
+.gameHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.gameMark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: #f1f3f5;
+  overflow: hidden;
+}
+
+.gameMark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.gameHeaderMain {
+  min-width: 0;
+  flex: 1;
+}
+
+.gameRole {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.35rem;
+}
+
+.gameName {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.2rem;
+  line-height: 1.2;
+}
+
+.gameTagline {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+.gameActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 5px 13px;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-primary);
+  background: transparent;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+}
+
+.btnPrimary {
+  background: var(--ifm-color-primary);
+  color: #161b22;
+}
+
+.btnPrimary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #161b22;
+}
+
+/* ── The notice ─────────────────────────────────────────────── */
+.notice {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, transparent);
+  padding: 0.85rem 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.noticeTitle {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.4rem;
+}
+
+.noticeText {
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--ifm-font-color-base);
+  margin: 0;
+}
+
+/* ── The facts ──────────────────────────────────────────────── */
+.infobox {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  margin-bottom: 2.25rem;
+  overflow: hidden;
+}
+
+.infoboxTitle {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ifm-heading-color);
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+  padding: 0.6rem 0.9rem;
+  margin: 0;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.infoboxBody {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  font-size: 0.86rem;
+}
+
+.infoboxRow {
+  display: contents;
+}
+
+.infoboxTerm {
+  padding: 0.55rem 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+  background: color-mix(in srgb, var(--ifm-color-emphasis-700) 5%, transparent);
+}
+
+.infoboxDesc {
+  padding: 0.55rem 0.9rem;
+  color: var(--ifm-font-color-base);
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+  line-height: 1.6;
+}
+
+.infoboxRow:last-child .infoboxTerm,
+.infoboxRow:last-child .infoboxDesc {
+  border-bottom: none;
+}
+
+/* ── The body ───────────────────────────────────────────────── */
+.section {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 76px;
+}
+
+.sectionTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+}
+
+.para {
+  font-size: 0.94rem;
+  line-height: 1.75;
+  color: var(--ifm-font-color-base);
+  margin: 0 0 0.9rem;
+}
+
+.comments {
+  margin-top: 3rem;
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 996px) {
+  .page {
+    padding: 1.75rem 1.25rem 3rem;
+  }
+
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .gameName {
+    font-size: 1.55rem;
+  }
+
+  .infoboxBody {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .infoboxTerm {
+    padding-bottom: 0.2rem;
+    border-bottom: none;
+    background: transparent;
+  }
+
+  .infoboxDesc {
+    padding-top: 0.15rem;
+  }
+}

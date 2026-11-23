@@ -5,6 +5,6 @@ import type { WrapperProps } from '@docusaurus/types';
 
 type Props = WrapperProps<typeof BlogPostPageType>;
 
-export default function BlogPostPageWrapper(props: Props): JSX.Element {
+export default function BlogPostPageWrapper(props: Props): React.JSX.Element {
   return <BlogPostPage {...props} />;
 }

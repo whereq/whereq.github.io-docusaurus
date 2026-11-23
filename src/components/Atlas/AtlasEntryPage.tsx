@@ -25,11 +25,18 @@ import styles from './atlas.module.css';
 export default function AtlasEntryPage({
   collectionId,
   entryId,
+  entry: given,
 }: {
   collectionId: string;
   entryId: string;
+  /**
+   * The page itself, when the route has one to hand. The catalogue's
+   * games carry their full text in a module of their own, so the shelf
+   * only ever holds the short version of each one.
+   */
+  entry?: AtlasEntry;
 }): React.JSX.Element {
-  const entry: AtlasEntry = entryById(entryId);
+  const entry: AtlasEntry = given ?? entryById(entryId);
   const collection = collectionById(collectionId);
   const group = groupById(collection.id, entry.group);
 
@@ -103,10 +110,10 @@ export default function AtlasEntryPage({
       </header>
 
       {/* ── The notice a page has to carry ───────────────────── */}
-      {entry.notice && (
+      {(entry.notice ?? collection.notice) && (
         <aside className={styles.notice}>
-          <p className={styles.noticeTitle}>{entry.notice.title}</p>
-          <p className={styles.noticeText}>{entry.notice.text}</p>
+          <p className={styles.noticeTitle}>{(entry.notice ?? collection.notice)!.title}</p>
+          <p className={styles.noticeText}>{(entry.notice ?? collection.notice)!.text}</p>
         </aside>
       )}
 

@@ -1,0 +1,8 @@
+import React from 'react';
+import DosGamePage from '../../components/DosGames/DosGamePage';
+import entry from '../../data/dos-games/ma-li-ang-de-sai-che-tiao-zhan';
+
+/** 马里昂的赛车挑战 — the DOS games catalogue. */
+export default function DosGame(): React.JSX.Element {
+  return <DosGamePage entry={entry} />;
+}

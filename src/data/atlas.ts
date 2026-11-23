@@ -113,6 +113,10 @@ export const ATLAS_COLLECTIONS: AtlasCollection[] = [
     intro: DOS_GAMES_INTRO,
     groups: DOS_GAMES_GROUPS,
     comments: true,
+    notice: {
+      title: 'About these downloads',
+      text: 'The archives on these pages are published for study, communication and preservation only. They are the work of their authors and publishers, who hold the rights in them; publishing one here claims none of those rights and waives none of them. If you believe a download here breaks a licence, a copyright or any other right, tell us and we will take it down.',
+    },
   },
   {
     id: 'glossary',

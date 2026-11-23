@@ -1,0 +1,8 @@
+import React from 'react';
+import DosGamePage from '../../components/DosGames/DosGamePage';
+import entry from '../../data/dos-games/a-man-ni-kai-guo-qi-shi-lu';
+
+/** 阿曼尼开国启示录 — the DOS games catalogue. */
+export default function DosGame(): React.JSX.Element {
+  return <DosGamePage entry={entry} />;
+}

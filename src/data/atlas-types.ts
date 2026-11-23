@@ -127,6 +127,15 @@ export type AtlasCollection = {
    * not everywhere.
    */
   comments?: boolean;
+  /**
+   * A notice every page in the collection carries, unless the page has
+   * one of its own. The DOS games carry the licence notice here rather
+   * than on each page: it says the same thing on all of them.
+   */
+  notice?: {
+    title: string;
+    text: string;
+  };
   /** The terms, for `kind: 'glossary'` collections. */
   terms?: AtlasGlossaryTerm[];
 };

@@ -19,21 +19,6 @@
 
 import {AtlasEntry, AtlasGroup, AtlasSection} from './atlas-types';
 
-export const DOS_GAMES_GROUPS: AtlasGroup[] = [
-  {
-    id: 'strategy',
-    title: 'Strategy & Role-Playing',
-    blurb:
-      'Campaigns, officers and maps — the games where the war is won long before the first arrow is fired.',
-  },
-  {
-    id: 'fighting',
-    title: 'Action & Fighting',
-    blurb:
-      'One-on-one fighters and the arcade ports that found their way onto the PC.',
-  },
-];
-
 /** The introduction to the DOS games shelf. */
 export const DOS_GAMES_INTRO: AtlasSection[] = [
   {
@@ -49,7 +34,7 @@ export const DOS_GAMES_INTRO: AtlasSection[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Not every DOS game in the archive has a page yet. This shelf starts with two — one that needs more setup than it looks, and one that launches straight but hides the key you need. The shape of every page stays the same as the shelf grows.',
+        text: 'This shelf holds the games that have been played through on an emulator. Every other game in the archive has a page too, in the catalogue at /dos-games/ — the facts read out of the bundle itself, with a download and the setup its shape implies. Those pages say plainly that nobody has played them yet. The shape of every page stays the same as the shelf grows.',
       },
     ],
   },
@@ -63,6 +48,25 @@ export const DOS_GAMES_INTRO: AtlasSection[] = [
       {
         kind: 'paragraph',
         text: 'Every page also carries a notice about the download, and every page carries a comment thread. If a step does not work on your device, or you know a shorter way in, say so in the comments — that is what the thread is for.',
+      },
+    ],
+  },
+  {
+    title: 'The whole archive',
+    blocks: [
+      {
+        kind: 'paragraph',
+        text: 'The shelf above holds the games that have been played through on an emulator. The catalogue behind it holds every game in the archive — one page each, with the facts read out of the bundle itself, the download, and the setup the bundle\'s own shape implies. Those pages say plainly that nobody has played them yet, and each one carries a comment thread for whoever gets there first.',
+      },
+      {
+        kind: 'links',
+        items: [
+          {
+            label: 'Open the catalogue — every DOS game in the archive',
+            href: '/dos-games/',
+            external: false,
+          },
+        ],
       },
     ],
   },
@@ -81,6 +85,27 @@ export const DOS_GAMES_INTRO: AtlasSection[] = [
   },
 ];
 
+/**
+ * The groups of the shelf — the first letter of each game's name.
+ *
+ * The shelf holds the games that have been played through on an emulator.
+ * The other 1 896 games in the archive have their own pages in the catalogue
+ * at /dos-games/, which sits outside the Atlas so that its rail does not
+ * carry a thousand entries on every page of the site.
+ */
+export const DOS_GAMES_GROUPS: AtlasGroup[] = [
+  {
+    id: 'm',
+    title: 'M — names that start with “M”',
+    blurb: 'The games on this shelf whose name begins with M.',
+  },
+  {
+    id: 's',
+    title: 'S — names that start with “S”',
+    blurb: 'The games on this shelf whose name begins with S.',
+  },
+];
+
 export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
   {
     id: 'sanguo-yingjie-zhuan',
@@ -90,12 +115,12 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     tagline: "KOEI's 1995 war-and-campaign classic — and the one that will not start unless you tell it how.",
     logo: '/img/dos-games/sanguo-yingjie-zhuan.svg',
     accent: '#A31621',
-    group: 'strategy',
+    group: 's',
     related: ['whereq-dosbox'],
     summary:
       'The 1995 KOEI strategy RPG in its Traditional Chinese DOS release. You play Liu Bei, gathering officers and holding the line against Dong Zhuo and the Cao Wei campaign that follows. It is the one game on this shelf that refuses to start when you press Play — it needs a different launcher, and the page says which one.',
     status: '1995',
-    url: '/downloads/dos-games/sanguo-yingjie-zhuan.zip',
+    url: 'https://github.com/whereq/dos-games/releases/download/s/sanguo-yingjie-zhuan.zip',
     facts: [
       {label: 'Developer', value: 'KOEI CO., LTD'},
       {label: 'Publisher', value: 'KOEI CO., LTD — Taiwan release by 第三波 (Soft-World)'},
@@ -157,7 +182,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
             items: [
               {
                 label: 'Download 三国志英杰传.zip (3.4 MB)',
-                href: '/downloads/dos-games/sanguo-yingjie-zhuan.zip',
+                href: 'https://github.com/whereq/dos-games/releases/download/s/sanguo-yingjie-zhuan.zip',
                 external: false,
               },
             ],
@@ -265,12 +290,12 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     tagline: "Mortal Kombat for DOS — launches straight, then hides the key that starts it.",
     logo: '/img/dos-games/mortal-kombat.svg',
     accent: '#A67C00',
-    group: 'fighting',
+    group: 'm',
     related: ['whereq-dosbox'],
     summary:
       'The 1993 DOS conversion of Midway\'s arcade fighter, published by Acclaim and converted by Probe. It imports, Play starts it, and then it sits there looking dead — because the copy-protection screen wants a word and the title screen wants F1. Both are written down.',
     status: '1993',
-    url: '/downloads/dos-games/mortal-kombat.zip',
+    url: 'https://github.com/whereq/dos-games/releases/download/m/mortal-kombat.zip',
     facts: [
       {label: 'Developer', value: 'Probe Software — the DOS conversion team'},
       {label: 'Published', value: 'Acclaim Entertainment, 1993'},
@@ -332,7 +357,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
             items: [
               {
                 label: 'Download 真人快打.zip (3.0 MB)',
-                href: '/downloads/dos-games/mortal-kombat.zip',
+                href: 'https://github.com/whereq/dos-games/releases/download/m/mortal-kombat.zip',
                 external: false,
               },
             ],

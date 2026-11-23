@@ -51,6 +51,13 @@ This is a **source repo** (`whereq.github.io-docusaurus`). The built static site
 | **DOS Games** | `/atlas/dos-games/` | The DOS games that run on WhereQ-DOSBox — the bundle to download, the setup, how to play, the licence notice and a comment thread |
 | **Glossary** | `/atlas/glossary/` | The vocabulary, defined once, with its own page shape |
 
+The **DOS game catalogue** at `/dos-games/` sits outside the Atlas on purpose.
+The Atlas rail lists every page of a collection, so a collection of 1 898 games
+would put a 1 898-item sidebar on every page of the site — the whole build went
+from 250 MB to 1.1 GB. The Atlas keeps the games that have been played through
+on an emulator; the catalogue keeps every game in the archive, one page each,
+generated from the bundle itself.
+
 Architecture:
 
 - **Content** lives in `src/data/atlas*.ts`. `atlas-types.ts` holds the shared types; `atlas-universe.ts`, `atlas-resources.ts`, `atlas-dos-games.ts` and `atlas-glossary.ts` hold the content; `atlas.ts` is the barrel that assembles the collections, the questions and the threads. A new collection is a new module plus a line in the barrel — the layout does not change.
@@ -63,6 +70,42 @@ Architecture:
 - **A DOS game page carries four things the other pages do not**: the `facts` rows (author, publisher, published, platform, genre, entry point, bundle), the `notice` band (the licence — study and communication only, taken down on request), the download link to `/downloads/dos-games/<slug>.zip`, and the `comments` thread the collection switches on. The bundles are copied unchanged from `~/git/dos/games/`; the SHA-256 on the page is the upstream one, so a copy can be checked.
 - **The setup on a game page is tested, not remembered.** The launch script a game needs (`REKO3` for 三国志英杰传, the default `MK` for 真人快打), the keys that start it (`F1` for 真人快打) and the screens behind them were all read off an emulator running WhereQ-DOSBox. If a step is not known to work, it does not go on the page.
 - **The nav panel's scrollbar is `@whereq/react`'s**, not a hand-rolled one. `AtlasShell` uses the library's `Scrollbar` component — it carries the class, the `--wq-sb-*` variables and the stylesheet — and renders the library's `scrollbarCss` in the page under the library's own style id (so the component finds it and injects no second copy). That puts the scrollbar in the server HTML, so there is no flash. The `<nav>` stays the sticky grid item (`.railNav`); the `Scrollbar` inside it is the scroll container (`.rail`). The site-wide amber scrollbar in `custom.css` skips any `.wq-scrollbar` element so the two do not fight.
+
+## The DOS game catalogue
+
+`/dos-games/` is the catalogue of every game in `~/git/dos/games` — 1 898
+games, one page each. It is **generated, not written**: `scripts/generate-dos-games.py`
+reads the archive and writes the pages.
+
+| Piece | Where | What it is |
+|---|---|---|
+| The index | `src/data/dos-games-index.ts` | One line per game — id, name, year, size, files, entry point, tag, download, page path. It is what the catalogue page lists and what its search box searches. |
+| A game | `src/data/dos-games/<slug>.ts` | The whole page: the facts, the download, the setup, how to play, what is in the bundle, and where the facts came from. |
+| A route | `src/pages/dos-games/<slug>.tsx` | A thin file that imports its own game module. |
+| A card mark | `static/img/dos-games/<slug>.svg` | The first character of the name on a coloured plate. |
+| The catalogue | `src/components/DosGames/` | `DosGamesCatalogue` (search + letter filter + table) and `DosGamePage` (one game, no rail). |
+
+- **The split is the point.** The index is small enough to sit in the site's
+  shared bundle; a game's own text is imported only by its own route, so the
+  browser fetches one game at a time. One module per game is what keeps the
+  build inside the Pages size limit.
+- **Regenerate with** `~/git/whereq-dosbox-claude/.venv/bin/python scripts/generate-dos-games.py`.
+  The generator overwrites everything it owns — do not hand-edit the index or a
+  generated page module.
+- **The bundles are hosted on GitHub releases**, not on Pages: the archive is
+  36 GB and Pages holds 1 GB. The asset name is the pinyin slug (GitHub
+  strips non-ASCII from asset names) and the release tag is the slug's first
+  letter, so the download is
+  `https://github.com/whereq/dos-games/releases/download/<letter>/<slug>.zip`.
+- **The two hand-written games** — 三国志英杰传 and 真人快打 — keep their pages
+  on the Atlas shelf at `/atlas/dos-games/<slug>/`, and the catalogue points at
+  them there. The generator skips them and the catalogue's `page` field carries
+  the route.
+- **A generated page is honest about what is not known.** The facts come from
+  the bundle: its file list, its file dates, the strings in its entry point and
+  the archive's checksum. The "How to play" section says plainly that nobody
+  has played it yet and points at the comment thread.
+
 
 ## Architecture notes
 
