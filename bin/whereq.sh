@@ -49,7 +49,7 @@ PAGES_REPO="${PAGES_REPO:-git@github.com-whereq:whereq/whereq.github.io.git}"
 PAGES_BRANCH="${PAGES_BRANCH:-master}"
 BUILD_DIR="$ROOT_DIR/build"
 GIT_USER="whereq"
-GIT_EMAIL="googol.zhang@gmail.com"
+GIT_EMAIL="whereq@gmail.com"
 
 # ── Colours ───────────────────────────────────────────────────────────────────
 RED='\033[0;31m'
