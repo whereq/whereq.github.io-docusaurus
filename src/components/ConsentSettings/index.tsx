@@ -1,5 +1,5 @@
 import React from 'react';
-import {CONSENT_REQUEST_EVENT} from '../../data/adsense';
+import {ADSENSE_ENABLED, CONSENT_REQUEST_EVENT} from '../../data/adsense';
 import styles from './consent-settings.module.css';
 
 /**
@@ -14,6 +14,20 @@ export default function ConsentSettings(): React.JSX.Element {
     window.dispatchEvent(new CustomEvent(CONSENT_REQUEST_EVENT));
     document.getElementById('consent-choices')?.scrollIntoView({behavior: 'smooth'});
   };
+
+  if (!ADSENSE_ENABLED) {
+    // No publisher ID means no ads are served, so there is no choice to
+    // change and no banner to bring back.
+    return (
+      <div className={styles.settings}>
+        <p className={styles.hint}>
+          No advertising is served on this site at the moment, so there is no
+          choice to change and nothing from Google is loaded. If advertising
+          is switched on later, the banner will ask you then.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className={styles.settings}>

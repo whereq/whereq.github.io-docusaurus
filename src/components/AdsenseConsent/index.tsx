@@ -115,6 +115,12 @@ export default function AdsenseConsent(): React.JSX.Element | null {
     return null;
   }
 
+  if (!ADSENSE_ENABLED) {
+    // No publisher ID means no ads, and a banner that says "we use Google
+    // ads" on a site that serves none is a lie the visitor can check.
+    return null;
+  }
+
   return (
     <div className={styles.banner} ref={bannerRef} role="region" aria-label="Cookie and advertising choices">
       <div className={styles.bannerInner}>
