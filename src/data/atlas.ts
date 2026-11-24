@@ -6,7 +6,6 @@
  *
  *   · The WhereQ Universe — every application, one page each
  *   · The References shelf — the standards and tools the work is built on
- *   · The DOS Games — the games that run on WhereQ-DOSBox, one page each
  *   · The Glossary — the vocabulary, defined once
  *
  * and threads that cross between them, because a reference in the shelf and
@@ -27,13 +26,11 @@ import {
 import {UNIVERSE_ENTRIES, UNIVERSE_GROUPS, UNIVERSE_INTRO, UNIVERSE_QUESTIONS} from './atlas-universe';
 import {RESOURCE_ENTRIES, RESOURCE_GROUPS} from './atlas-resources';
 import {GLOSSARY_TERMS} from './atlas-glossary';
-import {DOS_GAMES_ENTRIES, DOS_GAMES_GROUPS, DOS_GAMES_INTRO} from './atlas-dos-games';
 
 export * from './atlas-types';
 export {UNIVERSE_ENTRIES, UNIVERSE_GROUPS, UNIVERSE_INTRO, UNIVERSE_QUESTIONS} from './atlas-universe';
 export {RESOURCE_ENTRIES, RESOURCE_GROUPS} from './atlas-resources';
 export {GLOSSARY_TERMS} from './atlas-glossary';
-export {DOS_GAMES_ENTRIES, DOS_GAMES_GROUPS, DOS_GAMES_INTRO} from './atlas-dos-games';
 
 /** The introduction to the References shelf. */
 const RESOURCES_INTRO: AtlasSection[] = [
@@ -103,25 +100,6 @@ export const ATLAS_COLLECTIONS: AtlasCollection[] = [
     groups: RESOURCE_GROUPS,
   },
   {
-    id: 'dos-games',
-    title: 'The DOS Games',
-    short: 'DOS Games',
-    blurb:
-      'The DOS games that run on WhereQ-DOSBox — each one tested on the emulator, with the exact setup it needs and the key that starts it.',
-    kind: 'entries',
-    primaryAction: 'Download the bundle',
-    intro: DOS_GAMES_INTRO,
-    groups: DOS_GAMES_GROUPS,
-    // The games keep coming, and the catalogue lists every one of them
-    // by category — so the rail lists the collection and nothing more.
-    rail: 'collection',
-    comments: true,
-    notice: {
-      title: 'About these downloads',
-      text: 'The archives on these pages are published for study, communication and preservation only. They are the work of their authors and publishers, who hold the rights in them; publishing one here claims none of those rights and waives none of them. If you believe a download here breaks a licence, a copyright or any other right, tell us and we will take it down.',
-    },
-  },
-  {
     id: 'glossary',
     title: 'The Glossary',
     short: 'Glossary',
@@ -137,7 +115,6 @@ export const ATLAS_COLLECTIONS: AtlasCollection[] = [
 export const ATLAS_ENTRIES: AtlasEntry[] = [
   ...UNIVERSE_ENTRIES,
   ...RESOURCE_ENTRIES,
-  ...DOS_GAMES_ENTRIES,
 ];
 
 /** The six questions the universe asks, and the page that owns each one. */

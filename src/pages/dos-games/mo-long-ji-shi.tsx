@@ -1,8 +1,0 @@
-import React from 'react';
-import DosGamePage from '../../components/DosGames/DosGamePage';
-import entry from '../../data/dos-games/mo-long-ji-shi';
-
-/** 魔龙纪事 — the DOS games catalogue. */
-export default function DosGame(): React.JSX.Element {
-  return <DosGamePage entry={entry} />;
-}

@@ -42,106 +42,62 @@ This is a **source repo** (`whereq.github.io-docusaurus`). The built static site
 
 ## The WhereQ Atlas
 
-`/atlas/` is a **wiki**, and it is deliberately wider than the WhereQ Universe. It holds four collections, and a page in one has no obligation to know about the others:
+`/atlas/` is a **wiki**, and it is deliberately wider than the WhereQ Universe. It holds three collections, and a page in one has no obligation to know about the others:
 
 | Collection | Route | What it holds |
 |---|---|---|
 | **Universe** | `/atlas/universe/` | The 13 applications, one page each |
 | **References** | `/atlas/resources/` | The standards and tools the work is built on, each written to stand alone |
-| **DOS Games** | `/atlas/dos-games/` | The DOS games that run on WhereQ-DOSBox — the bundle to download, the setup, how to play, the licence notice and a comment thread |
 | **Glossary** | `/atlas/glossary/` | The vocabulary, defined once, with its own page shape |
 
-The **DOS game catalogue** at `/dos-games/` sits outside the Atlas on purpose.
-The Atlas rail lists every page of a collection, so a collection of 1 898 games
-would put a 1 898-item sidebar on every page of the site — the whole build went
-from 250 MB to 1.1 GB. The Atlas keeps the games that have been played through
-on an emulator; the catalogue keeps every game in the archive, one page each,
-generated from the bundle itself. The rail now lists the DOS Games collection
-by name and no further — the collection keeps growing, so nothing under it is
-listed there any more.
+The DOS games were a fourth collection and a catalogue of their own. **They have
+moved to their own domain — [pclegends.games](https://pclegends.games)** — and
+this site answers the 1 905 URLs they used to live at with a redirect to where
+the game went. The games keep their own repository, their own comment threads
+and their own advertising; see `~/git/pclegends.games` for that side.
 
 Architecture:
 
-- **Content** lives in `src/data/atlas*.ts`. `atlas-types.ts` holds the shared types; `atlas-universe.ts`, `atlas-resources.ts`, `atlas-dos-games.ts` and `atlas-glossary.ts` hold the content; `atlas.ts` is the barrel that assembles the collections, the questions and the threads. A new collection is a new module plus a line in the barrel — the layout does not change.
+- **Content** lives in `src/data/atlas*.ts`. `atlas-types.ts` holds the shared types; `atlas-universe.ts`, `atlas-resources.ts` and `atlas-glossary.ts` hold the content; `atlas.ts` is the barrel that assembles the collections, the questions and the threads. A new collection is a new module plus a line in the barrel — the layout does not change.
 - **Layout** lives in `src/components/Atlas/`. `AtlasShell` draws the two-level tree (collection → group → page) and the "On this page" rail; `AtlasEntryPage` serves *every* page whether it is an application or a reference; `AtlasCollectionPage` serves *every* collection; `AtlasHomePage` and `AtlasGlossaryPage` are the two special shapes.
 - **Routes** are `src/pages/atlas/<collection>/<entry>.tsx`. Docusaurus has no dynamic route segments, so each page is a thin file that names its collection and entry id.
 - The flat URLs the Atlas used to have (`/atlas/<app>/`) redirect to `/atlas/universe/<app>/` through `@docusaurus/plugin-client-redirects`. Add a redirect there when a page moves.
-- Pages link to each other with `related` — the wiki's "See also". `ATLAS_THREADS` are the paths that cross between collections; they are the reason the Atlas is one wiki rather than four lists.
+- Pages link to each other with `related` — the wiki's "See also". `ATLAS_THREADS` are the paths that cross between collections; they are the reason the Atlas is one wiki rather than three lists.
 - **Reference pages must state their source.** Version numbers and dates are checked against the project's own documentation, and a claim that cannot be traced to a primary source is not made. The "Where to read more" block links to that source.
 - Application ids match `src/data/news.ts` wherever the app appears there, so the two cannot drift.
-- **A DOS game page carries four things the other pages do not**: the `facts` rows (author, publisher, published, platform, genre, entry point, bundle), the `notice` band (the licence — study and communication only, taken down on request), the download link to `/downloads/dos-games/<slug>.zip`, and the `comments` thread the collection switches on. The bundles are copied unchanged from `~/git/dos/games/`; the SHA-256 on the page is the upstream one, so a copy can be checked.
-- **The setup on a game page is tested, not remembered.** The launch script a game needs (`REKO3` for 三国志英杰传, the default `MK` for 真人快打), the keys that start it (`F1` for 真人快打) and the screens behind them were all read off an emulator running WhereQ-DOSBox. If a step is not known to work, it does not go on the page.
 - **The nav panel's scrollbar is `@whereq/react`'s**, not a hand-rolled one. `AtlasShell` uses the library's `Scrollbar` component — it carries the class, the `--wq-sb-*` variables and the stylesheet — and renders the library's `scrollbarCss` in the page under the library's own style id (so the component finds it and injects no second copy). That puts the scrollbar in the server HTML, so there is no flash. The `<nav>` stays the sticky grid item (`.railNav`); the `Scrollbar` inside it is the scroll container (`.rail`). The site-wide amber scrollbar in `custom.css` skips any `.wq-scrollbar` element so the two do not fight.
 
-## The DOS game catalogue
+## The games, and where they went
 
-`/dos-games/` is the catalogue of every game in `~/git/dos/games` — 1 898
-games, one page each. It is **generated, not written**: `scripts/generate-dos-games.py`
-reads the archive and writes the pages.
+The DOS games used to be published here: 1 893 generated pages under
+`/dos-games/<slug>` and five hand-written ones under `/atlas/dos-games/<slug>`.
+They now live on **pclegends.games**, in their own repository
+(`whereq/pclegends.games`), with their own comment threads and their own
+advertising.
+
+What is left here is the redirect table.
 
 | Piece | Where | What it is |
 |---|---|---|
-| The index | `src/data/dos-games-index.ts` | One line per game — id, name, year, size, files, entry point, tag, categories, download, page path. It is what the catalogue page lists and what its search box searches. |
-| A game | `src/data/dos-games/<slug>.ts` | The whole page: the facts, the download, the setup, how to play, what is in the bundle, and where the facts came from. |
-| A route | `src/pages/dos-games/<slug>.tsx` | A thin file that imports its own game module. |
-| A card mark | `static/img/dos-games/<slug>.svg` | The first character of the name on a coloured plate. |
-| The categories | `src/data/dos-games-categories.ts` | The ten categories the games are sorted into — id, label, blurb, the manifest code behind it, and its accent colour. Generated, like the index. |
-| The catalogue | `src/components/DosGames/` | `DosGamesCatalogue` (search + category filter + card grid in a scroll panel) and `DosGamePage` (one game, no rail). |
+| The table | `src/data/game-redirects.ts` | 1 905 entries: the old path, and the absolute URL it now answers with. Generated, not written. |
+| The generator | `scripts/generate-game-redirects.py` | Reads the games site's own route directory and writes the table. |
+| The wiring | `docusaurus.config.ts` | The table is spread into the `plugin-client-redirects` list. |
 
-- **The catalogue is a panel, not a table.** The listing sits in a scroll
-  container of its own — `@whereq/react`'s `Scrollbar`, the same one the Atlas
-  rail uses — and the search box and the category chips are **sticky at the
-  top of that panel**, so a reader always knows which filters are applied to
-  what is on screen. The games are grouped by category, each group a grid of
-  cards. A game that is in two categories is listed under both, so the counts
-  add up to more than the number of games.
-- **The Atlas rail lists the DOS Games collection and nothing else.** A
-  collection that keeps growing would put a list as long as the collection
-  beside every page of the site. `AtlasCollection.rail` is `'groups'` by
-  default; the DOS Games collection sets `rail: 'collection'`, and
-  `AtlasShell` then renders the collection link without its groups.
-- **Categories are read from a primary source, not invented.** The archive
-  keeps no genre of its own, so the categories come from the manifest of
-  [`rwv/chinese-dos-games`](https://github.com/rwv/chinese-dos-games) — the
-  project the bundles were mirrored from, and the one the archive's SHA-256s
-  are checked against. Every game it knows carries a `type` code (ACT, SIM,
-  RPG, AVG, PUZ, SLG, HGA, SPG, RTS); that code is the game's primary
-  category. Where the same project publishes a description that names a
-  further genre, the game is listed under that one too — the manifest decides
-  the primary category, and a description may add to it, never take one away.
-  **The codes are not the standard abbreviations**: `SPG` is not sports here
-  but the turn-based tactics games, which is why the category is called
-  *Tactics*; the sports titles sit under `SIM`. Do not "correct" this back.
-- **Regenerate the categories first**, then the pages:
-  `python3 scripts/dos_game_categories.py` writes `~/git/dos/games_categories.json`
-  and `src/data/dos-games-categories.ts`; then
-  `~/git/whereq-dosbox-claude/.venv/bin/python scripts/generate-dos-games.py`
-  writes the index and the pages. The generator overwrites everything it owns
-  — do not hand-edit the index, the categories or a generated page module.
-  The category script needs the two cached inputs in `~/git/dos/`:
-  `games_types.json` (the upstream manifest) and `games_descriptions.json`
-  (the descriptions the project publishes).
-- **The split is the point.** The index is small enough to sit in the site's
-  shared bundle; a game's own text is imported only by its own route, so the
-  browser fetches one game at a time. One module per game is what keeps the
-  build inside the Pages size limit.
-- **The download link is the original copy.** Every game page links straight
-  at `https://dos-bin.zczc.cz/<name>.zip` — the archive the page was
-  generated from. There is no mirror: the file the reader downloads is the
-  file the page describes, and its SHA-256 is the archive's own. The archive
-  is 38 GB, which is why it was never hosted on Pages (1 GB) in the first
-  place. All 1 898 links were checked live: every one answers 200 with the
-  exact size of the archive file.
-- **The two hand-written games** — 三国志英杰传 and 真人快打 — keep their pages
-  on the Atlas shelf at `/atlas/dos-games/<slug>/`, and the catalogue points at
-  them there. The generator skips them and the catalogue's `page` field carries
-  the route.
-- **A generated page is honest about what is not known.** The facts come from
-  the bundle: its file list, its file dates, the strings in its entry point and
-  the archive's checksum. The "How to play" section says plainly that nobody
-  has played it yet and points at the comment thread.
-
-
+- **The redirects are cross-domain, so `to` is an absolute URL.** The plugin
+  writes one small HTML file per redirect — a meta refresh, a canonical link
+  and a script — at the path the game used to have. `plugin-client-redirects`
+  only validates `to` as a path when it starts with `/`; an absolute URL is
+  passed through as it is.
+- **Regenerate the table** after the games site gains or loses a game:
+  `python3 scripts/generate-game-redirects.py` reads
+  `~/git/pclegends.games/src/pages/dos-games/` and rewrites the table. The
+  generator overwrites what it owns — do not hand-edit it.
+- **A redirect cannot land on a page that still exists.** The plugin refuses to
+  overwrite a file it did not write, so a game page that was left behind turns
+  into a build failure rather than a silent clash.
+- **The site got smaller.** The games were 40 MB of pages and 7.6 MB of card
+  marks; the docs hub's published size drops accordingly, which matters
+  because GitHub Pages caps a published site at 1 GB.
 ## Advertising — Google AdSense
 
 The site is monetised with **Google AdSense auto ads**: one script on every

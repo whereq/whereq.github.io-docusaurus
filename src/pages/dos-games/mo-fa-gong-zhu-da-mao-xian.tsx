@@ -1,8 +1,0 @@
-import React from 'react';
-import DosGamePage from '../../components/DosGames/DosGamePage';
-import entry from '../../data/dos-games/mo-fa-gong-zhu-da-mao-xian';
-
-/** 魔法公主大冒险 — the DOS games catalogue. */
-export default function DosGame(): React.JSX.Element {
-  return <DosGamePage entry={entry} />;
-}

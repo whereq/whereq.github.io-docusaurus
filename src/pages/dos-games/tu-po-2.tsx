@@ -1,8 +1,0 @@
-import React from 'react';
-import DosGamePage from '../../components/DosGames/DosGamePage';
-import entry from '../../data/dos-games/tu-po-2';
-
-/** 突破2 — the DOS games catalogue. */
-export default function DosGame(): React.JSX.Element {
-  return <DosGamePage entry={entry} />;
-}

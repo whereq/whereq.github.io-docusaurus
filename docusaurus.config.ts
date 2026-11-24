@@ -1,6 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {GAME_REDIRECTS} from './src/data/game-redirects';
 
 async function createConfig(): Promise<Config> {
   const remarkMath = (await import('remark-math')).default;
@@ -139,6 +140,11 @@ async function createConfig(): Promise<Config> {
             {from: '/atlas/whereq-cc', to: '/atlas/universe/whereq-cc'},
             {from: '/atlas/whereq-dosbox', to: '/atlas/universe/whereq-dosbox'},
             {from: '/atlas/ccbus', to: '/atlas/universe/ccbus'},
+            // The DOS games moved to their own domain — pclegends.games.
+            // 1 905 URLs answer with a redirect to where the game went.
+            // The list is generated from the games site's own routes, so a
+            // game that exists there has a redirect here.
+            ...GAME_REDIRECTS,
           ],
         },
       ],
@@ -170,7 +176,11 @@ async function createConfig(): Promise<Config> {
             label: 'Docs',
           },
           { to: '/atlas', label: 'Atlas', position: 'left' },
-          { to: '/dos-games', label: 'DOS Games', position: 'left' },
+          {
+            href: 'https://pclegends.games',
+            label: 'DOS Games',
+            position: 'left',
+          },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/blog/tags', label: 'Tags', position: 'left' },
           { to: '/blog/archive', label: 'Archive', position: 'left' },

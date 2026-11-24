@@ -1,8 +1,0 @@
-import React from 'react';
-import DosGamePage from '../../components/DosGames/DosGamePage';
-import entry from '../../data/dos-games/da-zhan-lve';
-
-/** 大战略 — the DOS games catalogue. */
-export default function DosGame(): React.JSX.Element {
-  return <DosGamePage entry={entry} />;
-}

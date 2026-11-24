@@ -81,9 +81,9 @@ export type AtlasEntry = {
    */
   facts?: AtlasFact[];
   /**
-   * A notice band, shown under the header. The DOS games carry their
-   * licence notice here: what the download is for, and that it comes
-   * down if the rightsholder asks.
+   * A notice band, shown under the header. The games on their own site
+   * carry their licence notice here: what the download is for, and that
+   * it comes down if the rightsholder asks.
    */
   notice?: {
     title: string;
@@ -124,9 +124,8 @@ export type AtlasCollection = {
    *
    * `groups` — the default — lists the collection's groups and their pages
    * under it. `collection` lists the collection and nothing else, for a
-   * collection that keeps growing: the DOS games number a thousand, and a
-   * rail that listed them all would put a thousand rows beside every page
-   * of the site.
+   * collection that keeps growing: a collection of a thousand games would
+   * put a thousand rows beside every page of the site.
    */
   rail?: 'groups' | 'collection';
   /** Highlighted blocks shown between the introduction and the directory. */
@@ -139,8 +138,8 @@ export type AtlasCollection = {
   comments?: boolean;
   /**
    * A notice every page in the collection carries, unless the page has
-   * one of its own. The DOS games carry the licence notice here rather
-   * than on each page: it says the same thing on all of them.
+   * one of its own — for a collection whose pages all say the same thing,
+   * rather than repeating it on each of them.
    */
   notice?: {
     title: string;

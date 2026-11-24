@@ -69,10 +69,11 @@ export default function AtlasHomePage(): React.JSX.Element {
       <section className={styles.section} id="collections">
         <h2 className={styles.sectionTitle}>The collections</h2>
         <p className={styles.para}>
-          Four collections, each with its own kind of page. The Universe is
+          Three collections, each with its own kind of page. The Universe is
           what WhereQ builds; the References shelf is what it is built from;
-          the DOS Games are what runs on WhereQ-DOSBox; the Glossary is the
-          language the rest of it uses.
+          the Glossary is the language the rest of it uses. The DOS games
+          used to be a fourth — they have their own site now, at{' '}
+          <a href="https://pclegends.games">pclegends.games</a>.
         </p>
 
         <div className={styles.collectionGrid}>
