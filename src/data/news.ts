@@ -139,6 +139,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
     accent: '#14243d',
     announcements: [
       {
+        title: 'WhereQ-DOSBox 1.0.0.18: the keyboard you already own',
+        url: '/blog/WhereQ-DOSBox-1.0.0.18',
+        date: '2026-11-24',
+      },
+      {
+        title: 'WhereQ-DOSBox 1.0.0.18：你早就有的那把键盘',
+        url: '/blog/WhereQ-DOSBox-1.0.0.18-CN',
+        date: '2026-11-24',
+      },
+      {
         title: 'WhereQ-DOSBox: a DOS machine in your pocket',
         url: '/blog/WhereQ-DOSBox',
         date: '2026-11-20',

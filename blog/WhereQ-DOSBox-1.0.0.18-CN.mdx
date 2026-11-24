@@ -1,0 +1,135 @@
+---
+title: "WhereQ-DOSBox 1.0.0.18：你早就有的那把键盘"
+slug: WhereQ-DOSBox-1.0.0.18-CN
+date: 2026-11-24
+tags: [dosbox, android, emulator, release, retro, open-source, whereq, bluetooth, audio, game-mode]
+authors: whereq
+---
+
+import ThemedImage from '@theme/ThemedImage';
+
+<figure style={{textAlign: 'center', margin: '0 0 2rem'}}>
+  <ThemedImage
+    alt="WhereQ-DOSBox"
+    sources={{
+      light: '/img/apps/whereq-dosbox-logo.png',
+      dark: '/img/apps/whereq-dosbox-logo-transparent.png',
+    }}
+    width="300"
+  />
+</figure>
+
+## 抽屉里那把键盘
+
+大多数人的家里大概都有一把蓝牙键盘。它跟着平板、手机或者电视一起来，然后就一直躺在抽屉里——一块塑料，一百零四个键，手感比屏幕上任何一种"假装出来的键盘"都好。
+
+和手机配对，它能用。
+
+对一切都能用。
+
+除了模拟器。
+
+到这次发版之前，WhereQ-DOSBox 就是这样：配好蓝牙键盘，按一个键，什么也不会发生。不是"按错了键"，是什么都没有。内置的 SDL2 根本没有给 Android 键盘事件留通路，Java 层只喂输入法，原生那一侧一次按键事件都收不到。屏幕键盘是 app 唯一的输入通道，而想要一次按键的游戏，收到的是一根手指。
+
+1.0.0.18 修好了它，而且是用这个 app 一贯的方式修：绝不另造一条输入通路。
+
+现在，Android 的键码会被映射成 DOSBox 的键名，再通过屏幕键盘一直在用的那张原生表解析。两条路最后落到同一个扫描码、进入同一个 BIOS 缓冲区、从同一个 **INT 09h** 出去。**Shift**、**Ctrl** 和 **Alt** 一并带上，DOS 该看到的大写字母就都能看到。按住一个键时只有第一次按下会被转发——DOSBox 在 BIOS 定时器里自己会重复，多送一次事件就等于缓冲区里多一个扫描码。而打在启动脚本编辑器上的按键，永远不会跑到游戏里去。
+
+这些是在模拟器里用真实按键事件验过的，不是用假动作糊过去的：字母和 **Enter** 能过《真人快打》的过场保护，**F1** 能开始游戏，**F10** 能打开它自己的选项菜单，方向键能移动菜单光标，也被游戏当作移动键接受。
+
+抽屉里那把键盘，现在是 DOS 键盘了。
+
+<!-- truncate -->
+
+## 音乐里本不该有的那声
+
+有些游戏里，模拟器会自己加进去一个音。不是在音乐里——是压在音乐上面：一段稳稳的颤音，跟着配乐走，音乐一关它就没了。
+
+这是最烦人的一种 bug，因为它有一半是真的。那个音确实响着；它也确实不该响，可你没法靠耳朵把这两件事分开。
+
+原因出在混音器里的一段算术，得画张图才说得清。DOSBox 为了让音频缓冲保持居中，会持续微调模拟器实际输出采样率：生产线程跑在模拟的 PIT 时钟上，消费线程跑在手机的音频时钟上，两者永远不会完全一致，于是每次回调都 nudge 一下速率，把缓冲维持在设定点附近。在桌面上这是个不错的设计。
+
+可在手机上，OPL/FM 合成那种又重又稳的负载会让这个环路开始"游走"。而一个持续的 FM 音本身就是载波——恰好是那种会把飘忽的采样率变成听得见的节拍的声音。数字音效是瞬态的，从来不会暴露它：太短了，骑不到颤音上面。
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-opl-test.png"
+    alt="WhereQ-DOSBox 里正在跑的 OPL 测试：DOS 屏幕上写着 OPL test: one sustained tone on the FM chip、Save a state, wait, load it - the tone must not restart，以及 The tone is playing. Press any key to stop it.，两侧是屏幕键盘。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>把问题照出来的那个测试：FM 芯片上的一个持续长音——正是飘忽的采样率
+  会拧出节拍的载波。</sub>
+</p>
+
+修法是 app 自带 `dosbox.conf` 里的三行：混音器改用 **48 kHz**（手机的原生采样率），块大小 **2048**，预缓冲 **50 ms**。环路不再游走，颤音也就跟着没了。
+
+这只动了音频缓冲，别的什么都没碰。游戏速度与逻辑不受影响，代价是大约 50 毫秒的延迟，对 DOS 游戏来说听不出来。完整的分析——音频通路、反馈环路、频移调制——都写在 [`docs/AUDIO-FM-BEEP.md`](https://github.com/whereq/whereq-dosbox/blob/main/docs/AUDIO-FM-BEEP.md) 里，配了三张图：这个 bug 里真正有意思的部分，从来就不是那三行配置。
+
+## 第二次启动
+
+用返回键退出 app 再重新打开，以前就足以把模拟器弄死。
+
+```
+  DOS:Too many devices added
+```
+
+设备表是一个十个槽位的静态数组，而一次运行的设备从来没有从里面删掉。app 在两次启动之间保留着同一个进程，于是第二次启动发现表还是满的，槽位用尽，直接死掉。现在 DOS 段关闭时会把它自己的设备移除，MSCDEX 设备也跟着自己撤掉。
+
+## Game Mode 回到你离开时的样子
+
+同一个角落里还有两个小修。
+
+手柄现在一次性恢复每个游戏各自的状态——档位、D-pad 模式、按键重映射——而且是在手柄搭出来之前恢复。顺序是有讲究的：D-pad 必须先就位，再去搭按键栏，否则那个标着模式名字的按钮会标成**上一个**模式；而拆成几个 setter 之后，调用方还得自己按对的顺序调。一个布局过程不会搞错。
+
+**TURBO** 连发也不会再卡住了。按住 FIRE 的时候，TURBO 会一遍一遍地触发它。这个循环原本住在按钮自己的触摸监听器里，而一次重建——转个屏，或者另一只拇指切了个档位——会在按住的过程中把这个视图摘掉，却没有送来 `ACTION_UP`。监听器于是永远停不下来，那个键就一直响下去。现在这个循环住在手柄这一层，凡是释放按键的路径都会把它取消。
+
+## 说明书也跟着长了
+
+<p align="center">
+  <img
+    src="/img/apps/whereq-dosbox-keyboard-columns.png"
+    alt="WhereQ-DOSBox 窄屏时的键盘：左边一列按键，从 File、键盘切换、Esc、Tab、RMB 一直到方向键，右边一列是引号键、Bks、Alt、Ctrl、Shift、Space 和 Ent，中间是 DOS 欢迎画面和 C:\&gt; 提示符。"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <sub>列布局：每侧一列按键，给那些再也放不下按键垫的屏幕。</sub>
+</p>
+
+用户指南把键盘的三种布局都讲了一遍，却只给其中两种配了图。第三种——**列**布局，每侧一列按键，当 4:3 画面旁边的黑边宽度掉到 116 dp 以下时 app 就会换成它——现在是真实截图了；窄横屏下字母被挤到约 24 dp 的那张也是。新的 **Game Mode** 截图全部用 1.0.0.17 的发布版重拍，于是说明书、仓库和截图集里的画面是同一批。DOSBox 手册页里那段没人看的 *SEE ALSO* 删掉了，重映射的描边改成了按设备像素核对，1.0.0.17 那个 APK 的校验值也记进了仓库。
+
+## 存档照样能读
+
+**存档格式没有变。** 早期版本写下的每一个存档都照样能读。
+
+这次发版没有碰模拟器内部——它是一次 app 层的发版，和之前那些一样——但这句话必须出现在每一份发布说明里，所以这里再说一遍。
+
+## 拿去用
+
+这次发布在[发布页](https://github.com/whereq/whereq-dosbox/releases)上，标签是 **v1.0.0.18**。APK 由 CI 从这个标签构建，作为发布附件上传，旁边还有一个 `.sha256` 文件，方便你核对下载到的东西。
+
+👉 **[github.com/whereq/whereq-dosbox](https://github.com/whereq/whereq-dosbox)** ——源码，以及它全部的历史。
+
+它跑在 **arm64-v8a、armeabi-v7a 和 x86_64** 设备上，Android 5.0 及以后，完全离线，不要账号，不做追踪。项目是 GPL-2.0，DOSBox 内核连同它的 `AUTHORS`、`ChangeLog`、`COPYING` 和逐文件的头注释一起嵌在里面。
+
+如果你刚来，[公告](/blog/WhereQ-DOSBox-Announcement)说了这是什么项目，[用户指南](/blog/WhereQ-DOSBox-User-Guide)把每一屏都讲了一遍。[键盘变成的那台主机](/blog/WhereQ-DOSBox-1.0.0.9)讲的是 Game Mode 要替换掉的按键垫，[比 app 活得久的存档](/blog/WhereQ-DOSBox-1.0.0.12)讲的是那些至今还能读的槽位，[给拇指的掌机](/blog/WhereQ-DOSBox-1.0.0.15)讲的是键盘的第二张脸。想看项目的全貌，去读 [WhereQ-DOSBox](/blog/WhereQ-DOSBox)；想知道一个键在机器里面干了什么，[中断地图](/blog/WhereQ-DOSBox-Interrupts)里有。
+
+再说一次：**这篇文章不是文档。** 文档在仓库里：[用户指南](https://github.com/whereq/whereq-dosbox/blob/main/docs/USER-GUIDE.md)、[技术参考](https://github.com/whereq/whereq-dosbox/blob/main/docs/TECHNICAL-REFERENCE.md)，还有[那份音频分析](https://github.com/whereq/whereq-dosbox/blob/main/docs/AUDIO-FM-BEEP.md)。与其相信我的话，不如去读它们。
+
+## 感谢 DOSBox
+
+这一切没有 DOSBox 项目就不可能。
+
+**DOSBox** 由 [DOSBox Team](https://www.dosbox.com/crew.php) 写成——一群志愿者，把 1994 年的一套操作系统带到了此后世界造出的每一台机器上，包括那些当时还不存在的机器。他们让它活了三十年，然后免费送给了任何想要的人。WhereQ-DOSBox 是叠在他们工作之上的一层薄薄的壳，这次发布又是叠在那层壳之上的一层。原创、技艺和慷慨，全部属于他们。
+
+这个移植建立在 **[Em-DOSBox](https://github.com/dreamlayers/em-dosbox)** 之上——[Boris Gjenero](https://github.com/dreamlayers) 用 Emscripten 编译的 DOSBox r4305，它又源自 [Ismail Khatib](https://github.com/CeRiAl) 第一次尝试用 Emscripten 编译 DOSBox，还站在 [Alon Zakai](https://github.com/kripken/) 的 Emscripten 工作之上。SDL2 库由 [Sam Lantinga](https://github.com/libsdl-org/SDL) 撑着，负责窗口、音频和触摸输入——现在还多了一件硬件键盘。
+
+**DOSBox 是 DOSBox 项目的商标**；这个移植与 DOSBox 团队无隶属关系，也未获其背书。
+
+---
+
+*你早就有的那把键盘，是 1994 年的游戏能要求到的最好的输入设备。它只是需要有人把它插上。*

@@ -372,6 +372,13 @@ export const RELEASE_LEDGER: Record<string, LedgerEntry[]> = {
   ],
   'whereq-dosbox': [
       {
+        version: 'v1.0.0.18',
+        date: '2026-11-24',
+        title:
+          'The hardware keyboard that finally reaches the emulator, the second start that no longer dies, and the tone that was never in the music, release 1.0.0.18',
+        url: tag('whereq-dosbox', 'v1.0.0.18'),
+      },
+      {
         version: 'v1.0.0.17',
         date: '2026-11-20',
         title:
