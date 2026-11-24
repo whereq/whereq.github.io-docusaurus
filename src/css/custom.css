@@ -96,19 +96,26 @@ html, body {
   min-height: 100vh;
 }
 
-/* Reserve space so page content never hides behind the fixed footer */
+/* Reserve space so page content never hides behind the fixed footer, and
+   behind the consent banner when it is on screen. */
 .main-wrapper {
   flex: 1;
-  padding-bottom: var(--footer-height);
+  padding-bottom: calc(var(--footer-height) + var(--consent-banner-height, 0px));
 }
 
-/* Footer is always visible at the bottom of the viewport */
+/* Footer is always visible at the bottom of the viewport. Its height is
+   pinned to --footer-height so that anything stacked on top of it — the
+   consent banner — sits flush against it rather than over a gap. */
 footer.footer {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 100;
+  min-height: var(--footer-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ── Navbar (Fixed Header) ────────────────────────────────── */
@@ -419,6 +426,17 @@ footer.footer {
 .footer__copyright {
   color: #a0aab4;
   font-size: 0.8rem;
+}
+
+.footer__copyright a {
+  color: #f5a623;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer__copyright a:hover {
+  color: #fbd07f;
+  text-decoration: underline;
 }
 
 /* ── Blog Listing ─────────────────────────────────────────── */

@@ -109,6 +109,37 @@ reads the archive and writes the pages.
   has played it yet and points at the comment thread.
 
 
+## Advertising — Google AdSense
+
+The site is monetised with **Google AdSense auto ads**: one script on every
+page, and AdSense decides where the ads land.
+
+- **The publisher ID is the only thing to set.** `src/data/adsense.ts` holds
+  `ADSENSE_CLIENT`; it is empty until the account is approved, and while it is
+  empty `ADSENSE_ENABLED` is false and the script is never injected. Paste the
+  `ca-pub-…` ID there and nothing else has to change.
+- **Ads are gated on consent.** `src/components/AdsenseConsent` is mounted
+  site-wide from `src/theme/Root.tsx`. It shows the banner, remembers the
+  choice in `localStorage` under `whereq.consent`, and **only injects Google's
+  script once the visitor has accepted**. Declining means no ad script, no ad
+  cookie and no request to Google at all. The library is not loaded, so there
+  is nothing to personalise.
+- **The banner sits above the fixed footer** and publishes its own height as
+  the `--consent-banner-height` custom property, which `.main-wrapper` adds to
+  its bottom padding. Do not hard-code the banner's height in CSS.
+- **The privacy policy** is `src/pages/privacy.mdx`. It is a legal document,
+  so it states what actually happens — AdSense, Giscus, jsDelivr for KaTeX,
+  GitHub Pages for hosting, and that the search box never leaves the browser.
+  If a third party is added, the policy has to be updated with it.
+- **The policy needs a page route**, not a bare markdown file: Docusaurus
+  serves `src/pages/privacy.mdx` at `/privacy`. The A-DOS policy is a separate
+  document at `/a-dos/privacy` and covers the app, not the site.
+- **The consent choice can be changed later.** `src/components/ConsentSettings`
+  on the privacy page asks the banner to come back rather than overwriting the
+  stored answer.
+- Ads are Google's own rendering — do not restyle the ad units. The site is
+  dark-first, and AdSense decides what its units look like.
+
 ## Architecture notes
 
 - **Config is async** (`docusaurus.config.ts` exports `createConfig()` as a promise) specifically so `remark-math` and `rehype-katex` can be dynamically imported. Math rendering (KaTeX) is wired into docs, blog, AND pages via `remarkPlugins`/`rehypePlugins`. The KaTeX CSS is loaded from a CDN `<link>` in `stylesheets`.

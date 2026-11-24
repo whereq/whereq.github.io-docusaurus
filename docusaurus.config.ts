@@ -194,7 +194,8 @@ async function createConfig(): Promise<Config> {
       footer: {
         style: 'dark',
         links: [],
-        copyright: 'Copyright © 2026 WhereQ Inc.',
+        copyright:
+          'Copyright © 2026 WhereQ Inc. · <a href="/privacy">Privacy Policy</a>',
       },
       prism: {
         theme: prismThemes.vsDark,

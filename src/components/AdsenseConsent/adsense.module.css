@@ -1,0 +1,103 @@
+/*
+ * The advertising consent banner.
+ *
+ * House rules: radius xs = 2px, every colour from a --ifm-* token, so light
+ * and dark both work.
+ */
+
+.banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  /* The footer is fixed to the bottom of the window; the banner sits on it. */
+  bottom: var(--footer-height);
+  z-index: 101;
+  background-color: var(--ifm-background-surface-color);
+  border-top: 1px solid var(--ifm-color-primary);
+  box-shadow: 0 -2px 14px rgba(0, 0, 0, 0.22);
+  padding: 0.9rem 1.5rem;
+}
+
+.bannerInner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.bannerText {
+  flex: 1 1 420px;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--ifm-font-color-base);
+}
+
+.bannerLink {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+.bannerActions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  border-radius: 2px;
+  padding: 0.45rem 1.05rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: var(--ifm-font-family-base);
+  line-height: 1.4;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.buttonPrimary {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast-background);
+}
+
+.buttonPrimary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: var(--ifm-color-primary-contrast-background);
+}
+
+.buttonSecondary {
+  background-color: transparent;
+  color: var(--ifm-font-color-base);
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+.buttonSecondary:hover {
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+@media (max-width: 996px) {
+  .banner {
+    padding: 0.8rem 1rem;
+  }
+
+  .bannerInner {
+    gap: 0.75rem;
+  }
+
+  .bannerText {
+    flex: 1 1 100%;
+    font-size: 0.8125rem;
+  }
+
+  .bannerActions {
+    width: 100%;
+  }
+
+  .button {
+    flex: 1 1 auto;
+  }
+}
