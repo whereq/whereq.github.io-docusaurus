@@ -24,22 +24,22 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `886a50c` |
+| Source commit | `bfbbcaf` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `90ed6a52cbbb0cac591d7edb12f1dec26fd2bcc2a3ab3db8358e0af98a963f57` |
+| SHA-256 | `48eb03557379eb89e99bb264ce71860e28c4bcd33ae62ecaa7862715ff620de7` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# 90ed6a52cbbb0cac591d7edb12f1dec26fd2bcc2a3ab3db8358e0af98a963f57
+# 48eb03557379eb89e99bb264ce71860e28c4bcd33ae62ecaa7862715ff620de7
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
 that names the version, the commit and the build. The shipped build was
-made from `886a50c` — the commit the snapshot above is taken from, so the
+made from `bfbbcaf` — the commit the snapshot above is taken from, so the
 archive is the exact source of the binary. It holds the DOSBox core with
 its per-file copyright and licence headers intact, the Android
 application, the NDK/CMake build of the native library, the desktop Linux
@@ -55,6 +55,16 @@ the hardware Back button. The implementation lives in
 `android/app/src/main/java/com/whereq/ados/GameModeView.kt` in the
 archive, and the release notes in `docs/releases/1.0.0.0.md` describe
 the gesture and the profiles.
+
+**The sound is tuned for a phone.** The mixer's defaults (44100 / block
+size 1024 / prebuffer 25 ms) are tuned for a desktop; under the steady CPU
+load of OPL/FM music the mixer's rate-tracking loop hunts and bends a
+sustained FM note into an audible warble — "a beep that is only there
+while the BGM plays". This build runs the mixer at 48000, the native rate
+of most phones, with a larger block and a deeper prebuffer. It changes
+the audio buffering only; the latency rises by about 50 ms, which is
+inaudible in a DOS game. The configuration is regenerated from the asset
+on every boot, so the new settings take effect on the next start.
 
 ## Building it
 
