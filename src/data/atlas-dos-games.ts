@@ -663,6 +663,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     capabilities: [
       'An opening chapter that plays as a film: a castle under the moon, the two kings on their thrones, and Saul before his father.',
       'A field map you walk around a tile at a time, with characters who talk when you walk into them.',
+      'A tactical layer under the story: a command ring of four icons around the selected character — physical attack, spell attack, items, rest — plus a global map (F1) that shows the whole field with your side in blue and the enemy in red.',
       'A full sound system in the bundle — the Miles Design library, with drivers for the Ad Lib, the Roland, the Sound Blaster, the Tandy and the Yamaha, and SETSOUND.EXE to pick one.',
       'The game data in plain files: the animations in ANI.DAT, the character shapes in FDSHAP.DAT, the fields in FDFIELD.DAT, the text in FDTXT.DAT and the icons in FDICON.B24.',
     ],
@@ -760,7 +761,51 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
           },
           {
             kind: 'paragraph',
-            text: 'Verified on the emulator: the game starts from Play with nothing else to do, the title menu comes up, the intro and the story play, the Chinese text is all there, the character walks on the map and the conversations start. The battles were not fought — that is the next thing to work out, and the comments on this page are where it should go.',
+            text: 'Verified on the emulator: the game starts from Play with nothing else to do, the title menu comes up, the intro and the story play, the Chinese text is all there, the character walks on the map and the conversations start. The field map and the battle interface were then taken apart as well — the next section writes down what is on the screen and what each key does.',
+          },
+        ],
+      },
+      {
+        title: 'The field map and the command ring',
+        blocks: [
+          {
+            kind: 'paragraph',
+            text: 'The field map is a tile grid that the camera follows. The arrow keys move the cursor one tile at a time, and the little panel in the bottom-right corner always describes the tile the cursor is standing on: a picture of the ground plus the attack and defence modifiers that the terrain gives. Plain ground reads A+05 D+00, and a forest reads A-05 D+10 — the forest\'s pair is exactly what the game\'s own rules give for 森林 (−5% AP, +10% DP).',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Stand the cursor on one of your own people and press Space or Enter, and the game opens that character\'s window: name, class, level, HP, MP, DX, MV, HIT, AP, EV, DP, and the equipment with the AP and DP it adds. 悠妮 is a 人類 法師 at LV.01 with EX·00, HP 028/028, MP 008/008, DX·001, MV·04, HIT·086, AP·011, EV·001 and DP·007; 亞雷斯 is a 人類 騎士 at LV.01 with EX·00, HP 048/048, MP 000/000, DX·002, MV·07, HIT·092, AP·026, EV·002 and DP·006, carrying a 刺矛 (+AP 020) and 布衣 (+DP 002).',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Around the selected character the game draws a ring of four command icons, and the layout is the one the game\'s own player notes describe: 上 physical attack, 左 spell attack, 右 items, 下 rest. The attack icons are drawn on a red plate, the other two on a blue one, and the spell icon animates with sparks around it. Press Space on the character and the ring opens; press it again on a mage and the spell list comes up — 悠妮 knows one spell, 火炎術, priced at MP 02. Stand on empty ground, press Space, and a different ring opens instead: the field menu with 系統選單, 行軍, 設定 and 結束本回合, and the system menu opens the usual 條件 / 存檔 / 讀檔 / 退出 sub-menu.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'F1 opens the global map — the whole field at a glance, with our side in blue and the enemy in red. The enemy on this map is a group of masked pirates, red headband over a dark visor, and their numbers are readable: put the cursor on one and the panel shows its HP (028) as it shows a character\'s. Press Space on one of your own people and the game enters 進行移動: the arrow keys then move the cursor and the panel follows it.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'What is still open: no hit was landed. Choosing 物理攻擊 out of the ring did not work from the app — the direction keys moved the map cursor but never changed which icon the ring had selected, and neither did long key holds, Android key events, the numeric keypad scancodes, or taps and drags on the icons themselves. So the attack animation, the damage numbers and the enemy turn are still unverified, and that is what the comments on this page are for.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'The control scheme above is the game\'s own, not ours: the four commands around a character and the four entries of the field menu are laid out exactly as the game\'s player notes and the Chinese walkthroughs describe them — 人物處按確定：上面：物理攻擊，左面：法術攻擊，下面：休息，右面：物品裝備, and 空白處按確定：上=系統選單，左=行軍，右=設定，下=結束本回合.',
+          },
+          {
+            kind: 'links',
+            items: [
+              {
+                label: '炎龍騎士團2 新手提示 — the game\'s own player notes (chiuinan.github.io)',
+                href: 'http://chiuinan.github.io/game/game/intro/ch/c31/fd2/fd2/notes.htm',
+                external: true,
+              },
+              {
+                label: '《炎龙骑士团2黄金城之谜》最全游戏攻略 — the command layout (bilibili)',
+                href: 'https://www.bilibili.com/read/cv21183751/',
+                external: true,
+              },
+            ],
           },
         ],
       },
@@ -792,7 +837,9 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
           {
             kind: 'list',
             items: [
-              'The game itself — the DOSBox banner, the title animation, the 漢堂 card, the opening dialogue and the field map, all read on the emulator.',
+              'The game itself — the DOSBox banner, the title animation, the 漢堂 card, the opening dialogue, the field map, the command ring, the character windows and the global map, all read on the emulator.',
+              'The game\'s own player notes for the control scheme — 新手提示 (操作): 方向鍵 = 移動游標, Space/Enter/Ins+己方人員：進行移動，移動後 上=攻擊，左=施法，右=物品，下=休息, Space/Enter/Ins+空地：上=系統選單，左=行軍，右=設定，下=結束本回合, and the terrain table that gives 一般 +5% AP / −5% DP and 森林 −5% AP / +10% DP.',
+              'The Chinese walkthrough for the ring layout — 人物處按確定：上面：物理攻擊，左面：法術攻擊，下面：休息，右面：物品裝備 — and 空白處按確定：上=系統選單，左=行軍，右=設定，下=結束本回合.',
               'The title screen\'s own line: DYNASTY INTERNATIONAL INFORMATION CO., LTD.',
               'FD2.EXE\'s own strings: "DOS/4G Copyright (C) Rational Systems, Inc. 1987 - 1993" and the WATCOM C/C++ 32-bit run-time.',
               'DIG.INI and MDI.INI out of the archive: "Miles Design Audio Interface Library V3.02 of 18-Jan-95", SB16.DIG and SBPRO2.MDI at 220h.',
