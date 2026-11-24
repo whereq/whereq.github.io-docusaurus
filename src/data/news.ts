@@ -124,6 +124,16 @@ export const OPEN_SOURCE_APPS: AppCategory[] = [
         url: '/blog/WhereQ-com-Open-Source-Announcement-CN',
         date: '2026-11-12',
       },
+      {
+        title: 'Why I Built WhereQ.com — every place has a story',
+        url: '/blog/WhereQ-com-Why-I-Built-It',
+        date: '2026-11-24',
+      },
+      {
+        title: '我为什么做 WhereQ.com —— 每个地方都有故事',
+        url: '/blog/WhereQ-com-Why-I-Built-It-CN',
+        date: '2026-11-24',
+      },
     ],
   },
   {
