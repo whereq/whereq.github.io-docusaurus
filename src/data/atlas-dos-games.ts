@@ -647,7 +647,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     group: 'y',
     related: ['whereq-dosbox'],
     summary:
-      'The 1995 sequel to 炎龙骑士团, in its Traditional Chinese DOS release. Import the zip and press Play: the app picks FD2.EXE and the game runs, intro animation and all. The page writes down the route in — which key skips the film, how the story dialogue advances, and how you move on the field map.',
+      'The 1995 sequel to 炎龙骑士团, in its Traditional Chinese DOS release. Import the zip and press Play: the app picks FD2.EXE and the game runs, intro animation and all. The page writes down the route in — which key skips the film, how the story dialogue advances, how you move on the field map, and how a battle is fought down to the damage and the experience points.',
     status: '1995',
     url: 'https://dos-bin.zczc.cz/%E7%82%8E%E9%BE%99%E9%AA%91%E5%A3%AB%E5%9B%A22%E9%BB%84%E9%87%91%E5%9F%8E%E4%B9%8B%E8%B0%9C.zip',
     facts: [
@@ -663,7 +663,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
     capabilities: [
       'An opening chapter that plays as a film: a castle under the moon, the two kings on their thrones, and Saul before his father.',
       'A field map you walk around a tile at a time, with characters who talk when you walk into them.',
-      'A tactical layer under the story: a command ring of four icons around the selected character — physical attack, spell attack, items, rest — plus a global map (F1) that shows the whole field with your side in blue and the enemy in red.',
+      'A tactical layer under the story: a command ring of four icons around the selected character — physical attack, spell attack, items, rest — that ends in a real battle. Move a character next to an enemy, take the attack from the ring, and the screen darkens into a night scene with a sword coming down: the pirate loses HP and the game hands out 31 experience points.',
       'A full sound system in the bundle — the Miles Design library, with drivers for the Ad Lib, the Roland, the Sound Blaster, the Tandy and the Yamaha, and SETSOUND.EXE to pick one.',
       'The game data in plain files: the animations in ANI.DAT, the character shapes in FDSHAP.DAT, the fields in FDFIELD.DAT, the text in FDTXT.DAT and the icons in FDICON.B24.',
     ],
@@ -761,12 +761,12 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
           },
           {
             kind: 'paragraph',
-            text: 'Verified on the emulator: the game starts from Play with nothing else to do, the title menu comes up, the intro and the story play, the Chinese text is all there, the character walks on the map and the conversations start. The field map and the battle interface were then taken apart as well — the next section writes down what is on the screen and what each key does.',
+            text: 'Verified on the emulator: the game starts from Play with nothing else to do, the title menu comes up, the intro and the story play, the Chinese text is all there, the character walks on the map and the conversations start. The field map and the battle interface were then taken apart as well — the next section writes down what is on the screen, what each key does, and how a battle is fought from the first move to the experience points.',
           },
         ],
       },
       {
-        title: 'The field map and the command ring',
+        title: 'The field map, the command ring and a landed attack',
         blocks: [
           {
             kind: 'paragraph',
@@ -774,19 +774,27 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
           },
           {
             kind: 'paragraph',
-            text: 'Stand the cursor on one of your own people and press Space or Enter, and the game opens that character\'s window: name, class, level, HP, MP, DX, MV, HIT, AP, EV, DP, and the equipment with the AP and DP it adds. 悠妮 is a 人類 法師 at LV.01 with EX·00, HP 028/028, MP 008/008, DX·001, MV·04, HIT·086, AP·011, EV·001 and DP·007; 亞雷斯 is a 人類 騎士 at LV.01 with EX·00, HP 048/048, MP 000/000, DX·002, MV·07, HIT·092, AP·026, EV·002 and DP·006, carrying a 刺矛 (+AP 020) and 布衣 (+DP 002).',
+            text: 'Stand the cursor on one of your own people and press Space or Enter, and the game opens that character\'s window: name, class, level, HP, MP, DX, MV, HIT, AP, EV, DP, and the equipment with the AP and DP it adds. 悠妮 is a 人類 法師 at LV.01 with EX·00, HP 028/028, MP 008/008, DX·001, MV·04, HIT·086, AP·011, EV·001 and DP·007; 亞雷斯 is a 人類 騎士 at LV.01 with EX·00, HP 048/048, MP 000/000, DX·002, MV·07, HIT·092, AP·026, EV·002 and DP·006, carrying a 刺矛 (+AP 020) and 布衣 (+DP 002); 蓋亞 is a 機械 機兵 at LV.01 with HP 050/050, MP 000/000, DX·002, MV·04, HIT·092, AP·022, EV·002 and DP·014, carrying a 威力手臂 (+AP 015) and a 戰鬥裝甲 (+DP 008).',
           },
           {
             kind: 'paragraph',
-            text: 'Around the selected character the game draws a ring of four command icons, and the layout is the one the game\'s own player notes describe: 上 physical attack, 左 spell attack, 右 items, 下 rest. The attack icons are drawn on a red plate, the other two on a blue one, and the spell icon animates with sparks around it. Press Space on the character and the ring opens; press it again on a mage and the spell list comes up — 悠妮 knows one spell, 火炎術, priced at MP 02. Stand on empty ground, press Space, and a different ring opens instead: the field menu with 系統選單, 行軍, 設定 and 結束本回合, and the system menu opens the usual 條件 / 存檔 / 讀檔 / 退出 sub-menu.',
+            text: 'Around the selected character the game draws a ring of four command icons, and the layout is the one the game\'s own player notes describe: 上 physical attack, 左 spell attack, 右 items, 下 rest. The attack icons are drawn on a red plate and the other two on a blue one — the red plate is the command that is usable at that moment, and Space, Enter and Ins confirm it. The spell icon animates with sparks around it. Press Space on the character and the ring opens; press it again on a mage and the spell list comes up — 悠妮 knows one spell, 火炎術, priced at MP 02. Stand on empty ground, press Space, and a different ring opens instead: the field menu with 系統選單, 行軍, 設定 and 結束本回合, and Enter on it opens the system menu, which reads MAP·01 TURN·001, lists the victory condition 敵全滅 and the failure condition 索爾死亡, and counts the field as ENEMY·07 FRIEND·04 NPC·00 with ¥00000000 in the treasury.',
           },
           {
             kind: 'paragraph',
-            text: 'F1 opens the global map — the whole field at a glance, with our side in blue and the enemy in red. The enemy on this map is a group of masked pirates, red headband over a dark visor, and their numbers are readable: put the cursor on one and the panel shows its HP (028) as it shows a character\'s. Press Space on one of your own people and the game enters 進行移動: the arrow keys then move the cursor and the panel follows it.',
+            text: 'F1 opens the global map — the whole field at a glance, with our side in blue and the enemy in red. The enemy on this map is a group of masked pirates, red headband over a dark visor, and their numbers are readable: put the cursor on one and the panel shows its HP (028) as it shows a character\'s.',
           },
           {
             kind: 'paragraph',
-            text: 'What is still open: no hit was landed. Choosing 物理攻擊 out of the ring did not work from the app — the direction keys moved the map cursor but never changed which icon the ring had selected, and neither did long key holds, Android key events, the numeric keypad scancodes, or taps and drags on the icons themselves. So the attack animation, the damage numbers and the enemy turn are still unverified, and that is what the comments on this page are for.',
+            text: 'Moving a character is two steps. Put the cursor on one of your own people and press Space: the game enters 進行移動, the character\'s stats appear in the panel at the top left, and the arrow keys now walk the cursor around while the tile panel follows it. Press Space again and the character walks to the tile the cursor was standing on. We moved 亞雷斯 three tiles west and two tiles south, from the path in the north to the grass next to a pirate.',
+          },
+          {
+            kind: 'paragraph',
+            text: 'Standing next to the enemy brings the command ring up around 亞雷斯, and now 物理攻擊 is the one on the red plate — the others turn blue. Space picks the target: the cursor jumps onto the pirate and its HP shows in the panel. One more Space lands the hit. The screen darkens into a night scene with a crescent moon and a sword comes slashing down, with 亞雷斯 LV·01 HP 048 MP 000 on one side and 盜賊 LV·02 on the other. The pirate went from 028 HP to 007 HP, and the game paid for the hit: 得到經驗31點！ — 31 experience points, shown on a panel with the character\'s portrait. Press Space on the enemy itself and the game opens its whole sheet: 盜賊, 人類 盜賊, LV·02, HP 007/028, EX 007/028, DX·002, MV·04, HIT·097, AP·024, EV·002, DP·004, carrying a 短劍 (+AP 010) and a 布衣 (+DP 002).',
+          },
+          {
+            kind: 'paragraph',
+            text: 'What is still open: the enemy turn. The 結束本回合 entry of the field menu is reachable — Ins on it pops 要結束本回合的行動嗎？ with YES and NO and 悠妮\'s portrait — but the answer could not be given from the app, so the enemies have not been seen to move or to strike back. The ring also only ever confirms its red entry: the direction keys moved the map cursor but never changed which icon the ring had picked, and neither did long key holds, Android key events, the numeric keypad scancodes, or taps and drags on the icons themselves. That is what the comments on this page are for.',
           },
           {
             kind: 'paragraph',
@@ -837,7 +845,7 @@ export const DOS_GAMES_ENTRIES: AtlasEntry[] = [
           {
             kind: 'list',
             items: [
-              'The game itself — the DOSBox banner, the title animation, the 漢堂 card, the opening dialogue, the field map, the command ring, the character windows and the global map, all read on the emulator.',
+              'The game itself — the DOSBox banner, the title animation, the 漢堂 card, the opening dialogue, the field map, the command ring, the character windows, the global map, the system menu and a whole battle: the move, the target, the night attack scene, the damage and the experience award, all read on the emulator.',
               'The game\'s own player notes for the control scheme — 新手提示 (操作): 方向鍵 = 移動游標, Space/Enter/Ins+己方人員：進行移動，移動後 上=攻擊，左=施法，右=物品，下=休息, Space/Enter/Ins+空地：上=系統選單，左=行軍，右=設定，下=結束本回合, and the terrain table that gives 一般 +5% AP / −5% DP and 森林 −5% AP / +10% DP.',
               'The Chinese walkthrough for the ring layout — 人物處按確定：上面：物理攻擊，左面：法術攻擊，下面：休息，右面：物品裝備 — and 空白處按確定：上=系統選單，左=行軍，右=設定，下=結束本回合.',
               'The title screen\'s own line: DYNASTY INTERNATIONAL INFORMATION CO., LTD.',
