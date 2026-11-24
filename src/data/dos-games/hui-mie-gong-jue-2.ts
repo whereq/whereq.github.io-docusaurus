@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "NUKEM2.EXE"},
     {label: "Bundle", value: "17 files · 1.0 MB"},

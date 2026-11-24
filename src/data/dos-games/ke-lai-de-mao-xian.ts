@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2002"},
+    {label: "Type", value: "Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "CLYDE1.EXE"},
     {label: "Bundle", value: "14 files · 290 KB"},

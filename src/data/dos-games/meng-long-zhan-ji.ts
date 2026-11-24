@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "CYGNUS"},
     {label: "Published", value: "1994"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "RAPTOR.EXE"},
     {label: "Bundle", value: "11 files · 3.8 MB"},

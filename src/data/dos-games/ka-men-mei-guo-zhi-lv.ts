@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},
+    {label: "Type", value: "Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "CARMEN.EXE"},
     {label: "Bundle", value: "8 files · 579 KB"},

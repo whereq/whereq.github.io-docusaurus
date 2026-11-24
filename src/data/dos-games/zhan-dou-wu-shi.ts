@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},
+    {label: "Type", value: "Role-playing"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "WARWIZ1.EXE"},
     {label: "Bundle", value: "490 files · 2.1 MB"},

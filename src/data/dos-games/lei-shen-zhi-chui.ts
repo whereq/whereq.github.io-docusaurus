@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "1996"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "quake.exe"},
     {label: "Bundle", value: "24 files · 67.6 MB"},

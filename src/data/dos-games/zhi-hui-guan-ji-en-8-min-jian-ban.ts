@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "2009"},
+    {label: "Type", value: "Action · Adventure"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "KEEN6.EXE"},
     {label: "Bundle", value: "25 files · 915 KB"},

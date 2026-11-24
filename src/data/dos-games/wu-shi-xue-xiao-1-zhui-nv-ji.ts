@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1990"},
+    {label: "Type", value: "Adventure · Text adventure"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "S101MAIN.EXE"},
     {label: "Bundle", value: "58 files · 2.4 MB"},

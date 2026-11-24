@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1991"},
+    {label: "Type", value: "Adventure · Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "timewarp.exe"},
     {label: "Bundle", value: "13 files · 2.9 MB"},

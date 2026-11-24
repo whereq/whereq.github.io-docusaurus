@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1993"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "JILL.EXE"},
     {label: "Bundle", value: "41 files · 294 KB"},

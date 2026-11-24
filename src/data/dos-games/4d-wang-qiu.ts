@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},
+    {label: "Type", value: "Simulation · Sports"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "TENNIS.EXE"},
     {label: "Bundle", value: "191 files · 1.2 MB"},

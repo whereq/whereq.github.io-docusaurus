@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},
+    {label: "Type", value: "Adventure · Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "SADLAKE.EXE"},
     {label: "Bundle", value: "147 files · 2.1 MB"},

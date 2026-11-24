@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "Not dated"},
+    {label: "Type", value: "Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "REVENGE.EXE"},
     {label: "Bundle", value: "6 files · 2.3 MB"},

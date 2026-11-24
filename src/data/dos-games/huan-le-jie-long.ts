@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "SOFTSTAR"},
     {label: "Published", value: "1989"},
+    {label: "Type", value: "Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "POKER.EXE"},
     {label: "Bundle", value: "109 files · 498 KB"},

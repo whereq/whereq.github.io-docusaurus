@@ -43,6 +43,7 @@ import zipfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dos_game_slugs import initial_for, unique_slug  # noqa: E402
+from dos_game_categories import LABELS as CATEGORY_LABELS  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # The bundles are served by the archive the pages came from. There is no
@@ -154,7 +155,7 @@ def language_sentence(meta):
     return None
 
 
-def build_entry(game, meta, slug, tag, accent):
+def build_entry(game, meta, slug, tag, accent, types):
     """One catalogue entry, as the Atlas wants it."""
     name = game['name']
     entry_point = meta.get('entryExecutable') or game['indexExecutable'] or '—'
@@ -162,6 +163,7 @@ def build_entry(game, meta, slug, tag, accent):
     size = game['bytes']
     year = meta.get('yearFiles')
     publisher = publisher_sentence(meta)
+    category_line = ' · '.join(CATEGORY_LABELS.get(item, item) for item in types)
 
     tagline = f"MS-DOS{' · ' + str(year) if year else ''} — {human_files(files)} files, {megabytes(size)}."
 
@@ -184,6 +186,7 @@ def build_entry(game, meta, slug, tag, accent):
     facts = []
     facts.append({'label': 'Developer', 'value': meta.get('publisher') or meta.get('publisherSeen') or 'Not stated in the bundle'})
     facts.append({'label': 'Published', 'value': str(year) if year else 'Not dated'})
+    facts.append({'label': 'Type', 'value': category_line})
     facts.append({'label': 'Platform', 'value': 'MS-DOS'})
     facts.append({'label': 'Entry point', 'value': entry_point})
     facts.append({'label': 'Bundle', 'value': f'{human_files(files)} files · {megabytes(size)}'})
@@ -391,6 +394,7 @@ def main():
     parser.add_argument('--index', default='/home/whereq/git/dos/games_index.csv')
     parser.add_argument('--metadata', default='/home/whereq/git/whereq-dosbox-claude/data/dos-games-metadata.json')
     parser.add_argument('--manifest', default='/home/whereq/git/whereq-dosbox-claude/data/dos-games-manifest.json')
+    parser.add_argument('--categories', default=os.path.expanduser('~/git/dos/games_categories.json'))
     parser.add_argument('--routes', default=os.path.join(ROOT, 'src/pages/dos-games'))
     parser.add_argument('--pages', default=os.path.join(ROOT, 'src/data/dos-games'))
     parser.add_argument('--images', default=os.path.join(ROOT, 'static/img/dos-games'))
@@ -401,6 +405,15 @@ def main():
     if os.path.exists(args.metadata):
         for record in json.load(open(args.metadata, encoding='utf-8')):
             metadata[record['identifier']] = record
+
+    # The category of every game, read from the archive's own manifest and
+    # the descriptions the same project publishes. A game can be in more
+    # than one category — see `scripts/dos_game_categories.py`.
+    categories = {}
+    if os.path.exists(args.categories):
+        categories = json.load(open(args.categories, encoding='utf-8'))
+    else:
+        print(f'warning: no categories at {args.categories} — every game is uncategorised')
 
     with open(args.index, newline='', encoding='utf-8') as handle:
         rows = list(csv.DictReader(handle))
@@ -460,6 +473,7 @@ def main():
         slug = unique_slug(name, taken)
         tag = initial_for(slug)
         accent = ACCENTS.get(tag, '#5D6D7E')
+        types = categories.get(identifier, {}).get('types', [])
 
         game = {
             'name': name,
@@ -474,7 +488,7 @@ def main():
             'diskimages': images,
             'datafiles': max(0, len(names) - len(exes) - len(bats) - len(coms) - len(images)),
         }
-        entry = build_entry(game, meta, slug, tag, accent)
+        entry = build_entry(game, meta, slug, tag, accent, types)
         entries.append(entry)
         year = meta.get('yearFiles')
         index_rows.append({
@@ -485,6 +499,7 @@ def main():
             'files': game['files'],
             'entry': meta.get('entryExecutable') or game['indexExecutable'] or '—',
             'tag': tag,
+            'types': types,
             'url': entry['url'],
             'page': f'/dos-games/{slug}/',
         })
@@ -586,6 +601,7 @@ def main():
             'files': files,
             'entry': entry_point,
             'tag': tag,
+            'types': categories.get(identifier, {}).get('types', []),
             'url': row['source_url'],
             'page': f'/atlas/dos-games/{slug}/',
         })
@@ -626,6 +642,8 @@ export type DosGameIndexEntry = {
   entry: string;
   /** The first letter of the name — the letter its release sits under. */
   tag: string;
+  /** The categories the game belongs to — it can be in more than one. */
+  types: string[];
   /** The download — the original copy, on the archive the page came from. */
   url: string;
   /** Where the game's own page lives on this site. */
@@ -644,6 +662,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
             handle.write(f'    files: {row["files"]},\n')
             handle.write(f'    entry: {ts(row["entry"])},\n')
             handle.write(f'    tag: {ts(row["tag"])},\n')
+            handle.write(f'    types: [{", ".join(ts(item) for item in row["types"])}],\n')
             handle.write(f'    url: {ts(row["url"])},\n')
             handle.write(f'    page: {ts(row["page"])},\n')
             handle.write('  },\n')

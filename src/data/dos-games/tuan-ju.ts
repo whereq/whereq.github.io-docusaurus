@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2003"},
+    {label: "Type", value: "Real-time strategy"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "JS_RETRN.EXE"},
     {label: "Bundle", value: "904 files · 11.1 MB"},

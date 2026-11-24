@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "2005"},
+    {label: "Type", value: "Strategy"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "gtqs.exe"},
     {label: "Bundle", value: "512 files · 8.3 MB"},

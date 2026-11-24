@@ -59,6 +59,10 @@ export const DOS_GAMES_INTRO: AtlasSection[] = [
         text: 'The shelf above holds the games that have been played through on an emulator. The catalogue behind it holds every game in the archive — one page each, with the facts read out of the bundle itself, the download, and the setup the bundle\'s own shape implies. Those pages say plainly that nobody has played them yet, and each one carries a comment thread for whoever gets there first.',
       },
       {
+        kind: 'paragraph',
+        text: 'The catalogue sorts the games into categories — action, role-playing, simulation, strategy and the rest — read off the manifest of the project the bundles were mirrored from and the descriptions that project publishes. A game can be in more than one category, and where it is, it is listed under both.',
+      },
+      {
         kind: 'links',
         items: [
           {

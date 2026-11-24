@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1995"},
+    {label: "Type", value: "Simulation"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "RW.EXE"},
     {label: "Bundle", value: "1,591 files · 23.1 MB"},

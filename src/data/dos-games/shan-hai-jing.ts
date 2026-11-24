@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},
+    {label: "Type", value: "Tactics"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "DOSBOX.BAT"},
     {label: "Bundle", value: "644 files · 22.9 MB"},

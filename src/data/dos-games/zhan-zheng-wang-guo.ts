@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "1994"},
+    {label: "Type", value: "Strategy"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "CDKAW.EXE"},
     {label: "Bundle", value: "331 files · 4.7 MB"},

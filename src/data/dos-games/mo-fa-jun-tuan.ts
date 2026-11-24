@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},
+    {label: "Type", value: "Tactics"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "WARLOCKD.EXE"},
     {label: "Bundle", value: "40 files · 208.7 MB"},

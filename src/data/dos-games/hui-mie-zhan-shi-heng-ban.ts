@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "2009"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "DOOM2D.EXE"},
     {label: "Bundle", value: "6 files · 2.5 MB"},

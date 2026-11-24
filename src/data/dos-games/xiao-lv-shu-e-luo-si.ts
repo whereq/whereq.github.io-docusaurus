@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "2010"},
+    {label: "Type", value: "Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "LEMRIS.EXE"},
     {label: "Bundle", value: "7 files · 150 KB"},

@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},
+    {label: "Type", value: "Simulation · Real-time strategy · Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "CLONK.EXE"},
     {label: "Bundle", value: "9 files · 163 KB"},

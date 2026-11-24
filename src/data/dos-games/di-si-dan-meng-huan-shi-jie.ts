@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "2010"},
+    {label: "Type", value: "Action · Adventure"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "DIZZY.EXE"},
     {label: "Bundle", value: "6 files · 182 KB"},

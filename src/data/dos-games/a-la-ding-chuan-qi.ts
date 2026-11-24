@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "VIRGIN"},
     {label: "Published", value: "1994"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "ALADDIN.EXE"},
     {label: "Bundle", value: "303 files · 1.7 MB"},

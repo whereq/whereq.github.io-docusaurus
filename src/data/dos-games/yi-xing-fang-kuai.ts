@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "SOFTSTAR"},
     {label: "Published", value: "1989"},
+    {label: "Type", value: "Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "21TETRIS.EXE"},
     {label: "Bundle", value: "111 files · 132 KB"},

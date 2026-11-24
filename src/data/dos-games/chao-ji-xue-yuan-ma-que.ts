@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},
+    {label: "Type", value: "Puzzle · Role-playing"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "SCMC.EXE"},
     {label: "Bundle", value: "8 files · 724 KB"},

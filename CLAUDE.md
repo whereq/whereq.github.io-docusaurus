@@ -56,7 +56,9 @@ The Atlas rail lists every page of a collection, so a collection of 1 898 games
 would put a 1 898-item sidebar on every page of the site — the whole build went
 from 250 MB to 1.1 GB. The Atlas keeps the games that have been played through
 on an emulator; the catalogue keeps every game in the archive, one page each,
-generated from the bundle itself.
+generated from the bundle itself. The rail now lists the DOS Games collection
+by name and no further — the collection keeps growing, so nothing under it is
+listed there any more.
 
 Architecture:
 
@@ -79,19 +81,50 @@ reads the archive and writes the pages.
 
 | Piece | Where | What it is |
 |---|---|---|
-| The index | `src/data/dos-games-index.ts` | One line per game — id, name, year, size, files, entry point, tag, download, page path. It is what the catalogue page lists and what its search box searches. |
+| The index | `src/data/dos-games-index.ts` | One line per game — id, name, year, size, files, entry point, tag, categories, download, page path. It is what the catalogue page lists and what its search box searches. |
 | A game | `src/data/dos-games/<slug>.ts` | The whole page: the facts, the download, the setup, how to play, what is in the bundle, and where the facts came from. |
 | A route | `src/pages/dos-games/<slug>.tsx` | A thin file that imports its own game module. |
 | A card mark | `static/img/dos-games/<slug>.svg` | The first character of the name on a coloured plate. |
-| The catalogue | `src/components/DosGames/` | `DosGamesCatalogue` (search + letter filter + table) and `DosGamePage` (one game, no rail). |
+| The categories | `src/data/dos-games-categories.ts` | The ten categories the games are sorted into — id, label, blurb, the manifest code behind it, and its accent colour. Generated, like the index. |
+| The catalogue | `src/components/DosGames/` | `DosGamesCatalogue` (search + category filter + card grid in a scroll panel) and `DosGamePage` (one game, no rail). |
 
+- **The catalogue is a panel, not a table.** The listing sits in a scroll
+  container of its own — `@whereq/react`'s `Scrollbar`, the same one the Atlas
+  rail uses — and the search box and the category chips are **sticky at the
+  top of that panel**, so a reader always knows which filters are applied to
+  what is on screen. The games are grouped by category, each group a grid of
+  cards. A game that is in two categories is listed under both, so the counts
+  add up to more than the number of games.
+- **The Atlas rail lists the DOS Games collection and nothing else.** A
+  collection that keeps growing would put a list as long as the collection
+  beside every page of the site. `AtlasCollection.rail` is `'groups'` by
+  default; the DOS Games collection sets `rail: 'collection'`, and
+  `AtlasShell` then renders the collection link without its groups.
+- **Categories are read from a primary source, not invented.** The archive
+  keeps no genre of its own, so the categories come from the manifest of
+  [`rwv/chinese-dos-games`](https://github.com/rwv/chinese-dos-games) — the
+  project the bundles were mirrored from, and the one the archive's SHA-256s
+  are checked against. Every game it knows carries a `type` code (ACT, SIM,
+  RPG, AVG, PUZ, SLG, HGA, SPG, RTS); that code is the game's primary
+  category. Where the same project publishes a description that names a
+  further genre, the game is listed under that one too — the manifest decides
+  the primary category, and a description may add to it, never take one away.
+  **The codes are not the standard abbreviations**: `SPG` is not sports here
+  but the turn-based tactics games, which is why the category is called
+  *Tactics*; the sports titles sit under `SIM`. Do not "correct" this back.
+- **Regenerate the categories first**, then the pages:
+  `python3 scripts/dos_game_categories.py` writes `~/git/dos/games_categories.json`
+  and `src/data/dos-games-categories.ts`; then
+  `~/git/whereq-dosbox-claude/.venv/bin/python scripts/generate-dos-games.py`
+  writes the index and the pages. The generator overwrites everything it owns
+  — do not hand-edit the index, the categories or a generated page module.
+  The category script needs the two cached inputs in `~/git/dos/`:
+  `games_types.json` (the upstream manifest) and `games_descriptions.json`
+  (the descriptions the project publishes).
 - **The split is the point.** The index is small enough to sit in the site's
   shared bundle; a game's own text is imported only by its own route, so the
   browser fetches one game at a time. One module per game is what keeps the
   build inside the Pages size limit.
-- **Regenerate with** `~/git/whereq-dosbox-claude/.venv/bin/python scripts/generate-dos-games.py`.
-  The generator overwrites everything it owns — do not hand-edit the index or a
-  generated page module.
 - **The download link is the original copy.** Every game page links straight
   at `https://dos-bin.zczc.cz/<name>.zip` — the archive the page was
   generated from. There is no mirror: the file the reader downloads is the

@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},
+    {label: "Type", value: "Simulation · Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "SKYXMAS.EXE"},
     {label: "Bundle", value: "29 files · 585 KB"},

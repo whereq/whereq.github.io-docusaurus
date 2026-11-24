@@ -141,6 +141,7 @@ export default function AtlasShell({
                     </Link>
 
                     {collection.kind === 'entries' &&
+                      collection.rail !== 'collection' &&
                       collection.groups.map((group) => (
                         <div className={styles.railGroup} key={group.id}>
                           <p className={styles.railGroupTitle}>{group.title}</p>

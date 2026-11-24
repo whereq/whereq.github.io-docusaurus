@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "ELECTRONIC ARTS"},
     {label: "Published", value: "1993"},
+    {label: "Type", value: "Strategy"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "7cities.exe"},
     {label: "Bundle", value: "157 files · 1.1 MB"},

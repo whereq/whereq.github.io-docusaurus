@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "ACTIVISION"},
     {label: "Published", value: "1989"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "FATMAN.EXE"},
     {label: "Bundle", value: "110 files · 584 KB"},

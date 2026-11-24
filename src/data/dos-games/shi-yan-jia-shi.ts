@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1987"},
+    {label: "Type", value: "Simulation · Sports"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "TDCGA.EXE"},
     {label: "Bundle", value: "38 files · 162 KB"},

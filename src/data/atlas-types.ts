@@ -119,6 +119,16 @@ export type AtlasCollection = {
   intro?: AtlasSection[];
   /** The groups of pages, for `kind: 'entries'` collections. */
   groups: AtlasGroup[];
+  /**
+   * How much of the collection the rail lists under its name.
+   *
+   * `groups` — the default — lists the collection's groups and their pages
+   * under it. `collection` lists the collection and nothing else, for a
+   * collection that keeps growing: the DOS games number a thousand, and a
+   * rail that listed them all would put a thousand rows beside every page
+   * of the site.
+   */
+  rail?: 'groups' | 'collection';
   /** Highlighted blocks shown between the introduction and the directory. */
   highlights?: AtlasHighlight[];
   /**

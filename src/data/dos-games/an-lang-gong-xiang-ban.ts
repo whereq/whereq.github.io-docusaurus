@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "1995"},
+    {label: "Type", value: "Action · Adventure"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "darkwolf.exe"},
     {label: "Bundle", value: "8 files · 707 KB"},

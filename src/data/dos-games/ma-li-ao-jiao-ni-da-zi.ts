@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "INTERPLAY"},
     {label: "Published", value: "1992"},
+    {label: "Type", value: "Puzzle"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "MARIO.EXE"},
     {label: "Bundle", value: "173 files · 2.0 MB"},

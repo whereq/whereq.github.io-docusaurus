@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "DOMO"},
     {label: "Published", value: "1992"},
+    {label: "Type", value: "Role-playing"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "DARKLAND.EXE"},
     {label: "Bundle", value: "642 files · 16.1 MB"},

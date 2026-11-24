@@ -112,6 +112,9 @@ export const ATLAS_COLLECTIONS: AtlasCollection[] = [
     primaryAction: 'Download the bundle',
     intro: DOS_GAMES_INTRO,
     groups: DOS_GAMES_GROUPS,
+    // The games keep coming, and the catalogue lists every one of them
+    // by category — so the rail lists the collection and nothing more.
+    rail: 'collection',
     comments: true,
     notice: {
       title: 'About these downloads',

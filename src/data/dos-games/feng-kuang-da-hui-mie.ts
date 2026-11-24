@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1985"},
+    {label: "Type", value: "Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "RAMPAGE.COM"},
     {label: "Bundle", value: "14 files · 124 KB"},

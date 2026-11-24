@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},
+    {label: "Type", value: "Tactics · Role-playing · Action"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "UVCONFIG.EXE"},
     {label: "Bundle", value: "175 files · 5.5 MB"},

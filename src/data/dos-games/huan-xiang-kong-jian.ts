@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1987"},
+    {label: "Type", value: "Adventure · Text adventure"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "LSL1.EXE"},
     {label: "Bundle", value: "34 files · 3.1 MB"},

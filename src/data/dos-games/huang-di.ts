@@ -20,6 +20,7 @@ const entry: AtlasEntry = {
   facts: [
     {label: "Developer", value: "光榮"},
     {label: "Published", value: "1996"},
+    {label: "Type", value: "Role-playing · Strategy"},
     {label: "Platform", value: "MS-DOS"},
     {label: "Entry point", value: "SKING.EXE"},
     {label: "Bundle", value: "171 files · 10.7 MB"},
