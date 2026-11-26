@@ -6,7 +6,7 @@ description: "The privacy policy of A-DOS, the Android port of DOSBox. The app c
 
 # Privacy Policy — A-DOS
 
-**Effective date:** 18 November 2026
+**Effective date:** 26 November 2026
 **Applies to:** A-DOS for Android, package `com.whereq.ados`, and every build
 published under that package name.
 **Developer:** WhereQ — <googol.zhang@gmail.com>
@@ -58,8 +58,11 @@ the point of it.
 | Permission | Why |
 |---|---|
 | `VIBRATE` | the virtual keyboard gives haptic feedback when a key is pressed |
-| `FOREGROUND_SERVICE` and `FOREGROUND_SERVICE_SPECIAL_USE` | the emulator keeps running while you switch to another app, so you come back to the exact game state — DOSBox has no save-state of its own |
-| `POST_NOTIFICATIONS` | the ongoing notification that belongs to that foreground service (Android 13 and newer) |
+
+`VIBRATE` is the only permission the app declares. It runs no service, asks
+for no notification permission, and keeps nothing alive in the background:
+leaving the app ends the emulator process, and the save states you made are
+what bring the game back.
 
 No permission is used to read data about you. The app is granted access to
 folders only through the system's own file picker, and only to the folder you

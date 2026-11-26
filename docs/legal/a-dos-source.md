@@ -24,22 +24,22 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `bfbbcaf` |
+| Source commit | `652ddb2` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `48eb03557379eb89e99bb264ce71860e28c4bcd33ae62ecaa7862715ff620de7` |
+| SHA-256 | `89efed3e52c2f3547f478201f0326cf755f57a514001896e77b56d85b536986c` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# 48eb03557379eb89e99bb264ce71860e28c4bcd33ae62ecaa7862715ff620de7
+# 89efed3e52c2f3547f478201f0326cf755f57a514001896e77b56d85b536986c
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
 that names the version, the commit and the build. The shipped build was
-made from `bfbbcaf` — the commit the snapshot above is taken from, so the
+made from `652ddb2` — the commit the snapshot above is taken from, so the
 archive is the exact source of the binary. It holds the DOSBox core with
 its per-file copyright and licence headers intact, the Android
 application, the NDK/CMake build of the native library, the desktop Linux
@@ -65,6 +65,19 @@ of most phones, with a larger block and a deeper prebuffer. It changes
 the audio buffering only; the latency rises by about 50 ms, which is
 inaudible in a DOS game. The configuration is regenerated from the asset
 on every boot, so the new settings take effect on the next start.
+
+**There is no foreground service.** This build removes the `specialUse`
+foreground service the earlier snapshot carried, together with the
+`FOREGROUND_SERVICE`, `FOREGROUND_SERVICE_SPECIAL_USE` and
+`POST_NOTIFICATIONS` permissions it needed. The app declares one permission,
+`VIBRATE`. Leaving the app ends the emulator process — the emulator is
+normally kept as a cached process, and the save states you made are what
+bring the game back. The release notes in `docs/releases/1.0.0.0.md` describe
+the trade in full.
+
+**The release build cannot sign itself.** `bin/build.sh apk --release` now
+fails with an actionable message when no release keystore is configured,
+instead of quietly signing with the debug key.
 
 ## Building it
 
