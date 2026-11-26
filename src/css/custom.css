@@ -96,16 +96,15 @@ html, body {
   min-height: 100vh;
 }
 
-/* Reserve space so page content never hides behind the fixed footer, and
-   behind the consent banner when it is on screen. */
+/* Reserve space so page content never hides behind the fixed footer. */
 .main-wrapper {
   flex: 1;
-  padding-bottom: calc(var(--footer-height) + var(--consent-banner-height, 0px));
+  padding-bottom: var(--footer-height);
 }
 
 /* Footer is always visible at the bottom of the viewport. Its height is
-   pinned to --footer-height so that anything stacked on top of it — the
-   consent banner — sits flush against it rather than over a gap. */
+   pinned to --footer-height, so anything stacked on top of it sits flush
+   against it rather than over a gap. */
 footer.footer {
   position: fixed;
   bottom: 0;

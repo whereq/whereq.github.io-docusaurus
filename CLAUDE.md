@@ -100,32 +100,31 @@ What is left here is the redirect table.
   because GitHub Pages caps a published site at 1 GB.
 ## Advertising — Google AdSense
 
-The site is monetised with **Google AdSense auto ads**: one script on every
-page, and AdSense decides where the ads land.
+**This site carries no advertising.** The advertising lives on
+[PC Legends](https://pclegends.games/), the DOS games archive, in the
+`whereq/pclegends.games` repository.
 
-- **The publisher ID is the only thing to set.** `src/data/adsense.ts` holds
-  `ADSENSE_CLIENT`; it is empty until the account is approved, and while it is
-  empty `ADSENSE_ENABLED` is false and the script is never injected. Paste the
-  `ca-pub-…` ID there and nothing else has to change.
-- **Ads are gated on consent.** `src/components/AdsenseConsent` is mounted
-  site-wide from `src/theme/Root.tsx`. It shows the banner, remembers the
-  choice in `localStorage` under `whereq.consent`, and **only injects Google's
-  script once the visitor has accepted**. Declining means no ad script, no ad
-  cookie and no request to Google at all. The library is not loaded, so there
-  is nothing to personalise.
-- **The banner sits above the fixed footer** and publishes its own height as
-  the `--consent-banner-height` custom property, which `.main-wrapper` adds to
-  its bottom padding. Do not hard-code the banner's height in CSS.
+- **AdSense only accepts a root domain.** A subdomain of someone else's
+  domain is not eligible — `whereq.github.io` is a subdomain of `github.io`,
+  which Google does not recognise as the publisher's. That is why the games
+  site has a domain of its own, and why the docs hub can never be monetised
+  in place.
+- **The pattern that works** (and what the games site does): the loader is
+  part of every page's **served HTML**, so that AdSense finds the ad code
+  when it reviews the site, and **consent is Google's** — the European
+  regulations message in the AdSense console asks the visitor, and ads are
+  served only to those who agree. A hand-rolled banner that hides the script
+  until a click leaves the served page with no ad code, and the review
+  rejects the site for exactly that.
 - **The privacy policy** is `src/pages/privacy.mdx`. It is a legal document,
-  so it states what actually happens — AdSense, Giscus, jsDelivr for KaTeX,
-  GitHub Pages for hosting, and that the search box never leaves the browser.
-  If a third party is added, the policy has to be updated with it.
+  so it states what actually happens — on this site that means Giscus,
+  jsDelivr for KaTeX, GitHub Pages for hosting, and that the search box
+  never leaves the browser. It says plainly that no advertising is served
+  here, and points at the games site's policy for that. If a third party is
+  added, the policy has to be updated with it.
 - **The policy needs a page route**, not a bare markdown file: Docusaurus
   serves `src/pages/privacy.mdx` at `/privacy`. The A-DOS policy is a separate
   document at `/a-dos/privacy` and covers the app, not the site.
-- **The consent choice can be changed later.** `src/components/ConsentSettings`
-  on the privacy page asks the banner to come back rather than overwriting the
-  stored answer.
 - Ads are Google's own rendering — do not restyle the ad units. The site is
   dark-first, and AdSense decides what its units look like.
 
