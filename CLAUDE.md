@@ -124,7 +124,7 @@ What is left here is the redirect table.
   added, the policy has to be updated with it.
 - **The policy needs a page route**, not a bare markdown file: Docusaurus
   serves `src/pages/privacy.mdx` at `/privacy`. The A-DOS policy is a separate
-  document at `/a-dos/privacy` and covers the app, not the site.
+  document at `/docs/privacy/a-dos` and covers the app, not the site.
 - Ads are Google's own rendering — do not restyle the ad units. The site is
   dark-first, and AdSense decides what its units look like.
 
