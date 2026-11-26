@@ -8,9 +8,11 @@ description: "Every release of WhereQ-DOSBox, the Android port of DOSBox, with t
 
 **WhereQ-DOSBox** is the Android port of DOSBox. It carries the DOSBox emulator
 core (upstream **r4305**, the SDL2 branch), so it is **GPLv2** work, and it is
-published under the package name `com.whereq.dosbox`. It runs on **Android 5.0
-or newer**, and every release APK carries the native library for the three ABIs
-the project builds: `arm64-v8a`, `armeabi-v7a` and `x86_64`.
+published under the package name `com.whereq.dosbox`. It runs on **Android 6.0
+or newer** since 1.0.0.19 — and since that release the app's own promise and
+the native library it ships agree, which they did not before — and every
+release APK carries the native library for the three ABIs the project builds:
+`arm64-v8a`, `armeabi-v7a` and `x86_64`.
 
 This page is the ledger of what has shipped: every release, the APK that people
 actually download, its SHA-256, and the release note that goes with it.
@@ -42,7 +44,8 @@ there is no release note for either.
 
 | Version | Date | APK size (bytes) | APK SHA-256 | Published |
 |---|---|---|---|---|
-| [1.0.0.18](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.18/whereq-dosbox-1.0.0.18.apk) | 2026-11-24 | 16 511 577 | `80cc3cdfa54a3dff7296d298eef72fffa771c57a992c30bab1793c6f9a97d4d0` | releases page |
+| [1.0.0.19](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.19/whereq-dosbox-1.0.0.19.apk) | 2026-11-25 | 16 725 927 | `39a6c53f9951247c706f08185e54cf7558ae137250866a1d41f27d6ba1ccb568` | releases page |
+| [1.0.0.18](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.18/whereq-dosbox-1.0.0.18.apk) | 2026-11-24 | 16 511 577 | `80cc3cdfa54a3dff7296d298eef72fffa771c57a992c30bab1793c6f9a97d4d0` | releases page |
 | [1.0.0.17](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.17/whereq-dosbox-1.0.0.17.apk) | 2026-11-20 | 16 510 522 | `796203db84f31e994c45a3965fe3919b5e7a030a5ad8e45e4a9eabbed3f4ac0a` | releases page |
 | [1.0.0.16](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.16/whereq-dosbox-1.0.0.16.apk) | 2026-11-20 | 16 510 058 | `183f16ee3fd219a878b56b6a08758a184370b834a0fef63b63a7aea7f4faa773` | releases page |
 | [1.0.0.15](https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.15/whereq-dosbox-1.0.0.15.apk) | 2026-11-20 | 16 500 506 | `dbf776abe6b69541194fa5bded5d2c807a94add4733a74ea2620b03227263f42` | releases page |
@@ -75,9 +78,9 @@ b16b480d5a1ff6d35baff0b15fa3fc4b0ee815e500861fbff1b062c9bf7d3933
 Verify a download against the checksum above before you install it:
 
 ```sh
-curl -LO https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.18/whereq-dosbox-1.0.0.18.apk
-sha256sum whereq-dosbox-1.0.0.18.apk
-# 80cc3cdfa54a3dff7296d298eef72fffa771c57a992c30bab1793c6f9a97d4d0
+curl -LO https://github.com/whereq/whereq-dosbox/releases/download/v1.0.0.19/whereq-dosbox-1.0.0.19.apk
+sha256sum whereq-dosbox-1.0.0.19.apk
+# 39a6c53f9951247c706f08185e54cf7558ae137250866a1d41f27d6ba1ccb568
 ```
 
 From 1.0.0.9 on, the same checksum is also published next to the APK as a
@@ -106,8 +109,47 @@ misreading them, so a save is never loaded as if it were something else.
 | 1.0.0.16 | not mentioned in this release's notes |
 | 1.0.0.17 | unchanged |
 | 1.0.0.18 | unchanged |
+| 1.0.0.19 | unchanged |
 
 ## The release notes
+
+### 1.0.0.19 — 25 November 2026
+
+A **maintenance** release: the whole build toolchain moves to the current
+stable line, and the app finally says the truth about the Android versions it
+runs on.
+
+- **The app runs on Android 6.0 or newer.** It always said so, and it did not:
+  the manifest claimed API 21 while the native library was built for API 24, so
+  the app really only started on Android 7.0 and the claim was a promise the
+  binary could not keep. The library is now built for **API 23** and the
+  manifest says 23 — the promise and the shipped binary agree for the first
+  time, and the floor is one step lower than it has ever been. It is also the
+  floor every dependency in the app asks for, so nothing in the app layer had
+  to be bent to reach it.
+- **The build toolchain is the current stable line.** AGP **9.5.3**, Gradle
+  **9.9.2**, Kotlin **2.4.21**, the current AndroidX releases, NDK **r30**,
+  CMake **3.31.6**, build-tools **37.0.0** and the API **37** platform. AGP 9
+  compiles the Kotlin sources itself, so the `kotlin-android` plugin is gone
+  from the build, and the DSL is the new one — properties instead of method
+  calls. Nothing of this reaches the phone: it is the tools that make the APK,
+  not the APK.
+- **SDL2 2.32.10.** The Java shell is upstream 2.32.10 with exactly two
+  deliberate deviations, both of them there to keep the app the way it is. The
+  six `java.util.stream` calls in the audio-device code are written as plain
+  loops, because `java.util.stream` only exists from API 24. And the activity
+  keeps `SCREEN_ORIENTATION_FULL_SENSOR` instead of upstream's new `FULL_USER`,
+  because this app is a landscape-first DOS machine and `FULL_USER` would
+  freeze a game in portrait on a phone with auto-rotate switched off. The SDL2
+  tarball itself is still the pristine upstream release.
+
+Nothing else moves. The emulator core, the bundle launcher, the on-screen
+keyboard, **Game Mode** and the save states are exactly what they were, and
+the APK is still signed with the same key, so it installs over 1.0.0.18 without
+uninstalling it first: **every save state written by the earlier releases
+loads normally**.
+
+The **user guide** follows the floor and now asks for Android 6.0 or newer.
 
 ### 1.0.0.18 — 24 November 2026
 
@@ -590,4 +632,4 @@ DOSBox r4305"*.
 - [WhereQ-DOSBox user guide](/blog/WhereQ-DOSBox-User-Guide) — putting a DOS
   game on the phone
 - [WhereQ-DOSBox 1.0.0.18: the keyboard you already own](/blog/WhereQ-DOSBox-1.0.0.18)
-  — the current release, in full
+  — the release that brought the hardware keyboard, in full
