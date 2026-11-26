@@ -24,22 +24,22 @@ where both of them are answered:
 | | |
 |---|---|
 | Version | 1.0.0.0 (`versionCode` 1000000) |
-| Source commit | `652ddb2` |
+| Source commit | `5261092` |
 | Licence | GNU General Public License, version 2 |
 | Archive | [`a-dos-1.0.0.0-source.tar.gz`](/downloads/a-dos-1.0.0.0-source.tar.gz) |
-| SHA-256 | `89efed3e52c2f3547f478201f0326cf755f57a514001896e77b56d85b536986c` |
+| SHA-256 | `a721d95a3b83ddc33443b35063f48fde35f5dacb763cb168ab1098d380eab0c9` |
 
 Verify it before you build it:
 
 ```sh
 curl -LO https://whereq.github.io/downloads/a-dos-1.0.0.0-source.tar.gz
 sha256sum a-dos-1.0.0.0-source.tar.gz
-# 89efed3e52c2f3547f478201f0326cf755f57a514001896e77b56d85b536986c
+# a721d95a3b83ddc33443b35063f48fde35f5dacb763cb168ab1098d380eab0c9
 ```
 
 The archive is the tree of the release commit plus a `SOURCE-RELEASE.md`
 that names the version, the commit and the build. The shipped build was
-made from `652ddb2` — the commit the snapshot above is taken from, so the
+made from `5261092` — the commit the snapshot above is taken from, so the
 archive is the exact source of the binary. It holds the DOSBox core with
 its per-file copyright and licence headers intact, the Android
 application, the NDK/CMake build of the native library, the desktop Linux
@@ -65,6 +65,26 @@ of most phones, with a larger block and a deeper prebuffer. It changes
 the audio buffering only; the latency rises by about 50 ms, which is
 inaudible in a DOS game. The configuration is regenerated from the asset
 on every boot, so the new settings take effect on the next start.
+
+**The mixer interpolates the channels that do not run at its own rate.** The
+OPL and the PC speaker are created at 44100 Hz while the mixer runs at
+48000 Hz, and `MIXER_AddChannel()` overwrote the flag that decides how such
+a channel is read back — so every resampled channel was *held* instead of
+interpolated, which put the images of the carrier back into the audio band
+and roughened every sustained FM note. Measured on this build, capturing the
+mixer output of a sustained 440 Hz OPL note: the non-harmonic junk under the
+note drops from −11.7 dB to −51.3 dB relative to the fundamental. The carrier
+was never wrong — 440.003 Hz, +0.0 cents against A4, a pitch wander of
+1.8 cents, no clipped samples.
+
+**The PC speaker falls silent when it is switched off.** Port 61h bit 0 gates
+the speaker amplifier, and with the gate closed the output is 0 V. The code
+held the *low level of the square wave* instead and walked it back to zero
+one step per mixer block, so every beep left a −15 % FS DC step behind that
+took about 4.5 seconds to decay — a thump after every sound effect. The beep
+itself is unchanged: the same 994 Hz square wave at the same level. With the
+step gone, the DC offset under a sustained FM note measures −49.7 dB below
+the peak, where it used to be −13 dB.
 
 **There is no foreground service.** This build removes the `specialUse`
 foreground service the earlier snapshot carried, together with the
